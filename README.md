@@ -10,27 +10,17 @@ All future tasks MUST:
 - read memory before work
 - update memory after work
 
-## MVP Dashboard
-This repo now targets a lightweight Streamlit dashboard for internal player exploration.
+## API Endpoints (MVP)
+The backend now exposes read-only artifact-backed endpoints:
+- `GET /health`
+- `GET /summary`
+- `GET /players`
+- `GET /players/{player_name}/stats`
+- `GET /compare?player_name=...`
+- `GET /value`
+- `GET /value?player_name=...`
 
-### Pages
-- `Player`
-- `Compare`
-
-### Run locally
-Start the backend first:
-```bash
-uvicorn app.main:app --reload
-```
-
-Then launch the dashboard:
-```bash
-streamlit run dashboard/Home.py
-```
-
-### API URL
-The dashboard reads from the backend API and defaults to:
-- `http://localhost:8000`
-
-Override with:
-- `ELITEFOOTBALL_API_BASE_URL`
+## API Notes
+- These endpoints read generated artifacts from `data/silver/` and `data/gold/`.
+- They do not write data or query the live database in the MVP.
+- Run the pipeline first so required artifacts exist before calling compare/value routes.
