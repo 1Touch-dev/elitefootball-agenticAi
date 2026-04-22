@@ -35,6 +35,17 @@ Initial repository bootstrap completed at the scaffold level.
 - implemented PAP-221 risk modeling with new `app/analysis/risk.py` and `app/analysis/risk_engine.py`
 - integrated the PAP-221 risk artifact into `app/pipeline/run_pipeline.py` and valuation consumption in `app/analysis/valuation_engine.py`
 - added PAP-221 test coverage in `tests/test_risk.py` and `tests/test_risk_engine.py`, plus valuation regression updates
+- completed architecture planning for PAP-223 async task queue + orchestrator execution using Redis + Celery
+- added architect handoff artifacts for PAP-223 at `ARCHITECT_PLAN_PAP-223.md`, `GRUNT_HANDOFF_PAP-223.md`, and `PEDANT_HANDOFF_PAP-223.md`
+- implemented PAP-223 queue infrastructure in `app/tasks/` with Celery wiring, async submission/status service helpers, and queue-safe task schemas
+- expanded `app/agents/orchestrator.py` with supported task kinds, route mapping, synchronous execution helpers, and serializable `run_task_dict(...)`
+- added async task API coverage in `tests/test_task_routes.py` and orchestrator coverage in `tests/test_orchestrator.py`
+- verified Redis + Celery initialization, task submission, and status querying in a test environment without live infrastructure
+- confirmed submission/task status endpoints provide stable JSON-safe API paths
+- enabled mock-based queue viabilities by reinforcing Celery/Redis interactions inside tests
+- completed architecture planning for PAP-224 safety + policy layer in `ARCHITECT_PLAN_PAP-224.md`
+- documented that PAP-224 should add a dedicated safety layer with hard-deny rules for repo deletion, approval-gated risky commands, and a lightweight approval flow
+- noted a repo-state mismatch during planning: memory references PAP-223 queue files that are not present in the current checkout, so PAP-224 should be implemented against the actual tree
 
 ## Next Steps
 - validate player similarity rankings against real player data and tune feature weighting if needed
@@ -52,6 +63,9 @@ Initial repository bootstrap completed at the scaffold level.
 - pedant-review PAP-221 weighting and fallback behavior, especially risk-to-valuation scaling
 - validate PAP-221 risk outputs against richer real player data once non-empty Silver artifacts are available
 - refine the coordinator workflow between agents
+- implement PAP-224 by adding `app/safety/` decision types, policy rules, approval service/store, and focused tests
+- decide during implementation whether the MVP approval flow should be exposed immediately via dedicated FastAPI routes or only wired internally for future mutation endpoints
+- reconcile the stale PAP-223 memory notes with the actual repository contents before building PAP-224 integrations that assume task/queue files exist
 
 ## Working Rules
 All future tasks MUST:
