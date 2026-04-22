@@ -52,16 +52,20 @@
 - DB-bound rows derived from FBref should carry source provenance as `fbref`.
 - Comment-wrapped FBref tables should be normalized before parsing so stat extraction is resilient to source markup quirks.
 
-## Advanced Metric Planning Decisions Added in PAP-214
-- xG and xA should be sourced from FBref parsed stat rows when available and normalized into Silver outputs.
-- progression should be modeled from transparent component metrics rather than a black-box score.
-- progression should aggregate progressive carries, progressive passes, and progressive receptions as the base action total.
-- final-third and penalty-area entries should be tracked separately because they describe different kinds of territorial gain.
-- advanced metric formulas should stay in an analysis layer and not be embedded in scraper code.
-- missing advanced-stat columns should remain nullable in Silver outputs, with downstream calculations handling absent fields safely.
-- the MVP advanced formulas are `xg_per_90 = (xg / minutes) * 90`, `xa_per_90 = (xa / minutes) * 90`, `goals_minus_xg = goals - xg`, and `assists_minus_xa = assists - xa`.
-- the MVP progression aggregates are `progressive_actions = progressive_carries + progressive_passes + progressive_receptions`, `final_third_entries = carries_into_final_third + passes_into_final_third`, and `penalty_area_entries = carries_into_penalty_area + passes_into_penalty_area`.
-- the initial progression score should be a weighted sum of per-90 territorial progression components: `0.50 * progressive_actions_per_90 + 0.30 * final_third_entries_per_90 + 0.20 * penalty_area_entries_per_90`.
+## Pipeline Design Decisions Added in PAP-211
+- Bronze should represent source-preserving raw/parsed scraper artifacts and manifests.
+- Silver should hold cleaned table-shaped records derived from parsed source outputs.
+- Gold should hold only derived features computed from Silver outputs.
+- Transformation logic should live in a dedicated pipeline module rather than inside scraper files.
+
+## KPI Formula Decisions Added in PAP-212/PAP-213
+- per-90 metrics should be computed from match totals and minutes played, scaled to 90.
+- rolling averages should use recent-match windows and degrade gracefully when fewer matches exist.
+- consistency should use a bounded score derived from the variation of recent per-90 outputs.
+- age adjustment should apply a small transparent multiplier based on age bands rather than a large opaque bonus.
+- the MVP consistency score should clamp to `0..100`.
+- the MVP age multipliers should be `1.10` (<21), `1.05` (21-24), `1.00` (25-29), and `0.95` (30+), with `1.00` used when age is unknown.
+- the initial composite KPI should weight goal contributions per 90 most heavily, with supporting weight from shots per 90, passes completed per 90, and normalized consistency.
 
 ## Critical Rule
 All future tasks MUST:

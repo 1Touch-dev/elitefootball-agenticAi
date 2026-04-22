@@ -1,1 +1,1 @@
-"""Analysis modules for derived football metrics."""
+"""Analysis package for KPI computation."""

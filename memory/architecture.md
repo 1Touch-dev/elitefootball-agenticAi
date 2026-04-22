@@ -48,12 +48,12 @@ The FBref pipeline now mirrors the Transfermarkt split:
 - DB-safe mapping helpers
 - parsed JSON persistence
 
-Advanced metrics should extend that same path:
-- parser support for xG, xA, and progression-related source fields
-- Silver normalization into stable nullable metric keys
-- Gold-layer advanced metric outputs computed downstream from Silver
+A downstream pipeline and analysis layer should handle:
+- Bronze/Silver/Gold transformations
+- KPI computation from Silver tables
+- dedicated Gold-layer KPI output generation
 
-The advanced-metrics implementation now belongs under `app/analysis/`, while the main pipeline runner remains responsible for invoking it and writing the final Gold-layer advanced metrics artifact.
+The KPI implementation now belongs under `app/analysis/`, while the main pipeline runner remains responsible for invoking it and writing the final Gold-layer KPI artifact.
 
 ## Working Rules
 All future tasks MUST:
