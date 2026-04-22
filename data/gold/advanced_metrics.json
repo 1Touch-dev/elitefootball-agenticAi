@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "player_name": "John Doe",
+    "minutes_played": 180,
+    "xg": 0.8,
+    "xa": 0.5,
+    "xg_per_90": 0.4,
+    "xa_per_90": 0.25,
+    "goals_minus_xg": 0.2,
+    "assists_minus_xa": 0.5,
+    "progressive_carries": 13.0,
+    "progressive_passes": 17.0,
+    "progressive_receptions": 9.0,
+    "progressive_actions": 39.0,
+    "progressive_actions_per_90": 19.5,
+    "final_third_entries": 12.0,
+    "final_third_entries_per_90": 6.0,
+    "penalty_area_entries": 3.0,
+    "penalty_area_entries_per_90": 1.5,
+    "progression_score": 11.85
+  }
+]

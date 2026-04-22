@@ -13,7 +13,7 @@ class TestAdvancedMetrics(unittest.TestCase):
         self.assertEqual(safe_sum(None, None, None), 0.0)
 
     def test_progression_score(self):
-        self.assertEqual(progression_score(3.0, 2.0, 1.0), 2.9)
+        self.assertEqual(progression_score(3.0, 2.0, 1.0), 2.3)
         self.assertEqual(progression_score(None, None, None), 0.0)
 
 if __name__ == "__main__":

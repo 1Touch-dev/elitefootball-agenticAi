@@ -26,6 +26,8 @@ Initial repository bootstrap completed at the scaffold level.
 - added a dedicated KPI analysis package with formula helpers and pipeline-integrated KPI output generation
 - completed architecture planning for a player similarity and comparison engine
 - implemented a player similarity engine with nearest-neighbor output generation
+- completed architecture planning for artifact-backed player, stats, comparison, and valuation API endpoints
+- implemented artifact-backed API endpoints for players, player stats, comparison, and valuation
 
 ## Next Steps
 - validate player similarity rankings against real player data and tune feature weighting if needed
@@ -34,6 +36,9 @@ Initial repository bootstrap completed at the scaffold level.
 - connect FBref and Transfermarkt parsed outputs to database ingestion workflows
 - seed tracked club records for IDV + five clubs
 - add tests for parsing behavior, storage outputs, KPI calculations, mapping helpers, similarity logic, and backend entrypoints
+- validate API responses against real generated artifacts once FastAPI dependencies are installed in the runtime
+- add a non-skipped API route test run in the environment used for CI/runtime packaging
+- refine API response shaping if richer player metadata or stable IDs arrive later
 - refine the coordinator workflow between agents
 
 ## Working Rules

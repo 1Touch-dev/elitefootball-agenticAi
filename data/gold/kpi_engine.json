@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "player_name": "Jane Roe",
+    "minutes_played": 90,
+    "age": null,
+    "goals_per_90": 1.0,
+    "assists_per_90": 2.0,
+    "shots_per_90": 4.0,
+    "goal_contributions_per_90": 3.0,
+    "passes_completed_per_90": 40.0,
+    "rolling_3_goals_per_90": 1.0,
+    "rolling_5_goal_contributions_per_90": 3.0,
+    "rolling_3_shots_per_90": 4.0,
+    "rolling_5_minutes": 90.0,
+    "consistency_score": 100.0,
+    "age_multiplier": 1.0,
+    "base_kpi_score": 8.35,
+    "age_adjusted_kpi_score": 8.35
+  },
+  {
+    "player_name": "John Doe",
+    "minutes_played": 180,
+    "age": 25,
+    "goals_per_90": 1.0,
+    "assists_per_90": 0.5,
+    "shots_per_90": 2.5,
+    "goal_contributions_per_90": 1.5,
+    "passes_completed_per_90": 25.0,
+    "rolling_3_goals_per_90": 1.0,
+    "rolling_5_goal_contributions_per_90": 1.5,
+    "rolling_3_shots_per_90": 2.5,
+    "rolling_5_minutes": 60.0,
+    "consistency_score": 87.5,
+    "age_multiplier": 1.0,
+    "base_kpi_score": 5.1,
+    "age_adjusted_kpi_score": 5.1
+  }
+]
