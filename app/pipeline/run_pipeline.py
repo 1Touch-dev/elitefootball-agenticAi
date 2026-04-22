@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from app.analysis.kpi_engine import build_kpi_engine_output
+from app.analysis.similarity_engine import build_similarity_output
 from app.pipeline.bronze import build_bronze_manifest
 from app.pipeline.gold import build_gold_features
 from app.pipeline.silver import build_silver_tables
@@ -11,11 +12,13 @@ def run_pipeline() -> dict[str, object]:
     silver = build_silver_tables()
     gold = build_gold_features(silver["tables"])
     kpi = build_kpi_engine_output(silver["tables"])
+    similarity = build_similarity_output(silver["tables"], gold["tables"], kpi["rows"])
     return {
         "bronze": bronze,
         "silver": silver,
         "gold": gold,
         "kpi": kpi,
+        "similarity": similarity,
     }
 
 

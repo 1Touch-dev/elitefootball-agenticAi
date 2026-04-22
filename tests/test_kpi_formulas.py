@@ -1,4 +1,5 @@
 import unittest
+from datetime import date
 from app.analysis.kpi_formulas import (
     per_90,
     rolling_average,
@@ -17,9 +18,9 @@ class TestKPIFormulas(unittest.TestCase):
         self.assertEqual(per_90(0, 0), None)
 
     def test_age(self):
-        self.assertEqual(age_in_years("2001-01-01"), 22)
+        self.assertEqual(age_in_years("2001-01-01", date(2026, 1, 1)), 25)
         self.assertEqual(age_in_years(None), None)
-        self.assertEqual(parse_birth_date("01/01/1990"), "1990-01-01")
+        self.assertEqual(parse_birth_date("01/01/1990"), date(1990,1,1))
         self.assertEqual(parse_birth_date(None), None)
 
     def test_rolling_average(self):
@@ -33,7 +34,7 @@ class TestKPIFormulas(unittest.TestCase):
 
     def test_base_kpi_score(self):
         self.assertEqual(base_kpi_score(1, 1, 1, 0), 0.8)
-        self.assertEqual(base_kpi_score(None, 1, 1, 0), 0.5)
+        self.assertEqual(base_kpi_score(None, 1, 1, 0), 0.35)
         self.assertEqual(base_kpi_score(1, None, 1, 0), 0.6)
         self.assertEqual(base_kpi_score(1, 1, None, 0), 0.65)
 

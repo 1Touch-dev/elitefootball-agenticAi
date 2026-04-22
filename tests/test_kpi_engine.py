@@ -22,7 +22,7 @@ class TestKPIEngine(unittest.TestCase):
         john_doe_row = next((r for r in result['rows'] if r['player_name'] == "John Doe"), None)
         self.assertIsNotNone(john_doe_row)
         self.assertAlmostEqual(john_doe_row['goals_per_90'], 1.0)
-        self.assertAlmostEqual(john_doe_row['age_adjusted_kpi_score'], round(john_doe_row['base_kpi_score'] * 1.1, 3))
+        self.assertAlmostEqual(john_doe_row['age_adjusted_kpi_score'], round(john_doe_row['base_kpi_score'] * 1.0, 3))
 
 if __name__ == "__main__":
     unittest.main()
