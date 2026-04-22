@@ -16,6 +16,15 @@ The system uses a multi-agent design with clear boundaries:
 - memory helpers in `app/services/`
 - mandatory project memory in `memory/`
 
+## Database Direction
+The MVP database design should preserve the current architecture and introduce normalized football domain models for:
+- clubs
+- players
+- matches
+- stats
+
+The ORM layer stays inside `app/db/`, and SQL output aligns with the same model boundaries through `app/db/schema.sql`.
+
 ## Working Rules
 All future tasks MUST:
 - read memory before work
