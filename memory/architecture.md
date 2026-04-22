@@ -68,6 +68,8 @@ The PAP-221 implementation now follows that design: `app/analysis/risk.py` conta
 
 An MVP dashboard now sits as a separate Streamlit UI layer on top of the backend/API surface. The dashboard does not duplicate analysis logic or read raw artifacts directly; instead it consumes backend endpoints for player, stats, comparison, and valuation views through a lightweight API client.
 
+PAP-224 should introduce a dedicated safety control layer under `app/safety/` rather than scattering checks across routes or agents. That layer should evaluate normalized actions, return explicit `allow` / `require_approval` / `deny` decisions, and integrate thinly with the API and orchestrator. Approval state should be isolated behind a small service/store seam so the MVP can start in-memory without changing higher-level callers.
+
 ## Working Rules
 All future tasks MUST:
 - read memory before work

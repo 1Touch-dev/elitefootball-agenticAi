@@ -125,6 +125,27 @@
 - the implemented PAP-222 orchestrator should pass cleaner outputs into analyst/reporter steps through explicit in-memory task metadata rather than introducing new persistence.
 - the implemented Scraper Agent should default to a safe plan-only response unless a concrete scrape URL is supplied.
 
+## Async Queue Planning Decisions Added in PAP-223
+- Redis + Celery should be used for async task execution because the ticket explicitly requires them.
+- the queue layer should wrap orchestrator execution instead of duplicating route or business logic.
+- one generic orchestrator-backed Celery task is preferable to many task-specific workers for the MVP.
+- one-off scheduling via Celery `countdown` or `eta` is in scope; recurring schedules should be deferred.
+- FastAPI should expose enqueue/status endpoints and use Celery result state as the MVP job-status source.
+- unit/API tests for PAP-223 should mock Celery/Redis interactions and should not require live infrastructure.
+- the implementation should degrade gracefully when Celery is not installed by surfacing queue unavailability instead of crashing imports.
+- task submission validation should reject simultaneous `schedule_at` and `countdown_seconds` inputs with a 400-style validation path.
+- confirmed that API routes provide stable and JSON-safe task submission/export, while the orchestrator handles routing logically and consistently.
+
+## Safety + Policy Planning Decisions Added in PAP-224
+- PAP-224 should be implemented as a dedicated `app/safety/` package rather than ad hoc checks inside routes or agents.
+- safety evaluation should normalize candidate actions and return explicit `allow`, `require_approval`, or `deny` decisions.
+- repo-deletion intent and clearly destructive shell patterns should be hard-denied and should not be approval-escapable in the MVP.
+- ambiguous but potentially legitimate mutating commands should use an approval-required path.
+- the MVP approval flow should use a lightweight in-memory approval store behind a service boundary so persistence can be added later without changing callers.
+- approvals should be bound to a normalized action fingerprint and should be single-use or short-lived.
+- if HTTP exposure is needed now, approval endpoints should live in a dedicated router rather than being mixed into existing artifact routes.
+- planning should target the actual checkout state: current repo has orchestrator-based agents and read-only API routes, but does not currently contain the PAP-223 task files mentioned in memory.
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work
