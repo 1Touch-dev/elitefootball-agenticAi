@@ -21,12 +21,15 @@ Initial repository bootstrap completed at the scaffold level.
 - completed architecture planning for an FBref scraper covering match stats and player stat extraction
 - added source-specific FBref scraping, parsing, and DB-mapping helpers for match and player stat extraction
 - implemented FBref raw HTML and parsed JSON persistence with match, player match stats, and per-90 payload sections
+- completed architecture planning for advanced metrics covering xG, xA, and progression outputs
+- implemented advanced metric parsing, Silver normalization, and Gold-layer advanced metric output generation
 
 ## Next Steps
+- validate advanced metric outputs against real FBref payloads and tune assumptions if needed
 - validate FBref and Transfermarkt selectors against live pages and refine parser accuracy
 - connect FBref and Transfermarkt parsed outputs to database ingestion workflows
 - seed tracked club records for IDV + five clubs
-- add tests for parsing behavior, storage outputs, mapping helpers, and backend entrypoints
+- add tests for parsing behavior, storage outputs, mapping helpers, advanced metrics, and backend entrypoints
 - refine the coordinator workflow between agents
 
 ## Working Rules
