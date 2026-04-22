@@ -14,12 +14,16 @@ Initial repository bootstrap completed at the scaffold level.
 - implemented normalized SQLAlchemy ORM models for clubs, players, matches, and stats
 - added SQL schema output at `app/db/schema.sql`
 - replaced the placeholder player-only model with the MVP football schema
+- completed architecture planning for a Playwright-based Transfermarkt scraper
+- defined raw HTML and parsed data storage as required outputs for scraping work
+- added Playwright-backed scraping modules for browser access, parsing, storage, and Transfermarkt orchestration
+- implemented raw HTML and parsed JSON persistence for Transfermarkt scraping outputs
 
 ## Next Steps
-- connect database setup to model creation/migrations
+- validate scraping selectors against live Transfermarkt pages and refine parser accuracy
+- connect parsed scraping outputs to database ingestion workflows
 - seed tracked club records for IDV + five clubs
-- implement real scraping flows for IDV players and the additional tracked clubs
-- add tests for model integrity and backend entrypoints
+- add tests for parsing behavior, storage outputs, and backend entrypoints
 - refine the coordinator workflow between agents
 
 ## Working Rules

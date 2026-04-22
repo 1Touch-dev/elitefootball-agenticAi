@@ -23,6 +23,28 @@
 - `matches` references clubs twice to model home and away roles without duplicating club data.
 - SQL schema output is stored alongside ORM definitions in `app/db/schema.sql` for inspection and future migration work.
 
+## Scraping Decisions Added in PAP-209
+- Playwright is the required scraping technology for Transfermarkt interactions.
+- Raw HTML and parsed structured data should both be stored for traceability and parser iteration.
+- Scraping should remain conservative and serialized by default to reduce rate-limit risk.
+
+## Parsing Structure
+- player profile parsing should output a structured profile object.
+- transfer history parsing should output a structured list of transfer rows.
+- the combined parsed result should separate `profile` and `transfers` payloads.
+
+## Rate Limit Guidance
+- use session reuse where possible.
+- add a delay between page fetches.
+- avoid burst parallelism for the MVP.
+- preserve raw HTML even when parsing is only partially successful.
+
+## Scraper Build Decisions Added in PAP-209
+- raw HTML is saved under a dedicated Transfermarkt raw-data path.
+- parsed payloads are saved separately as JSON for later ingestion.
+- the scraper keeps profile parsing and transfer-history parsing as separate concerns.
+- Playwright browser startup is isolated from parsing and storage modules to preserve architecture boundaries.
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work
