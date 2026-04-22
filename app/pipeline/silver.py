@@ -23,6 +23,15 @@ def _clean_int(value: Any) -> int | None:
         return None
 
 
+def _clean_float(value: Any) -> float | None:
+    if value is None or value == "":
+        return None
+    try:
+        return round(float(str(value).replace(",", "")), 3)
+    except ValueError:
+        return None
+
+
 def _load_json_files(directory: str) -> list[dict[str, Any]]:
     payloads: list[dict[str, Any]] = []
     for path in list_files(directory, "*.json"):
@@ -109,6 +118,15 @@ def build_silver_tables() -> dict[str, object]:
                     "red_cards": _clean_int(stat.get("red_cards")) or 0,
                     "shots": _clean_int(stat.get("shots")) or 0,
                     "passes_completed": _clean_int(stat.get("passes_completed")) or 0,
+                    "xg": _clean_float(stat.get("xg")),
+                    "xa": _clean_float(stat.get("xa")),
+                    "progressive_carries": _clean_int(stat.get("progressive_carries")),
+                    "progressive_passes": _clean_int(stat.get("progressive_passes")),
+                    "progressive_receptions": _clean_int(stat.get("progressive_receptions")),
+                    "carries_into_final_third": _clean_int(stat.get("carries_into_final_third")),
+                    "passes_into_final_third": _clean_int(stat.get("passes_into_final_third")),
+                    "carries_into_penalty_area": _clean_int(stat.get("carries_into_penalty_area")),
+                    "passes_into_penalty_area": _clean_int(stat.get("passes_into_penalty_area")),
                 }
             )
 

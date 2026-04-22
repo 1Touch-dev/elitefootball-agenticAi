@@ -73,6 +73,18 @@ def _text_to_int(value: str | None) -> int | None:
         return None
 
 
+def _text_to_float(value: str | None) -> float | None:
+    if not value:
+        return None
+    cleaned = value.replace(",", "").strip()
+    if not cleaned:
+        return None
+    try:
+        return float(cleaned)
+    except ValueError:
+        return None
+
+
 def _extract_match_score(title: str | None) -> tuple[int | None, int | None]:
     if not title:
         return None, None
@@ -190,6 +202,15 @@ def parse_fbref_player_match_stats(html: str, source_url: str) -> list[dict[str,
                     "red_cards": _text_to_int(stat_map.get("cards_red") or stat_map.get("crdr")),
                     "shots": _text_to_int(stat_map.get("shots") or stat_map.get("sh")),
                     "passes_completed": _text_to_int(stat_map.get("passes_completed") or stat_map.get("cmp_passes")),
+                    "xg": _text_to_float(stat_map.get("xg") or stat_map.get("expected_goals")),
+                    "xa": _text_to_float(stat_map.get("xa") or stat_map.get("expected_assists")),
+                    "progressive_carries": _text_to_int(stat_map.get("progressive_carries") or stat_map.get("prgc")),
+                    "progressive_passes": _text_to_int(stat_map.get("progressive_passes") or stat_map.get("prgp")),
+                    "progressive_receptions": _text_to_int(stat_map.get("progressive_passes_received") or stat_map.get("prgr")),
+                    "carries_into_final_third": _text_to_int(stat_map.get("carries_into_final_third") or stat_map.get("carries_1_3")),
+                    "passes_into_final_third": _text_to_int(stat_map.get("passes_into_final_third") or stat_map.get("passes_into_final_third_att")),
+                    "carries_into_penalty_area": _text_to_int(stat_map.get("carries_into_penalty_area") or stat_map.get("carries_pen_area")),
+                    "passes_into_penalty_area": _text_to_int(stat_map.get("passes_into_penalty_area") or stat_map.get("passes_pen_area")),
                 }
             )
 
