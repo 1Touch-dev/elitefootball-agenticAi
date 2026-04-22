@@ -95,15 +95,15 @@
 - the implemented risk component should subtract value using discipline risk plus a consistency penalty when consistency falls below `60`.
 - the valuation artifact should include transparent component breakdowns, raw inputs, a model version tag, and a derived valuation tier.
 
-## Club Development Planning Decisions Added in PAP-219
-- club development + resale analysis should be implemented as a Gold-layer heuristic ranking artifact rather than as database-first or UI-first logic.
-- the MVP comparison set should explicitly target IDV, Benfica, and Ajax.
-- rankings must include confidence and coverage fields because current artifact coverage may be sparse or uneven.
-- club-name normalization is required so grouping is reliable across player, valuation, and transfer artifacts.
-- development and resale should be scored separately, with overall ranking leaning slightly toward development in sparse-data conditions.
-- the first implemented club-ranking model should emit rows for all tracked clubs even when inputs are empty.
-- the implemented club-ranking output should use explicit coverage counts and a simple evidence-based confidence score.
-- transfer-driven resale should only consider outbound moves away from the source club and should apply small static destination-quality weights.
+## UI Planning Decisions Added in PAP-218
+- Streamlit should be chosen over Next.js for the MVP dashboard because the repository is already Python-first and API-driven.
+- the dashboard should be a separate UI layer that consumes backend endpoints rather than reading raw artifacts directly.
+- the MVP dashboard should ship as a small multipage app with `player` and `compare` pages.
+- the dashboard should remain internal-facing and prioritize simple Streamlit widgets over custom frontend styling.
+- missing backend or analysis data should surface as explicit UI states rather than causing page crashes.
+- the first dashboard implementation should use Streamlit multipage layout with `Home`, `Player`, and `Compare` pages.
+- the dashboard should use a lightweight requests-based API client with `ELITEFOOTBALL_API_BASE_URL` as the backend base-url override.
+- valuation enrichment on the compare page is acceptable as a UI join over API responses and should not introduce new analysis logic.
 
 ## Critical Rule
 All future tasks MUST:

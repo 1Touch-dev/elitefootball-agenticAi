@@ -10,16 +10,17 @@ All future tasks MUST:
 - read memory before work
 - update memory after work
 
-## Club Development + Resale Rankings
-The pipeline now supports an MVP club-comparison artifact for:
-- IDV
-- Benfica
-- Ajax
+## API Endpoints (MVP)
+The backend now exposes read-only artifact-backed endpoints:
+- `GET /health`
+- `GET /summary`
+- `GET /players`
+- `GET /players/{player_name}/stats`
+- `GET /compare?player_name=...`
+- `GET /value`
+- `GET /value?player_name=...`
 
-### Output artifact
-- `data/gold/club_development_rankings.json`
-
-### Notes
-- rankings are heuristic and artifact-backed
-- outputs include development, resale, overall, and confidence scores
-- low-confidence results should be treated as sparse-data indicators, not definitive club truth
+## API Notes
+- These endpoints read generated artifacts from `data/silver/` and `data/gold/`.
+- They do not write data or query the live database in the MVP.
+- Run the pipeline first so required artifacts exist before calling compare/value routes.
