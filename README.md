@@ -24,3 +24,8 @@ The backend now exposes read-only artifact-backed endpoints:
 - These endpoints read generated artifacts from `data/silver/` and `data/gold/`.
 - They do not write data or query the live database in the MVP.
 - Run the pipeline first so required artifacts exist before calling compare/value routes.
+
+## Gold Artifacts
+- `data/gold/player_risk.json` now stores a transparent MVP risk model for each player.
+- The `injury_risk_score` inside that artifact is an availability-risk proxy derived from appearance gaps and minutes patterns, not true medical injury data.
+- Valuation now optionally consumes the risk artifact when available and falls back to the legacy discipline/consistency risk deduction when it is not.

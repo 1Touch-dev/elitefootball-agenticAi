@@ -7,6 +7,7 @@ from app.analysis.valuation import (
     league_adjustment,
     minutes_score,
     performance_score,
+    risk_deduction,
     risk_score,
     valuation_tier,
 )
@@ -46,6 +47,11 @@ class TestValuation(unittest.TestCase):
     def test_risk_score(self):
         self.assertEqual(risk_score(2, 50), 3.8)
         self.assertEqual(risk_score(None, None), 0.0)
+
+    def test_risk_deduction(self):
+        self.assertEqual(risk_deduction(50), 6.0)
+        self.assertEqual(risk_deduction(200), 15.0)
+        self.assertEqual(risk_deduction(None), 0.0)
 
     def test_clamp_and_tier(self):
         self.assertEqual(clamp_score(120), 100.0)

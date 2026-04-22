@@ -30,6 +30,11 @@ Initial repository bootstrap completed at the scaffold level.
 - implemented a simplified player valuation engine with pipeline-integrated Gold output generation
 - completed architecture planning for an MVP Streamlit dashboard covering player and comparison views
 - implemented an MVP Streamlit dashboard with player and comparison pages
+- completed architecture planning for PAP-221 risk modeling covering injury-risk proxy and performance volatility as a dedicated downstream analysis artifact
+- added architect handoff artifacts for PAP-221 at `ARCHITECT_PLAN_PAP-221.md`, `GRUNT_HANDOFF_PAP-221.md`, and `PEDANT_HANDOFF_PAP-221.md`
+- implemented PAP-221 risk modeling with new `app/analysis/risk.py` and `app/analysis/risk_engine.py`
+- integrated the PAP-221 risk artifact into `app/pipeline/run_pipeline.py` and valuation consumption in `app/analysis/valuation_engine.py`
+- added PAP-221 test coverage in `tests/test_risk.py` and `tests/test_risk_engine.py`, plus valuation regression updates
 
 ## Next Steps
 - validate player similarity rankings against real player data and tune feature weighting if needed
@@ -44,6 +49,8 @@ Initial repository bootstrap completed at the scaffold level.
 - validate the dashboard against a live backend with real player and comparison data
 - refine the player and comparison layouts once real data is available
 - add non-UI smoke coverage in an environment where Streamlit is installed and runnable
+- pedant-review PAP-221 weighting and fallback behavior, especially risk-to-valuation scaling
+- validate PAP-221 risk outputs against richer real player data once non-empty Silver artifacts are available
 - refine the coordinator workflow between agents
 
 ## Working Rules

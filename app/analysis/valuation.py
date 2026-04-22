@@ -80,6 +80,12 @@ def risk_score(discipline_risk_score: float | None, consistency_score: float | N
     return round(min(12.0, score), 3)
 
 
+def risk_deduction(risk_score_value: float | None, scale: float = 0.12, max_deduction: float = 15.0) -> float:
+    if risk_score_value is None:
+        return 0.0
+    return round(min(max_deduction, float(risk_score_value) * scale), 3)
+
+
 def valuation_tier(score: float) -> str:
     if score >= 85.0:
         return "elite_mvp"

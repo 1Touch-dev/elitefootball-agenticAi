@@ -13,6 +13,7 @@ from app.analysis.valuation import (
     minutes_score,
     normalize_player_key,
     performance_score,
+    risk_deduction,
     risk_score,
     valuation_tier,
 )
@@ -20,7 +21,7 @@ from app.config import settings
 from app.pipeline.io import write_json
 
 
-MODEL_VERSION = "mvp_v1"
+MODEL_VERSION = "mvp_v2_risk"
 
 
 def _coalesce_club(player_row: dict[str, Any], feature_row: dict[str, Any], stat_rows: list[dict[str, Any]]) -> str | None:
@@ -50,13 +51,16 @@ def build_valuation_output(
     gold_tables: dict[str, list[dict[str, Any]]],
     kpi_rows: list[dict[str, Any]],
     advanced_metric_rows: list[dict[str, Any]] | None = None,
+    risk_rows: list[dict[str, Any]] | None = None,
 ) -> dict[str, object]:
     advanced_metric_rows = advanced_metric_rows or []
+    risk_rows = risk_rows or []
 
     players_by_name = {normalize_player_key(row.get("player_name")): row for row in silver_tables.get("players", [])}
     features_by_name = {normalize_player_key(row.get("player_name")): row for row in gold_tables.get("player_features", [])}
     kpi_by_name = {normalize_player_key(row.get("player_name")): row for row in kpi_rows}
     advanced_by_name = {normalize_player_key(row.get("player_name")): row for row in advanced_metric_rows}
+    risk_by_name = {normalize_player_key(row.get("player_name")): row for row in risk_rows}
 
     stat_rows_by_name: dict[str, list[dict[str, Any]]] = {}
     for row in silver_tables.get("player_match_stats", []):
@@ -68,6 +72,7 @@ def build_valuation_output(
         | set(features_by_name.keys())
         | set(kpi_by_name.keys())
         | set(advanced_by_name.keys())
+        | set(risk_by_name.keys())
         | set(stat_rows_by_name.keys())
     )
 
@@ -83,6 +88,7 @@ def build_valuation_output(
         feature_row = features_by_name.get(player_name, {})
         kpi_row = kpi_by_name.get(player_name, {})
         advanced_row = advanced_by_name.get(player_name, {})
+        risk_row = risk_by_name.get(player_name, {})
         stat_rows = stat_rows_by_name.get(player_name, [])
 
         age = kpi_row.get("age")
@@ -108,10 +114,12 @@ def build_valuation_output(
         minutes_component = minutes_score(minutes)
         club_component = club_factor(club_name)
         league_component = league_adjustment(competition_name, club_name)
-        risk_component = risk_score(
+        legacy_risk_component = risk_score(
             feature_row.get("discipline_risk_score"),
             kpi_row.get("consistency_score"),
         )
+        risk_artifact_score = risk_row.get("risk_score")
+        risk_component = risk_deduction(risk_artifact_score) if risk_artifact_score is not None else legacy_risk_component
 
         valuation_score_value = clamp_score(
             performance_component
@@ -152,6 +160,9 @@ def build_valuation_output(
                     "base_kpi_score": kpi_row.get("base_kpi_score"),
                     "consistency_score": kpi_row.get("consistency_score"),
                     "discipline_risk_score": feature_row.get("discipline_risk_score"),
+                    "player_risk_score": risk_artifact_score,
+                    "injury_risk_score": (risk_row.get("components") or {}).get("injury_risk_score"),
+                    "volatility_risk_score": (risk_row.get("components") or {}).get("volatility_risk_score"),
                     "progression_score": advanced_row.get("progression_score"),
                 },
                 "model_version": MODEL_VERSION,

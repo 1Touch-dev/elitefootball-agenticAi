@@ -58,6 +58,10 @@ The KPI implementation now belongs under `app/analysis/`, while the main pipelin
 
 A simplified player valuation model now follows the same downstream-analysis pattern. The valuation engine lives under `app/analysis/`, consumes Gold player features plus KPI outputs and optional advanced-metric enrichment, and emits a dedicated `player_valuation` Gold artifact without changing scraper or database boundaries.
 
+A planned risk-analysis layer for PAP-221 should follow the same downstream-analysis pattern. The risk engine should live under `app/analysis/`, consume existing Silver/Gold/KPI data only, emit a dedicated `player_risk` Gold artifact, and optionally enrich valuation without introducing scraper or database changes.
+
+The PAP-221 implementation now follows that design: `app/analysis/risk.py` contains pure helper formulas, `app/analysis/risk_engine.py` builds `data/gold/player_risk.json`, and `app/pipeline/run_pipeline.py` invokes the risk engine before passing its rows into valuation as optional enrichment.
+
 An MVP dashboard now sits as a separate Streamlit UI layer on top of the backend/API surface. The dashboard does not duplicate analysis logic or read raw artifacts directly; instead it consumes backend endpoints for player, stats, comparison, and valuation views through a lightweight API client.
 
 ## Working Rules

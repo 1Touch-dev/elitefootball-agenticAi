@@ -56,9 +56,21 @@ class TestValuationEngine(unittest.TestCase):
             {"player_name": "John Doe", "progression_score": 10.0},
             {"player_name": "Jane Roe", "progression_score": 2.0},
         ]
+        self.risk_rows = [
+            {
+                "player_name": "John Doe",
+                "risk_score": 20.0,
+                "components": {"injury_risk_score": 18.0, "volatility_risk_score": 24.0},
+            },
+            {
+                "player_name": "Jane Roe",
+                "risk_score": 80.0,
+                "components": {"injury_risk_score": 70.0, "volatility_risk_score": 75.0},
+            },
+        ]
 
     def test_build_valuation_output(self):
-        result = build_valuation_output(self.silver_tables, self.gold_tables, self.kpi_rows, self.advanced_rows)
+        result = build_valuation_output(self.silver_tables, self.gold_tables, self.kpi_rows, self.advanced_rows, self.risk_rows)
         self.assertEqual(len(result["rows"]), 2)
         self.assertTrue(result["path"].endswith("player_valuation.json"))
 
@@ -67,6 +79,7 @@ class TestValuationEngine(unittest.TestCase):
         self.assertEqual(john_doe["valuation_tier"], "strong_mvp")
         self.assertEqual(john_doe["components"]["club_factor"], 8.0)
         self.assertEqual(john_doe["components"]["league_adjustment"], 6.0)
+        self.assertEqual(john_doe["inputs"]["player_risk_score"], 20.0)
         self.assertGreater(john_doe["valuation_score"], result["rows"][1]["valuation_score"])
 
     def test_build_valuation_output_without_optional_inputs(self):
@@ -80,7 +93,17 @@ class TestValuationEngine(unittest.TestCase):
         self.assertEqual(row["player_name"], "Fallback Player")
         self.assertEqual(row["components"]["club_factor"], 4.0)
         self.assertEqual(row["components"]["league_adjustment"], 4.0)
-        self.assertEqual(row["model_version"], "mvp_v1")
+        self.assertEqual(row["model_version"], "mvp_v2_risk")
+
+    def test_build_valuation_output_falls_back_without_risk_rows(self):
+        without_risk = build_valuation_output(self.silver_tables, self.gold_tables, self.kpi_rows, self.advanced_rows, [])
+        with_risk = build_valuation_output(self.silver_tables, self.gold_tables, self.kpi_rows, self.advanced_rows, self.risk_rows)
+        john_without_risk = next(row for row in without_risk["rows"] if row["player_name"] == "John Doe")
+        john_with_risk = next(row for row in with_risk["rows"] if row["player_name"] == "John Doe")
+        jane_without_risk = next(row for row in without_risk["rows"] if row["player_name"] == "Jane Roe")
+        jane_with_risk = next(row for row in with_risk["rows"] if row["player_name"] == "Jane Roe")
+        self.assertGreater(john_without_risk["valuation_score"], john_with_risk["valuation_score"])
+        self.assertGreater(jane_without_risk["valuation_score"], jane_with_risk["valuation_score"])
 
 
 if __name__ == "__main__":

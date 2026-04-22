@@ -94,6 +94,14 @@
 - the implemented league adjustment should use simple competition-name heuristics with neutral defaults when competition context is missing.
 - the implemented risk component should subtract value using discipline risk plus a consistency penalty when consistency falls below `60`.
 - the valuation artifact should include transparent component breakdowns, raw inputs, a model version tag, and a derived valuation tier.
+- PAP-221 should be implemented as a dedicated downstream risk-analysis artifact rather than by expanding scraper or schema scope.
+- PAP-221 injury risk should be modeled as a conservative availability-risk proxy derived from existing appearance and minutes patterns, not as a true medical injury classifier.
+- PAP-221 volatility risk should be derived from match-to-match variation in per-90 production and minutes, with KPI consistency reused only as a supporting signal.
+- the planned PAP-221 risk artifact path is `data/gold/player_risk.json`.
+- valuation should consume the PAP-221 risk artifact as optional enrichment while preserving the current fallback risk logic when the artifact is absent.
+- the implemented PAP-221 risk model uses a transparent weighted blend of injury/availability proxy risk, performance volatility risk, and scaled discipline risk.
+- the implemented PAP-221 volatility model uses match-level per-90 goal contribution variance, shot variance, minutes variance, and a KPI consistency penalty.
+- the implemented PAP-221 valuation integration converts artifact risk into a bounded deduction through `risk_deduction(...)`, while retaining the legacy `risk_score(...)` path as a fallback when risk rows are missing.
 
 ## UI Planning Decisions Added in PAP-218
 - Streamlit should be chosen over Next.js for the MVP dashboard because the repository is already Python-first and API-driven.
