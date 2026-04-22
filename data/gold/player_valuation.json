@@ -1,0 +1,27 @@
+[
+  {
+    "player_name": "Fallback Player",
+    "position": null,
+    "current_club": null,
+    "competition": null,
+    "valuation_score": 31.6,
+    "valuation_tier": "development_mvp",
+    "components": {
+      "performance_score": 13.0,
+      "age_score": 10.0,
+      "minutes_score": 0.6,
+      "club_factor": 4.0,
+      "league_adjustment": 4.0,
+      "risk_score": 0.0
+    },
+    "inputs": {
+      "age": null,
+      "minutes": 180,
+      "base_kpi_score": null,
+      "consistency_score": null,
+      "discipline_risk_score": 0,
+      "progression_score": null
+    },
+    "model_version": "mvp_v1"
+  }
+]

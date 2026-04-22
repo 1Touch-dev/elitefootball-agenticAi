@@ -56,6 +56,8 @@ A downstream pipeline and analysis layer should handle:
 
 The KPI implementation now belongs under `app/analysis/`, while the main pipeline runner remains responsible for invoking it and writing the final Gold-layer KPI artifact. The same downstream pattern is now used for the similarity engine, which derives nearest-neighbor outputs from Gold and KPI feature vectors.
 
+A simplified player valuation model now follows the same downstream-analysis pattern. The valuation engine lives under `app/analysis/`, consumes Gold player features plus KPI outputs and optional advanced-metric enrichment, and emits a dedicated `player_valuation` Gold artifact without changing scraper or database boundaries.
+
 ## Working Rules
 All future tasks MUST:
 - read memory before work

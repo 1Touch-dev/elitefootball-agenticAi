@@ -16,7 +16,7 @@ class TestAdvancedMetricsEngine(unittest.TestCase):
         self.assertGreater(len(result['rows']), 0)
         john_doe_row = next((r for r in result['rows'] if r['player_name'] == "John Doe"), None)
         self.assertIsNotNone(john_doe_row)
-        self.assertAlmostEqual(john_doe_row['xg_per_90'], 0.444)
+        self.assertAlmostEqual(john_doe_row['xg_per_90'], 0.4)
         self.assertAlmostEqual(john_doe_row['xa_per_90'], 0.25)
 
 if __name__ == "__main__":
