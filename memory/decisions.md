@@ -78,16 +78,22 @@
 - feature values should be min-max normalized before distance calculation, with zero used when a feature column has no variance.
 - the default nearest-neighbor depth should be five players or fewer when the pool is smaller.
 
-## API Planning Decisions Added in PAP-217
-- the MVP API layer should expose read-only endpoints backed by generated Silver and Gold artifact files rather than live database queries.
-- `/players` should use Silver player rows as the base response and optionally enrich rows with Gold features, KPI output, and valuation output.
-- player stats exposure should use a nested player route (`/players/{player_name}/stats`) rather than a top-level `/stats` route for the MVP.
-- `/compare` should read from the Gold-layer player similarity artifact and require a player-name lookup.
-- `/value` should support both list and single-player lookup modes from the valuation artifact.
-- missing required artifacts should return controlled `503` responses rather than silent empty success payloads.
-- API lookups should use normalized player-name matching consistent with the analysis layer.
-- `/players` should treat enrichments as optional subobjects so missing Gold/KPI artifacts do not break the base player listing.
-- API route tests may skip in bare environments where FastAPI is not installed, but the implementation should still target FastAPI as the runtime dependency.
+## Valuation Planning Decisions Added in PAP-216
+- the MVP valuation output should be a synthetic `0..100` valuation score rather than a fake currency-denominated transfer estimate.
+- valuation should live in a dedicated downstream analysis module under `app/analysis/` and write to `data/gold/player_valuation.json`.
+- the valuation formula should be transparent and additive: performance + age + minutes + club factor + league adjustment - risk.
+- KPI output should remain the primary performance input, with advanced metrics used only as optional enrichment.
+- age scoring for valuation should use explicit bands rather than reusing the KPI age multiplier directly.
+- club factor and league adjustment should use small bounded static lookup rules for the MVP, with conservative defaults when context is missing.
+- risk should be modeled from existing discipline and consistency signals, not from unavailable injury or contract data.
+- missing optional inputs should degrade gracefully to defaults and should not block valuation output generation.
+- the first implemented valuation model version is `mvp_v1`.
+- the implemented performance component should prioritize `base_kpi_score`, optionally enrich with `progression_score`, and fall back to Gold feature scoring when KPI data is missing.
+- the implemented minutes component should scale linearly from accumulated minutes and cap at `15`.
+- the implemented club factor should score IDV highest, youth/reserve contexts lowest, and use conservative defaults for unknown clubs.
+- the implemented league adjustment should use simple competition-name heuristics with neutral defaults when competition context is missing.
+- the implemented risk component should subtract value using discipline risk plus a consistency penalty when consistency falls below `60`.
+- the valuation artifact should include transparent component breakdowns, raw inputs, a model version tag, and a derived valuation tier.
 
 ## Critical Rule
 All future tasks MUST:
