@@ -39,6 +39,15 @@ The current scraping flow is expected to persist:
 - raw HTML under a raw Transfermarkt data path
 - parsed profile + transfer payloads under a parsed Transfermarkt data path
 
+FBref scraping should follow the same source-specific pattern, with parsing kept separate from DB mapping so that match-safe fields can map into the existing schema while per-90 outputs remain available for future schema expansion.
+
+The FBref pipeline now mirrors the Transfermarkt split:
+- page fetch
+- raw HTML persistence
+- source-specific parsing
+- DB-safe mapping helpers
+- parsed JSON persistence
+
 ## Working Rules
 All future tasks MUST:
 - read memory before work

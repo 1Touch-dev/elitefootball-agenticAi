@@ -45,6 +45,13 @@
 - the scraper keeps profile parsing and transfer-history parsing as separate concerns.
 - Playwright browser startup is isolated from parsing and storage modules to preserve architecture boundaries.
 
+## Stat Mapping Decisions Added in PAP-210
+- FBref match-level data should map only into fields already supported by `matches` and `stats`.
+- FBref per-90 metrics should be preserved in parsed outputs and not forced into the current match-granular `stats` table.
+- Parsed FBref outputs should separate match metadata, player match stat rows, and per-90 stat rows.
+- DB-bound rows derived from FBref should carry source provenance as `fbref`.
+- Comment-wrapped FBref tables should be normalized before parsing so stat extraction is resilient to source markup quirks.
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work

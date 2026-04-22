@@ -14,6 +14,8 @@ class Settings:
     scrape_timeout_ms: int = int(os.getenv("SCRAPE_TIMEOUT_MS", "30000"))
     raw_data_dir: str = os.getenv("RAW_DATA_DIR", "data/raw/transfermarkt")
     parsed_data_dir: str = os.getenv("PARSED_DATA_DIR", "data/parsed/transfermarkt")
+    fbref_raw_data_dir: str = os.getenv("FBREF_RAW_DATA_DIR", "data/raw/fbref")
+    fbref_parsed_data_dir: str = os.getenv("FBREF_PARSED_DATA_DIR", "data/parsed/fbref")
 
 
 settings = Settings()
