@@ -16,6 +16,9 @@ class Settings:
     parsed_data_dir: str = os.getenv("PARSED_DATA_DIR", "data/parsed/transfermarkt")
     fbref_raw_data_dir: str = os.getenv("FBREF_RAW_DATA_DIR", "data/raw/fbref")
     fbref_parsed_data_dir: str = os.getenv("FBREF_PARSED_DATA_DIR", "data/parsed/fbref")
+    bronze_data_dir: str = os.getenv("BRONZE_DATA_DIR", "data/bronze")
+    silver_data_dir: str = os.getenv("SILVER_DATA_DIR", "data/silver")
+    gold_data_dir: str = os.getenv("GOLD_DATA_DIR", "data/gold")
 
 
 settings = Settings()

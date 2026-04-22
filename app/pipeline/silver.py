@@ -75,22 +75,22 @@ def build_silver_tables() -> dict[str, object]:
 
     for payload in fbref_payloads:
         match = payload.get("match") or {}
+        match_row = None
         if match:
-            matches.append(
-                {
-                    "source": "fbref",
-                    "source_url": match.get("source_url"),
-                    "external_id": _clean_string(match.get("external_id")),
-                    "competition": _clean_string(match.get("competition")),
-                    "season": _clean_string(match.get("season")),
-                    "match_date": _clean_string(match.get("match_date")),
-                    "home_club": _clean_string(match.get("home_club")),
-                    "away_club": _clean_string(match.get("away_club")),
-                    "home_score": _clean_int(match.get("home_score")),
-                    "away_score": _clean_int(match.get("away_score")),
-                    "venue": _clean_string(match.get("venue")),
-                }
-            )
+            match_row = {
+                "source": "fbref",
+                "source_url": match.get("source_url"),
+                "external_id": _clean_string(match.get("external_id")),
+                "competition": _clean_string(match.get("competition")),
+                "season": _clean_string(match.get("season")),
+                "match_date": _clean_string(match.get("match_date")),
+                "home_club": _clean_string(match.get("home_club")),
+                "away_club": _clean_string(match.get("away_club")),
+                "home_score": _clean_int(match.get("home_score")),
+                "away_score": _clean_int(match.get("away_score")),
+                "venue": _clean_string(match.get("venue")),
+            }
+            matches.append(match_row)
 
         for stat in payload.get("player_match_stats", []):
             player_match_stats.append(
@@ -100,6 +100,8 @@ def build_silver_tables() -> dict[str, object]:
                     "table_id": _clean_string(stat.get("table_id")),
                     "player_name": _clean_string(stat.get("player_name")),
                     "club_name": _clean_string(stat.get("club_name")),
+                    "match_date": match_row.get("match_date") if match_row else None,
+                    "match_external_id": match_row.get("external_id") if match_row else None,
                     "minutes": _clean_int(stat.get("minutes")),
                     "goals": _clean_int(stat.get("goals")) or 0,
                     "assists": _clean_int(stat.get("assists")) or 0,

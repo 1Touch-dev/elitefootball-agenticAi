@@ -48,6 +48,13 @@ The FBref pipeline now mirrors the Transfermarkt split:
 - DB-safe mapping helpers
 - parsed JSON persistence
 
+A downstream pipeline and analysis layer should handle:
+- Bronze/Silver/Gold transformations
+- KPI computation from Silver tables
+- dedicated Gold-layer KPI output generation
+
+The KPI implementation now belongs under `app/analysis/`, while the main pipeline runner remains responsible for invoking it and writing the final Gold-layer KPI artifact.
+
 ## Working Rules
 All future tasks MUST:
 - read memory before work

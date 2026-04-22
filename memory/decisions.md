@@ -52,6 +52,21 @@
 - DB-bound rows derived from FBref should carry source provenance as `fbref`.
 - Comment-wrapped FBref tables should be normalized before parsing so stat extraction is resilient to source markup quirks.
 
+## Pipeline Design Decisions Added in PAP-211
+- Bronze should represent source-preserving raw/parsed scraper artifacts and manifests.
+- Silver should hold cleaned table-shaped records derived from parsed source outputs.
+- Gold should hold only derived features computed from Silver outputs.
+- Transformation logic should live in a dedicated pipeline module rather than inside scraper files.
+
+## KPI Formula Decisions Added in PAP-212/PAP-213
+- per-90 metrics should be computed from match totals and minutes played, scaled to 90.
+- rolling averages should use recent-match windows and degrade gracefully when fewer matches exist.
+- consistency should use a bounded score derived from the variation of recent per-90 outputs.
+- age adjustment should apply a small transparent multiplier based on age bands rather than a large opaque bonus.
+- the MVP consistency score should clamp to `0..100`.
+- the MVP age multipliers should be `1.10` (<21), `1.05` (21-24), `1.00` (25-29), and `0.95` (30+), with `1.00` used when age is unknown.
+- the initial composite KPI should weight goal contributions per 90 most heavily, with supporting weight from shots per 90, passes completed per 90, and normalized consistency.
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work
