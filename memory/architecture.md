@@ -25,6 +25,20 @@ The MVP database design should preserve the current architecture and introduce n
 
 The ORM layer stays inside `app/db/`, and SQL output aligns with the same model boundaries through `app/db/schema.sql`.
 
+## Scraping Pipeline Direction
+Transfermarkt scraping should stay inside `app/scraping/` and be split by responsibility:
+- browser/session handling
+- source-specific scraping orchestration
+- parsing helpers
+- raw HTML storage
+- parsed payload storage
+
+This keeps scraping concerns separate from API routes and DB models while supporting later ingestion.
+
+The current scraping flow is expected to persist:
+- raw HTML under a raw Transfermarkt data path
+- parsed profile + transfer payloads under a parsed Transfermarkt data path
+
 ## Working Rules
 All future tasks MUST:
 - read memory before work
