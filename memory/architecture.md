@@ -52,8 +52,9 @@ A downstream pipeline and analysis layer should handle:
 - Bronze/Silver/Gold transformations
 - KPI computation from Silver tables
 - dedicated Gold-layer KPI output generation
+- player similarity computation from derived feature vectors
 
-The KPI implementation now belongs under `app/analysis/`, while the main pipeline runner remains responsible for invoking it and writing the final Gold-layer KPI artifact.
+The KPI implementation now belongs under `app/analysis/`, while the main pipeline runner remains responsible for invoking it and writing the final Gold-layer KPI artifact. The same downstream pattern is now used for the similarity engine, which derives nearest-neighbor outputs from Gold and KPI feature vectors.
 
 ## Working Rules
 All future tasks MUST:

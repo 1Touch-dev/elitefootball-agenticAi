@@ -67,6 +67,17 @@
 - the MVP age multipliers should be `1.10` (<21), `1.05` (21-24), `1.00` (25-29), and `0.95` (30+), with `1.00` used when age is unknown.
 - the initial composite KPI should weight goal contributions per 90 most heavily, with supporting weight from shots per 90, passes completed per 90, and normalized consistency.
 
+## Similarity Planning Decisions Added in PAP-215
+- similarity should be computed from normalized derived player features rather than directly from raw source fields.
+- the MVP similarity engine should use Euclidean distance over normalized feature vectors.
+- the MVP similarity score should be a bounded `0..100` transformation derived from distance.
+- nearest-neighbor search should exclude the source player and return the top-ranked matches by ascending distance.
+- the first version should work with existing Gold and KPI outputs and should not require advanced metrics.
+- player-name joining is acceptable for the MVP similarity engine until stable IDs are propagated through the pipeline.
+- the initial similarity vector should use `goal_contribution_per_90`, `shots`, `minutes`, `discipline_risk_score`, `consistency_score`, and `base_kpi_score`.
+- feature values should be min-max normalized before distance calculation, with zero used when a feature column has no variance.
+- the default nearest-neighbor depth should be five players or fewer when the pool is smaller.
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work
