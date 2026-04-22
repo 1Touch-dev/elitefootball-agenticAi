@@ -29,3 +29,25 @@ The backend now exposes read-only artifact-backed endpoints:
 - `data/gold/player_risk.json` now stores a transparent MVP risk model for each player.
 - The `injury_risk_score` inside that artifact is an availability-risk proxy derived from appearance gaps and minutes patterns, not true medical injury data.
 - Valuation now optionally consumes the risk artifact when available and falls back to the legacy discipline/consistency risk deduction when it is not.
+
+## Safety + Approval Layer (PAP-224)
+The backend now includes a lightweight safety policy layer for evaluating high-risk actions before execution.
+
+### Policy outcomes
+- `allow`
+- `require_approval`
+- `deny`
+
+### Blocked examples
+- delete-repo operations
+- `rm -rf .`
+- `git clean -fdx`
+- remote fetch-and-execute patterns like `curl ... | sh`
+
+### Approval flow endpoints
+- `POST /safety/evaluate`
+- `GET /approvals/{approval_id}`
+- `POST /approvals/{approval_id}/approve`
+- `POST /approvals/{approval_id}/reject`
+
+The MVP approval store is in-memory and approvals are bound to a normalized action fingerprint.

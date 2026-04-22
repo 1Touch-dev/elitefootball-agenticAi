@@ -46,6 +46,12 @@ Initial repository bootstrap completed at the scaffold level.
 - completed architecture planning for PAP-224 safety + policy layer in `ARCHITECT_PLAN_PAP-224.md`
 - documented that PAP-224 should add a dedicated safety layer with hard-deny rules for repo deletion, approval-gated risky commands, and a lightweight approval flow
 - noted a repo-state mismatch during planning: memory references PAP-223 queue files that are not present in the current checkout, so PAP-224 should be implemented against the actual tree
+- implemented PAP-224 safety controls in `app/safety/` with policy evaluation, approval store/service, and request/response schemas
+- added approval endpoints in `app/api/safety_routes.py` and wired them into `app/main.py`
+- integrated a safety preflight into `app/agents/orchestrator.py` and surfaced safety capability metadata in `/summary`
+- documented PAP-224 behavior in `README.md` and `memory/safety_policy.md`
+- added PAP-224 coverage in `tests/test_safety_policies.py`, `tests/test_safety_service.py`, and `tests/test_safety_routes.py`
+- stabilized partial PAP-223 queue files already present in the checkout so the repo remains internally consistent during PAP-224 work
 
 ## Next Steps
 - validate player similarity rankings against real player data and tune feature weighting if needed
@@ -66,6 +72,9 @@ Initial repository bootstrap completed at the scaffold level.
 - implement PAP-224 by adding `app/safety/` decision types, policy rules, approval service/store, and focused tests
 - decide during implementation whether the MVP approval flow should be exposed immediately via dedicated FastAPI routes or only wired internally for future mutation endpoints
 - reconcile the stale PAP-223 memory notes with the actual repository contents before building PAP-224 integrations that assume task/queue files exist
+- pedant-review PAP-224 command classification boundaries, especially the deny vs approval-required split for shell commands
+- validate PAP-224 approval endpoint semantics in an environment with FastAPI installed and confirm 200/403 behavior matches product expectations
+- decide whether future risky execution endpoints should consume approvals directly or only use the safety layer as a preflight gate
 
 ## Working Rules
 All future tasks MUST:

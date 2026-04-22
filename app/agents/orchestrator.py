@@ -8,6 +8,8 @@ import app.agents.data_cleaner_agent as data_cleaner_agent
 import app.agents.report_generator_agent as report_generator_agent
 import app.agents.scraper_agent as scraper_agent
 from app.agents.types import AgentRunResult, AgentStepResult, AgentTask
+from app.safety.service import assert_allowed
+from app.safety.types import ActionKind, PolicyDecision, SafetyCheckRequest
 
 
 @dataclass(frozen=True)
@@ -59,6 +61,13 @@ def route_task(task: AgentTask | str) -> list[str]:
 
 def run_task(task: AgentTask | str, payload: dict | None = None) -> AgentRunResult:
     task_obj = task if isinstance(task, AgentTask) else AgentTask.from_input(kind=str(task), payload=payload)
+    safety_request = SafetyCheckRequest(
+        action_kind=ActionKind.AGENT_TASK,
+        action_name=task_obj.kind,
+        requested_by=task_obj.requested_by,
+        metadata=dict(task_obj.metadata),
+    )
+    assert_allowed(safety_request)
     route = route_task(task_obj)
     context_metadata = dict(task_obj.metadata)
     step_results: list[AgentStepResult] = []
@@ -90,5 +99,18 @@ def run_task(task: AgentTask | str, payload: dict | None = None) -> AgentRunResu
         route=route,
         steps=step_results,
         summary=summary,
-        metadata={"supported_task_kinds": supported_task_kinds()},
+        metadata={
+            "supported_task_kinds": supported_task_kinds(),
+            "safety_decision": PolicyDecision.ALLOW.value,
+        },
     )
+
+
+def run_task_dict(task_payload: dict) -> dict:
+    task = AgentTask.from_input(
+        kind=str(task_payload.get("task_kind") or task_payload.get("kind") or "").strip(),
+        payload=task_payload.get("payload"),
+        requested_by=task_payload.get("requested_by"),
+        metadata=task_payload.get("metadata"),
+    )
+    return run_task(task).to_dict()

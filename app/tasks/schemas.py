@@ -1,12 +1,15 @@
-from pydantic import BaseModel
-from typing import Optional, Any
+from datetime import datetime
+from typing import Any, Optional
+
+from pydantic import BaseModel, Field
 
 
 class TaskSubmissionRequest(BaseModel):
     task_kind: str
-    payload: dict[str, Any] = {}
+    payload: dict[str, Any] = Field(default_factory=dict)
     requested_by: Optional[str] = None
-    schedule_at: Optional[str] = None
+    metadata: dict[str, Any] = Field(default_factory=dict)
+    schedule_at: Optional[datetime] = None
     countdown_seconds: Optional[int] = None
 
 
@@ -15,7 +18,7 @@ class TaskSubmissionResponse(BaseModel):
     state: str
     task_kind: str
     route: list[str]
-    scheduled_for: Optional[str] = None
+    scheduled_for: Optional[datetime] = None
     countdown_seconds: Optional[int] = None
 
 

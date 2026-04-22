@@ -145,6 +145,9 @@
 - approvals should be bound to a normalized action fingerprint and should be single-use or short-lived.
 - if HTTP exposure is needed now, approval endpoints should live in a dedicated router rather than being mixed into existing artifact routes.
 - planning should target the actual checkout state: current repo has orchestrator-based agents and read-only API routes, but does not currently contain the PAP-223 task files mentioned in memory.
+- the implemented PAP-224 approval API returns 403 for denied actions and 200 with an approval record for approval-required actions.
+- the implemented safety preflight currently allows existing orchestrator task kinds but creates a stable seam for future risky task types.
+- timezone-aware UTC timestamps should be used for approval lifecycle fields to avoid naive datetime drift.
 
 ## Critical Rule
 All future tasks MUST:

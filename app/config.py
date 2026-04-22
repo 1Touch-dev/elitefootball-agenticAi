@@ -19,6 +19,8 @@ class Settings:
     bronze_data_dir: str = os.getenv("BRONZE_DATA_DIR", "data/bronze")
     silver_data_dir: str = os.getenv("SILVER_DATA_DIR", "data/silver")
     gold_data_dir: str = os.getenv("GOLD_DATA_DIR", "data/gold")
+    repo_root: str = os.getenv("REPO_ROOT", os.getcwd())
+    safety_approval_ttl_seconds: int = int(os.getenv("SAFETY_APPROVAL_TTL_SECONDS", "900"))
 
 
 settings = Settings()

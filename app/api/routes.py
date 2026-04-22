@@ -19,6 +19,7 @@ from app.api.data_access import (
 )
 from app.api.schemas import CompareResponse, PlayerListResponse, PlayerStatsResponse, ValuationListResponse, ValuationRow
 from app.scraping.players import get_idv_player_scrape_plan
+from app.safety.types import PolicyDecision
 
 router = APIRouter()
 
@@ -36,6 +37,11 @@ def summary() -> dict[str, object]:
         "agents": build_agent_summary(),
         "orchestration": {"supported_task_kinds": supported_task_kinds()},
         "scraping": get_idv_player_scrape_plan(),
+        "safety": {
+            "decisions": [decision.value for decision in PolicyDecision],
+            "approval_flow": True,
+            "blocked_examples": ["delete_repo", "rm -rf .", "git clean -fdx", "curl ... | sh"],
+        },
     }
 
 
