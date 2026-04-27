@@ -4,7 +4,7 @@ from unittest.mock import Mock, patch
 import requests
 
 from dashboard.api_client import DashboardAPIClient, DashboardAPIError
-from dashboard.helpers import dashboard_status_message, enrich_similarity_rows
+from dashboard.helpers import build_dashboard_state, dashboard_status_message, enrich_similarity_rows, format_sync_time, placeholder_message_lines
 
 
 class TestDashboardApiClient(unittest.TestCase):
@@ -66,6 +66,55 @@ class TestDashboardApiClient(unittest.TestCase):
     def test_dashboard_status_message_distinguishes_empty_from_ready(self):
         self.assertEqual(dashboard_status_message({"status": "empty"})[0], "warning")
         self.assertEqual(dashboard_status_message({"status": "ready"})[0], "success")
+
+    def test_build_dashboard_state_formats_sync_metadata(self):
+        state = build_dashboard_state(
+            {
+                "status": "artifact_invalid",
+                "sync": {
+                    "last_successful_sync_at": "2026-04-27T10:00:00Z",
+                    "last_failure_stage": "similarity",
+                    "last_failure_message": "Artifact payload must be a list of rows.",
+                    "recommended_action": "Check pipeline outputs and refresh.",
+                },
+                "diagnostics": {"recommended_action": "Check pipeline outputs and refresh."},
+            }
+        )
+
+        self.assertEqual(state["category"], "upstream_failure")
+        self.assertEqual(state["last_sync"], "2026-04-27 10:00 UTC") # Check that last sync is formatted correctly
+        self.assertIn("similarity", state["failure"])
+        self.assertIn("Check pipeline outputs", state["action"])
+
+    def test_build_dashboard_state_defaults_when_no_sync(self):
+        state = build_dashboard_state({})
+        self.assertEqual(state["last_sync"], "No successful sync yet.")
+        self.assertIsNone(state["failure"])
+
+    def test_build_dashboard_state_handles_backend_error(self):
+        state = build_dashboard_state(None, backend_error="connection refused")
+
+        self.assertEqual(state["category"], "backend_error")
+        self.assertEqual(state["level"], "error")
+        self.assertIn("connection refused", state["message"])
+
+    def test_placeholder_message_lines_include_sync_details(self):
+        lines = placeholder_message_lines(
+            {
+                "message": "No dashboard data yet.",
+                "last_sync": "2026-04-27 10:00 UTC",
+                "failure": "players: missing artifact",
+                "action": "Run the pipeline and refresh.",
+            }
+        )
+
+        self.assertEqual(lines[0], "No dashboard data yet.")
+        self.assertTrue(any("Last successful sync" in line for line in lines))
+        self.assertTrue(any("Latest failure" in line for line in lines))
+        self.assertTrue(any("Next step" in line for line in lines))
+
+    def test_format_sync_time_returns_original_string_for_unparseable_values(self):
+        self.assertEqual(format_sync_time("not-a-timestamp"), "not-a-timestamp")
 
     def test_enrich_similarity_rows_preserves_similarity_fields(self):
         rows = [{"player_name": "Jane Roe", "distance": 0.3, "similarity_score": 70.0, "position": "Midfielder"}]

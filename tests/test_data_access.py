@@ -62,9 +62,24 @@ class TestDataAccess(unittest.TestCase):
         status = inspect_dashboard_artifacts(sample_limit=1)
 
         self.assertEqual(status["status"], "partial")
+        self.assertEqual(status["diagnostics"]["upstream_status"], "partially_available")
+        self.assertIn("recommended_action", status["sync"])
+        self.assertIsNotNone(status["sync"]["last_successful_sync_at"])
         self.assertEqual(status["artifacts"]["players"]["state"], "ready")
         self.assertEqual(status["artifacts"]["player_match_stats"]["state"], "empty")
         self.assertEqual(status["samples"]["players"][0]["player_name"], "Patrik Mercado")
+
+    def test_inspect_dashboard_artifacts_reports_failure_metadata_for_missing_required_artifact(self):
+        self.players_path.write_text(json.dumps([{"player_name": "Patrik Mercado"}]), encoding="utf-8")
+        self.features_path.write_text("[]", encoding="utf-8")
+        self.kpi_path.write_text("[]", encoding="utf-8")
+
+        status = inspect_dashboard_artifacts(sample_limit=1)
+
+        self.assertEqual(status["status"], "artifact_missing")
+        self.assertEqual(status["sync"]["last_failure_stage"], "player_match_stats")
+        self.assertIsNotNone(status["sync"]["last_failure_message"])
+        self.assertEqual(status["diagnostics"]["upstream_status"], "pipeline_output_missing")
 
     def test_load_players_raises_for_missing_required_artifact(self):
         with self.assertRaises(ArtifactUnavailableError):

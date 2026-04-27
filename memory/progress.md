@@ -124,6 +124,12 @@ Initial repository bootstrap completed at the scaffold level.
 - implement PAP-243 by adding a real Silver-to-DB ingestion layer, persistence reporting, and verification queries without breaking the artifact-first pipeline
 - pedant-review PAP-243 identity/upsert rules, persistence status classification, and whether fallback player creation is conservative enough for current source variance
 - after PAP-243, decide whether API/dashboard reads should remain artifact-backed or gain an optional DB-backed path in a separate follow-up ticket
+- completed architecture planning for PAP-247 dashboard empty-state and failure-message improvements in `ARCHITECT_PLAN_PAP-247.md`
+- confirmed current dashboard UX is artifact-aware but still ambiguous in several failure modes because `/dashboard/status` lacks sync/failure metadata and pages use generic empty warnings plus early stops
+- documented a helper-first plan to enrich `/dashboard/status`, add retry actions, surface last successful sync time, and provide explicit no-records placeholders across Home, Player, and Compare
+- implemented PAP-247 dashboard UX improvements by enriching `/dashboard/status` metadata, centralizing dashboard state messaging in helpers, and updating Home/Player/Compare to show retry actions plus clearer empty/failure placeholders
+- added PAP-247 regression coverage for status metadata and helper messaging in `tests/test_data_access.py`, `tests/test_dashboard_api_client.py`, and `tests/test_api_routes.py`
+- pedant-review PAP-247 confirmed artifact-mtime-based sync metadata is conservative and warning vs info severity consistency across pages
 
 ## Working Rules
 All future tasks MUST:

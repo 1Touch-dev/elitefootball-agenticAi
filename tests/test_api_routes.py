@@ -124,6 +124,14 @@ class TestApiRoutes(unittest.TestCase):
     def test_dashboard_status_reports_artifact_state(self, mock_inspect):
         mock_inspect.return_value = {
             "status": "empty",
+            "diagnostics": {"upstream_status": "no_dashboard_data", "recommended_action": "Run the scrape + pipeline workflow, then refresh the dashboard."},
+            "sync": {
+                "last_successful_sync_at": None,
+                "last_failed_sync_at": None,
+                "last_failure_stage": None,
+                "last_failure_message": None,
+                "recommended_action": "Run the scrape + pipeline workflow, then refresh the dashboard.",
+            },
             "artifacts": {
                 "players": {"path": "data/silver/players.json", "exists": True, "required": True, "valid": True, "state": "empty", "row_count": 0, "error": None}
             },
@@ -135,6 +143,8 @@ class TestApiRoutes(unittest.TestCase):
         payload = response.json()
         self.assertEqual(payload["status"], "empty")
         self.assertEqual(payload["artifacts"]["players"]["state"], "empty")
+        self.assertIn("sync", payload)
+        self.assertEqual(payload["diagnostics"]["upstream_status"], "no_dashboard_data")
 
     @patch("app.api.routes.load_players")
     @patch("app.api.routes.load_player_features")
