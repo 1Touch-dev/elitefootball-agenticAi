@@ -5,7 +5,7 @@ from typing import Any
 
 def dashboard_status_message(status_payload: dict[str, Any] | None) -> tuple[str, str]:
     if not status_payload:
-        return "info", "Dashboard status is unavailable."
+        return "info", "Dashboard status is currently unavailable."
 
     status = str(status_payload.get("status") or "unknown").strip().lower()
     if status == "ready":
@@ -18,7 +18,7 @@ def dashboard_status_message(status_payload: dict[str, Any] | None) -> tuple[str
         return "error", "Required dashboard artifacts are missing. Run the pipeline first."
     if status == "artifact_invalid":
         return "error", "Dashboard artifacts exist but are invalid. Check backend outputs."
-    return "info", f"Dashboard status: {status or 'unknown'}."
+    return "info", f"Dashboard status: {status}."
 
 
 def artifact_summary_rows(status_payload: dict[str, Any] | None) -> list[dict[str, Any]]:
@@ -60,7 +60,7 @@ def explain_stats_issue(status_payload: dict[str, Any] | None) -> str:
         return "Match stats are unavailable because the player-match-stats artifact is missing."
     if stats.get("state") == "invalid":
         return "Match stats are unavailable because the player-match-stats artifact is invalid."
-    return "Match stats are unavailable for this player right now."
+    return "Match stats are currently unavailable for this player."
 
 
 def explain_compare_issue(status_payload: dict[str, Any] | None) -> str:
