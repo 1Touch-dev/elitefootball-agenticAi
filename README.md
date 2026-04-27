@@ -25,6 +25,40 @@ The backend now exposes read-only artifact-backed endpoints:
 - They do not write data or query the live database in the MVP.
 - Run the pipeline first so required artifacts exist before calling compare/value routes.
 
+## Full-System Validation (PAP-226 / PAP-227)
+Use either of these one-command workflows to validate the seeded end-to-end system path:
+
+### unittest workflow
+```bash
+python3 -m unittest tests.test_e2e_full_system
+```
+
+### operator-friendly script
+```bash
+python3 scripts/verify_full_system_flow.py
+```
+
+What this workflow validates:
+- seeded raw + parsed scrape-like artifacts are written into a temporary workspace
+- Bronze and Silver outputs are generated from those inputs
+- DB persistence runs when SQLAlchemy is available
+- KPI, risk, similarity, valuation, advanced-metric, and club-development outputs are generated
+- backend/API routes are exercised when FastAPI is available
+- the dashboard API client receives generated payloads from a test backend when FastAPI is available
+- environment readiness is reported explicitly for SQLAlchemy, FastAPI, and Playwright availability
+- final release-readiness is reported as `READY`, `READY_WITH_LIMITATIONS`, or `NOT_READY`
+
+Readiness semantics:
+- `READY`: all validation stages passed and no dependency-based skips occurred
+- `READY_WITH_LIMITATIONS`: core pipeline stages passed, but DB and/or backend/dashboard validation was skipped because runtime dependencies are missing
+- `NOT_READY`: one or more required executed stages failed
+
+Known limitations:
+- this regression path uses seeded fixture data instead of a mandatory live external scrape
+- live scrape execution remains best-effort because source access and browser dependencies are environment-sensitive
+- DB and backend/UI stages are skipped when required runtime dependencies are not installed in the environment
+- the seeded path is the required deterministic regression gate; any future live-source mode should be treated as best-effort diagnostic verification, not the only passing path
+
 ## End-to-End Validation (PAP-246)
 Use either of these one-command workflows to validate the seeded scrape-to-dashboard path:
 
