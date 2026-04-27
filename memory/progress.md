@@ -52,6 +52,11 @@ Initial repository bootstrap completed at the scaffold level.
 - documented PAP-224 behavior in `README.md` and `memory/safety_policy.md`
 - added PAP-224 coverage in `tests/test_safety_policies.py`, `tests/test_safety_service.py`, and `tests/test_safety_routes.py`
 - stabilized partial PAP-223 queue files already present in the checkout so the repo remains internally consistent during PAP-224 work
+- completed PAP-239 scraping-pipeline audit and documented end-to-end failure points in `PAP-239_SCRAPING_AUDIT.md`
+- confirmed the current `full_refresh` path does not execute real scraping without manually supplied URLs
+- confirmed the current runtime cannot import Playwright, so fetch-layer scraping fails before any HTML is captured
+- confirmed the current scraper orchestration only wires Transfermarkt, while downstream Silver/Gold/dashboard outputs depend heavily on FBref-derived match stats
+- added grunt handoff notes for PAP-239 at `GRUNT_HANDOFF_PAP-239.md`
 
 ## Next Steps
 - validate player similarity rankings against real player data and tune feature weighting if needed
@@ -75,6 +80,9 @@ Initial repository bootstrap completed at the scaffold level.
 - pedant-review PAP-224 command classification boundaries, especially the deny vs approval-required split for shell commands
 - validate PAP-224 approval endpoint semantics in an environment with FastAPI installed and confirm 200/403 behavior matches product expectations
 - decide whether future risky execution endpoints should consume approvals directly or only use the safety layer as a preflight gate
+- implement PAP-240 by adding a concrete IDV scrape target registry, wiring it into `full_refresh`, and adding runtime scrape preflight checks for Playwright/browser readiness
+- wire FBref scraping into the orchestrated refresh path so match-stat-driven Silver/Gold/dashboard outputs can become non-empty
+- add scrape diagnostics for response status, selector readiness, timeout classification, and anti-bot/challenge detection before tuning parsers further
 
 ## Working Rules
 All future tasks MUST:

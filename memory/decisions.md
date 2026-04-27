@@ -149,6 +149,14 @@
 - the implemented safety preflight currently allows existing orchestrator task kinds but creates a stable seam for future risky task types.
 - timezone-aware UTC timestamps should be used for approval lifecycle fields to avoid naive datetime drift.
 
+## Scraping Audit Decisions Added in PAP-239
+- the primary scraping failure is structural non-execution: `full_refresh` currently reaches the scraper agent without a concrete target inventory and therefore performs no real fetch unless a URL is manually supplied.
+- scrape runtime readiness must be treated as an explicit precondition; the current Playwright dependency/browser requirement should fail fast with clear diagnostics before a scrape workflow is considered healthy.
+- Transfermarkt-only orchestration is insufficient for the current downstream product path because dashboard/API analysis depends on FBref-derived match-stat artifacts.
+- source-target registries should be maintained explicitly inside the scraping/orchestration boundary rather than relying on ad hoc one-off URL payloads.
+- scraper fetch and parser stages should emit diagnostic signals for timeout, challenge/login walls, selector readiness, and partial-field extraction so empty artifacts do not appear as silent success.
+- database ingestion remains a later follow-up and should not be prioritized ahead of making the scrape-to-artifact path reliably non-empty.
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work
