@@ -6,7 +6,7 @@ FASTAPI_AVAILABLE = importlib.util.find_spec("fastapi") is not None
 
 if FASTAPI_AVAILABLE:
     from fastapi.testclient import TestClient
-    from app.api.data_access import ArtifactUnavailableError
+    from app.api.data_access import ArtifactInvalidError, ArtifactUnavailableError
     from app.main import app
 
 
@@ -120,6 +120,22 @@ class TestApiRoutes(unittest.TestCase):
         self.assertIn("orchestration", payload)
         self.assertIn("supported_task_kinds", payload["orchestration"])
 
+    @patch("app.api.routes.inspect_dashboard_artifacts")
+    def test_dashboard_status_reports_artifact_state(self, mock_inspect):
+        mock_inspect.return_value = {
+            "status": "empty",
+            "artifacts": {
+                "players": {"path": "data/silver/players.json", "exists": True, "required": True, "valid": True, "state": "empty", "row_count": 0, "error": None}
+            },
+            "samples": {"players": []},
+        }
+
+        response = self.client.get("/dashboard/status")
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertEqual(payload["status"], "empty")
+        self.assertEqual(payload["artifacts"]["players"]["state"], "empty")
+
     @patch("app.api.routes.load_players")
     @patch("app.api.routes.load_player_features")
     @patch("app.api.routes.load_kpi_rows")
@@ -184,6 +200,13 @@ class TestApiRoutes(unittest.TestCase):
 
         response = self.client.get("/compare", params={"player_name": "John Doe"})
         self.assertEqual(response.status_code, 503)
+
+    @patch("app.api.routes.load_similarity_rows")
+    def test_invalid_artifact_returns_500(self, mock_similarity):
+        mock_similarity.side_effect = ArtifactInvalidError("Artifact payload must be a list of rows: player_similarity.json.")
+
+        response = self.client.get("/compare", params={"player_name": "John Doe"})
+        self.assertEqual(response.status_code, 500)
 
 
 if __name__ == "__main__":

@@ -55,6 +55,18 @@ def _load_json_files(directory: str) -> list[dict[str, Any]]:
     return payloads
 
 
+def _verify_written_table(path: str | Path, expected_rows: list[dict[str, Any]]) -> dict[str, object]:
+    payload = read_json(path)
+    if not isinstance(payload, list):
+        raise ValueError(f"Silver artifact at {path} is not a list payload.")
+    return {
+        "path": str(path),
+        "expected_count": len(expected_rows),
+        "actual_count": len(payload),
+        "count_match": len(payload) == len(expected_rows),
+    }
+
+
 def build_silver_tables() -> dict[str, object]:
     transfermarkt_payloads = _load_json_files(settings.parsed_data_dir)
     fbref_payloads = _load_json_files(settings.fbref_parsed_data_dir)
@@ -180,15 +192,21 @@ def build_silver_tables() -> dict[str, object]:
         log_event(logger, logging.WARNING, "silver.empty_output", players=0, transfers=0, matches=0, player_match_stats=0, player_per90=0)
 
     paths = {}
+    verifications = {}
     for name, rows in outputs.items():
         path = Path(settings.silver_data_dir) / f"{name}.json"
         log_event(logger, logging.INFO, "db.write.attempt", target="silver_json", table=name, path=str(path), records=len(rows), persisted=False)
         try:
             paths[name] = write_json(path, rows)
+            verifications[name] = _verify_written_table(paths[name], rows)
         except Exception as exc:
             log_exception(logger, "db.write.failed", exc, target="silver_json", table=name, path=str(path), records=len(rows), persisted=False)
             raise
-        log_event(logger, logging.INFO, "silver.write.success", table=name, path=paths[name], records=len(rows))
-        log_event(logger, logging.INFO, "db.write.result", target="silver_json", table=name, path=paths[name], records=len(rows), persisted=False)
+        if not verifications[name]["count_match"]:
+            error = ValueError(f"Silver write verification failed for {name}: expected {len(rows)} rows but found {verifications[name]['actual_count']}")
+            log_exception(logger, "silver.write.verification_failed", error, table=name, path=paths[name], expected_count=len(rows), actual_count=verifications[name]["actual_count"])
+            raise error
+        log_event(logger, logging.INFO, "silver.write.success", table=name, path=paths[name], records=len(rows), verification=verifications[name])
+        log_event(logger, logging.INFO, "db.write.result", target="silver_json", table=name, path=paths[name], records=len(rows), verified_count=verifications[name]["actual_count"], persisted=False)
 
-    return {"paths": paths, "tables": outputs}
+    return {"paths": paths, "tables": outputs, "verifications": verifications}

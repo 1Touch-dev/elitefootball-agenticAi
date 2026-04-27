@@ -6,6 +6,7 @@ from app.analysis.kpi_engine import build_kpi_engine_output
 from app.analysis.risk_engine import build_risk_output
 from app.analysis.similarity_engine import build_similarity_output
 from app.analysis.valuation_engine import build_valuation_output
+from app.db.persistence import ingest_silver_tables
 from app.pipeline.bronze import build_bronze_manifest
 from app.pipeline.gold import build_gold_features
 from app.pipeline.silver import build_silver_tables
@@ -14,6 +15,7 @@ from app.pipeline.silver import build_silver_tables
 def run_pipeline() -> dict[str, object]:
     bronze = build_bronze_manifest()
     silver = build_silver_tables()
+    persistence = ingest_silver_tables(silver["tables"])
     gold = build_gold_features(silver["tables"])
     kpi = build_kpi_engine_output(silver["tables"])
     advanced_metrics = build_advanced_metrics_output(silver["tables"])
@@ -24,6 +26,7 @@ def run_pipeline() -> dict[str, object]:
     return {
         "bronze": bronze,
         "silver": silver,
+        "persistence": persistence,
         "gold": gold,
         "kpi": kpi,
         "advanced_metrics": advanced_metrics,

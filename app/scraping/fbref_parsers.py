@@ -12,6 +12,9 @@ from app.services.logging_service import get_logger, is_debug_enabled, log_event
 
 
 logger = get_logger(__name__)
+PLAYER_STATS_TABLE_HINTS = ("stats_standard", "stats_summary", "stats_keeper", "stats_passing", "stats_misc")
+PER90_TABLE_HINTS = ("per_90", "stats_standard", "stats_misc")
+CHALLENGE_MARKERS = ("just a moment", "challenge", "captcha", "access denied")
 
 
 class _FBrefTableParser(HTMLParser):
@@ -105,7 +108,9 @@ def _extract_match_date(html: str) -> str | None:
 
 
 def _extract_venue(html: str) -> str | None:
-    match = re.search(r"Venue\s*:?\s*([^<\n]+)", strip_tags(_prepare_html(html)), re.IGNORECASE)
+    prepared = _prepare_html(html)
+    text = strip_tags(prepared)
+    match = re.search(r"Venue\s*:?\s*(.+?)(?=\s+(?:Attendance|Referee|Player|Season)\b|$)", text, re.IGNORECASE)
     return normalize_space(match.group(1)) if match else None
 
 
@@ -156,6 +161,18 @@ def _row_to_stat_map(row: list[dict[str, str]]) -> dict[str, str]:
     return output
 
 
+def _table_matches(table_id: str, hints: tuple[str, ...]) -> bool:
+    return any(hint in table_id for hint in hints)
+
+
+def _row_has_stat_values(stat_map: dict[str, str]) -> bool:
+    keys = (
+        "minutes", "min", "goals", "gls", "assists", "ast", "shots", "sh",
+        "passes_completed", "cmp_passes", "xg", "xa", "prgc", "prgp", "prgr",
+    )
+    return any(stat_map.get(key) not in {None, "", "0", "0.0"} for key in keys)
+
+
 def parse_fbref_match_payload(html: str, source_url: str) -> dict[str, object]:
     log_event(logger, logging.INFO, "parse.fbref.match.start", source="fbref", source_url=source_url)
     title = extract_title(html)
@@ -176,6 +193,7 @@ def parse_fbref_match_payload(html: str, source_url: str) -> dict[str, object]:
         "away_score": away_score,
         "venue": _extract_venue(html),
         "title": title,
+        "challenge_detected": any(marker in (title or "").lower() for marker in CHALLENGE_MARKERS),
     }
     fields_found = sum(1 for value in payload.values() if value)
     log_event(logger, logging.INFO, "parse.fbref.match.complete", source="fbref", source_url=source_url, fields_found=fields_found)
@@ -192,7 +210,7 @@ def parse_fbref_player_match_stats(html: str, source_url: str) -> list[dict[str,
 
     for table in tables:
         table_id = str(table.get("id", ""))
-        if "stats" not in table_id and "summary" not in table_id:
+        if not _table_matches(table_id, PLAYER_STATS_TABLE_HINTS) or "per_90" in table_id:
             continue
         candidate_table_ids.append(table_id)
 
@@ -201,6 +219,8 @@ def parse_fbref_player_match_stats(html: str, source_url: str) -> list[dict[str,
             stat_map = _row_to_stat_map(row)
             player_name = stat_map.get("player") or stat_map.get("column_0")
             if not player_name or player_name.lower() == "player":
+                continue
+            if not _row_has_stat_values(stat_map):
                 continue
 
             player_rows.append(
@@ -234,6 +254,7 @@ def parse_fbref_player_match_stats(html: str, source_url: str) -> list[dict[str,
         log_fields["candidate_table_ids"] = candidate_table_ids
     log_event(logger, logging.INFO, "parse.fbref.player_stats.complete", **log_fields)
     if not player_rows:
+        log_event(logger, logging.WARNING, "parse.empty_player_stats", source="fbref", source_url=source_url)
         log_event(logger, logging.WARNING, "parse.partial_result", source="fbref", source_url=source_url, section="player_match_stats", records_extracted=0)
     return player_rows
 
@@ -246,6 +267,8 @@ def parse_fbref_player_per_90(html: str, source_url: str) -> list[dict[str, obje
 
     for table in tables:
         table_id = str(table.get("id", ""))
+        if not _table_matches(table_id, PER90_TABLE_HINTS):
+            continue
         rows = table.get("rows", [])
         for row in rows:
             stat_map = _row_to_stat_map(row)
@@ -259,7 +282,7 @@ def parse_fbref_player_per_90(html: str, source_url: str) -> list[dict[str, obje
             if table_id and table_id not in candidate_table_ids:
                 candidate_table_ids.append(table_id)
 
-            metrics = {key: stat_map[key] for key in per_90_keys}
+            metrics = {key: stat_map[key] for key in per_90_keys if stat_map.get(key)}
             if not metrics:
                 continue
 

@@ -72,14 +72,21 @@ Initial repository bootstrap completed at the scaffold level.
 - added PAP-241 compatibility tests in `tests/test_scraping_compatibility.py`
 - captured the current source-access findings in `PAP-241_TECHNICAL_COMPATIBILITY_REPORT.md`
 - added grunt handoff notes for PAP-241 at `GRUNT_HANDOFF_PAP-241.md`
-- completed architecture planning for PAP-246 end-to-end scrape-to-dashboard validation in `ARCHITECT_PLAN_PAP-246.md`
-- confirmed there is currently no single command/workflow that validates scrape/parsing/storage/API/dashboard flow end-to-end
-- confirmed the current checked-in dashboard-facing artifacts remain empty, so any true happy-path validation must seed deterministic non-empty inputs rather than rely on repo data
-- confirmed `full_refresh` is still not self-sufficient for a live scrape because the scraper agent only performs an actual fetch when an explicit URL is supplied
-- implemented PAP-246 seeded end-to-end validation in `tests/e2e_dashboard_flow_support.py`, `tests/test_e2e_dashboard_flow.py`, and `scripts/verify_dashboard_flow.py`
-- added a one-command regression path that seeds sample parsed inputs, runs the real pipeline, verifies written dashboard artifacts, and emits stage-by-stage PASS/FAIL output
-- updated `README.md` with E2E validation commands and known limitations for seeded mode versus best-effort live scraping
-- documented implementation and review notes in `GRUNT_HANDOFF_PAP-246.md` and `PEDANT_HANDOFF_PAP-246.md`
+- implemented PAP-242 extraction hardening across browser waits, Transfermarkt parsing, FBref parsing, and post-parse validation
+- added `app/scraping/validation.py` so scrape payloads now carry explicit extraction diagnostics instead of silent empty-success outcomes
+- added `tests/test_scraping_extraction.py` with fixture-based coverage for Transfermarkt success, FBref success, and FBref challenge classification
+- documented sample extracted records and schema mapping in `PAP-242_EXTRACTION_REPORT.md`
+- added grunt handoff notes for PAP-242 at `GRUNT_HANDOFF_PAP-242.md`
+- completed architecture planning for PAP-243 persistence-layer audit and DB-ingestion design in `ARCHITECT_PLAN_PAP-243.md`
+- confirmed that the active product path currently persists scraped data to file artifacts and Silver/Gold JSON, not to the relational DB
+- identified that DB persistence is scaffolded but not wired: SQLAlchemy engine/session and models exist, but no insert/update/query verification path is active
+- documented that current FBref `db_mapping` behavior is preview-only and should not be interpreted as actual DB ingestion
+- implemented PAP-243 Silver-to-DB persistence in `app/db/persistence.py` with schema bootstrap, upsert logic, validation/error reporting, and post-commit verification queries
+- updated `app/pipeline/silver.py` so Silver artifact writes are re-read and count-verified immediately after write
+- wired pipeline persistence into `app/pipeline/run_pipeline.py` so DB ingestion now runs from Silver outputs without changing scraper boundaries
+- added PAP-243 persistence tests in `tests/test_db_persistence.py`
+- documented PAP-243 findings and implementation notes in `PAP-243_PERSISTENCE_AUDIT_REPORT.md` and `PEDANT_HANDOFF_PAP-243.md`
+- confirmed the current sandbox cannot execute DB runtime tests yet because `sqlalchemy` is declared in requirements but not installed in the environment
 
 ## Next Steps
 - validate player similarity rankings against real player data and tune feature weighting if needed
@@ -112,10 +119,11 @@ Initial repository bootstrap completed at the scaffold level.
 - pedant-review PAP-240 event naming, INFO-vs-DEBUG verbosity, and whether `db.write.*` persistence logs are clear enough without implying real DB ingestion
 - implement PAP-242 by adding source compatibility probes plus browser-based FBref access validation so the team can confirm whether Playwright can clear or still hits the challenge path
 - pedant-reviewed PAP-241 probe classification naming; confirmed revised naming matched test expectations; and confirmed that the new `anti_bot_mitigation_required` flag makes the challenge context explicit before wiring the probe into operational scraper flows
-- implement PAP-246 by adding a deterministic, one-command seeded end-to-end validation path that exercises pipeline outputs, backend routes, and dashboard-client payload consumption
-- document any live scrape verification mode as best-effort only, not the required regression gate
-- pedant-review PAP-246 hermetic temp-path behavior, API/client stage skip semantics, and report clarity
-- after PAP-246, implement PAP-247 to make `full_refresh` self-targeting with a concrete scrape target registry for optional live end-to-end validation
+- pedant review completed: FBref page extraction, dynamic wait mechanism updates, and log improvements under PAP-242
+- completed pedant validation checks for PAP-242 ensuring selector cohesion and indication logs for potential empty results remain straightforward for immediate fixes
+- implement PAP-243 by adding a real Silver-to-DB ingestion layer, persistence reporting, and verification queries without breaking the artifact-first pipeline
+- pedant-review PAP-243 identity/upsert rules, persistence status classification, and whether fallback player creation is conservative enough for current source variance
+- after PAP-243, decide whether API/dashboard reads should remain artifact-backed or gain an optional DB-backed path in a separate follow-up ticket
 
 ## Working Rules
 All future tasks MUST:

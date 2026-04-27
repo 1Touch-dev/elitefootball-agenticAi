@@ -192,14 +192,27 @@
 - the probe explicitly detects and classifies Cloudflare challenges as `challenge_page`
 - each statically-probed source URL captures a final status classification plus indicator remarks for deeper diagnostics
 
-## End-to-End Validation Decisions Added in PAP-246 Planning
-- PAP-246 should define a deterministic, fixture-driven end-to-end validation path as the primary regression test rather than depending on a live external scrape.
-- the required E2E path should validate seeded parsed inputs, real pipeline execution, artifact storage, backend/API responses, and dashboard-client payload consumption in that order.
-- any live scrape validation should be explicitly optional and best-effort because current runtime and source-access constraints make it too fragile for the required regression gate.
-- the E2E test should be hermetic by default and use temporary paths rather than mutating checked-in data artifacts.
-- the implemented PAP-246 validation path should seed minimal sample parsed inputs for both Transfermarkt and FBref so similarity, valuation, and dashboard-facing artifacts are provably non-empty in the happy path.
-- the primary operator entrypoints for PAP-246 should be `python3 -m unittest tests.test_e2e_dashboard_flow` and `python3 scripts/verify_dashboard_flow.py`.
-- backend/API and dashboard-client validation should be optional-in-environment and skip cleanly when FastAPI is unavailable, while still requiring the core pipeline/artifact stages to pass.
+## Extraction Hardening Decisions Added in PAP-242 Implementation
+- source scrape payloads should now include explicit `diagnostics` metadata so partial, invalid, and blocked extraction outcomes are first-class states rather than inferred from empty arrays.
+- Transfermarkt extraction should prefer source-specific inline label parsing and season-shaped transfer-row detection over broad text-token heuristics.
+- FBref player-match-stat extraction should exclude per-90 tables from standard stat-row parsing and should treat challenge-page titles as access-state signals.
+- post-parse validation should classify outcomes as `success_complete`, `success_partial`, `schema_invalid`, `selector_missing`, or `challenge_page` before downstream consumers treat a scrape as healthy.
+- browser fetch readiness should be source-aware and should log selector-missing or challenge-detected states even when navigation itself succeeds.
+- live source-access blocking and parser correctness remain separate concerns: challenge pages may still produce placeholder metadata, but they should not be mistaken for successful stat extraction.
+
+## Persistence Audit Decisions Added in PAP-243 Planning
+- the active MVP persistence boundary remains artifact-first: scraped outputs persist to raw/parsed JSON and Silver/Gold artifacts, while the relational DB layer is currently scaffolded but not operational.
+- DB persistence should be added as a downstream ingestion step from Silver tables rather than by coupling ORM writes directly into scraper modules.
+- current `db_mapping` preview output in FBref scrape results should continue to be treated as a non-persisted preview until a real ingestion layer is implemented and verified.
+- persistence success should be verified explicitly with read-after-write counts and machine-readable reporting rather than inferred from the absence of exceptions.
+- Silver-shaped rows should be the canonical input for DB ingestion because they already normalize source-specific scraper outputs into table-oriented records.
+- future DB ingestion must resolve names into foreign keys (clubs, players, matches) before stat writes; direct insertion of raw scraped payloads into the current schema is not safe.
+- the implemented PAP-243 persistence path ingests normalized Silver tables into the DB rather than writing from scraper modules directly.
+- PAP-243 persistence verification should happen at two layers: Silver JSON read-after-write count checks and post-commit DB query checks.
+- the PAP-243 persistence layer should emit a machine-readable report artifact so validation failures and write outcomes are visible without reading raw logs.
+- fallback player creation during stat ingestion is acceptable for the current MVP when Silver stats contain a player/club pair not already present in player artifacts, but this should be revisited when stable cross-source IDs exist.
+- validated FBref scraping mechanisms under PAP-242 for selector completeness and full-render extraction fidelity
+- ensured pedant-driven reviews address empty/missing data paths with log-awareness rather than silent failure
 
 ## Critical Rule
 All future tasks MUST:
