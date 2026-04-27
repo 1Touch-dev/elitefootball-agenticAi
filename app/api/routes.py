@@ -6,8 +6,10 @@ from fastapi import APIRouter, HTTPException, Query
 
 from app.agents.orchestrator import build_agent_summary, supported_task_kinds
 from app.api.data_access import (
+    ArtifactInvalidError,
     ArtifactUnavailableError,
     index_by_player_name,
+    inspect_dashboard_artifacts,
     load_kpi_rows,
     load_player_features,
     load_player_match_stats,
@@ -45,8 +47,17 @@ def summary() -> dict[str, object]:
     }
 
 
+@router.get("/dashboard/status")
+def dashboard_status() -> dict[str, object]:
+    return inspect_dashboard_artifacts()
+
+
 def _artifact_unavailable(detail: str) -> HTTPException:
     return HTTPException(status_code=503, detail=detail)
+
+
+def _artifact_invalid(detail: str) -> HTTPException:
+    return HTTPException(status_code=500, detail=detail)
 
 
 def _player_not_found(player_name: str) -> HTTPException:
@@ -74,6 +85,8 @@ def players(
         feature_index, kpi_index, valuation_index = _load_optional_indexes()
     except ArtifactUnavailableError as exc:
         raise _artifact_unavailable(str(exc)) from exc
+    except ArtifactInvalidError as exc:
+        raise _artifact_invalid(str(exc)) from exc
 
     include_set = {item.strip().lower() for item in include.split(",") if item.strip()}
     filtered_rows = []
@@ -121,6 +134,8 @@ def player_stats(
         stat_rows = load_player_match_stats(required=True)
     except ArtifactUnavailableError as exc:
         raise _artifact_unavailable(str(exc)) from exc
+    except ArtifactInvalidError as exc:
+        raise _artifact_invalid(str(exc)) from exc
 
     normalized_target = normalize_name(player_name)
     matching_rows = [row for row in stat_rows if normalize_name(row.get("player_name")) == normalized_target]
@@ -162,6 +177,8 @@ def compare(
         similarity_rows = load_similarity_rows(required=True)
     except ArtifactUnavailableError as exc:
         raise _artifact_unavailable(str(exc)) from exc
+    except ArtifactInvalidError as exc:
+        raise _artifact_invalid(str(exc)) from exc
 
     target_key = normalize_name(player_name)
     for row in similarity_rows:
@@ -189,6 +206,8 @@ def value(
         valuation_rows = load_valuation_rows(required=True)
     except ArtifactUnavailableError as exc:
         raise _artifact_unavailable(str(exc)) from exc
+    except ArtifactInvalidError as exc:
+        raise _artifact_invalid(str(exc)) from exc
 
     if player_name:
         target_key = normalize_name(player_name)

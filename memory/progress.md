@@ -72,6 +72,15 @@ Initial repository bootstrap completed at the scaffold level.
 - added PAP-241 compatibility tests in `tests/test_scraping_compatibility.py`
 - captured the current source-access findings in `PAP-241_TECHNICAL_COMPATIBILITY_REPORT.md`
 - added grunt handoff notes for PAP-241 at `GRUNT_HANDOFF_PAP-241.md`
+- completed architecture planning for PAP-245 dashboard rendering fixes in `ARCHITECT_PLAN_PAP-245.md`
+- confirmed the current dashboard is API-backed but still lacks explicit data-readiness visibility beyond `/health`
+- confirmed the current checkout still has empty Silver/Gold dashboard artifacts, so the UI needs to distinguish legitimate empty data from fetch failures and partial availability
+- identified a concrete compare-page rendering bug: valuation enrichment can overwrite similarity rows and hide `distance` / `similarity_score` fields instead of merging them
+- implemented PAP-245 dashboard readiness/status support plus Streamlit rendering fixes in `app/api/data_access.py`, `app/api/routes.py`, and the `dashboard/` pages
+- added explicit loading, empty, partial, and error-state handling so the dashboard now distinguishes empty artifacts from backend failures
+- fixed compare-page enrichment so valuation data augments similarity rows instead of replacing them
+- added PAP-245 coverage in `tests/test_data_access.py`, `tests/test_api_routes.py`, and `tests/test_dashboard_api_client.py`
+- documented implementation and review notes in `GRUNT_HANDOFF_PAP-245.md` and `PEDANT_HANDOFF_PAP-245.md`
 
 ## Next Steps
 - validate player similarity rankings against real player data and tune feature weighting if needed
@@ -104,6 +113,10 @@ Initial repository bootstrap completed at the scaffold level.
 - pedant-review PAP-240 event naming, INFO-vs-DEBUG verbosity, and whether `db.write.*` persistence logs are clear enough without implying real DB ingestion
 - implement PAP-242 by adding source compatibility probes plus browser-based FBref access validation so the team can confirm whether Playwright can clear or still hits the challenge path
 - pedant-reviewed PAP-241 probe classification naming; confirmed revised naming matched test expectations; and confirmed that the new `anti_bot_mitigation_required` flag makes the challenge context explicit before wiring the probe into operational scraper flows
+- implement PAP-245 by adding dashboard readiness/status support where missing and updating Streamlit pages to show explicit loading, empty, partial, and error states without breaking the API-first architecture
+- during PAP-245, fix compare-row enrichment so valuation data augments similarity rows instead of replacing them
+- pedant-review PAP-245 status classification, helper wording, and compare-row enrichment correctness with an emphasis on partial-data behavior
+- after PAP-245, implement PAP-246 for dashboard smoke validation or screenshot-based verification against a seeded non-empty backend
 
 ## Working Rules
 All future tasks MUST:

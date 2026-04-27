@@ -192,6 +192,14 @@
 - the probe explicitly detects and classifies Cloudflare challenges as `challenge_page`
 - each statically-probed source URL captures a final status classification plus indicator remarks for deeper diagnostics
 
+## Dashboard Rendering Decisions Added in PAP-245 Planning
+- the dashboard should remain API-first and artifact-backed; PAP-245 should improve rendering and readiness visibility rather than moving the UI to direct artifact or DB reads.
+- the UI must distinguish at least four user-visible states: backend unreachable, artifacts empty, partial data availability, and ready data.
+- `/health` alone is insufficient for dashboard readiness; the preferred backend support is a dedicated `/dashboard/status` endpoint when that visibility is not already present in the checkout.
+- the compare page should preserve similarity fields during valuation enrichment by merging rows rather than replacing them.
+- the dashboard home view should use a dedicated data-readiness signal (`/dashboard/status`) rather than relying only on `/health` when explaining whether data is renderable.
+- page-level rendering should fail only when the page's primary dataset is unavailable; secondary sections like match stats or comparison results should degrade at section scope instead of blanking the whole page.
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work

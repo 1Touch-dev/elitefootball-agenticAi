@@ -39,6 +39,9 @@ class DashboardAPIClient:
     def get_health(self) -> dict[str, Any]:
         return self._get("/health")
 
+    def get_dashboard_status(self) -> dict[str, Any]:
+        return self._get("/dashboard/status")
+
     def get_players(
         self,
         *,

@@ -3,22 +3,36 @@ from __future__ import annotations
 import streamlit as st
 
 from dashboard.api_client import DashboardAPIClient, DashboardAPIError
+from dashboard.helpers import dashboard_status_message, explain_players_empty, explain_stats_issue
 
 
 st.set_page_config(page_title="Player Dashboard", layout="wide")
 st.title("Player")
 
 client = DashboardAPIClient()
+status_payload = None
 
 try:
-    player_payload = client.get_players(limit=200)
+    with st.spinner("Loading player data..."):
+        status_payload = client.get_dashboard_status()
+        player_payload = client.get_players(limit=200)
 except DashboardAPIError as exc:
     st.error(str(exc))
     st.stop()
 
+level, message = dashboard_status_message(status_payload)
+if level == "warning":
+    st.warning(message)
+elif level == "info":
+    st.info(message)
+elif level == "error":
+    st.error(message)
+else:
+    st.success(message)
+
 players = player_payload.get("items", [])
 if not players:
-    st.warning("No player data is available yet. Run the backend pipeline and refresh.")
+    st.warning(explain_players_empty(status_payload))
     st.stop()
 
 player_names = [row.get("player_name", "unknown-player") for row in players]
@@ -61,11 +75,12 @@ with kpi_col:
 st.divider()
 st.subheader("Recent match stats")
 try:
-    stats_payload = client.get_player_stats(selected_player, limit=20)
+    with st.spinner("Loading recent match stats..."):
+        stats_payload = client.get_player_stats(selected_player, limit=20)
     stats_rows = stats_payload.get("items", [])
     if stats_rows:
-        st.dataframe(stats_rows, use_container_width=True)
+        st.dataframe(stats_rows, use_container_width=True, hide_index=True)
     else:
-        st.info("No match stats available for this player yet.")
+        st.info(explain_stats_issue(status_payload))
 except DashboardAPIError as exc:
-    st.warning(str(exc))
+    st.warning(f"{explain_stats_issue(status_payload)} {exc}")

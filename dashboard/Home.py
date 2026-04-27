@@ -3,6 +3,7 @@ from __future__ import annotations
 import streamlit as st
 
 from dashboard.api_client import DashboardAPIClient, DashboardAPIError
+from dashboard.helpers import artifact_summary_rows, dashboard_status_message
 
 
 st.set_page_config(page_title="elitefootball-agenticAi Dashboard", layout="wide")
@@ -24,8 +25,22 @@ with col1:
 with col2:
     st.markdown("### Backend status")
     try:
-        health = client.get_health()
-        st.success(f"API reachable: {health.get('status', 'unknown')}")
+        with st.spinner("Loading dashboard status..."):
+            health = client.get_health()
+            status_payload = client.get_dashboard_status()
+        level, message = dashboard_status_message(status_payload)
+        if level == "success":
+            st.success(f"API reachable: {health.get('status', 'unknown')}. {message}")
+        elif level == "warning":
+            st.warning(f"API reachable: {health.get('status', 'unknown')}. {message}")
+        elif level == "error":
+            st.error(f"API reachable: {health.get('status', 'unknown')}. {message}")
+        else:
+            st.info(f"API reachable: {health.get('status', 'unknown')}. {message}")
+
+        summary_rows = artifact_summary_rows(status_payload)
+        if summary_rows:
+            st.dataframe(summary_rows, use_container_width=True, hide_index=True)
     except DashboardAPIError as exc:
         st.error(str(exc))
 
