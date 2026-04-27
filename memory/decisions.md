@@ -199,6 +199,7 @@
 - the compare page should preserve similarity fields during valuation enrichment by merging rows rather than replacing them.
 - the dashboard home view should use a dedicated data-readiness signal (`/dashboard/status`) rather than relying only on `/health` when explaining whether data is renderable.
 - page-level rendering should fail only when the page's primary dataset is unavailable; secondary sections like match stats or comparison results should degrade at section scope instead of blanking the whole page.
+- strengthened the clarity of dashboard state messaging to ensure users understand whether data is actually ready or only partially available.
 
 ## Critical Rule
 All future tasks MUST:
