@@ -3,7 +3,7 @@ from __future__ import annotations
 import streamlit as st
 
 from dashboard.api_client import DashboardAPIClient, DashboardAPIError
-from dashboard.helpers import dashboard_status_message, explain_players_empty, explain_stats_issue
+from dashboard.helpers import build_dashboard_state, explain_players_empty, explain_stats_issue, placeholder_message_lines
 
 
 st.set_page_config(page_title="Player Dashboard", layout="wide")
@@ -11,28 +11,38 @@ st.title("Player")
 
 client = DashboardAPIClient()
 status_payload = None
+player_payload = {"items": []}
+backend_error = None
 
 try:
     with st.spinner("Loading player data..."):
         status_payload = client.get_dashboard_status()
         player_payload = client.get_players(limit=200)
 except DashboardAPIError as exc:
-    st.error(str(exc))
-    st.stop()
+    backend_error = str(exc)
 
-level, message = dashboard_status_message(status_payload)
-if level == "warning":
-    st.warning(message)
-elif level == "info":
-    st.info(message)
-elif level == "error":
-    st.error(message)
+state = build_dashboard_state(status_payload, backend_error=backend_error)
+if state["level"] == "warning":
+    st.warning(f"{state['title']}: {state['message']}")
+elif state["level"] == "info":
+    st.info(f"{state['title']}: {state['message']}")
+elif state["level"] == "error":
+    st.error(f"{state['title']}: {state['message']}")
 else:
-    st.success(message)
+    st.success(f"{state['title']}: {state['message']}")
 
-players = player_payload.get("items", [])
+for line in placeholder_message_lines(state)[1:]:
+    st.caption(line)
+
+if st.button("Retry player data", key="retry-player-page"):
+    st.rerun()
+
+players = player_payload.get("items", []) if isinstance(player_payload, dict) else []
 if not players:
-    st.warning(explain_players_empty(status_payload))
+    empty_state = build_dashboard_state(status_payload, no_records_label="players")
+    st.info(explain_players_empty(status_payload))
+    for line in placeholder_message_lines(empty_state)[1:]:
+        st.caption(line)
     st.stop()
 
 player_names = [row.get("player_name", "unknown-player") for row in players]
@@ -57,7 +67,9 @@ with value_col:
         st.write(f"**Tier:** {valuation.get('valuation_tier') or '—'}")
         st.write(f"**Model:** {valuation.get('model_version') or '—'}")
     else:
-        st.info("No valuation data available for this player yet.")
+        st.info("No valuation data is available for this player yet.")
+        if state.get("last_sync"):
+            st.caption(f"Last successful sync: {state['last_sync']}")
 
 kpi = selected_row.get("kpi") or {}
 features = selected_row.get("features") or {}
@@ -70,7 +82,9 @@ with kpi_col:
         st.metric("Matches", features.get("matches", "—"))
         st.metric("Goal contribution/90", features.get("goal_contribution_per_90", "—"))
     else:
-        st.info("No KPI or feature data available for this player yet.")
+        st.info("No KPI or feature data is available for this player yet.")
+        if state.get("last_sync"):
+            st.caption(f"Last successful sync: {state['last_sync']}")
 
 st.divider()
 st.subheader("Recent match stats")
@@ -81,6 +95,12 @@ try:
     if stats_rows:
         st.dataframe(stats_rows, use_container_width=True, hide_index=True)
     else:
+        no_records_state = build_dashboard_state(status_payload, no_records_label="recent match records")
         st.info(explain_stats_issue(status_payload))
+        for line in placeholder_message_lines(no_records_state)[1:]:
+            st.caption(line)
 except DashboardAPIError as exc:
-    st.warning(f"{explain_stats_issue(status_payload)} {exc}")
+    error_state = build_dashboard_state(status_payload, backend_error=str(exc))
+    st.warning(explain_stats_issue(status_payload))
+    for line in placeholder_message_lines(error_state):
+        st.caption(line)

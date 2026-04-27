@@ -213,6 +213,15 @@
 - fallback player creation during stat ingestion is acceptable for the current MVP when Silver stats contain a player/club pair not already present in player artifacts, but this should be revisited when stable cross-source IDs exist.
 - validated FBref scraping mechanisms under PAP-242 for selector completeness and full-render extraction fidelity
 - ensured pedant-driven reviews address empty/missing data paths with log-awareness rather than silent failure
+- PAP-247 should preserve the current artifact-backed dashboard architecture and improve UX by enriching `/dashboard/status` plus centralizing empty/error-state messaging in dashboard helpers.
+- based on pedant review, future changes should prioritize improving visibility of run metadata and evaluating succinctness of existing artifact states for comprehensive error interpretation.
+- dashboard pages should distinguish between `no data yet`, `partial data`, `upstream scrape/pipeline failure`, `backend unreachable`, and `no records found` rather than collapsing them into generic warnings.
+- last successful sync time should come from backend status metadata when available, with nullable/fallback behavior preferred over guessed failure claims.
+- retry behavior should remain UI-local (`st.button` + rerun) and should not introduce backend-side mutation or orchestration logic into the dashboard.
+- the implemented PAP-247 status payload should add sync/diagnostic metadata at the backend seam rather than teaching Streamlit pages to inspect filesystem state directly.
+- when explicit run metadata is unavailable, dashboard sync recency may fall back to artifact mtimes, but failure timestamps/messages should remain nullable unless the backend can state them with confidence.
+- Home, Player, and Compare should all render a visible placeholder or status explanation before stopping so the dashboard never appears silently broken.
+- valuation-enrichment failure on Compare should degrade separately from similarity rows so useful comparison output remains visible.
 
 ## Critical Rule
 All future tasks MUST:
