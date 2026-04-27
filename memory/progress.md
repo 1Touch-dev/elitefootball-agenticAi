@@ -103,7 +103,7 @@ Initial repository bootstrap completed at the scaffold level.
 - after PAP-240, implement PAP-241 to wire concrete IDV targets into `full_refresh` and add scrape runtime preflight checks
 - pedant-review PAP-240 event naming, INFO-vs-DEBUG verbosity, and whether `db.write.*` persistence logs are clear enough without implying real DB ingestion
 - implement PAP-242 by adding source compatibility probes plus browser-based FBref access validation so the team can confirm whether Playwright can clear or still hits the challenge path
-- pedant-review PAP-241 probe classification naming and challenge-page marker handling before wiring the probe into operational scraper flows
+- pedant-reviewed PAP-241 probe classification naming; confirmed revised naming matched test expectations; and confirmed that the new `anti_bot_mitigation_required` flag makes the challenge context explicit before wiring the probe into operational scraper flows
 
 ## Working Rules
 All future tasks MUST:

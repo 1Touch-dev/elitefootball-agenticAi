@@ -187,6 +187,11 @@
 - `challenge_page` is currently the canonical classification for Cloudflare-style blocked responses that return interstitial HTML rather than source content.
 - the current live compatibility evidence supports keeping Transfermarkt on a requests-first path for the tested page class while treating FBref as browser-validation-required.
 
+## Adjustments Made During PAP-241
+- `javascript_likely_required` was replaced with `anti_bot_mitigation_required` to improve clarity around access challenges
+- the probe explicitly detects and classifies Cloudflare challenges as `challenge_page`
+- each statically-probed source URL captures a final status classification plus indicator remarks for deeper diagnostics
+
 ## Critical Rule
 All future tasks MUST:
 - read memory before work

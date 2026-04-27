@@ -33,7 +33,7 @@ class TestScrapingCompatibility(unittest.TestCase):
         self.assertIsInstance(result, CompatibilityProbeResult)
         self.assertEqual(result.classification, "ok_static_html")
         self.assertFalse(result.challenge_detected)
-        self.assertFalse(result.javascript_likely_required)
+        self.assertFalse(result.anti_bot_mitigation_required)
         self.assertGreaterEqual(result.selector_like_markers_found, 2)
 
     def test_fbref_challenge_classifies_challenge_page(self):
@@ -53,7 +53,7 @@ class TestScrapingCompatibility(unittest.TestCase):
 
         self.assertEqual(result.classification, "challenge_page")
         self.assertTrue(result.challenge_detected)
-        self.assertTrue(result.javascript_likely_required)
+        self.assertTrue(result.anti_bot_mitigation_required)
         self.assertIn("__cf_bm", result.cookies_seen)
 
     def test_request_exception_raises_static_probe_error(self):

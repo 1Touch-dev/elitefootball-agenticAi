@@ -40,7 +40,7 @@ class CompatibilityProbeResult:
     html_length: int
     elapsed_ms: float
     challenge_detected: bool
-    javascript_likely_required: bool
+    anti_bot_mitigation_required: bool
     selector_like_markers_found: int
     marker_hits: list[str]
     cookies_seen: list[str]
@@ -83,7 +83,7 @@ def _classify_response(*, source: str, status_code: int | None, html: str, marke
     challenge_detected = status_code in {401, 403, 429} or any(marker in normalized_html for marker in CHALLENGE_MARKERS) or headers_seen.get("cf-mitigated", "").lower() == "challenge"
     if challenge_detected:
         notes.append("Challenge or access-protection markers detected in response.")
-        return "challenge_page", True, True, notes
+        return "challenge_page", True, True, notes + ["Anti-bot mitigation likely needed."]
 
     if status_code is None:
         notes.append("No HTTP status code was captured.")
@@ -161,7 +161,7 @@ def probe_static_request(
         html_length=len(html),
         elapsed_ms=elapsed_ms,
         challenge_detected=challenge_detected,
-        javascript_likely_required=javascript_likely_required,
+        anti_bot_mitigation_required=javascript_likely_required,
         selector_like_markers_found=marker_count,
         marker_hits=marker_hits,
         cookies_seen=cookies_seen,
