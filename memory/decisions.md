@@ -213,6 +213,15 @@
 - fallback player creation during stat ingestion is acceptable for the current MVP when Silver stats contain a player/club pair not already present in player artifacts, but this should be revisited when stable cross-source IDs exist.
 - validated FBref scraping mechanisms under PAP-242 for selector completeness and full-render extraction fidelity
 - ensured pedant-driven reviews address empty/missing data paths with log-awareness rather than silent failure
+- PAP-226 full-system validation should use deterministic seeded scrape-like artifacts as the default regression gate because live scrape execution remains too environment-sensitive for reliable CI-style validation.
+- the full-system validator should report PASS / FAIL / SKIP by stage so missing runtime dependencies are explicit rather than looking like silent success or generic failure.
+- DB ingestion, backend-route validation, and dashboard-client validation may skip when required runtime dependencies are absent locally, but the workflow should still exercise Bronze, Silver, and downstream analysis artifacts in every environment.
+- PAP-227 should extend the existing seeded full-system validator rather than create a second competing end-to-end framework.
+- PAP-227 should introduce explicit release-readiness rollups (`READY`, `READY_WITH_LIMITATIONS`, `NOT_READY`) so dependency-limited validation is not mistaken for fully release-ready verification.
+- the required full-pipeline contract for PAP-227 remains seeded scrape-like inputs -> Bronze -> Silver -> DB verification when available -> KPI/analysis artifacts -> backend/dashboard contract checks when available.
+- PAP-227 implementation should keep `result.ok` aligned with release readiness semantics by treating `READY` and `READY_WITH_LIMITATIONS` as acceptable validation outcomes while reserving `NOT_READY` for executed-stage failures.
+- environment preflight reporting should surface SQLAlchemy, FastAPI, and Playwright availability at the top of the validation report so operators can immediately distinguish dependency limits from regressions.
+- README guidance for the full-system validator should explicitly document readiness rollups and clarify that seeded validation is the required regression gate while live scraping remains optional best-effort verification.
 
 ## Critical Rule
 All future tasks MUST:

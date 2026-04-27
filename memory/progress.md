@@ -124,6 +124,19 @@ Initial repository bootstrap completed at the scaffold level.
 - implement PAP-243 by adding a real Silver-to-DB ingestion layer, persistence reporting, and verification queries without breaking the artifact-first pipeline
 - pedant-review PAP-243 identity/upsert rules, persistence status classification, and whether fallback player creation is conservative enough for current source variance
 - after PAP-243, decide whether API/dashboard reads should remain artifact-backed or gain an optional DB-backed path in a separate follow-up ticket
+- implemented PAP-226 full-system validation workflow in `tests/e2e_full_pipeline_support.py`, `tests/test_e2e_full_system.py`, and `scripts/verify_full_system_flow.py`
+- added a one-command seeded validation path that exercises Bronze, Silver, downstream analysis, optional DB ingestion, and optional backend/dashboard-client verification with explicit PASS / FAIL / SKIP reporting
+- verified PAP-226 locally with fixture-driven stages; current environment skips DB because `sqlalchemy` is missing and skips backend/dashboard stages because `fastapi` is missing
+- next pedant phase should review whether the skip semantics are too permissive and whether DB/API/UI stages should become hard requirements in CI-ready environments
+- completed architecture planning for PAP-227 as a tightening pass on the existing full-system validator rather than a new parallel framework
+- documented PAP-227 implementation guidance in `ARCHITECT_PLAN_PAP-227.md`, `GRUNT_HANDOFF_PAP-227.md`, and `PEDANT_HANDOFF_PAP-227.md`
+- defined new planning goals for PAP-227: explicit environment-readiness preflight, stricter stage contract for scrape -> DB -> KPI -> UI, and final readiness rollups (`READY`, `READY_WITH_LIMITATIONS`, `NOT_READY`)
+- next implementation step is to extend the current seeded validator so it communicates release readiness more clearly without breaking the artifact-first architecture
+- implemented PAP-227 by tightening the existing full-system validator instead of creating a parallel framework
+- added environment preflight reporting for SQLAlchemy, FastAPI, and Playwright availability in `tests/e2e_full_pipeline_support.py`
+- added explicit full-pipeline readiness rollups (`READY`, `READY_WITH_LIMITATIONS`, `NOT_READY`) to the seeded validation output and kept the artifact-first architecture intact
+- updated `tests/test_e2e_full_system.py` and `README.md` so the stricter PAP-227 contract is exercised and documented
+- verified PAP-227 locally: seeded full-pipeline stages pass and current environment reports `READY_WITH_LIMITATIONS` because SQLAlchemy, FastAPI, and Playwright are unavailable
 
 ## Working Rules
 All future tasks MUST:

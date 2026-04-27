@@ -1,5 +1,11 @@
 function appendValue(value) {
-    document.getElementById('result').value += value;
+    const display = document.getElementById('result');
+    // Prevent multiple operators in a row
+    const lastChar = display.value[display.value.length - 1];
+    if (['+', '-', '*', '/'].includes(lastChar) && ['+', '-', '*', '/'].includes(value)) {
+        return;
+    }
+    display.value += value;
 }
 
 function clearDisplay() {
