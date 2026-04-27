@@ -51,7 +51,7 @@ class TestDataAccess(unittest.TestCase):
         with self.assertRaises(ArtifactInvalidError):
             load_players(required=True)
 
-    def test_inspect_dashboard_artifacts_reports_partial_when_required_data_missing_rows(self):
+    def test_inspect_dashboard_artifacts_reports_missing_vs_ready(self):
         self.players_path.write_text(json.dumps([{"player_name": "Patrik Mercado"}]), encoding="utf-8")
         self.stats_path.write_text("[]", encoding="utf-8")
         self.features_path.write_text("[]", encoding="utf-8")

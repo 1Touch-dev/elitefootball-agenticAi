@@ -12,6 +12,7 @@ from app.scraping.fbref_parsers import (
     parse_fbref_player_per_90,
 )
 from app.scraping.storage import save_parsed_payload, save_raw_html, slugify
+from app.scraping.validation import validate_fbref_payload
 from app.services.logging_service import get_logger, log_event, log_exception
 
 
@@ -37,6 +38,12 @@ def scrape_fbref_page(url: str, *, slug: str | None = None, headless: bool = Tru
         match_payload = parse_fbref_match_payload(html, url)
         player_match_stats = parse_fbref_player_match_stats(html, url)
         player_per_90 = parse_fbref_player_per_90(html, url)
+        diagnostics = validate_fbref_payload(
+            match_payload,
+            player_match_stats,
+            player_per_90,
+            challenge_detected=bool(match_payload.get("challenge_detected")),
+        )
         db_mapping = {
             "match": map_fbref_match_to_db(match_payload),
             "stats": [map_fbref_stat_to_db(row) for row in player_match_stats],
@@ -46,10 +53,12 @@ def scrape_fbref_page(url: str, *, slug: str | None = None, headless: bool = Tru
             logging.INFO,
             "scrape.records_extracted",
             match_found=bool(match_payload.get("external_id") or match_payload.get("title")),
-            player_match_stats_count=len(player_match_stats),
-            per90_count=len(player_per_90),
+            player_match_stats_count=diagnostics["record_counts"]["player_match_stats"],
+            per90_count=diagnostics["record_counts"]["player_per_90"],
             db_match_write_attempted=bool(db_mapping.get("match")),
             db_stat_write_attempted=len(db_mapping.get("stats", [])),
+            extraction_status=diagnostics["extraction_status"],
+            missing_required_fields=diagnostics["missing_required_fields"],
             **context,
         )
         log_event(
@@ -62,18 +71,30 @@ def scrape_fbref_page(url: str, *, slug: str | None = None, headless: bool = Tru
             persisted=False,
             **context,
         )
-        if not player_match_stats and not player_per_90:
-            log_event(logger, logging.WARNING, "scrape.empty_result", match_found=bool(match_payload.get("external_id") or match_payload.get("title")), player_match_stats_count=0, per90_count=0, **context)
+        if diagnostics["extraction_status"] != "success_complete":
+            log_event(logger, logging.WARNING, "diagnostics.incomplete_extraction", **diagnostics, **context)
+            log_event(
+                logger,
+                logging.WARNING,
+                "scrape.empty_result",
+                match_found=bool(match_payload.get("external_id") or match_payload.get("title")),
+                player_match_stats_count=diagnostics["record_counts"]["player_match_stats"],
+                per90_count=diagnostics["record_counts"]["player_per_90"],
+                extraction_status=diagnostics["extraction_status"],
+                missing_required_fields=diagnostics["missing_required_fields"],
+                **context,
+            )
 
         payload = {
             "match": match_payload,
             "player_match_stats": player_match_stats,
             "player_per_90": player_per_90,
             "db_mapping": db_mapping,
+            "diagnostics": diagnostics,
         }
         parsed_path = save_parsed_payload(runtime_slug, payload, directory=settings.fbref_parsed_data_dir)
         log_event(logger, logging.INFO, "scrape.parsed_saved", parsed_data_path=parsed_path, **context)
-        log_event(logger, logging.INFO, "scrape.success", parsed_data_path=parsed_path, raw_html_path=raw_path, **context)
+        log_event(logger, logging.INFO, "scrape.success", parsed_data_path=parsed_path, raw_html_path=raw_path, extraction_status=diagnostics["extraction_status"], **context)
 
         return {
             "slug": runtime_slug,

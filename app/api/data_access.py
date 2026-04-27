@@ -86,17 +86,17 @@ def inspect_artifact(name: str, *, required: bool = True, sample_limit: int = 3)
 
 def inspect_dashboard_artifacts(sample_limit: int = 3) -> dict[str, Any]:
     artifacts = {
-        name: inspect_artifact(name, required=(name in REQUIRED_DASHBOARD_ARTIFACTS), sample_limit=sample_limit)
+        name: inspect_artifact(name, required=(name in {"players", "player_match_stats", "similarity", "valuation"}), sample_limit=sample_limit)
         for name in ARTIFACT_PATHS
     }
     states = {artifact["state"] for artifact in artifacts.values()}
-    if "invalid" in states:
+    if any(state == "invalid" for state in states):
         status = "artifact_invalid"
-    elif "missing" in states:
+    elif any(state == "missing" for state in states):
         status = "artifact_missing"
     elif all(artifact["row_count"] == 0 for artifact in artifacts.values()):
         status = "empty"
-    elif any(artifact["row_count"] == 0 for artifact in artifacts.values() if artifact["required"]):
+    elif any(state == "empty" for state in states):
         status = "partial"
     else:
         status = "ready"
