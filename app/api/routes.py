@@ -10,10 +10,14 @@ from app.api.data_access import (
     ArtifactUnavailableError,
     index_by_player_name,
     inspect_dashboard_artifacts,
+    load_advanced_metric_rows,
+    load_club_benchmark_rows,
     load_kpi_rows,
+    load_pathway_rows,
     load_player_features,
     load_player_match_stats,
     load_players,
+    load_risk_rows,
     load_similarity_rows,
     load_valuation_rows,
     normalize_name,
@@ -222,3 +226,94 @@ def value(
 
     paged_rows = paginate(filtered_rows, offset=offset, limit=limit)
     return {"count": len(filtered_rows), "items": paged_rows}
+
+
+@router.get("/pathway/{player_name}")
+def pathway(player_name: str) -> dict[str, object]:
+    try:
+        rows = load_pathway_rows(required=False)
+    except (ArtifactUnavailableError, ArtifactInvalidError):
+        rows = []
+    target_key = normalize_name(player_name)
+    for row in rows:
+        if normalize_name(row.get("player_name")) == target_key:
+            return row
+    raise _player_not_found(player_name)
+
+
+@router.get("/pathway")
+def pathway_list(
+    limit: int = Query(default=20, ge=1, le=100),
+    offset: int = Query(default=0, ge=0),
+) -> dict[str, object]:
+    try:
+        rows = load_pathway_rows(required=False)
+    except (ArtifactUnavailableError, ArtifactInvalidError):
+        rows = []
+    paged = paginate(rows, offset=offset, limit=limit)
+    return {"count": len(rows), "items": paged}
+
+
+@router.get("/benchmark")
+def club_benchmark() -> dict[str, object]:
+    try:
+        rows = load_club_benchmark_rows(required=False)
+    except (ArtifactUnavailableError, ArtifactInvalidError):
+        rows = []
+    return {"count": len(rows), "items": rows}
+
+
+@router.get("/advanced-metrics")
+def advanced_metrics(
+    player_name: str | None = None,
+    limit: int = Query(default=50, ge=1, le=200),
+    offset: int = Query(default=0, ge=0),
+) -> dict[str, object]:
+    try:
+        rows = load_advanced_metric_rows(required=False)
+    except (ArtifactUnavailableError, ArtifactInvalidError):
+        rows = []
+    if player_name:
+        target_key = normalize_name(player_name)
+        rows = [r for r in rows if normalize_name(r.get("player_name")) == target_key]
+    paged = paginate(rows, offset=offset, limit=limit)
+    return {"count": len(rows), "items": paged}
+
+
+@router.post("/admin/pipeline/run")
+def admin_run_pipeline() -> dict[str, object]:
+    """Trigger a full pipeline run."""
+    try:
+        from app.pipeline.run_pipeline import run_pipeline
+        result = run_pipeline()
+        return {
+            "status": "ok",
+            "stages": {k: (len(v.get("rows", [])) if isinstance(v, dict) else "done") for k, v in result.items()},
+        }
+    except Exception as exc:
+        return {"status": "error", "message": str(exc)}
+
+
+@router.get("/admin/status")
+def admin_status() -> dict[str, object]:
+    """Admin overview: artifact readiness."""
+    from pathlib import Path
+    artifact_map = {
+        "players": Path("data/silver/players.json"),
+        "player_match_stats": Path("data/silver/player_match_stats.json"),
+        "player_features": Path("data/gold/player_features.json"),
+        "kpi": Path("data/gold/kpi_engine.json"),
+        "valuation": Path("data/gold/player_valuation.json"),
+        "pathway": Path("data/gold/player_pathway.json"),
+        "advanced_metrics": Path("data/gold/advanced_metrics.json"),
+        "club_benchmark": Path("data/gold/club_development_rankings.json"),
+        "risk": Path("data/gold/player_risk.json"),
+        "similarity": Path("data/gold/player_similarity.json"),
+    }
+    return {
+        "dashboard": inspect_dashboard_artifacts(),
+        "artifacts": {
+            name: {"exists": path.exists(), "path": str(path)}
+            for name, path in artifact_map.items()
+        },
+    }

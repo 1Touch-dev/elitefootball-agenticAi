@@ -22,10 +22,15 @@ class ArtifactInvalidError(ValueError):
 ARTIFACT_PATHS = {
     "players": DATA_ROOT / "silver" / "players.json",
     "player_match_stats": DATA_ROOT / "silver" / "player_match_stats.json",
+    "transfers": DATA_ROOT / "silver" / "transfers.json",
     "player_features": DATA_ROOT / "gold" / "player_features.json",
     "kpi": DATA_ROOT / "gold" / "kpi_engine.json",
     "similarity": DATA_ROOT / "gold" / "player_similarity.json",
     "valuation": DATA_ROOT / "gold" / "player_valuation.json",
+    "pathway": DATA_ROOT / "gold" / "player_pathway.json",
+    "advanced_metrics": DATA_ROOT / "gold" / "advanced_metrics.json",
+    "club_benchmark": DATA_ROOT / "gold" / "club_development_rankings.json",
+    "risk": DATA_ROOT / "gold" / "player_risk.json",
 }
 REQUIRED_DASHBOARD_ARTIFACTS = {"players", "player_match_stats", "similarity", "valuation"}
 
@@ -211,6 +216,22 @@ def load_similarity_rows(required: bool = True) -> list[dict[str, Any]]:
 
 def load_valuation_rows(required: bool = True) -> list[dict[str, Any]]:
     return _load_artifact("valuation", required=required)
+
+
+def load_pathway_rows(required: bool = False) -> list[dict[str, Any]]:
+    return _load_artifact("pathway", required=required)
+
+
+def load_advanced_metric_rows(required: bool = False) -> list[dict[str, Any]]:
+    return _load_artifact("advanced_metrics", required=required)
+
+
+def load_club_benchmark_rows(required: bool = False) -> list[dict[str, Any]]:
+    return _load_artifact("club_benchmark", required=required)
+
+
+def load_risk_rows(required: bool = False) -> list[dict[str, Any]]:
+    return _load_artifact("risk", required=required)
 
 
 def index_by_player_name(rows: Iterable[dict[str, Any]]) -> dict[str, dict[str, Any]]:
