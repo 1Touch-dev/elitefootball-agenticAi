@@ -1,0 +1,3476 @@
+[
+  {
+    "player_name": "Moisés Caicedo",
+    "age": 24,
+    "current_league": "Premier League",
+    "current_kpi": 14.862,
+    "current_valuation_score": 69.93,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 14.0,
+      "projected_value_eur": 47985000.0,
+      "minutes_probability": 0.95,
+      "simulation_confidence": 0.9175
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 69.93,
+        "projected_value_eur": 47985000.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.0,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 71.86,
+        "projected_value_eur": 36555200.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9654,
+        "factors": {
+          "league_difficulty": 1.0075,
+          "tactical_fit": 1.0319,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 72.84,
+        "projected_value_eur": 30481200.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.06,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 72.42,
+        "projected_value_eur": 30234600.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9664,
+        "factors": {
+          "league_difficulty": 1.018,
+          "tactical_fit": 1.0326,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 72.23,
+        "projected_value_eur": 26777600.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9653,
+        "factors": {
+          "league_difficulty": 1.015,
+          "tactical_fit": 1.0319,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 71.25,
+        "projected_value_eur": 22986600.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.027,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 71.97,
+        "projected_value_eur": 12489000.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.042,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 73.2,
+        "projected_value_eur": 10230600.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.0675,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 72.48,
+        "projected_value_eur": 10090200.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.0525,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 72.12,
+        "projected_value_eur": 5010000.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.045,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 14.0,
+        "projected_valuation_score": 75.35,
+        "projected_value_eur": 3196260.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.1125,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Piero Hincapié",
+    "age": 24,
+    "current_league": "Bundesliga",
+    "current_kpi": 11.511,
+    "current_valuation_score": 63.34,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 10.276,
+      "projected_value_eur": 38976000.0,
+      "minutes_probability": 0.8668,
+      "simulation_confidence": 0.881
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 10.276,
+        "projected_valuation_score": 60.28,
+        "projected_value_eur": 38976000.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.881,
+        "factors": {
+          "league_difficulty": 0.9318,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.12
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 10.974,
+        "projected_valuation_score": 63.12,
+        "projected_value_eur": 30485400.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9446,
+        "factors": {
+          "league_difficulty": 0.9608,
+          "tactical_fit": 1.0357,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.07
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 11.491,
+        "projected_valuation_score": 65.19,
+        "projected_value_eur": 26096400.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.905,
+        "factors": {
+          "league_difficulty": 1.042,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 11.406,
+        "projected_valuation_score": 64.85,
+        "projected_value_eur": 25905600.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9565,
+        "factors": {
+          "league_difficulty": 1.0,
+          "tactical_fit": 1.0343,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 11.294,
+        "projected_valuation_score": 64.41,
+        "projected_value_eur": 22808000.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9545,
+        "factors": {
+          "league_difficulty": 0.9889,
+          "tactical_fit": 1.0357,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.02
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 11.127,
+        "projected_valuation_score": 63.74,
+        "projected_value_eur": 19667200.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.905,
+        "factors": {
+          "league_difficulty": 1.009,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 11.292,
+        "projected_valuation_score": 64.4,
+        "projected_value_eur": 10689000.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.905,
+        "factors": {
+          "league_difficulty": 1.024,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 11.574,
+        "projected_valuation_score": 65.52,
+        "projected_value_eur": 8760000.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.905,
+        "factors": {
+          "league_difficulty": 1.0495,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 11.408,
+        "projected_valuation_score": 64.86,
+        "projected_value_eur": 8637000.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.905,
+        "factors": {
+          "league_difficulty": 1.0345,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 11.326,
+        "projected_valuation_score": 64.53,
+        "projected_value_eur": 4287900.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.905,
+        "factors": {
+          "league_difficulty": 1.027,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 12.07,
+        "projected_valuation_score": 67.47,
+        "projected_value_eur": 2738160.0,
+        "minutes_probability": 0.8668,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.905,
+        "factors": {
+          "league_difficulty": 1.0945,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Dylan Borrero",
+    "age": 25,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 7.611,
+    "current_valuation_score": 68.08,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 28966540.0,
+      "minutes_probability": 0.8616,
+      "simulation_confidence": 0.8346
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 49.63,
+        "projected_value_eur": 28966540.0,
+        "minutes_probability": 0.8616,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8346,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0336,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 6.625,
+        "projected_valuation_score": 62.45,
+        "projected_value_eur": 23974004.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8775,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 51.56,
+        "projected_value_eur": 22407581.0,
+        "minutes_probability": 0.8741,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8427,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.031,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.158,
+        "projected_valuation_score": 53.11,
+        "projected_value_eur": 19109663.0,
+        "minutes_probability": 0.8916,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8127,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.047,
+        "projected_valuation_score": 52.37,
+        "projected_value_eur": 16655443.0,
+        "minutes_probability": 0.8866,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.808,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.487,
+        "projected_valuation_score": 55.27,
+        "projected_value_eur": 15715355.0,
+        "minutes_probability": 0.9066,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.827,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.885,
+        "projected_valuation_score": 58.67,
+        "projected_value_eur": 9152835.0,
+        "minutes_probability": 0.8616,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8402,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 6.851,
+        "projected_valuation_score": 63.93,
+        "projected_value_eur": 8257674.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8875,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 6.448,
+        "projected_valuation_score": 62.55,
+        "projected_value_eur": 8008896.0,
+        "minutes_probability": 0.8616,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.9119,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0385,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.979,
+        "projected_valuation_score": 59.33,
+        "projected_value_eur": 3719085.0,
+        "minutes_probability": 0.8616,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8442,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 7.663,
+        "projected_valuation_score": 69.15,
+        "projected_value_eur": 2764948.0,
+        "minutes_probability": 0.95,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9175,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Luis Segovia",
+    "age": 25,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 9.185,
+    "current_valuation_score": 66.49,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.533,
+      "projected_value_eur": 28047524.0,
+      "minutes_probability": 0.8298,
+      "simulation_confidence": 0.8308
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.533,
+        "projected_valuation_score": 48.5,
+        "projected_value_eur": 28047524.0,
+        "minutes_probability": 0.8298,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8308,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0342,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 7.944,
+        "projected_valuation_score": 60.99,
+        "projected_value_eur": 23192549.0,
+        "minutes_probability": 0.9298,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8745,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.869,
+        "projected_valuation_score": 50.38,
+        "projected_value_eur": 21692856.0,
+        "minutes_probability": 0.8423,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8388,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0316,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 6.157,
+        "projected_valuation_score": 51.87,
+        "projected_value_eur": 18486254.0,
+        "minutes_probability": 0.8598,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.808,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 6.024,
+        "projected_valuation_score": 51.15,
+        "projected_value_eur": 16113790.0,
+        "minutes_probability": 0.8548,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8032,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 6.552,
+        "projected_valuation_score": 53.98,
+        "projected_value_eur": 15204531.0,
+        "minutes_probability": 0.8748,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8222,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 7.023,
+        "projected_valuation_score": 57.3,
+        "projected_value_eur": 8855033.0,
+        "minutes_probability": 0.8298,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8355,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 8.215,
+        "projected_valuation_score": 62.44,
+        "projected_value_eur": 7989579.0,
+        "minutes_probability": 0.9298,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8845,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 7.7,
+        "projected_valuation_score": 61.12,
+        "projected_value_eur": 7753679.0,
+        "minutes_probability": 0.8298,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.9084,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0393,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 7.135,
+        "projected_valuation_score": 57.94,
+        "projected_value_eur": 3597623.0,
+        "minutes_probability": 0.8298,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8395,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 9.189,
+        "projected_valuation_score": 67.53,
+        "projected_value_eur": 2674685.0,
+        "minutes_probability": 0.9298,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9145,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Alan Minda",
+    "age": 25,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 6.29,
+    "current_valuation_score": 64.29,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 26736318.0,
+      "minutes_probability": 0.7858,
+      "simulation_confidence": 0.8235
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 46.87,
+        "projected_value_eur": 26736318.0,
+        "minutes_probability": 0.7858,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8235,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0337,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 5.362,
+        "projected_valuation_score": 58.97,
+        "projected_value_eur": 22124852.0,
+        "minutes_probability": 0.8858,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8679,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 48.7,
+        "projected_value_eur": 20686232.0,
+        "minutes_probability": 0.7983,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8318,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0313,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 50.16,
+        "projected_value_eur": 17639824.0,
+        "minutes_probability": 0.8158,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8014,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 49.46,
+        "projected_value_eur": 15373895.0,
+        "minutes_probability": 0.8108,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7966,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 52.2,
+        "projected_value_eur": 14506587.0,
+        "minutes_probability": 0.8308,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8156,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 55.41,
+        "projected_value_eur": 8448940.0,
+        "minutes_probability": 0.7858,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8289,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 5.544,
+        "projected_valuation_score": 60.37,
+        "projected_value_eur": 7620802.0,
+        "minutes_probability": 0.8858,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8779,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 5.189,
+        "projected_valuation_score": 59.11,
+        "projected_value_eur": 7399536.0,
+        "minutes_probability": 0.7858,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.9022,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0395,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 56.02,
+        "projected_value_eur": 3431673.0,
+        "minutes_probability": 0.7858,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8329,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 6.202,
+        "projected_valuation_score": 65.3,
+        "projected_value_eur": 2551935.0,
+        "minutes_probability": 0.8858,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9079,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Óscar Zambrano",
+    "age": 25,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 10.123,
+    "current_valuation_score": 63.26,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.953,
+      "projected_value_eur": 26153885.0,
+      "minutes_probability": 0.7652,
+      "simulation_confidence": 0.8214
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.953,
+        "projected_valuation_score": 46.14,
+        "projected_value_eur": 26153885.0,
+        "minutes_probability": 0.7652,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8214,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0344,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 8.568,
+        "projected_valuation_score": 58.03,
+        "projected_value_eur": 21631393.0,
+        "minutes_probability": 0.8652,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8648,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 6.317,
+        "projected_valuation_score": 47.94,
+        "projected_value_eur": 20235505.0,
+        "minutes_probability": 0.7777,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8295,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0319,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 6.629,
+        "projected_valuation_score": 49.35,
+        "projected_value_eur": 17241193.0,
+        "minutes_probability": 0.7952,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7983,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 6.485,
+        "projected_valuation_score": 48.67,
+        "projected_value_eur": 15032045.0,
+        "minutes_probability": 0.7902,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7935,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 7.056,
+        "projected_valuation_score": 51.36,
+        "projected_value_eur": 14181517.0,
+        "minutes_probability": 0.8102,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8125,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 7.554,
+        "projected_valuation_score": 54.52,
+        "projected_value_eur": 8259430.0,
+        "minutes_probability": 0.7652,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8258,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 8.86,
+        "projected_valuation_score": 59.41,
+        "projected_value_eur": 7451633.0,
+        "minutes_probability": 0.8652,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8748,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 8.291,
+        "projected_valuation_score": 58.19,
+        "projected_value_eur": 7238562.0,
+        "minutes_probability": 0.7652,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.9002,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0403,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 7.674,
+        "projected_valuation_score": 55.13,
+        "projected_value_eur": 3355576.0,
+        "minutes_probability": 0.7652,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8298,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 9.911,
+        "projected_valuation_score": 64.25,
+        "projected_value_eur": 2494687.0,
+        "minutes_probability": 0.8652,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.9048,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Gabriel Villamil",
+    "age": 24,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 8.661,
+    "current_valuation_score": 56.94,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 23157000.0,
+      "minutes_probability": 0.6388,
+      "simulation_confidence": 0.8037
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 41.56,
+        "projected_value_eur": 23157000.0,
+        "minutes_probability": 0.6388,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8037,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0353,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 6.992,
+        "projected_valuation_score": 52.23,
+        "projected_value_eur": 19134000.0,
+        "minutes_probability": 0.7388,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8458,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.127,
+        "projected_valuation_score": 43.16,
+        "projected_value_eur": 17905800.0,
+        "minutes_probability": 0.6513,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8112,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0323,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.384,
+        "projected_valuation_score": 44.42,
+        "projected_value_eur": 15251400.0,
+        "minutes_probability": 0.6688,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7793,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.266,
+        "projected_valuation_score": 43.8,
+        "projected_value_eur": 13292800.0,
+        "minutes_probability": 0.6638,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7746,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.738,
+        "projected_valuation_score": 46.23,
+        "projected_value_eur": 12545400.0,
+        "minutes_probability": 0.6838,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7936,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 6.122,
+        "projected_valuation_score": 49.07,
+        "projected_value_eur": 7305750.0,
+        "minutes_probability": 0.6388,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8068,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 7.23,
+        "projected_valuation_score": 53.47,
+        "projected_value_eur": 6591000.0,
+        "minutes_probability": 0.7388,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8558,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 6.733,
+        "projected_valuation_score": 52.45,
+        "projected_value_eur": 6415800.0,
+        "minutes_probability": 0.6388,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8843,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0423,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 6.22,
+        "projected_valuation_score": 49.62,
+        "projected_value_eur": 2968200.0,
+        "minutes_probability": 0.6388,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8108,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 8.087,
+        "projected_valuation_score": 57.83,
+        "projected_value_eur": 2206620.0,
+        "minutes_probability": 0.7388,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.8858,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Willian Pacho",
+    "age": 24,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 10.421,
+    "current_valuation_score": 56.37,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.777,
+      "projected_value_eur": 22830000.0,
+      "minutes_probability": 0.6274,
+      "simulation_confidence": 0.8016
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.777,
+        "projected_valuation_score": 41.14,
+        "projected_value_eur": 22830000.0,
+        "minutes_probability": 0.6274,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8016,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.035,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 8.373,
+        "projected_valuation_score": 51.71,
+        "projected_value_eur": 18867600.0,
+        "minutes_probability": 0.7274,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8441,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.944,
+        "projected_valuation_score": 41.79,
+        "projected_value_eur": 17113800.0,
+        "minutes_probability": 0.6399,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.761,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 6.445,
+        "projected_valuation_score": 43.98,
+        "projected_value_eur": 15040800.0,
+        "minutes_probability": 0.6574,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7776,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 6.506,
+        "projected_valuation_score": 44.34,
+        "projected_value_eur": 13523200.0,
+        "minutes_probability": 0.6524,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8212,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0322,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 6.869,
+        "projected_valuation_score": 45.77,
+        "projected_value_eur": 12370400.0,
+        "minutes_probability": 0.6724,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7919,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 7.327,
+        "projected_valuation_score": 48.58,
+        "projected_value_eur": 7203750.0,
+        "minutes_probability": 0.6274,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8051,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 8.658,
+        "projected_valuation_score": 52.94,
+        "projected_value_eur": 6499800.0,
+        "minutes_probability": 0.7274,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8541,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 8.054,
+        "projected_valuation_score": 51.91,
+        "projected_value_eur": 6323400.0,
+        "minutes_probability": 0.6274,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8821,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.042,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 7.444,
+        "projected_valuation_score": 49.12,
+        "projected_value_eur": 2926200.0,
+        "minutes_probability": 0.6274,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8091,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 9.685,
+        "projected_valuation_score": 57.25,
+        "projected_value_eur": 2175660.0,
+        "minutes_probability": 0.7274,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.8841,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Alexis Zapata",
+    "age": 26,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 8.966,
+    "current_valuation_score": 58.45,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.068,
+      "projected_value_eur": 21763026.0,
+      "minutes_probability": 0.669,
+      "simulation_confidence": 0.8082
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.068,
+        "projected_valuation_score": 42.66,
+        "projected_value_eur": 21763026.0,
+        "minutes_probability": 0.669,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8082,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0352,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 7.325,
+        "projected_valuation_score": 53.62,
+        "projected_value_eur": 17984462.0,
+        "minutes_probability": 0.769,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8503,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.379,
+        "projected_valuation_score": 44.3,
+        "projected_value_eur": 16824601.0,
+        "minutes_probability": 0.6815,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8156,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0322,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.648,
+        "projected_valuation_score": 45.6,
+        "projected_value_eur": 14334732.0,
+        "minutes_probability": 0.699,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7838,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.699,
+        "projected_valuation_score": 45.96,
+        "projected_value_eur": 12882595.0,
+        "minutes_probability": 0.694,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8265,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0316,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 6.017,
+        "projected_valuation_score": 47.45,
+        "projected_value_eur": 11787241.0,
+        "minutes_probability": 0.714,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7981,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 6.426,
+        "projected_valuation_score": 50.37,
+        "projected_value_eur": 6865668.0,
+        "minutes_probability": 0.669,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8114,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 7.575,
+        "projected_valuation_score": 54.89,
+        "projected_value_eur": 6194322.0,
+        "minutes_probability": 0.769,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8603,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 7.019,
+        "projected_valuation_score": 53.58,
+        "projected_value_eur": 5988841.0,
+        "minutes_probability": 0.669,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8783,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0353,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 6.529,
+        "projected_valuation_score": 50.93,
+        "projected_value_eur": 2788940.0,
+        "minutes_probability": 0.669,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8154,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 8.473,
+        "projected_valuation_score": 59.37,
+        "projected_value_eur": 2074051.0,
+        "minutes_probability": 0.769,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.8903,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Tomás Molina",
+    "age": 22,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 5.853,
+    "current_valuation_score": 57.82,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 21406968.0,
+      "minutes_probability": 0.6564,
+      "simulation_confidence": 0.804
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 42.16,
+        "projected_value_eur": 21406968.0,
+        "minutes_probability": 0.6564,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.804,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0337,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 54.28,
+        "projected_value_eur": 18295945.0,
+        "minutes_probability": 0.7564,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.899,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0337,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 42.86,
+        "projected_value_eur": 16065192.0,
+        "minutes_probability": 0.6689,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7653,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 45.11,
+        "projected_value_eur": 14119466.0,
+        "minutes_probability": 0.6864,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.782,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 44.48,
+        "projected_value_eur": 12305654.0,
+        "minutes_probability": 0.6814,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7772,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 46.94,
+        "projected_value_eur": 11610934.0,
+        "minutes_probability": 0.7014,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7962,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 49.83,
+        "projected_value_eur": 6762384.0,
+        "minutes_probability": 0.6564,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8095,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 54.3,
+        "projected_value_eur": 6101366.0,
+        "minutes_probability": 0.7564,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8585,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 53.23,
+        "projected_value_eur": 5933938.0,
+        "minutes_probability": 0.6564,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8857,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0415,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 50.39,
+        "projected_value_eur": 2747626.0,
+        "minutes_probability": 0.6564,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8135,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 5.504,
+        "projected_valuation_score": 58.73,
+        "projected_value_eur": 2042903.0,
+        "minutes_probability": 0.7564,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.8885,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Michael Espinoza",
+    "age": 22,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 8.574,
+    "current_valuation_score": 57.06,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 21010140.0,
+      "minutes_probability": 0.6412,
+      "simulation_confidence": 0.8016
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 41.6,
+        "projected_value_eur": 21010140.0,
+        "minutes_probability": 0.6412,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8016,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0336,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 7.168,
+        "projected_valuation_score": 53.6,
+        "projected_value_eur": 17974678.0,
+        "minutes_probability": 0.7412,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8981,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0346,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 42.3,
+        "projected_value_eur": 15772192.0,
+        "minutes_probability": 0.6537,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7631,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.336,
+        "projected_valuation_score": 44.52,
+        "projected_value_eur": 13861800.0,
+        "minutes_probability": 0.6712,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7797,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.218,
+        "projected_valuation_score": 43.9,
+        "projected_value_eur": 12082416.0,
+        "minutes_probability": 0.6662,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7749,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.686,
+        "projected_valuation_score": 46.33,
+        "projected_value_eur": 11400379.0,
+        "minutes_probability": 0.6862,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7939,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 6.068,
+        "projected_valuation_score": 49.18,
+        "projected_value_eur": 6639394.0,
+        "minutes_probability": 0.6412,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8072,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 7.164,
+        "projected_valuation_score": 53.58,
+        "projected_value_eur": 5988841.0,
+        "minutes_probability": 0.7412,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8562,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 6.675,
+        "projected_valuation_score": 52.57,
+        "projected_value_eur": 5831197.0,
+        "minutes_probability": 0.6412,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8852,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0427,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 6.164,
+        "projected_valuation_score": 49.72,
+        "projected_value_eur": 2696800.0,
+        "minutes_probability": 0.6412,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8112,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 8.014,
+        "projected_valuation_score": 57.96,
+        "projected_value_eur": 2005558.0,
+        "minutes_probability": 0.7412,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.8862,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Sebastián Rodríguez",
+    "age": 28,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 10.745,
+    "current_valuation_score": 58.19,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 6.018,
+      "projected_value_eur": 15968362.0,
+      "minutes_probability": 0.6638,
+      "simulation_confidence": 0.7967
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 6.018,
+        "projected_valuation_score": 42.26,
+        "projected_value_eur": 15968362.0,
+        "minutes_probability": 0.6638,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7967,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0281,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 8.761,
+        "projected_valuation_score": 53.38,
+        "projected_value_eur": 13287568.0,
+        "minutes_probability": 0.7638,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8496,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 6.374,
+        "projected_valuation_score": 43.83,
+        "projected_value_eur": 12323647.0,
+        "minutes_probability": 0.6763,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.8009,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.023,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 6.754,
+        "projected_valuation_score": 45.4,
+        "projected_value_eur": 10592225.0,
+        "minutes_probability": 0.6938,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7831,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 6.766,
+        "projected_valuation_score": 45.53,
+        "projected_value_eur": 9453033.0,
+        "minutes_probability": 0.6888,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8148,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0243,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 7.195,
+        "projected_valuation_score": 47.24,
+        "projected_value_eur": 8709917.0,
+        "minutes_probability": 0.7088,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7973,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 7.683,
+        "projected_valuation_score": 50.15,
+        "projected_value_eur": 5073218.0,
+        "minutes_probability": 0.6638,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8106,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 9.059,
+        "projected_valuation_score": 54.64,
+        "projected_value_eur": 4576304.0,
+        "minutes_probability": 0.7638,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8596,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 8.348,
+        "projected_valuation_score": 53.15,
+        "projected_value_eur": 4402515.0,
+        "minutes_probability": 0.6638,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8694,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0299,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 7.806,
+        "projected_valuation_score": 50.71,
+        "projected_value_eur": 2061014.0,
+        "minutes_probability": 0.6638,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8146,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 10.134,
+        "projected_valuation_score": 59.1,
+        "projected_value_eur": 1532332.0,
+        "minutes_probability": 0.7638,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.8896,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Carlos Gutiérrez",
+    "age": 28,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 8.416,
+    "current_valuation_score": 52.04,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 13670712.0,
+      "minutes_probability": 0.5408,
+      "simulation_confidence": 0.7793
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 37.82,
+        "projected_value_eur": 13670712.0,
+        "minutes_probability": 0.5408,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7793,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0288,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 6.51,
+        "projected_valuation_score": 47.74,
+        "projected_value_eur": 11364575.0,
+        "minutes_probability": 0.6408,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8311,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 39.21,
+        "projected_value_eur": 10543861.0,
+        "minutes_probability": 0.5533,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7832,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0235,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 40.6,
+        "projected_value_eur": 9058438.0,
+        "minutes_probability": 0.5708,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7646,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 40.74,
+        "projected_value_eur": 8090744.0,
+        "minutes_probability": 0.5658,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7976,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0252,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.323,
+        "projected_valuation_score": 42.25,
+        "projected_value_eur": 7449073.0,
+        "minutes_probability": 0.5858,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7789,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.659,
+        "projected_valuation_score": 44.85,
+        "projected_value_eur": 4338658.0,
+        "minutes_probability": 0.5408,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7921,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 6.732,
+        "projected_valuation_score": 48.87,
+        "projected_value_eur": 3914290.0,
+        "minutes_probability": 0.6408,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8411,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 6.16,
+        "projected_valuation_score": 47.59,
+        "projected_value_eur": 3771621.0,
+        "minutes_probability": 0.5408,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8537,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0317,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.749,
+        "projected_valuation_score": 45.35,
+        "projected_value_eur": 1762744.0,
+        "minutes_probability": 0.5408,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.7961,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 7.53,
+        "projected_valuation_score": 52.86,
+        "projected_value_eur": 1310691.0,
+        "minutes_probability": 0.6408,
+        "adaptation_months": 3,
+        "simulation_confidence": 0.8711,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Kendry Páez",
+    "age": 18,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 14.184,
+    "current_valuation_score": 59.84,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 7.73,
+      "projected_value_eur": 10180892.0,
+      "minutes_probability": 0.5968,
+      "simulation_confidence": 0.7939
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 7.73,
+        "projected_valuation_score": 43.6,
+        "projected_value_eur": 10180892.0,
+        "minutes_probability": 0.5968,
+        "adaptation_months": 9,
+        "simulation_confidence": 0.7939,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0329,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 11.637,
+        "projected_valuation_score": 56.2,
+        "projected_value_eur": 8715484.0,
+        "minutes_probability": 0.6968,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.891,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0343,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 7.972,
+        "projected_valuation_score": 44.36,
+        "projected_value_eur": 7648680.0,
+        "minutes_probability": 0.6093,
+        "adaptation_months": 9,
+        "simulation_confidence": 0.7564,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 8.927,
+        "projected_valuation_score": 47.73,
+        "projected_value_eur": 6933613.0,
+        "minutes_probability": 0.6268,
+        "adaptation_months": 7,
+        "simulation_confidence": 0.8214,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0323,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 8.456,
+        "projected_valuation_score": 46.03,
+        "projected_value_eur": 5858011.0,
+        "minutes_probability": 0.6218,
+        "adaptation_months": 7,
+        "simulation_confidence": 0.7683,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 9.22,
+        "projected_valuation_score": 48.58,
+        "projected_value_eur": 5528062.0,
+        "minutes_probability": 0.6418,
+        "adaptation_months": 7,
+        "simulation_confidence": 0.7873,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 9.824,
+        "projected_valuation_score": 51.57,
+        "projected_value_eur": 3219530.0,
+        "minutes_probability": 0.5968,
+        "adaptation_months": 7,
+        "simulation_confidence": 0.8005,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 11.634,
+        "projected_valuation_score": 56.19,
+        "projected_value_eur": 2904422.0,
+        "minutes_probability": 0.6968,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.8495,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 10.722,
+        "projected_valuation_score": 54.83,
+        "projected_value_eur": 2806497.0,
+        "minutes_probability": 0.5968,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.8662,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0345,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 9.981,
+        "projected_valuation_score": 52.15,
+        "projected_value_eur": 1308161.0,
+        "minutes_probability": 0.5968,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.8045,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 13.014,
+        "projected_valuation_score": 60.78,
+        "projected_value_eur": 972556.0,
+        "minutes_probability": 0.6968,
+        "adaptation_months": 4,
+        "simulation_confidence": 0.8795,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Pedro Velasco",
+    "age": 29,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 5.65,
+    "current_valuation_score": 42.7,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 8163819.0,
+      "minutes_probability": 0.304,
+      "simulation_confidence": 0.7185
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 30.67,
+        "projected_value_eur": 8163819.0,
+        "minutes_probability": 0.304,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7185,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0119,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 39.17,
+        "projected_value_eur": 6898387.0,
+        "minutes_probability": 0.404,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7956,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 31.81,
+        "projected_value_eur": 6300084.0,
+        "minutes_probability": 0.3165,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7228,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0069,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 33.31,
+        "projected_value_eur": 5498320.0,
+        "minutes_probability": 0.334,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7291,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 33.0,
+        "projected_value_eur": 4823531.0,
+        "minutes_probability": 0.329,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7344,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0067,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 34.67,
+        "projected_value_eur": 4522653.0,
+        "minutes_probability": 0.349,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7433,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 36.8,
+        "projected_value_eur": 2634025.0,
+        "minutes_probability": 0.304,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7566,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 40.1,
+        "projected_value_eur": 2376489.0,
+        "minutes_probability": 0.404,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8056,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 38.65,
+        "projected_value_eur": 2257065.0,
+        "minutes_probability": 0.304,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7958,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0168,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 37.21,
+        "projected_value_eur": 1069954.0,
+        "minutes_probability": 0.304,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7606,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 43.37,
+        "projected_value_eur": 795572.0,
+        "minutes_probability": 0.404,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.8356,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Jordy Caicedo",
+    "age": 31,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 5.087,
+    "current_valuation_score": 55.14,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 6510899.0,
+      "minutes_probability": 0.4528,
+      "simulation_confidence": 0.7539
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 39.85,
+        "projected_value_eur": 6510899.0,
+        "minutes_probability": 0.4528,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7539,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0207,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 50.58,
+        "projected_value_eur": 5455092.0,
+        "minutes_probability": 0.5528,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8179,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 41.34,
+        "projected_value_eur": 5026578.0,
+        "minutes_probability": 0.4653,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7594,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0164,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 43.02,
+        "projected_value_eur": 4348830.0,
+        "minutes_probability": 0.4828,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7514,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 42.9,
+        "projected_value_eur": 3850358.0,
+        "minutes_probability": 0.4778,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.771,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0162,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 44.77,
+        "projected_value_eur": 3576551.0,
+        "minutes_probability": 0.4978,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7657,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 47.52,
+        "projected_value_eur": 2082852.0,
+        "minutes_probability": 0.4528,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7789,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 51.78,
+        "projected_value_eur": 1879018.0,
+        "minutes_probability": 0.5528,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8279,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 50.19,
+        "projected_value_eur": 1798683.0,
+        "minutes_probability": 0.4528,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.83,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0247,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 48.05,
+        "projected_value_eur": 846113.0,
+        "minutes_probability": 0.4528,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7829,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 56.01,
+        "projected_value_eur": 629190.0,
+        "minutes_probability": 0.5528,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.8579,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Renato Ibarra",
+    "age": 34,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 6.95,
+    "current_valuation_score": 50.5,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 1625478.0,
+      "minutes_probability": 0.25,
+      "simulation_confidence": 0.7143
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 36.34,
+        "projected_value_eur": 1625478.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7143,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0145,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 46.82,
+        "projected_value_eur": 1390588.0,
+        "minutes_probability": 0.31,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8046,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0154,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 37.44,
+        "projected_value_eur": 1242888.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7025,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 39.4,
+        "projected_value_eur": 1092223.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7165,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 38.85,
+        "projected_value_eur": 951892.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7125,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 41.0,
+        "projected_value_eur": 898125.0,
+        "minutes_probability": 0.255,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7292,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 43.52,
+        "projected_value_eur": 523065.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7485,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 47.42,
+        "projected_value_eur": 471864.0,
+        "minutes_probability": 0.31,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7915,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 45.95,
+        "projected_value_eur": 451536.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7988,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0242,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 44.01,
+        "projected_value_eur": 212529.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7525,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 5.001,
+        "projected_valuation_score": 51.29,
+        "projected_value_eur": 157994.0,
+        "minutes_probability": 0.31,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.8215,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "player_name": "Cristian Pellerano",
+    "age": 38,
+    "current_league": "Liga Pro Ecuador",
+    "current_kpi": 11.067,
+    "current_valuation_score": 38.24,
+    "trajectory": "stable",
+    "best_projection": {
+      "target_league": "premier league",
+      "projected_kpi": 5.0,
+      "projected_value_eur": 102834.0,
+      "minutes_probability": 0.25,
+      "simulation_confidence": 0.7157
+    },
+    "league_simulations": [
+      {
+        "target_league": "premier league",
+        "target_league_prestige": 1.0,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 27.54,
+        "projected_value_eur": 102834.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7157,
+        "factors": {
+          "league_difficulty": 0.616,
+          "tactical_fit": 1.0154,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.6
+        }
+      },
+      {
+        "target_league": "austrian bundesliga",
+        "target_league_prestige": 0.6,
+        "projected_kpi": 6.57,
+        "projected_valuation_score": 35.51,
+        "projected_value_eur": 88064.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7992,
+        "factors": {
+          "league_difficulty": 0.884,
+          "tactical_fit": 1.0178,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.2
+        }
+      },
+      {
+        "target_league": "la liga",
+        "target_league_prestige": 0.95,
+        "projected_kpi": 5.0,
+        "projected_valuation_score": 28.35,
+        "projected_value_eur": 78540.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 10,
+        "simulation_confidence": 0.7025,
+        "factors": {
+          "league_difficulty": 0.6521,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.55
+        }
+      },
+      {
+        "target_league": "bundesliga",
+        "target_league_prestige": 0.88,
+        "projected_kpi": 5.121,
+        "projected_valuation_score": 29.83,
+        "projected_value_eur": 68995.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7165,
+        "factors": {
+          "league_difficulty": 0.7014,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.48
+        }
+      },
+      {
+        "target_league": "serie a",
+        "target_league_prestige": 0.9,
+        "projected_kpi": 5.02,
+        "projected_valuation_score": 29.42,
+        "projected_value_eur": 60154.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7125,
+        "factors": {
+          "league_difficulty": 0.6875,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.5
+        }
+      },
+      {
+        "target_league": "ligue 1",
+        "target_league_prestige": 0.82,
+        "projected_kpi": 5.421,
+        "projected_valuation_score": 31.05,
+        "projected_value_eur": 56760.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7285,
+        "factors": {
+          "league_difficulty": 0.7425,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.42
+        }
+      },
+      {
+        "target_league": "eredivisie",
+        "target_league_prestige": 0.72,
+        "projected_kpi": 5.904,
+        "projected_valuation_score": 32.96,
+        "projected_value_eur": 33062.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 8,
+        "simulation_confidence": 0.7485,
+        "factors": {
+          "league_difficulty": 0.8086,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.32
+        }
+      },
+      {
+        "target_league": "brasileirao",
+        "target_league_prestige": 0.55,
+        "projected_kpi": 6.674,
+        "projected_valuation_score": 35.91,
+        "projected_value_eur": 29819.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7825,
+        "factors": {
+          "league_difficulty": 0.9141,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.15
+        }
+      },
+      {
+        "target_league": "pro league",
+        "target_league_prestige": 0.65,
+        "projected_kpi": 6.387,
+        "projected_valuation_score": 34.82,
+        "projected_value_eur": 28563.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.8005,
+        "factors": {
+          "league_difficulty": 0.8531,
+          "tactical_fit": 1.0253,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.25
+        }
+      },
+      {
+        "target_league": "primera liga",
+        "target_league_prestige": 0.7,
+        "projected_kpi": 5.998,
+        "projected_valuation_score": 33.32,
+        "projected_value_eur": 13426.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 6,
+        "simulation_confidence": 0.7525,
+        "factors": {
+          "league_difficulty": 0.8215,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.3
+        }
+      },
+      {
+        "target_league": "liga pro",
+        "target_league_prestige": 0.25,
+        "projected_kpi": 7.466,
+        "projected_valuation_score": 38.84,
+        "projected_value_eur": 9985.0,
+        "minutes_probability": 0.25,
+        "adaptation_months": 5,
+        "simulation_confidence": 0.8125,
+        "factors": {
+          "league_difficulty": 1.0225,
+          "tactical_fit": 1.0,
+          "trajectory_momentum": 1.0,
+          "prestige_gap": 0.0
+        }
+      }
+    ]
+  }
+]

@@ -472,6 +472,151 @@ def admin_discover(league_keys: list[str] | None = None) -> dict[str, object]:
         return {"status": "error", "message": str(exc)}
 
 
+@router.get("/decision")
+def decisions(
+    player_name: str | None = Query(None),
+    decision_type: str | None = Query(None, description="BUY | SELL | HOLD"),
+    min_confidence: float = Query(0.0),
+    limit: int = Query(20),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """BUY/SELL/HOLD decisions for all players with full reasoning breakdown."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/player_decisions.json")
+    if not path.exists():
+        raise _artifact_unavailable("player_decisions.json not found — run pipeline first")
+    rows = read_json(path) or []
+    if player_name:
+        key = player_name.strip().lower()
+        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+    if decision_type:
+        rows = [r for r in rows if r.get("decision") == decision_type.upper()]
+    if min_confidence > 0:
+        rows = [r for r in rows if float(r.get("decision_confidence") or 0) >= min_confidence]
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
+@router.get("/decision/{player_name}")
+def decision_for_player(player_name: str) -> dict[str, object]:
+    """Full BUY/SELL/HOLD decision with reasoning for a specific player."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/player_decisions.json")
+    if not path.exists():
+        raise _artifact_unavailable("player_decisions.json not found — run pipeline first")
+    rows = read_json(path) or []
+    key = player_name.strip().lower()
+    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    if not match:
+        raise _player_not_found(player_name)
+    return match
+
+
+@router.get("/simulation/{player_name}")
+def simulation_for_player(player_name: str) -> dict[str, object]:
+    """Projected performance simulation for a player in different leagues."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/player_simulations.json")
+    if not path.exists():
+        raise _artifact_unavailable("player_simulations.json not found — run pipeline first")
+    rows = read_json(path) or []
+    key = player_name.strip().lower()
+    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    if not match:
+        raise _player_not_found(player_name)
+    return match
+
+
+@router.get("/simulation")
+def simulations(
+    player_name: str | None = Query(None),
+    limit: int = Query(20),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """League simulation projections for all players."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/player_simulations.json")
+    if not path.exists():
+        raise _artifact_unavailable("player_simulations.json not found — run pipeline first")
+    rows = read_json(path) or []
+    if player_name:
+        key = player_name.strip().lower()
+        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
+@router.get("/scout-report/{player_name}")
+def scout_report(player_name: str) -> dict[str, object]:
+    """Full scout report (LLM or template) for a specific player."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/scout_reports.json")
+    if not path.exists():
+        raise _artifact_unavailable("scout_reports.json not found — run pipeline first")
+    rows = read_json(path) or []
+    key = player_name.strip().lower()
+    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    if not match:
+        # Generate on-demand if not in cache
+        try:
+            from app.reporting.scout_report import generate_scout_report
+            return generate_scout_report(player_name=player_name)
+        except Exception as exc:
+            raise _artifact_unavailable(f"Scout report unavailable: {exc}") from exc
+    return match
+
+
+@router.get("/scout-report")
+def scout_reports_list(
+    decision: str | None = Query(None, description="BUY | SELL | HOLD"),
+    limit: int = Query(20),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """List all scout reports."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/scout_reports.json")
+    if not path.exists():
+        raise _artifact_unavailable("scout_reports.json not found — run pipeline first")
+    rows = read_json(path) or []
+    if decision:
+        rows = [r for r in rows if r.get("decision") == decision.upper()]
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
+@router.get("/player-graph")
+def player_graph() -> dict[str, object]:
+    """Transfer network graph with PageRank — springboard clubs and career routes."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/player_graph.json")
+    if not path.exists():
+        raise _artifact_unavailable("player_graph.json not found — run pipeline first")
+    return read_json(path) or {}
+
+
+@router.get("/pathway-learning")
+def pathway_learning(
+    player_name: str | None = Query(None),
+    limit: int = Query(20),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """GBM-based pathway success probabilities per player."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/pathway_learning.json")
+    if not path.exists():
+        raise _artifact_unavailable("pathway_learning.json not found — run pipeline first")
+    rows = read_json(path) or []
+    if player_name:
+        key = player_name.strip().lower()
+        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
 @router.get("/admin/status")
 def admin_status() -> dict[str, object]:
     """Admin overview: artifact readiness."""
@@ -493,6 +638,11 @@ def admin_status() -> dict[str, object]:
         "clusters": Path("data/gold/player_clusters.json"),
         "alerts": Path("data/gold/alerts.json"),
         "feature_store": Path("data/gold/feature_store.json"),
+        "pathway_learning": Path("data/gold/pathway_learning.json"),
+        "player_decisions": Path("data/gold/player_decisions.json"),
+        "player_simulations": Path("data/gold/player_simulations.json"),
+        "player_graph": Path("data/gold/player_graph.json"),
+        "scout_reports": Path("data/gold/scout_reports.json"),
     }
     from app.scraping.job_queue import PersistentJobQueue
     from app.orchestration.scheduler import get_scheduler_status

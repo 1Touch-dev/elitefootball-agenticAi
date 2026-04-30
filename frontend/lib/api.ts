@@ -139,6 +139,33 @@ export const api = {
     method: "POST",
     body: JSON.stringify(leagueKeys || null),
   }),
+  decisions: (params?: { decision_type?: string; min_confidence?: number; limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.decision_type) q.set("decision_type", params.decision_type);
+    if (params?.min_confidence != null) q.set("min_confidence", String(params.min_confidence));
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ count: number; items: DecisionRow[] }>(`/decision?${q}`);
+  },
+  decision: (playerName: string) => fetchAPI<DecisionRow>(`/decision/${encodeURIComponent(playerName)}`),
+  simulations: (params?: { limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ count: number; items: SimulationRow[] }>(`/simulation?${q}`);
+  },
+  simulation: (playerName: string) => fetchAPI<SimulationRow>(`/simulation/${encodeURIComponent(playerName)}`),
+  scoutReports: (params?: { decision?: string; limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.decision) q.set("decision", params.decision);
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ count: number; items: ScoutReportRow[] }>(`/scout-report?${q}`);
+  },
+  scoutReport: (playerName: string) => fetchAPI<ScoutReportRow>(`/scout-report/${encodeURIComponent(playerName)}`),
+  playerGraph: () => fetchAPI<any>("/player-graph"),
+  pathwayLearning: (params?: { limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ count: number; items: PathwayLearningRow[] }>(`/pathway-learning?${q}`);
+  },
 };
 
 export interface TransferProbRow {
@@ -164,4 +191,27 @@ export interface ClusterRow {
 export interface AlertRow {
   alert_type: string; severity: string; player_name: string;
   trigger_reason: string; supporting_metrics: Record<string, any>;
+}
+export interface DecisionRow {
+  player_name: string; age?: number; decision: "BUY" | "SELL" | "HOLD";
+  decision_confidence: number; buy_score: number; sell_score: number;
+  reasoning: string[];
+  buy_components: Record<string, number>;
+  sell_components: Record<string, number>;
+  supporting_data: Record<string, any>;
+}
+export interface SimulationRow {
+  player_name: string; age?: number; current_league?: string;
+  current_kpi?: number; current_valuation_score?: number; trajectory?: string;
+  best_projection: { target_league?: string; projected_kpi?: number; projected_value_eur?: number; minutes_probability?: number; simulation_confidence?: number };
+  league_simulations: Array<{ target_league: string; projected_kpi: number; projected_value_eur: number; minutes_probability: number; adaptation_months: number; simulation_confidence: number; factors: Record<string, number> }>;
+}
+export interface ScoutReportRow {
+  player_name: string; decision: string; report_text: string; report_source: string;
+  key_metrics: { age?: number; valuation_score?: number; kpi_score?: number; blended_value_eur?: number; risk_score?: number; trajectory?: string; best_fit_club?: string };
+}
+export interface PathwayLearningRow {
+  player_name: string; age?: number; current_league?: string;
+  trajectory?: string; top_destinations: Array<{ destination: string; success_probability: number }>;
+  best_destination?: string; best_success_probability?: number;
 }

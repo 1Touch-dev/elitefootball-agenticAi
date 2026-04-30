@@ -1,0 +1,686 @@
+{
+  "clubs": [
+    {
+      "club": "chelsea",
+      "pagerank": 0.099339,
+      "prestige": 0.93,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 20,
+      "top_destinations": []
+    },
+    {
+      "club": "real madrid",
+      "pagerank": 0.07627,
+      "prestige": 1.0,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 14,
+      "top_destinations": []
+    },
+    {
+      "club": "independiente del valle",
+      "pagerank": 0.05152,
+      "prestige": 0.35,
+      "role": "feeder",
+      "springboard_score": 4.8918,
+      "out_transfers": 18,
+      "in_transfers": 7,
+      "top_destinations": [
+        {
+          "club": "benfica",
+          "weight": 4.532
+        },
+        {
+          "club": "rb salzburg",
+          "weight": 4.272
+        },
+        {
+          "club": "chelsea",
+          "weight": 3.708
+        },
+        {
+          "club": "brighton",
+          "weight": 3.357
+        },
+        {
+          "club": "ajax",
+          "weight": 2.993
+        }
+      ]
+    },
+    {
+      "club": "manchester city",
+      "pagerank": 0.05035,
+      "prestige": 0.98,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 11,
+      "top_destinations": []
+    },
+    {
+      "club": "juventus",
+      "pagerank": 0.03777,
+      "prestige": 0.87,
+      "role": "mid_tier",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 6,
+      "top_destinations": []
+    },
+    {
+      "club": "atletico madrid",
+      "pagerank": 0.035221,
+      "prestige": 0.87,
+      "role": "mid_tier",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 7,
+      "top_destinations": []
+    },
+    {
+      "club": "liverpool",
+      "pagerank": 0.034775,
+      "prestige": 0.95,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 12,
+      "top_destinations": []
+    },
+    {
+      "club": "manchester united",
+      "pagerank": 0.034241,
+      "prestige": 0.9,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 5,
+      "top_destinations": []
+    },
+    {
+      "club": "ajax",
+      "pagerank": 0.033151,
+      "prestige": 0.8,
+      "role": "mid_tier",
+      "springboard_score": 2.5164,
+      "out_transfers": 14,
+      "in_transfers": 8,
+      "top_destinations": [
+        {
+          "club": "real madrid",
+          "weight": 4.718
+        },
+        {
+          "club": "liverpool",
+          "weight": 2.818
+        },
+        {
+          "club": "manchester united",
+          "weight": 2.637
+        },
+        {
+          "club": "chelsea",
+          "weight": 2.365
+        },
+        {
+          "club": "borussia dortmund",
+          "weight": 2.352
+        }
+      ]
+    },
+    {
+      "club": "borussia dortmund",
+      "pagerank": 0.028554,
+      "prestige": 0.85,
+      "role": "mid_tier",
+      "springboard_score": 2.552,
+      "out_transfers": 5,
+      "in_transfers": 9,
+      "top_destinations": [
+        {
+          "club": "real madrid",
+          "weight": 4.614
+        },
+        {
+          "club": "manchester city",
+          "weight": 2.713
+        }
+      ]
+    },
+    {
+      "club": "benfica",
+      "pagerank": 0.02778,
+      "prestige": 0.78,
+      "role": "mid_tier",
+      "springboard_score": 2.9274,
+      "out_transfers": 14,
+      "in_transfers": 5,
+      "top_destinations": [
+        {
+          "club": "liverpool",
+          "weight": 4.122
+        },
+        {
+          "club": "chelsea",
+          "weight": 3.847
+        },
+        {
+          "club": "real madrid",
+          "weight": 3.303
+        },
+        {
+          "club": "manchester city",
+          "weight": 3.289
+        },
+        {
+          "club": "manchester united",
+          "weight": 2.45
+        }
+      ]
+    },
+    {
+      "club": "barcelona",
+      "pagerank": 0.026848,
+      "prestige": 0.97,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 1,
+      "top_destinations": []
+    },
+    {
+      "club": "arsenal",
+      "pagerank": 0.024185,
+      "prestige": 0.88,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 3,
+      "top_destinations": []
+    },
+    {
+      "club": "brighton",
+      "pagerank": 0.023725,
+      "prestige": 0.72,
+      "role": "mid_tier",
+      "springboard_score": 1.9491,
+      "out_transfers": 3,
+      "in_transfers": 4,
+      "top_destinations": [
+        {
+          "club": "chelsea",
+          "weight": 3.784
+        },
+        {
+          "club": "arsenal",
+          "weight": 1.449
+        }
+      ]
+    },
+    {
+      "club": "bayer leverkusen",
+      "pagerank": 0.023397,
+      "prestige": 0.85,
+      "role": "mid_tier",
+      "springboard_score": 1.5705,
+      "out_transfers": 2,
+      "in_transfers": 5,
+      "top_destinations": [
+        {
+          "club": "real madrid",
+          "weight": 2.984
+        }
+      ]
+    },
+    {
+      "club": "rb salzburg",
+      "pagerank": 0.021171,
+      "prestige": 0.68,
+      "role": "mid_tier",
+      "springboard_score": 3.2574,
+      "out_transfers": 17,
+      "in_transfers": 4,
+      "top_destinations": [
+        {
+          "club": "liverpool",
+          "weight": 5.398
+        },
+        {
+          "club": "borussia dortmund",
+          "weight": 4.358
+        },
+        {
+          "club": "bayer leverkusen",
+          "weight": 3.48
+        },
+        {
+          "club": "chelsea",
+          "weight": 3.225
+        },
+        {
+          "club": "ac milan",
+          "weight": 2.346
+        }
+      ]
+    },
+    {
+      "club": "marseille",
+      "pagerank": 0.019691,
+      "prestige": 0.72,
+      "role": "mid_tier",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 2,
+      "top_destinations": []
+    },
+    {
+      "club": "sporting cp",
+      "pagerank": 0.018794,
+      "prestige": 0.76,
+      "role": "mid_tier",
+      "springboard_score": 2.058,
+      "out_transfers": 7,
+      "in_transfers": 2,
+      "top_destinations": [
+        {
+          "club": "manchester city",
+          "weight": 3.453
+        },
+        {
+          "club": "arsenal",
+          "weight": 2.45
+        },
+        {
+          "club": "juventus",
+          "weight": 2.222
+        },
+        {
+          "club": "liverpool",
+          "weight": 1.448
+        }
+      ]
+    },
+    {
+      "club": "porto",
+      "pagerank": 0.018716,
+      "prestige": 0.78,
+      "role": "mid_tier",
+      "springboard_score": 2.77,
+      "out_transfers": 13,
+      "in_transfers": 2,
+      "top_destinations": [
+        {
+          "club": "chelsea",
+          "weight": 5.017
+        },
+        {
+          "club": "liverpool",
+          "weight": 3.738
+        },
+        {
+          "club": "manchester city",
+          "weight": 2.971
+        },
+        {
+          "club": "paris saint-germain",
+          "weight": 2.132
+        },
+        {
+          "club": "atletico madrid",
+          "weight": 1.766
+        }
+      ]
+    },
+    {
+      "club": "inter milan",
+      "pagerank": 0.01806,
+      "prestige": 0.88,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 2,
+      "top_destinations": []
+    },
+    {
+      "club": "paris saint-germain",
+      "pagerank": 0.016684,
+      "prestige": 0.92,
+      "role": "elite_destination",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 2,
+      "top_destinations": []
+    },
+    {
+      "club": "villarreal",
+      "pagerank": 0.01667,
+      "prestige": 0.78,
+      "role": "mid_tier",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 1,
+      "top_destinations": []
+    },
+    {
+      "club": "ac milan",
+      "pagerank": 0.016372,
+      "prestige": 0.84,
+      "role": "mid_tier",
+      "springboard_score": 0.0,
+      "out_transfers": 0,
+      "in_transfers": 2,
+      "top_destinations": []
+    },
+    {
+      "club": "anderlecht",
+      "pagerank": 0.014513,
+      "prestige": 0.62,
+      "role": "mid_tier",
+      "springboard_score": 1.1144,
+      "out_transfers": 4,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "ajax",
+          "weight": 1.822
+        },
+        {
+          "club": "marseille",
+          "weight": 1.318
+        }
+      ]
+    },
+    {
+      "club": "atalanta",
+      "pagerank": 0.014513,
+      "prestige": 0.82,
+      "role": "mid_tier",
+      "springboard_score": 0.9519,
+      "out_transfers": 3,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "juventus",
+          "weight": 1.717
+        },
+        {
+          "club": "chelsea",
+          "weight": 1.219
+        }
+      ]
+    },
+    {
+      "club": "atletico mineiro",
+      "pagerank": 0.014513,
+      "prestige": 0.54,
+      "role": "mid_tier",
+      "springboard_score": 1.0967,
+      "out_transfers": 1,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "atletico madrid",
+          "weight": 1.614
+        }
+      ]
+    },
+    {
+      "club": "az alkmaar",
+      "pagerank": 0.014513,
+      "prestige": 0.68,
+      "role": "mid_tier",
+      "springboard_score": 0.7438,
+      "out_transfers": 1,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "chelsea",
+          "weight": 1.248
+        }
+      ]
+    },
+    {
+      "club": "barcelona sc",
+      "pagerank": 0.014513,
+      "prestige": 0.28,
+      "role": "feeder",
+      "springboard_score": 0.1008,
+      "out_transfers": 2,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "independiente del valle",
+          "weight": 0.219
+        }
+      ]
+    },
+    {
+      "club": "boca juniors",
+      "pagerank": 0.014513,
+      "prestige": 0.55,
+      "role": "mid_tier",
+      "springboard_score": 2.0493,
+      "out_transfers": 2,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "juventus",
+          "weight": 3.062
+        }
+      ]
+    },
+    {
+      "club": "club brugge",
+      "pagerank": 0.014513,
+      "prestige": 0.65,
+      "role": "mid_tier",
+      "springboard_score": 1.5986,
+      "out_transfers": 4,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "manchester city",
+          "weight": 2.719
+        },
+        {
+          "club": "brighton",
+          "weight": 1.295
+        }
+      ]
+    },
+    {
+      "club": "emelec",
+      "pagerank": 0.014513,
+      "prestige": 0.28,
+      "role": "feeder",
+      "springboard_score": 0.1169,
+      "out_transfers": 2,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "independiente del valle",
+          "weight": 0.254
+        }
+      ]
+    },
+    {
+      "club": "feyenoord",
+      "pagerank": 0.014513,
+      "prestige": 0.72,
+      "role": "mid_tier",
+      "springboard_score": 0.9757,
+      "out_transfers": 3,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "chelsea",
+          "weight": 1.523
+        },
+        {
+          "club": "ajax",
+          "weight": 1.23
+        }
+      ]
+    },
+    {
+      "club": "flamengo",
+      "pagerank": 0.014513,
+      "prestige": 0.6,
+      "role": "mid_tier",
+      "springboard_score": 1.7055,
+      "out_transfers": 3,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "benfica",
+          "weight": 2.107
+        },
+        {
+          "club": "chelsea",
+          "weight": 2.084
+        }
+      ]
+    },
+    {
+      "club": "fluminense",
+      "pagerank": 0.014513,
+      "prestige": 0.55,
+      "role": "mid_tier",
+      "springboard_score": 1.4869,
+      "out_transfers": 1,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "chelsea",
+          "weight": 2.078
+        }
+      ]
+    },
+    {
+      "club": "liga de quito",
+      "pagerank": 0.014513,
+      "prestige": 0.3,
+      "role": "feeder",
+      "springboard_score": 0.1929,
+      "out_transfers": 3,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "independiente del valle",
+          "weight": 0.441
+        }
+      ]
+    },
+    {
+      "club": "palmeiras",
+      "pagerank": 0.014513,
+      "prestige": 0.58,
+      "role": "mid_tier",
+      "springboard_score": 2.1479,
+      "out_transfers": 2,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "real madrid",
+          "weight": 2.549
+        },
+        {
+          "club": "chelsea",
+          "weight": 1.971
+        }
+      ]
+    },
+    {
+      "club": "psv eindhoven",
+      "pagerank": 0.014513,
+      "prestige": 0.75,
+      "role": "mid_tier",
+      "springboard_score": 1.2843,
+      "out_transfers": 3,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "borussia dortmund",
+          "weight": 1.955
+        },
+        {
+          "club": "manchester city",
+          "weight": 1.646
+        }
+      ]
+    },
+    {
+      "club": "racing club",
+      "pagerank": 0.014513,
+      "prestige": 0.52,
+      "role": "mid_tier",
+      "springboard_score": 1.6552,
+      "out_transfers": 1,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "manchester united",
+          "weight": 2.28
+        }
+      ]
+    },
+    {
+      "club": "river plate",
+      "pagerank": 0.014513,
+      "prestige": 0.58,
+      "role": "mid_tier",
+      "springboard_score": 2.8588,
+      "out_transfers": 5,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "real madrid",
+          "weight": 4.04
+        },
+        {
+          "club": "atletico madrid",
+          "weight": 2.717
+        },
+        {
+          "club": "bayer leverkusen",
+          "weight": 1.614
+        }
+      ]
+    },
+    {
+      "club": "santos",
+      "pagerank": 0.014513,
+      "prestige": 0.52,
+      "role": "mid_tier",
+      "springboard_score": 2.3712,
+      "out_transfers": 1,
+      "in_transfers": 0,
+      "top_destinations": [
+        {
+          "club": "barcelona",
+          "weight": 3.031
+        }
+      ]
+    }
+  ],
+  "graph_stats": {
+    "total_nodes": 40,
+    "total_edges": 68,
+    "springboard_clubs": [],
+    "elite_destinations": [
+      "chelsea",
+      "real madrid",
+      "manchester city",
+      "liverpool",
+      "manchester united",
+      "barcelona",
+      "arsenal",
+      "inter milan",
+      "paris saint-germain"
+    ]
+  }
+}

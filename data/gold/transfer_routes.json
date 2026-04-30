@@ -1,0 +1,74 @@
+{
+  "independiente del valle": [
+    {
+      "club": "independiente del valle",
+      "prestige": 0.35,
+      "hop": 0
+    },
+    {
+      "club": "chelsea",
+      "prestige": 0.93,
+      "hop": 1
+    }
+  ],
+  "rb salzburg": [
+    {
+      "club": "rb salzburg",
+      "prestige": 0.68,
+      "hop": 0
+    },
+    {
+      "club": "liverpool",
+      "prestige": 0.95,
+      "hop": 1
+    }
+  ],
+  "ajax": [
+    {
+      "club": "ajax",
+      "prestige": 0.8,
+      "hop": 0
+    },
+    {
+      "club": "real madrid",
+      "prestige": 1.0,
+      "hop": 1
+    }
+  ],
+  "benfica": [
+    {
+      "club": "benfica",
+      "prestige": 0.78,
+      "hop": 0
+    },
+    {
+      "club": "liverpool",
+      "prestige": 0.95,
+      "hop": 1
+    }
+  ],
+  "porto": [
+    {
+      "club": "porto",
+      "prestige": 0.78,
+      "hop": 0
+    },
+    {
+      "club": "chelsea",
+      "prestige": 0.93,
+      "hop": 1
+    }
+  ],
+  "brighton": [
+    {
+      "club": "brighton",
+      "prestige": 0.72,
+      "hop": 0
+    },
+    {
+      "club": "chelsea",
+      "prestige": 0.93,
+      "hop": 1
+    }
+  ]
+}

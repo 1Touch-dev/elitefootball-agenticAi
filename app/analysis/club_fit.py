@@ -1,18 +1,20 @@
 """
-Club fit model.
+Club fit model — tactical profiles included.
 
 For each player, scores compatibility with a set of target clubs.
 
 Fit score = Σ w_i * component_i
 
 Components:
-  1. role_similarity       (0-1) — does this player's position/style match the club's typical profile
-  2. age_profile_match     (0-1) — does the player age fit the club's typical buy age
-  3. league_step_up        (0-1) — is this a logical step up in prestige
-  4. value_accessibility   (0-1) — is the player affordable relative to club's typical spend
-  5. historical_pathway    (0-1) — have similar IDV/South-American players succeeded here
+  1. role_similarity       (0-1) — position/style match
+  2. age_profile_match     (0-1) — player age vs club's typical buy window
+  3. league_step_up        (0-1) — logical prestige progression
+  4. value_accessibility   (0-1) — affordable relative to club's typical spend
+  5. tactical_fit          (0-1) — pressing intensity, formation, physical/technical demand
+  6. historical_pathway    (0-1) — South-American players have succeeded here
+  7. positional_demand     (0-1) — how urgently the club needs this position
 
-Weights: role=0.30, age=0.25, league=0.20, value=0.15, pathway=0.10
+Weights: role=0.25, age=0.20, league=0.18, value=0.12, tactical=0.12, pathway=0.08, demand=0.05
 """
 from __future__ import annotations
 
@@ -25,45 +27,137 @@ from app.pipeline.io import write_json
 
 
 # Club profiles: typical buy age, typical spend (EUR), league prestige 0-1,
-# historical_pathway (clubs that have taken IDV/South-Am exports)
+# historical_pathway (clubs that have taken IDV/South-Am exports),
+# pressing_intensity (0=low block, 1=gegenpressing),
+# formation_style, physical_demand, technical_demand,
+# positional_need: {"FW": 0-1, "MF": 0-1, "DF": 0-1, "GK": 0-1}
 _CLUB_PROFILES: dict[str, dict[str, Any]] = {
-    # Pathway clubs (known IDV graduate destinations)
-    "brighton": {"typical_buy_age": (19, 23), "typical_spend_eur": 15_000_000,
-                  "prestige": 0.72, "roles": ["MF", "DF", "FW"], "pathway_score": 0.90},
-    "chelsea": {"typical_buy_age": (17, 22), "typical_spend_eur": 35_000_000,
-                 "prestige": 0.88, "roles": ["FW", "MF", "DF"], "pathway_score": 0.85},
-    "bayer leverkusen": {"typical_buy_age": (18, 24), "typical_spend_eur": 20_000_000,
-                          "prestige": 0.85, "roles": ["MF", "FW", "DF"], "pathway_score": 0.75},
-    "rb salzburg": {"typical_buy_age": (17, 22), "typical_spend_eur": 8_000_000,
-                     "prestige": 0.68, "roles": ["FW", "MF", "DF"], "pathway_score": 0.92},
-    "benfica": {"typical_buy_age": (18, 24), "typical_spend_eur": 12_000_000,
-                 "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.88},
-    "sporting cp": {"typical_buy_age": (18, 25), "typical_spend_eur": 10_000_000,
-                     "prestige": 0.76, "roles": ["FW", "MF", "DF"], "pathway_score": 0.80},
-    "ajax": {"typical_buy_age": (17, 22), "typical_spend_eur": 10_000_000,
-              "prestige": 0.80, "roles": ["FW", "MF", "DF"], "pathway_score": 0.88},
-    "feyenoord": {"typical_buy_age": (19, 25), "typical_spend_eur": 8_000_000,
-                   "prestige": 0.72, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70},
-    "club brugge": {"typical_buy_age": (19, 25), "typical_spend_eur": 7_000_000,
-                     "prestige": 0.65, "roles": ["FW", "MF", "DF"], "pathway_score": 0.65},
-    "atalanta": {"typical_buy_age": (20, 26), "typical_spend_eur": 15_000_000,
-                  "prestige": 0.82, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70},
-    "inter milan": {"typical_buy_age": (21, 27), "typical_spend_eur": 25_000_000,
-                     "prestige": 0.92, "roles": ["FW", "MF", "DF"], "pathway_score": 0.65},
-    "real madrid": {"typical_buy_age": (18, 26), "typical_spend_eur": 60_000_000,
-                     "prestige": 1.00, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70},
-    "barcelona": {"typical_buy_age": (16, 24), "typical_spend_eur": 45_000_000,
-                   "prestige": 0.98, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72},
-    "atletico madrid": {"typical_buy_age": (20, 27), "typical_spend_eur": 30_000_000,
-                         "prestige": 0.90, "roles": ["FW", "MF", "DF"], "pathway_score": 0.68},
-    "porto": {"typical_buy_age": (18, 25), "typical_spend_eur": 12_000_000,
-               "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.75},
-    "nottingham forest": {"typical_buy_age": (20, 27), "typical_spend_eur": 20_000_000,
-                           "prestige": 0.68, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72},
-    "villarreal": {"typical_buy_age": (19, 26), "typical_spend_eur": 15_000_000,
-                    "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72},
-    "eindhoven": {"typical_buy_age": (17, 23), "typical_spend_eur": 8_000_000,
-                   "prestige": 0.75, "roles": ["FW", "MF", "DF"], "pathway_score": 0.75},
+    "brighton": {
+        "typical_buy_age": (19, 23), "typical_spend_eur": 15_000_000,
+        "prestige": 0.72, "roles": ["MF", "DF", "FW"], "pathway_score": 0.90,
+        "pressing_intensity": 0.80, "formation_style": "4-2-3-1",
+        "physical_demand": 0.75, "technical_demand": 0.85,
+        "positional_need": {"FW": 0.7, "MF": 0.9, "DF": 0.8, "GK": 0.4},
+    },
+    "chelsea": {
+        "typical_buy_age": (17, 22), "typical_spend_eur": 35_000_000,
+        "prestige": 0.88, "roles": ["FW", "MF", "DF"], "pathway_score": 0.85,
+        "pressing_intensity": 0.70, "formation_style": "4-3-3",
+        "physical_demand": 0.80, "technical_demand": 0.90,
+        "positional_need": {"FW": 0.8, "MF": 0.85, "DF": 0.7, "GK": 0.3},
+    },
+    "bayer leverkusen": {
+        "typical_buy_age": (18, 24), "typical_spend_eur": 20_000_000,
+        "prestige": 0.85, "roles": ["MF", "FW", "DF"], "pathway_score": 0.75,
+        "pressing_intensity": 0.90, "formation_style": "4-2-3-1",
+        "physical_demand": 0.88, "technical_demand": 0.85,
+        "positional_need": {"FW": 0.8, "MF": 0.9, "DF": 0.75, "GK": 0.3},
+    },
+    "rb salzburg": {
+        "typical_buy_age": (17, 22), "typical_spend_eur": 8_000_000,
+        "prestige": 0.68, "roles": ["FW", "MF", "DF"], "pathway_score": 0.92,
+        "pressing_intensity": 0.95, "formation_style": "4-2-2-2",
+        "physical_demand": 0.92, "technical_demand": 0.75,
+        "positional_need": {"FW": 0.95, "MF": 0.90, "DF": 0.80, "GK": 0.5},
+    },
+    "benfica": {
+        "typical_buy_age": (18, 24), "typical_spend_eur": 12_000_000,
+        "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.88,
+        "pressing_intensity": 0.72, "formation_style": "4-4-2",
+        "physical_demand": 0.75, "technical_demand": 0.82,
+        "positional_need": {"FW": 0.85, "MF": 0.80, "DF": 0.75, "GK": 0.4},
+    },
+    "sporting cp": {
+        "typical_buy_age": (18, 25), "typical_spend_eur": 10_000_000,
+        "prestige": 0.76, "roles": ["FW", "MF", "DF"], "pathway_score": 0.80,
+        "pressing_intensity": 0.75, "formation_style": "4-3-3",
+        "physical_demand": 0.76, "technical_demand": 0.82,
+        "positional_need": {"FW": 0.80, "MF": 0.85, "DF": 0.70, "GK": 0.4},
+    },
+    "ajax": {
+        "typical_buy_age": (17, 22), "typical_spend_eur": 10_000_000,
+        "prestige": 0.80, "roles": ["FW", "MF", "DF"], "pathway_score": 0.88,
+        "pressing_intensity": 0.80, "formation_style": "4-3-3",
+        "physical_demand": 0.72, "technical_demand": 0.95,
+        "positional_need": {"FW": 0.80, "MF": 0.90, "DF": 0.75, "GK": 0.4},
+    },
+    "feyenoord": {
+        "typical_buy_age": (19, 25), "typical_spend_eur": 8_000_000,
+        "prestige": 0.72, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70,
+        "pressing_intensity": 0.78, "formation_style": "4-3-3",
+        "physical_demand": 0.74, "technical_demand": 0.80,
+        "positional_need": {"FW": 0.75, "MF": 0.80, "DF": 0.70, "GK": 0.4},
+    },
+    "club brugge": {
+        "typical_buy_age": (19, 25), "typical_spend_eur": 7_000_000,
+        "prestige": 0.65, "roles": ["FW", "MF", "DF"], "pathway_score": 0.65,
+        "pressing_intensity": 0.72, "formation_style": "4-3-3",
+        "physical_demand": 0.72, "technical_demand": 0.78,
+        "positional_need": {"FW": 0.70, "MF": 0.75, "DF": 0.65, "GK": 0.4},
+    },
+    "atalanta": {
+        "typical_buy_age": (20, 26), "typical_spend_eur": 15_000_000,
+        "prestige": 0.82, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70,
+        "pressing_intensity": 0.88, "formation_style": "3-4-1-2",
+        "physical_demand": 0.90, "technical_demand": 0.82,
+        "positional_need": {"FW": 0.85, "MF": 0.80, "DF": 0.85, "GK": 0.4},
+    },
+    "inter milan": {
+        "typical_buy_age": (21, 27), "typical_spend_eur": 25_000_000,
+        "prestige": 0.92, "roles": ["FW", "MF", "DF"], "pathway_score": 0.65,
+        "pressing_intensity": 0.65, "formation_style": "3-5-2",
+        "physical_demand": 0.80, "technical_demand": 0.88,
+        "positional_need": {"FW": 0.75, "MF": 0.80, "DF": 0.85, "GK": 0.3},
+    },
+    "real madrid": {
+        "typical_buy_age": (18, 26), "typical_spend_eur": 60_000_000,
+        "prestige": 1.00, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70,
+        "pressing_intensity": 0.60, "formation_style": "4-3-3",
+        "physical_demand": 0.78, "technical_demand": 0.98,
+        "positional_need": {"FW": 0.70, "MF": 0.75, "DF": 0.65, "GK": 0.3},
+    },
+    "barcelona": {
+        "typical_buy_age": (16, 24), "typical_spend_eur": 45_000_000,
+        "prestige": 0.98, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72,
+        "pressing_intensity": 0.78, "formation_style": "4-3-3",
+        "physical_demand": 0.72, "technical_demand": 0.98,
+        "positional_need": {"FW": 0.80, "MF": 0.85, "DF": 0.70, "GK": 0.3},
+    },
+    "atletico madrid": {
+        "typical_buy_age": (20, 27), "typical_spend_eur": 30_000_000,
+        "prestige": 0.90, "roles": ["FW", "MF", "DF"], "pathway_score": 0.68,
+        "pressing_intensity": 0.82, "formation_style": "4-4-2",
+        "physical_demand": 0.92, "technical_demand": 0.80,
+        "positional_need": {"FW": 0.80, "MF": 0.75, "DF": 0.70, "GK": 0.3},
+    },
+    "porto": {
+        "typical_buy_age": (18, 25), "typical_spend_eur": 12_000_000,
+        "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.75,
+        "pressing_intensity": 0.75, "formation_style": "4-4-2",
+        "physical_demand": 0.78, "technical_demand": 0.80,
+        "positional_need": {"FW": 0.80, "MF": 0.82, "DF": 0.75, "GK": 0.4},
+    },
+    "nottingham forest": {
+        "typical_buy_age": (20, 27), "typical_spend_eur": 20_000_000,
+        "prestige": 0.68, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72,
+        "pressing_intensity": 0.70, "formation_style": "4-2-3-1",
+        "physical_demand": 0.78, "technical_demand": 0.75,
+        "positional_need": {"FW": 0.75, "MF": 0.80, "DF": 0.78, "GK": 0.5},
+    },
+    "villarreal": {
+        "typical_buy_age": (19, 26), "typical_spend_eur": 15_000_000,
+        "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72,
+        "pressing_intensity": 0.72, "formation_style": "4-3-3",
+        "physical_demand": 0.75, "technical_demand": 0.85,
+        "positional_need": {"FW": 0.78, "MF": 0.82, "DF": 0.72, "GK": 0.4},
+    },
+    "eindhoven": {
+        "typical_buy_age": (17, 23), "typical_spend_eur": 8_000_000,
+        "prestige": 0.75, "roles": ["FW", "MF", "DF"], "pathway_score": 0.75,
+        "pressing_intensity": 0.78, "formation_style": "4-3-3",
+        "physical_demand": 0.74, "technical_demand": 0.88,
+        "positional_need": {"FW": 0.80, "MF": 0.85, "DF": 0.72, "GK": 0.4},
+    },
 }
 
 # League prestige ladder (for step-up scoring)
@@ -84,11 +178,13 @@ _LEAGUE_PRESTIGE: dict[str, float] = {
 }
 
 _WEIGHTS = {
-    "role": 0.30,
-    "age": 0.25,
-    "league": 0.20,
-    "value": 0.15,
-    "pathway": 0.10,
+    "role": 0.25,
+    "age": 0.20,
+    "league": 0.18,
+    "value": 0.12,
+    "tactical": 0.12,
+    "pathway": 0.08,
+    "demand": 0.05,
 }
 
 
@@ -163,6 +259,53 @@ def _position_role_match(position: str | None, club: dict[str, Any]) -> float:
     return 0.5
 
 
+def _tactical_fit_score(player: dict[str, Any], club: dict[str, Any]) -> float:
+    """
+    How well does the player's physical/technical profile match the club's demands?
+    Uses player stats as proxy: pressing-heavy clubs need high work-rate (minutes+runs proxy).
+    """
+    position = (player.get("position") or player.get("player_position") or "").upper()
+    club_pressing = float(club.get("pressing_intensity", 0.70))
+    club_physical = float(club.get("physical_demand", 0.75))
+    club_technical = float(club.get("technical_demand", 0.80))
+
+    # Estimate player attributes from available data
+    val_score = float(player.get("valuation_score") or 55)
+    kpi = float(player.get("age_adjusted_kpi_score") or 8.5)
+
+    # Technical proxy: valuation score (encompasses passing, xG, xA)
+    technical_proxy = min(1.0, val_score / 80.0)
+    # Physical proxy: derived from KPI + position (defenders/midfielders = more physical)
+    physical_proxy = min(1.0, kpi / 12.0)
+    if "DF" in position or "MF" in position:
+        physical_proxy = min(1.0, physical_proxy + 0.05)
+
+    # Match scores: how well player attributes match club requirements
+    technical_match = 1.0 - abs(technical_proxy - club_technical) * 0.8
+    physical_match = 1.0 - abs(physical_proxy - club_physical) * 0.6
+    pressing_suitability = 1.0 - abs(physical_proxy - club_pressing) * 0.5
+
+    return round((technical_match * 0.45 + physical_match * 0.30 + pressing_suitability * 0.25), 4)
+
+
+def _positional_demand(position: str | None, club: dict[str, Any]) -> float:
+    """How urgently does this club need this position?"""
+    if not position:
+        return 0.5
+    pos_upper = position.upper()
+    need_map = club.get("positional_need", {})
+    broad_map = {
+        "FW": ["ST", "CF", "LW", "RW", "SS", "FORWARD", "STRIKER", "WINGER"],
+        "MF": ["CM", "AM", "DM", "LM", "RM", "MID", "MIDFIELDER"],
+        "DF": ["CB", "LB", "RB", "LWB", "RWB", "DEFENDER"],
+        "GK": ["GK", "GOALKEEPER"],
+    }
+    for broad, variants in broad_map.items():
+        if pos_upper in variants or broad in pos_upper:
+            return float(need_map.get(broad, 0.5))
+    return 0.5
+
+
 def compute_club_fit(
     player: dict[str, Any],
     target_clubs: list[str] | None = None,
@@ -190,14 +333,18 @@ def compute_club_fit(
         age_score = _age_profile_match(age, club)
         league_score = _league_step_up(current_prestige, club["prestige"])
         value_score = _value_accessibility(computed_value, market_value, club)
+        tactical_score = _tactical_fit_score(player, club)
         pathway_score = club.get("pathway_score", 0.5)
+        demand_score = _positional_demand(position, club)
 
         fit_score = round(
             _WEIGHTS["role"] * role_score
             + _WEIGHTS["age"] * age_score
             + _WEIGHTS["league"] * league_score
             + _WEIGHTS["value"] * value_score
-            + _WEIGHTS["pathway"] * pathway_score,
+            + _WEIGHTS["tactical"] * tactical_score
+            + _WEIGHTS["pathway"] * pathway_score
+            + _WEIGHTS["demand"] * demand_score,
             4,
         )
 
@@ -209,7 +356,15 @@ def compute_club_fit(
                 "age_profile_match": age_score,
                 "league_step_up": league_score,
                 "value_accessibility": value_score,
+                "tactical_fit": tactical_score,
                 "pathway_score": pathway_score,
+                "positional_demand": demand_score,
+            },
+            "club_profile": {
+                "pressing_intensity": club.get("pressing_intensity"),
+                "formation_style": club.get("formation_style"),
+                "physical_demand": club.get("physical_demand"),
+                "technical_demand": club.get("technical_demand"),
             },
         })
 
@@ -255,6 +410,8 @@ def build_club_fit_output(
             "competition": comp_by_name.get(name) or vr.get("competition"),
             "computed_value_eur": vr.get("computed_value_eur"),
             "market_value_eur": vr.get("market_value_eur"),
+            "valuation_score": vr.get("valuation_score"),
+            "age_adjusted_kpi_score": kr.get("age_adjusted_kpi_score"),
         }
 
         top5 = compute_club_fit(player)

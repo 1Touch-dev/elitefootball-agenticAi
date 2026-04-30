@@ -90,6 +90,19 @@ Data Sources → Scraping Layer → Bronze → Silver → Gold → API → Front
 22. ✅ app/pipeline/silver.py — build_silver_tables_for_players(slugs) for incremental filtering
 23. ✅ /admin/status now includes job_queue stats + scheduler status
 
+### Phase 7 — Decision Intelligence (2026-04-30)
+38. ✅ app/learning/pathway_learning_engine.py — GradientBoostingClassifier (200 est, 120 samples) → P(success|player,destination) per club
+39. ✅ app/analysis/decision_engine.py — BUY/SELL/HOLD (buy_threshold=0.65, sell_threshold=0.65) with reasoning breakdown
+40. ✅ app/analysis/market_value_model.py — GradientBoostingRegressor (300 est, 180 training pts) 75/25 blend GBM+analytical, 70/30 blend model+TM, confidence_interval
+41. ✅ app/analysis/player_simulation.py — simulate performance in 11 target leagues; projects KPI/value/minutes_prob/adaptation_months
+42. ✅ app/analysis/club_fit.py — UPGRADED with tactical profiles: pressing_intensity, formation_style, physical/technical demand, positional_need per club
+43. ✅ app/analysis/player_graph.py — pure-Python PageRank on 45-club transfer network; springboard/elite_destination classification; optimal career routes
+44. ✅ app/reporting/scout_report.py — Claude claude-haiku-4-5 LLM + template fallback; structured 6-section report per player
+45. ✅ API: /decision, /decision/{name}, /simulation, /simulation/{name}, /scout-report, /scout-report/{name}, /player-graph, /pathway-learning
+46. ✅ Frontend: /decision (BUY/SELL/HOLD cards), /simulation (league projection cards), /scout-report (report viewer)
+47. ✅ Nav + Dashboard updated with 3 new pages
+48. ✅ 23 Gold artifacts, 144 tests passing, 25 pipeline stages
+
 ### Remaining Known Gaps
 - No real live scraping (Playwright blocked by anti-bot on Transfermarkt/FBref without proxies)
 - market_value data in Bronze is seeded as None → undervalued detection uses "no market data" path

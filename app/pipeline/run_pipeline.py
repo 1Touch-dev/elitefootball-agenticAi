@@ -6,19 +6,24 @@ from app.analysis.club_benchmark import build_club_benchmark_output
 from app.analysis.club_development import build_club_development_rankings
 from app.analysis.club_fit import build_club_fit_output
 from app.analysis.clustering_engine import build_clustering_output
+from app.analysis.decision_engine import build_decision_engine_output
 from app.analysis.feature_store import build_feature_store
 from app.analysis.kpi_engine import build_kpi_engine_output
 from app.analysis.market_value_model import build_market_value_output
 from app.analysis.pathway_engine import build_pathway_output
+from app.analysis.player_graph import build_player_graph_output
+from app.analysis.player_simulation import build_player_simulation_output
 from app.analysis.risk_engine import build_risk_output
 from app.analysis.similarity_v2 import build_similarity_v2_output
 from app.analysis.transfer_probability import build_transfer_probability_output
 from app.analysis.valuation_v2 import build_valuation_v2_output
 from app.db.persistence import ingest_silver_tables
+from app.learning.pathway_learning_engine import build_pathway_learning_output
 from app.pipeline.bronze import build_bronze_manifest
 from app.pipeline.gold import build_gold_features
 from app.pipeline.silver import build_silver_tables
 from app.pipeline.transfers import run_transfer_pipeline
+from app.reporting.scout_report import build_scout_report_output
 from app.validation.cross_source_validator import build_confidence_index
 from app.validation.drift_detector import build_drift_report
 
@@ -127,6 +132,50 @@ def run_pipeline() -> dict[str, object]:
         confidence_index=confidence_index,
     )
 
+    # ── Phase 7: Decision intelligence ───────────────────────────────────────
+    pathway_learning = build_pathway_learning_output(
+        silver["tables"],
+        kpi["rows"],
+        pathway_rows=pathway["rows"],
+        drift_report=drift_report,
+    )
+
+    decision_engine = build_decision_engine_output(
+        silver["tables"],
+        kpi["rows"],
+        valuation_rows=valuation["rows"],
+        transfer_rows=transfer_probability["rows"],
+        club_fit_rows=club_fit["rows"],
+        market_value_rows=market_value["rows"],
+        risk_rows=risk["rows"],
+        confidence_index=confidence_index,
+        drift_report=drift_report,
+        pathway_learning_rows=pathway_learning["rows"],
+    )
+
+    player_simulation = build_player_simulation_output(
+        silver["tables"],
+        kpi["rows"],
+        valuation_rows=valuation["rows"],
+        club_fit_rows=club_fit["rows"],
+        drift_report=drift_report,
+    )
+
+    player_graph = build_player_graph_output()
+
+    scout_reports = build_scout_report_output(
+        silver["tables"],
+        kpi["rows"],
+        decision_rows=decision_engine["rows"],
+        valuation_rows=valuation["rows"],
+        risk_rows=risk["rows"],
+        market_value_rows=market_value["rows"],
+        club_fit_rows=club_fit["rows"],
+        pathway_rows=pathway_learning["rows"],
+        simulation_rows=player_simulation["rows"],
+        drift_report=drift_report,
+    )
+
     return {
         "bronze": bronze,
         "silver": silver,
@@ -149,6 +198,11 @@ def run_pipeline() -> dict[str, object]:
         "clusters": clusters,
         "alerts": alerts,
         "feature_store": feature_store,
+        "pathway_learning": pathway_learning,
+        "decision_engine": decision_engine,
+        "player_simulation": player_simulation,
+        "player_graph": player_graph,
+        "scout_reports": scout_reports,
     }
 
 
