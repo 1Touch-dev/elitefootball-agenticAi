@@ -467,9 +467,11 @@ def _upsert_stats(
 def _finalize_status(report: dict[str, object]) -> str:
     entities = report["entities"]
     failed = sum(entity["failed"] for entity in entities.values())
-    updated = sum(entity["updated"] for entity in entities.values())
-    inserted = sum(entity["inserted"] for entity in entities.values())
-    if failed and not (inserted or updated):
+    # Core data entities (excluding clubs which are derived/reference data)
+    core_entities = {k: v for k, v in entities.items() if k not in ("clubs",)}
+    core_inserted = sum(e["inserted"] for e in core_entities.values())
+    core_updated = sum(e["updated"] for e in core_entities.values())
+    if failed and not (core_inserted or core_updated):
         return "validation_failed"
     if failed:
         return "success_partial"

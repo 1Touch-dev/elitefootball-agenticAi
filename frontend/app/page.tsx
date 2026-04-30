@@ -52,6 +52,7 @@ export default async function DashboardPage() {
         {[
           { href: "/players", icon: "👤", title: "Players", desc: "Browse IDV squad profiles and stats" },
           { href: "/valuation", icon: "💰", title: "Valuation", desc: "Player value scores and projections" },
+          { href: "/undervalued", icon: "🔍", title: "Undervalued", desc: "Players priced below model estimate" },
           { href: "/compare", icon: "⚖️", title: "Compare", desc: "Role-aware similarity engine" },
           { href: "/pathway", icon: "🛤️", title: "Pathway", desc: "Development trajectory and career paths" },
           { href: "/benchmark", icon: "🏆", title: "Benchmark", desc: "IDV vs Benfica vs Ajax vs Salzburg" },

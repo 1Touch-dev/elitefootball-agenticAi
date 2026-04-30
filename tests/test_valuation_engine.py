@@ -1,6 +1,6 @@
 import unittest
 
-from app.analysis.valuation_engine import build_valuation_output
+from app.analysis.legacy.valuation_engine import build_valuation_output
 
 
 class TestValuationEngine(unittest.TestCase):

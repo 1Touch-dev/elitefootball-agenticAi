@@ -254,6 +254,42 @@ def pathway_list(
     return {"count": len(rows), "items": paged}
 
 
+@router.get("/undervalued")
+def undervalued_players(
+    min_gap_pct: float = Query(default=25.0, ge=0.0, le=500.0),
+    limit: int = Query(default=20, ge=1, le=100),
+    offset: int = Query(default=0, ge=0),
+) -> dict[str, object]:
+    """
+    Returns players where the computed valuation exceeds market value by min_gap_pct%.
+    Also includes players with no market value data who have high valuation scores (≥60).
+    """
+    try:
+        valuation_rows = load_valuation_rows(required=True)
+    except ArtifactUnavailableError as exc:
+        raise _artifact_unavailable(str(exc)) from exc
+    except ArtifactInvalidError as exc:
+        raise _artifact_invalid(str(exc)) from exc
+
+    results = []
+    for row in valuation_rows:
+        market_val = row.get("market_value_eur")
+        computed_val = row.get("computed_value_eur")
+        val_score = float(row.get("valuation_score") or 0)
+
+        if market_val and computed_val and market_val > 0:
+            gap_pct = ((computed_val - market_val) / market_val) * 100.0
+            if gap_pct >= min_gap_pct:
+                results.append({**row, "value_gap_pct": round(gap_pct, 1), "gap_type": "market_vs_computed"})
+        elif not market_val and val_score >= 60:
+            # No market value data — flag high-scorers as potentially undervalued
+            results.append({**row, "value_gap_pct": None, "gap_type": "no_market_data_high_score"})
+
+    results.sort(key=lambda r: (r.get("value_gap_pct") or r.get("valuation_score") or 0), reverse=True)
+    paged = paginate(results, offset=offset, limit=limit)
+    return {"count": len(results), "items": paged}
+
+
 @router.get("/benchmark")
 def club_benchmark() -> dict[str, object]:
     try:

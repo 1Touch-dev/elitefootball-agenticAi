@@ -1,6 +1,6 @@
 import unittest
 from collections import defaultdict
-from app.analysis.advanced_metrics_engine import build_advanced_metrics_output
+from app.analysis.legacy.advanced_metrics_engine import build_advanced_metrics_output
 
 class TestAdvancedMetricsEngine(unittest.TestCase):
     def setUp(self):

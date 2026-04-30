@@ -16,12 +16,20 @@ from app.pipeline.io import write_json
 
 MODEL_VERSION = "pathway_v1"
 
-# Comparable club pathway presets (source → likely next tier)
+# Comparable club pathway presets (source → likely next tier).
+# Keys are substrings matched against lowercased club name.
 PATHWAY_TEMPLATES: dict[str, list[str]] = {
+    "independiente del valle": ["primeira liga", "eredivisie", "austrian bundesliga", "bundesliga"],
     "idv": ["primeira liga", "eredivisie", "austrian bundesliga", "bundesliga"],
+    "barcelona sc": ["copa libertadores", "brasileirao", "primera división"],
+    "barcelona": ["premier league", "la liga", "bundesliga"],
+    "emelec": ["copa libertadores", "liga mx", "primera división"],
+    "ldu quito": ["copa libertadores", "eredivisie", "primeira liga"],
     "benfica": ["premier league", "la liga", "bundesliga"],
     "ajax": ["premier league", "bundesliga", "la liga"],
     "salzburg": ["bundesliga", "premier league", "serie a"],
+    "porto": ["premier league", "la liga", "serie a"],
+    "sporting": ["premier league", "la liga", "bundesliga"],
 }
 
 # Historical IDV success comps (role → outcome)
@@ -49,11 +57,11 @@ def age_league_percentile(age: float | None, kpi_score: float | None, competitio
 
 
 def _expected_kpi(age: float) -> float:
-    """Simple age→expected KPI curve (peaks at 26)."""
+    """Age→expected KPI curve calibrated to actual score range (8–14, peaks at 26)."""
     peak = 26.0
     if age <= peak:
-        return 40.0 + (age / peak) * 30.0
-    return max(25.0, 70.0 - (age - peak) * 3.5)
+        return 8.0 + (age / peak) * 6.0
+    return max(6.0, 14.0 - (age - peak) * 0.4)
 
 
 def improvement_rate(kpi_history: list[float]) -> float:

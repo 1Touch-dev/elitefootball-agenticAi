@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T09:31:59.293713+00:00",
+  "generated_at": "2026-04-30T05:28:11.648710+00:00",
   "artifact_count": 109,
   "artifacts": [
     {
@@ -7,763 +7,763 @@
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/alan-minda.json",
       "slug": "alan-minda",
-      "captured_at": "2026-04-29T09:26:50.471226+00:00"
+      "captured_at": "2026-04-30T05:14:22.310708+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/alexis-zapata.json",
       "slug": "alexis-zapata",
-      "captured_at": "2026-04-29T09:26:50.470818+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/carlos-gutierrez.json",
       "slug": "carlos-gutierrez",
-      "captured_at": "2026-04-29T09:26:50.471386+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/cristian-pellerano.json",
       "slug": "cristian-pellerano",
-      "captured_at": "2026-04-29T09:26:50.471956+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/dylan-borrero.json",
       "slug": "dylan-borrero",
-      "captured_at": "2026-04-29T09:26:50.471786+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/gabriel-villamil.json",
       "slug": "gabriel-villamil",
-      "captured_at": "2026-04-29T09:26:50.472053+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jordy-caicedo.json",
       "slug": "jordy-caicedo",
-      "captured_at": "2026-04-29T09:26:50.471471+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/kendry-paez.json",
       "slug": "kendry-paez",
-      "captured_at": "2026-04-29T09:26:50.470911+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/luis-segovia.json",
       "slug": "luis-segovia",
-      "captured_at": "2026-04-29T09:26:50.470565+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/michael-espinoza.json",
       "slug": "michael-espinoza",
-      "captured_at": "2026-04-29T09:26:50.471554+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/moises-caicedo.json",
       "slug": "moises-caicedo",
-      "captured_at": "2026-04-29T09:26:50.471871+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/oscar-zambrano.json",
       "slug": "oscar-zambrano",
-      "captured_at": "2026-04-29T09:26:50.471705+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/pedro-velasco.json",
       "slug": "pedro-velasco",
-      "captured_at": "2026-04-29T09:26:50.471630+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/piero-hincapie.json",
       "slug": "piero-hincapie",
-      "captured_at": "2026-04-29T09:26:50.471138+00:00"
+      "captured_at": "2026-04-30T05:14:22.311344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/renato-ibarra.json",
       "slug": "renato-ibarra",
-      "captured_at": "2026-04-29T09:26:50.470722+00:00"
+      "captured_at": "2026-04-30T05:14:22.311708+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/sebastian-rodriguez.json",
       "slug": "sebastian-rodriguez",
-      "captured_at": "2026-04-29T09:26:50.471307+00:00"
+      "captured_at": "2026-04-30T05:14:22.311708+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/tomas-molina.json",
       "slug": "tomas-molina",
-      "captured_at": "2026-04-29T09:26:50.472138+00:00"
+      "captured_at": "2026-04-30T05:14:22.311708+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/willian-pacho.json",
       "slug": "willian-pacho",
-      "captured_at": "2026-04-29T09:26:50.471023+00:00"
+      "captured_at": "2026-04-30T05:14:22.311708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alan-minda-match-001.json",
       "slug": "alan-minda-match-001",
-      "captured_at": "2026-04-29T09:26:50.475902+00:00"
+      "captured_at": "2026-04-30T05:14:22.295710+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alan-minda-match-002.json",
       "slug": "alan-minda-match-002",
-      "captured_at": "2026-04-29T09:26:50.476034+00:00"
+      "captured_at": "2026-04-30T05:14:22.295815+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alan-minda-match-003.json",
       "slug": "alan-minda-match-003",
-      "captured_at": "2026-04-29T09:26:50.476151+00:00"
+      "captured_at": "2026-04-30T05:14:22.295815+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alan-minda-match-004.json",
       "slug": "alan-minda-match-004",
-      "captured_at": "2026-04-29T09:26:50.476261+00:00"
+      "captured_at": "2026-04-30T05:14:22.295815+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alan-minda-match-005.json",
       "slug": "alan-minda-match-005",
-      "captured_at": "2026-04-29T09:26:50.476367+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alexis-zapata-match-001.json",
       "slug": "alexis-zapata-match-001",
-      "captured_at": "2026-04-29T09:26:50.475476+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alexis-zapata-match-002.json",
       "slug": "alexis-zapata-match-002",
-      "captured_at": "2026-04-29T09:26:50.475584+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alexis-zapata-match-003.json",
       "slug": "alexis-zapata-match-003",
-      "captured_at": "2026-04-29T09:26:50.475687+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/alexis-zapata-match-004.json",
       "slug": "alexis-zapata-match-004",
-      "captured_at": "2026-04-29T09:26:50.475791+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/carlos-gutierrez-match-001.json",
       "slug": "carlos-gutierrez-match-001",
-      "captured_at": "2026-04-29T09:26:50.478734+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/carlos-gutierrez-match-002.json",
       "slug": "carlos-gutierrez-match-002",
-      "captured_at": "2026-04-29T09:26:50.478845+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/carlos-gutierrez-match-003.json",
       "slug": "carlos-gutierrez-match-003",
-      "captured_at": "2026-04-29T09:26:50.478950+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/carlos-gutierrez-match-004.json",
       "slug": "carlos-gutierrez-match-004",
-      "captured_at": "2026-04-29T09:26:50.479088+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/cristian-pellerano-match-001.json",
       "slug": "cristian-pellerano-match-001",
-      "captured_at": "2026-04-29T09:26:50.481314+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/cristian-pellerano-match-002.json",
       "slug": "cristian-pellerano-match-002",
-      "captured_at": "2026-04-29T09:26:50.481426+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/cristian-pellerano-match-003.json",
       "slug": "cristian-pellerano-match-003",
-      "captured_at": "2026-04-29T09:26:50.481536+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/cristian-pellerano-match-004.json",
       "slug": "cristian-pellerano-match-004",
-      "captured_at": "2026-04-29T09:26:50.481652+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/dylan-borrero-match-001.json",
       "slug": "dylan-borrero-match-001",
-      "captured_at": "2026-04-29T09:26:50.477029+00:00"
+      "captured_at": "2026-04-30T05:14:22.297708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/dylan-borrero-match-002.json",
       "slug": "dylan-borrero-match-002",
-      "captured_at": "2026-04-29T09:26:50.477154+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/dylan-borrero-match-003.json",
       "slug": "dylan-borrero-match-003",
-      "captured_at": "2026-04-29T09:26:50.477263+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/dylan-borrero-match-004.json",
       "slug": "dylan-borrero-match-004",
-      "captured_at": "2026-04-29T09:26:50.477371+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/dylan-borrero-match-005.json",
       "slug": "dylan-borrero-match-005",
-      "captured_at": "2026-04-29T09:26:50.477480+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/dylan-borrero-match-006.json",
       "slug": "dylan-borrero-match-006",
-      "captured_at": "2026-04-29T09:26:50.477616+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/gabriel-villamil-match-001.json",
       "slug": "gabriel-villamil-match-001",
-      "captured_at": "2026-04-29T09:26:50.480369+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/gabriel-villamil-match-002.json",
       "slug": "gabriel-villamil-match-002",
-      "captured_at": "2026-04-29T09:26:50.480481+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/gabriel-villamil-match-003.json",
       "slug": "gabriel-villamil-match-003",
-      "captured_at": "2026-04-29T09:26:50.480591+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/gabriel-villamil-match-004.json",
       "slug": "gabriel-villamil-match-004",
-      "captured_at": "2026-04-29T09:26:50.480700+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/jordy-caicedo-match-001.json",
       "slug": "jordy-caicedo-match-001",
-      "captured_at": "2026-04-29T09:26:50.479212+00:00"
+      "captured_at": "2026-04-30T05:14:22.299708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/jordy-caicedo-match-002.json",
       "slug": "jordy-caicedo-match-002",
-      "captured_at": "2026-04-29T09:26:50.479323+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/jordy-caicedo-match-003.json",
       "slug": "jordy-caicedo-match-003",
-      "captured_at": "2026-04-29T09:26:50.479434+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/jordy-caicedo-match-004.json",
       "slug": "jordy-caicedo-match-004",
-      "captured_at": "2026-04-29T09:26:50.479544+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-001.json",
       "slug": "kendry-paez-match-001",
-      "captured_at": "2026-04-29T09:26:50.473888+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-002.json",
       "slug": "kendry-paez-match-002",
-      "captured_at": "2026-04-29T09:26:50.473996+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-003.json",
       "slug": "kendry-paez-match-003",
-      "captured_at": "2026-04-29T09:26:50.474139+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-004.json",
       "slug": "kendry-paez-match-004",
-      "captured_at": "2026-04-29T09:26:50.474254+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-005.json",
       "slug": "kendry-paez-match-005",
-      "captured_at": "2026-04-29T09:26:50.474361+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-006.json",
       "slug": "kendry-paez-match-006",
-      "captured_at": "2026-04-29T09:26:50.474464+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-007.json",
       "slug": "kendry-paez-match-007",
-      "captured_at": "2026-04-29T09:26:50.474570+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/kendry-paez-match-008.json",
       "slug": "kendry-paez-match-008",
-      "captured_at": "2026-04-29T09:26:50.474677+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-001.json",
       "slug": "luis-segovia-match-001",
-      "captured_at": "2026-04-29T09:26:50.472295+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-002.json",
       "slug": "luis-segovia-match-002",
-      "captured_at": "2026-04-29T09:26:50.472433+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-003.json",
       "slug": "luis-segovia-match-003",
-      "captured_at": "2026-04-29T09:26:50.472547+00:00"
+      "captured_at": "2026-04-30T05:14:22.302708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-004.json",
       "slug": "luis-segovia-match-004",
-      "captured_at": "2026-04-29T09:26:50.472658+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-005.json",
       "slug": "luis-segovia-match-005",
-      "captured_at": "2026-04-29T09:26:50.472772+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-006.json",
       "slug": "luis-segovia-match-006",
-      "captured_at": "2026-04-29T09:26:50.472879+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-007.json",
       "slug": "luis-segovia-match-007",
-      "captured_at": "2026-04-29T09:26:50.472983+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/luis-segovia-match-008.json",
       "slug": "luis-segovia-match-008",
-      "captured_at": "2026-04-29T09:26:50.473115+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/michael-espinoza-match-001.json",
       "slug": "michael-espinoza-match-001",
-      "captured_at": "2026-04-29T09:26:50.478283+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/michael-espinoza-match-002.json",
       "slug": "michael-espinoza-match-002",
-      "captured_at": "2026-04-29T09:26:50.478395+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/michael-espinoza-match-003.json",
       "slug": "michael-espinoza-match-003",
-      "captured_at": "2026-04-29T09:26:50.478506+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/michael-espinoza-match-004.json",
       "slug": "michael-espinoza-match-004",
-      "captured_at": "2026-04-29T09:26:50.478625+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/moises-caicedo-match-001.json",
       "slug": "moises-caicedo-match-001",
-      "captured_at": "2026-04-29T09:26:50.481771+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/moises-caicedo-match-002.json",
       "slug": "moises-caicedo-match-002",
-      "captured_at": "2026-04-29T09:26:50.481883+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/moises-caicedo-match-003.json",
       "slug": "moises-caicedo-match-003",
-      "captured_at": "2026-04-29T09:26:50.482002+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/moises-caicedo-match-004.json",
       "slug": "moises-caicedo-match-004",
-      "captured_at": "2026-04-29T09:26:50.482142+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/moises-caicedo-match-005.json",
       "slug": "moises-caicedo-match-005",
-      "captured_at": "2026-04-29T09:26:50.482265+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/oscar-zambrano-match-001.json",
       "slug": "oscar-zambrano-match-001",
-      "captured_at": "2026-04-29T09:26:50.476480+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/oscar-zambrano-match-002.json",
       "slug": "oscar-zambrano-match-002",
-      "captured_at": "2026-04-29T09:26:50.476585+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/oscar-zambrano-match-003.json",
       "slug": "oscar-zambrano-match-003",
-      "captured_at": "2026-04-29T09:26:50.476692+00:00"
+      "captured_at": "2026-04-30T05:14:22.303708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/oscar-zambrano-match-004.json",
       "slug": "oscar-zambrano-match-004",
-      "captured_at": "2026-04-29T09:26:50.476797+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/oscar-zambrano-match-005.json",
       "slug": "oscar-zambrano-match-005",
-      "captured_at": "2026-04-29T09:26:50.476902+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/pedro-velasco-match-001.json",
       "slug": "pedro-velasco-match-001",
-      "captured_at": "2026-04-29T09:26:50.479661+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/pedro-velasco-match-002.json",
       "slug": "pedro-velasco-match-002",
-      "captured_at": "2026-04-29T09:26:50.479779+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/pedro-velasco-match-003.json",
       "slug": "pedro-velasco-match-003",
-      "captured_at": "2026-04-29T09:26:50.479890+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/pedro-velasco-match-004.json",
       "slug": "pedro-velasco-match-004",
-      "captured_at": "2026-04-29T09:26:50.480021+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/pedro-velasco-match-005.json",
       "slug": "pedro-velasco-match-005",
-      "captured_at": "2026-04-29T09:26:50.480145+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/pedro-velasco-match-006.json",
       "slug": "pedro-velasco-match-006",
-      "captured_at": "2026-04-29T09:26:50.480254+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/piero-hincapie-match-001.json",
       "slug": "piero-hincapie-match-001",
-      "captured_at": "2026-04-29T09:26:50.482393+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/piero-hincapie-match-002.json",
       "slug": "piero-hincapie-match-002",
-      "captured_at": "2026-04-29T09:26:50.482515+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/piero-hincapie-match-003.json",
       "slug": "piero-hincapie-match-003",
-      "captured_at": "2026-04-29T09:26:50.482627+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/piero-hincapie-match-004.json",
       "slug": "piero-hincapie-match-004",
-      "captured_at": "2026-04-29T09:26:50.482737+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/renato-ibarra-match-001.json",
       "slug": "renato-ibarra-match-001",
-      "captured_at": "2026-04-29T09:26:50.473241+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/renato-ibarra-match-002.json",
       "slug": "renato-ibarra-match-002",
-      "captured_at": "2026-04-29T09:26:50.473351+00:00"
+      "captured_at": "2026-04-30T05:14:22.306708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/renato-ibarra-match-003.json",
       "slug": "renato-ibarra-match-003",
-      "captured_at": "2026-04-29T09:26:50.473460+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/renato-ibarra-match-004.json",
       "slug": "renato-ibarra-match-004",
-      "captured_at": "2026-04-29T09:26:50.473567+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/renato-ibarra-match-005.json",
       "slug": "renato-ibarra-match-005",
-      "captured_at": "2026-04-29T09:26:50.473676+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/renato-ibarra-match-006.json",
       "slug": "renato-ibarra-match-006",
-      "captured_at": "2026-04-29T09:26:50.473781+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/sebastian-rodriguez-match-001.json",
       "slug": "sebastian-rodriguez-match-001",
-      "captured_at": "2026-04-29T09:26:50.477730+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/sebastian-rodriguez-match-002.json",
       "slug": "sebastian-rodriguez-match-002",
-      "captured_at": "2026-04-29T09:26:50.477845+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/sebastian-rodriguez-match-003.json",
       "slug": "sebastian-rodriguez-match-003",
-      "captured_at": "2026-04-29T09:26:50.478019+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/sebastian-rodriguez-match-004.json",
       "slug": "sebastian-rodriguez-match-004",
-      "captured_at": "2026-04-29T09:26:50.478159+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/tomas-molina-match-001.json",
       "slug": "tomas-molina-match-001",
-      "captured_at": "2026-04-29T09:26:50.480814+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/tomas-molina-match-002.json",
       "slug": "tomas-molina-match-002",
-      "captured_at": "2026-04-29T09:26:50.480926+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/tomas-molina-match-003.json",
       "slug": "tomas-molina-match-003",
-      "captured_at": "2026-04-29T09:26:50.481071+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/tomas-molina-match-004.json",
       "slug": "tomas-molina-match-004",
-      "captured_at": "2026-04-29T09:26:50.481195+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/willian-pacho-match-001.json",
       "slug": "willian-pacho-match-001",
-      "captured_at": "2026-04-29T09:26:50.474785+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/willian-pacho-match-002.json",
       "slug": "willian-pacho-match-002",
-      "captured_at": "2026-04-29T09:26:50.474890+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/willian-pacho-match-003.json",
       "slug": "willian-pacho-match-003",
-      "captured_at": "2026-04-29T09:26:50.474994+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/willian-pacho-match-004.json",
       "slug": "willian-pacho-match-004",
-      "captured_at": "2026-04-29T09:26:50.475135+00:00"
+      "captured_at": "2026-04-30T05:14:22.307708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/willian-pacho-match-005.json",
       "slug": "willian-pacho-match-005",
-      "captured_at": "2026-04-29T09:26:50.475253+00:00"
+      "captured_at": "2026-04-30T05:14:22.310708+00:00"
     },
     {
       "source": "fbref",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/fbref/willian-pacho-match-006.json",
       "slug": "willian-pacho-match-006",
-      "captured_at": "2026-04-29T09:26:50.475360+00:00"
+      "captured_at": "2026-04-30T05:14:22.310708+00:00"
     }
   ]
 }

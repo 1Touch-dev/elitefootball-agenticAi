@@ -6,6 +6,7 @@ const links = [
   { href: "/", label: "Dashboard" },
   { href: "/players", label: "Players" },
   { href: "/valuation", label: "Valuation" },
+  { href: "/undervalued", label: "Undervalued" },
   { href: "/compare", label: "Compare" },
   { href: "/pathway", label: "Pathway" },
   { href: "/benchmark", label: "Benchmark" },

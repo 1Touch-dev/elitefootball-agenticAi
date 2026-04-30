@@ -99,7 +99,7 @@ def estimate_epv(
     shots: float | None,
     minutes: float | None,
 ) -> float | None:
-    """Expected Possession Value: rough per-90 contribution."""
+    """Per-90 contribution proxy (labelled EPV for display; not true event-level EPV)."""
     if not minutes or minutes <= 0:
         return None
     raw = (
@@ -116,7 +116,7 @@ def estimate_obv(
     shots: float | None,
     key_passes: float | None = None,
 ) -> float | None:
-    """On-Ball Value: sum of contributions."""
+    """Weighted output score proxy (labelled OBV for display; not true StatsBomb OBV)."""
     g = float(goals or 0) * OBV_PER_GOAL
     a = float(assists or 0) * OBV_PER_ASSIST
     s = float(shots or 0) * OBV_PER_SHOT
@@ -162,6 +162,21 @@ def build_advanced_metrics_v2_output(
         total_assists = sum(float(s.get("assists") or 0) for s in stats)
         total_shots = sum(float(s.get("shots") or 0) for s in stats)
         total_minutes = sum(float(s.get("minutes") or 0) for s in stats)
+        # FBref xG/xA — use source data directly when available
+        fbref_xg = sum(float(s.get("xg") or 0) for s in stats if s.get("xg") is not None)
+        fbref_xa = sum(float(s.get("xa") or 0) for s in stats if s.get("xa") is not None)
+        has_fbref_xg = any(s.get("xg") is not None for s in stats)
+        has_fbref_xa = any(s.get("xa") is not None for s in stats)
+        # Progressive action totals for xT
+        prog_carries = sum(int(s.get("progressive_carries") or 0) for s in stats)
+        final_third = sum(
+            int(s.get("carries_into_final_third") or 0) + int(s.get("passes_into_final_third") or 0)
+            for s in stats
+        )
+        penalty_area = sum(
+            int(s.get("carries_into_penalty_area") or 0) + int(s.get("passes_into_penalty_area") or 0)
+            for s in stats
+        )
 
         # Fall back to feature row if no stats
         goals = total_goals or float(fr.get("goals") or 0)
@@ -169,9 +184,16 @@ def build_advanced_metrics_v2_output(
         shots = total_shots or float(fr.get("shots") or 0)
         minutes = total_minutes or float(fr.get("minutes") or 0)
 
-        xg = estimate_xg(shots, goals)
-        xa = estimate_xa(assists)
-        xt = estimate_xt(minutes=minutes)
+        # Use FBref xG/xA when available; fall back to estimate
+        xg = fbref_xg if has_fbref_xg else estimate_xg(shots, goals)
+        xa = fbref_xa if has_fbref_xa else estimate_xa(assists)
+        # xT uses real progressive action data
+        xt = estimate_xt(
+            progressive_actions=prog_carries or None,
+            final_third_entries=final_third or None,
+            penalty_area_entries=penalty_area or None,
+            minutes=minutes or None,
+        )
         epv = estimate_epv(goals, assists, shots, minutes)
         obv = estimate_obv(goals, assists, shots)
 

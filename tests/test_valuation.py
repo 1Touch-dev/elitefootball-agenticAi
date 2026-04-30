@@ -1,6 +1,6 @@
 import unittest
 
-from app.analysis.valuation import (
+from app.analysis.legacy.valuation import (
     age_score,
     clamp_score,
     club_factor,

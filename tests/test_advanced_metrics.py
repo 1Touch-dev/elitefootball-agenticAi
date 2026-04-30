@@ -1,5 +1,5 @@
 import unittest
-from app.analysis.advanced_metrics import per_90, progression_score, safe_sum
+from app.analysis.legacy.advanced_metrics import per_90, progression_score, safe_sum
 
 class TestAdvancedMetrics(unittest.TestCase):
     def test_per_90(self):

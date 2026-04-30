@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from app.analysis.advanced_metrics_engine import build_advanced_metrics_output
 from app.analysis.advanced_metrics_v2 import build_advanced_metrics_v2_output
 from app.analysis.club_benchmark import build_club_benchmark_output
 from app.analysis.club_development import build_club_development_rankings

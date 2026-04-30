@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from app.analysis.kpi_formulas import age_in_years
-from app.analysis.valuation import (
+from app.analysis.legacy.valuation import (
     age_score,
     clamp_score,
     club_factor,

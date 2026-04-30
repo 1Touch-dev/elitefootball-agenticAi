@@ -9,12 +9,12 @@ from typing import Any, Iterator
 from unittest.mock import patch
 from urllib.parse import urlparse
 
-from app.analysis.advanced_metrics_engine import build_advanced_metrics_output
+from app.analysis.legacy.advanced_metrics_engine import build_advanced_metrics_output
 from app.analysis.club_development import build_club_development_rankings
 from app.analysis.kpi_engine import build_kpi_engine_output
 from app.analysis.risk_engine import build_risk_output
-from app.analysis.similarity_engine import build_similarity_output
-from app.analysis.valuation_engine import build_valuation_output
+from app.analysis.legacy.similarity_engine import build_similarity_output
+from app.analysis.legacy.valuation_engine import build_valuation_output
 from app.config import settings
 from app.pipeline.bronze import build_bronze_manifest
 from app.pipeline.gold import build_gold_features

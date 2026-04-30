@@ -111,6 +111,42 @@ def compute_valuation_score(
     return round(max(0.0, min(100.0, raw)), 2)
 
 
+def potential_multiplier(age: float | None) -> float:
+    """Returns a multiplier >1 for young players to represent upside potential."""
+    a = age or 25.0
+    if a <= 19:
+        return 1.35
+    if a <= 21:
+        return 1.20
+    if a <= 23:
+        return 1.10
+    if a <= 25:
+        return 1.05
+    return 1.0
+
+
+def potential_score(current_score: float, age: float | None) -> float:
+    """Ceiling value accounting for youth upside: current × potential_multiplier."""
+    return round(min(100.0, current_score * potential_multiplier(age)), 2)
+
+
+def parse_market_value(raw: str | None) -> float | None:
+    """Parse '€1.5m', '€800k', '€30m' style strings into float euros."""
+    if not raw:
+        return None
+    cleaned = str(raw).strip().lower().replace(",", "").replace("€", "").replace("£", "").replace("$", "")
+    try:
+        if "bn" in cleaned:
+            return float(cleaned.replace("bn", "").strip()) * 1_000_000_000
+        if "m" in cleaned:
+            return float(cleaned.replace("m", "").strip()) * 1_000_000
+        if "k" in cleaned:
+            return float(cleaned.replace("k", "").strip()) * 1_000
+        return float(cleaned.strip())
+    except (ValueError, AttributeError):
+        return None
+
+
 def valuation_tier_v2(score: float) -> str:
     if score >= 80:
         return "elite"
@@ -237,6 +273,16 @@ def build_valuation_v2_output(
 
         final_score = compute_valuation_score(perf, age_c, min_c, league_c, club_c, risk_d, w)
         trajectory = patr.get("trajectory")
+        pot_score = potential_score(final_score, age)
+        market_val_raw = pr.get("market_value")
+        market_val_eur = parse_market_value(market_val_raw)
+        # Computed valuation maps to estimated transfer value (€5m per score point above 40)
+        computed_val_eur = max(0.0, (final_score - 40.0) * 500_000) if final_score > 40 else 0.0
+        is_undervalued = (
+            market_val_eur is not None
+            and computed_val_eur > 0
+            and computed_val_eur > market_val_eur * 1.25
+        )
 
         display_name = (
             pr.get("player_name")
@@ -251,6 +297,11 @@ def build_valuation_v2_output(
             "current_club": club_name,
             "competition": competition,
             "valuation_score": final_score,
+            "potential_score": pot_score,
+            "market_value_raw": market_val_raw,
+            "market_value_eur": market_val_eur,
+            "computed_value_eur": round(computed_val_eur, 0) if computed_val_eur else None,
+            "undervalued": is_undervalued,
             "valuation_tier": valuation_tier_v2(final_score),
             "future_value": future_value_projection(final_score, age, trajectory),
             "components": {

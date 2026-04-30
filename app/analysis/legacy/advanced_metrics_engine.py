@@ -4,7 +4,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from app.analysis.advanced_metrics import per_90, progression_score, safe_sum
+from app.analysis.legacy.advanced_metrics import per_90, progression_score, safe_sum
 from app.config import settings
 from app.pipeline.io import write_json
 

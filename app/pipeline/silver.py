@@ -135,6 +135,7 @@ def build_silver_tables() -> dict[str, object]:
                     "table_id": _clean_string(stat.get("table_id")),
                     "player_name": _clean_string(stat.get("player_name")),
                     "club_name": _clean_string(stat.get("club_name")),
+                    "competition": _clean_string(match_row.get("competition")) if match_row else None,
                     "match_date": match_row.get("match_date") if match_row else None,
                     "match_external_id": match_row.get("external_id") if match_row else None,
                     "minutes": _clean_int(stat.get("minutes")),

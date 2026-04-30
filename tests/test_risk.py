@@ -1,6 +1,6 @@
 import unittest
 
-from app.analysis.risk import (
+from app.analysis.legacy.risk import (
     availability_gap_component,
     coefficient_of_variation,
     composite_risk_score,

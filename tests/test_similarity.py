@@ -1,5 +1,5 @@
 import unittest
-from app.analysis.similarity import normalize_feature_map, min_max_normalize_rows, euclidean_distance, similarity_score, nearest_neighbors
+from app.analysis.legacy.similarity import normalize_feature_map, min_max_normalize_rows, euclidean_distance, similarity_score, nearest_neighbors
 
 class TestSimilarity(unittest.TestCase):
     def test_normalize_feature_map(self):

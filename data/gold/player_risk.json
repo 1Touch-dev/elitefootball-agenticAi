@@ -1,505 +1,85 @@
 [
   {
-    "player_name": "Cristian Pellerano",
-    "position": "Midfielder",
-    "current_club": "Independiente del Valle",
-    "risk_score": 22.441,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 35.5,
-      "volatility_risk_score": 13.916,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 38,
-      "matches": 4,
-      "minutes": 360.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.0,
-      "goal_contribution_p90_cv": 1.0,
-      "shots_p90_cv": 0.577,
-      "consistency_score": 87.5
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Piero Hincapié",
-    "position": "Defender",
-    "current_club": "Bayer Leverkusen",
-    "risk_score": 20.907,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 31.2,
-      "volatility_risk_score": 12.668,
-      "discipline_risk_score": 12.0,
-      "availability_penalty": 17.2,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 24,
-      "matches": 4,
-      "minutes": 360.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 21,
-      "avg_gap_days": 16.333,
-      "minutes_cv": 0.0,
-      "goal_contribution_p90_cv": 1.0,
-      "shots_p90_cv": 0.346,
-      "consistency_score": 87.5
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Carlos Gutiérrez",
-    "position": "Defender",
-    "current_club": "Independiente del Valle",
-    "risk_score": 20.779,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 27.5,
-      "volatility_risk_score": 18.76,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 28,
-      "matches": 4,
-      "minutes": 360.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.0,
-      "goal_contribution_p90_cv": 1.237,
-      "shots_p90_cv": 1.0,
-      "consistency_score": 89.175
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Renato Ibarra",
+    "player_name": "Volatile Player",
     "position": "Forward",
-    "current_club": "Independiente del Valle",
-    "risk_score": 19.137,
-    "risk_tier": "low",
+    "current_club": "Club Example",
+    "risk_score": 47.854,
+    "risk_tier": "moderate",
     "components": {
-      "injury_risk_score": 30.088,
-      "volatility_risk_score": 9.494,
-      "discipline_risk_score": 12.0,
-      "availability_penalty": 4.46,
-      "minutes_instability_score": 2.628,
-      "small_sample_penalty": 3.0
+      "injury_risk_score": 74.304,
+      "volatility_risk_score": 27.043,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 31.5,
+      "minutes_instability_score": 20.804,
+      "small_sample_penalty": 6.0
     },
     "inputs": {
-      "age": 34,
-      "matches": 6,
-      "minutes": 477.0,
-      "minutes_per_match": 79.5,
-      "max_gap_days": 14,
-      "avg_gap_days": 8.4,
-      "minutes_cv": 0.146,
-      "goal_contribution_p90_cv": 0.683,
-      "shots_p90_cv": 0.284,
-      "consistency_score": 64.004
+      "age": 33,
+      "matches": 4,
+      "minutes": 177.0,
+      "minutes_per_match": 44.25,
+      "max_gap_days": 28,
+      "avg_gap_days": 26.0,
+      "minutes_cv": 0.878,
+      "goal_contribution_p90_cv": 1.008,
+      "shots_p90_cv": 1.323,
+      "consistency_score": 38.0
     },
     "model_version": "risk_mvp_v1"
   },
   {
-    "player_name": "Moisés Caicedo",
+    "player_name": "Tiny Sample",
     "position": "Midfielder",
-    "current_club": "Chelsea",
-    "risk_score": 18.07,
+    "current_club": "Club Example",
+    "risk_score": 15.9,
     "risk_tier": "low",
     "components": {
-      "injury_risk_score": 28.071,
-      "volatility_risk_score": 9.095,
-      "discipline_risk_score": 12.0,
-      "availability_penalty": 16.675,
-      "minutes_instability_score": 0.396,
-      "small_sample_penalty": 3.0
-    },
-    "inputs": {
-      "age": 24,
-      "matches": 5,
-      "minutes": 445.0,
-      "minutes_per_match": 89.0,
-      "max_gap_days": 21,
-      "avg_gap_days": 15.75,
-      "minutes_cv": 0.022,
-      "goal_contribution_p90_cv": 0.626,
-      "shots_p90_cv": 0.416,
-      "consistency_score": 84.178
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Michael Espinoza",
-    "position": "Midfielder",
-    "current_club": "Independiente del Valle",
-    "risk_score": 18.062,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 25.714,
-      "volatility_risk_score": 13.976,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 2.214,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 22,
-      "matches": 4,
-      "minutes": 322.0,
-      "minutes_per_match": 80.5,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.123,
-      "goal_contribution_p90_cv": 1.061,
-      "shots_p90_cv": 0.375,
-      "consistency_score": 78.787
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Jordy Caicedo",
-    "position": "Forward",
-    "current_club": "Independiente del Valle",
-    "risk_score": 17.646,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 33.12,
-      "volatility_risk_score": 4.604,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 1.62,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 31,
-      "matches": 4,
-      "minutes": 333.0,
-      "minutes_per_match": 83.25,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.09,
-      "goal_contribution_p90_cv": 0.26,
-      "shots_p90_cv": 0.266,
-      "consistency_score": 89.683
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Gabriel Villamil",
-    "position": "Defender",
-    "current_club": "Independiente del Valle",
-    "risk_score": 17.605,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 23.932,
-      "volatility_risk_score": 14.838,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 0.432,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 24,
-      "matches": 4,
-      "minutes": 355.0,
-      "minutes_per_match": 88.75,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.024,
-      "goal_contribution_p90_cv": 1.001,
-      "shots_p90_cv": 0.728,
-      "consistency_score": 87.121
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Sebastián Rodríguez",
-    "position": "Midfielder",
-    "current_club": "Independiente del Valle",
-    "risk_score": 17.434,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 28.112,
-      "volatility_risk_score": 9.71,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 0.612,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 28,
-      "matches": 4,
-      "minutes": 353.0,
-      "minutes_per_match": 88.25,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.034,
-      "goal_contribution_p90_cv": 0.693,
-      "shots_p90_cv": 0.387,
-      "consistency_score": 82.299
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Alan Minda",
-    "position": "Forward",
-    "current_club": "Independiente del Valle",
-    "risk_score": 15.591,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 21.481,
-      "volatility_risk_score": 12.561,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 7.925,
-      "minutes_instability_score": 2.556,
-      "small_sample_penalty": 3.0
-    },
-    "inputs": {
-      "age": 25,
-      "matches": 5,
-      "minutes": 396.0,
-      "minutes_per_match": 79.2,
-      "max_gap_days": 14,
-      "avg_gap_days": 12.25,
-      "minutes_cv": 0.142,
-      "goal_contribution_p90_cv": 0.954,
-      "shots_p90_cv": 0.313,
-      "consistency_score": 70.913
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Alexis Zapata",
-    "position": "Defender",
-    "current_club": "Independiente del Valle",
-    "risk_score": 15.495,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 23.5,
-      "volatility_risk_score": 10.049,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 26,
-      "matches": 4,
-      "minutes": 360.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.0,
-      "goal_contribution_p90_cv": 0.577,
-      "shots_p90_cv": 0.707,
-      "consistency_score": 89.175
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Tomás Molina",
-    "position": "Forward",
-    "current_club": "Independiente del Valle",
-    "risk_score": 14.091,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 25.858,
-      "volatility_risk_score": 3.888,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 9.5,
-      "minutes_instability_score": 2.358,
-      "small_sample_penalty": 6.0
-    },
-    "inputs": {
-      "age": 22,
-      "matches": 4,
-      "minutes": 275.0,
-      "minutes_per_match": 68.75,
-      "max_gap_days": 14,
-      "avg_gap_days": 14.0,
-      "minutes_cv": 0.131,
-      "goal_contribution_p90_cv": 0.141,
-      "shots_p90_cv": 0.341,
-      "consistency_score": 95.289
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Willian Pacho",
-    "position": "Defender",
-    "current_club": "Independiente del Valle",
-    "risk_score": 13.815,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 11.0,
-      "volatility_risk_score": 17.663,
-      "discipline_risk_score": 12.0,
+      "injury_risk_score": 30.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
       "availability_penalty": 0.0,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 3.0
+      "minutes_instability_score": 10.0,
+      "small_sample_penalty": 14.0
     },
     "inputs": {
-      "age": 24,
-      "matches": 6,
-      "minutes": 540.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 7,
-      "avg_gap_days": 7.0,
-      "minutes_cv": 0.0,
-      "goal_contribution_p90_cv": 1.347,
-      "shots_p90_cv": 0.577,
-      "consistency_score": 87.753
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Óscar Zambrano",
-    "position": "Midfielder",
-    "current_club": "Independiente del Valle",
-    "risk_score": 12.321,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 17.35,
-      "volatility_risk_score": 9.034,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 6.35,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 3.0
-    },
-    "inputs": {
-      "age": 25,
-      "matches": 5,
-      "minutes": 450.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 14,
-      "avg_gap_days": 10.5,
-      "minutes_cv": 0.0,
-      "goal_contribution_p90_cv": 0.624,
-      "shots_p90_cv": 0.425,
-      "consistency_score": 81.292
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Dylan Borrero",
-    "position": "Forward",
-    "current_club": "Independiente del Valle",
-    "risk_score": 11.086,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 17.548,
-      "volatility_risk_score": 5.724,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 5.72,
-      "minutes_instability_score": 0.828,
-      "small_sample_penalty": 3.0
-    },
-    "inputs": {
-      "age": 25,
-      "matches": 6,
-      "minutes": 527.0,
-      "minutes_per_match": 87.833,
-      "max_gap_days": 14,
-      "avg_gap_days": 9.8,
-      "minutes_cv": 0.046,
-      "goal_contribution_p90_cv": 0.394,
-      "shots_p90_cv": 0.238,
-      "consistency_score": 78.522
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Pedro Velasco",
-    "position": "Goalkeeper",
-    "current_club": "Independiente del Valle",
-    "risk_score": 9.657,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 19.46,
-      "volatility_risk_score": 0.0,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 4.46,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 3.0
-    },
-    "inputs": {
-      "age": 29,
-      "matches": 6,
-      "minutes": 540.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 14,
-      "avg_gap_days": 8.4,
+      "age": 20,
+      "matches": 1,
+      "minutes": 18.0,
+      "minutes_per_match": 18.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
       "minutes_cv": 0.0,
       "goal_contribution_p90_cv": 0.0,
       "shots_p90_cv": 0.0,
-      "consistency_score": 100.0
+      "consistency_score": null
     },
     "model_version": "risk_mvp_v1"
   },
   {
-    "player_name": "Luis Segovia",
-    "position": "Midfielder",
+    "player_name": "Stable Player",
+    "position": "Forward",
     "current_club": "Independiente del Valle",
-    "risk_score": 8.447,
+    "risk_score": 8.283,
     "risk_tier": "low",
     "components": {
-      "injury_risk_score": 9.206,
-      "volatility_risk_score": 6.262,
-      "discipline_risk_score": 12.0,
+      "injury_risk_score": 14.18,
+      "volatility_risk_score": 4.754,
+      "discipline_risk_score": 0.0,
       "availability_penalty": 0.0,
-      "minutes_instability_score": 1.206,
-      "small_sample_penalty": 0.0
+      "minutes_instability_score": 0.18,
+      "small_sample_penalty": 6.0
     },
     "inputs": {
-      "age": 25,
-      "matches": 8,
-      "minutes": 694.0,
-      "minutes_per_match": 86.75,
+      "age": 23,
+      "matches": 4,
+      "minutes": 358.0,
+      "minutes_per_match": 89.5,
       "max_gap_days": 7,
       "avg_gap_days": 7.0,
-      "minutes_cv": 0.067,
-      "goal_contribution_p90_cv": 0.383,
-      "shots_p90_cv": 0.344,
-      "consistency_score": 82.852
-    },
-    "model_version": "risk_mvp_v1"
-  },
-  {
-    "player_name": "Kendry Páez",
-    "position": "Midfielder",
-    "current_club": "Independiente del Valle",
-    "risk_score": 6.125,
-    "risk_tier": "low",
-    "components": {
-      "injury_risk_score": 6.0,
-      "volatility_risk_score": 6.313,
-      "discipline_risk_score": 6.0,
-      "availability_penalty": 0.0,
-      "minutes_instability_score": 0.0,
-      "small_sample_penalty": 0.0
-    },
-    "inputs": {
-      "age": 18,
-      "matches": 8,
-      "minutes": 720.0,
-      "minutes_per_match": 90.0,
-      "max_gap_days": 7,
-      "avg_gap_days": 7.0,
-      "minutes_cv": 0.0,
-      "goal_contribution_p90_cv": 0.465,
-      "shots_p90_cv": 0.239,
-      "consistency_score": 63.258
+      "minutes_cv": 0.01,
+      "goal_contribution_p90_cv": 0.342,
+      "shots_p90_cv": 0.189,
+      "consistency_score": 82.0
     },
     "model_version": "risk_mvp_v1"
   }

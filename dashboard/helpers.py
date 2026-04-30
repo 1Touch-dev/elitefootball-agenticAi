@@ -42,7 +42,7 @@ def build_dashboard_state(
             "failure": None,
         }
 
-    if not status_payload:
+    if status_payload is None:
         return {
             "category": "unknown",
             "level": "info",
@@ -50,6 +50,17 @@ def build_dashboard_state(
             "message": "Dashboard status is currently unavailable.",
             "action": "Refresh the page after confirming the backend is running.",
             "last_sync": None,
+            "failure": None,
+        }
+
+    if not status_payload:
+        return {
+            "category": "no_sync",
+            "level": "info",
+            "title": "No sync yet",
+            "message": "No pipeline sync has been run yet.",
+            "action": "Run the pipeline from the Admin page.",
+            "last_sync": "No successful sync yet.",
             "failure": None,
         }
 

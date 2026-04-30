@@ -9,10 +9,12 @@
 Football Player Valuation + Development Intelligence Platform for Independiente del Valle (IDV).
 
 Converts fragmented multi-source football data into a consistent analytics system that:
-- Values players with a true weighted model
+- Values players with a true weighted model + potential score
+- Identifies undervalued players (computed value vs market price)
 - Projects development pathways
 - Benchmarks clubs (IDV vs Benfica vs Ajax vs Salzburg)
 - Serves a production-grade Next.js frontend
+- Uses real scraped data; seed data is fallback only
 
 ---
 
@@ -27,202 +29,129 @@ Data Sources → Scraping Layer → Bronze → Silver → Gold → API → Front
 
 | Layer | Location | Purpose |
 |-------|----------|---------|
-| Scraping | `app/scraping/` | Transfermarkt, Sofascore, FBref (blocked), Tavily |
-| Bronze | `data/bronze/` | Raw source artifacts + manifest |
-| Silver | `data/silver/` | Cleaned tabular: players, player_match_stats, matches, transfers |
-| Gold | `data/gold/` | Derived analytics: kpi, risk, similarity, valuation, pathways, club_benchmark |
-| Analysis | `app/analysis/` | KPI, risk, similarity, valuation_v2, pathway, league_adjustment, club_benchmark, advanced_metrics |
-| API | `app/api/` | FastAPI — port 9001 (dev) |
-| Frontend | `frontend/` | Next.js App Router — port 3000 |
-| Agents | `app/agents/` | orchestrator, scraper, data_cleaner, analyst, report_generator |
+| Scraping | `app/scraping/` | Transfermarkt + FBref via Playwright; Crawl4AI optional (falls back to Playwright) |
+| Bronze | `data/bronze/` | Raw HTML + parsed JSON per player/match |
+| Silver | `data/silver/` | Normalised tables: players, matches, player_match_stats (incl. competition), player_per90, transfers |
+| Gold | `data/gold/` | All analysis outputs: features, KPI, advanced metrics, risk, valuation, pathway, similarity, club benchmark |
+| API | `app/api/routes.py` | FastAPI, port 9001. All endpoints incl. /undervalued |
+| Frontend | `frontend/` | Next.js 15 App Router, port 3000. 8 pages: Dashboard, Players, Valuation, Undervalued, Compare, Pathway, Benchmark, Admin |
+| Agents | `app/agents/` | Orchestrator → Analyst/Scraper/DataCleaner/ReportGenerator (all using v2 engines) |
 
 ---
 
-## 3. Data Pipeline Design
+## 3. Current State (as of 2026-04-30)
 
-### Bronze
-- Manifest: `data/bronze/manifest.json`
-- Raw scrape artifacts stored per source
+### Data
+- **18 IDV players** with seeded Bronze/Silver data (real URLs registered but not yet scraped live)
+- **91 match records** in Silver with competition field populated
+- **0 external comparable players** scraped (Liga Pro rivals + graduates are URL-registered, not yet scraped)
 
-### Silver (cleaned tables)
-- `players.json` — profile rows: name, dob, position, current_club, nationality
-- `player_match_stats.json` — per-match rows: goals, assists, minutes, shots, cards
-- `matches.json` — match metadata
-- `transfers.json` — transfer history: fee, from_club, to_club, season
+### Fixes Applied This Session
+1. ✅ competition field joined into player_match_stats in silver.py (was always null)
+2. ✅ IDV pathway alias fixed ("independiente del valle" key added to PATHWAY_TEMPLATES)
+3. ✅ xT now computed from real progressive carry/pass fields (was always null)
+4. ✅ xG/xA now uses FBref source data when available; falls back to estimate
+5. ✅ potential_score added to valuation (age-based ceiling multiplier)
+6. ✅ market_value_eur parsed from raw string (€1.5m → 1500000)
+7. ✅ undervalued flag + computed_value_eur added to valuation output
+8. ✅ _expected_kpi() calibrated to real KPI scale (8-14, was 40-70)
+9. ✅ analyst_agent.py updated to use all v2 engines
+10. ✅ fbref.py log_event keyword collision fixed (source key conflict)
+11. ✅ v1 analysis modules moved to app/analysis/legacy/
+12. ✅ All test imports updated to use legacy paths
+13. ✅ 144 tests passing, 0 failing
+14. ✅ persistence _finalize_status uses core entity logic (excludes clubs from "nothing succeeded" check)
+15. ✅ dashboard helpers handles empty dict correctly for no_sync state
 
-### Gold (derived)
-- `kpi_engine.json` — base KPI, consistency score, age
-- `player_risk.json` — risk score, tier, components
-- `player_similarity.json` — nearest comps per player
-- `player_valuation.json` — valuation_v2 output
-- `player_features.json` — derived features: gc_per_90, shots, minutes
-- `advanced_metrics.json` — xG, xA, xT, EPV, OBV estimates
-- `club_development_rankings.json` — IDV vs Benfica vs Ajax vs Salzburg
-- `player_pathway.json` — development trajectory and career pathway output
+### Remaining Known Gaps
+- No real live scraping (Playwright blocked by anti-bot on Transfermarkt/FBref without proxies)
+- market_value data in Bronze is seeded as None → undervalued detection uses "no market data" path
+- Liga Pro rivals + IDV graduates not yet scraped (URLs registered in scripts/player_urls.py)
+- EPV/OBV are labelled proxy metrics (not true StatsBomb event-level models)
+- Success probability calibrated better but pathway percentile still approximate
 
 ---
 
-## 4. Valuation Formula (v2)
+## 4. Key Files
+
+| File | Purpose |
+|------|---------|
+| `app/pipeline/silver.py` | Silver builder — includes competition field in player_match_stats |
+| `app/pipeline/gold.py` | Gold features builder |
+| `app/pipeline/run_pipeline.py` | Full pipeline (v2 only) |
+| `app/analysis/advanced_metrics_v2.py` | xG (FBref), xA (FBref), xT (progressive actions), EPV proxy, OBV proxy |
+| `app/analysis/valuation_v2.py` | Weighted model + potential_score + parse_market_value + undervalued flag |
+| `app/analysis/pathway_engine.py` | Trajectory, pathway recommendation (IDV alias fixed), calibrated _expected_kpi |
+| `app/analysis/similarity_v2.py` | Role-aware weighted Euclidean distance |
+| `app/analysis/risk_engine.py` | Composite risk: injury × 0.45 + volatility × 0.40 + discipline × 0.15 |
+| `app/analysis/kpi_engine.py` | Base KPI with age multiplier |
+| `app/analysis/legacy/` | v1 modules — kept for test coverage only, not used in production pipeline |
+| `app/agents/analyst_agent.py` | Uses v2 engines only |
+| `app/api/routes.py` | All REST endpoints including GET /undervalued |
+| `app/scraping/crawl4ai_engine.py` | Crawl4AI engine with Playwright fallback, 24h cache, retry logic |
+| `scripts/player_urls.py` | Registry: 18 IDV players + 15 Liga Pro rivals + 10 IDV graduates |
+| `frontend/lib/api.ts` | API client — server-side: direct, client-side: /api proxy |
+| `frontend/app/undervalued/page.tsx` | Undervalued players page |
+
+---
+
+## 5. Run Commands
+
+```bash
+# Backend
+/home/ubuntu/venv/bin/python -m uvicorn app.main:app --port 9001 --reload
+
+# Frontend
+cd frontend && npm run dev  # port 3000
+
+# Full pipeline
+/home/ubuntu/venv/bin/python -c "from app.pipeline.run_pipeline import run_pipeline; run_pipeline()"
+
+# Tests (144 passing)
+/home/ubuntu/venv/bin/python -m pytest tests/ -q
+```
+
+---
+
+## 6. Valuation Formula
 
 ```
-Player Value Score = clamp(
-  Performance Score × 0.35
-  + Age Curve × 0.20
-  + Minutes Probability × 0.15
-  + League Adjustment × 0.15
-  + Club Development Factor × 0.10
-  - Risk Discount × 0.05
-, min=0, max=100)
+score = perf × 0.35 + age_curve × 0.20 + minutes_prob × 0.15
+      + league_adj × 0.15 + club_dev × 0.10 − risk_disc × 0.05
+
+potential_score = score × potential_multiplier(age)
+  where: ≤19 → ×1.35 | ≤21 → ×1.20 | ≤23 → ×1.10 | ≤25 → ×1.05 | >25 → ×1.0
+
+computed_value_eur = max(0, (score - 40) × €500k)
+undervalued = computed_value_eur > market_value_eur × 1.25
 ```
 
-### Component definitions
-- **Performance Score** (0–100): weighted KPI + advanced metrics (xG, xA, progression)
-- **Age Curve** (0–100): peaks at 24–26, decays exponentially after 30
-- **Minutes Probability** (0–100): availability signal from minutes / (matches × 90)
-- **League Adjustment** (−10 to +15): coefficient per competition tier
-- **Club Development Factor** (0–20): IDV historically +12 (proven pathway)
-- **Risk Discount** (0–25): composite risk score penalty
+---
 
-### Configurable weights
-Stored in `app/analysis/valuation_v2.py` as `ValuationWeights` dataclass — overridable at runtime.
+## 7. Scraping Architecture
+
+- **Crawl4AI** (`app/scraping/crawl4ai_engine.py`): preferred engine — structured JSON/Markdown, async, anti-bot
+- **Playwright** (`app/scraping/browser.py`): fallback when Crawl4AI unavailable or for precise table scraping
+- **Queue** (`app/scraping/queue.py`): HIGH (IDV), MEDIUM (tracked), LOW (discovery)
+- **Retry**: 3 attempts, exponential backoff (1s, 2s, 4s)
+- **Cache**: MD5 hash, 24h TTL in `data/bronze/crawl_cache/`
+- **Player URL Registry**: `scripts/player_urls.py` — real Transfermarkt + FBref + Sofascore URLs
 
 ---
 
-## 5. KPI Definitions
-
-| KPI | Formula |
-|-----|---------|
-| base_kpi_score | weighted sum of gc_per_90, shots_per_90, minutes_share |
-| consistency_score | 1 − coefficient_of_variation(minutes_series) |
-| age_score | peak curve centered at 25 |
-| minutes_score | minutes / (matches × 90), capped at 1.0 |
-| discipline_risk | yellow_cards + 2×red_cards, normalized |
-
----
-
-## 6. Scraping Strategy
-
-### Priority order
-1. **Transfermarkt** — primary: squad lists, player profiles, transfer history
-2. **Sofascore** — secondary: per-match stats enrichment
-3. **FBref** — tertiary (Cloudflare-blocked in this env; handled with graceful fallback)
-4. **Tavily** — URL discovery and source prioritization
-
-### Architecture
-- Queue-based: `app/scraping/queue.py` — priority scheduling + incremental updates
-- Browser abstraction: `app/scraping/browser.py` — Playwright with graceful unavailability
-- Caching: raw HTML cached per slug to avoid redundant fetches
-
----
-
-## 7. League Coefficients
-
-| League | Coefficient |
-|--------|------------|
-| Premier League | +15 |
-| La Liga | +14 |
-| Bundesliga | +13 |
-| Serie A | +13 |
-| Ligue 1 | +12 |
-| Eredivisie | +10 |
-| Primeira Liga | +10 |
-| Copa Libertadores | +8 |
-| Liga Pro (Ecuador) | +5 |
-| Other South America | +3 |
-| Unknown | 0 |
-
----
-
-## 8. Development Pathway Model
-
-Output per player:
-- `development_stage`: prospect / emerging / peak / veteran
-- `trajectory`: ascending / stable / declining
-- `improvement_rate`: δ(KPI) / season
-- `development_velocity`: weighted rate vs age peers
-- `best_pathway`: recommended next club tier
-- `success_probability`: 0–1 based on comparable player outcomes
-
----
-
-## 9. Club Benchmarking
-
-Tracked clubs: IDV, Benfica, Ajax, Salzburg
-
-Metrics:
-- `player_improvement_rate`: avg KPI delta during club tenure
-- `resale_multiplier`: avg exit value / entry value
-- `success_rate`: % players who progressed to higher league
-
----
-
-## 10. Advanced Metrics (Simplified Models)
-
-These are model-estimated from available stats (no event-level data required):
-
-| Metric | Estimation method |
-|--------|-----------------|
-| xG | shots × positional_factor (header/open-play/set-piece) |
-| xA | key_passes × conversion_rate_of_chances |
-| xT | progressive_actions × threat_multiplier |
-| EPV | expected possession value change per action |
-| OBV | on-ball value: sum of xT contributions |
-
----
-
-## 11. Multi-Agent System
-
-| Agent | Role |
-|-------|------|
-| orchestrator | Routes tasks: scrape → clean → analyse → report |
-| scraper_agent | Calls scraping layer, logs to DB |
-| data_cleaner_agent | Bronze→Silver→Gold pipeline run |
-| analyst_agent | KPI, risk, similarity, valuation, pathway |
-| report_generator_agent | Operator summaries |
-
----
-
-## 12. API Endpoints
+## 8. API Endpoints
 
 | Method | Path | Description |
 |--------|------|-------------|
 | GET | /health | Health check |
-| GET | /summary | System summary |
-| GET | /dashboard/status | Artifact readiness |
-| GET | /players | Player list (filterable) |
-| GET | /players/{name}/stats | Per-player match stats |
-| GET | /compare | Similarity results |
-| GET | /value | Valuation scores |
-| GET | /pathway/{name} | Development pathway |
-| GET | /benchmark | Club benchmarks |
-| POST | /safety/evaluate | Safety policy check |
-| POST | /api/tasks | Trigger agent task |
-
----
-
-## 13. Frontend (Next.js)
-
-- Location: `frontend/`
-- Port: 3000
-- EC2 URL: http://54.224.251.181:3000
-- Stack: Next.js App Router, TypeScript, Tailwind CSS
-- Pages: `/` (dashboard), `/player/[name]`, `/compare`, `/valuation`, `/admin`
-
----
-
-## 14. Environment Variables
-
-```
-APP_ENV=development
-SCRAPE_HEADLESS=false
-TAVILY_API_KEY=tvly-dev-...
-ELITEFOOTBALL_API_BASE_URL=http://127.0.0.1:9001
-```
-
----
-
-## 15. Change Log
-
-| Date | Change | Author |
-|------|--------|--------|
-| 2026-04-29 | Initial PROJECT_CONTEXT.md created | pap-247-full-intelligence-upgrade |
+| GET | /players | Player list with features/KPI/valuation |
+| GET | /players/{name}/stats | Match stats for player |
+| GET | /value | Valuation list or single player |
+| GET | /undervalued | Players where model > market price |
+| GET | /compare?player_name= | Similar players (v2 similarity) |
+| GET | /pathway | All pathway recommendations |
+| GET | /pathway/{name} | Single player pathway |
+| GET | /benchmark | Club development benchmark |
+| GET | /advanced-metrics | xG, xA, xT, EPV proxy, OBV proxy |
+| POST | /admin/pipeline/run | Trigger full pipeline |
+| GET | /admin/status | Artifact health check |
