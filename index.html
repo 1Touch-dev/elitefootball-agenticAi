@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help Center</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Support</p>
+        <h1>How can we help?</h1>
+        <p class="hero__text">
+          Browse help topics, search common questions, or contact our support team.
+        </p>
+
+        <form class="search" role="search" aria-label="Help center search">
+          <label class="search__label" for="help-search">Search the help center</label>
+          <div class="search__controls">
+            <input
+              id="help-search"
+              class="search__input"
+              type="search"
+              placeholder="Search categories, FAQs, and support topics"
+              autocomplete="off"
+              aria-describedby="search-results-summary"
+            />
+            <button class="search__button" type="button">Search</button>
+          </div>
+          <p id="search-results-summary" class="search__summary" aria-live="polite">
+            Showing 6 categories and 6 frequently asked questions.
+          </p>
+        </form>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <section class="panel" aria-labelledby="categories-heading">
+        <div class="section-heading">
+          <h2 id="categories-heading">Browse categories</h2>
+          <p>Start with a topic area to find the right answer faster.</p>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card" data-search="account password sign in login security profile">
+            <h3>Account access</h3>
+            <p>Reset passwords, update your profile, and manage sign-in security.</p>
+            <a href="#faq-heading">View answers</a>
+          </article>
+
+          <article class="category-card" data-search="billing invoices payments refunds subscription plan">
+            <h3>Billing &amp; plans</h3>
+            <p>Understand invoices, subscription changes, and refund policies.</p>
+            <a href="#faq-heading">View answers</a>
+          </article>
+
+          <article class="category-card" data-search="orders shipping delivery tracking returns">
+            <h3>Orders &amp; delivery</h3>
+            <p>Track purchases, review delivery times, and handle return requests.</p>
+            <a href="#faq-heading">View answers</a>
+          </article>
+
+          <article class="category-card" data-search="technical app bug error browser mobile performance">
+            <h3>Technical help</h3>
+            <p>Fix common issues with the website, app, and account performance.</p>
+            <a href="#faq-heading">View answers</a>
+          </article>
+
+          <article class="category-card" data-search="privacy security data settings permissions trust">
+            <h3>Privacy &amp; security</h3>
+            <p>Learn how your data is handled and how to update privacy settings.</p>
+            <a href="#faq-heading">View answers</a>
+          </article>
+
+          <article class="category-card" data-search="contact support email chat phone accessibility help">
+            <h3>Contact support</h3>
+            <p>Reach the support team through live chat, email, or phone assistance.</p>
+            <a href="#contact-heading">Get in touch</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="faq-heading">
+        <div class="section-heading">
+          <h2 id="faq-heading">Frequently asked questions</h2>
+          <p>Quick answers to the support requests we hear most often.</p>
+        </div>
+
+        <div class="faq-grid">
+          <article class="faq-card" data-search="reset password sign in account access login">
+            <h3>How do I reset my password?</h3>
+            <p>
+              Use the “Forgot password” link on the sign-in page. We’ll send a secure reset link
+              to your email address.
+            </p>
+          </article>
+
+          <article class="faq-card" data-search="refund refund policy billing subscription payments">
+            <h3>Can I request a refund?</h3>
+            <p>
+              Yes. Refund requests can be submitted within 14 days of purchase from the billing
+              section in your account.
+            </p>
+          </article>
+
+          <article class="faq-card" data-search="track order shipping delivery package status">
+            <h3>Where can I track my order?</h3>
+            <p>
+              Open your order history to see delivery status, tracking updates, and the latest
+              estimated arrival time.
+            </p>
+          </article>
+
+          <article class="faq-card" data-search="browser app issue bug error technical help performance">
+            <h3>What should I do if the app is not loading?</h3>
+            <p>
+              Check your internet connection, refresh the page, and make sure your app or browser
+              is up to date.
+            </p>
+          </article>
+
+          <article class="faq-card" data-search="privacy security data export delete account settings">
+            <h3>How do I manage privacy settings?</h3>
+            <p>
+              Visit your account settings to update permissions, data preferences, and account
+              visibility controls.
+            </p>
+          </article>
+
+          <article class="faq-card" data-search="contact support email live chat phone accessibility">
+            <h3>How can I contact support?</h3>
+            <p>
+              You can contact support through live chat, email, or phone. Response times are shown
+              in the support options below.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel panel--accent" aria-labelledby="contact-heading">
+        <div class="section-heading">
+          <h2 id="contact-heading">Need more help?</h2>
+          <p>Choose the support channel that works best for you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>Live chat</h3>
+            <p>Chat with a support specialist for urgent questions.</p>
+            <p><strong>Available:</strong> 24/7</p>
+            <a href="mailto:support@example.com?subject=Live%20chat%20request">Start chat</a>
+          </article>
+
+          <article class="contact-card">
+            <h3>Email support</h3>
+            <p>Send detailed questions and attach screenshots when needed.</p>
+            <p><strong>Response time:</strong> Usually within 4 hours</p>
+            <a href="mailto:support@example.com">support@example.com</a>
+          </article>
+
+          <article class="contact-card">
+            <h3>Phone support</h3>
+            <p>Speak with our team for account, billing, or accessibility assistance.</p>
+            <p><strong>Hours:</strong> Monday–Friday, 8 AM–6 PM UTC</p>
+            <a href="tel:+18005550199">+1 (800) 555-0199</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+
+    
+      const searchInput = document.getElementById('help-search');
+      const summary = document.getElementById('search-results-summary');
+      const searchableCards = [
+        ...document.querySelectorAll('.category-card'),
+        ...document.querySelectorAll('.faq-card')
+      ];
+
+      function updateSearch() {
+        const query = searchInput.value.trim().toLowerCase();
+        let visibleCategories = 0;
+        let visibleFaqs = 0;
+
+        searchableCards.forEach((card) => {
+          const text = (card.dataset.search + ' ' + card.textContent).toLowerCase();
+          const isMatch = !query || text.includes(query);
+          card.hidden = !isMatch;
+
+          if (isMatch && card.classList.contains('category-card')) visibleCategories += 1;
+          if (isMatch && card.classList.contains('faq-card')) visibleFaqs += 1;
+        });
+
+        summary.textContent = query
+          ? `Showing ${visibleCategories} categories and ${visibleFaqs} frequently asked questions for “${query}”.`
+          : 'Showing 6 categories and 6 frequently asked questions.';
+      }
+
+      searchInput.addEventListener('input', updateSearch);
+    </script>
+  </body>
+
+  <script>
+    const searchInput = document.getElementById('help-search');
+    const summary = document.getElementById('search-results-summary');
+    const searchableCards = [
+      ...document.querySelectorAll('.category-card'),
+      ...document.querySelectorAll('.faq-card')
+    ];
+
+    function updateSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      let visibleCategories = 0;
+      let visibleFaqs = 0;
+
+      searchableCards.forEach((card) => {
+        const text = (card.dataset.search + ' ' + card.textContent).toLowerCase();
+        const isMatch = !query || text.includes(query);
+        card.hidden = !isMatch;
+
+        if (isMatch && card.classList.contains('category-card')) visibleCategories += 1;
+        if (isMatch && card.classList.contains('faq-card')) visibleFaqs += 1;
+      });
+
+      summary.textContent = query
+        ? `Showing ${visibleCategories} categories and ${visibleFaqs} frequently asked questions for “${query}”.`
+        : 'Showing 6 categories and 6 frequently asked questions.';
+    }
+
+    searchInput.addEventListener('input', updateSearch);
+  </script>
+</html>

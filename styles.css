@@ -1,76 +1,191 @@
+:root {
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --surface-alt: #eef4ff;
+  --text: #1f2937;
+  --muted: #5b6474;
+  --border: #d7dfeb;
+  --primary: #1d4ed8;
+  --primary-dark: #143a9e;
+  --shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  --radius: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 25%, #ffffff 100%);
+  line-height: 1.5;
 }
 
-.calculator {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  background: var(--text);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  z-index: 1000;
 }
 
-.display {
-    margin-bottom: 20px;
-    text-align: right;
+.skip-link:focus {
+  top: 1rem;
 }
 
-input[type="text"] {
+.hero {
+  padding: 4rem 1.5rem 2rem;
+}
+
+.hero__content,
+.page-shell {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2.25rem, 4vw, 3.75rem);
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.hero__text,
+.section-heading p,
+.category-card p,
+.faq-card p,
+.contact-card p,
+.search__summary {
+  color: var(--muted);
+}
+
+.search {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow);
+}
+
+.search__label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.search__controls {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.search__input {
+  flex: 1 1 18rem;
+  min-height: 3.25rem;
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  font: inherit;
+}
+
+.search__input:focus,
+a:focus,
+button:focus {
+  outline: 3px solid rgba(29, 78, 216, 0.2);
+  outline-offset: 2px;
+}
+
+.search__button {
+  min-height: 3.25rem;
+  padding: 0.875rem 1.25rem;
+  border: none;
+  border-radius: 0.9rem;
+  background: var(--primary);
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+}
+
+.page-shell {
+  padding-bottom: 4rem;
+}
+
+.panel {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid rgba(215, 223, 235, 0.9);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.panel--accent {
+  background: var(--surface-alt);
+}
+
+.section-heading {
+  margin-bottom: 1.25rem;
+}
+
+.category-grid,
+.faq-grid,
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.category-card,
+.faq-card,
+.contact-card {
+  height: 100%;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.category-card a,
+.contact-card a {
+  display: inline-flex;
+  margin-top: 0.5rem;
+  color: var(--primary-dark);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 2.5rem;
+  }
+
+  .panel,
+  .search {
+    padding: 1rem;
+  }
+
+  .search__button,
+  .search__input {
     width: 100%;
-    font-size: 1.5em;
-    text-align: right;
-    line-height: 1.2em;
-    border: none;
-    outline: none;
-    padding: 10px;
-}
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 60px);
-    gap: 10px;
-}
-
-.btn {
-    padding: 20px;
-    border: none;
-    background-color: #f0f0f0;
-    font-size: 1.2em;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #ddd;
-}
-
-.btn:active {
-    background-color: #ccc;
-}
-
-body.dark-mode {
-    background-color: #1e1e1e;
-    color: #fff;
-}
-
-body.dark-mode .calculator {
-    background-color: #333;
-    color: #fff;
-}
-
-body.dark-mode .btn {
-    background-color: #444;
-}
-
-body.dark-mode .btn:hover {
-    background-color: #555;
-}
-
-body.dark-mode .btn:active {
-    background-color: #666;
+  }
 }
