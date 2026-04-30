@@ -20,7 +20,11 @@ def _player_key(row: dict[str, Any]) -> str:
     return str(row.get("player_name") or "unknown-player").strip().lower()
 
 
-def build_kpi_engine_output(silver_tables: dict[str, list[dict[str, Any]]]) -> dict[str, object]:
+def build_kpi_engine_output(
+    silver_tables: dict[str, list[dict[str, Any]]],
+    confidence_index: dict[str, Any] | None = None,
+) -> dict[str, object]:
+    confidence_index = confidence_index or {}
     players_by_name = {_player_key(row): row for row in silver_tables.get("players", [])}
     grouped_stats: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
@@ -53,6 +57,13 @@ def build_kpi_engine_output(silver_tables: dict[str, list[dict[str, Any]]]) -> d
             consistency,
         )
 
+        conf = confidence_index.get(key, {})
+        data_confidence = float(conf.get("data_confidence_score") or 1.0)
+        validation_flag = conf.get("validation_flag", "OK")
+
+        # Confidence-weighted KPI: raw * confidence (excludes LOW_CONFIDENCE from Gold aggregation)
+        weighted_kpi = round(base_score * age_factor * data_confidence, 3)
+
         row_output = {
             "player_name": player_info.get("player_name") or rows[0].get("player_name"),
             "minutes_played": minutes,
@@ -70,6 +81,9 @@ def build_kpi_engine_output(silver_tables: dict[str, list[dict[str, Any]]]) -> d
             "age_multiplier": age_factor,
             "base_kpi_score": base_score,
             "age_adjusted_kpi_score": round(base_score * age_factor, 3),
+            "confidence_weighted_kpi": weighted_kpi,
+            "data_confidence_score": round(data_confidence, 4),
+            "validation_flag": validation_flag,
         }
         output_rows.append(row_output)
 

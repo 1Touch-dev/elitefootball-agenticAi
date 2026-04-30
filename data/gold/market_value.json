@@ -1,0 +1,236 @@
+[
+  {
+    "player_name": "Moisés Caicedo",
+    "predicted_value_eur": 61987023.0,
+    "blended_value_eur": 85192214.0,
+    "market_value_eur_raw": 120000000.0,
+    "value_confidence": 0.8687,
+    "components": {
+      "base_value_eur": 30000000,
+      "performance_factor": 1.5995,
+      "age_factor": 1.0,
+      "demand_factor": 1.2918
+    }
+  },
+  {
+    "player_name": "Piero Hincapié",
+    "predicted_value_eur": 32316304.0,
+    "blended_value_eur": 30589782.0,
+    "market_value_eur_raw": 28000000.0,
+    "value_confidence": 0.7904,
+    "components": {
+      "base_value_eur": 18000000,
+      "performance_factor": 1.3925,
+      "age_factor": 1.0,
+      "demand_factor": 1.2893
+    }
+  },
+  {
+    "player_name": "Willian Pacho",
+    "predicted_value_eur": 2742204.0,
+    "blended_value_eur": 7645322.0,
+    "market_value_eur_raw": 15000000.0,
+    "value_confidence": 0.7214,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.1828,
+      "age_factor": 1.0,
+      "demand_factor": 1.288
+    }
+  },
+  {
+    "player_name": "Kendry Páez",
+    "predicted_value_eur": 1230057.0,
+    "blended_value_eur": 3938034.0,
+    "market_value_eur_raw": 8000000.0,
+    "value_confidence": 0.9056,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.286,
+      "age_factor": 0.4111,
+      "demand_factor": 1.2926
+    }
+  },
+  {
+    "player_name": "Dylan Borrero",
+    "predicted_value_eur": 3465955.0,
+    "blended_value_eur": 3479573.0,
+    "market_value_eur_raw": 3500000.0,
+    "value_confidence": 0.9131,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.5405,
+      "age_factor": 0.9756,
+      "demand_factor": 1.2812
+    }
+  },
+  {
+    "player_name": "Luis Segovia",
+    "predicted_value_eur": 3374174.0,
+    "blended_value_eur": 3024504.0,
+    "market_value_eur_raw": 2500000.0,
+    "value_confidence": 0.9146,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.4904,
+      "age_factor": 0.9756,
+      "demand_factor": 1.2892
+    }
+  },
+  {
+    "player_name": "Alan Minda",
+    "predicted_value_eur": 3187658.0,
+    "blended_value_eur": 2512595.0,
+    "market_value_eur_raw": 1500000.0,
+    "value_confidence": 0.8023,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.4218,
+      "age_factor": 0.9756,
+      "demand_factor": 1.2767
+    }
+  },
+  {
+    "player_name": "Óscar Zambrano",
+    "predicted_value_eur": 3149803.0,
+    "blended_value_eur": 2409882.0,
+    "market_value_eur_raw": 1300000.0,
+    "value_confidence": 0.8705,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.39,
+      "age_factor": 0.9756,
+      "demand_factor": 1.2904
+    }
+  },
+  {
+    "player_name": "Alexis Zapata",
+    "predicted_value_eur": 2604890.0,
+    "blended_value_eur": 2042934.0,
+    "market_value_eur_raw": 1200000.0,
+    "value_confidence": 0.8758,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.2443,
+      "age_factor": 0.906,
+      "demand_factor": 1.2837
+    }
+  },
+  {
+    "player_name": "Gabriel Villamil",
+    "predicted_value_eur": 2777914.0,
+    "blended_value_eur": 1986748.0,
+    "market_value_eur_raw": 800000.0,
+    "value_confidence": 0.7904,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.1996,
+      "age_factor": 1.0,
+      "demand_factor": 1.2865
+    }
+  },
+  {
+    "player_name": "Michael Espinoza",
+    "predicted_value_eur": 2528842.0,
+    "blended_value_eur": 1957305.0,
+    "market_value_eur_raw": 1100000.0,
+    "value_confidence": 0.7691,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.2031,
+      "age_factor": 0.906,
+      "demand_factor": 1.2889
+    }
+  },
+  {
+    "player_name": "Tomás Molina",
+    "predicted_value_eur": 2559746.0,
+    "blended_value_eur": 1935848.0,
+    "market_value_eur_raw": 1000000.0,
+    "value_confidence": 0.9925,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.2256,
+      "age_factor": 0.906,
+      "demand_factor": 1.2807
+    }
+  },
+  {
+    "player_name": "Sebastián Rodríguez",
+    "predicted_value_eur": 1919471.0,
+    "blended_value_eur": 1511683.0,
+    "market_value_eur_raw": 900000.0,
+    "value_confidence": 0.8496,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.2366,
+      "age_factor": 0.6736,
+      "demand_factor": 1.2802
+    }
+  },
+  {
+    "player_name": "Carlos Gutiérrez",
+    "predicted_value_eur": 1614055.0,
+    "blended_value_eur": 1248433.0,
+    "market_value_eur_raw": 700000.0,
+    "value_confidence": 0.6425,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.0576,
+      "age_factor": 0.6736,
+      "demand_factor": 1.2587
+    }
+  },
+  {
+    "player_name": "Renato Ibarra",
+    "predicted_value_eur": 189827.0,
+    "blended_value_eur": 833896.0,
+    "market_value_eur_raw": 1800000.0,
+    "value_confidence": 0.852,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.014,
+      "age_factor": 0.0847,
+      "demand_factor": 1.2279
+    }
+  },
+  {
+    "player_name": "Pedro Velasco",
+    "predicted_value_eur": 951151.0,
+    "blended_value_eur": 810691.0,
+    "market_value_eur_raw": 600000.0,
+    "value_confidence": 0.9225,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 0.8018,
+      "age_factor": 0.5394,
+      "demand_factor": 1.2218
+    }
+  },
+  {
+    "player_name": "Jordy Caicedo",
+    "predicted_value_eur": 738360.0,
+    "blended_value_eur": 763016.0,
+    "market_value_eur_raw": 800000.0,
+    "value_confidence": 0.9251,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 1.1468,
+      "age_factor": 0.2982,
+      "demand_factor": 1.1995
+    }
+  },
+  {
+    "player_name": "Cristian Pellerano",
+    "predicted_value_eur": 12437.0,
+    "blended_value_eur": 167462.0,
+    "market_value_eur_raw": 400000.0,
+    "value_confidence": 0.7904,
+    "components": {
+      "base_value_eur": 1800000,
+      "performance_factor": 0.687,
+      "age_factor": 0.0079,
+      "demand_factor": 1.2731
+    }
+  }
+]

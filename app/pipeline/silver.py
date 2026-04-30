@@ -211,3 +211,35 @@ def build_silver_tables() -> dict[str, object]:
         log_event(logger, logging.INFO, "db.write.result", target="silver_json", table=name, path=paths[name], records=len(rows), verified_count=verifications[name]["actual_count"], persisted=False)
 
     return {"paths": paths, "tables": outputs, "verifications": verifications}
+
+
+def build_silver_tables_for_players(player_slugs: list[str]) -> dict[str, object]:
+    """
+    Build Silver tables for a specific subset of players by slug.
+    Filters the full Silver build down to only the requested players.
+    Used by incremental pipeline to avoid reprocessing the entire dataset.
+    """
+    full = build_silver_tables()
+    slugs_set = set(player_slugs)
+
+    def _name_to_slug(name: str | None) -> str:
+        if not name:
+            return ""
+        import re, unicodedata
+        nfkd = unicodedata.normalize("NFKD", name)
+        ascii_str = "".join(c for c in nfkd if not unicodedata.combining(c))
+        return re.sub(r"\s+", "_", ascii_str.lower().strip())
+
+    def _matches(row: dict) -> bool:
+        slug = row.get("player_slug") or _name_to_slug(row.get("player_name"))
+        return slug in slugs_set
+
+    tables = full["tables"]
+    filtered: dict[str, list] = {}
+    for table_name, rows in tables.items():
+        filtered[table_name] = [r for r in rows if _matches(r)]
+
+    log_event(logger, logging.INFO, "silver.incremental",
+              slugs=list(slugs_set),
+              filtered_rows={k: len(v) for k, v in filtered.items()})
+    return {"paths": full["paths"], "tables": filtered, "verifications": {}}

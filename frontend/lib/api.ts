@@ -104,6 +104,64 @@ export const api = {
     if (params?.limit) q.set("limit", String(params.limit));
     return fetchAPI<{ count: number; items: UndervaluedRow[] }>(`/undervalued?${q}`);
   },
+  transferProbability: (params?: { min_prob?: number; limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.min_prob != null) q.set("min_prob", String(params.min_prob));
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ count: number; items: TransferProbRow[] }>(`/transfer-probability?${q}`);
+  },
+  clubFit: (playerName?: string) => playerName
+    ? fetchAPI<ClubFitRow>(`/club-fit/${encodeURIComponent(playerName)}`)
+    : fetchAPI<{ count: number; items: ClubFitRow[] }>("/club-fit"),
+  marketValue: (params?: { player_name?: string; limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.player_name) q.set("player_name", params.player_name);
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ count: number; items: MarketValueRow[] }>(`/market-value?${q}`);
+  },
+  clusters: () => fetchAPI<{ players: ClusterRow[]; centroids: any[] }>("/clusters"),
+  alerts: (params?: { alert_type?: string; severity?: string; limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.alert_type) q.set("alert_type", params.alert_type);
+    if (params?.severity) q.set("severity", params.severity);
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ summary: any; count: number; items: AlertRow[] }>(`/alerts?${q}`);
+  },
+  featureStore: (params?: { player_name?: string; limit?: number }) => {
+    const q = new URLSearchParams();
+    if (params?.player_name) q.set("player_name", params.player_name);
+    if (params?.limit) q.set("limit", String(params.limit));
+    return fetchAPI<{ count: number; items: any[] }>(`/feature-store?${q}`);
+  },
   adminStatus: () => fetchAPI<any>("/admin/status"),
   adminRunPipeline: () => fetchAPI<any>("/admin/pipeline/run", { method: "POST" }),
+  adminDiscover: (leagueKeys?: string[]) => fetchAPI<any>("/admin/discover", {
+    method: "POST",
+    body: JSON.stringify(leagueKeys || null),
+  }),
 };
+
+export interface TransferProbRow {
+  player_name: string; age?: number;
+  transfer_probability_1y: number; transfer_probability_2y: number;
+  transfer_category: string;
+  features?: Record<string, number>;
+}
+export interface ClubFitRow {
+  player_name: string; age?: number; position?: string;
+  best_fit_club?: string; best_fit_score?: number;
+  top_5_club_fits: Array<{ club: string; fit_score: number; components: Record<string, number> }>;
+}
+export interface MarketValueRow {
+  player_name: string; predicted_value_eur: number; blended_value_eur: number;
+  market_value_eur_raw?: number; value_confidence: number;
+  components?: { base_value_eur: number; performance_factor: number; age_factor: number; demand_factor: number };
+}
+export interface ClusterRow {
+  player_name: string; cluster_id: number; cluster_label: string;
+  feature_vector?: number[];
+}
+export interface AlertRow {
+  alert_type: string; severity: string; player_name: string;
+  trigger_reason: string; supporting_metrics: Record<string, any>;
+}

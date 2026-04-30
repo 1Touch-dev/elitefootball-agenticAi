@@ -15,7 +15,10 @@
     "consistency_score": 100.0,
     "age_multiplier": 1.0,
     "base_kpi_score": 8.35,
-    "age_adjusted_kpi_score": 8.35
+    "age_adjusted_kpi_score": 8.35,
+    "confidence_weighted_kpi": 8.35,
+    "data_confidence_score": 1.0,
+    "validation_flag": "OK"
   },
   {
     "player_name": "John Doe",
@@ -33,6 +36,9 @@
     "consistency_score": 87.5,
     "age_multiplier": 1.0,
     "base_kpi_score": 5.1,
-    "age_adjusted_kpi_score": 5.1
+    "age_adjusted_kpi_score": 5.1,
+    "confidence_weighted_kpi": 5.1,
+    "data_confidence_score": 1.0,
+    "validation_flag": "OK"
   }
 ]

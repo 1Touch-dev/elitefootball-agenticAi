@@ -1,0 +1,181 @@
+{
+  "alerts": [
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Alan Minda",
+      "trigger_reason": "Model value €12,145,000 vs market €1,500,000 (+428% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 12145000.0,
+        "market_value_eur": 1500000.0,
+        "valuation_score": 64.29,
+        "value_gap_pct": 428.1,
+        "data_confidence": 0.6523
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Alexis Zapata",
+      "trigger_reason": "Model value €9,225,000 vs market €1,200,000 (+458% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 9225000.0,
+        "market_value_eur": 1200000.0,
+        "valuation_score": 58.45,
+        "value_gap_pct": 458.0,
+        "data_confidence": 0.7258
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Carlos Gutiérrez",
+      "trigger_reason": "Model value €6,020,000 vs market €700,000 (+324% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 6020000.0,
+        "market_value_eur": 700000.0,
+        "valuation_score": 52.04,
+        "value_gap_pct": 323.6,
+        "data_confidence": 0.4925
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Dylan Borrero",
+      "trigger_reason": "Model value €14,040,000 vs market €3,500,000 (+206% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 14040000.0,
+        "market_value_eur": 3500000.0,
+        "valuation_score": 68.08,
+        "value_gap_pct": 206.1,
+        "data_confidence": 0.7631
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Gabriel Villamil",
+      "trigger_reason": "Model value €8,470,000 vs market €800,000 (+578% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 8470000.0,
+        "market_value_eur": 800000.0,
+        "valuation_score": 56.94,
+        "value_gap_pct": 578.0,
+        "data_confidence": 0.6404
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Jordy Caicedo",
+      "trigger_reason": "Model value €7,570,000 vs market €800,000 (+633% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 7570000.0,
+        "market_value_eur": 800000.0,
+        "valuation_score": 55.14,
+        "value_gap_pct": 633.4,
+        "data_confidence": 0.7751
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Luis Segovia",
+      "trigger_reason": "Model value €13,245,000 vs market €2,500,000 (+305% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 13245000.0,
+        "market_value_eur": 2500000.0,
+        "valuation_score": 66.49,
+        "value_gap_pct": 305.1,
+        "data_confidence": 0.7646
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Michael Espinoza",
+      "trigger_reason": "Model value €8,530,000 vs market €1,100,000 (+380% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 8530000.0,
+        "market_value_eur": 1100000.0,
+        "valuation_score": 57.06,
+        "value_gap_pct": 380.1,
+        "data_confidence": 0.6191
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Renato Ibarra",
+      "trigger_reason": "Model value €5,250,000 vs market €1,800,000 (+105% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 5250000.0,
+        "market_value_eur": 1800000.0,
+        "valuation_score": 50.5,
+        "value_gap_pct": 104.7,
+        "data_confidence": 0.702
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Sebastián Rodríguez",
+      "trigger_reason": "Model value €9,095,000 vs market €900,000 (+607% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 9095000.0,
+        "market_value_eur": 900000.0,
+        "valuation_score": 58.19,
+        "value_gap_pct": 607.0,
+        "data_confidence": 0.6996
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Tomás Molina",
+      "trigger_reason": "Model value €8,910,000 vs market €1,000,000 (+651% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 8910000.0,
+        "market_value_eur": 1000000.0,
+        "valuation_score": 57.82,
+        "value_gap_pct": 650.7,
+        "data_confidence": 0.8425
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Óscar Zambrano",
+      "trigger_reason": "Model value €11,630,000 vs market €1,300,000 (+545% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 11630000.0,
+        "market_value_eur": 1300000.0,
+        "valuation_score": 63.26,
+        "value_gap_pct": 544.6,
+        "data_confidence": 0.7205
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "high",
+      "player_name": "Pedro Velasco",
+      "trigger_reason": "Model value €1,350,000 vs market €600,000 (+74% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 1350000.0,
+        "market_value_eur": 600000.0,
+        "valuation_score": 42.7,
+        "value_gap_pct": 73.8,
+        "data_confidence": 0.7725
+      }
+    }
+  ],
+  "summary": {
+    "total": 13,
+    "undervalued": 13,
+    "breakout": 0,
+    "decline": 0,
+    "critical": 12,
+    "high": 1
+  }
+}

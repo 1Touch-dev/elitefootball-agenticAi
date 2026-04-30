@@ -1,0 +1,274 @@
+"""
+Club fit model.
+
+For each player, scores compatibility with a set of target clubs.
+
+Fit score = Σ w_i * component_i
+
+Components:
+  1. role_similarity       (0-1) — does this player's position/style match the club's typical profile
+  2. age_profile_match     (0-1) — does the player age fit the club's typical buy age
+  3. league_step_up        (0-1) — is this a logical step up in prestige
+  4. value_accessibility   (0-1) — is the player affordable relative to club's typical spend
+  5. historical_pathway    (0-1) — have similar IDV/South-American players succeeded here
+
+Weights: role=0.30, age=0.25, league=0.20, value=0.15, pathway=0.10
+"""
+from __future__ import annotations
+
+import math
+from pathlib import Path
+from typing import Any
+
+from app.config import settings
+from app.pipeline.io import write_json
+
+
+# Club profiles: typical buy age, typical spend (EUR), league prestige 0-1,
+# historical_pathway (clubs that have taken IDV/South-Am exports)
+_CLUB_PROFILES: dict[str, dict[str, Any]] = {
+    # Pathway clubs (known IDV graduate destinations)
+    "brighton": {"typical_buy_age": (19, 23), "typical_spend_eur": 15_000_000,
+                  "prestige": 0.72, "roles": ["MF", "DF", "FW"], "pathway_score": 0.90},
+    "chelsea": {"typical_buy_age": (17, 22), "typical_spend_eur": 35_000_000,
+                 "prestige": 0.88, "roles": ["FW", "MF", "DF"], "pathway_score": 0.85},
+    "bayer leverkusen": {"typical_buy_age": (18, 24), "typical_spend_eur": 20_000_000,
+                          "prestige": 0.85, "roles": ["MF", "FW", "DF"], "pathway_score": 0.75},
+    "rb salzburg": {"typical_buy_age": (17, 22), "typical_spend_eur": 8_000_000,
+                     "prestige": 0.68, "roles": ["FW", "MF", "DF"], "pathway_score": 0.92},
+    "benfica": {"typical_buy_age": (18, 24), "typical_spend_eur": 12_000_000,
+                 "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.88},
+    "sporting cp": {"typical_buy_age": (18, 25), "typical_spend_eur": 10_000_000,
+                     "prestige": 0.76, "roles": ["FW", "MF", "DF"], "pathway_score": 0.80},
+    "ajax": {"typical_buy_age": (17, 22), "typical_spend_eur": 10_000_000,
+              "prestige": 0.80, "roles": ["FW", "MF", "DF"], "pathway_score": 0.88},
+    "feyenoord": {"typical_buy_age": (19, 25), "typical_spend_eur": 8_000_000,
+                   "prestige": 0.72, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70},
+    "club brugge": {"typical_buy_age": (19, 25), "typical_spend_eur": 7_000_000,
+                     "prestige": 0.65, "roles": ["FW", "MF", "DF"], "pathway_score": 0.65},
+    "atalanta": {"typical_buy_age": (20, 26), "typical_spend_eur": 15_000_000,
+                  "prestige": 0.82, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70},
+    "inter milan": {"typical_buy_age": (21, 27), "typical_spend_eur": 25_000_000,
+                     "prestige": 0.92, "roles": ["FW", "MF", "DF"], "pathway_score": 0.65},
+    "real madrid": {"typical_buy_age": (18, 26), "typical_spend_eur": 60_000_000,
+                     "prestige": 1.00, "roles": ["FW", "MF", "DF"], "pathway_score": 0.70},
+    "barcelona": {"typical_buy_age": (16, 24), "typical_spend_eur": 45_000_000,
+                   "prestige": 0.98, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72},
+    "atletico madrid": {"typical_buy_age": (20, 27), "typical_spend_eur": 30_000_000,
+                         "prestige": 0.90, "roles": ["FW", "MF", "DF"], "pathway_score": 0.68},
+    "porto": {"typical_buy_age": (18, 25), "typical_spend_eur": 12_000_000,
+               "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.75},
+    "nottingham forest": {"typical_buy_age": (20, 27), "typical_spend_eur": 20_000_000,
+                           "prestige": 0.68, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72},
+    "villarreal": {"typical_buy_age": (19, 26), "typical_spend_eur": 15_000_000,
+                    "prestige": 0.78, "roles": ["FW", "MF", "DF"], "pathway_score": 0.72},
+    "eindhoven": {"typical_buy_age": (17, 23), "typical_spend_eur": 8_000_000,
+                   "prestige": 0.75, "roles": ["FW", "MF", "DF"], "pathway_score": 0.75},
+}
+
+# League prestige ladder (for step-up scoring)
+_LEAGUE_PRESTIGE: dict[str, float] = {
+    "liga pro": 0.25,
+    "primeira liga": 0.70,
+    "eredivisie": 0.72,
+    "austrian bundesliga": 0.60,
+    "pro league": 0.65,
+    "brasileirao": 0.55,
+    "primera division": 0.50,
+    "bundesliga": 0.88,
+    "premier league": 1.00,
+    "la liga": 0.95,
+    "serie a": 0.90,
+    "ligue 1": 0.82,
+    "default": 0.40,
+}
+
+_WEIGHTS = {
+    "role": 0.30,
+    "age": 0.25,
+    "league": 0.20,
+    "value": 0.15,
+    "pathway": 0.10,
+}
+
+
+def _current_league_prestige(competition: str | None) -> float:
+    if not competition:
+        return _LEAGUE_PRESTIGE["default"]
+    key = competition.strip().lower()
+    for k, v in _LEAGUE_PRESTIGE.items():
+        if k in key:
+            return v
+    return _LEAGUE_PRESTIGE["default"]
+
+
+def _age_profile_match(age: float | None, club: dict[str, Any]) -> float:
+    """How well does the player's age fit the club's typical buy window?"""
+    if age is None:
+        return 0.5
+    lo, hi = club.get("typical_buy_age", (18, 26))
+    if lo <= age <= hi:
+        return 1.0
+    # Gaussian decay outside window
+    mid = (lo + hi) / 2.0
+    sigma = (hi - lo) / 2.0 + 1.5
+    return round(math.exp(-((age - mid) ** 2) / (2 * sigma ** 2)), 4)
+
+
+def _league_step_up(current_prestige: float, club_prestige: float) -> float:
+    """
+    Is this club a logical step up? Best if club is 0.10-0.40 higher prestige.
+    Exact same level = 0.5, too big a jump = harder to get playing time.
+    """
+    delta = club_prestige - current_prestige
+    if delta < -0.1:
+        return max(0.1, 0.5 + delta)  # step down
+    if delta <= 0.40:
+        return round(0.5 + delta * 1.5, 4)  # sweet spot
+    return round(max(0.3, 0.5 - (delta - 0.40)), 4)  # too big a jump
+
+
+def _value_accessibility(
+    computed_value: float | None,
+    market_value: float | None,
+    club: dict[str, Any],
+) -> float:
+    """Can the club likely afford this player?"""
+    player_value = computed_value or market_value or 3_000_000
+    club_budget = club.get("typical_spend_eur", 10_000_000)
+    ratio = player_value / max(club_budget, 1)
+    if ratio <= 1.0:
+        return round(1.0 - ratio * 0.3, 4)  # affordable
+    if ratio <= 2.0:
+        return round(0.7 - (ratio - 1.0) * 0.4, 4)  # stretch
+    return max(0.1, round(0.3 - (ratio - 2.0) * 0.1, 4))  # expensive
+
+
+def _position_role_match(position: str | None, club: dict[str, Any]) -> float:
+    """Does this player's position align with the club's typical roles?"""
+    if not position:
+        return 0.5
+    pos_upper = position.upper()
+    club_roles = [r.upper() for r in club.get("roles", [])]
+    # Broad match
+    broad_map = {
+        "FW": ["ST", "CF", "LW", "RW", "SS", "FORWARD", "STRIKER", "WINGER"],
+        "MF": ["CM", "AM", "DM", "LM", "RM", "MID", "MIDFIELDER"],
+        "DF": ["CB", "LB", "RB", "LWB", "RWB", "DEFENDER"],
+        "GK": ["GK", "GOALKEEPER"],
+    }
+    for broad, variants in broad_map.items():
+        if pos_upper in variants or broad in pos_upper:
+            return 1.0 if broad in club_roles else 0.5
+    return 0.5
+
+
+def compute_club_fit(
+    player: dict[str, Any],
+    target_clubs: list[str] | None = None,
+) -> list[dict[str, Any]]:
+    """
+    Score player fit against all (or specified) target clubs.
+    Returns list sorted by fit_score descending.
+    """
+    clubs_to_evaluate = target_clubs or list(_CLUB_PROFILES.keys())
+    age = player.get("age")
+    position = player.get("position") or player.get("player_position")
+    competition = player.get("competition")
+    computed_value = player.get("computed_value_eur")
+    market_value = player.get("market_value_eur")
+
+    current_prestige = _current_league_prestige(competition)
+    results: list[dict[str, Any]] = []
+
+    for club_name in clubs_to_evaluate:
+        club = _CLUB_PROFILES.get(club_name.lower())
+        if not club:
+            continue
+
+        role_score = _position_role_match(position, club)
+        age_score = _age_profile_match(age, club)
+        league_score = _league_step_up(current_prestige, club["prestige"])
+        value_score = _value_accessibility(computed_value, market_value, club)
+        pathway_score = club.get("pathway_score", 0.5)
+
+        fit_score = round(
+            _WEIGHTS["role"] * role_score
+            + _WEIGHTS["age"] * age_score
+            + _WEIGHTS["league"] * league_score
+            + _WEIGHTS["value"] * value_score
+            + _WEIGHTS["pathway"] * pathway_score,
+            4,
+        )
+
+        results.append({
+            "club": club_name,
+            "fit_score": fit_score,
+            "components": {
+                "role_similarity": role_score,
+                "age_profile_match": age_score,
+                "league_step_up": league_score,
+                "value_accessibility": value_score,
+                "pathway_score": pathway_score,
+            },
+        })
+
+    results.sort(key=lambda r: r["fit_score"], reverse=True)
+    return results[:5]  # top 5
+
+
+def build_club_fit_output(
+    silver_tables: dict[str, list[dict[str, Any]]],
+    gold_tables: dict[str, list[dict[str, Any]]],
+    kpi_rows: list[dict[str, Any]],
+    valuation_rows: list[dict[str, Any]] | None = None,
+    drift_report: dict[str, Any] | None = None,
+) -> dict[str, object]:
+    valuation_rows = valuation_rows or []
+
+    kpi_by_name = {str(r.get("player_name") or "").lower(): r for r in kpi_rows}
+    val_by_name = {str(r.get("player_name") or "").lower(): r for r in valuation_rows}
+    players_by_name = {
+        str(r.get("player_name") or "").lower(): r
+        for r in silver_tables.get("players", [])
+    }
+
+    from collections import Counter
+    comp_by_name: dict[str, str] = {}
+    for row in silver_tables.get("player_match_stats", []):
+        k = str(row.get("player_name") or "").lower()
+        if row.get("competition"):
+            comp_by_name.setdefault(k, row["competition"])
+
+    all_names = sorted(set(kpi_by_name) | set(val_by_name) | set(players_by_name))
+    output_rows: list[dict[str, Any]] = []
+
+    for name in all_names:
+        kr = kpi_by_name.get(name, {})
+        vr = val_by_name.get(name, {})
+        pr = players_by_name.get(name, {})
+
+        player = {
+            "player_name": pr.get("player_name") or kr.get("player_name") or name,
+            "age": kr.get("age"),
+            "position": pr.get("position"),
+            "competition": comp_by_name.get(name) or vr.get("competition"),
+            "computed_value_eur": vr.get("computed_value_eur"),
+            "market_value_eur": vr.get("market_value_eur"),
+        }
+
+        top5 = compute_club_fit(player)
+        output_rows.append({
+            "player_name": player["player_name"],
+            "age": player["age"],
+            "position": player["position"],
+            "top_5_club_fits": top5,
+            "best_fit_club": top5[0]["club"] if top5 else None,
+            "best_fit_score": top5[0]["fit_score"] if top5 else 0.0,
+        })
+
+    output_rows.sort(key=lambda r: r["best_fit_score"], reverse=True)
+    path = write_json(
+        Path(settings.gold_data_dir) / "club_fit.json", output_rows
+    )
+    return {"path": path, "rows": output_rows}

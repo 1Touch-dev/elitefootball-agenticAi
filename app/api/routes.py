@@ -330,6 +330,148 @@ def admin_run_pipeline() -> dict[str, object]:
         return {"status": "error", "message": str(exc)}
 
 
+@router.get("/transfer-probability")
+def transfer_probability(
+    player_name: str | None = Query(None),
+    min_prob: float = Query(0.0),
+    limit: int = Query(20),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """Transfer probability — 1-year and 2-year estimates per player."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/transfer_probability.json")
+    if not path.exists():
+        raise _artifact_unavailable("transfer_probability.json not found — run pipeline first")
+    rows = read_json(path) or []
+    if not isinstance(rows, list):
+        raise _artifact_invalid("transfer_probability.json has unexpected format")
+    if player_name:
+        key = player_name.strip().lower()
+        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+    if min_prob > 0:
+        rows = [r for r in rows if float(r.get("transfer_probability_1y") or 0) >= min_prob]
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
+@router.get("/club-fit/{player_name}")
+def club_fit_for_player(player_name: str) -> dict[str, object]:
+    """Top 5 club fit recommendations for a specific player."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/club_fit.json")
+    if not path.exists():
+        raise _artifact_unavailable("club_fit.json not found — run pipeline first")
+    rows = read_json(path) or []
+    key = player_name.strip().lower()
+    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    if not match:
+        raise _player_not_found(player_name)
+    return match
+
+
+@router.get("/club-fit")
+def club_fit_list(limit: int = Query(20), offset: int = Query(0)) -> dict[str, object]:
+    """Club fit rankings for all players."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/club_fit.json")
+    if not path.exists():
+        raise _artifact_unavailable("club_fit.json not found — run pipeline first")
+    rows = read_json(path) or []
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
+@router.get("/market-value")
+def market_value(
+    player_name: str | None = Query(None),
+    limit: int = Query(20),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """€ market value predictions with confidence scores."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/market_value.json")
+    if not path.exists():
+        raise _artifact_unavailable("market_value.json not found — run pipeline first")
+    rows = read_json(path) or []
+    if player_name:
+        key = player_name.strip().lower()
+        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
+@router.get("/clusters")
+def player_clusters() -> dict[str, object]:
+    """Player performance clusters (k-means by style profile)."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/player_clusters.json")
+    if not path.exists():
+        raise _artifact_unavailable("player_clusters.json not found — run pipeline first")
+    data = read_json(path)
+    if isinstance(data, list):
+        return {"players": data, "centroids": []}
+    return data or {}
+
+
+@router.get("/alerts")
+def player_alerts(
+    alert_type: str | None = Query(None, description="UNDERVALUED | BREAKOUT | DECLINE"),
+    severity: str | None = Query(None, description="critical | high | medium | low"),
+    limit: int = Query(50),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """Active player alerts: undervalued, breakout, and decline signals."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/alerts.json")
+    if not path.exists():
+        raise _artifact_unavailable("alerts.json not found — run pipeline first")
+    data = read_json(path) or {}
+    alerts = data.get("alerts", []) if isinstance(data, dict) else data
+    if alert_type:
+        alerts = [a for a in alerts if a.get("alert_type") == alert_type.upper()]
+    if severity:
+        alerts = [a for a in alerts if a.get("severity") == severity.lower()]
+    summary = data.get("summary", {}) if isinstance(data, dict) else {}
+    return {
+        "summary": summary,
+        "count": len(alerts),
+        "items": paginate(alerts, offset=offset, limit=limit),
+    }
+
+
+@router.get("/feature-store")
+def feature_store(
+    player_name: str | None = Query(None),
+    limit: int = Query(20),
+    offset: int = Query(0),
+) -> dict[str, object]:
+    """Consolidated feature store — all player features in one normalized record."""
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/feature_store.json")
+    if not path.exists():
+        raise _artifact_unavailable("feature_store.json not found — run pipeline first")
+    rows = read_json(path) or []
+    if player_name:
+        key = player_name.strip().lower()
+        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+    return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
+
+
+@router.post("/admin/discover")
+def admin_discover(league_keys: list[str] | None = None) -> dict[str, object]:
+    """Trigger player discovery crawl across league pages."""
+    try:
+        from app.scraping.discovery_engine import run_discovery_cycle
+        result = run_discovery_cycle(league_keys=league_keys)
+        return {"status": "ok", **result}
+    except Exception as exc:
+        return {"status": "error", "message": str(exc)}
+
+
 @router.get("/admin/status")
 def admin_status() -> dict[str, object]:
     """Admin overview: artifact readiness."""
@@ -345,11 +487,22 @@ def admin_status() -> dict[str, object]:
         "club_benchmark": Path("data/gold/club_development_rankings.json"),
         "risk": Path("data/gold/player_risk.json"),
         "similarity": Path("data/gold/player_similarity.json"),
+        "transfer_probability": Path("data/gold/transfer_probability.json"),
+        "club_fit": Path("data/gold/club_fit.json"),
+        "market_value": Path("data/gold/market_value.json"),
+        "clusters": Path("data/gold/player_clusters.json"),
+        "alerts": Path("data/gold/alerts.json"),
+        "feature_store": Path("data/gold/feature_store.json"),
     }
+    from app.scraping.job_queue import PersistentJobQueue
+    from app.orchestration.scheduler import get_scheduler_status
+    queue = PersistentJobQueue()
     return {
         "dashboard": inspect_dashboard_artifacts(),
         "artifacts": {
             name: {"exists": path.exists(), "path": str(path)}
             for name, path in artifact_map.items()
         },
+        "job_queue": queue.stats(),
+        "scheduler": get_scheduler_status(),
     }

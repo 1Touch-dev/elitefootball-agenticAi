@@ -1,0 +1,1154 @@
+[
+  {
+    "player_name": "Willian Pacho",
+    "age": 24,
+    "position": "Defender",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.9298,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.6323,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8476,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8772,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "benfica",
+        "fit_score": 0.8313,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.7954,
+          "pathway_score": 0.88
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8239,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9591,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "barcelona",
+        "fit_score": 0.8238,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9454,
+          "pathway_score": 0.72
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.9298
+  },
+  {
+    "player_name": "Gabriel Villamil",
+    "age": 24,
+    "position": "Defender",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.9274,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.616,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8469,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.873,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "benfica",
+        "fit_score": 0.8302,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.7883,
+          "pathway_score": 0.88
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8237,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9577,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "barcelona",
+        "fit_score": 0.8235,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9435,
+          "pathway_score": 0.72
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.9274
+  },
+  {
+    "player_name": "Michael Espinoza",
+    "age": 22,
+    "position": "Midfielder",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.9269,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.6126,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "brighton",
+        "fit_score": 0.8504,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.43,
+          "value_accessibility": 0.8294,
+          "pathway_score": 0.9
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8468,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.872,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "rb salzburg",
+        "fit_score": 0.837,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.6735,
+          "pathway_score": 0.92
+        }
+      },
+      {
+        "club": "chelsea",
+        "fit_score": 0.834,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9269,
+          "pathway_score": 0.85
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.9269
+  },
+  {
+    "player_name": "Tomás Molina",
+    "age": 22,
+    "position": "Forward",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.9236,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.5909,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "brighton",
+        "fit_score": 0.8493,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.43,
+          "value_accessibility": 0.8218,
+          "pathway_score": 0.9
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8459,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8663,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "rb salzburg",
+        "fit_score": 0.8342,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.6545,
+          "pathway_score": 0.92
+        }
+      },
+      {
+        "club": "chelsea",
+        "fit_score": 0.8335,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9236,
+          "pathway_score": 0.85
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.9236
+  },
+  {
+    "player_name": "Óscar Zambrano",
+    "age": 25,
+    "position": "Midfielder",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.9003,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.4354,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8398,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8256,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8213,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9418,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "villarreal",
+        "fit_score": 0.8111,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.7674,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.8106,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.8837,
+          "pathway_score": 0.68
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.9003
+  },
+  {
+    "player_name": "Piero Hincapié",
+    "age": 24,
+    "position": "Defender",
+    "top_5_club_fits": [
+      {
+        "club": "real madrid",
+        "fit_score": 0.8972,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.68,
+          "value_accessibility": 0.9416,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "barcelona",
+        "fit_score": 0.8903,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.65,
+          "value_accessibility": 0.9222,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.8565,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.53,
+          "value_accessibility": 0.8833,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "inter milan",
+        "fit_score": 0.856,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.56,
+          "value_accessibility": 0.86,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "bayer leverkusen",
+        "fit_score": 0.8397,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.455,
+          "value_accessibility": 0.8249,
+          "pathway_score": 0.75
+        }
+      }
+    ],
+    "best_fit_club": "real madrid",
+    "best_fit_score": 0.8972
+  },
+  {
+    "player_name": "Alan Minda",
+    "age": 25,
+    "position": "Forward",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.8959,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.406,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8387,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8178,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8209,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9393,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.8098,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.8786,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "villarreal",
+        "fit_score": 0.8096,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.7571,
+          "pathway_score": 0.72
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.8959
+  },
+  {
+    "player_name": "Luis Segovia",
+    "age": 25,
+    "position": "Midfielder",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.8865,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.3431,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8362,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8013,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8201,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9338,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.8081,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.8676,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "villarreal",
+        "fit_score": 0.8063,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.7351,
+          "pathway_score": 0.72
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.8865
+  },
+  {
+    "player_name": "Dylan Borrero",
+    "age": 25,
+    "position": "Forward",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.8799,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.2994,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8344,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.7894,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8195,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9298,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.8069,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.8596,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "villarreal",
+        "fit_score": 0.8039,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.7192,
+          "pathway_score": 0.72
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.8799
+  },
+  {
+    "player_name": "Moisés Caicedo",
+    "age": 24,
+    "position": "Midfielder",
+    "top_5_club_fits": [
+      {
+        "club": "real madrid",
+        "fit_score": 0.8588,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.5,
+          "value_accessibility": 0.9252,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "barcelona",
+        "fit_score": 0.851,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.9002,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.8155,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.35,
+          "value_accessibility": 0.8503,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "inter milan",
+        "fit_score": 0.8141,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.38,
+          "value_accessibility": 0.8204,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "bayer leverkusen",
+        "fit_score": 0.8113,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.35,
+          "value_accessibility": 0.7755,
+          "pathway_score": 0.75
+        }
+      }
+    ],
+    "best_fit_club": "real madrid",
+    "best_fit_score": 0.8588
+  },
+  {
+    "player_name": "Alexis Zapata",
+    "age": 26,
+    "position": "Defender",
+    "top_5_club_fits": [
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.8452,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8616,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "club brugge",
+        "fit_score": 0.8393,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.6736,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.5729,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8231,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9539,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "villarreal",
+        "fit_score": 0.8183,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.8155,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.8142,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9078,
+          "pathway_score": 0.68
+        }
+      }
+    ],
+    "best_fit_club": "nottingham forest",
+    "best_fit_score": 0.8452
+  },
+  {
+    "player_name": "Kendry Páez",
+    "age": 18,
+    "position": "Midfielder",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.8334,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.6736,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.5331,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "chelsea",
+        "fit_score": 0.8323,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.915,
+          "pathway_score": 0.85
+        }
+      },
+      {
+        "club": "rb salzburg",
+        "fit_score": 0.8266,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.604,
+          "pathway_score": 0.92
+        }
+      },
+      {
+        "club": "benfica",
+        "fit_score": 0.8248,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.752,
+          "pathway_score": 0.88
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.8226,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 1.0,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9504,
+          "pathway_score": 0.7
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.8334
+  },
+  {
+    "player_name": "Carlos Gutiérrez",
+    "age": 28,
+    "position": "Defender",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.7991,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.4111,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.742,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.7692,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.667,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.9097,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.7357,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.667,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9398,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "inter milan",
+        "fit_score": 0.7326,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.6736,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9278,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "villarreal",
+        "fit_score": 0.7145,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.5461,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.8796,
+          "pathway_score": 0.72
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.7991
+  },
+  {
+    "player_name": "Sebastián Rodríguez",
+    "age": 28,
+    "position": "Midfielder",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.7748,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.4111,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.5803,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.7623,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.667,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8636,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.7311,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.667,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9091,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "inter milan",
+        "fit_score": 0.727,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.6736,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.8909,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.711,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.5515,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9545,
+          "pathway_score": 0.7
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.7748
+  },
+  {
+    "player_name": "Cristian Pellerano",
+    "age": 38,
+    "position": "Midfielder",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.7329,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0018,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.9829,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "rb salzburg",
+        "fit_score": 0.6337,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.985,
+          "pathway_score": 0.92
+        }
+      },
+      {
+        "club": "brighton",
+        "fit_score": 0.6248,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0,
+          "league_step_up": 0.43,
+          "value_accessibility": 0.992,
+          "pathway_score": 0.9
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.6188,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0149,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.994,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "benfica",
+        "fit_score": 0.6107,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0008,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.99,
+          "pathway_score": 0.88
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.7329
+  },
+  {
+    "player_name": "Jordy Caicedo",
+    "age": 31,
+    "position": "Forward",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.7189,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.1353,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.6674,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.6801,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.3247,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8864,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.6478,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.3247,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9243,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.6398,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.2621,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9621,
+          "pathway_score": 0.7
+        }
+      },
+      {
+        "club": "inter milan",
+        "fit_score": 0.6359,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.2982,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9092,
+          "pathway_score": 0.65
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.7189
+  },
+  {
+    "player_name": "Renato Ibarra",
+    "age": 34,
+    "position": "Forward",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.7084,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0286,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.775,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.6318,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.1103,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.9213,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "brighton",
+        "fit_score": 0.6105,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.001,
+          "league_step_up": 0.43,
+          "value_accessibility": 0.895,
+          "pathway_score": 0.9
+        }
+      },
+      {
+        "club": "rb salzburg",
+        "fit_score": 0.6068,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0014,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.8031,
+          "pathway_score": 0.92
+        }
+      },
+      {
+        "club": "real madrid",
+        "fit_score": 0.5992,
+        "components": {
+          "role_similarity": 1.0,
+          "age_profile_match": 0.0925,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9738,
+          "pathway_score": 0.7
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.7084
+  },
+  {
+    "player_name": "Pedro Velasco",
+    "age": 29,
+    "position": "Goalkeeper",
+    "top_5_club_fits": [
+      {
+        "club": "club brugge",
+        "fit_score": 0.6509,
+        "components": {
+          "role_similarity": 0.5,
+          "age_profile_match": 0.2982,
+          "league_step_up": 1.1,
+          "value_accessibility": 0.9421,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "nottingham forest",
+        "fit_score": 0.5995,
+        "components": {
+          "role_similarity": 0.5,
+          "age_profile_match": 0.5461,
+          "league_step_up": 0.47,
+          "value_accessibility": 0.9798,
+          "pathway_score": 0.72
+        }
+      },
+      {
+        "club": "atletico madrid",
+        "fit_score": 0.5625,
+        "components": {
+          "role_similarity": 0.5,
+          "age_profile_match": 0.5461,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9865,
+          "pathway_score": 0.68
+        }
+      },
+      {
+        "club": "inter milan",
+        "fit_score": 0.5574,
+        "components": {
+          "role_similarity": 0.5,
+          "age_profile_match": 0.5394,
+          "league_step_up": 0.3,
+          "value_accessibility": 0.9838,
+          "pathway_score": 0.65
+        }
+      },
+      {
+        "club": "villarreal",
+        "fit_score": 0.5493,
+        "components": {
+          "role_similarity": 0.5,
+          "age_profile_match": 0.4296,
+          "league_step_up": 0.37,
+          "value_accessibility": 0.973,
+          "pathway_score": 0.72
+        }
+      }
+    ],
+    "best_fit_club": "club brugge",
+    "best_fit_score": 0.6509
+  }
+]

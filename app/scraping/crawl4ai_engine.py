@@ -128,6 +128,8 @@ def crawl_page(
     headless: bool = True,
     retries: int = 3,
     use_cache: bool = True,
+    slug: str | None = None,
+    source: str | None = None,
 ) -> dict[str, Any]:
     """
     Fetch a page using Crawl4AI (preferred) or Playwright (fallback).

@@ -193,6 +193,7 @@ def build_valuation_v2_output(
     league_rows: list[dict[str, Any]] | None = None,
     club_dev_rows: list[dict[str, Any]] | None = None,
     weights: ValuationWeights | None = None,
+    confidence_index: dict[str, Any] | None = None,
 ) -> dict[str, object]:
     from app.analysis.league_adjustment import league_coefficient
     from app.analysis.club_benchmark import club_development_score
@@ -201,6 +202,7 @@ def build_valuation_v2_output(
     advanced_metric_rows = advanced_metric_rows or []
     risk_rows = risk_rows or []
     pathway_rows = pathway_rows or []
+    confidence_index = confidence_index or {}
 
     players_by_name = {_normalize_key(r.get("player_name")): r for r in silver_tables.get("players", [])}
     features_by_name = {_normalize_key(r.get("player_name")): r for r in gold_tables.get("player_features", [])}
@@ -278,6 +280,18 @@ def build_valuation_v2_output(
         market_val_eur = parse_market_value(market_val_raw)
         # Computed valuation maps to estimated transfer value (€5m per score point above 40)
         computed_val_eur = max(0.0, (final_score - 40.0) * 500_000) if final_score > 40 else 0.0
+        conf = confidence_index.get(name, {})
+        data_confidence = float(conf.get("data_confidence_score") or 1.0)
+        validation_flag = conf.get("validation_flag", "OK")
+
+        # Confidence-weighted valuation score
+        confidence_weighted_score = round(final_score * data_confidence, 3)
+        confidence_weighted_computed = round(computed_val_eur * data_confidence, 0) if computed_val_eur else 0.0
+
+        value_gap_pct = None
+        if market_val_eur and market_val_eur > 0 and computed_val_eur:
+            value_gap_pct = round((computed_val_eur - market_val_eur) / market_val_eur * 100, 1)
+
         is_undervalued = (
             market_val_eur is not None
             and computed_val_eur > 0
@@ -297,11 +311,16 @@ def build_valuation_v2_output(
             "current_club": club_name,
             "competition": competition,
             "valuation_score": final_score,
+            "confidence_weighted_score": confidence_weighted_score,
             "potential_score": pot_score,
             "market_value_raw": market_val_raw,
             "market_value_eur": market_val_eur,
             "computed_value_eur": round(computed_val_eur, 0) if computed_val_eur else None,
+            "confidence_weighted_computed_eur": round(confidence_weighted_computed, 0) if confidence_weighted_computed else None,
+            "value_gap_pct": value_gap_pct,
             "undervalued": is_undervalued,
+            "data_confidence_score": round(data_confidence, 4),
+            "validation_flag": validation_flag,
             "valuation_tier": valuation_tier_v2(final_score),
             "future_value": future_value_projection(final_score, age, trajectory),
             "components": {
