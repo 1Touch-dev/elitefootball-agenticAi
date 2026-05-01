@@ -245,12 +245,17 @@ def scrape_player(
     return {"slug": slug, "raw_path": raw_path, "parsed_path": parsed_path, "payload": payload}
 
 
-def scrape_all_idv(force_refresh: bool = False) -> list[dict[str, Any]]:
-    """Scrape all IDV players from the URL registry. Returns list of results."""
-    from scripts.player_urls import IDV_PLAYER_URLS
+def scrape_all_players(
+    force_refresh: bool = False,
+    registry: dict | None = None,
+) -> list[dict[str, Any]]:
+    """Scrape all players from the URL registry. Defaults to ALL_PLAYER_URLS."""
+    if registry is None:
+        from scripts.player_urls import ALL_PLAYER_URLS
+        registry = ALL_PLAYER_URLS
 
     results = []
-    for slug, info in IDV_PLAYER_URLS.items():
+    for slug, info in registry.items():
         tm_url = info.get("transfermarkt", "")
         if not tm_url:
             continue
@@ -259,7 +264,6 @@ def scrape_all_idv(force_refresh: bool = False) -> list[dict[str, Any]]:
             continue
         tm_id = m.group(1)
 
-        # Skip if already scraped today and force_refresh is False
         parsed_path = Path(settings.parsed_data_dir) / f"{slug}.json"
         if not force_refresh and parsed_path.exists():
             age_hours = (time.time() - parsed_path.stat().st_mtime) / 3600
@@ -277,3 +281,11 @@ def scrape_all_idv(force_refresh: bool = False) -> list[dict[str, Any]]:
             results.append({"slug": slug, "status": "error", "error": str(exc)})
 
     return results
+
+
+def scrape_all_idv(force_refresh: bool = False) -> list[dict[str, Any]]:
+    """Scrape IDV players only. Delegates to scrape_all_players with IDV registry."""
+    from scripts.player_urls import IDV_PLAYER_URLS
+    return scrape_all_players(force_refresh=force_refresh, registry=IDV_PLAYER_URLS)
+
+

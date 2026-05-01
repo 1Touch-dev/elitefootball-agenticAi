@@ -10,8 +10,10 @@
       "players_exported_to_europe": 12
     },
     "live_metrics": {
-      "live_data": false,
-      "player_count": 0
+      "live_data": true,
+      "player_count": 1,
+      "avg_kpi_score": 6.96,
+      "avg_consistency_score": 100.0
     },
     "comparison_vs_idv": {
       "note": "baseline"
@@ -29,8 +31,10 @@
       "players_exported_to_europe": 45
     },
     "live_metrics": {
-      "live_data": false,
-      "player_count": 0
+      "live_data": true,
+      "player_count": 2,
+      "avg_kpi_score": 7.7,
+      "avg_consistency_score": 94.626
     },
     "comparison_vs_idv": {
       "avg_player_improvement_rate_delta_vs_idv": 3.5,
@@ -77,8 +81,10 @@
       "players_exported_to_europe": 38
     },
     "live_metrics": {
-      "live_data": false,
-      "player_count": 0
+      "live_data": true,
+      "player_count": 1,
+      "avg_kpi_score": 6.41,
+      "avg_consistency_score": 92.875
     },
     "comparison_vs_idv": {
       "avg_player_improvement_rate_delta_vs_idv": 3.0,

@@ -33,35 +33,62 @@ from app.config import settings
 from app.pipeline.io import write_json
 
 
-# Logistic regression coefficients
+# Logistic regression coefficients — calibrated so development-club players score
+# higher than established top-club players (who are already at their destination).
 _BETA = {
-    "bias": -1.8,
-    "performance": 2.1,
-    "age": 1.6,
-    "trajectory": 1.2,
-    "league_visibility": 0.9,
-    "club_export": 1.4,
-    "contract_pressure": 0.7,
+    "bias": -2.5,
+    "performance": 1.8,
+    "age": 1.4,
+    "trajectory": 1.0,
+    "league_visibility": 0.6,
+    "club_export": 1.8,
+    "contract_pressure": 0.8,
 }
 
-# Club export rates — based on known pipeline strengths
+# Club export rates — high for feeder/development clubs, LOW for destination clubs.
+# Players already at elite destinations are unlikely to be scoutted outbound.
 _CLUB_EXPORT_RATES: dict[str, float] = {
+    # Development / feeder clubs (high outbound transfer rate)
     "independiente del valle": 0.95,
     "idv": 0.95,
-    "barcelona sc": 0.60,
-    "emelec": 0.45,
-    "ldu quito": 0.55,
-    "palmeiras": 0.80,
-    "flamengo": 0.75,
-    "ajax": 0.85,
-    "benfica": 0.90,
     "rb salzburg": 0.92,
-    "sporting cp": 0.80,
-    "feyenoord": 0.70,
-    "river plate": 0.75,
-    "boca juniors": 0.60,
-    "racing club": 0.55,
-    "estudiantes": 0.50,
+    "benfica": 0.88,
+    "ajax": 0.85,
+    "palmeiras": 0.80,
+    "sporting cp": 0.78,
+    "flamengo": 0.75,
+    "river plate": 0.73,
+    "feyenoord": 0.68,
+    "barcelona sc": 0.60,
+    "boca juniors": 0.58,
+    "ldu quito": 0.55,
+    "racing club": 0.52,
+    "emelec": 0.45,
+    "estudiantes": 0.48,
+    # Elite destination clubs (player already arrived — low outbound probability)
+    "real madrid": 0.12,
+    "manchester city": 0.12,
+    "liverpool": 0.15,
+    "arsenal": 0.18,
+    "chelsea": 0.18,
+    "manchester united": 0.22,
+    "barcelona": 0.15,
+    "atletico madrid": 0.25,
+    "psg": 0.15,
+    "paris saint-germain": 0.15,
+    "inter milan": 0.22,
+    "ac milan": 0.22,
+    "juventus": 0.22,
+    "napoli": 0.28,
+    "atalanta": 0.30,
+    "bayer leverkusen": 0.38,
+    "rb leipzig": 0.42,
+    "borussia dortmund": 0.38,
+    "newcastle": 0.28,
+    "aston villa": 0.28,
+    "tottenham": 0.30,
+    "monaco": 0.42,
+    "lyon": 0.42,
     "default": 0.40,
 }
 
@@ -71,6 +98,7 @@ _LEAGUE_VISIBILITY: dict[str, float] = {
     "eredivisie": 0.80,
     "austrian bundesliga": 0.72,
     "pro league": 0.68,
+    "belgian pro league": 0.68,
     "bundesliga": 0.95,
     "premier league": 1.00,
     "la liga": 0.97,
@@ -79,7 +107,20 @@ _LEAGUE_VISIBILITY: dict[str, float] = {
     "liga pro": 0.35,
     "brasileirao": 0.55,
     "primera division": 0.50,
+    "mls": 0.45,
     "default": 0.40,
+}
+
+# Destination clubs: subtract from z to prevent over-scoring established players
+_DESTINATION_PENALTY: dict[str, float] = {
+    # Final-tier elite clubs (player "arrived" — strong negative)
+    "real madrid": -4.0, "manchester city": -4.0, "liverpool": -3.5,
+    "arsenal": -3.0, "chelsea": -3.0, "manchester united": -2.8,
+    "barcelona": -3.8, "atletico madrid": -2.5, "psg": -3.5,
+    "paris saint-germain": -3.5, "inter milan": -2.8, "ac milan": -2.5,
+    "juventus": -2.5, "napoli": -2.0, "atalanta": -1.8,
+    "bayer leverkusen": -1.5, "rb leipzig": -1.5, "borussia dortmund": -1.5,
+    "newcastle": -1.8, "aston villa": -1.8, "tottenham": -1.5,
 }
 
 
@@ -149,6 +190,17 @@ def _club_export_rate(club_name: str | None) -> float:
     return _CLUB_EXPORT_RATES["default"]
 
 
+def _destination_penalty_score(club_name: str | None) -> float:
+    """Negative z-score offset for players already at elite destination clubs."""
+    if not club_name:
+        return 0.0
+    key = club_name.strip().lower()
+    for club_key, penalty in _DESTINATION_PENALTY.items():
+        if club_key in key:
+            return penalty
+    return 0.0
+
+
 def _league_visibility_score(competition: str | None) -> float:
     if not competition:
         return _LEAGUE_VISIBILITY["default"]
@@ -201,6 +253,9 @@ def compute_transfer_probability(
     f_export = _club_export_rate(club)
     f_contract = _contract_pressure(age, mv_eur)
 
+    # Destination penalty: established elite-club players are not outbound targets
+    f_dest = _destination_penalty_score(club)
+
     # Logistic regression score
     z = (
         _BETA["bias"]
@@ -210,6 +265,7 @@ def compute_transfer_probability(
         + _BETA["league_visibility"] * f_vis
         + _BETA["club_export"] * f_export
         + _BETA["contract_pressure"] * f_contract
+        + f_dest  # negative for elite clubs
     )
     p1y = round(_sigmoid(z), 4)
 
@@ -225,9 +281,9 @@ def compute_transfer_probability(
         "transfer_probability_1y": p1y,
         "transfer_probability_2y": p2y,
         "transfer_category": (
-            "imminent" if p1y >= 0.70
-            else "likely" if p1y >= 0.45
-            else "possible" if p1y >= 0.25
+            "imminent" if p1y >= 0.72
+            else "likely" if p1y >= 0.50
+            else "possible" if p1y >= 0.28
             else "unlikely"
         ),
         "features": {
@@ -237,6 +293,7 @@ def compute_transfer_probability(
             "league_visibility": f_vis,
             "club_export_rate": f_export,
             "contract_pressure": f_contract,
+            "destination_penalty": f_dest,
         },
     }
 

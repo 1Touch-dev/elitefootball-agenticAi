@@ -1,272 +1,2434 @@
 [
   {
-    "player_name": "Willian Pacho",
-    "age": 24,
-    "transfer_probability_1y": 0.9687,
+    "player_name": "António Silva",
+    "age": 22,
+    "transfer_probability_1y": 0.9525,
     "transfer_probability_2y": 0.98,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.9286,
-      "age_factor": 0.7,
+      "performance_percentile": 0.9296,
+      "age_factor": 0.9,
       "trajectory_score": 0.5,
-      "league_visibility": 0.88,
-      "club_export_rate": 0.4,
-      "contract_pressure": 0.3
+      "league_visibility": 0.4,
+      "club_export_rate": 0.88,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
-    "player_name": "Piero Hincapié",
+    "player_name": "Gonçalo Inácio",
     "age": 24,
-    "transfer_probability_1y": 0.9674,
+    "transfer_probability_1y": 0.9301,
     "transfer_probability_2y": 0.98,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.8571,
+      "performance_percentile": 0.9577,
       "age_factor": 0.7,
       "trajectory_score": 0.5,
-      "league_visibility": 1.0,
-      "club_export_rate": 0.4,
-      "contract_pressure": 0.3
+      "league_visibility": 0.4,
+      "club_export_rate": 0.78,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Óscar Zambrano",
     "age": 22,
-    "transfer_probability_1y": 0.9668,
+    "transfer_probability_1y": 0.9211,
     "transfer_probability_2y": 0.98,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.7857,
+      "performance_percentile": 0.8873,
       "age_factor": 0.9,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.8
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Devyne Rensch",
+    "age": 23,
+    "transfer_probability_1y": 0.9207,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.9296,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Gabriel Villamíl",
     "age": 24,
-    "transfer_probability_1y": 0.952,
+    "transfer_probability_1y": 0.9127,
     "transfer_probability_2y": 0.98,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.4286,
+      "performance_percentile": 0.6549,
       "age_factor": 0.7,
       "trajectory_score": 0.5,
       "league_visibility": 0.93,
       "club_export_rate": 0.55,
-      "contract_pressure": 0.8
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Lorran",
+    "age": 19,
+    "transfer_probability_1y": 0.9018,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.9718,
+      "age_factor": 0.85,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Facundo Buonanotte",
+    "age": 21,
+    "transfer_probability_1y": 0.8981,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.7535,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Kendry Páez",
     "age": 18,
-    "transfer_probability_1y": 0.9488,
+    "transfer_probability_1y": 0.8969,
     "transfer_probability_2y": 0.98,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.6429,
+      "performance_percentile": 0.7887,
       "age_factor": 0.85,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
-      "club_export_rate": 0.75,
-      "contract_pressure": 0.0
+      "club_export_rate": 0.73,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
     }
   },
   {
-    "player_name": "Moisés Caicedo",
+    "player_name": "Vanderson",
     "age": 24,
-    "transfer_probability_1y": 0.9334,
+    "transfer_probability_1y": 0.8958,
     "transfer_probability_2y": 0.98,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.5,
+      "performance_percentile": 0.9155,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.42,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Renato Veiga",
+    "age": 22,
+    "transfer_probability_1y": 0.8929,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.9225,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Richard Ríos",
+    "age": 25,
+    "transfer_probability_1y": 0.8917,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.5915,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.88,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jackson Porozo",
+    "age": 25,
+    "transfer_probability_1y": 0.8885,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.831,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Reinier",
+    "age": 24,
+    "transfer_probability_1y": 0.8794,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.7817,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Lutsharel Geertruida",
+    "age": 25,
+    "transfer_probability_1y": 0.8792,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.8028,
       "age_factor": 0.7,
       "trajectory_score": 0.5,
       "league_visibility": 1.0,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.3
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Noah Ohio",
+    "age": 23,
+    "transfer_probability_1y": 0.8782,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.6197,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Valentín Carboni",
+    "age": 21,
+    "transfer_probability_1y": 0.8676,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.669,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.52,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Arthur Vermeeren",
+    "age": 21,
+    "transfer_probability_1y": 0.8672,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.6268,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Claudio Echeverri",
+    "age": 20,
+    "transfer_probability_1y": 0.8639,
+    "transfer_probability_2y": 0.98,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.8099,
+      "age_factor": 0.85,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Mats Wieffer",
+    "age": 26,
+    "transfer_probability_1y": 0.8635,
+    "transfer_probability_2y": 0.9767,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.8803,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Rodrigo Conceição",
+    "age": 26,
+    "transfer_probability_1y": 0.8622,
+    "transfer_probability_2y": 0.9763,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.8521,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Quinten Timber",
+    "age": 24,
+    "transfer_probability_1y": 0.8549,
+    "transfer_probability_2y": 0.9789,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.7254,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Luis Segovia",
     "age": 28,
-    "transfer_probability_1y": 0.9307,
-    "transfer_probability_2y": 0.98,
+    "transfer_probability_1y": 0.8541,
+    "transfer_probability_2y": 0.9638,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.7143,
+      "performance_percentile": 0.8662,
       "age_factor": 0.3,
       "trajectory_score": 0.5,
       "league_visibility": 0.93,
       "club_export_rate": 0.55,
-      "contract_pressure": 0.3
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Gonzalo Montiel",
+    "age": 29,
+    "transfer_probability_1y": 0.8469,
+    "transfer_probability_2y": 0.9558,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.9648,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.73,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jorge Carrascal",
+    "age": 27,
+    "transfer_probability_1y": 0.8295,
+    "transfer_probability_2y": 0.9596,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.5845,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.75,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Lucas Paquetá",
+    "age": 28,
+    "transfer_probability_1y": 0.8293,
+    "transfer_probability_2y": 0.9539,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.7394,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.75,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Rasmus Kristensen",
+    "age": 28,
+    "transfer_probability_1y": 0.8281,
+    "transfer_probability_2y": 0.9534,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.9014,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Karim Konaté",
+    "age": 22,
+    "transfer_probability_1y": 0.8232,
+    "transfer_probability_2y": 0.9687,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.4155,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Marcos Leonardo",
+    "age": 22,
+    "transfer_probability_1y": 0.8217,
+    "transfer_probability_2y": 0.9682,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.5,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.68,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jhegson Méndez",
+    "age": 29,
+    "transfer_probability_1y": 0.8212,
+    "transfer_probability_2y": 0.9445,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.4648,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.95,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Albert Sambi Lokonga",
+    "age": 26,
+    "transfer_probability_1y": 0.8095,
+    "transfer_probability_2y": 0.9575,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.6761,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "João Gomes",
+    "age": 25,
+    "transfer_probability_1y": 0.8065,
+    "transfer_probability_2y": 0.9626,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.493,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Alan Minda",
     "age": 22,
-    "transfer_probability_1y": 0.9105,
-    "transfer_probability_2y": 0.98,
+    "transfer_probability_1y": 0.7907,
+    "transfer_probability_2y": 0.9562,
     "transfer_category": "imminent",
     "features": {
-      "performance_percentile": 0.2857,
+      "performance_percentile": 0.2606,
       "age_factor": 0.9,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.8
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Matías Soulé",
+    "age": 23,
+    "transfer_probability_1y": 0.7854,
+    "transfer_probability_2y": 0.9539,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.2887,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Adam Daghim",
+    "age": 20,
+    "transfer_probability_1y": 0.7842,
+    "transfer_probability_2y": 0.9534,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.3169,
+      "age_factor": 0.85,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Endrick",
+    "age": 19,
+    "transfer_probability_1y": 0.7833,
+    "transfer_probability_2y": 0.953,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.4507,
+      "age_factor": 0.85,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.42,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Nahuel Molina",
+    "age": 28,
+    "transfer_probability_1y": 0.7671,
+    "transfer_probability_2y": 0.9243,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.8732,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Nicolás Capaldo",
+    "age": 27,
+    "transfer_probability_1y": 0.7605,
+    "transfer_probability_2y": 0.9281,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.5141,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Angelo Preciado",
+    "age": 28,
+    "transfer_probability_1y": 0.7555,
+    "transfer_probability_2y": 0.9181,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.838,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Geny Catamo",
+    "age": 25,
+    "transfer_probability_1y": 0.7535,
+    "transfer_probability_2y": 0.9392,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.1408,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.78,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Brian Brobbey",
+    "age": 24,
+    "transfer_probability_1y": 0.7522,
+    "transfer_probability_2y": 0.9386,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.3169,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jhon Durán",
+    "age": 22,
+    "transfer_probability_1y": 0.7515,
+    "transfer_probability_2y": 0.9382,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.3592,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Exequiel Palacios",
+    "age": 27,
+    "transfer_probability_1y": 0.7488,
+    "transfer_probability_2y": 0.9219,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.4789,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Alexander Domínguez",
+    "age": 38,
+    "transfer_probability_1y": 0.741,
+    "transfer_probability_2y": 0.8753,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.7183,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.55,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Guilherme Arana",
+    "age": 29,
+    "transfer_probability_1y": 0.7341,
+    "transfer_probability_2y": 0.8981,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.9085,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "José Cifuentes",
+    "age": 27,
+    "transfer_probability_1y": 0.7225,
+    "transfer_probability_2y": 0.907,
+    "transfer_category": "imminent",
+    "features": {
+      "performance_percentile": 0.5704,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.45,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Gonzalo Plata",
+    "age": 25,
+    "transfer_probability_1y": 0.7159,
+    "transfer_probability_2y": 0.9193,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.0634,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.75,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Dylan Borrero",
     "age": 24,
-    "transfer_probability_1y": 0.8455,
-    "transfer_probability_2y": 0.9761,
-    "transfer_category": "imminent",
+    "transfer_probability_1y": 0.7129,
+    "transfer_probability_2y": 0.9176,
+    "transfer_category": "likely",
     "features": {
-      "performance_percentile": 0.1429,
+      "performance_percentile": 0.1831,
       "age_factor": 0.7,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.8
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Félix Torres",
+    "age": 29,
+    "transfer_probability_1y": 0.7112,
+    "transfer_probability_2y": 0.8837,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.8451,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Yerry Mina",
+    "age": 31,
+    "transfer_probability_1y": 0.7021,
+    "transfer_probability_2y": 0.8611,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.7606,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Pedro Velasco",
     "age": 32,
-    "transfer_probability_1y": 0.8371,
-    "transfer_probability_2y": 0.9353,
-    "transfer_category": "imminent",
+    "transfer_probability_1y": 0.6967,
+    "transfer_probability_2y": 0.8488,
+    "transfer_category": "likely",
     "features": {
-      "performance_percentile": 0.5714,
+      "performance_percentile": 0.7465,
       "age_factor": 0.15,
       "trajectory_score": 0.5,
       "league_visibility": 0.93,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Orel Mangala",
+    "age": 28,
+    "transfer_probability_1y": 0.6831,
+    "transfer_probability_2y": 0.8736,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.4577,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.42,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Ibrahim Osman",
+    "age": 21,
+    "transfer_probability_1y": 0.6795,
+    "transfer_probability_2y": 0.8973,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.162,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "João Félix",
+    "age": 26,
+    "transfer_probability_1y": 0.6769,
+    "transfer_probability_2y": 0.8869,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.3732,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.68,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Alexis Zapata",
     "age": null,
-    "transfer_probability_1y": 0.7841,
-    "transfer_probability_2y": 0.9534,
-    "transfer_category": "imminent",
+    "transfer_probability_1y": 0.657,
+    "transfer_probability_2y": 0.8824,
+    "transfer_category": "likely",
     "features": {
       "performance_percentile": 0.0,
       "age_factor": 0.5,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.95,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Michael Espinoza",
     "age": null,
-    "transfer_probability_1y": 0.7841,
-    "transfer_probability_2y": 0.9534,
-    "transfer_category": "imminent",
+    "transfer_probability_1y": 0.657,
+    "transfer_probability_2y": 0.8824,
+    "transfer_category": "likely",
     "features": {
       "performance_percentile": 0.0,
       "age_factor": 0.5,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.95,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Gerson",
+    "age": 28,
+    "transfer_probability_1y": 0.6448,
+    "transfer_probability_2y": 0.8463,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.5423,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jeremy Sarmiento",
+    "age": 23,
+    "transfer_probability_1y": 0.6426,
+    "transfer_probability_2y": 0.8723,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.0704,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Yan Couto",
+    "age": 23,
+    "transfer_probability_1y": 0.6393,
+    "transfer_probability_2y": 0.8699,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.7324,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.38,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.5
+    }
+  },
+  {
+    "player_name": "Xavi Simons",
+    "age": 23,
+    "transfer_probability_1y": 0.6275,
+    "transfer_probability_2y": 0.8612,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.7676,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.3,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.5
+    }
+  },
+  {
+    "player_name": "Julián Alvarez",
+    "age": 26,
+    "transfer_probability_1y": 0.6274,
+    "transfer_probability_2y": 0.8518,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.3451,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Sékou Koïta",
+    "age": 26,
+    "transfer_probability_1y": 0.6261,
+    "transfer_probability_2y": 0.8508,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.1197,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.8,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Damián Díaz",
+    "age": 40,
+    "transfer_probability_1y": 0.611,
+    "transfer_probability_2y": 0.7774,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.5352,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Luis Díaz",
+    "age": 29,
+    "transfer_probability_1y": 0.6065,
+    "transfer_probability_2y": 0.807,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.4014,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Leandro Paredes",
+    "age": 31,
+    "transfer_probability_1y": 0.6033,
+    "transfer_probability_2y": 0.7852,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.5141,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.58,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Thiago Almada",
+    "age": 25,
+    "transfer_probability_1y": 0.6007,
+    "transfer_probability_2y": 0.8406,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.1268,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "age": 34,
+    "transfer_probability_1y": 0.5956,
+    "transfer_probability_2y": 0.7642,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.6761,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Lucas Beltrán",
+    "age": 25,
+    "transfer_probability_1y": 0.5823,
+    "transfer_probability_2y": 0.8255,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.0845,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Neymar",
+    "age": 34,
+    "transfer_probability_1y": 0.5771,
+    "transfer_probability_2y": 0.7479,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.6338,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Antony",
+    "age": 26,
+    "transfer_probability_1y": 0.5758,
+    "transfer_probability_2y": 0.8103,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.2254,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Cucho Hernández",
+    "age": 27,
+    "transfer_probability_1y": 0.5665,
+    "transfer_probability_2y": 0.7924,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.2042,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Christoph Baumgartner",
+    "age": 26,
+    "transfer_probability_1y": 0.5588,
+    "transfer_probability_2y": 0.7955,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.8169,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.42,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.5
+    }
+  },
+  {
+    "player_name": "Joao Rojas",
+    "age": 36,
+    "transfer_probability_1y": 0.5522,
+    "transfer_probability_2y": 0.7253,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.5775,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Luciano Acosta",
+    "age": 31,
+    "transfer_probability_1y": 0.5459,
+    "transfer_probability_2y": 0.7343,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.5634,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Patson Daka",
+    "age": 27,
+    "transfer_probability_1y": 0.5352,
+    "transfer_probability_2y": 0.7641,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.1338,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Nicolas Seiwald",
+    "age": 24,
+    "transfer_probability_1y": 0.5308,
+    "transfer_probability_2y": 0.7799,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.5986,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.42,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.5
+    }
+  },
+  {
+    "player_name": "James Rodríguez",
+    "age": 34,
+    "transfer_probability_1y": 0.5281,
+    "transfer_probability_2y": 0.7025,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.507,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.45,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Facundo Torres",
+    "age": 26,
+    "transfer_probability_1y": 0.5237,
+    "transfer_probability_2y": 0.7632,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.0915,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.45,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Rodrigo De Paul",
+    "age": 31,
+    "transfer_probability_1y": 0.5186,
+    "transfer_probability_2y": 0.7083,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.4859,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.45,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Noa Lang",
+    "age": 26,
+    "transfer_probability_1y": 0.5099,
+    "transfer_probability_2y": 0.7498,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.0775,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Renato Tapia",
+    "age": 30,
+    "transfer_probability_1y": 0.5056,
+    "transfer_probability_2y": 0.7056,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.3803,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.68,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Giovani Lo Celso",
+    "age": 30,
+    "transfer_probability_1y": 0.5048,
+    "transfer_probability_2y": 0.7048,
+    "transfer_category": "likely",
+    "features": {
+      "performance_percentile": 0.4718,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Jordy Caicedo",
     "age": 28,
-    "transfer_probability_1y": 0.7027,
-    "transfer_probability_2y": 0.8865,
-    "transfer_category": "imminent",
+    "transfer_probability_1y": 0.5032,
+    "transfer_probability_2y": 0.7232,
+    "transfer_category": "likely",
     "features": {
-      "performance_percentile": 0.2143,
+      "performance_percentile": 0.2183,
       "age_factor": 0.3,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.3
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Sebastián Rodríguez",
     "age": 33,
-    "transfer_probability_1y": 0.6704,
-    "transfer_probability_2y": 0.8251,
-    "transfer_category": "likely",
+    "transfer_probability_1y": 0.4922,
+    "transfer_probability_2y": 0.6672,
+    "transfer_category": "possible",
     "features": {
-      "performance_percentile": 0.3571,
+      "performance_percentile": 0.4437,
       "age_factor": 0.15,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Roger Martínez",
+    "age": 31,
+    "transfer_probability_1y": 0.4866,
+    "transfer_probability_2y": 0.6765,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.338,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.68,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Carlos Gruezo",
+    "age": 31,
+    "transfer_probability_1y": 0.4858,
+    "transfer_probability_2y": 0.6756,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.4296,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Matheus Uribe",
+    "age": 35,
+    "transfer_probability_1y": 0.4826,
+    "transfer_probability_2y": 0.6574,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.4225,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jefferson Lerma",
+    "age": 31,
+    "transfer_probability_1y": 0.4763,
+    "transfer_probability_2y": 0.6659,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.4085,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Luis Sinisterra",
+    "age": 26,
+    "transfer_probability_1y": 0.475,
+    "transfer_probability_2y": 0.7144,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.3,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Johan Bakayoko",
+    "age": 23,
+    "transfer_probability_1y": 0.4552,
+    "transfer_probability_2y": 0.7032,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.2746,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.95,
+      "club_export_rate": 0.42,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.5
     }
   },
   {
     "player_name": "Renato Ibarra",
     "age": 35,
-    "transfer_probability_1y": 0.6427,
-    "transfer_probability_2y": 0.8034,
-    "transfer_category": "likely",
+    "transfer_probability_1y": 0.4514,
+    "transfer_probability_2y": 0.6247,
+    "transfer_category": "possible",
     "features": {
-      "performance_percentile": 0.0714,
+      "performance_percentile": 0.1761,
       "age_factor": 0.15,
       "trajectory_score": 0.5,
       "league_visibility": 0.93,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Michael Estrada",
+    "age": 30,
+    "transfer_probability_1y": 0.4429,
+    "transfer_probability_2y": 0.6403,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.007,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.55,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Washington Corozo",
+    "age": null,
+    "transfer_probability_1y": 0.4378,
+    "transfer_probability_2y": 0.6839,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.45,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Miguel Borja",
+    "age": 33,
+    "transfer_probability_1y": 0.43,
+    "transfer_probability_2y": 0.6016,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.2113,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.68,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Pedro",
+    "age": 38,
+    "transfer_probability_1y": 0.4202,
+    "transfer_probability_2y": 0.5907,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.1056,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jhon Córdoba",
+    "age": 32,
+    "transfer_probability_1y": 0.42,
+    "transfer_probability_2y": 0.5954,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.2817,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Carlos Gutiérrez",
     "age": null,
-    "transfer_probability_1y": 0.6271,
-    "transfer_probability_2y": 0.8609,
-    "transfer_category": "likely",
+    "transfer_probability_1y": 0.4158,
+    "transfer_probability_2y": 0.6587,
+    "transfer_category": "possible",
     "features": {
       "performance_percentile": 0.0,
       "age_factor": 0.5,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
     }
   },
   {
     "player_name": "Cristian Pellerano",
     "age": null,
-    "transfer_probability_1y": 0.6271,
-    "transfer_probability_2y": 0.8609,
-    "transfer_category": "likely",
+    "transfer_probability_1y": 0.4158,
+    "transfer_probability_2y": 0.6587,
+    "transfer_category": "possible",
     "features": {
       "performance_percentile": 0.0,
       "age_factor": 0.5,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Diogo Jota",
+    "age": null,
+    "transfer_probability_1y": 0.4158,
+    "transfer_probability_2y": 0.6587,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Jonathan Borja",
+    "age": null,
+    "transfer_probability_1y": 0.4158,
+    "transfer_probability_2y": 0.6587,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Mario Pineida",
+    "age": null,
+    "transfer_probability_1y": 0.4158,
+    "transfer_probability_2y": 0.6587,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Marvin Warnaß",
+    "age": null,
+    "transfer_probability_1y": 0.4158,
+    "transfer_probability_2y": 0.6587,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Riqui Puig",
+    "age": null,
+    "transfer_probability_1y": 0.4158,
+    "transfer_probability_2y": 0.6587,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Roberto Firmino",
+    "age": 34,
+    "transfer_probability_1y": 0.4046,
+    "transfer_probability_2y": 0.5732,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.2465,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Charles De Ketelaere",
+    "age": 25,
+    "transfer_probability_1y": 0.4033,
+    "transfer_probability_2y": 0.6439,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.6056,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.3,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.8
+    }
+  },
+  {
+    "player_name": "Jaime Ayoví",
+    "age": 38,
+    "transfer_probability_1y": 0.4021,
+    "transfer_probability_2y": 0.5704,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0141,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.45,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "age": 32,
+    "transfer_probability_1y": 0.3897,
+    "transfer_probability_2y": 0.5609,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0352,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Ángel Mena",
+    "age": 38,
+    "transfer_probability_1y": 0.3867,
+    "transfer_probability_2y": 0.5527,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0282,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Enner Valencia",
+    "age": 36,
+    "transfer_probability_1y": 0.3715,
+    "transfer_probability_2y": 0.5349,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.169,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Rafael Borré",
+    "age": 30,
+    "transfer_probability_1y": 0.3424,
+    "transfer_probability_2y": 0.5225,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0986,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Amadou Onana",
+    "age": 24,
+    "transfer_probability_1y": 0.3357,
+    "transfer_probability_2y": 0.5587,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.6408,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.28,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.8
     }
   },
   {
     "player_name": "Tomás Molina",
     "age": 31,
-    "transfer_probability_1y": 0.49,
-    "transfer_probability_2y": 0.6799,
-    "transfer_category": "likely",
+    "transfer_probability_1y": 0.32,
+    "transfer_probability_2y": 0.4854,
+    "transfer_category": "possible",
     "features": {
-      "performance_percentile": 0.0,
+      "performance_percentile": 0.0423,
       "age_factor": 0.15,
       "trajectory_score": 0.5,
       "league_visibility": 0.4,
       "club_export_rate": 0.4,
-      "contract_pressure": 0.0
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Michael Hoyos",
+    "age": 34,
+    "transfer_probability_1y": 0.3117,
+    "transfer_probability_2y": 0.4619,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.0211,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.4,
+      "contract_pressure": 0.0,
+      "destination_penalty": 0.0
+    }
+  },
+  {
+    "player_name": "Bruno Guimarães",
+    "age": 28,
+    "transfer_probability_1y": 0.3113,
+    "transfer_probability_2y": 0.5,
+    "transfer_category": "possible",
+    "features": {
+      "performance_percentile": 0.6901,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.28,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.8
+    }
+  },
+  {
+    "player_name": "Jurriën Timber",
+    "age": 24,
+    "transfer_probability_1y": 0.2509,
+    "transfer_probability_2y": 0.4388,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.9789,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Piero Hincapié",
+    "age": 24,
+    "transfer_probability_1y": 0.2392,
+    "transfer_probability_2y": 0.4212,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.9437,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Richarlison",
+    "age": 28,
+    "transfer_probability_1y": 0.2173,
+    "transfer_probability_2y": 0.367,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.2324,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.3,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.5
+    }
+  },
+  {
+    "player_name": "Pervis Estupiñán",
+    "age": 28,
+    "transfer_probability_1y": 0.2076,
+    "transfer_probability_2y": 0.3524,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.8592,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.5
+    }
+  },
+  {
+    "player_name": "Youri Tielemans",
+    "age": 28,
+    "transfer_probability_1y": 0.1987,
+    "transfer_probability_2y": 0.3388,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.5563,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.28,
+      "contract_pressure": 0.3,
+      "destination_penalty": -1.8
+    }
+  },
+  {
+    "player_name": "Nuno Mendes",
+    "age": 23,
+    "transfer_probability_1y": 0.1955,
+    "transfer_probability_2y": 0.3528,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.993,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "Lucas Beraldo",
+    "age": 22,
+    "transfer_probability_1y": 0.1935,
+    "transfer_probability_2y": 0.3496,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.9859,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "Moisés Caicedo",
+    "age": 24,
+    "transfer_probability_1y": 0.1696,
+    "transfer_probability_2y": 0.3104,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.7042,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Benjamin Sesko",
+    "age": 22,
+    "transfer_probability_1y": 0.1688,
+    "transfer_probability_2y": 0.3091,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.3944,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.8
+    }
+  },
+  {
+    "player_name": "Enzo Fernández",
+    "age": 25,
+    "transfer_probability_1y": 0.1661,
+    "transfer_probability_2y": 0.3046,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.6901,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Francisco Conceição",
+    "age": 23,
+    "transfer_probability_1y": 0.154,
+    "transfer_probability_2y": 0.2843,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.1901,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.5
+    }
+  },
+  {
+    "player_name": "Lisandro Martínez",
+    "age": 28,
+    "transfer_probability_1y": 0.153,
+    "transfer_probability_2y": 0.267,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.7958,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.8
+    }
+  },
+  {
+    "player_name": "Willian Pacho",
+    "age": 24,
+    "transfer_probability_1y": 0.1455,
+    "transfer_probability_2y": 0.2698,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.9507,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "Jeremie Frimpong",
+    "age": 25,
+    "transfer_probability_1y": 0.1418,
+    "transfer_probability_2y": 0.2635,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.8944,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "João Neves",
+    "age": 21,
+    "transfer_probability_1y": 0.1409,
+    "transfer_probability_2y": 0.2619,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.7746,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "Ryan Gravenberch",
+    "age": 23,
+    "transfer_probability_1y": 0.1359,
+    "transfer_probability_2y": 0.2533,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.7113,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "Teun Koopmeiners",
+    "age": 28,
+    "transfer_probability_1y": 0.1262,
+    "transfer_probability_2y": 0.2232,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.5282,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.5
+    }
+  },
+  {
+    "player_name": "Alejandro Garnacho",
+    "age": 21,
+    "transfer_probability_1y": 0.1173,
+    "transfer_probability_2y": 0.2208,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.3099,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Byron Castillo",
+    "age": 27,
+    "transfer_probability_1y": 0.1133,
+    "transfer_probability_2y": 0.2057,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.8239,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.6,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.8
+    }
+  },
+  {
+    "player_name": "Rafael Leão",
+    "age": 26,
+    "transfer_probability_1y": 0.1129,
+    "transfer_probability_2y": 0.209,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.3028,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.5
+    }
+  },
+  {
+    "player_name": "David Neres",
+    "age": 29,
+    "transfer_probability_1y": 0.1116,
+    "transfer_probability_2y": 0.1949,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.2465,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.28,
+      "contract_pressure": 0.0,
+      "destination_penalty": -2.0
+    }
+  },
+  {
+    "player_name": "Estêvão",
+    "age": 19,
+    "transfer_probability_1y": 0.1091,
+    "transfer_probability_2y": 0.2063,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.4366,
+      "age_factor": 0.85,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.0,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Gabriel Martinelli",
+    "age": 24,
+    "transfer_probability_1y": 0.1,
+    "transfer_probability_2y": 0.19,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.3662,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Lautaro Martínez",
+    "age": 28,
+    "transfer_probability_1y": 0.0766,
+    "transfer_probability_2y": 0.1388,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.3873,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.8
+    }
+  },
+  {
+    "player_name": "Loïs Openda",
+    "age": 26,
+    "transfer_probability_1y": 0.0755,
+    "transfer_probability_2y": 0.1425,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.0563,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.93,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.5
+    }
+  },
+  {
+    "player_name": "Matheus Cunha",
+    "age": 26,
+    "transfer_probability_1y": 0.0701,
+    "transfer_probability_2y": 0.1327,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.1549,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.22,
+      "contract_pressure": 0.3,
+      "destination_penalty": -2.8
+    }
+  },
+  {
+    "player_name": "Vitinha",
+    "age": 26,
+    "transfer_probability_1y": 0.0654,
+    "transfer_probability_2y": 0.1241,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.6127,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.88,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "Nico González",
+    "age": 24,
+    "transfer_probability_1y": 0.0574,
+    "transfer_probability_2y": 0.1115,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.6479,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.12,
+      "contract_pressure": 0.3,
+      "destination_penalty": -4.0
+    }
+  },
+  {
+    "player_name": "Pedro Neto",
+    "age": 26,
+    "transfer_probability_1y": 0.0537,
+    "transfer_probability_2y": 0.1025,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.1479,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Tijjani Reijnders",
+    "age": 27,
+    "transfer_probability_1y": 0.0451,
+    "transfer_probability_2y": 0.0847,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.662,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.12,
+      "contract_pressure": 0.3,
+      "destination_penalty": -4.0
+    }
+  },
+  {
+    "player_name": "Gabriel Jesus",
+    "age": 29,
+    "transfer_probability_1y": 0.0448,
+    "transfer_probability_2y": 0.0807,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.331,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.0,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Jérémy Doku",
+    "age": 23,
+    "transfer_probability_1y": 0.0391,
+    "transfer_probability_2y": 0.0767,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.2676,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.12,
+      "contract_pressure": 0.3,
+      "destination_penalty": -4.0
+    }
+  },
+  {
+    "player_name": "Savinho",
+    "age": 22,
+    "transfer_probability_1y": 0.0372,
+    "transfer_probability_2y": 0.073,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.2394,
+      "age_factor": 0.9,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.12,
+      "contract_pressure": 0.3,
+      "destination_penalty": -4.0
+    }
+  },
+  {
+    "player_name": "Cody Gakpo",
+    "age": 26,
+    "transfer_probability_1y": 0.0297,
+    "transfer_probability_2y": 0.0574,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.1127,
+      "age_factor": 0.5,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.5
+    }
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "age": 28,
+    "transfer_probability_1y": 0.0255,
+    "transfer_probability_2y": 0.0474,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.5493,
+      "age_factor": 0.3,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.15,
+      "contract_pressure": 0.3,
+      "destination_penalty": -3.8
+    }
+  },
+  {
+    "player_name": "Franco Mastantuono",
+    "age": 18,
+    "transfer_probability_1y": 0.0237,
+    "transfer_probability_2y": 0.0468,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.3521,
+      "age_factor": 0.85,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.12,
+      "contract_pressure": 0.0,
+      "destination_penalty": -4.0
+    }
+  },
+  {
+    "player_name": "Leandro Trossard",
+    "age": 31,
+    "transfer_probability_1y": 0.0224,
+    "transfer_probability_2y": 0.039,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.0493,
+      "age_factor": 0.15,
+      "trajectory_score": 0.5,
+      "league_visibility": 1.0,
+      "club_export_rate": 0.18,
+      "contract_pressure": 0.0,
+      "destination_penalty": -3.0
+    }
+  },
+  {
+    "player_name": "Vinicius Junior",
+    "age": 25,
+    "transfer_probability_1y": 0.0221,
+    "transfer_probability_2y": 0.0437,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.2958,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.12,
+      "contract_pressure": 0.3,
+      "destination_penalty": -4.0
+    }
+  },
+  {
+    "player_name": "Rodrygo",
+    "age": 25,
+    "transfer_probability_1y": 0.0185,
+    "transfer_probability_2y": 0.0367,
+    "transfer_category": "unlikely",
+    "features": {
+      "performance_percentile": 0.1972,
+      "age_factor": 0.7,
+      "trajectory_score": 0.5,
+      "league_visibility": 0.4,
+      "club_export_rate": 0.12,
+      "contract_pressure": 0.3,
+      "destination_penalty": -4.0
     }
   }
 ]

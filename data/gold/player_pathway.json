@@ -1,5 +1,125 @@
 [
   {
+    "player_name": "Karim Konaté",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Red Bull Salzburg",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 24.5,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -382.0,
+      "series": [
+        871.0,
+        69.0,
+        107.0
+      ]
+    },
+    "best_pathway": [
+      "bundesliga",
+      "premier league"
+    ],
+    "success_probability": 0.466,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 6.414,
+      "valuation_score": 62.33
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Facundo Buonanotte",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Leeds United",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 28.6,
+    "improvement_rate": 0.622,
+    "development_velocity": 0.902,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 57.3,
+      "series": [
+        69.0,
+        115.0,
+        163.0,
+        241.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.455,
+    "inputs": {
+      "age": 21,
+      "kpi_score": 7.352,
+      "valuation_score": 59.03
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Benjamin Sesko",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Manchester United",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 24.2,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -751.0,
+      "series": [
+        1592.0,
+        90.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.447,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 6.322,
+      "valuation_score": 59.99
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Christoph Baumgartner",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "RB Leipzig",
+    "development_stage": "peak",
+    "trajectory": "ascending",
+    "age_league_percentile": 28.7,
+    "improvement_rate": 2.198,
+    "development_velocity": 2.638,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -2297.0,
+      "series": [
+        2523.0,
+        226.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.447,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 8.026,
+      "valuation_score": 62.98
+    },
+    "model_version": "pathway_v1"
+  },
+  {
     "player_name": "Gabriel Villamíl",
     "position": "Midfield - Central Midfield",
     "current_club": "LDU Quito",
@@ -24,6 +144,248 @@
       "age": 24,
       "kpi_score": 7.124,
       "valuation_score": 58.91
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Lucas Beraldo",
+    "position": "Defender - Centre-Back",
+    "current_club": "Paris Saint-Germain",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 32.1,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -515.5,
+      "series": [
+        1211.0,
+        9.0,
+        180.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.443,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 8.404,
+      "valuation_score": 55.92
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Savinho",
+    "position": "Attack - Left Winger",
+    "current_club": "Manchester City",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 22.4,
+    "improvement_rate": 0.619,
+    "development_velocity": 0.867,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -144.3,
+      "series": [
+        606.0,
+        369.0,
+        139.0,
+        173.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.443,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 5.856,
+      "valuation_score": 60.27
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Alejandro Garnacho",
+    "position": "Attack - Left Winger",
+    "current_club": "Chelsea FC",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 23.4,
+    "improvement_rate": 1.627,
+    "development_velocity": 2.359,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -370.3,
+      "series": [
+        1267.0,
+        395.0,
+        330.0,
+        156.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.43,
+    "inputs": {
+      "age": 21,
+      "kpi_score": 6.001,
+      "valuation_score": 58.11
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Johan Bakayoko",
+    "position": "Attack - Right Winger",
+    "current_club": "RB Leipzig",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 22.3,
+    "improvement_rate": 1.318,
+    "development_velocity": 1.779,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -646.0,
+      "series": [
+        764.0,
+        118.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.428,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 5.922,
+      "valuation_score": 58.39
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Pedro Neto",
+    "position": "Attack - Right Winger",
+    "current_club": "Chelsea FC",
+    "development_stage": "peak",
+    "trajectory": "ascending",
+    "age_league_percentile": 21.1,
+    "improvement_rate": 0.742,
+    "development_velocity": 0.89,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -780.3,
+      "series": [
+        2489.0,
+        346.0,
+        614.0,
+        148.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.422,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.904,
+      "valuation_score": 63.11
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Rafael Leão",
+    "position": "Attack - Left Winger",
+    "current_club": "AC Milan",
+    "development_stage": "peak",
+    "trajectory": "ascending",
+    "age_league_percentile": 22.4,
+    "improvement_rate": 0.535,
+    "development_velocity": 0.642,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1615.0,
+      "series": [
+        1722.0,
+        107.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.416,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 6.282,
+      "valuation_score": 61.59
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Arthur Vermeeren",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Olympique Marseille",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 27.3,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -329.0,
+      "series": [
+        716.0,
+        330.0,
+        58.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.413,
+    "inputs": {
+      "age": 21,
+      "kpi_score": 7.018,
+      "valuation_score": 54.09
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jurriën Timber",
+    "position": "Defender - Right-Back",
+    "current_club": "Arsenal FC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 31.0,
+    "improvement_rate": -0.275,
+    "development_velocity": -0.358,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -722.3,
+      "series": [
+        2457.0,
+        513.0,
+        49.0,
+        290.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.412,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 8.399,
+      "valuation_score": 62.9
     },
     "model_version": "pathway_v1"
   },
@@ -61,6 +423,226 @@
     "model_version": "pathway_v1"
   },
   {
+    "player_name": "Xavi Simons",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Tottenham Hotspur",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 27.7,
+    "improvement_rate": 0.2,
+    "development_velocity": 0.27,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -333.4,
+      "series": [
+        1757.0,
+        571.0,
+        90.0,
+        151.0,
+        90.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.397,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 7.382,
+      "valuation_score": 62.2
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jérémy Doku",
+    "position": "Attack - Left Winger",
+    "current_club": "Manchester City",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 22.2,
+    "improvement_rate": -0.163,
+    "development_velocity": -0.22,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -409.3,
+      "series": [
+        1485.0,
+        630.0,
+        199.0,
+        257.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.394,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 5.908,
+      "valuation_score": 64.56
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Nuno Mendes",
+    "position": "Defender - Left-Back",
+    "current_club": "Paris Saint-Germain",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 32.6,
+    "improvement_rate": -0.262,
+    "development_velocity": -0.354,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -226.0,
+      "series": [
+        1250.0,
+        1198.0,
+        90.0,
+        26.0,
+        90.0,
+        120.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.394,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 8.672,
+      "valuation_score": 59.48
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jeremie Frimpong",
+    "position": "Defender - Right-Back",
+    "current_club": "Liverpool FC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 30.4,
+    "improvement_rate": 0.257,
+    "development_velocity": 0.321,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -192.2,
+      "series": [
+        859.0,
+        465.0,
+        90.0,
+        109.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.392,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 8.358,
+      "valuation_score": 62.62
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Devyne Rensch",
+    "position": "Defender - Right-Back",
+    "current_club": "AS Roma",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 30.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -488.0,
+      "series": [
+        1021.0,
+        409.0,
+        45.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.391,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 8.099,
+      "valuation_score": 59.93
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Ryan Gravenberch",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Liverpool FC",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 27.2,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1246.5,
+      "series": [
+        2667.0,
+        961.0,
+        174.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.389,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 7.231,
+      "valuation_score": 61.19
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Enzo Fernández",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Chelsea FC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 27.4,
+    "improvement_rate": -0.299,
+    "development_velocity": -0.374,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -827.3,
+      "series": [
+        2761.0,
+        141.0,
+        748.0,
+        279.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.387,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 7.537,
+      "valuation_score": 63.26
+    },
+    "model_version": "pathway_v1"
+  },
+  {
     "player_name": "Moisés Caicedo",
     "position": "Midfield - Defensive Midfield",
     "current_club": "Chelsea FC",
@@ -88,6 +670,374 @@
       "age": 24,
       "kpi_score": 7.185,
       "valuation_score": 61.13
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Vanderson",
+    "position": "Defender - Right-Back",
+    "current_club": "AS Monaco",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 29.7,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -261.5,
+      "series": [
+        613.0,
+        590.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.383,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 8.055,
+      "valuation_score": 59.06
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Rodrygo",
+    "position": "Attack - Right Winger",
+    "current_club": "Real Madrid",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 21.9,
+    "improvement_rate": -0.131,
+    "development_velocity": -0.164,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -166.3,
+      "series": [
+        676.0,
+        229.0,
+        24.0,
+        177.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.382,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 6.034,
+      "valuation_score": 65.26
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Brian Brobbey",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Sunderland AFC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 22.2,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -786.5,
+      "series": [
+        1634.0,
+        34.0,
+        61.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.379,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 6.009,
+      "valuation_score": 62.11
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Vinicius Junior",
+    "position": "Attack - Left Winger",
+    "current_club": "Real Madrid",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 22.7,
+    "improvement_rate": -0.114,
+    "development_velocity": -0.143,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -773.7,
+      "series": [
+        2484.0,
+        1171.0,
+        90.0,
+        163.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.379,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 6.263,
+      "valuation_score": 64.37
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Yan Couto",
+    "position": "Midfield - Right Midfield",
+    "current_club": "Borussia Dortmund",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 27.2,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -448.5,
+      "series": [
+        987.0,
+        416.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.379,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 7.242,
+      "valuation_score": 59.63
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Richard Ríos",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "SL Benfica",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.5,
+    "improvement_rate": 0.384,
+    "development_velocity": 0.48,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -402.8,
+      "series": [
+        2104.0,
+        622.0,
+        360.0,
+        103.0,
+        178.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "premier league"
+    ],
+    "success_probability": 0.376,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 7.291,
+      "valuation_score": 61.87
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Charles De Ketelaere",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Atalanta BC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.7,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -838.5,
+      "series": [
+        1941.0,
+        585.0,
+        264.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.375,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 7.344,
+      "valuation_score": 61.73
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Nico González",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Manchester City",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.1,
+    "improvement_rate": -0.053,
+    "development_velocity": -0.069,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -360.0,
+      "series": [
+        1402.0,
+        410.0,
+        283.0,
+        322.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.375,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 7.078,
+      "valuation_score": 59.46
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Quinten Timber",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Olympique Marseille",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.7,
+    "improvement_rate": 0.19,
+    "development_velocity": 0.247,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -176.4,
+      "series": [
+        972.0,
+        70.0,
+        1317.0,
+        239.0,
+        151.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.375,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 7.239,
+      "valuation_score": 59.25
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Mats Wieffer",
+    "position": "Defender - Right-Back",
+    "current_club": "Brighton & Hove Albion",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 29.8,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -888.5,
+      "series": [
+        1800.0,
+        9.0,
+        23.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.373,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 8.347,
+      "valuation_score": 62.4
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "João Gomes",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Wolverhampton Wanderers",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 25.5,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1225.0,
+      "series": [
+        2566.0,
+        241.0,
+        116.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.372,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 7.032,
+      "valuation_score": 61.82
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Matías Soulé",
+    "position": "Attack - Right Winger",
+    "current_club": "AS Roma",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 22.3,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -947.5,
+      "series": [
+        1953.0,
+        558.0,
+        58.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.372,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 5.945,
+      "valuation_score": 60.8
     },
     "model_version": "pathway_v1"
   },
@@ -125,6 +1075,279 @@
     "model_version": "pathway_v1"
   },
   {
+    "player_name": "Gonçalo Inácio",
+    "position": "Defender - Centre-Back",
+    "current_club": "Sporting CP",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 30.2,
+    "improvement_rate": -0.134,
+    "development_velocity": -0.174,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -718.0,
+      "series": [
+        2244.0,
+        956.0,
+        341.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "premier league"
+    ],
+    "success_probability": 0.369,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 8.177,
+      "valuation_score": 56.61
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Noah Ohio",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Real Valladolid CF",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 26.4,
+    "improvement_rate": 1.156,
+    "development_velocity": 1.561,
+    "minutes_growth": {
+      "trend": "ascending",
+      "delta": 176.3,
+      "series": [
+        55.0,
+        39.0,
+        114.0,
+        584.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.363,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 7.017,
+      "valuation_score": 47.88
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "António Silva",
+    "position": "Defender - Centre-Back",
+    "current_club": "SL Benfica",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 31.0,
+    "improvement_rate": -0.027,
+    "development_velocity": -0.038,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -317.6,
+      "series": [
+        1678.0,
+        358.0,
+        360.0,
+        90.0,
+        360.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "premier league"
+    ],
+    "success_probability": 0.361,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 8.099,
+      "valuation_score": 55.15
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Francisco Conceição",
+    "position": "Attack - Right Winger",
+    "current_club": "Juventus FC",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 21.6,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -850.0,
+      "series": [
+        1796.0,
+        500.0,
+        96.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.36,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 5.743,
+      "valuation_score": 59.23
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Nicolas Seiwald",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "RB Leipzig",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 25.8,
+    "improvement_rate": -0.177,
+    "development_velocity": -0.23,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -2203.0,
+      "series": [
+        2545.0,
+        342.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.36,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 6.979,
+      "valuation_score": 57.2
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Byron Castillo",
+    "position": "Defender - Right-Back",
+    "current_club": "Barcelona SC Guayaquil",
+    "development_stage": "peak",
+    "trajectory": "ascending",
+    "age_league_percentile": 29.7,
+    "improvement_rate": 1.51,
+    "development_velocity": 1.736,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -78.0,
+      "series": [
+        227.0,
+        149.0
+      ]
+    },
+    "best_pathway": [
+      "copa libertadores"
+    ],
+    "success_probability": 0.356,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 8.084,
+      "valuation_score": 51.92
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Tijjani Reijnders",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Manchester City",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 27.6,
+    "improvement_rate": 0.328,
+    "development_velocity": 0.377,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -426.0,
+      "series": [
+        1499.0,
+        579.0,
+        374.0,
+        221.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.353,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 7.503,
+      "valuation_score": 62.93
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Matheus Cunha",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Manchester United",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 21.3,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1078.0,
+      "series": [
+        2246.0,
+        90.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.351,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.963,
+      "valuation_score": 62.83
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Vitinha",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Paris Saint-Germain",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.3,
+    "improvement_rate": -0.162,
+    "development_velocity": -0.194,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -377.6,
+      "series": [
+        2008.0,
+        1350.0,
+        90.0,
+        90.0,
+        90.0,
+        120.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.351,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 7.351,
+      "valuation_score": 60.45
+    },
+    "model_version": "pathway_v1"
+  },
+  {
     "player_name": "Óscar Zambrano",
     "position": "Midfield - Defensive Midfield",
     "current_club": "NK Maribor",
@@ -148,6 +1371,364 @@
       "age": 22,
       "kpi_score": 7.959,
       "valuation_score": 44.84
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Albert Sambi Lokonga",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Hamburger SV",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.9,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        1465.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.349,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 7.526,
+      "valuation_score": 59.83
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Lutsharel Geertruida",
+    "position": "Defender - Right-Back",
+    "current_club": "Sunderland AFC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 29.1,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -685.0,
+      "series": [
+        1415.0,
+        180.0,
+        45.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.346,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 8.004,
+      "valuation_score": 55.89
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Marcos Leonardo",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Hilal SFC",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 25.7,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -410.0,
+      "series": [
+        1298.0,
+        249.0,
+        478.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.346,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 6.718,
+      "valuation_score": 45.92
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Reinier",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Clube Atlético Mineiro",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 27.9,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "ascending",
+      "delta": 165.0,
+      "series": [
+        194.0,
+        515.0,
+        524.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.346,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 7.551,
+      "valuation_score": 54.14
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Estêvão",
+    "position": "Attack - Right Winger",
+    "current_club": "Chelsea FC",
+    "development_stage": "prospect",
+    "trajectory": "stable",
+    "age_league_percentile": 25.0,
+    "improvement_rate": -0.001,
+    "development_velocity": -0.002,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -211.3,
+      "series": [
+        846.0,
+        191.0,
+        427.0,
+        212.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.338,
+    "inputs": {
+      "age": 19,
+      "kpi_score": 6.184,
+      "valuation_score": 54.11
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Lucas Beltrán",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Valencia CF",
+    "development_stage": "peak",
+    "trajectory": "ascending",
+    "age_league_percentile": 20.9,
+    "improvement_rate": 1.397,
+    "development_velocity": 1.746,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1128.0,
+      "series": [
+        1366.0,
+        238.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.331,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 5.755,
+      "valuation_score": 47.47
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Bruno Guimarães",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Newcastle United",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 28.5,
+    "improvement_rate": 0.047,
+    "development_velocity": 0.052,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -615.7,
+      "series": [
+        2124.0,
+        544.0,
+        41.0,
+        277.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.327,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 7.537,
+      "valuation_score": 60.58
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Adam Daghim",
+    "position": "Attack - Right Winger",
+    "current_club": "VfL Wolfsburg",
+    "development_stage": "prospect",
+    "trajectory": "stable",
+    "age_league_percentile": 22.7,
+    "improvement_rate": -0.169,
+    "development_velocity": -0.254,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -257.0,
+      "series": [
+        1109.0,
+        45.0,
+        65.0,
+        80.0,
+        81.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.326,
+    "inputs": {
+      "age": 20,
+      "kpi_score": 5.735,
+      "valuation_score": 53.2
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Loïs Openda",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Juventus FC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 20.3,
+    "improvement_rate": -0.175,
+    "development_velocity": -0.21,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -141.5,
+      "series": [
+        652.0,
+        320.0,
+        25.0,
+        50.0,
+        86.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.326,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.695,
+      "valuation_score": 59.0
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Michael Estrada",
+    "position": "Attack - Centre-Forward",
+    "current_club": "LDU Quito",
+    "development_stage": "veteran",
+    "trajectory": "ascending",
+    "age_league_percentile": 23.2,
+    "improvement_rate": 2.774,
+    "development_velocity": 2.774,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -269.0,
+      "series": [
+        323.0,
+        54.0
+      ]
+    },
+    "best_pathway": [
+      "copa libertadores"
+    ],
+    "success_probability": 0.324,
+    "inputs": {
+      "age": 30,
+      "kpi_score": 5.758,
+      "valuation_score": 57.71
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "position": "Midfield - Central Midfield",
+    "current_club": "FC Barcelona",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 27.0,
+    "improvement_rate": -0.291,
+    "development_velocity": -0.32,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -465.0,
+      "series": [
+        1549.0,
+        514.0,
+        270.0,
+        154.0
+      ]
+    },
+    "best_pathway": [
+      "premier league"
+    ],
+    "success_probability": 0.317,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 7.138,
+      "valuation_score": 59.47
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Claudio Echeverri",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Girona FC",
+    "development_stage": "prospect",
+    "trajectory": "ascending",
+    "age_league_percentile": 28.8,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -159.0,
+      "series": [
+        458.0,
+        130.0,
+        140.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.316,
+    "inputs": {
+      "age": 20,
+      "kpi_score": 7.277,
+      "valuation_score": 40.94
     },
     "model_version": "pathway_v1"
   },
@@ -177,6 +1758,35 @@
       "age": 24,
       "kpi_score": 5.734,
       "valuation_score": 52.07
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Valentín Carboni",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Racing Club",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 27.9,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -5.0,
+      "series": [
+        204.0,
+        354.0,
+        194.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.315,
+    "inputs": {
+      "age": 21,
+      "kpi_score": 7.161,
+      "valuation_score": 41.02
     },
     "model_version": "pathway_v1"
   },
@@ -214,6 +1824,1065 @@
     "model_version": "pathway_v1"
   },
   {
+    "player_name": "Pervis Estupiñán",
+    "position": "Defender - Left-Back",
+    "current_club": "AC Milan",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 31.2,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -379.5,
+      "series": [
+        936.0,
+        90.0,
+        177.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.313,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 8.242,
+      "valuation_score": 56.78
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Exequiel Palacios",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Bayer 04 Leverkusen",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 25.7,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -339.5,
+      "series": [
+        827.0,
+        335.0,
+        148.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.312,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 6.978,
+      "valuation_score": 56.5
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jackson Porozo",
+    "position": "Defender - Centre-Back",
+    "current_club": "Club Tijuana",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 29.7,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -569.5,
+      "series": [
+        1319.0,
+        1530.0,
+        180.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.312,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 8.172,
+      "valuation_score": 50.17
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Rasmus Kristensen",
+    "position": "Defender - Right-Back",
+    "current_club": "Eintracht Frankfurt",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 31.8,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -611.5,
+      "series": [
+        1433.0,
+        329.0,
+        210.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.312,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 8.4,
+      "valuation_score": 56.33
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Renato Veiga",
+    "position": "Defender - Centre-Back",
+    "current_club": "Villarreal CF",
+    "development_stage": "emerging",
+    "trajectory": "ascending",
+    "age_league_percentile": 30.9,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1027.0,
+      "series": [
+        2208.0,
+        720.0,
+        154.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.308,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 8.081,
+      "valuation_score": 39.19
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Franco Mastantuono",
+    "position": "Attack - Right Winger",
+    "current_club": "Real Madrid",
+    "development_stage": "prospect",
+    "trajectory": "stable",
+    "age_league_percentile": 23.9,
+    "improvement_rate": -0.092,
+    "development_velocity": -0.138,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -269.0,
+      "series": [
+        818.0,
+        293.0,
+        143.0,
+        11.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.302,
+    "inputs": {
+      "age": 18,
+      "kpi_score": 5.806,
+      "valuation_score": 48.67
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Teun Koopmeiners",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Juventus FC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.9,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -774.0,
+      "series": [
+        1654.0,
+        744.0,
+        106.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.3,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 7.091,
+      "valuation_score": 56.28
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "João Félix",
+    "position": "Attack - Second Striker",
+    "current_club": "Al-Nassr FC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 23.5,
+    "improvement_rate": 0.336,
+    "development_velocity": 0.403,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -682.3,
+      "series": [
+        2552.0,
+        94.0,
+        180.0,
+        505.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.295,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 6.568,
+      "valuation_score": 51.87
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Patson Daka",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Leicester City",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 21.7,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -965.0,
+      "series": [
+        2012.0,
+        111.0,
+        82.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.293,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 5.889,
+      "valuation_score": 54.65
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Lisandro Martínez",
+    "position": "Defender - Centre-Back",
+    "current_club": "Manchester United",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 30.3,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -882.0,
+      "series": [
+        961.0,
+        79.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.288,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 8.001,
+      "valuation_score": 52.58
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jeremy Sarmiento",
+    "position": "Attack - Left Winger",
+    "current_club": "Middlesbrough FC",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 20.5,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -378.0,
+      "series": [
+        515.0,
+        137.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.283,
+    "inputs": {
+      "age": 23,
+      "kpi_score": 5.459,
+      "valuation_score": 47.05
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jhon Durán",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Zenit St. Petersburg",
+    "development_stage": "emerging",
+    "trajectory": "stable",
+    "age_league_percentile": 23.7,
+    "improvement_rate": -0.267,
+    "development_velocity": -0.374,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 5.3,
+      "series": [
+        127.0,
+        194.0,
+        543.0,
+        153.0,
+        186.0,
+        89.0,
+        159.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.283,
+    "inputs": {
+      "age": 22,
+      "kpi_score": 6.191,
+      "valuation_score": 45.82
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Angelo Preciado",
+    "position": "Defender - Right-Back",
+    "current_club": "Clube Atlético Mineiro",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 31.1,
+    "improvement_rate": 0.405,
+    "development_velocity": 0.446,
+    "minutes_growth": {
+      "trend": "ascending",
+      "delta": 136.0,
+      "series": [
+        148.0,
+        376.0,
+        90.0,
+        287.0,
+        284.0,
+        337.0,
+        964.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.282,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 8.199,
+      "valuation_score": 51.27
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Amadou Onana",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Aston Villa",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.1,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -334.5,
+      "series": [
+        759.0,
+        1747.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.279,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 7.076,
+      "valuation_score": 44.23
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Thiago Almada",
+    "position": "Attack - Left Winger",
+    "current_club": "Atlético de Madrid",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 21.3,
+    "improvement_rate": -0.268,
+    "development_velocity": -0.335,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -368.0,
+      "series": [
+        1120.0,
+        148.0,
+        204.0,
+        16.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.278,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 5.865,
+      "valuation_score": 47.72
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Gabriel Martinelli",
+    "position": "Attack - Left Winger",
+    "current_club": "Arsenal FC",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 23.0,
+    "improvement_rate": -0.305,
+    "development_velocity": -0.397,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -240.3,
+      "series": [
+        982.0,
+        654.0,
+        352.0,
+        261.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.277,
+    "inputs": {
+      "age": 24,
+      "kpi_score": 6.22,
+      "valuation_score": 64.3
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Antony",
+    "position": "Attack - Right Winger",
+    "current_club": "Real Betis Balompié",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 21.9,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -912.0,
+      "series": [
+        2074.0,
+        788.0,
+        250.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.276,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 6.137,
+      "valuation_score": 49.19
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Gonzalo Plata",
+    "position": "Attack - Right Winger",
+    "current_club": "CR Flamengo",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 20.7,
+    "improvement_rate": -0.175,
+    "development_velocity": -0.219,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 17.7,
+      "series": [
+        137.0,
+        385.0,
+        18.0,
+        81.0,
+        320.0,
+        64.0,
+        243.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.272,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 5.702,
+      "valuation_score": 47.01
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Rodrigo Conceição",
+    "position": "Defender - Right-Back",
+    "current_club": "CD Tondela",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 29.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        1170.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.267,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 8.219,
+      "valuation_score": 44.9
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Noa Lang",
+    "position": "Attack - Left Winger",
+    "current_club": "Galatasaray",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 20.5,
+    "improvement_rate": -0.099,
+    "development_velocity": -0.119,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -107.4,
+      "series": [
+        553.0,
+        501.0,
+        135.0,
+        661.0,
+        35.0,
+        16.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.264,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.749,
+      "valuation_score": 47.69
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jorge Carrascal",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "CR Flamengo",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.7,
+    "improvement_rate": 0.067,
+    "development_velocity": 0.077,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -2.8,
+      "series": [
+        223.0,
+        420.0,
+        45.0,
+        429.0,
+        148.0,
+        209.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.263,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 7.269,
+      "valuation_score": 47.23
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Orel Mangala",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Olympique Lyon",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.3,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -162.5,
+      "series": [
+        345.0,
+        73.0,
+        20.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.262,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 6.95,
+      "valuation_score": 49.45
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Sékou Koïta",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Genclerbirligi Ankara",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 20.9,
+    "improvement_rate": 0.244,
+    "development_velocity": 0.293,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -401.0,
+      "series": [
+        1629.0,
+        242.0,
+        80.0,
+        98.0,
+        25.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.259,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.858,
+      "valuation_score": 46.62
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Gonzalo Montiel",
+    "position": "Defender - Right-Back",
+    "current_club": "CA River Plate",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 34.1,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -22.5,
+      "series": [
+        135.0,
+        1260.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.258,
+    "inputs": {
+      "age": 29,
+      "kpi_score": 8.734,
+      "valuation_score": 48.12
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jhegson Méndez",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Independiente del Valle",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 27.2,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -503.0,
+      "series": [
+        533.0,
+        30.0
+      ]
+    },
+    "best_pathway": [
+      "primeira liga"
+    ],
+    "success_probability": 0.258,
+    "inputs": {
+      "age": 29,
+      "kpi_score": 6.962,
+      "valuation_score": 50.75
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "José Cifuentes",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Toronto FC",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 26.5,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        797.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.256,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 7.201,
+      "valuation_score": 46.03
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Cucho Hernández",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Real Betis Balompié",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 22.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1084.5,
+      "series": [
+        2256.0,
+        448.0,
+        87.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.251,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 6.086,
+      "valuation_score": 46.55
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "João Neves",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Paris Saint-Germain",
+    "development_stage": "emerging",
+    "trajectory": "declining",
+    "age_league_percentile": 29.2,
+    "improvement_rate": -0.398,
+    "development_velocity": -0.577,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -254.8,
+      "series": [
+        1139.0,
+        934.0,
+        61.0,
+        90.0,
+        120.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.249,
+    "inputs": {
+      "age": 21,
+      "kpi_score": 7.512,
+      "valuation_score": 55.01
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Nahuel Molina",
+    "position": "Defender - Right-Back",
+    "current_club": "Atlético de Madrid",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 31.4,
+    "improvement_rate": -0.25,
+    "development_velocity": -0.275,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -397.0,
+      "series": [
+        1201.0,
+        664.0,
+        372.0,
+        10.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.246,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 8.296,
+      "valuation_score": 44.61
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Cody Gakpo",
+    "position": "Attack - Left Winger",
+    "current_club": "Liverpool FC",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 20.9,
+    "improvement_rate": -0.341,
+    "development_velocity": -0.409,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -710.3,
+      "series": [
+        2418.0,
+        470.0,
+        90.0,
+        287.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.244,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.855,
+      "valuation_score": 62.73
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Youri Tielemans",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Aston Villa",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 27.1,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -191.5,
+      "series": [
+        464.0,
+        1576.0,
+        81.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.244,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 7.143,
+      "valuation_score": 45.62
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Lucas Paquetá",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "CR Flamengo",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 29.0,
+    "improvement_rate": 0.044,
+    "development_velocity": 0.048,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -12.0,
+      "series": [
+        162.0,
+        648.0,
+        32.0,
+        306.0,
+        146.0,
+        1522.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.24,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 7.643,
+      "valuation_score": 44.25
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Geny Catamo",
+    "position": "Attack - Right Winger",
+    "current_club": "Sporting CP",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 21.4,
+    "improvement_rate": -0.42,
+    "development_velocity": -0.525,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -566.7,
+      "series": [
+        1785.0,
+        772.0,
+        244.0,
+        85.0
+      ]
+    },
+    "best_pathway": [
+      "premier league"
+    ],
+    "success_probability": 0.237,
+    "inputs": {
+      "age": 25,
+      "kpi_score": 5.896,
+      "valuation_score": 58.19
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Gerson",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Cruzeiro Esporte Clube",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 27.0,
+    "improvement_rate": 0.176,
+    "development_velocity": 0.194,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -174.8,
+      "series": [
+        930.0,
+        244.0,
+        515.0,
+        688.0,
+        231.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.234,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 7.117,
+      "valuation_score": 43.93
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Endrick",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Olympique Lyon",
+    "development_stage": "prospect",
+    "trajectory": "declining",
+    "age_league_percentile": 25.4,
+    "improvement_rate": -0.689,
+    "development_velocity": -1.033,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -180.4,
+      "series": [
+        979.0,
+        157.0,
+        252.0,
+        11.0,
+        11.0,
+        77.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.233,
+    "inputs": {
+      "age": 19,
+      "kpi_score": 6.279,
+      "valuation_score": 53.0
+    },
+    "model_version": "pathway_v1"
+  },
+  {
     "player_name": "Jordy Caicedo",
     "position": "Attack - Centre-Forward",
     "current_club": "CA Huracán",
@@ -239,6 +2908,157 @@
       "age": 28,
       "kpi_score": 6.13,
       "valuation_score": 44.03
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Lorran",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Pisa Sporting Club",
+    "development_stage": "prospect",
+    "trajectory": "declining",
+    "age_league_percentile": 32.2,
+    "improvement_rate": -1.991,
+    "development_velocity": -2.987,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -68.0,
+      "series": [
+        113.0,
+        45.0
+      ]
+    },
+    "best_pathway": [
+      "premier league"
+    ],
+    "success_probability": 0.227,
+    "inputs": {
+      "age": 19,
+      "kpi_score": 7.984,
+      "valuation_score": 49.08
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Nicolás Capaldo",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Hamburger SV",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 26.0,
+    "improvement_rate": -0.388,
+    "development_velocity": -0.446,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1620.0,
+      "series": [
+        1740.0,
+        120.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.227,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 7.079,
+      "valuation_score": 58.49
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Richarlison",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Tottenham Hotspur",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 23.2,
+    "improvement_rate": -0.458,
+    "development_velocity": -0.504,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -377.5,
+      "series": [
+        1617.0,
+        481.0,
+        72.0,
+        31.0,
+        107.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.22,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 6.138,
+      "valuation_score": 60.64
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Lautaro Martínez",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Inter Milan",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 25.1,
+    "improvement_rate": -0.764,
+    "development_velocity": -0.84,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -643.0,
+      "series": [
+        1963.0,
+        459.0,
+        19.0,
+        34.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.219,
+    "inputs": {
+      "age": 28,
+      "kpi_score": 6.626,
+      "valuation_score": 59.44
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Ibrahim Osman",
+    "position": "Attack - Left Winger",
+    "current_club": "Birmingham City",
+    "development_stage": "emerging",
+    "trajectory": "declining",
+    "age_league_percentile": 22.2,
+    "improvement_rate": -0.333,
+    "development_velocity": -0.483,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -271.0,
+      "series": [
+        902.0,
+        74.0,
+        623.0,
+        89.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.217,
+    "inputs": {
+      "age": 21,
+      "kpi_score": 5.699,
+      "valuation_score": 50.74
     },
     "model_version": "pathway_v1"
   },
@@ -292,6 +3112,300 @@
       "age": 22,
       "kpi_score": 0.0,
       "valuation_score": 35.05
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Luis Díaz",
+    "position": "Attack - Left Winger",
+    "current_club": "Bayern Munich",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 26.0,
+    "improvement_rate": -0.347,
+    "development_velocity": -0.364,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -612.7,
+      "series": [
+        2286.0,
+        891.0,
+        90.0,
+        448.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.211,
+    "inputs": {
+      "age": 29,
+      "kpi_score": 6.654,
+      "valuation_score": 59.89
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Félix Torres",
+    "position": "Defender - Centre-Back",
+    "current_club": "Sport Club Internacional",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 32.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -199.5,
+      "series": [
+        768.0,
+        90.0,
+        369.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.209,
+    "inputs": {
+      "age": 29,
+      "kpi_score": 8.204,
+      "valuation_score": 39.53
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Gabriel Jesus",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Arsenal FC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 24.7,
+    "improvement_rate": -0.469,
+    "development_velocity": -0.492,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -72.7,
+      "series": [
+        320.0,
+        156.0,
+        309.0,
+        102.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.206,
+    "inputs": {
+      "age": 29,
+      "kpi_score": 6.317,
+      "valuation_score": 59.13
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "David Neres",
+    "position": "Attack - Right Winger",
+    "current_club": "SSC Napoli",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 24.0,
+    "improvement_rate": -0.486,
+    "development_velocity": -0.51,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -303.0,
+      "series": [
+        925.0,
+        261.0,
+        166.0,
+        16.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.199,
+    "inputs": {
+      "age": 29,
+      "kpi_score": 6.15,
+      "valuation_score": 57.19
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Giovani Lo Celso",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Real Betis Balompié",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 29.6,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -561.5,
+      "series": [
+        1182.0,
+        321.0,
+        59.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.199,
+    "inputs": {
+      "age": 30,
+      "kpi_score": 7.34,
+      "valuation_score": 40.37
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Carlos Gruezo",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Santos Laguna",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 29.8,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        813.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.197,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 7.147,
+      "valuation_score": 42.14
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Julián Alvarez",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Atlético de Madrid",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 22.6,
+    "improvement_rate": -0.473,
+    "development_velocity": -0.568,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -604.3,
+      "series": [
+        1903.0,
+        1175.0,
+        315.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.195,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 6.339,
+      "valuation_score": 49.51
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Facundo Torres",
+    "position": "Attack - Right Winger",
+    "current_club": "Austin FC",
+    "development_stage": "peak",
+    "trajectory": "declining",
+    "age_league_percentile": 20.6,
+    "improvement_rate": -1.325,
+    "development_velocity": -1.59,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -759.0,
+      "series": [
+        849.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.192,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.765,
+      "valuation_score": 49.36
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Rafael Borré",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Sport Club Internacional",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 24.5,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -214.5,
+      "series": [
+        899.0,
+        26.0,
+        470.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.192,
+    "inputs": {
+      "age": 30,
+      "kpi_score": 6.078,
+      "valuation_score": 40.5
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Luciano Acosta",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Fluminense Football Club",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 31.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "ascending",
+      "delta": 158.0,
+      "series": [
+        87.0,
+        676.0,
+        403.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.19,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 7.536,
+      "valuation_score": 40.19
     },
     "model_version": "pathway_v1"
   },
@@ -352,6 +3466,125 @@
     "model_version": "pathway_v1"
   },
   {
+    "player_name": "Jefferson Lerma",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Crystal Palace",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 29.3,
+    "improvement_rate": 0.495,
+    "development_velocity": 0.47,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -94.2,
+      "series": [
+        502.0,
+        1428.0,
+        180.0,
+        5.0,
+        125.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.176,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 7.03,
+      "valuation_score": 37.84
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Leandro Trossard",
+    "position": "Attack - Left Winger",
+    "current_club": "Arsenal FC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 24.9,
+    "improvement_rate": -0.086,
+    "development_velocity": -0.082,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -507.3,
+      "series": [
+        1739.0,
+        465.0,
+        66.0,
+        217.0
+      ]
+    },
+    "best_pathway": [
+      "tier-2 european league",
+      "copa libertadores"
+    ],
+    "success_probability": 0.171,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 5.975,
+      "valuation_score": 54.47
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Luis Sinisterra",
+    "position": "Attack - Left Winger",
+    "current_club": "Cruzeiro Esporte Clube",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 19.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": -12.5,
+      "series": [
+        48.0,
+        22.0,
+        23.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.167,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 5.426,
+      "valuation_score": 30.37
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Miguel Borja",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Wasl SC",
+    "development_stage": "veteran",
+    "trajectory": "ascending",
+    "age_league_percentile": 28.6,
+    "improvement_rate": 1.964,
+    "development_velocity": 1.669,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -405.0,
+      "series": [
+        627.0,
+        222.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.166,
+    "inputs": {
+      "age": 33,
+      "kpi_score": 6.413,
+      "valuation_score": 33.68
+    },
+    "model_version": "pathway_v1"
+  },
+  {
     "player_name": "Tomás Molina",
     "position": "Attack - Centre-Forward",
     "current_club": "AA Argentinos Juniors",
@@ -377,6 +3610,63 @@
       "age": 31,
       "kpi_score": 5.924,
       "valuation_score": 36.56
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Renato Tapia",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Al-Wasl SC",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 28.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -395.0,
+      "series": [
+        1321.0,
+        135.0,
+        531.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.16,
+    "inputs": {
+      "age": 30,
+      "kpi_score": 6.953,
+      "valuation_score": 32.82
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Yerry Mina",
+    "position": "Defender - Centre-Back",
+    "current_club": "Cagliari Calcio",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 33.9,
+    "improvement_rate": -0.119,
+    "development_velocity": -0.113,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1793.0,
+      "series": [
+        1883.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.156,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 8.129,
+      "valuation_score": 46.14
     },
     "model_version": "pathway_v1"
   },
@@ -409,6 +3699,170 @@
     "model_version": "pathway_v1"
   },
   {
+    "player_name": "Guilherme Arana",
+    "position": "Defender - Left-Back",
+    "current_club": "Fluminense Football Club",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 33.0,
+    "improvement_rate": -0.743,
+    "development_velocity": -0.78,
+    "minutes_growth": {
+      "trend": "ascending",
+      "delta": 122.0,
+      "series": [
+        101.0,
+        561.0,
+        22.0,
+        467.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.153,
+    "inputs": {
+      "age": 29,
+      "kpi_score": 8.442,
+      "valuation_score": 41.21
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Diogo Jota",
+    "position": "Attack - Left Winger",
+    "current_club": "---",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 50.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "unknown",
+      "delta": 0.0,
+      "series": []
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.15,
+    "inputs": {
+      "age": null,
+      "kpi_score": 0.0,
+      "valuation_score": 20.85
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Mario Pineida",
+    "position": "Defender - Left-Back",
+    "current_club": "---",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 50.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "unknown",
+      "delta": 0.0,
+      "series": []
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.15,
+    "inputs": {
+      "age": null,
+      "kpi_score": 0.0,
+      "valuation_score": 20.85
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "position": "Attack - Second Striker",
+    "current_club": "AS Roma",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 25.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -519.0,
+      "series": [
+        1070.0,
+        206.0,
+        32.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.148,
+    "inputs": {
+      "age": 32,
+      "kpi_score": 5.887,
+      "valuation_score": 49.62
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "FC Basel 1893",
+    "development_stage": "veteran",
+    "trajectory": "stable",
+    "age_league_percentile": 36.7,
+    "improvement_rate": 0.108,
+    "development_velocity": 0.086,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -724.3,
+      "series": [
+        2367.0,
+        562.0,
+        176.0,
+        194.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.143,
+    "inputs": {
+      "age": 34,
+      "kpi_score": 7.922,
+      "valuation_score": 34.85
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Riqui Puig",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Los Angeles Galaxy",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 1.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "unknown",
+      "delta": 0.0,
+      "series": []
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.141,
+    "inputs": {
+      "age": 26,
+      "kpi_score": 0.0,
+      "valuation_score": 30.45
+    },
+    "model_version": "pathway_v1"
+  },
+  {
     "player_name": "Carlos Gutiérrez",
     "position": "Attack - Right Winger",
     "current_club": "Without Club",
@@ -430,6 +3884,144 @@
       "age": 27,
       "kpi_score": 0.0,
       "valuation_score": 29.31
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Washington Corozo",
+    "position": "Attack - Left Winger",
+    "current_club": "CS Emelec",
+    "development_stage": "peak",
+    "trajectory": "stable",
+    "age_league_percentile": 1.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "unknown",
+      "delta": 0.0,
+      "series": []
+    },
+    "best_pathway": [
+      "copa libertadores"
+    ],
+    "success_probability": 0.13,
+    "inputs": {
+      "age": 27,
+      "kpi_score": 0.0,
+      "valuation_score": 29.31
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Leandro Paredes",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "CA Boca Juniors",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 31.1,
+    "improvement_rate": -0.321,
+    "development_velocity": -0.305,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -698.0,
+      "series": [
+        964.0,
+        266.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.127,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 7.452,
+      "valuation_score": 38.56
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Rodrigo De Paul",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Inter Miami CF",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 30.8,
+    "improvement_rate": -1.25,
+    "development_velocity": -1.188,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -540.0,
+      "series": [
+        720.0,
+        180.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.126,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 7.397,
+      "valuation_score": 38.33
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Roger Martínez",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Taawoun FC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 27.8,
+    "improvement_rate": -0.425,
+    "development_velocity": -0.404,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -2231.0,
+      "series": [
+        2366.0,
+        135.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.125,
+    "inputs": {
+      "age": 31,
+      "kpi_score": 6.662,
+      "valuation_score": 38.89
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jhon Córdoba",
+    "position": "Attack - Centre-Forward",
+    "current_club": "FC Krasnodar",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 28.2,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -1062.0,
+      "series": [
+        2214.0,
+        502.0,
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.117,
+    "inputs": {
+      "age": 32,
+      "kpi_score": 6.547,
+      "valuation_score": 38.27
     },
     "model_version": "pathway_v1"
   },
@@ -461,6 +4053,61 @@
     "model_version": "pathway_v1"
   },
   {
+    "player_name": "Damián Díaz",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Guayaquil City FC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 44.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        726.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.104,
+    "inputs": {
+      "age": 40,
+      "kpi_score": 7.465,
+      "valuation_score": 41.34
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Pedro",
+    "position": "Attack - Right Winger",
+    "current_club": "SS Lazio",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 33.5,
+    "improvement_rate": -1.671,
+    "development_velocity": -1.003,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -739.0,
+      "series": [
+        808.0,
+        69.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.1,
+    "inputs": {
+      "age": 38,
+      "kpi_score": 6.161,
+      "valuation_score": 42.8
+    },
+    "model_version": "pathway_v1"
+  },
+  {
     "player_name": "Sebastián Rodríguez",
     "position": "Midfield - Defensive Midfield",
     "current_club": "Danubio FC",
@@ -484,6 +4131,336 @@
       "age": 33,
       "kpi_score": 7.184,
       "valuation_score": 33.47
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Neymar",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Santos FC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 36.1,
+    "improvement_rate": -0.14,
+    "development_velocity": -0.112,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -134.7,
+      "series": [
+        539.0,
+        180.0,
+        90.0,
+        135.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.097,
+    "inputs": {
+      "age": 34,
+      "kpi_score": 7.788,
+      "valuation_score": 34.01
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Roberto Firmino",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Sadd SC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 30.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -441.0,
+      "series": [
+        1695.0,
+        45.0,
+        813.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.093,
+    "inputs": {
+      "age": 34,
+      "kpi_score": 6.474,
+      "valuation_score": 34.24
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Ángel Mena",
+    "position": "Attack - Right Winger",
+    "current_club": "Orense SC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 31.9,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        352.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.093,
+    "inputs": {
+      "age": 38,
+      "kpi_score": 5.876,
+      "valuation_score": 40.43
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "James Rodríguez",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Minnesota United FC",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 34.4,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "ascending",
+      "delta": 439.0,
+      "series": [
+        103.0,
+        80.0,
+        981.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.091,
+    "inputs": {
+      "age": 34,
+      "kpi_score": 7.438,
+      "valuation_score": 32.2
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Alexander Domínguez",
+    "position": "Goalkeeper",
+    "current_club": "LDU Quito",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 43.5,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        90.0
+      ]
+    },
+    "best_pathway": [
+      "copa libertadores"
+    ],
+    "success_probability": 0.087,
+    "inputs": {
+      "age": 38,
+      "kpi_score": 8.0,
+      "valuation_score": 34.62
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Enner Valencia",
+    "position": "Attack - Centre-Forward",
+    "current_club": "CF Pachuca",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 31.5,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -318.0,
+      "series": [
+        692.0,
+        208.0,
+        56.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.085,
+    "inputs": {
+      "age": 36,
+      "kpi_score": 6.304,
+      "valuation_score": 35.6
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Michael Hoyos",
+    "position": "Attack - Centre-Forward",
+    "current_club": "CA Newell's Old Boys",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 26.8,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        430.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.081,
+    "inputs": {
+      "age": 34,
+      "kpi_score": 5.788,
+      "valuation_score": 30.56
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Joao Rojas",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Asociación Deportiva Tarma",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 38.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        569.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.077,
+    "inputs": {
+      "age": 36,
+      "kpi_score": 7.595,
+      "valuation_score": 30.49
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Matheus Uribe",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Atlético Nacional",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 34.2,
+    "improvement_rate": -0.217,
+    "development_velocity": -0.163,
+    "minutes_growth": {
+      "trend": "declining",
+      "delta": -993.0,
+      "series": [
+        1038.0,
+        45.0
+      ]
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.074,
+    "inputs": {
+      "age": 35,
+      "kpi_score": 7.108,
+      "valuation_score": 28.04
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jaime Ayoví",
+    "position": "Attack - Centre-Forward",
+    "current_club": "CS Emelec",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 31.3,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "stable",
+      "delta": 0.0,
+      "series": [
+        17.0
+      ]
+    },
+    "best_pathway": [
+      "copa libertadores"
+    ],
+    "success_probability": 0.051,
+    "inputs": {
+      "age": 38,
+      "kpi_score": 5.759,
+      "valuation_score": 22.08
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Jonathan Borja",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "CD El Nacional",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 1.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "unknown",
+      "delta": 0.0,
+      "series": []
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.044,
+    "inputs": {
+      "age": 32,
+      "kpi_score": 0.0,
+      "valuation_score": 18.31
+    },
+    "model_version": "pathway_v1"
+  },
+  {
+    "player_name": "Marvin Warnaß",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Without Club",
+    "development_stage": "veteran",
+    "trajectory": "declining",
+    "age_league_percentile": 1.0,
+    "improvement_rate": 0.0,
+    "development_velocity": 0.0,
+    "minutes_growth": {
+      "trend": "unknown",
+      "delta": 0.0,
+      "series": []
+    },
+    "best_pathway": [
+      "domestic league improvement"
+    ],
+    "success_probability": 0.031,
+    "inputs": {
+      "age": 34,
+      "kpi_score": 0.0,
+      "valuation_score": 14.74
     },
     "model_version": "pathway_v1"
   },

@@ -39,8 +39,8 @@ def _scrape_if_needed() -> dict[str, object]:
     if existing:
         return {"skipped": True, "reason": "parsed data already present", "count": len(existing)}
 
-    from app.scraping.tm_http_scraper import scrape_all_idv
-    results = scrape_all_idv(force_refresh=False)
+    from app.scraping.tm_http_scraper import scrape_all_players
+    results = scrape_all_players(force_refresh=False)
     ok = sum(1 for r in results if r.get("status") in ("ok", "cached"))
     return {"skipped": False, "results": results, "scraped": ok}
 

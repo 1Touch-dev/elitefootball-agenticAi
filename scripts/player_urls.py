@@ -1,7 +1,7 @@
 """
-Player URL registry: real Transfermarkt URLs (verified via live search).
-FBref IDs are omitted — FBref returns 403 on this server without a browser.
-Transfermarkt IDs verified against live search results.
+Player URL registry: real Transfermarkt URLs (verified via live TM search API).
+All TM IDs confirmed against live transfermarkt.com search results.
+FBref URLs omitted — FBref returns 403 on this server without a browser.
 """
 from __future__ import annotations
 
@@ -18,16 +18,16 @@ IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
     "willian-pacho": {
         "transfermarkt": "https://www.transfermarkt.com/willian-pacho/profil/spieler/661171",
         "display_name": "Willian Pacho",
-        "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador",
+        "club": "Paris Saint-Germain",
+        "league": "Ligue 1",
         "position": "Centre-Back",
         "nationality": "Ecuador",
     },
     "dylan-borrero": {
         "transfermarkt": "https://www.transfermarkt.com/dylan-borrero/profil/spieler/662453",
         "display_name": "Dylan Borrero",
-        "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador",
+        "club": "New England Revolution",
+        "league": "MLS",
         "position": "Left Winger",
         "nationality": "Colombia",
     },
@@ -76,7 +76,7 @@ IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
         "display_name": "Pedro Velasco",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
-        "position": "Goalkeeper",
+        "position": "Defensive Midfielder",
         "nationality": "Ecuador",
     },
     "oscar-zambrano": {
@@ -84,7 +84,7 @@ IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
         "display_name": "Óscar Zambrano",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
-        "position": "Defensive Midfielder",
+        "position": "Attacking Midfielder",
         "nationality": "Ecuador",
     },
     "carlos-gutierrez": {
@@ -100,7 +100,7 @@ IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
         "display_name": "Luis Segovia",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
-        "position": "Central Midfielder",
+        "position": "Defensive Midfielder",
         "nationality": "Ecuador",
     },
     "sebastian-rodriguez": {
@@ -109,7 +109,7 @@ IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Right Winger",
-        "nationality": "Ecuador",
+        "nationality": "Uruguay",
     },
     "cristian-pellerano": {
         "transfermarkt": "https://www.transfermarkt.com/cristian-pellerano/profil/spieler/55941",
@@ -124,7 +124,7 @@ IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
         "display_name": "Gabriel Villamil",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
-        "position": "Left Winger",
+        "position": "Centre-Back",
         "nationality": "Ecuador",
     },
     "tomas-molina": {
@@ -132,2001 +132,727 @@ IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
         "display_name": "Tomás Molina",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Uruguay",
-    },
-    "cristian-pellerano": {
-        "transfermarkt": "https://www.transfermarkt.com/cristian-pellerano/profil/spieler/55941",
-        "display_name": "Cristian Pellerano",
-        "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador",
         "position": "Central Midfielder",
         "nationality": "Argentina",
     },
 }
 
-
-# ── Liga Pro Ecuador — Barcelona SC ───────────────────────────────────────────
-BARCELONA_SC_URLS: dict[str, dict[str, str]] = {
-    "damian_diaz": {
-        "transfermarkt": "https://www.transfermarkt.com/damian-diaz/profil/spieler/259847",
-        "fbref": "https://fbref.com/en/players/f8a9b0c1/Damian-Diaz",
-        "display_name": "Damián Díaz",
-        "club": "Barcelona SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Attacking Midfielder",
-        "nationality": "Ecuador",
+# ── Ecuador Liga Pro / National Team ─────────────────────────────────────────
+ECUADOR_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "damian-diaz": {
+        "transfermarkt": "https://www.transfermarkt.com/damian-diaz/profil/spieler/55167",
+        "display_name": "Damián Díaz", "club": "Barcelona SC", "league": "Liga Pro Ecuador",
+        "position": "Attacking Midfielder", "nationality": "Ecuador",
     },
-    "gabriel_cortez": {
-        "transfermarkt": "https://www.transfermarkt.com/gabriel-cortez/profil/spieler/348123",
-        "fbref": "https://fbref.com/en/players/c5d6e7f8/Gabriel-Cortez",
-        "display_name": "Gabriel Cortez",
-        "club": "Barcelona SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Right Winger",
-        "nationality": "Ecuador",
+    "jaime-ayovi": {
+        "transfermarkt": "https://www.transfermarkt.com/jaime-ayovi/profil/spieler/139494",
+        "display_name": "Jaime Ayoví", "club": "LDU Quito", "league": "Liga Pro Ecuador",
+        "position": "Centre-Forward", "nationality": "Ecuador",
     },
-    "jonathan_bauman": {
-        "transfermarkt": "https://www.transfermarkt.com/jonathan-bauman/profil/spieler/217483",
-        "fbref": "https://fbref.com/en/players/d6e7f8a9/Jonathan-Bauman",
-        "display_name": "Jonathan Bauman",
-        "club": "Barcelona SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Argentina",
+    "jackson-porozo": {
+        "transfermarkt": "https://www.transfermarkt.com/jackson-porozo/profil/spieler/491616",
+        "display_name": "Jackson Porozo", "club": "Troyes", "league": "Ligue 2",
+        "position": "Centre-Back", "nationality": "Ecuador",
     },
-    "mario_pineida": {
-        "transfermarkt": "https://www.transfermarkt.com/mario-pineida/profil/spieler/589234",
-        "fbref": "https://fbref.com/en/players/e7f8a9b0/Mario-Pineida",
-        "display_name": "Mario Pineida",
-        "club": "Barcelona SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Defensive Midfielder",
-        "nationality": "Ecuador",
+    "mario-pineida": {
+        "transfermarkt": "https://www.transfermarkt.com/mario-pineida/profil/spieler/193937",
+        "display_name": "Mario Pineida", "club": "LDU Quito", "league": "Liga Pro Ecuador",
+        "position": "Goalkeeper", "nationality": "Ecuador",
     },
-    "juan_anangono": {
-        "transfermarkt": "https://www.transfermarkt.com/juan-anangono/profil/spieler/286493",
-        "fbref": "https://fbref.com/en/players/a9b0c1d2/Juan-Anangono",
-        "display_name": "Juan Anangono",
-        "club": "Barcelona SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Ecuador",
+    "angelo-preciado": {
+        "transfermarkt": "https://www.transfermarkt.com/angelo-preciado/profil/spieler/450241",
+        "display_name": "Ángelo Preciado", "club": "Genk", "league": "Belgian Pro League",
+        "position": "Right-Back", "nationality": "Ecuador",
     },
-    "fernando_fortes": {
-        "transfermarkt": "https://www.transfermarkt.com/fernando-fortes/profil/spieler/412734",
-        "fbref": "https://fbref.com/en/players/b0c1d2e3/Fernando-Fortes",
-        "display_name": "Fernando Fortes",
-        "club": "Barcelona SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Right Back",
-        "nationality": "Ecuador",
+    "jeremy-sarmiento": {
+        "transfermarkt": "https://www.transfermarkt.com/jeremy-sarmiento/profil/spieler/568005",
+        "display_name": "Jeremy Sarmiento", "club": "Brighton & Hove Albion", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Ecuador",
     },
-    "ryan_mier": {
-        "transfermarkt": "https://www.transfermarkt.com/ryan-mier/profil/spieler/534512",
-        "fbref": "https://fbref.com/en/players/c1d2e3f4/Ryan-Mier",
-        "display_name": "Ryan Mier",
-        "club": "Barcelona SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Goalkeeper",
-        "nationality": "Ecuador",
+    "enner-valencia": {
+        "transfermarkt": "https://www.transfermarkt.com/enner-valencia/profil/spieler/139503",
+        "display_name": "Enner Valencia", "club": "Internacional", "league": "Brasileirao",
+        "position": "Centre-Forward", "nationality": "Ecuador",
     },
-}
-
-# ── Liga Pro Ecuador — Emelec ─────────────────────────────────────────────────
-EMELEC_URLS: dict[str, dict[str, str]] = {
-    "alexis_meza": {
-        "transfermarkt": "https://www.transfermarkt.com/alexis-meza/profil/spieler/326784",
-        "fbref": "https://fbref.com/en/players/b0c1d2e3/Alexis-Meza",
-        "display_name": "Alexis Meza",
-        "club": "Emelec",
-        "league": "Liga Pro Ecuador",
-        "position": "Left Winger",
-        "nationality": "Argentina",
+    "felix-torres": {
+        "transfermarkt": "https://www.transfermarkt.com/felix-torres/profil/spieler/468174",
+        "display_name": "Félix Torres", "club": "Santos Laguna", "league": "Liga MX",
+        "position": "Centre-Back", "nationality": "Ecuador",
     },
-    "jose_angulo": {
-        "transfermarkt": "https://www.transfermarkt.com/jose-angulo/profil/spieler/216847",
-        "fbref": "https://fbref.com/en/players/d2e3f4a5/Jose-Angulo",
-        "display_name": "José Ángulo",
-        "club": "Emelec",
-        "league": "Liga Pro Ecuador",
-        "position": "Right Winger",
-        "nationality": "Colombia",
+    "jhegson-mendez": {
+        "transfermarkt": "https://www.transfermarkt.com/jhegson-mendez/profil/spieler/330682",
+        "display_name": "Jhegson Méndez", "club": "LA Galaxy", "league": "MLS",
+        "position": "Defensive Midfielder", "nationality": "Ecuador",
     },
-    "fernando_guerrero": {
-        "transfermarkt": "https://www.transfermarkt.com/fernando-guerrero/profil/spieler/412956",
-        "fbref": "https://fbref.com/en/players/c1d2e3f4/Fernando-Guerrero",
-        "display_name": "Fernando Guerrero",
-        "club": "Emelec",
-        "league": "Liga Pro Ecuador",
-        "position": "Central Midfielder",
-        "nationality": "Ecuador",
+    "pervis-estupinan": {
+        "transfermarkt": "https://www.transfermarkt.com/pervis-estupinan/profil/spieler/349599",
+        "display_name": "Pervis Estupiñán", "club": "Brighton & Hove Albion", "league": "Premier League",
+        "position": "Left-Back", "nationality": "Ecuador",
     },
-    "bryan_caicedo": {
-        "transfermarkt": "https://www.transfermarkt.com/bryan-caicedo/profil/spieler/598234",
-        "fbref": "https://fbref.com/en/players/d3e4f5a6/Bryan-Caicedo",
-        "display_name": "Bryan Caicedo",
-        "club": "Emelec",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Ecuador",
+    "gonzalo-plata": {
+        "transfermarkt": "https://www.transfermarkt.com/gonzalo-plata/profil/spieler/592735",
+        "display_name": "Gonzalo Plata", "club": "Al-Qadsiah", "league": "Saudi Pro League",
+        "position": "Right Winger", "nationality": "Ecuador",
     },
-    "marcos_torres": {
-        "transfermarkt": "https://www.transfermarkt.com/marcos-torres/profil/spieler/467821",
-        "fbref": "https://fbref.com/en/players/e4f5a6b7/Marcos-Torres",
-        "display_name": "Marcos Torres",
-        "club": "Emelec",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Back",
-        "nationality": "Ecuador",
+    "angel-mena": {
+        "transfermarkt": "https://www.transfermarkt.com/angel-mena/profil/spieler/123609",
+        "display_name": "Ángel Mena", "club": "LDU Quito", "league": "Liga Pro Ecuador",
+        "position": "Right Winger", "nationality": "Ecuador",
+    },
+    "jose-cifuentes": {
+        "transfermarkt": "https://www.transfermarkt.com/jose-cifuentes/profil/spieler/450211",
+        "display_name": "José Cifuentes", "club": "Los Angeles FC", "league": "MLS",
+        "position": "Central Midfielder", "nationality": "Ecuador",
+    },
+    "michael-estrada": {
+        "transfermarkt": "https://www.transfermarkt.com/michael-estrada/profil/spieler/265481",
+        "display_name": "Michael Estrada", "club": "Cruz Azul", "league": "Liga MX",
+        "position": "Centre-Forward", "nationality": "Ecuador",
+    },
+    "joao-rojas": {
+        "transfermarkt": "https://www.transfermarkt.com/joao-rojas/profil/spieler/92729",
+        "display_name": "Joao Rojas", "club": "LDU Quito", "league": "Liga Pro Ecuador",
+        "position": "Right Winger", "nationality": "Ecuador",
+    },
+    "washington-corozo": {
+        "transfermarkt": "https://www.transfermarkt.com/washington-corozo/profil/spieler/400964",
+        "display_name": "Washington Corozo", "club": "Barcelona SC", "league": "Liga Pro Ecuador",
+        "position": "Left Winger", "nationality": "Ecuador",
+    },
+    "byron-castillo": {
+        "transfermarkt": "https://www.transfermarkt.com/byron-castillo/profil/spieler/400961",
+        "display_name": "Byron Castillo", "club": "Basel", "league": "Super League Switzerland",
+        "position": "Right-Back", "nationality": "Ecuador",
+    },
+    "alexander-dominguez": {
+        "transfermarkt": "https://www.transfermarkt.com/alexander-dominguez/profil/spieler/84310",
+        "display_name": "Alexander Domínguez", "club": "LDU Quito", "league": "Liga Pro Ecuador",
+        "position": "Goalkeeper", "nationality": "Ecuador",
+    },
+    "carlos-gruezo": {
+        "transfermarkt": "https://www.transfermarkt.com/carlos-gruezo/profil/spieler/189475",
+        "display_name": "Carlos Gruezo", "club": "Augsburg", "league": "Bundesliga",
+        "position": "Defensive Midfielder", "nationality": "Ecuador",
+    },
+    "michael-hoyos": {
+        "transfermarkt": "https://www.transfermarkt.com/michael-hoyos/profil/spieler/138387",
+        "display_name": "Michael Hoyos", "club": "Independiente del Valle", "league": "Liga Pro Ecuador",
+        "position": "Right Winger", "nationality": "Ecuador",
+    },
+    "jonathan-borja": {
+        "transfermarkt": "https://www.transfermarkt.com/jonathan-borja/profil/spieler/319318",
+        "display_name": "Jonathan Borja", "club": "LDU Quito", "league": "Liga Pro Ecuador",
+        "position": "Centre-Forward", "nationality": "Ecuador",
     },
 }
 
-# ── Liga Pro Ecuador — LDU Quito ─────────────────────────────────────────────
-LDU_URLS: dict[str, dict[str, str]] = {
-    "anderson_ordonez": {
-        "transfermarkt": "https://www.transfermarkt.com/anderson-ordonez/profil/spieler/487231",
-        "fbref": "https://fbref.com/en/players/e3f4a5b6/Anderson-Ordonez",
-        "display_name": "Anderson Ordóñez",
-        "club": "LDU Quito",
-        "league": "Liga Pro Ecuador",
-        "position": "Defensive Midfielder",
-        "nationality": "Ecuador",
+# ── Brazil ────────────────────────────────────────────────────────────────────
+BRAZIL_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "vinicius-junior": {
+        "transfermarkt": "https://www.transfermarkt.com/vinicius-junior/profil/spieler/371998",
+        "display_name": "Vinícius Jr.", "club": "Real Madrid", "league": "La Liga",
+        "position": "Left Winger", "nationality": "Brazil",
     },
-    "jefferson_intriago": {
-        "transfermarkt": "https://www.transfermarkt.com/jefferson-intriago/profil/spieler/534982",
-        "fbref": "https://fbref.com/en/players/a5b6c7d8/Jefferson-Intriago",
-        "display_name": "Jefferson Intriago",
-        "club": "LDU Quito",
-        "league": "Liga Pro Ecuador",
-        "position": "Defensive Midfielder",
-        "nationality": "Ecuador",
-    },
-    "nixon_molina": {
-        "transfermarkt": "https://www.transfermarkt.com/nixon-molina/profil/spieler/445782",
-        "fbref": "https://fbref.com/en/players/f4a5b6c7/Nixon-Molina",
-        "display_name": "Nixon Molina",
-        "club": "LDU Quito",
-        "league": "Liga Pro Ecuador",
-        "position": "Left Winger",
-        "nationality": "Ecuador",
-    },
-    "pablo_vegetti": {
-        "transfermarkt": "https://www.transfermarkt.com/pablo-vegetti/profil/spieler/281743",
-        "fbref": "https://fbref.com/en/players/a6b7c8d9/Pablo-Vegetti",
-        "display_name": "Pablo Vegetti",
-        "club": "LDU Quito",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Argentina",
-    },
-    "roberto_garcia_soldado": {
-        "transfermarkt": "https://www.transfermarkt.com/roberto-garcia-soldado/profil/spieler/594123",
-        "display_name": "Roberto García",
-        "club": "LDU Quito",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Back",
-        "nationality": "Ecuador",
-    },
-    "renato_bustamante": {
-        "transfermarkt": "https://www.transfermarkt.com/renato-bustamante/profil/spieler/512834",
-        "display_name": "Renato Bustamante",
-        "club": "LDU Quito",
-        "league": "Liga Pro Ecuador",
-        "position": "Goalkeeper",
-        "nationality": "Ecuador",
-    },
-}
-
-# ── Liga Pro Ecuador — Other Clubs ────────────────────────────────────────────
-LIGA_PRO_OTHER_URLS: dict[str, dict[str, str]] = {
-    # SD Aucas
-    "ivan_bulos": {
-        "transfermarkt": "https://www.transfermarkt.com/ivan-bulos/profil/spieler/298374",
-        "fbref": "https://fbref.com/en/players/c7d8e9f0/Ivan-Bulos",
-        "display_name": "Iván Bulos",
-        "club": "SD Aucas",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Chile",
-    },
-    "henry_cuero": {
-        "transfermarkt": "https://www.transfermarkt.com/henry-cuero/profil/spieler/512743",
-        "fbref": "https://fbref.com/en/players/d8e9f0a1/Henry-Cuero",
-        "display_name": "Henry Cuero",
-        "club": "El Nacional",
-        "league": "Liga Pro Ecuador",
-        "position": "Left Winger",
-        "nationality": "Ecuador",
-    },
-    "bismark_chang": {
-        "transfermarkt": "https://www.transfermarkt.com/bismark-chang/profil/spieler/478234",
-        "fbref": "https://fbref.com/en/players/e9f0a1b2/Bismark-Chang",
-        "display_name": "Bismark Chang",
-        "club": "Mushuc Runa",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Ecuador",
-    },
-    # Deportivo Cuenca
-    "ismael_diaz": {
-        "transfermarkt": "https://www.transfermarkt.com/ismael-diaz/profil/spieler/309274",
-        "fbref": "https://fbref.com/en/players/b6c7d8e9/Ismael-Diaz",
-        "display_name": "Ismael Díaz",
-        "club": "Deportivo Cuenca",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Panama",
-    },
-    # Orense SC
-    "yenson_mosquera": {
-        "transfermarkt": "https://www.transfermarkt.com/yenson-mosquera/profil/spieler/534129",
-        "display_name": "Yenson Mosquera",
-        "club": "Orense SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Back",
-        "nationality": "Colombia",
-    },
-    # Delfin SC
-    "walter_caicedo": {
-        "transfermarkt": "https://www.transfermarkt.com/walter-caicedo/profil/spieler/498273",
-        "display_name": "Walter Caicedo",
-        "club": "Delfín SC",
-        "league": "Liga Pro Ecuador",
-        "position": "Central Midfielder",
-        "nationality": "Colombia",
-    },
-    # Técnico Universitario
-    "alex_arce": {
-        "transfermarkt": "https://www.transfermarkt.com/alex-arce/profil/spieler/298456",
-        "display_name": "Alex Arce",
-        "club": "Técnico Universitario",
-        "league": "Liga Pro Ecuador",
-        "position": "Centre-Forward",
-        "nationality": "Paraguay",
-    },
-    # Macara
-    "cristian_molina": {
-        "transfermarkt": "https://www.transfermarkt.com/cristian-molina/profil/spieler/456123",
-        "display_name": "Cristian Molina",
-        "club": "Macará",
-        "league": "Liga Pro Ecuador",
-        "position": "Attacking Midfielder",
-        "nationality": "Ecuador",
-    },
-}
-
-# ── Brazil — Flamengo ─────────────────────────────────────────────────────────
-FLAMENGO_URLS: dict[str, dict[str, str]] = {
-    "gerson_flamengo": {
-        "transfermarkt": "https://www.transfermarkt.com/gerson/profil/spieler/180001",
-        "fbref": "https://fbref.com/en/players/b9c0d1e2/Gerson",
-        "display_name": "Gerson",
-        "club": "Flamengo",
-        "league": "Brasileirao",
-        "position": "Central Midfielder",
-        "nationality": "Brazil",
-    },
-    "everton_cebolinha": {
-        "transfermarkt": "https://www.transfermarkt.com/everton-cebolinha/profil/spieler/339459",
-        "fbref": "https://fbref.com/en/players/c0d1e2f3/Everton-Cebolinha",
-        "display_name": "Everton Cebolinha",
-        "club": "Flamengo",
-        "league": "Brasileirao",
-        "position": "Left Winger",
-        "nationality": "Brazil",
-    },
-    "pedro_flamengo": {
-        "transfermarkt": "https://www.transfermarkt.com/pedro/profil/spieler/428498",
-        "fbref": "https://fbref.com/en/players/d1e2f3a4/Pedro",
-        "display_name": "Pedro",
-        "club": "Flamengo",
-        "league": "Brasileirao",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
-    },
-    "david_luiz": {
-        "transfermarkt": "https://www.transfermarkt.com/david-luiz/profil/spieler/101566",
-        "fbref": "https://fbref.com/en/players/e2f3a4b5/David-Luiz",
-        "display_name": "David Luiz",
-        "club": "Flamengo",
-        "league": "Brasileirao",
-        "position": "Centre-Back",
-        "nationality": "Brazil",
-    },
-    "andrew_flamengo": {
-        "transfermarkt": "https://www.transfermarkt.com/andrew/profil/spieler/567234",
-        "display_name": "Andrew",
-        "club": "Flamengo",
-        "league": "Brasileirao",
-        "position": "Right Back",
-        "nationality": "Brazil",
-    },
-    "lorran_flamengo": {
-        "transfermarkt": "https://www.transfermarkt.com/lorran/profil/spieler/1008742",
-        "fbref": "https://fbref.com/en/players/f3a4b5c6/Lorran",
-        "display_name": "Lorran",
-        "club": "Flamengo",
-        "league": "Brasileirao",
-        "position": "Attacking Midfielder",
-        "nationality": "Brazil",
-    },
-    "matheus_franca": {
-        "transfermarkt": "https://www.transfermarkt.com/matheus-franca/profil/spieler/874234",
-        "fbref": "https://fbref.com/en/players/a4b5c6d7/Matheus-Franca",
-        "display_name": "Matheus França",
-        "club": "Flamengo",
-        "league": "Brasileirao",
-        "position": "Attacking Midfielder",
-        "nationality": "Brazil",
-    },
-}
-
-# ── Brazil — Palmeiras ────────────────────────────────────────────────────────
-PALMEIRAS_URLS: dict[str, dict[str, str]] = {
-    "estevao_willian": {
-        "transfermarkt": "https://www.transfermarkt.com/estevao-willian/profil/spieler/1116823",
-        "fbref": "https://fbref.com/en/players/b5c6d7e8/Estevao-Willian",
-        "display_name": "Estêvão Willian",
-        "club": "Palmeiras",
-        "league": "Brasileirao",
-        "position": "Right Winger",
-        "nationality": "Brazil",
+    "rodrygo": {
+        "transfermarkt": "https://www.transfermarkt.com/rodrygo/profil/spieler/412363",
+        "display_name": "Rodrygo", "club": "Real Madrid", "league": "La Liga",
+        "position": "Right Winger", "nationality": "Brazil",
     },
     "endrick": {
-        "transfermarkt": "https://www.transfermarkt.com/endrick/profil/spieler/983314",
-        "fbref": "https://fbref.com/en/players/c6d7e8f9/Endrick",
-        "display_name": "Endrick",
-        "club": "Real Madrid",
-        "league": "La Liga",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
+        "transfermarkt": "https://www.transfermarkt.com/endrick/profil/spieler/971570",
+        "display_name": "Endrick", "club": "Real Madrid", "league": "La Liga",
+        "position": "Centre-Forward", "nationality": "Brazil",
     },
-    "dudu_palmeiras": {
-        "transfermarkt": "https://www.transfermarkt.com/dudu/profil/spieler/169181",
-        "fbref": "https://fbref.com/en/players/d7e8f9a0/Dudu",
-        "display_name": "Dudu",
-        "club": "Palmeiras",
-        "league": "Brasileirao",
-        "position": "Right Winger",
-        "nationality": "Brazil",
+    "gabriel-martinelli": {
+        "transfermarkt": "https://www.transfermarkt.com/gabriel-martinelli/profil/spieler/655488",
+        "display_name": "Gabriel Martinelli", "club": "Arsenal", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Brazil",
     },
-    "raphael_veiga": {
-        "transfermarkt": "https://www.transfermarkt.com/raphael-veiga/profil/spieler/299480",
-        "fbref": "https://fbref.com/en/players/e8f9a0b1/Raphael-Veiga",
-        "display_name": "Raphael Veiga",
-        "club": "Palmeiras",
-        "league": "Brasileirao",
-        "position": "Attacking Midfielder",
-        "nationality": "Brazil",
+    "savinho": {
+        "transfermarkt": "https://www.transfermarkt.com/savinho/profil/spieler/743591",
+        "display_name": "Sávinho", "club": "Manchester City", "league": "Premier League",
+        "position": "Right Winger", "nationality": "Brazil",
     },
-    "richard_rios": {
-        "transfermarkt": "https://www.transfermarkt.com/richard-rios/profil/spieler/728456",
-        "fbref": "https://fbref.com/en/players/f9a0b1c2/Richard-Rios",
-        "display_name": "Richard Ríos",
-        "club": "Palmeiras",
-        "league": "Brasileirao",
-        "position": "Central Midfielder",
-        "nationality": "Colombia",
+    "estevao": {
+        "transfermarkt": "https://www.transfermarkt.com/estevao/profil/spieler/1056993",
+        "display_name": "Estêvão", "club": "Chelsea", "league": "Premier League",
+        "position": "Right Winger", "nationality": "Brazil",
     },
-    "gabriel_menino": {
-        "transfermarkt": "https://www.transfermarkt.com/gabriel-menino/profil/spieler/578812",
-        "fbref": "https://fbref.com/en/players/a0b1c2d3/Gabriel-Menino",
-        "display_name": "Gabriel Menino",
-        "club": "Palmeiras",
-        "league": "Brasileirao",
-        "position": "Central Midfielder",
-        "nationality": "Brazil",
+    "marcos-leonardo": {
+        "transfermarkt": "https://www.transfermarkt.com/marcos-leonardo/profil/spieler/668267",
+        "display_name": "Marcos Leonardo", "club": "Sporting CP", "league": "Primeira Liga",
+        "position": "Centre-Forward", "nationality": "Brazil",
     },
-    "murilo_palmeiras": {
-        "transfermarkt": "https://www.transfermarkt.com/murilo/profil/spieler/453212",
-        "display_name": "Murilo",
-        "club": "Palmeiras",
-        "league": "Brasileirao",
-        "position": "Centre-Back",
-        "nationality": "Brazil",
+    "yan-couto": {
+        "transfermarkt": "https://www.transfermarkt.com/yan-couto/profil/spieler/627228",
+        "display_name": "Yan Couto", "club": "Borussia Dortmund", "league": "Bundesliga",
+        "position": "Right-Back", "nationality": "Brazil",
     },
-}
-
-# ── Argentina — River Plate ───────────────────────────────────────────────────
-RIVER_PLATE_URLS: dict[str, dict[str, str]] = {
-    "pablo_solari": {
-        "transfermarkt": "https://www.transfermarkt.com/pablo-solari/profil/spieler/561823",
-        "fbref": "https://fbref.com/en/players/b1c2d3e4/Pablo-Solari",
-        "display_name": "Pablo Solari",
-        "club": "River Plate",
-        "league": "Argentinian Primera",
-        "position": "Right Winger",
-        "nationality": "Argentina",
+    "matheus-cunha": {
+        "transfermarkt": "https://www.transfermarkt.com/matheus-cunha/profil/spieler/517894",
+        "display_name": "Matheus Cunha", "club": "Wolverhampton", "league": "Premier League",
+        "position": "Centre-Forward", "nationality": "Brazil",
     },
-    "claudio_echeverri": {
-        "transfermarkt": "https://www.transfermarkt.com/claudio-echeverri/profil/spieler/1116123",
-        "fbref": "https://fbref.com/en/players/c2d3e4f5/Claudio-Echeverri",
-        "display_name": "Claudio Echeverri",
-        "club": "River Plate",
-        "league": "Argentinian Primera",
-        "position": "Attacking Midfielder",
-        "nationality": "Argentina",
+    "lucas-paqueta": {
+        "transfermarkt": "https://www.transfermarkt.com/lucas-paqueta/profil/spieler/444523",
+        "display_name": "Lucas Paquetá", "club": "West Ham United", "league": "Premier League",
+        "position": "Attacking Midfielder", "nationality": "Brazil",
     },
-    "franco_mastantuono": {
-        "transfermarkt": "https://www.transfermarkt.com/franco-mastantuono/profil/spieler/1156234",
-        "fbref": "https://fbref.com/en/players/d3e4f5a6/Franco-Mastantuono",
-        "display_name": "Franco Mastantuono",
-        "club": "River Plate",
-        "league": "Argentinian Primera",
-        "position": "Central Midfielder",
-        "nationality": "Argentina",
+    "joao-gomes": {
+        "transfermarkt": "https://www.transfermarkt.com/joao-gomes/profil/spieler/735570",
+        "display_name": "João Gomes", "club": "Wolverhampton", "league": "Premier League",
+        "position": "Defensive Midfielder", "nationality": "Brazil",
     },
-    "enzo_diaz": {
-        "transfermarkt": "https://www.transfermarkt.com/enzo-diaz/profil/spieler/461234",
-        "fbref": "https://fbref.com/en/players/e4f5a6b7/Enzo-Diaz",
-        "display_name": "Enzo Díaz",
-        "club": "River Plate",
-        "league": "Argentinian Primera",
-        "position": "Left Back",
-        "nationality": "Argentina",
+    "guilherme-arana": {
+        "transfermarkt": "https://www.transfermarkt.com/guilherme-arana/profil/spieler/346766",
+        "display_name": "Guilherme Arana", "club": "Atlético Mineiro", "league": "Brasileirao",
+        "position": "Left-Back", "nationality": "Brazil",
     },
-    "facundo_colidio": {
-        "transfermarkt": "https://www.transfermarkt.com/facundo-colidio/profil/spieler/488534",
-        "fbref": "https://fbref.com/en/players/f5a6b7c8/Facundo-Colidio",
-        "display_name": "Facundo Colidio",
-        "club": "River Plate",
-        "league": "Argentinian Primera",
-        "position": "Centre-Forward",
-        "nationality": "Argentina",
+    "antony": {
+        "transfermarkt": "https://www.transfermarkt.com/antony/profil/spieler/602105",
+        "display_name": "Antony", "club": "Manchester United", "league": "Premier League",
+        "position": "Right Winger", "nationality": "Brazil",
     },
-    "miguel_borja": {
-        "transfermarkt": "https://www.transfermarkt.com/miguel-borja/profil/spieler/199231",
-        "fbref": "https://fbref.com/en/players/a6b7c8d9/Miguel-Borja",
-        "display_name": "Miguel Borja",
-        "club": "River Plate",
-        "league": "Argentinian Primera",
-        "position": "Centre-Forward",
-        "nationality": "Colombia",
+    "bruno-guimaraes": {
+        "transfermarkt": "https://www.transfermarkt.com/bruno-guimaraes/profil/spieler/520624",
+        "display_name": "Bruno Guimarães", "club": "Newcastle United", "league": "Premier League",
+        "position": "Defensive Midfielder", "nationality": "Brazil",
     },
-    "gonzalo_montiel": {
-        "transfermarkt": "https://www.transfermarkt.com/gonzalo-montiel/profil/spieler/362434",
-        "fbref": "https://fbref.com/en/players/b7c8d9e0/Gonzalo-Montiel",
-        "display_name": "Gonzalo Montiel",
-        "club": "River Plate",
-        "league": "Argentinian Primera",
-        "position": "Right Back",
-        "nationality": "Argentina",
+    "pedro-flamengo": {
+        "transfermarkt": "https://www.transfermarkt.com/pedro-flamengo/profil/spieler/65278",
+        "display_name": "Pedro", "club": "Flamengo", "league": "Brasileirao",
+        "position": "Centre-Forward", "nationality": "Brazil",
+    },
+    "gabriel-jesus": {
+        "transfermarkt": "https://www.transfermarkt.com/gabriel-jesus/profil/spieler/363205",
+        "display_name": "Gabriel Jesus", "club": "Arsenal", "league": "Premier League",
+        "position": "Centre-Forward", "nationality": "Brazil",
+    },
+    "vanderson": {
+        "transfermarkt": "https://www.transfermarkt.com/vanderson/profil/spieler/789082",
+        "display_name": "Vanderson", "club": "Monaco", "league": "Ligue 1",
+        "position": "Right-Back", "nationality": "Brazil",
+    },
+    "lucas-beraldo": {
+        "transfermarkt": "https://www.transfermarkt.com/lucas-beraldo/profil/spieler/872171",
+        "display_name": "Lucas Beraldo", "club": "Paris Saint-Germain", "league": "Ligue 1",
+        "position": "Centre-Back", "nationality": "Brazil",
+    },
+    "gerson": {
+        "transfermarkt": "https://www.transfermarkt.com/gerson/profil/spieler/341705",
+        "display_name": "Gerson", "club": "Flamengo", "league": "Brasileirao",
+        "position": "Central Midfielder", "nationality": "Brazil",
+    },
+    "lorran": {
+        "transfermarkt": "https://www.transfermarkt.com/lorran/profil/spieler/1009030",
+        "display_name": "Lorran", "club": "Flamengo", "league": "Brasileirao",
+        "position": "Attacking Midfielder", "nationality": "Brazil",
+    },
+    "reinier": {
+        "transfermarkt": "https://www.transfermarkt.com/reinier/profil/spieler/627226",
+        "display_name": "Reinier", "club": "Flamengo", "league": "Brasileirao",
+        "position": "Attacking Midfielder", "nationality": "Brazil",
+    },
+    "richarlison": {
+        "transfermarkt": "https://www.transfermarkt.com/richarlison/profil/spieler/378710",
+        "display_name": "Richarlison", "club": "Tottenham Hotspur", "league": "Premier League",
+        "position": "Centre-Forward", "nationality": "Brazil",
+    },
+    "david-neres": {
+        "transfermarkt": "https://www.transfermarkt.com/david-neres/profil/spieler/469822",
+        "display_name": "David Neres", "club": "Napoli", "league": "Serie A",
+        "position": "Right Winger", "nationality": "Brazil",
+    },
+    "roberto-firmino": {
+        "transfermarkt": "https://www.transfermarkt.com/roberto-firmino/profil/spieler/131789",
+        "display_name": "Roberto Firmino", "club": "Al-Ahli", "league": "Saudi Pro League",
+        "position": "Second Striker", "nationality": "Brazil",
     },
 }
 
-# ── Argentina — Boca Juniors ──────────────────────────────────────────────────
-BOCA_JUNIORS_URLS: dict[str, dict[str, str]] = {
-    "edinson_cavani": {
-        "transfermarkt": "https://www.transfermarkt.com/edinson-cavani/profil/spieler/67534",
-        "fbref": "https://fbref.com/en/players/c8d9e0f1/Edinson-Cavani",
-        "display_name": "Edinson Cavani",
-        "club": "Boca Juniors",
-        "league": "Argentinian Primera",
-        "position": "Centre-Forward",
-        "nationality": "Uruguay",
+# ── Argentina ─────────────────────────────────────────────────────────────────
+ARGENTINA_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "alejandro-garnacho": {
+        "transfermarkt": "https://www.transfermarkt.com/alejandro-garnacho/profil/spieler/811779",
+        "display_name": "Alejandro Garnacho", "club": "Manchester United", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Argentina",
     },
-    "juan_roman_riquelme": {
-        # Retired president — example only, replace with active squad
-        "transfermarkt": "https://www.transfermarkt.com/kevin-zenon/profil/spieler/683234",
-        "display_name": "Kevin Zenón",
-        "club": "Boca Juniors",
-        "league": "Argentinian Primera",
-        "position": "Right Winger",
-        "nationality": "Argentina",
+    "valentin-carboni": {
+        "transfermarkt": "https://www.transfermarkt.com/valentin-carboni/profil/spieler/787618",
+        "display_name": "Valentín Carboni", "club": "Inter Milan", "league": "Serie A",
+        "position": "Attacking Midfielder", "nationality": "Argentina",
     },
-    "equi_fernandez": {
-        "transfermarkt": "https://www.transfermarkt.com/equi-fernandez/profil/spieler/712983",
-        "fbref": "https://fbref.com/en/players/d9e0f1a2/Equi-Fernandez",
-        "display_name": "Equi Fernández",
-        "club": "Boca Juniors",
-        "league": "Argentinian Primera",
-        "position": "Central Midfielder",
-        "nationality": "Argentina",
+    "claudio-echeverri": {
+        "transfermarkt": "https://www.transfermarkt.com/claudio-echeverri/profil/spieler/994536",
+        "display_name": "Claudio Echeverri", "club": "Manchester City", "league": "Premier League",
+        "position": "Attacking Midfielder", "nationality": "Argentina",
     },
-    "lautaro_blanco": {
-        "transfermarkt": "https://www.transfermarkt.com/lautaro-blanco/profil/spieler/598456",
-        "display_name": "Lautaro Blanco",
-        "club": "Boca Juniors",
-        "league": "Argentinian Primera",
-        "position": "Left Back",
-        "nationality": "Argentina",
+    "franco-mastantuono": {
+        "transfermarkt": "https://www.transfermarkt.com/franco-mastantuono/profil/spieler/1057316",
+        "display_name": "Franco Mastantuono", "club": "River Plate", "league": "Primera División Argentina",
+        "position": "Attacking Midfielder", "nationality": "Argentina",
     },
-    "sergio_romero": {
-        "transfermarkt": "https://www.transfermarkt.com/sergio-romero/profil/spieler/66962",
-        "fbref": "https://fbref.com/en/players/e0f1a2b3/Sergio-Romero",
-        "display_name": "Sergio Romero",
-        "club": "Boca Juniors",
-        "league": "Argentinian Primera",
-        "position": "Goalkeeper",
-        "nationality": "Argentina",
+    "lautaro-martinez": {
+        "transfermarkt": "https://www.transfermarkt.com/lautaro-martinez/profil/spieler/406625",
+        "display_name": "Lautaro Martínez", "club": "Inter Milan", "league": "Serie A",
+        "position": "Centre-Forward", "nationality": "Argentina",
     },
-    "cristian_medina_boca": {
-        "transfermarkt": "https://www.transfermarkt.com/cristian-medina/profil/spieler/683471",
-        "fbref": "https://fbref.com/en/players/f1a2b3c4/Cristian-Medina",
-        "display_name": "Cristian Medina",
-        "club": "Boca Juniors",
-        "league": "Argentinian Primera",
-        "position": "Central Midfielder",
-        "nationality": "Argentina",
+    "julian-alvarez": {
+        "transfermarkt": "https://www.transfermarkt.com/julian-alvarez/profil/spieler/576024",
+        "display_name": "Julián Álvarez", "club": "Atlético Madrid", "league": "La Liga",
+        "position": "Centre-Forward", "nationality": "Argentina",
     },
-    "miguel_merentiel": {
-        "transfermarkt": "https://www.transfermarkt.com/miguel-merentiel/profil/spieler/459823",
-        "fbref": "https://fbref.com/en/players/a2b3c4d5/Miguel-Merentiel",
-        "display_name": "Miguel Merentiel",
-        "club": "Boca Juniors",
-        "league": "Argentinian Primera",
-        "position": "Left Winger",
-        "nationality": "Uruguay",
+    "enzo-fernandez": {
+        "transfermarkt": "https://www.transfermarkt.com/enzo-fernandez/profil/spieler/648195",
+        "display_name": "Enzo Fernández", "club": "Chelsea", "league": "Premier League",
+        "position": "Central Midfielder", "nationality": "Argentina",
     },
-}
-
-# ── Copa Libertadores Comparison Pool ────────────────────────────────────────
-COPA_LIB_URLS: dict[str, dict[str, str]] = {
-    # Atletico Nacional (Colombia)
-    "jarlan_barrera": {
-        "transfermarkt": "https://www.transfermarkt.com/jarlan-barrera/profil/spieler/330124",
-        "display_name": "Jarlan Barrera",
-        "club": "Atlético Nacional",
-        "league": "Liga Betplay",
-        "position": "Attacking Midfielder",
-        "nationality": "Colombia",
+    "facundo-buonanotte": {
+        "transfermarkt": "https://www.transfermarkt.com/facundo-buonanotte/profil/spieler/983989",
+        "display_name": "Facundo Buonanotte", "club": "Brighton & Hove Albion", "league": "Premier League",
+        "position": "Attacking Midfielder", "nationality": "Argentina",
     },
-    "jorman_campuzano": {
-        "transfermarkt": "https://www.transfermarkt.com/jorman-campuzano/profil/spieler/474921",
-        "fbref": "https://fbref.com/en/players/b3c4d5e6/Jorman-Campuzano",
-        "display_name": "Jorman Campuzano",
-        "club": "Atlético Nacional",
-        "league": "Liga Betplay",
-        "position": "Defensive Midfielder",
-        "nationality": "Colombia",
+    "thiago-almada": {
+        "transfermarkt": "https://www.transfermarkt.com/thiago-almada/profil/spieler/576028",
+        "display_name": "Thiago Almada", "club": "Lyon", "league": "Ligue 1",
+        "position": "Attacking Midfielder", "nationality": "Argentina",
     },
-    # Fluminense (Brazil)
-    "jhon_arias": {
-        "transfermarkt": "https://www.transfermarkt.com/jhon-arias/profil/spieler/524345",
-        "fbref": "https://fbref.com/en/players/c4d5e6f7/Jhon-Arias",
-        "display_name": "Jhon Arias",
-        "club": "Fluminense",
-        "league": "Brasileirao",
-        "position": "Right Winger",
-        "nationality": "Colombia",
+    "nicolas-gonzalez": {
+        "transfermarkt": "https://www.transfermarkt.com/nicolas-gonzalez/profil/spieler/466805",
+        "display_name": "Nicolás González", "club": "Juventus", "league": "Serie A",
+        "position": "Left Winger", "nationality": "Argentina",
     },
-    "german_cano": {
-        "transfermarkt": "https://www.transfermarkt.com/german-cano/profil/spieler/81347",
-        "fbref": "https://fbref.com/en/players/d5e6f7a8/German-Cano",
-        "display_name": "Germán Cano",
-        "club": "Fluminense",
-        "league": "Brasileirao",
-        "position": "Centre-Forward",
-        "nationality": "Argentina",
+    "paulo-dybala": {
+        "transfermarkt": "https://www.transfermarkt.com/paulo-dybala/profil/spieler/206050",
+        "display_name": "Paulo Dybala", "club": "Roma", "league": "Serie A",
+        "position": "Second Striker", "nationality": "Argentina",
     },
-    # Atletico Mineiro
-    "hulk_atmineiro": {
-        "transfermarkt": "https://www.transfermarkt.com/hulk/profil/spieler/38020",
-        "fbref": "https://fbref.com/en/players/e6f7a8b9/Hulk",
-        "display_name": "Hulk",
-        "club": "Atlético Mineiro",
-        "league": "Brasileirao",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
+    "exequiel-palacios": {
+        "transfermarkt": "https://www.transfermarkt.com/exequiel-palacios/profil/spieler/401578",
+        "display_name": "Exequiel Palacios", "club": "Bayer Leverkusen", "league": "Bundesliga",
+        "position": "Central Midfielder", "nationality": "Argentina",
     },
-    # Penarol
-    "leonardo_sequeira": {
-        "transfermarkt": "https://www.transfermarkt.com/leonardo-sequeira/profil/spieler/453782",
-        "display_name": "Leonardo Sequeira",
-        "club": "Peñarol",
-        "league": "Uruguayan Primera",
-        "position": "Central Midfielder",
-        "nationality": "Costa Rica",
+    "matias-soule": {
+        "transfermarkt": "https://www.transfermarkt.com/matias-soule/profil/spieler/668951",
+        "display_name": "Matías Soulé", "club": "Roma", "league": "Serie A",
+        "position": "Right Winger", "nationality": "Argentina",
     },
-    # Universidad de Chile
-    "lucas_assadi": {
-        "transfermarkt": "https://www.transfermarkt.com/lucas-assadi/profil/spieler/773234",
-        "fbref": "https://fbref.com/en/players/f7a8b9c0/Lucas-Assadi",
-        "display_name": "Lucas Assadi",
-        "club": "Universidad de Chile",
-        "league": "Chilean Primera",
-        "position": "Left Winger",
-        "nationality": "Chile",
+    "lucas-beltran": {
+        "transfermarkt": "https://www.transfermarkt.com/lucas-beltran/profil/spieler/628366",
+        "display_name": "Lucas Beltrán", "club": "Fiorentina", "league": "Serie A",
+        "position": "Centre-Forward", "nationality": "Argentina",
     },
-    # Nacional (Uruguay)
-    "nicolas_siri": {
-        "transfermarkt": "https://www.transfermarkt.com/nicolas-siri/profil/spieler/634512",
-        "display_name": "Nicolás Siri",
-        "club": "Club Nacional",
-        "league": "Uruguayan Primera",
-        "position": "Central Midfielder",
-        "nationality": "Uruguay",
+    "nahuel-molina": {
+        "transfermarkt": "https://www.transfermarkt.com/nahuel-molina/profil/spieler/424042",
+        "display_name": "Nahuel Molina", "club": "Atlético Madrid", "league": "La Liga",
+        "position": "Right-Back", "nationality": "Argentina",
+    },
+    "lisandro-martinez": {
+        "transfermarkt": "https://www.transfermarkt.com/lisandro-martinez/profil/spieler/480762",
+        "display_name": "Lisandro Martínez", "club": "Manchester United", "league": "Premier League",
+        "position": "Centre-Back", "nationality": "Argentina",
+    },
+    "gonzalo-montiel": {
+        "transfermarkt": "https://www.transfermarkt.com/gonzalo-montiel/profil/spieler/402733",
+        "display_name": "Gonzalo Montiel", "club": "Nottingham Forest", "league": "Premier League",
+        "position": "Right-Back", "nationality": "Argentina",
+    },
+    "giovani-lo-celso": {
+        "transfermarkt": "https://www.transfermarkt.com/giovani-lo-celso/profil/spieler/348795",
+        "display_name": "Giovani Lo Celso", "club": "Villarreal", "league": "La Liga",
+        "position": "Central Midfielder", "nationality": "Argentina",
+    },
+    "rodrigo-de-paul": {
+        "transfermarkt": "https://www.transfermarkt.com/rodrigo-de-paul/profil/spieler/255901",
+        "display_name": "Rodrigo De Paul", "club": "Atlético Madrid", "league": "La Liga",
+        "position": "Central Midfielder", "nationality": "Argentina",
+    },
+    "leandro-paredes": {
+        "transfermarkt": "https://www.transfermarkt.com/leandro-paredes/profil/spieler/166237",
+        "display_name": "Leandro Paredes", "club": "Roma", "league": "Serie A",
+        "position": "Defensive Midfielder", "nationality": "Argentina",
     },
 }
 
-# ── IDV Notable Graduates (success anchors for pathway benchmarks) ────────────
-IDV_GRADUATES_URLS: dict[str, dict[str, str]] = {
-    "moises_caicedo_chelsea": {
-        "transfermarkt": "https://www.transfermarkt.com/moises-caicedo/profil/spieler/687626",
-        "fbref": "https://fbref.com/en/players/f7b1c5b0/Moises-Caicedo",
-        "sofascore": "https://www.sofascore.com/player/moises-caicedo/978599",
-        "current_club": "Chelsea",
-        "idv_seasons": "2019-2021",
-        "display_name": "Moisés Caicedo",
-        "league": "Premier League",
-        "position": "Defensive Midfielder",
-        "nationality": "Ecuador",
+# ── Colombia ──────────────────────────────────────────────────────────────────
+COLOMBIA_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "luis-diaz": {
+        "transfermarkt": "https://www.transfermarkt.com/luis-diaz/profil/spieler/480692",
+        "display_name": "Luis Díaz", "club": "Liverpool", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Colombia",
     },
-    "piero_hincapie_leverkusen": {
-        "transfermarkt": "https://www.transfermarkt.com/piero-hincapie/profil/spieler/659831",
-        "fbref": "https://fbref.com/en/players/9f0a7a8e/Piero-Hincapie",
-        "sofascore": "https://www.sofascore.com/player/piero-hincapie/981678",
-        "current_club": "Bayer Leverkusen",
-        "idv_seasons": "2018-2021",
-        "display_name": "Piero Hincapié",
-        "league": "Bundesliga",
-        "position": "Centre-Back",
-        "nationality": "Ecuador",
+    "jhon-duran": {
+        "transfermarkt": "https://www.transfermarkt.com/jhon-duran/profil/spieler/649317",
+        "display_name": "Jhon Durán", "club": "Aston Villa", "league": "Premier League",
+        "position": "Centre-Forward", "nationality": "Colombia",
     },
-    "willian_pacho_psg": {
-        "transfermarkt": "https://www.transfermarkt.com/willian-pacho/profil/spieler/574041",
-        "fbref": "https://fbref.com/en/players/f7d9a8c1/Willian-Pacho",
-        "current_club": "Paris Saint-Germain",
-        "idv_seasons": "2017-2020",
-        "display_name": "Willian Pacho",
-        "league": "Ligue 1",
-        "position": "Centre-Back",
-        "nationality": "Ecuador",
+    "richard-rios": {
+        "transfermarkt": "https://www.transfermarkt.com/richard-rios/profil/spieler/735573",
+        "display_name": "Richard Ríos", "club": "Palmeiras", "league": "Brasileirao",
+        "position": "Central Midfielder", "nationality": "Colombia",
     },
-    "romario_ibarra": {
-        "transfermarkt": "https://www.transfermarkt.com/romario-ibarra/profil/spieler/235784",
-        "fbref": "https://fbref.com/en/players/f1a2b3c4/Romario-Ibarra",
-        "current_club": "Pachuca",
-        "idv_seasons": "2014-2018",
-        "display_name": "Romario Ibarra",
-        "league": "Liga MX",
-        "position": "Left Winger",
-        "nationality": "Ecuador",
+    "cucho-hernandez": {
+        "transfermarkt": "https://www.transfermarkt.com/cucho-hernandez/profil/spieler/459463",
+        "display_name": "Cucho Hernández", "club": "Columbus Crew", "league": "MLS",
+        "position": "Centre-Forward", "nationality": "Colombia",
     },
-    "antonio_valencia": {
-        "transfermarkt": "https://www.transfermarkt.com/antonio-valencia/profil/spieler/24619",
-        "fbref": "https://fbref.com/en/players/9b1c2d3e/Antonio-Valencia",
-        "current_club": "Retired (ex-Manchester United)",
-        "idv_seasons": "2003-2005",
-        "display_name": "Antonio Valencia",
-        "league": "Retired",
-        "position": "Right Midfielder",
-        "nationality": "Ecuador",
+    "luis-sinisterra": {
+        "transfermarkt": "https://www.transfermarkt.com/luis-sinisterra/profil/spieler/512385",
+        "display_name": "Luis Sinisterra", "club": "Bournemouth", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Colombia",
     },
-    "felix_torres": {
-        "transfermarkt": "https://www.transfermarkt.com/felix-torres/profil/spieler/545212",
-        "fbref": "https://fbref.com/en/players/b3c4d5e6/Felix-Torres",
-        "current_club": "Santos Laguna",
-        "idv_seasons": "2015-2019",
-        "display_name": "Félix Torres",
-        "league": "Liga MX",
-        "position": "Centre-Back",
-        "nationality": "Ecuador",
+    "jorge-carrascal": {
+        "transfermarkt": "https://www.transfermarkt.com/jorge-carrascal/profil/spieler/354145",
+        "display_name": "Jorge Carrascal", "club": "River Plate", "league": "Primera División Argentina",
+        "position": "Attacking Midfielder", "nationality": "Colombia",
     },
-    "jose_cifuentes": {
-        "transfermarkt": "https://www.transfermarkt.com/jose-cifuentes/profil/spieler/574234",
-        "fbref": "https://fbref.com/en/players/c4d5e6f7/Jose-Cifuentes",
-        "current_club": "Los Angeles FC",
-        "idv_seasons": "2018-2021",
-        "display_name": "José Cifuentes",
-        "league": "MLS",
-        "position": "Defensive Midfielder",
-        "nationality": "Ecuador",
+    "rafael-santos-borre": {
+        "transfermarkt": "https://www.transfermarkt.com/rafael-santos-borre/profil/spieler/323831",
+        "display_name": "Rafael Santos Borré", "club": "Internacional", "league": "Brasileirao",
+        "position": "Centre-Forward", "nationality": "Colombia",
     },
-    "angelo_preciado": {
-        "transfermarkt": "https://www.transfermarkt.com/angelo-preciado/profil/spieler/477234",
-        "fbref": "https://fbref.com/en/players/d5e6f7a8/Angelo-Preciado",
-        "current_club": "Genk",
-        "idv_seasons": "2016-2020",
-        "display_name": "Ángelo Preciado",
-        "league": "Belgian Pro League",
-        "position": "Right Back",
-        "nationality": "Ecuador",
+    "yerry-mina": {
+        "transfermarkt": "https://www.transfermarkt.com/yerry-mina/profil/spieler/289446",
+        "display_name": "Yerry Mina", "club": "Fiorentina", "league": "Serie A",
+        "position": "Centre-Back", "nationality": "Colombia",
     },
-    "jhegson_mendez": {
-        "transfermarkt": "https://www.transfermarkt.com/jhegson-mendez/profil/spieler/452312",
-        "fbref": "https://fbref.com/en/players/e6f7a8b9/Jhegson-Mendez",
-        "current_club": "Houston Dynamo",
-        "idv_seasons": "2015-2018",
-        "display_name": "Jhegson Méndez",
-        "league": "MLS",
-        "position": "Defensive Midfielder",
-        "nationality": "Ecuador",
+    "james-rodriguez": {
+        "transfermarkt": "https://www.transfermarkt.com/james-rodriguez/profil/spieler/88103",
+        "display_name": "James Rodríguez", "club": "Rayo Vallecano", "league": "La Liga",
+        "position": "Attacking Midfielder", "nationality": "Colombia",
     },
-    "jackson_porozo": {
-        "transfermarkt": "https://www.transfermarkt.com/jackson-porozo/profil/spieler/549234",
-        "fbref": "https://fbref.com/en/players/f7a8b9c0/Jackson-Porozo",
-        "current_club": "Troyes",
-        "idv_seasons": "2018-2021",
-        "display_name": "Jackson Porozo",
-        "league": "Ligue 2",
-        "position": "Centre-Back",
-        "nationality": "Ecuador",
+    "roger-martinez": {
+        "transfermarkt": "https://www.transfermarkt.com/roger-martinez/profil/spieler/285771",
+        "display_name": "Roger Martínez", "club": "Club América", "league": "Liga MX",
+        "position": "Right Winger", "nationality": "Colombia",
     },
-    "ulises_de_la_cruz": {
-        "transfermarkt": "https://www.transfermarkt.com/ulises-de-la-cruz/profil/spieler/6702",
-        "fbref": "https://fbref.com/en/players/a8b9c0d1/Ulises-De-la-Cruz",
-        "current_club": "Retired (ex-Aston Villa)",
-        "idv_seasons": "1997-2001",
-        "display_name": "Ulises de la Cruz",
-        "league": "Retired",
-        "position": "Right Back",
-        "nationality": "Ecuador",
+    "jhon-cordoba": {
+        "transfermarkt": "https://www.transfermarkt.com/jhon-cordoba/profil/spieler/185245",
+        "display_name": "Jhon Córdoba", "club": "Krasnodar", "league": "Russian Premier League",
+        "position": "Centre-Forward", "nationality": "Colombia",
+    },
+    "mateus-uribe": {
+        "transfermarkt": "https://www.transfermarkt.com/mateus-uribe/profil/spieler/214538",
+        "display_name": "Matéus Uribe", "club": "Porto", "league": "Primeira Liga",
+        "position": "Central Midfielder", "nationality": "Colombia",
+    },
+    "jefferson-lerma": {
+        "transfermarkt": "https://www.transfermarkt.com/jefferson-lerma/profil/spieler/262980",
+        "display_name": "Jefferson Lerma", "club": "Crystal Palace", "league": "Premier League",
+        "position": "Defensive Midfielder", "nationality": "Colombia",
+    },
+    "miguel-borja": {
+        "transfermarkt": "https://www.transfermarkt.com/miguel-borja/profil/spieler/211397",
+        "display_name": "Miguel Borja", "club": "River Plate", "league": "Primera División Argentina",
+        "position": "Centre-Forward", "nationality": "Colombia",
     },
 }
 
-
-# ── Brazil — Santos / Atletico Mineiro / Internacional / Gremio ──────────────
-BRAZIL_OTHER_URLS: dict[str, dict[str, str]] = {
-    # Atletico Mineiro
-    "guilherme_arana": {
-        "transfermarkt": "https://www.transfermarkt.com/guilherme-arana/profil/spieler/337523",
-        "fbref": "https://fbref.com/en/players/a1b2c3e5/Guilherme-Arana",
-        "display_name": "Guilherme Arana",
-        "club": "Atlético Mineiro",
-        "league": "Brasileirao",
-        "position": "Left Back",
-        "nationality": "Brazil",
+# ── Portugal ──────────────────────────────────────────────────────────────────
+PORTUGAL_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "joao-neves": {
+        "transfermarkt": "https://www.transfermarkt.com/joao-neves/profil/spieler/670681",
+        "display_name": "João Neves", "club": "Paris Saint-Germain", "league": "Ligue 1",
+        "position": "Defensive Midfielder", "nationality": "Portugal",
     },
-    "paulinho_atmineiro": {
-        "transfermarkt": "https://www.transfermarkt.com/paulinho/profil/spieler/386234",
-        "display_name": "Paulinho",
-        "club": "Atlético Mineiro",
-        "league": "Brasileirao",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
+    "goncalo-inacio": {
+        "transfermarkt": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/549006",
+        "display_name": "Gonçalo Inácio", "club": "Sporting CP", "league": "Primeira Liga",
+        "position": "Centre-Back", "nationality": "Portugal",
     },
-    "igor_gomes": {
-        "transfermarkt": "https://www.transfermarkt.com/igor-gomes/profil/spieler/544231",
-        "fbref": "https://fbref.com/en/players/b2c3d4f6/Igor-Gomes",
-        "display_name": "Igor Gomes",
-        "club": "Atlético Mineiro",
-        "league": "Brasileirao",
-        "position": "Attacking Midfielder",
-        "nationality": "Brazil",
+    "francisco-conceicao": {
+        "transfermarkt": "https://www.transfermarkt.com/francisco-conceicao/profil/spieler/487474",
+        "display_name": "Francisco Conceição", "club": "Juventus", "league": "Serie A",
+        "position": "Right Winger", "nationality": "Portugal",
     },
-    # Internacional
-    "alan_patrick": {
-        "transfermarkt": "https://www.transfermarkt.com/alan-patrick/profil/spieler/218434",
-        "display_name": "Alan Patrick",
-        "club": "Internacional",
-        "league": "Brasileirao",
-        "position": "Attacking Midfielder",
-        "nationality": "Brazil",
+    "rafael-leao": {
+        "transfermarkt": "https://www.transfermarkt.com/rafael-leao/profil/spieler/357164",
+        "display_name": "Rafael Leão", "club": "AC Milan", "league": "Serie A",
+        "position": "Left Winger", "nationality": "Portugal",
     },
-    "thiago_maia": {
-        "transfermarkt": "https://www.transfermarkt.com/thiago-maia/profil/spieler/386521",
-        "fbref": "https://fbref.com/en/players/c3d4e5g7/Thiago-Maia",
-        "display_name": "Thiago Maia",
-        "club": "Internacional",
-        "league": "Brasileirao",
-        "position": "Defensive Midfielder",
-        "nationality": "Brazil",
+    "joao-felix": {
+        "transfermarkt": "https://www.transfermarkt.com/joao-felix/profil/spieler/462250",
+        "display_name": "João Félix", "club": "Chelsea", "league": "Premier League",
+        "position": "Second Striker", "nationality": "Portugal",
     },
-    # Gremio
-    "everton_gremio": {
-        "transfermarkt": "https://www.transfermarkt.com/everton/profil/spieler/329134",
-        "display_name": "Everton",
-        "club": "Grêmio",
-        "league": "Brasileirao",
-        "position": "Left Winger",
-        "nationality": "Brazil",
+    "pedro-neto": {
+        "transfermarkt": "https://www.transfermarkt.com/pedro-neto/profil/spieler/487465",
+        "display_name": "Pedro Neto", "club": "Chelsea", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Portugal",
     },
-    "kannemann": {
-        "transfermarkt": "https://www.transfermarkt.com/walter-kannemann/profil/spieler/157672",
-        "display_name": "Kannemann",
-        "club": "Grêmio",
-        "league": "Brasileirao",
-        "position": "Centre-Back",
-        "nationality": "Argentina",
+    "renato-veiga": {
+        "transfermarkt": "https://www.transfermarkt.com/renato-veiga/profil/spieler/805714",
+        "display_name": "Renato Veiga", "club": "Chelsea", "league": "Premier League",
+        "position": "Centre-Back", "nationality": "Portugal",
     },
-    # Santos
-    "marcos_leonardo": {
-        "transfermarkt": "https://www.transfermarkt.com/marcos-leonardo/profil/spieler/831623",
-        "fbref": "https://fbref.com/en/players/d4e5f6h8/Marcos-Leonardo",
-        "display_name": "Marcos Leonardo",
-        "club": "Leverkusen",
-        "league": "Bundesliga",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
+    "vitinha": {
+        "transfermarkt": "https://www.transfermarkt.com/vitinha/profil/spieler/487469",
+        "display_name": "Vitinha", "club": "Paris Saint-Germain", "league": "Ligue 1",
+        "position": "Central Midfielder", "nationality": "Portugal",
     },
-    # Vasco da Gama
-    "philippe_coutinho": {
-        "transfermarkt": "https://www.transfermarkt.com/philippe-coutinho/profil/spieler/103792",
-        "fbref": "https://fbref.com/en/players/e5f6a7i9/Philippe-Coutinho",
-        "display_name": "Philippe Coutinho",
-        "club": "Vasco da Gama",
-        "league": "Brasileirao",
-        "position": "Attacking Midfielder",
-        "nationality": "Brazil",
+    "diogo-jota": {
+        "transfermarkt": "https://www.transfermarkt.com/diogo-jota/profil/spieler/340950",
+        "display_name": "Diogo Jota", "club": "Liverpool", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Portugal",
     },
-    # Corinthians
-    "yuri_alberto": {
-        "transfermarkt": "https://www.transfermarkt.com/yuri-alberto/profil/spieler/638712",
-        "fbref": "https://fbref.com/en/players/f6a7b8j0/Yuri-Alberto",
-        "display_name": "Yuri Alberto",
-        "club": "Corinthians",
-        "league": "Brasileirao",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
+    "nuno-mendes": {
+        "transfermarkt": "https://www.transfermarkt.com/nuno-mendes/profil/spieler/616341",
+        "display_name": "Nuno Mendes", "club": "Paris Saint-Germain", "league": "Ligue 1",
+        "position": "Left-Back", "nationality": "Portugal",
     },
-    "rodrigo_garro": {
-        "transfermarkt": "https://www.transfermarkt.com/rodrigo-garro/profil/spieler/534623",
-        "fbref": "https://fbref.com/en/players/a7b8c9k1/Rodrigo-Garro",
-        "display_name": "Rodrigo Garro",
-        "club": "Corinthians",
-        "league": "Brasileirao",
-        "position": "Attacking Midfielder",
-        "nationality": "Argentina",
+    "antonio-silva": {
+        "transfermarkt": "https://www.transfermarkt.com/antonio-silva/profil/spieler/650568",
+        "display_name": "António Silva", "club": "Benfica", "league": "Primeira Liga",
+        "position": "Centre-Back", "nationality": "Portugal",
     },
-    # Sao Paulo
-    "calleri": {
-        "transfermarkt": "https://www.transfermarkt.com/jonathan-calleri/profil/spieler/150793",
-        "display_name": "Jonathan Calleri",
-        "club": "São Paulo FC",
-        "league": "Brasileirao",
-        "position": "Centre-Forward",
-        "nationality": "Argentina",
+    "geny-catamo": {
+        "transfermarkt": "https://www.transfermarkt.com/geny-catamo/profil/spieler/701979",
+        "display_name": "Geny Catamo", "club": "Sporting CP", "league": "Primeira Liga",
+        "position": "Right Winger", "nationality": "Mozambique",
     },
-    "rodrigo_nestor": {
-        "transfermarkt": "https://www.transfermarkt.com/rodrigo-nestor/profil/spieler/649123",
-        "display_name": "Rodrigo Nestor",
-        "club": "São Paulo FC",
-        "league": "Brasileirao",
-        "position": "Central Midfielder",
-        "nationality": "Brazil",
+    "rodrigo-conceicao": {
+        "transfermarkt": "https://www.transfermarkt.com/rodrigo-conceicao/profil/spieler/426213",
+        "display_name": "Rodrigo Conceição", "club": "Porto", "league": "Primeira Liga",
+        "position": "Right Winger", "nationality": "Portugal",
     },
 }
 
-# ── Argentina — San Lorenzo / Independiente / Racing / Estudiantes ─────────────
-ARGENTINA_OTHER_URLS: dict[str, dict[str, str]] = {
-    # Racing Club
-    "gabriel_rojas": {
-        "transfermarkt": "https://www.transfermarkt.com/gabriel-rojas/profil/spieler/512934",
-        "display_name": "Gabriel Rojas",
-        "club": "Racing Club",
-        "league": "Argentinian Primera",
-        "position": "Right Winger",
-        "nationality": "Paraguay",
+# ── Netherlands / Eredivisie ──────────────────────────────────────────────────
+NETHERLANDS_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "xavi-simons": {
+        "transfermarkt": "https://www.transfermarkt.com/xavi-simons/profil/spieler/566931",
+        "display_name": "Xavi Simons", "club": "RB Leipzig", "league": "Bundesliga",
+        "position": "Attacking Midfielder", "nationality": "Netherlands",
     },
-    "tomas_chancalay": {
-        "transfermarkt": "https://www.transfermarkt.com/tomas-chancalay/profil/spieler/548234",
-        "display_name": "Tomás Chancalay",
-        "club": "Racing Club",
-        "league": "Argentinian Primera",
-        "position": "Left Winger",
-        "nationality": "Argentina",
+    "ryan-gravenberch": {
+        "transfermarkt": "https://www.transfermarkt.com/ryan-gravenberch/profil/spieler/478573",
+        "display_name": "Ryan Gravenberch", "club": "Liverpool", "league": "Premier League",
+        "position": "Central Midfielder", "nationality": "Netherlands",
     },
-    # San Lorenzo
-    "ivan_leguizamon": {
-        "transfermarkt": "https://www.transfermarkt.com/ivan-leguizamon/profil/spieler/574123",
-        "display_name": "Iván Leguizamón",
-        "club": "San Lorenzo",
-        "league": "Argentinian Primera",
-        "position": "Centre-Forward",
-        "nationality": "Argentina",
+    "cody-gakpo": {
+        "transfermarkt": "https://www.transfermarkt.com/cody-gakpo/profil/spieler/434675",
+        "display_name": "Cody Gakpo", "club": "Liverpool", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Netherlands",
     },
-    # Independiente
-    "lucas_romero": {
-        "transfermarkt": "https://www.transfermarkt.com/lucas-romero/profil/spieler/312823",
-        "display_name": "Lucas Romero",
-        "club": "Independiente",
-        "league": "Argentinian Primera",
-        "position": "Defensive Midfielder",
-        "nationality": "Argentina",
+    "ibrahim-osman": {
+        "transfermarkt": "https://www.transfermarkt.com/ibrahim-osman/profil/spieler/1110406",
+        "display_name": "Ibrahim Osman", "club": "Feyenoord", "league": "Eredivisie",
+        "position": "Right Winger", "nationality": "Ghana",
     },
-    # Talleres
-    "nahuel_tenaglia": {
-        "transfermarkt": "https://www.transfermarkt.com/nahuel-tenaglia/profil/spieler/371234",
-        "display_name": "Nahuel Tenaglia",
-        "club": "Talleres",
-        "league": "Argentinian Primera",
-        "position": "Right Back",
-        "nationality": "Argentina",
+    "lutsharel-geertruida": {
+        "transfermarkt": "https://www.transfermarkt.com/lutsharel-geertruida/profil/spieler/420210",
+        "display_name": "Lutsharel Geertruida", "club": "RB Leipzig", "league": "Bundesliga",
+        "position": "Right-Back", "nationality": "Netherlands",
     },
-    "michael_santos": {
-        "transfermarkt": "https://www.transfermarkt.com/michael-santos/profil/spieler/453123",
-        "display_name": "Michael Santos",
-        "club": "Talleres",
-        "league": "Argentinian Primera",
-        "position": "Centre-Forward",
-        "nationality": "Uruguay",
+    "devyne-rensch": {
+        "transfermarkt": "https://www.transfermarkt.com/devyne-rensch/profil/spieler/557407",
+        "display_name": "Devyne Rensch", "club": "AS Roma", "league": "Serie A",
+        "position": "Right-Back", "nationality": "Netherlands",
     },
-    # Estudiantes
-    "gustavo_del_prete": {
-        "transfermarkt": "https://www.transfermarkt.com/gustavo-del-prete/profil/spieler/523892",
-        "display_name": "Gustavo Del Prete",
-        "club": "Estudiantes",
-        "league": "Argentinian Primera",
-        "position": "Centre-Forward",
-        "nationality": "Argentina",
+    "quinten-timber": {
+        "transfermarkt": "https://www.transfermarkt.com/quinten-timber/profil/spieler/420213",
+        "display_name": "Quinten Timber", "club": "Feyenoord", "league": "Eredivisie",
+        "position": "Central Midfielder", "nationality": "Netherlands",
     },
-    # Velez
-    "thiago_fernandez": {
-        "transfermarkt": "https://www.transfermarkt.com/thiago-fernandez/profil/spieler/541234",
-        "display_name": "Thiago Fernández",
-        "club": "Vélez Sarsfield",
-        "league": "Argentinian Primera",
-        "position": "Attacking Midfielder",
-        "nationality": "Argentina",
+    "frenkie-de-jong": {
+        "transfermarkt": "https://www.transfermarkt.com/frenkie-de-jong/profil/spieler/326330",
+        "display_name": "Frenkie de Jong", "club": "Barcelona", "league": "La Liga",
+        "position": "Central Midfielder", "nationality": "Netherlands",
     },
-    # Belgrano
-    "santiago_longo": {
-        "transfermarkt": "https://www.transfermarkt.com/santiago-longo/profil/spieler/612891",
-        "display_name": "Santiago Longo",
-        "club": "Belgrano",
-        "league": "Argentinian Primera",
-        "position": "Right Winger",
-        "nationality": "Argentina",
+    "jeremie-frimpong": {
+        "transfermarkt": "https://www.transfermarkt.com/jeremie-frimpong/profil/spieler/484547",
+        "display_name": "Jérémy Frimpong", "club": "Bayer Leverkusen", "league": "Bundesliga",
+        "position": "Right-Back", "nationality": "Netherlands",
+    },
+    "tijjani-reijnders": {
+        "transfermarkt": "https://www.transfermarkt.com/tijjani-reijnders/profil/spieler/460939",
+        "display_name": "Tijjani Reijnders", "club": "AC Milan", "league": "Serie A",
+        "position": "Central Midfielder", "nationality": "Netherlands",
+    },
+    "jurrien-timber": {
+        "transfermarkt": "https://www.transfermarkt.com/jurrien-timber/profil/spieler/420243",
+        "display_name": "Jurriën Timber", "club": "Arsenal", "league": "Premier League",
+        "position": "Centre-Back", "nationality": "Netherlands",
+    },
+    "brian-brobbey": {
+        "transfermarkt": "https://www.transfermarkt.com/brian-brobbey/profil/spieler/473169",
+        "display_name": "Brian Brobbey", "club": "Ajax", "league": "Eredivisie",
+        "position": "Centre-Forward", "nationality": "Netherlands",
+    },
+    "noa-lang": {
+        "transfermarkt": "https://www.transfermarkt.com/noa-lang/profil/spieler/339332",
+        "display_name": "Noa Lang", "club": "PSV Eindhoven", "league": "Eredivisie",
+        "position": "Left Winger", "nationality": "Netherlands",
+    },
+    "mats-wieffer": {
+        "transfermarkt": "https://www.transfermarkt.com/mats-wieffer/profil/spieler/415381",
+        "display_name": "Mats Wieffer", "club": "Brighton & Hove Albion", "league": "Premier League",
+        "position": "Defensive Midfielder", "nationality": "Netherlands",
+    },
+    "teun-koopmeiners": {
+        "transfermarkt": "https://www.transfermarkt.com/teun-koopmeiners/profil/spieler/360518",
+        "display_name": "Teun Koopmeiners", "club": "Juventus", "league": "Serie A",
+        "position": "Central Midfielder", "nationality": "Netherlands",
     },
 }
 
-# ── Other South American League Stars ─────────────────────────────────────────
-SOUTH_AMERICA_OTHER_URLS: dict[str, dict[str, str]] = {
-    # Colombian Liga Betplay
-    "luis_diaz": {
-        "transfermarkt": "https://www.transfermarkt.com/luis-diaz/profil/spieler/536829",
-        "fbref": "https://fbref.com/en/players/b8c9d0l2/Luis-Diaz",
-        "display_name": "Luis Díaz",
-        "club": "Liverpool",
-        "league": "Premier League",
-        "position": "Left Winger",
-        "nationality": "Colombia",
+# ── Belgium Pro League ─────────────────────────────────────────────────────────
+BELGIUM_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "lois-openda": {
+        "transfermarkt": "https://www.transfermarkt.com/lois-openda/profil/spieler/368887",
+        "display_name": "Loïs Openda", "club": "RB Leipzig", "league": "Bundesliga",
+        "position": "Centre-Forward", "nationality": "Belgium",
     },
-    "jefferson_lerma": {
-        "transfermarkt": "https://www.transfermarkt.com/jefferson-lerma/profil/spieler/280982",
-        "fbref": "https://fbref.com/en/players/c9d0e1m3/Jefferson-Lerma",
-        "display_name": "Jefferson Lerma",
-        "club": "Crystal Palace",
-        "league": "Premier League",
-        "position": "Defensive Midfielder",
-        "nationality": "Colombia",
+    "arthur-vermeeren": {
+        "transfermarkt": "https://www.transfermarkt.com/arthur-vermeeren/profil/spieler/926694",
+        "display_name": "Arthur Vermeeren", "club": "Atlético Madrid", "league": "La Liga",
+        "position": "Defensive Midfielder", "nationality": "Belgium",
     },
-    # Chilean Primera
-    "ben_brereton_diaz": {
-        "transfermarkt": "https://www.transfermarkt.com/ben-brereton-diaz/profil/spieler/538156",
-        "fbref": "https://fbref.com/en/players/d0e1f2n4/Ben-Brereton-Diaz",
-        "display_name": "Ben Brereton Díaz",
-        "club": "Real Sociedad",
-        "league": "La Liga",
-        "position": "Centre-Forward",
-        "nationality": "Chile",
+    "amadou-onana": {
+        "transfermarkt": "https://www.transfermarkt.com/amadou-onana/profil/spieler/485706",
+        "display_name": "Amadou Onana", "club": "Aston Villa", "league": "Premier League",
+        "position": "Defensive Midfielder", "nationality": "Belgium",
     },
-    # Venezuela
-    "yangel_herrera": {
-        "transfermarkt": "https://www.transfermarkt.com/yangel-herrera/profil/spieler/396875",
-        "fbref": "https://fbref.com/en/players/e1f2a3o5/Yangel-Herrera",
-        "display_name": "Yangel Herrera",
-        "club": "Girona",
-        "league": "La Liga",
-        "position": "Central Midfielder",
-        "nationality": "Venezuela",
+    "johan-bakayoko": {
+        "transfermarkt": "https://www.transfermarkt.com/johan-bakayoko/profil/spieler/565424",
+        "display_name": "Johan Bakayoko", "club": "PSV Eindhoven", "league": "Eredivisie",
+        "position": "Right Winger", "nationality": "Belgium",
     },
-    # Paraguay
-    "miguel_almiron": {
-        "transfermarkt": "https://www.transfermarkt.com/miguel-almiron/profil/spieler/233339",
-        "fbref": "https://fbref.com/en/players/f2a3b4p6/Miguel-Almiron",
-        "display_name": "Miguel Almirón",
-        "club": "Newcastle",
-        "league": "Premier League",
-        "position": "Central Midfielder",
-        "nationality": "Paraguay",
+    "charles-de-ketelaere": {
+        "transfermarkt": "https://www.transfermarkt.com/charles-de-ketelaere/profil/spieler/435772",
+        "display_name": "Charles De Ketelaere", "club": "Atalanta", "league": "Serie A",
+        "position": "Attacking Midfielder", "nationality": "Belgium",
     },
-    # Mexico Liga MX
-    "julian_araujo": {
-        "transfermarkt": "https://www.transfermarkt.com/julian-araujo/profil/spieler/651234",
-        "display_name": "Julián Araujo",
-        "club": "Bournemouth",
-        "league": "Premier League",
-        "position": "Right Back",
-        "nationality": "USA/Mexico",
+    "jeremy-doku": {
+        "transfermarkt": "https://www.transfermarkt.com/jeremy-doku/profil/spieler/486049",
+        "display_name": "Jérémy Doku", "club": "Manchester City", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Belgium",
     },
-    "hirving_lozano": {
-        "transfermarkt": "https://www.transfermarkt.com/hirving-lozano/profil/spieler/319358",
-        "fbref": "https://fbref.com/en/players/a3b4c5q7/Hirving-Lozano",
-        "display_name": "Hirving Lozano",
-        "club": "San Diego FC",
-        "league": "MLS",
-        "position": "Right Winger",
-        "nationality": "Mexico",
+    "leandro-trossard": {
+        "transfermarkt": "https://www.transfermarkt.com/leandro-trossard/profil/spieler/144028",
+        "display_name": "Leandro Trossard", "club": "Arsenal", "league": "Premier League",
+        "position": "Left Winger", "nationality": "Belgium",
     },
-    "guillermo_ochoa": {
-        "transfermarkt": "https://www.transfermarkt.com/guillermo-ochoa/profil/spieler/43483",
-        "display_name": "Guillermo Ochoa",
-        "club": "Salernitana",
-        "league": "Serie A",
-        "position": "Goalkeeper",
-        "nationality": "Mexico",
+    "noah-ohio": {
+        "transfermarkt": "https://www.transfermarkt.com/noah-ohio/profil/spieler/557410",
+        "display_name": "Noah Ohio", "club": "Chelsea", "league": "Premier League",
+        "position": "Centre-Forward", "nationality": "Belgium",
     },
-    # Uruguay
-    "facundo_pellistri": {
-        "transfermarkt": "https://www.transfermarkt.com/facundo-pellistri/profil/spieler/619519",
-        "fbref": "https://fbref.com/en/players/b4c5d6r8/Facundo-Pellistri",
-        "display_name": "Facundo Pellistri",
-        "club": "Panathinaikos",
-        "league": "Super League",
-        "position": "Right Winger",
-        "nationality": "Uruguay",
+    "youri-tielemans": {
+        "transfermarkt": "https://www.transfermarkt.com/youri-tielemans/profil/spieler/249565",
+        "display_name": "Youri Tielemans", "club": "Aston Villa", "league": "Premier League",
+        "position": "Central Midfielder", "nationality": "Belgium",
     },
-    "matias_vecino": {
-        "transfermarkt": "https://www.transfermarkt.com/matias-vecino/profil/spieler/198578",
-        "fbref": "https://fbref.com/en/players/c5d6e7s9/Matias-Vecino",
-        "display_name": "Matías Vecino",
-        "club": "Lazio",
-        "league": "Serie A",
-        "position": "Central Midfielder",
-        "nationality": "Uruguay",
+    "orel-mangala": {
+        "transfermarkt": "https://www.transfermarkt.com/orel-mangala/profil/spieler/289592",
+        "display_name": "Orel Mangala", "club": "Nottingham Forest", "league": "Premier League",
+        "position": "Defensive Midfielder", "nationality": "Belgium",
+    },
+    "albert-lokonga": {
+        "transfermarkt": "https://www.transfermarkt.com/albert-lokonga/profil/spieler/381967",
+        "display_name": "Albert Sambi Lokonga", "club": "Luton Town", "league": "Championship",
+        "position": "Defensive Midfielder", "nationality": "Belgium",
     },
 }
 
-
-EXTENDED_LIGA_PRO_URLS: dict[str, dict[str, str]] = {
-    "oscar_cabezas": {
-        "transfermarkt": "https://www.transfermarkt.com/oscar-cabezas/profil/spieler/612341",
-        "display_name": "Óscar Cabezas", "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador", "position": "Goalkeeper", "nationality": "Ecuador",
+# ── Austria Bundesliga / RB Salzburg ──────────────────────────────────────────
+AUSTRIA_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "benjamin-sesko": {
+        "transfermarkt": "https://www.transfermarkt.com/benjamin-sesko/profil/spieler/627442",
+        "display_name": "Benjamin Šeško", "club": "RB Leipzig", "league": "Bundesliga",
+        "position": "Centre-Forward", "nationality": "Slovenia",
     },
-    "ariel_moran": {
-        "transfermarkt": "https://www.transfermarkt.com/ariel-moran/profil/spieler/598712",
-        "display_name": "Ariel Morán", "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador", "position": "Centre-Back", "nationality": "Ecuador",
+    "nicolas-seiwald": {
+        "transfermarkt": "https://www.transfermarkt.com/nicolas-seiwald/profil/spieler/404950",
+        "display_name": "Nicolas Seiwald", "club": "RB Leipzig", "league": "Bundesliga",
+        "position": "Defensive Midfielder", "nationality": "Austria",
     },
-    "john_yeboah": {
-        "transfermarkt": "https://www.transfermarkt.com/john-yeboah/profil/spieler/536812",
-        "display_name": "John Yeboah", "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador", "position": "Right Winger", "nationality": "Ecuador",
+    "christoph-baumgartner": {
+        "transfermarkt": "https://www.transfermarkt.com/christoph-baumgartner/profil/spieler/324278",
+        "display_name": "Christoph Baumgartner", "club": "RB Leipzig", "league": "Bundesliga",
+        "position": "Attacking Midfielder", "nationality": "Austria",
     },
-    "jacinto_espinoza": {
-        "transfermarkt": "https://www.transfermarkt.com/jacinto-espinoza/profil/spieler/598341",
-        "display_name": "Jacinto Espinoza", "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador", "position": "Left Back", "nationality": "Ecuador",
+    "karim-konate": {
+        "transfermarkt": "https://www.transfermarkt.com/karim-konate/profil/spieler/847278",
+        "display_name": "Karim Konaté", "club": "RB Salzburg", "league": "Austrian Bundesliga",
+        "position": "Centre-Forward", "nationality": "Ivory Coast",
     },
-    "jhon_solis": {
-        "transfermarkt": "https://www.transfermarkt.com/jhon-solis/profil/spieler/645723",
-        "display_name": "Jhon Solís", "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador", "position": "Defensive Midfielder", "nationality": "Ecuador",
+    "adam-daghim": {
+        "transfermarkt": "https://www.transfermarkt.com/adam-daghim/profil/spieler/881297",
+        "display_name": "Adam Daghim", "club": "RB Salzburg", "league": "Austrian Bundesliga",
+        "position": "Left Winger", "nationality": "Denmark",
     },
-    "enner_valencia": {
-        "transfermarkt": "https://www.transfermarkt.com/enner-valencia/profil/spieler/122819",
-        "fbref": "https://fbref.com/en/players/i3j4k5l6/Enner-Valencia",
-        "display_name": "Enner Valencia", "club": "Internacional",
-        "league": "Brasileirao", "position": "Centre-Forward", "nationality": "Ecuador",
+    "patson-daka": {
+        "transfermarkt": "https://www.transfermarkt.com/patson-daka/profil/spieler/365172",
+        "display_name": "Patson Daka", "club": "Leicester City", "league": "Championship",
+        "position": "Centre-Forward", "nationality": "Zambia",
     },
-    "gonzalo_plata": {
-        "transfermarkt": "https://www.transfermarkt.com/gonzalo-plata/profil/spieler/561834",
-        "fbref": "https://fbref.com/en/players/j4k5l6m7/Gonzalo-Plata",
-        "display_name": "Gonzalo Plata", "club": "Al-Qadsiah",
-        "league": "Saudi Pro League", "position": "Right Winger", "nationality": "Ecuador",
+    "sekou-koita": {
+        "transfermarkt": "https://www.transfermarkt.com/sekou-koita/profil/spieler/402010",
+        "display_name": "Sékou Koïta", "club": "RB Salzburg", "league": "Austrian Bundesliga",
+        "position": "Centre-Forward", "nationality": "Mali",
     },
-    "pervis_estupinan": {
-        "transfermarkt": "https://www.transfermarkt.com/pervis-estupinan/profil/spieler/356773",
-        "fbref": "https://fbref.com/en/players/k5l6m7n8/Pervis-Estupinan",
-        "display_name": "Pervis Estupiñan", "club": "Brighton",
-        "league": "Premier League", "position": "Left Back", "nationality": "Ecuador",
+    "rasmus-kristensen": {
+        "transfermarkt": "https://www.transfermarkt.com/rasmus-kristensen/profil/spieler/369684",
+        "display_name": "Rasmus Kristensen", "club": "Roma", "league": "Serie A",
+        "position": "Right-Back", "nationality": "Denmark",
     },
-    "jeremy_sarmiento": {
-        "transfermarkt": "https://www.transfermarkt.com/jeremy-sarmiento/profil/spieler/582791",
-        "fbref": "https://fbref.com/en/players/l6m7n8o9/Jeremy-Sarmiento",
-        "display_name": "Jeremy Sarmiento", "club": "Burnley",
-        "league": "Championship", "position": "Left Winger", "nationality": "Ecuador",
-    },
-    "christian_cueva": {
-        "transfermarkt": "https://www.transfermarkt.com/christian-cueva/profil/spieler/269789",
-        "display_name": "Christian Cueva", "club": "Alianza Lima",
-        "league": "Peruvian Primera", "position": "Attacking Midfielder", "nationality": "Peru",
-    },
-    "yangel_herrera": {
-        "transfermarkt": "https://www.transfermarkt.com/yangel-herrera/profil/spieler/396875",
-        "display_name": "Yangel Herrera", "club": "Girona",
-        "league": "La Liga", "position": "Central Midfielder", "nationality": "Venezuela",
-    },
-    "luis_diaz": {
-        "transfermarkt": "https://www.transfermarkt.com/luis-diaz/profil/spieler/536829",
-        "fbref": "https://fbref.com/en/players/b8c9d0l2/Luis-Diaz",
-        "display_name": "Luis Díaz", "club": "Liverpool",
-        "league": "Premier League", "position": "Left Winger", "nationality": "Colombia",
-    },
-    "jhon_arias": {
-        "transfermarkt": "https://www.transfermarkt.com/jhon-arias/profil/spieler/524345",
-        "display_name": "Jhon Arias", "club": "Fluminense",
-        "league": "Brasileirao", "position": "Right Winger", "nationality": "Colombia",
-    },
-    "richard_ortiz": {
-        "transfermarkt": "https://www.transfermarkt.com/richard-ortiz/profil/spieler/237812",
-        "display_name": "Richard Ortiz", "club": "Olimpia",
-        "league": "Paraguayan División Profesional", "position": "Central Midfielder", "nationality": "Paraguay",
-    },
-    "facundo_pellistri": {
-        "transfermarkt": "https://www.transfermarkt.com/facundo-pellistri/profil/spieler/619519",
-        "display_name": "Facundo Pellistri", "club": "Panathinaikos",
-        "league": "Super League", "position": "Right Winger", "nationality": "Uruguay",
-    },
-    "claudio_echeverri": {
-        "transfermarkt": "https://www.transfermarkt.com/claudio-echeverri/profil/spieler/1116123",
-        "display_name": "Claudio Echeverri", "club": "River Plate",
-        "league": "Argentinian Primera", "position": "Attacking Midfielder", "nationality": "Argentina",
-    },
-    "franco_mastantuono": {
-        "transfermarkt": "https://www.transfermarkt.com/franco-mastantuono/profil/spieler/1156234",
-        "display_name": "Franco Mastantuono", "club": "River Plate",
-        "league": "Argentinian Primera", "position": "Central Midfielder", "nationality": "Argentina",
-    },
-    "lucas_assadi": {
-        "transfermarkt": "https://www.transfermarkt.com/lucas-assadi/profil/spieler/773234",
-        "display_name": "Lucas Assadi", "club": "Universidad de Chile",
-        "league": "Chilean Primera", "position": "Left Winger", "nationality": "Chile",
-    },
-    "lorran_flamengo": {
-        "transfermarkt": "https://www.transfermarkt.com/lorran/profil/spieler/1008742",
-        "display_name": "Lorran", "club": "Flamengo",
-        "league": "Brasileirao", "position": "Attacking Midfielder", "nationality": "Brazil",
-    },
-    "estevao_willian": {
-        "transfermarkt": "https://www.transfermarkt.com/estevao-willian/profil/spieler/1116823",
-        "display_name": "Estêvão Willian", "club": "Palmeiras",
-        "league": "Brasileirao", "position": "Right Winger", "nationality": "Brazil",
-    },
-    "pablo_solari": {
-        "transfermarkt": "https://www.transfermarkt.com/pablo-solari/profil/spieler/561823",
-        "display_name": "Pablo Solari", "club": "River Plate",
-        "league": "Argentinian Primera", "position": "Right Winger", "nationality": "Argentina",
-    },
-    "bryan_angulo": {
-        "transfermarkt": "https://www.transfermarkt.com/bryan-angulo/profil/spieler/415823",
-        "display_name": "Bryan Angulo", "club": "Cruz Azul",
-        "league": "Liga MX", "position": "Centre-Forward", "nationality": "Ecuador",
+    "nicolas-capaldo": {
+        "transfermarkt": "https://www.transfermarkt.com/nicolas-capaldo/profil/spieler/649672",
+        "display_name": "Nicolás Capaldo", "club": "RB Salzburg", "league": "Austrian Bundesliga",
+        "position": "Central Midfielder", "nationality": "Argentina",
     },
 }
 
-EUROPEAN_YOUTH_URLS: dict[str, dict[str, str]] = {
-    # Benfica Academy products
-    "joao_neves": {
-        "transfermarkt": "https://www.transfermarkt.com/joao-neves/profil/spieler/875935",
-        "fbref": "https://fbref.com/en/players/b9c0d1e2/Joao-Neves",
-        "display_name": "João Neves",
-        "club": "PSG",
-        "league": "Ligue 1",
-        "position": "Defensive Midfielder",
-        "nationality": "Portugal",
+# ── MLS — South Americans ──────────────────────────────────────────────────────
+MLS_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "neymar-jr": {
+        "transfermarkt": "https://www.transfermarkt.com/neymar-jr/profil/spieler/68290",
+        "display_name": "Neymar Jr", "club": "Al-Hilal", "league": "Saudi Pro League",
+        "position": "Left Winger", "nationality": "Brazil",
     },
-    "antonio_silva_benfica": {
-        "transfermarkt": "https://www.transfermarkt.com/antonio-silva/profil/spieler/902142",
-        "fbref": "https://fbref.com/en/players/c0d1e2f3/Antonio-Silva",
-        "display_name": "António Silva",
-        "club": "Benfica",
-        "league": "Primeira Liga",
-        "position": "Centre-Back",
-        "nationality": "Portugal",
+    "carlos-vela": {
+        "transfermarkt": "https://www.transfermarkt.com/carlos-vela/profil/spieler/86906",
+        "display_name": "Carlos Vela", "club": "Los Angeles FC", "league": "MLS",
+        "position": "Second Striker", "nationality": "Mexico",
     },
-    # Ajax Academy products
-    "devyne_rensch": {
-        "transfermarkt": "https://www.transfermarkt.com/devyne-rensch/profil/spieler/685348",
-        "fbref": "https://fbref.com/en/players/d1e2f3a4/Devyne-Rensch",
-        "display_name": "Devyne Rensch",
-        "club": "Roma",
-        "league": "Serie A",
-        "position": "Right Back",
-        "nationality": "Netherlands",
+    "xherdan-shaqiri": {
+        "transfermarkt": "https://www.transfermarkt.com/xherdan-shaqiri/profil/spieler/86792",
+        "display_name": "Xherdan Shaqiri", "club": "Chicago Fire", "league": "MLS",
+        "position": "Second Striker", "nationality": "Switzerland",
     },
-    "kenneth_taylor": {
-        "transfermarkt": "https://www.transfermarkt.com/kenneth-taylor/profil/spieler/578012",
-        "fbref": "https://fbref.com/en/players/e2f3a4b5/Kenneth-Taylor",
-        "display_name": "Kenneth Taylor",
-        "club": "Ajax",
-        "league": "Eredivisie",
-        "position": "Central Midfielder",
-        "nationality": "Netherlands",
+    "facundo-torres": {
+        "transfermarkt": "https://www.transfermarkt.com/facundo-torres/profil/spieler/465822",
+        "display_name": "Facundo Torres", "club": "Orlando City", "league": "MLS",
+        "position": "Right Winger", "nationality": "Uruguay",
     },
-    # Salzburg pipeline
-    "karim_konate": {
-        "transfermarkt": "https://www.transfermarkt.com/karim-konate/profil/spieler/680234",
-        "fbref": "https://fbref.com/en/players/f3a4b5c6/Karim-Konate",
-        "display_name": "Karim Konaté",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Centre-Forward",
-        "nationality": "Ivory Coast",
+    "luciano-acosta": {
+        "transfermarkt": "https://www.transfermarkt.com/luciano-acosta/profil/spieler/315169",
+        "display_name": "Luciano Acosta", "club": "FC Cincinnati", "league": "MLS",
+        "position": "Attacking Midfielder", "nationality": "Argentina",
     },
-    "luka_sucic": {
-        "transfermarkt": "https://www.transfermarkt.com/luka-sucic/profil/spieler/668756",
-        "fbref": "https://fbref.com/en/players/a4b5c6d7/Luka-Sucic",
-        "display_name": "Luka Sučić",
-        "club": "RB Leipzig",
-        "league": "Bundesliga",
-        "position": "Attacking Midfielder",
-        "nationality": "Croatia",
+    "riqui-puig": {
+        "transfermarkt": "https://www.transfermarkt.com/riqui-puig/profil/spieler/331511",
+        "display_name": "Riqui Puig", "club": "LA Galaxy", "league": "MLS",
+        "position": "Attacking Midfielder", "nationality": "Spain",
     },
-    # Porto pipeline
-    "pepelu": {
-        "transfermarkt": "https://www.transfermarkt.com/pepelu/profil/spieler/553214",
-        "display_name": "Pepelu",
-        "club": "Valencia",
-        "league": "La Liga",
-        "position": "Defensive Midfielder",
-        "nationality": "Spain",
-    },
-    "joao_mario_porto": {
-        "transfermarkt": "https://www.transfermarkt.com/joao-mario/profil/spieler/189345",
-        "display_name": "João Mário",
-        "club": "Porto",
-        "league": "Primeira Liga",
-        "position": "Right Back",
-        "nationality": "Portugal",
-    },
-    # Sporting CP
-    "goncalo_inacio": {
-        "transfermarkt": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/697823",
-        "fbref": "https://fbref.com/en/players/b5c6d7e8/Goncalo-Inacio",
-        "display_name": "Gonçalo Inácio",
-        "club": "Nottingham Forest",
-        "league": "Premier League",
-        "position": "Centre-Back",
-        "nationality": "Portugal",
-    },
-    "matheus_nunes": {
-        "transfermarkt": "https://www.transfermarkt.com/matheus-nunes/profil/spieler/646123",
-        "fbref": "https://fbref.com/en/players/c6d7e8f9/Matheus-Nunes",
-        "display_name": "Matheus Nunes",
-        "club": "Man City",
-        "league": "Premier League",
-        "position": "Central Midfielder",
-        "nationality": "Portugal",
-    },
-    # Eredivisie rising stars
-    "kristian_hlynsson": {
-        "transfermarkt": "https://www.transfermarkt.com/kristian-hlynsson/profil/spieler/712345",
-        "display_name": "Kristian Hlynsson",
-        "club": "Ajax",
-        "league": "Eredivisie",
-        "position": "Central Midfielder",
-        "nationality": "Iceland",
-    },
-    "chuba_akpom": {
-        "transfermarkt": "https://www.transfermarkt.com/chuba-akpom/profil/spieler/234567",
-        "fbref": "https://fbref.com/en/players/d7e8f9a0/Chuba-Akpom",
-        "display_name": "Chuba Akpom",
-        "club": "Ajax",
-        "league": "Eredivisie",
-        "position": "Centre-Forward",
-        "nationality": "England",
-    },
-    # Austrian Bundesliga
-    "nicolas_seiwald": {
-        "transfermarkt": "https://www.transfermarkt.com/nicolas-seiwald/profil/spieler/685612",
-        "fbref": "https://fbref.com/en/players/e8f9a0b1/Nicolas-Seiwald",
-        "display_name": "Nicolas Seiwald",
-        "club": "RB Leipzig",
-        "league": "Bundesliga",
-        "position": "Defensive Midfielder",
-        "nationality": "Austria",
-    },
-    "samson_baidoo": {
-        "transfermarkt": "https://www.transfermarkt.com/samson-baidoo/profil/spieler/745123",
-        "display_name": "Samson Baidoo",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Centre-Back",
-        "nationality": "Austria",
-    },
-    "oumar_solet": {
-        "transfermarkt": "https://www.transfermarkt.com/oumar-solet/profil/spieler/581234",
-        "fbref": "https://fbref.com/en/players/f9a0b1c2/Oumar-Solet",
-        "display_name": "Oumar Solet",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Centre-Back",
-        "nationality": "France",
-    },
-    "maurits_kjaergaard": {
-        "transfermarkt": "https://www.transfermarkt.com/maurits-kjaergaard/profil/spieler/756234",
-        "fbref": "https://fbref.com/en/players/a0b1c2d3/Maurits-Kjaergaard",
-        "display_name": "Maurits Kjærgaard",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Central Midfielder",
-        "nationality": "Denmark",
-    },
-    "oscar_gloukh": {
-        "transfermarkt": "https://www.transfermarkt.com/oscar-gloukh/profil/spieler/892345",
-        "fbref": "https://fbref.com/en/players/b1c2d3e4/Oscar-Gloukh",
-        "display_name": "Oscar Gloukh",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Attacking Midfielder",
-        "nationality": "Israel",
-    },
-    "lois_openda": {
-        "transfermarkt": "https://www.transfermarkt.com/lois-openda/profil/spieler/516789",
-        "fbref": "https://fbref.com/en/players/c2d3e4f5/Lois-Openda",
-        "display_name": "Loïs Openda",
-        "club": "RB Leipzig",
-        "league": "Bundesliga",
-        "position": "Centre-Forward",
-        "nationality": "Belgium",
-    },
-    "xavi_simons": {
-        "transfermarkt": "https://www.transfermarkt.com/xavi-simons/profil/spieler/776609",
-        "fbref": "https://fbref.com/en/players/d3e4f5a6/Xavi-Simons",
-        "display_name": "Xavi Simons",
-        "club": "RB Leipzig",
-        "league": "Bundesliga",
-        "position": "Attacking Midfielder",
-        "nationality": "Netherlands",
-    },
-    "florian_wirtz": {
-        "transfermarkt": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/521548",
-        "fbref": "https://fbref.com/en/players/e4f5a6b7/Florian-Wirtz",
-        "display_name": "Florian Wirtz",
-        "club": "Bayer Leverkusen",
-        "league": "Bundesliga",
-        "position": "Attacking Midfielder",
-        "nationality": "Germany",
-    },
-    "pedri": {
-        "transfermarkt": "https://www.transfermarkt.com/pedri/profil/spieler/722137",
-        "fbref": "https://fbref.com/en/players/f5a6b7c8/Pedri",
-        "display_name": "Pedri",
-        "club": "Barcelona",
-        "league": "La Liga",
-        "position": "Central Midfielder",
-        "nationality": "Spain",
-    },
-    "gavi": {
-        "transfermarkt": "https://www.transfermarkt.com/gavi/profil/spieler/832972",
-        "fbref": "https://fbref.com/en/players/a6b7c8d9/Gavi",
-        "display_name": "Gavi",
-        "club": "Barcelona",
-        "league": "La Liga",
-        "position": "Central Midfielder",
-        "nationality": "Spain",
+    "renato-tapia": {
+        "transfermarkt": "https://www.transfermarkt.com/renato-tapia/profil/spieler/277137",
+        "display_name": "Renato Tapia", "club": "Celta Vigo", "league": "La Liga",
+        "position": "Defensive Midfielder", "nationality": "Peru",
     },
 }
 
-
-# ── Portugal Primeira Liga ────────────────────────────────────────────────────
-
-PRIMEIRA_LIGA_URLS: dict[str, dict[str, str]] = {
-    "viktor_gyokeres": {
-        "transfermarkt": "https://www.transfermarkt.com/viktor-gyokeres/profil/spieler/278463",
-        "fbref": "https://fbref.com/en/players/263c9ca1/Viktor-Gyokeres",
-        "sofascore": "https://www.sofascore.com/player/viktor-gyokeres/873531",
-        "display_name": "Viktor Gyökeres",
-        "club": "Sporting CP",
-        "league": "Primeira Liga",
-        "position": "Centre-Forward",
-        "nationality": "Sweden",
-    },
-    "pedro_goncalves": {
-        "transfermarkt": "https://www.transfermarkt.com/pedro-goncalves/profil/spieler/427200",
-        "fbref": "https://fbref.com/en/players/4c7b832f/Pedro-Goncalves",
-        "sofascore": "https://www.sofascore.com/player/pedro-goncalves/885482",
-        "display_name": "Pedro Gonçalves",
-        "club": "Sporting CP",
-        "league": "Primeira Liga",
-        "position": "Attacking Midfielder",
-        "nationality": "Portugal",
-    },
-    "goncalo_inacio": {
-        "transfermarkt": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/570387",
-        "fbref": "https://fbref.com/en/players/a9b5f17d/Goncalo-Inacio",
-        "sofascore": "https://www.sofascore.com/player/goncalo-inacio/954271",
-        "display_name": "Gonçalo Inácio",
-        "club": "Sporting CP",
-        "league": "Primeira Liga",
-        "position": "Centre-Back",
-        "nationality": "Portugal",
-    },
-    "antonio_silva_benfica": {
-        "transfermarkt": "https://www.transfermarkt.com/antonio-silva/profil/spieler/805603",
-        "fbref": "https://fbref.com/en/players/f7c8a3d1/Antonio-Silva",
-        "sofascore": "https://www.sofascore.com/player/antonio-silva/1053218",
-        "display_name": "António Silva",
-        "club": "Benfica",
-        "league": "Primeira Liga",
-        "position": "Centre-Back",
-        "nationality": "Portugal",
-    },
-    "david_neres": {
-        "transfermarkt": "https://www.transfermarkt.com/david-neres/profil/spieler/382062",
-        "fbref": "https://fbref.com/en/players/b1e2f3a4/David-Neres",
-        "sofascore": "https://www.sofascore.com/player/david-neres/838301",
-        "display_name": "David Neres",
-        "club": "Benfica",
-        "league": "Primeira Liga",
-        "position": "Right Winger",
-        "nationality": "Brazil",
-    },
-    "marcos_leonardo": {
-        "transfermarkt": "https://www.transfermarkt.com/marcos-leonardo/profil/spieler/558773",
-        "fbref": "https://fbref.com/en/players/d4e5f6a7/Marcos-Leonardo",
-        "sofascore": "https://www.sofascore.com/player/marcos-leonardo/987421",
-        "display_name": "Marcos Leonardo",
-        "club": "Benfica",
-        "league": "Primeira Liga",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
-    },
-    "renato_sanches": {
-        "transfermarkt": "https://www.transfermarkt.com/renato-sanches/profil/spieler/331477",
-        "fbref": "https://fbref.com/en/players/53b96a5e/Renato-Sanches",
-        "sofascore": "https://www.sofascore.com/player/renato-sanches/194706",
-        "display_name": "Renato Sanches",
-        "club": "Benfica",
-        "league": "Primeira Liga",
-        "position": "Central Midfielder",
-        "nationality": "Portugal",
-    },
-    "joao_mario": {
-        "transfermarkt": "https://www.transfermarkt.com/joao-mario/profil/spieler/195808",
-        "fbref": "https://fbref.com/en/players/5e0e28f2/Joao-Mario",
-        "sofascore": "https://www.sofascore.com/player/joao-mario/195808",
-        "display_name": "João Mário",
-        "club": "Benfica",
-        "league": "Primeira Liga",
-        "position": "Central Midfielder",
-        "nationality": "Portugal",
-    },
-    "pepe_porto": {
-        "transfermarkt": "https://www.transfermarkt.com/pepe/profil/spieler/8075",
-        "fbref": "https://fbref.com/en/players/c5e9b1f2/Pepe",
-        "sofascore": "https://www.sofascore.com/player/pepe/8075",
-        "display_name": "Pepe",
-        "club": "Porto",
-        "league": "Primeira Liga",
-        "position": "Centre-Back",
-        "nationality": "Portugal",
-    },
-    "galeno": {
-        "transfermarkt": "https://www.transfermarkt.com/galeno/profil/spieler/429953",
-        "fbref": "https://fbref.com/en/players/5e9b1234/Galeno",
-        "sofascore": "https://www.sofascore.com/player/galeno/429953",
-        "display_name": "Galeno",
-        "club": "Porto",
-        "league": "Primeira Liga",
-        "position": "Left Winger",
-        "nationality": "Brazil",
-    },
-    "evanilson": {
-        "transfermarkt": "https://www.transfermarkt.com/evanilson/profil/spieler/528699",
-        "fbref": "https://fbref.com/en/players/b3c4d5e6/Evanilson",
-        "sofascore": "https://www.sofascore.com/player/evanilson/899234",
-        "display_name": "Evanilson",
-        "club": "Porto",
-        "league": "Primeira Liga",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
-    },
-    "nico_gonzalez_porto": {
-        "transfermarkt": "https://www.transfermarkt.com/nico-gonzalez/profil/spieler/652586",
-        "fbref": "https://fbref.com/en/players/a7b8c9d0/Nico-Gonzalez",
-        "sofascore": "https://www.sofascore.com/player/nico-gonzalez/1040832",
-        "display_name": "Nico González",
-        "club": "Porto",
-        "league": "Primeira Liga",
-        "position": "Central Midfielder",
-        "nationality": "Spain",
-    },
-}
-
-# ── Netherlands Eredivisie ────────────────────────────────────────────────────
-
-EREDIVISIE_URLS: dict[str, dict[str, str]] = {
-    "brian_brobbey": {
-        "transfermarkt": "https://www.transfermarkt.com/brian-brobbey/profil/spieler/501497",
-        "fbref": "https://fbref.com/en/players/c6d7e8f9/Brian-Brobbey",
-        "sofascore": "https://www.sofascore.com/player/brian-brobbey/949102",
-        "display_name": "Brian Brobbey",
-        "club": "Ajax",
-        "league": "Eredivisie",
-        "position": "Centre-Forward",
-        "nationality": "Netherlands",
-    },
-    "devyne_rensch": {
-        "transfermarkt": "https://www.transfermarkt.com/devyne-rensch/profil/spieler/534343",
-        "fbref": "https://fbref.com/en/players/d7e8f9a0/Devyne-Rensch",
-        "sofascore": "https://www.sofascore.com/player/devyne-rensch/971384",
-        "display_name": "Devyne Rensch",
-        "club": "Ajax",
-        "league": "Eredivisie",
-        "position": "Right-Back",
-        "nationality": "Netherlands",
-    },
-    "kenneth_taylor": {
-        "transfermarkt": "https://www.transfermarkt.com/kenneth-taylor/profil/spieler/647099",
-        "fbref": "https://fbref.com/en/players/e8f9a0b1/Kenneth-Taylor",
-        "sofascore": "https://www.sofascore.com/player/kenneth-taylor/1024753",
-        "display_name": "Kenneth Taylor",
-        "club": "Ajax",
-        "league": "Eredivisie",
-        "position": "Central Midfielder",
-        "nationality": "Netherlands",
-    },
-    "igor_paixao": {
-        "transfermarkt": "https://www.transfermarkt.com/igor-paixao/profil/spieler/609892",
-        "fbref": "https://fbref.com/en/players/f9a0b1c2/Igor-Paixao",
-        "sofascore": "https://www.sofascore.com/player/igor-paixao/978123",
-        "display_name": "Igor Paixão",
-        "club": "Feyenoord",
-        "league": "Eredivisie",
-        "position": "Left Winger",
-        "nationality": "Brazil",
-    },
-    "calvin_stengs": {
-        "transfermarkt": "https://www.transfermarkt.com/calvin-stengs/profil/spieler/481694",
-        "fbref": "https://fbref.com/en/players/a0b1c2d3/Calvin-Stengs",
-        "sofascore": "https://www.sofascore.com/player/calvin-stengs/896743",
-        "display_name": "Calvin Stengs",
-        "club": "Feyenoord",
-        "league": "Eredivisie",
-        "position": "Right Winger",
-        "nationality": "Netherlands",
-    },
-    "quinten_timber": {
-        "transfermarkt": "https://www.transfermarkt.com/quinten-timber/profil/spieler/642706",
-        "fbref": "https://fbref.com/en/players/b1c2d3e4/Quinten-Timber",
-        "sofascore": "https://www.sofascore.com/player/quinten-timber/1018467",
-        "display_name": "Quinten Timber",
-        "club": "Feyenoord",
-        "league": "Eredivisie",
-        "position": "Central Midfielder",
-        "nationality": "Netherlands",
-    },
-    "mats_wieffer": {
-        "transfermarkt": "https://www.transfermarkt.com/mats-wieffer/profil/spieler/503175",
-        "fbref": "https://fbref.com/en/players/c2d3e4f5/Mats-Wieffer",
-        "sofascore": "https://www.sofascore.com/player/mats-wieffer/969254",
-        "display_name": "Mats Wieffer",
-        "club": "Feyenoord",
-        "league": "Eredivisie",
-        "position": "Defensive Midfielder",
-        "nationality": "Netherlands",
-    },
-    "lutsharel_geertruida": {
-        "transfermarkt": "https://www.transfermarkt.com/lutsharel-geertruida/profil/spieler/588832",
-        "fbref": "https://fbref.com/en/players/d3e4f5a6/Lutsharel-Geertruida",
-        "sofascore": "https://www.sofascore.com/player/lutsharel-geertruida/1001823",
-        "display_name": "Lutsharel Geertruida",
-        "club": "Feyenoord",
-        "league": "Eredivisie",
-        "position": "Right-Back",
-        "nationality": "Netherlands",
-    },
-    "ruben_van_bommel": {
-        "transfermarkt": "https://www.transfermarkt.com/ruben-van-bommel/profil/spieler/863834",
-        "fbref": "https://fbref.com/en/players/e4f5a6b7/Ruben-van-Bommel",
-        "sofascore": "https://www.sofascore.com/player/ruben-van-bommel/1093821",
-        "display_name": "Ruben van Bommel",
-        "club": "AZ Alkmaar",
-        "league": "Eredivisie",
-        "position": "Right Winger",
-        "nationality": "Netherlands",
-    },
-    "sven_mijnans": {
-        "transfermarkt": "https://www.transfermarkt.com/sven-mijnans/profil/spieler/563813",
-        "fbref": "https://fbref.com/en/players/f5a6b7c8/Sven-Mijnans",
-        "sofascore": "https://www.sofascore.com/player/sven-mijnans/987632",
-        "display_name": "Sven Mijnans",
-        "club": "AZ Alkmaar",
-        "league": "Eredivisie",
-        "position": "Central Midfielder",
-        "nationality": "Netherlands",
-    },
-}
-
-# ── Belgium Pro League ────────────────────────────────────────────────────────
-
-BELGIUM_PRO_LEAGUE_URLS: dict[str, dict[str, str]] = {
-    "lois_openda": {
-        "transfermarkt": "https://www.transfermarkt.com/lois-openda/profil/spieler/457461",
-        "fbref": "https://fbref.com/en/players/a6b7c8d9/Lois-Openda",
-        "sofascore": "https://www.sofascore.com/player/lois-openda/906312",
-        "display_name": "Lois Openda",
-        "club": "RB Leipzig",
-        "league": "Bundesliga",
-        "position": "Centre-Forward",
-        "nationality": "Belgium",
-    },
-    "aster_vranckx": {
-        "transfermarkt": "https://www.transfermarkt.com/aster-vranckx/profil/spieler/682428",
-        "fbref": "https://fbref.com/en/players/b7c8d9e0/Aster-Vranckx",
-        "sofascore": "https://www.sofascore.com/player/aster-vranckx/1044213",
-        "display_name": "Aster Vranckx",
-        "club": "KV Mechelen",
-        "league": "Pro League",
-        "position": "Central Midfielder",
-        "nationality": "Belgium",
-    },
-    "arthur_theate": {
-        "transfermarkt": "https://www.transfermarkt.com/arthur-theate/profil/spieler/556765",
-        "fbref": "https://fbref.com/en/players/c8d9e0f1/Arthur-Theate",
-        "sofascore": "https://www.sofascore.com/player/arthur-theate/977543",
-        "display_name": "Arthur Theate",
-        "club": "Stade Rennais",
-        "league": "Ligue 1",
-        "position": "Centre-Back",
-        "nationality": "Belgium",
-    },
-    "carlos_cuesta": {
-        "transfermarkt": "https://www.transfermarkt.com/carlos-cuesta/profil/spieler/530555",
-        "fbref": "https://fbref.com/en/players/d9e0f1a2/Carlos-Cuesta",
-        "sofascore": "https://www.sofascore.com/player/carlos-cuesta/987234",
-        "display_name": "Carlos Cuesta",
-        "club": "KRC Genk",
-        "league": "Pro League",
-        "position": "Centre-Back",
-        "nationality": "Colombia",
-    },
-    "tajon_buchanan": {
-        "transfermarkt": "https://www.transfermarkt.com/tajon-buchanan/profil/spieler/445966",
-        "fbref": "https://fbref.com/en/players/e0f1a2b3/Tajon-Buchanan",
-        "sofascore": "https://www.sofascore.com/player/tajon-buchanan/908432",
-        "display_name": "Tajon Buchanan",
-        "club": "Inter Milan",
-        "league": "Serie A",
-        "position": "Left Winger",
-        "nationality": "Canada",
-    },
-    "hugo_siquet": {
-        "transfermarkt": "https://www.transfermarkt.com/hugo-siquet/profil/spieler/747193",
-        "fbref": "https://fbref.com/en/players/f1a2b3c4/Hugo-Siquet",
-        "sofascore": "https://www.sofascore.com/player/hugo-siquet/1052341",
-        "display_name": "Hugo Siquet",
-        "club": "Club Brugge",
-        "league": "Pro League",
-        "position": "Right-Back",
-        "nationality": "Belgium",
-    },
-    "casper_nielsen": {
-        "transfermarkt": "https://www.transfermarkt.com/casper-nielsen/profil/spieler/376428",
-        "fbref": "https://fbref.com/en/players/a2b3c4d5/Casper-Nielsen",
-        "sofascore": "https://www.sofascore.com/player/casper-nielsen/846521",
-        "display_name": "Casper Nielsen",
-        "club": "Club Brugge",
-        "league": "Pro League",
-        "position": "Central Midfielder",
-        "nationality": "Denmark",
-    },
-    "cyril_ngonge": {
-        "transfermarkt": "https://www.transfermarkt.com/cyril-ngonge/profil/spieler/740601",
-        "fbref": "https://fbref.com/en/players/b3c4d5e6/Cyril-Ngonge",
-        "sofascore": "https://www.sofascore.com/player/cyril-ngonge/1067432",
-        "display_name": "Cyril Ngonge",
-        "club": "Napoli",
-        "league": "Serie A",
-        "position": "Left Winger",
-        "nationality": "Belgium",
-    },
-}
-
-# ── Austria Bundesliga (IDV primary pathway) ──────────────────────────────────
-
-AUSTRIAN_BL_URLS: dict[str, dict[str, str]] = {
-    "karim_konate": {
-        "transfermarkt": "https://www.transfermarkt.com/karim-konate/profil/spieler/712386",
-        "fbref": "https://fbref.com/en/players/c4d5e6f7/Karim-Konate",
-        "sofascore": "https://www.sofascore.com/player/karim-konate/1039847",
-        "display_name": "Karim Konaté",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Centre-Forward",
-        "nationality": "Ivory Coast",
-    },
-    "luka_sucic": {
-        "transfermarkt": "https://www.transfermarkt.com/luka-sucic/profil/spieler/802018",
-        "fbref": "https://fbref.com/en/players/d5e6f7a8/Luka-Sucic",
-        "sofascore": "https://www.sofascore.com/player/luka-sucic/1068321",
-        "display_name": "Luka Sučić",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Attacking Midfielder",
-        "nationality": "Croatia",
-    },
-    "maurits_kjaergaard": {
-        "transfermarkt": "https://www.transfermarkt.com/maurits-kjaergaard/profil/spieler/783038",
-        "fbref": "https://fbref.com/en/players/e6f7a8b9/Maurits-Kjaergaard",
-        "sofascore": "https://www.sofascore.com/player/maurits-kjaergaard/1073214",
-        "display_name": "Maurits Kjærgaard",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Central Midfielder",
-        "nationality": "Denmark",
-    },
-    "nicolas_capaldo": {
-        "transfermarkt": "https://www.transfermarkt.com/nicolas-capaldo/profil/spieler/633956",
-        "fbref": "https://fbref.com/en/players/f7a8b9c0/Nicolas-Capaldo",
-        "sofascore": "https://www.sofascore.com/player/nicolas-capaldo/1018432",
-        "display_name": "Nicolás Capaldo",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Central Midfielder",
-        "nationality": "Argentina",
-    },
-    "amar_dedic": {
-        "transfermarkt": "https://www.transfermarkt.com/amar-dedic/profil/spieler/787326",
-        "fbref": "https://fbref.com/en/players/a8b9c0d1/Amar-Dedic",
-        "sofascore": "https://www.sofascore.com/player/amar-dedic/1076543",
-        "display_name": "Amar Dedić",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Right-Back",
-        "nationality": "Bosnia-Herzegovina",
-    },
-    "oscar_gloukh": {
-        "transfermarkt": "https://www.transfermarkt.com/oscar-gloukh/profil/spieler/920458",
-        "fbref": "https://fbref.com/en/players/b9c0d1e2/Oscar-Gloukh",
-        "sofascore": "https://www.sofascore.com/player/oscar-gloukh/1109234",
-        "display_name": "Oscar Gloukh",
-        "club": "RB Salzburg",
-        "league": "Austrian Bundesliga",
-        "position": "Attacking Midfielder",
-        "nationality": "Israel",
-    },
-}
-
-# ── Brazil Serie A (Additional) ───────────────────────────────────────────────
-
-BRAZIL_SERIE_A_URLS: dict[str, dict[str, str]] = {
-    "endrick": {
-        "transfermarkt": "https://www.transfermarkt.com/endrick/profil/spieler/916671",
-        "fbref": "https://fbref.com/en/players/f0a1b2c3/Endrick",
-        "sofascore": "https://www.sofascore.com/player/endrick/1233891",
-        "display_name": "Endrick",
-        "club": "Real Madrid",
-        "league": "La Liga",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
-    },
-    "estevao_willian": {
-        "transfermarkt": "https://www.transfermarkt.com/estevao-willian/profil/spieler/934055",
-        "fbref": "https://fbref.com/en/players/a1b2c3d4/Estevao-Willian",
-        "sofascore": "https://www.sofascore.com/player/estevao-willian/1283421",
-        "display_name": "Estevão Willian",
-        "club": "Palmeiras",
-        "league": "Brasileirao",
-        "position": "Right Winger",
-        "nationality": "Brazil",
-    },
-    "andrey_santos": {
-        "transfermarkt": "https://www.transfermarkt.com/andrey-santos/profil/spieler/793649",
-        "fbref": "https://fbref.com/en/players/b2c3d4e5/Andrey-Santos",
-        "sofascore": "https://www.sofascore.com/player/andrey-santos/1116823",
-        "display_name": "Andrey Santos",
-        "club": "Vasco da Gama",
-        "league": "Brasileirao",
-        "position": "Central Midfielder",
-        "nationality": "Brazil",
-    },
-    "vitor_roque": {
-        "transfermarkt": "https://www.transfermarkt.com/vitor-roque/profil/spieler/816868",
-        "fbref": "https://fbref.com/en/players/c3d4e5f6/Vitor-Roque",
-        "sofascore": "https://www.sofascore.com/player/vitor-roque/1146831",
-        "display_name": "Vitor Roque",
-        "club": "Real Betis",
-        "league": "La Liga",
-        "position": "Centre-Forward",
-        "nationality": "Brazil",
-    },
-    "gabriel_moscardo": {
-        "transfermarkt": "https://www.transfermarkt.com/gabriel-moscardo/profil/spieler/887449",
-        "fbref": "https://fbref.com/en/players/d4e5f6a7/Gabriel-Moscardo",
-        "sofascore": "https://www.sofascore.com/player/gabriel-moscardo/1178234",
-        "display_name": "Gabriel Moscardo",
-        "club": "PSG",
-        "league": "Ligue 1",
-        "position": "Defensive Midfielder",
-        "nationality": "Brazil",
-    },
-    "pablo_maia": {
-        "transfermarkt": "https://www.transfermarkt.com/pablo-maia/profil/spieler/572023",
-        "fbref": "https://fbref.com/en/players/e5f6a7b8/Pablo-Maia",
-        "sofascore": "https://www.sofascore.com/player/pablo-maia/998231",
-        "display_name": "Pablo Maia",
-        "club": "São Paulo",
-        "league": "Brasileirao",
-        "position": "Defensive Midfielder",
-        "nationality": "Brazil",
-    },
-    "murillo": {
-        "transfermarkt": "https://www.transfermarkt.com/murillo/profil/spieler/659866",
-        "fbref": "https://fbref.com/en/players/f6a7b8c9/Murillo",
-        "sofascore": "https://www.sofascore.com/player/murillo/1034521",
-        "display_name": "Murillo",
-        "club": "Nottingham Forest",
-        "league": "Premier League",
-        "position": "Centre-Back",
-        "nationality": "Brazil",
-    },
-    "gabriel_martinelli": {
-        "transfermarkt": "https://www.transfermarkt.com/gabriel-martinelli/profil/spieler/506116",
-        "fbref": "https://fbref.com/en/players/c4f587d8/Gabriel-Martinelli",
-        "sofascore": "https://www.sofascore.com/player/gabriel-martinelli/866185",
-        "display_name": "Gabriel Martinelli",
-        "club": "Arsenal",
-        "league": "Premier League",
-        "position": "Left Winger",
-        "nationality": "Brazil",
-    },
-}
-
-# ── Argentina Primera División (Additional) ───────────────────────────────────
-
-ARGENTINA_PRIMERA_URLS: dict[str, dict[str, str]] = {
-    "claudio_echeverri": {
-        "transfermarkt": "https://www.transfermarkt.com/claudio-echeverri/profil/spieler/916580",
-        "fbref": "https://fbref.com/en/players/a7b8c9d0/Claudio-Echeverri",
-        "sofascore": "https://www.sofascore.com/player/claudio-echeverri/1271834",
-        "display_name": "Claudio Echeverri",
-        "club": "River Plate",
-        "league": "Primera Division",
-        "position": "Attacking Midfielder",
-        "nationality": "Argentina",
-    },
-    "franco_mastantuono": {
-        "transfermarkt": "https://www.transfermarkt.com/franco-mastantuono/profil/spieler/932706",
-        "fbref": "https://fbref.com/en/players/b8c9d0e1/Franco-Mastantuono",
-        "sofascore": "https://www.sofascore.com/player/franco-mastantuono/1301234",
-        "display_name": "Franco Mastantuono",
-        "club": "River Plate",
-        "league": "Primera Division",
-        "position": "Attacking Midfielder",
-        "nationality": "Argentina",
-    },
-    "facundo_buonanotte": {
-        "transfermarkt": "https://www.transfermarkt.com/facundo-buonanotte/profil/spieler/820068",
-        "fbref": "https://fbref.com/en/players/c9d0e1f2/Facundo-Buonanotte",
-        "sofascore": "https://www.sofascore.com/player/facundo-buonanotte/1189432",
-        "display_name": "Facundo Buonanotte",
-        "club": "Brighton",
-        "league": "Premier League",
-        "position": "Attacking Midfielder",
-        "nationality": "Argentina",
-    },
-    "alejandro_garnacho": {
-        "transfermarkt": "https://www.transfermarkt.com/alejandro-garnacho/profil/spieler/740898",
-        "fbref": "https://fbref.com/en/players/d0e1f2a3/Alejandro-Garnacho",
-        "sofascore": "https://www.sofascore.com/player/alejandro-garnacho/1063421",
-        "display_name": "Alejandro Garnacho",
-        "club": "Manchester United",
-        "league": "Premier League",
-        "position": "Left Winger",
-        "nationality": "Argentina",
-    },
-    "exequiel_palacios": {
-        "transfermarkt": "https://www.transfermarkt.com/exequiel-palacios/profil/spieler/370695",
-        "fbref": "https://fbref.com/en/players/e1f2a3b4/Exequiel-Palacios",
-        "sofascore": "https://www.sofascore.com/player/exequiel-palacios/846312",
-        "display_name": "Exequiel Palacios",
-        "club": "Bayer Leverkusen",
-        "league": "Bundesliga",
-        "position": "Central Midfielder",
-        "nationality": "Argentina",
-    },
-    "equi_fernandez": {
-        "transfermarkt": "https://www.transfermarkt.com/equi-fernandez/profil/spieler/668009",
-        "fbref": "https://fbref.com/en/players/f2a3b4c5/Equi-Fernandez",
-        "sofascore": "https://www.sofascore.com/player/equi-fernandez/1035621",
-        "display_name": "Equi Fernández",
-        "club": "Boca Juniors",
-        "league": "Primera Division",
-        "position": "Central Midfielder",
-        "nationality": "Argentina",
-    },
-    "luca_langoni": {
-        "transfermarkt": "https://www.transfermarkt.com/luca-langoni/profil/spieler/730345",
-        "fbref": "https://fbref.com/en/players/a3b4c5d6/Luca-Langoni",
-        "sofascore": "https://www.sofascore.com/player/luca-langoni/1060234",
-        "display_name": "Luca Langoni",
-        "club": "Racing Club",
-        "league": "Primera Division",
-        "position": "Left Winger",
-        "nationality": "Argentina",
-    },
-    "nicolas_paz": {
-        "transfermarkt": "https://www.transfermarkt.com/nicolas-paz/profil/spieler/837268",
-        "fbref": "https://fbref.com/en/players/b4c5d6e7/Nicolas-Paz",
-        "sofascore": "https://www.sofascore.com/player/nicolas-paz/1198432",
-        "display_name": "Nicolás Paz",
-        "club": "Como 1907",
-        "league": "Serie A",
-        "position": "Central Midfielder",
-        "nationality": "Argentina",
-    },
-}
-
-# ── Combined registries ───────────────────────────────────────────────────────
-
-LIGA_PRO_RIVAL_URLS: dict[str, dict[str, str]] = {
-    **BARCELONA_SC_URLS,
-    **EMELEC_URLS,
-    **LDU_URLS,
-    **LIGA_PRO_OTHER_URLS,
-}
-
+# ── Comprehensive registry: all players across all leagues ───────────────────
 ALL_PLAYER_URLS: dict[str, dict[str, str]] = {
     **IDV_PLAYER_URLS,
-    **LIGA_PRO_RIVAL_URLS,
-    **FLAMENGO_URLS,
-    **PALMEIRAS_URLS,
-    **BRAZIL_OTHER_URLS,
-    **RIVER_PLATE_URLS,
-    **BOCA_JUNIORS_URLS,
-    **ARGENTINA_OTHER_URLS,
-    **COPA_LIB_URLS,
-    **EXTENDED_LIGA_PRO_URLS,
-    **IDV_GRADUATES_URLS,
-    **EUROPEAN_YOUTH_URLS,
-    # Phase 4 — expanded coverage
-    **PRIMEIRA_LIGA_URLS,
-    **EREDIVISIE_URLS,
-    **BELGIUM_PRO_LEAGUE_URLS,
-    **AUSTRIAN_BL_URLS,
-    **BRAZIL_SERIE_A_URLS,
-    **ARGENTINA_PRIMERA_URLS,
+    **ECUADOR_PLAYER_URLS,
+    **BRAZIL_PLAYER_URLS,
+    **ARGENTINA_PLAYER_URLS,
+    **COLOMBIA_PLAYER_URLS,
+    **PORTUGAL_PLAYER_URLS,
+    **NETHERLANDS_PLAYER_URLS,
+    **BELGIUM_PLAYER_URLS,
+    **AUSTRIA_PLAYER_URLS,
+    **MLS_PLAYER_URLS,
 }
-
-
-# ── Lookup helpers ────────────────────────────────────────────────────────────
-
-def get_player_urls(slug: str) -> dict[str, str] | None:
-    return ALL_PLAYER_URLS.get(slug)
-
-
-def get_transfermarkt_url(slug: str) -> str | None:
-    return ALL_PLAYER_URLS.get(slug, {}).get("transfermarkt")
-
-
-def get_fbref_url(slug: str) -> str | None:
-    return ALL_PLAYER_URLS.get(slug, {}).get("fbref")
-
-
-def name_to_slug(display_name: str) -> str:
-    import unicodedata
-    nfkd = unicodedata.normalize("NFKD", display_name)
-    ascii_name = nfkd.encode("ascii", "ignore").decode("ascii")
-    return ascii_name.lower().replace(" ", "_").replace("-", "_")
-
-
-def get_idv_squad_urls() -> dict[str, dict[str, str]]:
-    return IDV_PLAYER_URLS.copy()
-
-
-def get_liga_pro_rival_urls() -> dict[str, dict[str, str]]:
-    return LIGA_PRO_RIVAL_URLS.copy()
-
-
-def get_graduate_urls() -> dict[str, dict[str, str]]:
-    return IDV_GRADUATES_URLS.copy()
-
-
-def get_by_league(league: str) -> dict[str, dict[str, str]]:
-    league_lower = league.lower()
-    return {k: v for k, v in ALL_PLAYER_URLS.items()
-            if league_lower in str(v.get("league", "")).lower()}
-
-
-def get_by_club(club: str) -> dict[str, dict[str, str]]:
-    club_lower = club.lower()
-    return {k: v for k, v in ALL_PLAYER_URLS.items()
-            if club_lower in str(v.get("club", "")).lower()}
-
-
-if __name__ == "__main__":
-    idv = len(IDV_PLAYER_URLS)
-    rivals = len(LIGA_PRO_RIVAL_URLS)
-    bra = len(FLAMENGO_URLS) + len(PALMEIRAS_URLS) + len(BRAZIL_OTHER_URLS) + len(BRAZIL_SERIE_A_URLS)
-    arg = len(RIVER_PLATE_URLS) + len(BOCA_JUNIORS_URLS) + len(ARGENTINA_OTHER_URLS) + len(ARGENTINA_PRIMERA_URLS)
-    copa = len(COPA_LIB_URLS)
-    sa_other = len(EXTENDED_LIGA_PRO_URLS)
-    grads = len(IDV_GRADUATES_URLS)
-    eur = len(EUROPEAN_YOUTH_URLS) + len(PRIMEIRA_LIGA_URLS) + len(EREDIVISIE_URLS) + len(BELGIUM_PRO_LEAGUE_URLS) + len(AUSTRIAN_BL_URLS)
-    total = len(ALL_PLAYER_URLS)
-    print(f"IDV squad:           {idv}")
-    print(f"Liga Pro rivals:     {rivals}")
-    print(f"Brazilian clubs:     {bra}")
-    print(f"Argentine clubs:     {arg}")
-    print(f"Copa Lib pool:       {copa}")
-    print(f"S.America other:     {sa_other}")
-    print(f"IDV graduates:       {grads}")
-    print(f"European/pathway:    {eur}")
-    print(f"TOTAL:               {total}")

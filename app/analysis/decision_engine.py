@@ -37,8 +37,8 @@ _SELL_WEIGHTS = {
     "peak_signal": 0.10,
 }
 
-_BUY_THRESHOLD = 0.65
-_SELL_THRESHOLD = 0.65
+_BUY_THRESHOLD = 0.62
+_SELL_THRESHOLD = 0.55
 
 
 # ── Component extractors ──────────────────────────────────────────────────────

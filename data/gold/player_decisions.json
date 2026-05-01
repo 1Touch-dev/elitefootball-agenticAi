@@ -3,24 +3,24 @@
     "player_name": "Gabriel Villamíl",
     "age": 24,
     "decision": "BUY",
-    "decision_confidence": 0.877,
-    "buy_score": 0.7893,
-    "sell_score": 0.3496,
+    "decision_confidence": 0.868,
+    "buy_score": 0.7815,
+    "sell_score": 0.3495,
     "reasoning": [
       "Undervalued (gap component 1.00)",
-      "Imminent transfer window (95% 1yr prob)",
+      "Imminent transfer window (91% 1yr prob)",
       "Strong club fit (0.88)",
       "Best pathway: premier league (0% success)"
     ],
     "buy_components": {
       "undervalued": 1.0,
       "potential": 0.4551,
-      "transfer_probability": 0.952,
+      "transfer_probability": 0.9127,
       "club_fit": 0.8759,
       "data_confidence": 0.5379
     },
     "sell_components": {
-      "market_value": 0.8901,
+      "market_value": 0.8898,
       "declining_trajectory": 0.2,
       "age_risk": 0.0,
       "injury_risk": 0.1502,
@@ -29,69 +29,177 @@
     "supporting_data": {
       "valuation_score": 58.91,
       "potential_score": 61.86,
-      "blended_value_eur": 7127667.0,
-      "transfer_probability_1y": 0.952,
+      "blended_value_eur": 7086100.0,
+      "transfer_probability_1y": 0.9127,
       "best_fit_club": "real madrid",
       "best_pathway": "premier league"
     }
   },
   {
-    "player_name": "Dylan Borrero",
+    "player_name": "Reinier",
     "age": 24,
     "decision": "BUY",
-    "decision_confidence": 0.813,
-    "buy_score": 0.7319,
-    "sell_score": 0.3405,
+    "decision_confidence": 0.861,
+    "buy_score": 0.7752,
+    "sell_score": 0.337,
     "reasoning": [
       "Undervalued (gap component 1.00)",
-      "Imminent transfer window (85% 1yr prob)",
+      "Imminent transfer window (88% 1yr prob)",
+      "Strong club fit (0.95)",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 1.0,
+      "potential": 0.3836,
+      "transfer_probability": 0.8794,
+      "club_fit": 0.9495,
+      "data_confidence": 0.6104
+    },
+    "sell_components": {
+      "market_value": 0.8518,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1428,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 54.14,
+      "potential_score": 56.85,
+      "blended_value_eur": 3616684.0,
+      "transfer_probability_1y": 0.8794,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Jhegson Méndez",
+    "age": 29,
+    "decision": "BUY",
+    "decision_confidence": 0.805,
+    "buy_score": 0.7247,
+    "sell_score": 0.4961,
+    "reasoning": [
+      "Undervalued (gap component 1.00)",
+      "Imminent transfer window (82% 1yr prob)",
+      "Strong club fit (0.77)",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 1.0,
+      "potential": 0.2964,
+      "transfer_probability": 0.8212,
+      "club_fit": 0.7655,
+      "data_confidence": 0.7154
+    },
+    "sell_components": {
+      "market_value": 0.852,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.75,
+      "injury_risk": 0.2036,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 50.75,
+      "potential_score": 50.75,
+      "blended_value_eur": 3623806.0,
+      "transfer_probability_1y": 0.8212,
+      "best_fit_club": "inter milan",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Noah Ohio",
+    "age": 23,
+    "decision": "BUY",
+    "decision_confidence": 0.803,
+    "buy_score": 0.7223,
+    "sell_score": 0.3518,
+    "reasoning": [
+      "Undervalued (gap component 1.00)",
+      "Imminent transfer window (88% 1yr prob)",
       "Strong club fit (0.81)",
       "Best pathway: premier league (0% success)"
     ],
     "buy_components": {
       "undervalued": 1.0,
-      "potential": 0.3524,
-      "transfer_probability": 0.8455,
-      "club_fit": 0.8063,
-      "data_confidence": 0.5379
+      "potential": 0.3239,
+      "transfer_probability": 0.8782,
+      "club_fit": 0.8145,
+      "data_confidence": 0.4354
     },
     "sell_components": {
-      "market_value": 0.8503,
+      "market_value": 0.8457,
       "declining_trajectory": 0.2,
       "age_risk": 0.0,
-      "injury_risk": 0.1696,
+      "injury_risk": 0.254,
       "peak_signal": 0.1
     },
     "supporting_data": {
-      "valuation_score": 52.07,
-      "potential_score": 54.67,
-      "blended_value_eur": 3519859.0,
-      "transfer_probability_1y": 0.8455,
+      "valuation_score": 47.88,
+      "potential_score": 52.67,
+      "blended_value_eur": 3243903.0,
+      "transfer_probability_1y": 0.8782,
       "best_fit_club": "benfica",
       "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Rodrigo Conceição",
+    "age": 26,
+    "decision": "BUY",
+    "decision_confidence": 0.794,
+    "buy_score": 0.7148,
+    "sell_score": 0.3971,
+    "reasoning": [
+      "Undervalued (gap component 1.00)",
+      "Imminent transfer window (86% 1yr prob)",
+      "Strong club fit (0.81)",
+      "Best pathway: eredivisie (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 1.0,
+      "potential": 0.2129,
+      "transfer_probability": 0.8622,
+      "club_fit": 0.8073,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8339,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.135,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 44.9,
+      "potential_score": 44.9,
+      "blended_value_eur": 2630016.0,
+      "transfer_probability_1y": 0.8622,
+      "best_fit_club": "villarreal",
+      "best_pathway": "eredivisie"
     }
   },
   {
     "player_name": "Luis Segovia",
     "age": 28,
     "decision": "BUY",
-    "decision_confidence": 0.811,
-    "buy_score": 0.7298,
-    "sell_score": 0.4716,
+    "decision_confidence": 0.794,
+    "buy_score": 0.7145,
+    "sell_score": 0.4718,
     "reasoning": [
       "Undervalued (gap component 1.00)",
-      "Imminent transfer window (93% 1yr prob)",
+      "Imminent transfer window (85% 1yr prob)",
       "Best pathway: austrian bundesliga (0% success)"
     ],
     "buy_components": {
       "undervalued": 1.0,
       "potential": 0.3677,
-      "transfer_probability": 0.9307,
+      "transfer_probability": 0.8541,
       "club_fit": 0.653,
       "data_confidence": 0.5379
     },
     "sell_components": {
-      "market_value": 0.8664,
+      "market_value": 0.8672,
       "declining_trajectory": 0.2,
       "age_risk": 0.625,
       "injury_risk": 0.1779,
@@ -100,8 +208,78 @@
     "supporting_data": {
       "valuation_score": 55.74,
       "potential_score": 55.74,
-      "blended_value_eur": 4681282.0,
-      "transfer_probability_1y": 0.9307,
+      "blended_value_eur": 4746259.0,
+      "transfer_probability_1y": 0.8541,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Dylan Borrero",
+    "age": 24,
+    "decision": "BUY",
+    "decision_confidence": 0.784,
+    "buy_score": 0.7054,
+    "sell_score": 0.3417,
+    "reasoning": [
+      "Undervalued (gap component 1.00)",
+      "Imminent transfer window (71% 1yr prob)",
+      "Strong club fit (0.81)",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 1.0,
+      "potential": 0.3524,
+      "transfer_probability": 0.7129,
+      "club_fit": 0.8063,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.8541,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1696,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 52.07,
+      "potential_score": 54.67,
+      "blended_value_eur": 3762017.0,
+      "transfer_probability_1y": 0.7129,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Michael Estrada",
+    "age": 30,
+    "decision": "BUY",
+    "decision_confidence": 0.721,
+    "buy_score": 0.6489,
+    "sell_score": 0.5219,
+    "reasoning": [
+      "Undervalued (gap component 1.00)",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 1.0,
+      "potential": 0.3959,
+      "transfer_probability": 0.4429,
+      "club_fit": 0.6068,
+      "data_confidence": 0.7029
+    },
+    "sell_components": {
+      "market_value": 0.8568,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.875,
+      "injury_risk": 0.1988,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 57.71,
+      "potential_score": 57.71,
+      "blended_value_eur": 3951595.0,
+      "transfer_probability_1y": 0.4429,
       "best_fit_club": "real madrid",
       "best_pathway": "austrian bundesliga"
     }
@@ -110,23 +288,23 @@
     "player_name": "Pedro Velasco",
     "age": 32,
     "decision": "BUY",
-    "decision_confidence": 0.748,
-    "buy_score": 0.6734,
-    "sell_score": 0.5404,
+    "decision_confidence": 0.717,
+    "buy_score": 0.6453,
+    "sell_score": 0.5436,
     "reasoning": [
       "Undervalued (gap component 1.00)",
-      "Imminent transfer window (84% 1yr prob)",
+      "Imminent transfer window (70% 1yr prob)",
       "Best pathway: austrian bundesliga (0% success)"
     ],
     "buy_components": {
       "undervalued": 1.0,
       "potential": 0.2613,
-      "transfer_probability": 0.8371,
+      "transfer_probability": 0.6967,
       "club_fit": 0.5789,
       "data_confidence": 0.5379
     },
     "sell_components": {
-      "market_value": 0.8291,
+      "market_value": 0.8397,
       "declining_trajectory": 0.2,
       "age_risk": 0.995,
       "injury_risk": 0.2178,
@@ -135,89 +313,125 @@
     "supporting_data": {
       "valuation_score": 48.29,
       "potential_score": 48.29,
-      "blended_value_eur": 2416266.0,
-      "transfer_probability_1y": 0.8371,
+      "blended_value_eur": 2916292.0,
+      "transfer_probability_1y": 0.6967,
       "best_fit_club": "real madrid",
       "best_pathway": "austrian bundesliga"
     }
   },
   {
-    "player_name": "Renato Ibarra",
-    "age": 35,
-    "decision": "HOLD",
-    "decision_confidence": 0.899,
-    "buy_score": 0.6349,
-    "sell_score": 0.534,
+    "player_name": "Jackson Porozo",
+    "age": 25,
+    "decision": "BUY",
+    "decision_confidence": 0.714,
+    "buy_score": 0.6427,
+    "sell_score": 0.3826,
     "reasoning": [
-      "Approaching buy criteria — monitor closely",
-      "Some sell pressure — reassess in 6 months",
-      "No strong directional signal at this time",
+      "Undervalued (gap component 0.72)",
+      "Imminent transfer window (89% 1yr prob)",
+      "Strong club fit (0.80)",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.717,
+      "potential": 0.324,
+      "transfer_probability": 0.8885,
+      "club_fit": 0.8046,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.8514,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.2258,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 50.17,
+      "potential_score": 52.68,
+      "blended_value_eur": 3587296.0,
+      "transfer_probability_1y": 0.8885,
+      "best_fit_club": "sporting cp",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Damián Díaz",
+    "age": 40,
+    "decision": "BUY",
+    "decision_confidence": 0.702,
+    "buy_score": 0.6316,
+    "sell_score": 0.5353,
+    "reasoning": [
+      "Undervalued (gap component 1.00)",
+      "Imminent transfer window (61% 1yr prob)",
       "Best pathway: austrian bundesliga (0% success)"
     ],
     "buy_components": {
       "undervalued": 1.0,
-      "potential": 0.2244,
-      "transfer_probability": 0.6427,
-      "club_fit": 0.5484,
+      "potential": 0.162,
+      "transfer_probability": 0.611,
+      "club_fit": 0.6724,
       "data_confidence": 0.6804
     },
     "sell_components": {
-      "market_value": 0.8322,
+      "market_value": 0.8278,
       "declining_trajectory": 0.2,
       "age_risk": 1.0,
-      "injury_risk": 0.162,
+      "injury_risk": 0.18,
       "peak_signal": 0.1
     },
     "supporting_data": {
-      "valuation_score": 45.71,
-      "potential_score": 45.71,
-      "blended_value_eur": 2552992.0,
-      "transfer_probability_1y": 0.6427,
+      "valuation_score": 41.34,
+      "potential_score": 41.34,
+      "blended_value_eur": 2360017.0,
+      "transfer_probability_1y": 0.611,
       "best_fit_club": "real madrid",
       "best_pathway": "austrian bundesliga"
     }
   },
   {
-    "player_name": "Alan Minda",
-    "age": 22,
-    "decision": "HOLD",
-    "decision_confidence": 0.718,
-    "buy_score": 0.6331,
-    "sell_score": 0.351,
+    "player_name": "Nicolás Capaldo",
+    "age": 27,
+    "decision": "BUY",
+    "decision_confidence": 0.694,
+    "buy_score": 0.6243,
+    "sell_score": 0.4631,
     "reasoning": [
-      "Approaching buy criteria — monitor closely",
-      "No strong directional signal at this time",
-      "Best pathway: premier league (0% success)"
+      "Undervalued (gap component 0.62)",
+      "Imminent transfer window (76% 1yr prob)",
+      "Strong club fit (0.86)",
+      "Best pathway: austrian bundesliga (0% success)"
     ],
     "buy_components": {
-      "undervalued": 0.64,
-      "potential": 0.3773,
-      "transfer_probability": 0.9105,
-      "club_fit": 0.8076,
-      "data_confidence": 0.4354
+      "undervalued": 0.6245,
+      "potential": 0.407,
+      "transfer_probability": 0.7605,
+      "club_fit": 0.8619,
+      "data_confidence": 0.5379
     },
     "sell_components": {
-      "market_value": 0.8543,
+      "market_value": 0.8912,
       "declining_trajectory": 0.2,
-      "age_risk": 0.0,
-      "injury_risk": 0.2317,
+      "age_risk": 0.5,
+      "injury_risk": 0.238,
       "peak_signal": 0.1
     },
     "supporting_data": {
-      "valuation_score": 51.28,
-      "potential_score": 56.41,
-      "blended_value_eur": 3779291.0,
-      "transfer_probability_1y": 0.9105,
-      "best_fit_club": "benfica",
-      "best_pathway": "premier league"
+      "valuation_score": 58.49,
+      "potential_score": 58.49,
+      "blended_value_eur": 7265355.0,
+      "transfer_probability_1y": 0.7605,
+      "best_fit_club": "inter milan",
+      "best_pathway": "austrian bundesliga"
     }
   },
   {
     "player_name": "Óscar Zambrano",
     "age": 22,
     "decision": "HOLD",
-    "decision_confidence": 0.704,
-    "buy_score": 0.6262,
+    "decision_confidence": 0.713,
+    "buy_score": 0.6171,
     "sell_score": 0.3298,
     "reasoning": [
       "Approaching buy criteria — monitor closely",
@@ -227,12 +441,12 @@
     "buy_components": {
       "undervalued": 0.5065,
       "potential": 0.276,
-      "transfer_probability": 0.9668,
+      "transfer_probability": 0.9211,
       "club_fit": 0.9592,
       "data_confidence": 0.6804
     },
     "sell_components": {
-      "market_value": 0.8454,
+      "market_value": 0.8453,
       "declining_trajectory": 0.2,
       "age_risk": 0.0,
       "injury_risk": 0.108,
@@ -241,19 +455,232 @@
     "supporting_data": {
       "valuation_score": 44.84,
       "potential_score": 49.32,
-      "blended_value_eur": 3228719.0,
-      "transfer_probability_1y": 0.9668,
+      "blended_value_eur": 3223124.0,
+      "transfer_probability_1y": 0.9211,
       "best_fit_club": "brighton",
       "best_pathway": "eredivisie"
     }
   },
   {
-    "player_name": "Moisés Caicedo",
-    "age": 24,
+    "player_name": "Alan Minda",
+    "age": 22,
     "decision": "HOLD",
-    "decision_confidence": 0.911,
-    "buy_score": 0.4924,
-    "sell_score": 0.4036,
+    "decision_confidence": 0.743,
+    "buy_score": 0.6091,
+    "sell_score": 0.3518,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.64,
+      "potential": 0.3773,
+      "transfer_probability": 0.7907,
+      "club_fit": 0.8076,
+      "data_confidence": 0.4354
+    },
+    "sell_components": {
+      "market_value": 0.8567,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2317,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 51.28,
+      "potential_score": 56.41,
+      "blended_value_eur": 3944565.0,
+      "transfer_probability_1y": 0.7907,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Renato Ibarra",
+    "age": 35,
+    "decision": "HOLD",
+    "decision_confidence": 0.936,
+    "buy_score": 0.5967,
+    "sell_score": 0.5329,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 1.0,
+      "potential": 0.2244,
+      "transfer_probability": 0.4514,
+      "club_fit": 0.5484,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8286,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.162,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 45.71,
+      "potential_score": 45.71,
+      "blended_value_eur": 2393965.0,
+      "transfer_probability_1y": 0.4514,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Byron Castillo",
+    "age": 27,
+    "decision": "HOLD",
+    "decision_confidence": 0.856,
+    "buy_score": 0.574,
+    "sell_score": 0.4304,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 1.0,
+      "potential": 0.3131,
+      "transfer_probability": 0.1133,
+      "club_fit": 0.7954,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.8275,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.5,
+      "injury_risk": 0.1474,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 51.92,
+      "potential_score": 51.92,
+      "blended_value_eur": 2349034.0,
+      "transfer_probability_1y": 0.1133,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Devyne Rensch",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.801,
+    "buy_score": 0.558,
+    "sell_score": 0.3588,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.286,
+      "potential": 0.5131,
+      "transfer_probability": 0.9207,
+      "club_fit": 0.7439,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9054,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.181,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.93,
+      "potential_score": 65.92,
+      "blended_value_eur": 9341680.0,
+      "transfer_probability_1y": 0.9207,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Angelo Preciado",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.957,
+    "buy_score": 0.5251,
+    "sell_score": 0.4821,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.4415,
+      "potential": 0.3039,
+      "transfer_probability": 0.7555,
+      "club_fit": 0.7294,
+      "data_confidence": 0.5612
+    },
+    "sell_components": {
+      "market_value": 0.8467,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.2872,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 51.27,
+      "potential_score": 51.27,
+      "blended_value_eur": 3303762.0,
+      "transfer_probability_1y": 0.7555,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Facundo Buonanotte",
+    "age": 21,
+    "decision": "HOLD",
+    "decision_confidence": 0.853,
+    "buy_score": 0.509,
+    "sell_score": 0.3617,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5834,
+      "transfer_probability": 0.8981,
+      "club_fit": 0.8491,
+      "data_confidence": 0.562
+    },
+    "sell_components": {
+      "market_value": 0.927,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1573,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.03,
+      "potential_score": 70.84,
+      "blended_value_eur": 13707577.0,
+      "transfer_probability_1y": 0.8981,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Richard Ríos",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.919,
+    "buy_score": 0.4986,
+    "sell_score": 0.4171,
     "reasoning": [
       "Approaching buy criteria — monitor closely",
       "Some sell pressure — reassess in 6 months",
@@ -262,23 +689,165 @@
     ],
     "buy_components": {
       "undervalued": 0.0,
-      "potential": 0.4884,
-      "transfer_probability": 0.9334,
-      "club_fit": 0.8495,
-      "data_confidence": 0.562
+      "potential": 0.4994,
+      "transfer_probability": 0.8917,
+      "club_fit": 0.9311,
+      "data_confidence": 0.5572
     },
     "sell_components": {
-      "market_value": 0.9929,
+      "market_value": 0.9068,
       "declining_trajectory": 0.2,
-      "age_risk": 0.0,
-      "injury_risk": 0.3046,
+      "age_risk": 0.1667,
+      "injury_risk": 0.3451,
       "peak_signal": 0.1
     },
     "supporting_data": {
-      "valuation_score": 61.13,
-      "potential_score": 64.19,
-      "blended_value_eur": 44085598.0,
-      "transfer_probability_1y": 0.9334,
+      "valuation_score": 61.87,
+      "potential_score": 64.96,
+      "blended_value_eur": 9588545.0,
+      "transfer_probability_1y": 0.8917,
+      "best_fit_club": "villarreal",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Arthur Vermeeren",
+    "age": 21,
+    "decision": "HOLD",
+    "decision_confidence": 0.865,
+    "buy_score": 0.4959,
+    "sell_score": 0.3614,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4987,
+      "transfer_probability": 0.8672,
+      "club_fit": 0.8963,
+      "data_confidence": 0.6338
+    },
+    "sell_components": {
+      "market_value": 0.9173,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.175,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 54.09,
+      "potential_score": 64.91,
+      "blended_value_eur": 11543500.0,
+      "transfer_probability_1y": 0.8672,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Patson Daka",
+    "age": 27,
+    "decision": "HOLD",
+    "decision_confidence": 0.957,
+    "buy_score": 0.4956,
+    "sell_score": 0.453,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (96% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.4325,
+      "potential": 0.3521,
+      "transfer_probability": 0.5352,
+      "club_fit": 0.7877,
+      "data_confidence": 0.5264
+    },
+    "sell_components": {
+      "market_value": 0.859,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.5,
+      "injury_risk": 0.2356,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 54.65,
+      "potential_score": 54.65,
+      "blended_value_eur": 4102800.0,
+      "transfer_probability_1y": 0.5352,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Lorran",
+    "age": 19,
+    "decision": "HOLD",
+    "decision_confidence": 0.852,
+    "buy_score": 0.4948,
+    "sell_score": 0.3468,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.518,
+      "transfer_probability": 0.9018,
+      "club_fit": 0.8742,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.8775,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1569,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 49.08,
+      "potential_score": 66.26,
+      "blended_value_eur": 5699099.0,
+      "transfer_probability_1y": 0.9018,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "João Gomes",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.942,
+    "buy_score": 0.4843,
+    "sell_score": 0.4259,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4987,
+      "transfer_probability": 0.8065,
+      "club_fit": 0.8494,
+      "data_confidence": 0.7096
+    },
+    "sell_components": {
+      "market_value": 0.9517,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.3139,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 61.82,
+      "potential_score": 64.91,
+      "blended_value_eur": 21238150.0,
+      "transfer_probability_1y": 0.8065,
       "best_fit_club": "real madrid",
       "best_pathway": "austrian bundesliga"
     }
@@ -287,8 +856,8 @@
     "player_name": "Kendry Páez",
     "age": 18,
     "decision": "HOLD",
-    "decision_confidence": 0.862,
-    "buy_score": 0.4869,
+    "decision_confidence": 0.873,
+    "buy_score": 0.4765,
     "sell_score": 0.349,
     "reasoning": [
       "Approaching buy criteria — monitor closely",
@@ -298,7 +867,7 @@
     "buy_components": {
       "undervalued": 0.0,
       "potential": 0.3609,
-      "transfer_probability": 0.9488,
+      "transfer_probability": 0.8969,
       "club_fit": 0.9624,
       "data_confidence": 0.6256
     },
@@ -312,19 +881,90 @@
     "supporting_data": {
       "valuation_score": 40.93,
       "potential_score": 55.26,
-      "blended_value_eur": 5219884.0,
-      "transfer_probability_1y": 0.9488,
+      "blended_value_eur": 5217356.0,
+      "transfer_probability_1y": 0.8969,
       "best_fit_club": "benfica",
       "best_pathway": "premier league"
     }
   },
   {
-    "player_name": "Piero Hincapié",
+    "player_name": "Karim Konaté",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.89,
+    "buy_score": 0.4741,
+    "sell_score": 0.3638,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5509,
+      "transfer_probability": 0.8232,
+      "club_fit": 0.7477,
+      "data_confidence": 0.5959
+    },
+    "sell_components": {
+      "market_value": 0.9141,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1971,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.33,
+      "potential_score": 68.56,
+      "blended_value_eur": 10904060.0,
+      "transfer_probability_1y": 0.8232,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Albert Sambi Lokonga",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.949,
+    "buy_score": 0.4687,
+    "sell_score": 0.4179,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4261,
+      "transfer_probability": 0.8095,
+      "club_fit": 0.8815,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.9077,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.126,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.83,
+      "potential_score": 59.83,
+      "blended_value_eur": 9732804.0,
+      "transfer_probability_1y": 0.8095,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Quinten Timber",
     "age": 24,
     "decision": "HOLD",
-    "decision_confidence": 0.913,
-    "buy_score": 0.468,
-    "sell_score": 0.3807,
+    "decision_confidence": 0.902,
+    "buy_score": 0.4685,
+    "sell_score": 0.3705,
     "reasoning": [
       "Approaching buy criteria — monitor closely",
       "No strong directional signal at this time",
@@ -332,23 +972,729 @@
     ],
     "buy_components": {
       "undervalued": 0.0,
-      "potential": 0.4937,
-      "transfer_probability": 0.9674,
-      "club_fit": 0.7173,
-      "data_confidence": 0.4354
+      "potential": 0.4601,
+      "transfer_probability": 0.8549,
+      "club_fit": 0.8976,
+      "data_confidence": 0.4785
     },
     "sell_components": {
-      "market_value": 0.9636,
+      "market_value": 0.9275,
       "declining_trajectory": 0.2,
       "age_risk": 0.0,
-      "injury_risk": 0.2108,
+      "injury_risk": 0.2152,
       "peak_signal": 0.1
     },
     "supporting_data": {
-      "valuation_score": 61.49,
-      "potential_score": 64.56,
-      "blended_value_eur": 26231056.0,
-      "transfer_probability_1y": 0.9674,
+      "valuation_score": 59.25,
+      "potential_score": 62.21,
+      "blended_value_eur": 13824006.0,
+      "transfer_probability_1y": 0.8549,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Endrick",
+    "age": 19,
+    "decision": "HOLD",
+    "decision_confidence": 0.913,
+    "buy_score": 0.4684,
+    "sell_score": 0.3819,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5936,
+      "transfer_probability": 0.7833,
+      "club_fit": 0.7622,
+      "data_confidence": 0.4904
+    },
+    "sell_components": {
+      "market_value": 0.9313,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2835,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 53.0,
+      "potential_score": 71.55,
+      "blended_value_eur": 14792359.0,
+      "transfer_probability_1y": 0.7833,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "António Silva",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.905,
+    "buy_score": 0.4652,
+    "sell_score": 0.3701,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4381,
+      "transfer_probability": 0.9525,
+      "club_fit": 0.811,
+      "data_confidence": 0.4354
+    },
+    "sell_components": {
+      "market_value": 0.9164,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2345,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 55.15,
+      "potential_score": 60.67,
+      "blended_value_eur": 11353393.0,
+      "transfer_probability_1y": 0.9525,
+      "best_fit_club": "brighton",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Gonçalo Inácio",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.907,
+    "buy_score": 0.4647,
+    "sell_score": 0.3718,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4206,
+      "transfer_probability": 0.9301,
+      "club_fit": 0.8098,
+      "data_confidence": 0.5203
+    },
+    "sell_components": {
+      "market_value": 0.9321,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2144,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 56.61,
+      "potential_score": 59.44,
+      "blended_value_eur": 14999382.0,
+      "transfer_probability_1y": 0.9301,
+      "best_fit_club": "benfica",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Matías Soulé",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.914,
+    "buy_score": 0.4589,
+    "sell_score": 0.3726,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5269,
+      "transfer_probability": 0.7854,
+      "club_fit": 0.7405,
+      "data_confidence": 0.5905
+    },
+    "sell_components": {
+      "market_value": 0.9405,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.203,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 60.8,
+      "potential_score": 66.88,
+      "blended_value_eur": 17398215.0,
+      "transfer_probability_1y": 0.7854,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Lutsharel Geertruida",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.944,
+    "buy_score": 0.4571,
+    "sell_score": 0.401,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4097,
+      "transfer_probability": 0.8792,
+      "club_fit": 0.7156,
+      "data_confidence": 0.7154
+    },
+    "sell_components": {
+      "market_value": 0.9347,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.1814,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 55.89,
+      "potential_score": 58.68,
+      "blended_value_eur": 15702000.0,
+      "transfer_probability_1y": 0.8792,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Vanderson",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.908,
+    "buy_score": 0.4565,
+    "sell_score": 0.3643,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4573,
+      "transfer_probability": 0.8958,
+      "club_fit": 0.7652,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9201,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1884,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.06,
+      "potential_score": 62.01,
+      "blended_value_eur": 12139215.0,
+      "transfer_probability_1y": 0.8958,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Mats Wieffer",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.998,
+    "buy_score": 0.4498,
+    "sell_score": 0.4517,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4629,
+      "transfer_probability": 0.8635,
+      "club_fit": 0.7174,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.9413,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2841,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.4,
+      "potential_score": 62.4,
+      "blended_value_eur": 17648727.0,
+      "transfer_probability_1y": 0.8635,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Claudio Echeverri",
+    "age": 20,
+    "decision": "HOLD",
+    "decision_confidence": 0.908,
+    "buy_score": 0.4465,
+    "sell_score": 0.3545,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2733,
+      "transfer_probability": 0.8639,
+      "club_fit": 0.9624,
+      "data_confidence": 0.6104
+    },
+    "sell_components": {
+      "market_value": 0.8898,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1836,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 40.94,
+      "potential_score": 49.13,
+      "blended_value_eur": 7093528.0,
+      "transfer_probability_1y": 0.8639,
+      "best_fit_club": "benfica",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Xavi Simons",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.951,
+    "buy_score": 0.4456,
+    "sell_score": 0.3968,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5489,
+      "transfer_probability": 0.6275,
+      "club_fit": 0.8498,
+      "data_confidence": 0.5545
+    },
+    "sell_components": {
+      "market_value": 0.9625,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.3204,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.2,
+      "potential_score": 68.42,
+      "blended_value_eur": 25716995.0,
+      "transfer_probability_1y": 0.6275,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Yan Couto",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.922,
+    "buy_score": 0.4439,
+    "sell_score": 0.3661,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5084,
+      "transfer_probability": 0.6393,
+      "club_fit": 0.8815,
+      "data_confidence": 0.5668
+    },
+    "sell_components": {
+      "market_value": 0.9253,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1898,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.63,
+      "potential_score": 65.59,
+      "blended_value_eur": 13302575.0,
+      "transfer_probability_1y": 0.6393,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Brian Brobbey",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.948,
+    "buy_score": 0.437,
+    "sell_score": 0.3849,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5031,
+      "transfer_probability": 0.7522,
+      "club_fit": 0.714,
+      "data_confidence": 0.5369
+    },
+    "sell_components": {
+      "market_value": 0.9444,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2774,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.11,
+      "potential_score": 65.22,
+      "blended_value_eur": 18669367.0,
+      "transfer_probability_1y": 0.7522,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Valentín Carboni",
+    "age": 21,
+    "decision": "HOLD",
+    "decision_confidence": 0.907,
+    "buy_score": 0.4345,
+    "sell_score": 0.3418,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2746,
+      "transfer_probability": 0.8676,
+      "club_fit": 0.9608,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.8713,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1363,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 41.02,
+      "potential_score": 49.22,
+      "blended_value_eur": 5107720.0,
+      "transfer_probability_1y": 0.8676,
+      "best_fit_club": "benfica",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Geny Catamo",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.959,
+    "buy_score": 0.4344,
+    "sell_score": 0.3936,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4443,
+      "transfer_probability": 0.7535,
+      "club_fit": 0.7915,
+      "data_confidence": 0.5391
+    },
+    "sell_components": {
+      "market_value": 0.9042,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.1933,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 58.19,
+      "potential_score": 61.1,
+      "blended_value_eur": 9157785.0,
+      "transfer_probability_1y": 0.7535,
+      "best_fit_club": "villarreal",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Adam Daghim",
+    "age": 20,
+    "decision": "HOLD",
+    "decision_confidence": 0.93,
+    "buy_score": 0.4329,
+    "sell_score": 0.3631,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4834,
+      "transfer_probability": 0.7842,
+      "club_fit": 0.7442,
+      "data_confidence": 0.4354
+    },
+    "sell_components": {
+      "market_value": 0.8936,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2332,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 53.2,
+      "potential_score": 63.84,
+      "blended_value_eur": 7583175.0,
+      "transfer_probability_1y": 0.7842,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Sékou Koïta",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.998,
+    "buy_score": 0.4258,
+    "sell_score": 0.428,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (96% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.2515,
+      "potential": 0.2374,
+      "transfer_probability": 0.6261,
+      "club_fit": 0.799,
+      "data_confidence": 0.4594
+    },
+    "sell_components": {
+      "market_value": 0.8535,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.3017,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 46.62,
+      "potential_score": 46.62,
+      "blended_value_eur": 3727759.0,
+      "transfer_probability_1y": 0.6261,
+      "best_fit_club": "villarreal",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Christoph Baumgartner",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.979,
+    "buy_score": 0.424,
+    "sell_score": 0.4452,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4711,
+      "transfer_probability": 0.5588,
+      "club_fit": 0.8826,
+      "data_confidence": 0.6204
+    },
+    "sell_components": {
+      "market_value": 0.9364,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2506,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.98,
+      "potential_score": 62.98,
+      "blended_value_eur": 16202672.0,
+      "transfer_probability_1y": 0.5588,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Ibrahim Osman",
+    "age": 21,
+    "decision": "HOLD",
+    "decision_confidence": 0.925,
+    "buy_score": 0.4236,
+    "sell_score": 0.3489,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4413,
+      "transfer_probability": 0.6795,
+      "club_fit": 0.8075,
+      "data_confidence": 0.562
+    },
+    "sell_components": {
+      "market_value": 0.8754,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1752,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 50.74,
+      "potential_score": 60.89,
+      "blended_value_eur": 5493053.0,
+      "transfer_probability_1y": 0.6795,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Exequiel Palacios",
+    "age": 27,
+    "decision": "HOLD",
+    "decision_confidence": 0.957,
+    "buy_score": 0.4219,
+    "sell_score": 0.4646,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3786,
+      "transfer_probability": 0.7488,
+      "club_fit": 0.862,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9309,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.5,
+      "injury_risk": 0.169,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 56.5,
+      "potential_score": 56.5,
+      "blended_value_eur": 14680699.0,
+      "transfer_probability_1y": 0.7488,
+      "best_fit_club": "inter milan",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Marcos Leonardo",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.935,
+    "buy_score": 0.4203,
+    "sell_score": 0.3555,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.293,
+      "transfer_probability": 0.8217,
+      "club_fit": 0.8023,
+      "data_confidence": 0.6235
+    },
+    "sell_components": {
+      "market_value": 0.9055,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1589,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 45.92,
+      "potential_score": 50.51,
+      "blended_value_eur": 9367357.0,
+      "transfer_probability_1y": 0.8217,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Rasmus Kristensen",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.93,
+    "buy_score": 0.4195,
+    "sell_score": 0.4893,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3761,
+      "transfer_probability": 0.8281,
+      "club_fit": 0.6587,
+      "data_confidence": 0.6104
+    },
+    "sell_components": {
+      "market_value": 0.8994,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.2301,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 56.33,
+      "potential_score": 56.33,
+      "blended_value_eur": 8398395.0,
+      "transfer_probability_1y": 0.8281,
       "best_fit_club": "real madrid",
       "best_pathway": "austrian bundesliga"
     }
@@ -357,9 +1703,9 @@
     "player_name": "Jordy Caicedo",
     "age": 28,
     "decision": "HOLD",
-    "decision_confidence": 0.981,
-    "buy_score": 0.4592,
-    "sell_score": 0.4785,
+    "decision_confidence": 0.943,
+    "buy_score": 0.4193,
+    "sell_score": 0.4763,
     "reasoning": [
       "Approaching buy criteria — monitor closely",
       "Some sell pressure — reassess in 6 months",
@@ -369,12 +1715,12 @@
     "buy_components": {
       "undervalued": 0.3715,
       "potential": 0.2004,
-      "transfer_probability": 0.7027,
+      "transfer_probability": 0.5032,
       "club_fit": 0.7257,
       "data_confidence": 0.4823
     },
     "sell_components": {
-      "market_value": 0.8398,
+      "market_value": 0.8327,
       "declining_trajectory": 0.2,
       "age_risk": 0.625,
       "injury_risk": 0.2768,
@@ -383,44 +1729,914 @@
     "supporting_data": {
       "valuation_score": 44.03,
       "potential_score": 44.03,
-      "blended_value_eur": 2919482.0,
-      "transfer_probability_1y": 0.7027,
+      "blended_value_eur": 2575854.0,
+      "transfer_probability_1y": 0.5032,
       "best_fit_club": "nottingham forest",
       "best_pathway": "premier league"
     }
   },
   {
-    "player_name": "Willian Pacho",
-    "age": 24,
+    "player_name": "Jorge Carrascal",
+    "age": 27,
     "decision": "HOLD",
-    "decision_confidence": 0.921,
-    "buy_score": 0.4583,
-    "sell_score": 0.3788,
+    "decision_confidence": 0.965,
+    "buy_score": 0.417,
+    "sell_score": 0.4517,
     "reasoning": [
       "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2461,
+      "transfer_probability": 0.8295,
+      "club_fit": 0.9354,
+      "data_confidence": 0.4925
+    },
+    "sell_components": {
+      "market_value": 0.878,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.5,
+      "injury_risk": 0.189,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 47.23,
+      "potential_score": 47.23,
+      "blended_value_eur": 5751142.0,
+      "transfer_probability_1y": 0.8295,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "José Cifuentes",
+    "age": 27,
+    "decision": "HOLD",
+    "decision_confidence": 0.973,
+    "buy_score": 0.4101,
+    "sell_score": 0.4368,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.229,
+      "transfer_probability": 0.7225,
+      "club_fit": 0.9357,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8597,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.5,
+      "injury_risk": 0.126,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 46.03,
+      "potential_score": 46.03,
+      "blended_value_eur": 4157756.0,
+      "transfer_probability_1y": 0.7225,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Lucas Paquetá",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.902,
+    "buy_score": 0.4084,
+    "sell_score": 0.5063,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
       "No strong directional signal at this time",
       "Best pathway: austrian bundesliga (100% success)"
     ],
     "buy_components": {
       "undervalued": 0.0,
-      "potential": 0.4253,
-      "transfer_probability": 0.9687,
-      "club_fit": 0.7648,
-      "data_confidence": 0.4354
+      "potential": 0.2036,
+      "transfer_probability": 0.8293,
+      "club_fit": 0.8711,
+      "data_confidence": 0.6097
     },
     "sell_components": {
-      "market_value": 0.9653,
+      "market_value": 0.9222,
       "declining_trajectory": 0.2,
-      "age_risk": 0.0,
-      "injury_risk": 0.1949,
+      "age_risk": 0.625,
+      "injury_risk": 0.2979,
       "peak_signal": 0.1
     },
     "supporting_data": {
-      "valuation_score": 56.92,
-      "potential_score": 59.77,
-      "blended_value_eur": 27005859.0,
-      "transfer_probability_1y": 0.9687,
+      "valuation_score": 44.25,
+      "potential_score": 44.25,
+      "blended_value_eur": 12596128.0,
+      "transfer_probability_1y": 0.8293,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Yerry Mina",
+    "age": 31,
+    "decision": "HOLD",
+    "decision_confidence": 0.862,
+    "buy_score": 0.4042,
+    "sell_score": 0.5418,
+    "reasoning": [
+      "Approaching buy criteria — monitor closely",
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.2115,
+      "potential": 0.2306,
+      "transfer_probability": 0.7021,
+      "club_fit": 0.5926,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.8562,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.2531,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 46.14,
+      "potential_score": 46.14,
+      "blended_value_eur": 3905710.0,
+      "transfer_probability_1y": 0.7021,
       "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Orel Mangala",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.919,
+    "buy_score": 0.3997,
+    "sell_score": 0.4804,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2779,
+      "transfer_probability": 0.6831,
+      "club_fit": 0.8141,
+      "data_confidence": 0.7154
+    },
+    "sell_components": {
+      "market_value": 0.8895,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.1906,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 49.45,
+      "potential_score": 49.45,
+      "blended_value_eur": 7047824.0,
+      "transfer_probability_1y": 0.6831,
+      "best_fit_club": "inter milan",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Nicolas Seiwald",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.966,
+    "buy_score": 0.3994,
+    "sell_score": 0.3654,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4294,
+      "transfer_probability": 0.5308,
+      "club_fit": 0.8808,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.9249,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1864,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 57.2,
+      "potential_score": 60.06,
+      "blended_value_eur": 13206946.0,
+      "transfer_probability_1y": 0.5308,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Jeremy Sarmiento",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.942,
+    "buy_score": 0.3993,
+    "sell_score": 0.3412,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3109,
+      "transfer_probability": 0.6426,
+      "club_fit": 0.8103,
+      "data_confidence": 0.7154
+    },
+    "sell_components": {
+      "market_value": 0.8643,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1463,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 47.05,
+      "potential_score": 51.76,
+      "blended_value_eur": 4506780.0,
+      "transfer_probability_1y": 0.6426,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Jhon Durán",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.97,
+    "buy_score": 0.3984,
+    "sell_score": 0.3679,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2914,
+      "transfer_probability": 0.7515,
+      "club_fit": 0.8138,
+      "data_confidence": 0.5318
+    },
+    "sell_components": {
+      "market_value": 0.9125,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2279,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 45.82,
+      "potential_score": 50.4,
+      "blended_value_eur": 10596230.0,
+      "transfer_probability_1y": 0.7515,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Charles De Ketelaere",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.992,
+    "buy_score": 0.3975,
+    "sell_score": 0.4056,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4974,
+      "transfer_probability": 0.4033,
+      "club_fit": 0.8765,
+      "data_confidence": 0.6104
+    },
+    "sell_components": {
+      "market_value": 0.9377,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.2061,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 61.73,
+      "potential_score": 64.82,
+      "blended_value_eur": 16583111.0,
+      "transfer_probability_1y": 0.4033,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Johan Bakayoko",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.97,
+    "buy_score": 0.3954,
+    "sell_score": 0.3649,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.489,
+      "transfer_probability": 0.4552,
+      "club_fit": 0.7452,
+      "data_confidence": 0.7029
+    },
+    "sell_components": {
+      "market_value": 0.9244,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1838,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 58.39,
+      "potential_score": 64.23,
+      "blended_value_eur": 13084102.0,
+      "transfer_probability_1y": 0.4552,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "João Félix",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.953,
+    "buy_score": 0.3895,
+    "sell_score": 0.4365,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3124,
+      "transfer_probability": 0.6769,
+      "club_fit": 0.8023,
+      "data_confidence": 0.5572
+    },
+    "sell_components": {
+      "market_value": 0.9156,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2345,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 51.87,
+      "potential_score": 51.87,
+      "blended_value_eur": 11207590.0,
+      "transfer_probability_1y": 0.6769,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Gonzalo Montiel",
+    "age": 29,
+    "decision": "HOLD",
+    "decision_confidence": 0.888,
+    "buy_score": 0.3884,
+    "sell_score": 0.5001,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2589,
+      "transfer_probability": 0.8469,
+      "club_fit": 0.7072,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.845,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.75,
+      "injury_risk": 0.2438,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 48.12,
+      "potential_score": 48.12,
+      "blended_value_eur": 3203545.0,
+      "transfer_probability_1y": 0.8469,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Renato Veiga",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.979,
+    "buy_score": 0.3865,
+    "sell_score": 0.3653,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1873,
+      "transfer_probability": 0.8929,
+      "club_fit": 0.7525,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9102,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.215,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 39.19,
+      "potential_score": 43.11,
+      "blended_value_eur": 10180679.0,
+      "transfer_probability_1y": 0.8929,
+      "best_fit_club": "brighton",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Luis Díaz",
+    "age": 29,
+    "decision": "HOLD",
+    "decision_confidence": 0.842,
+    "buy_score": 0.3819,
+    "sell_score": 0.5399,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.427,
+      "transfer_probability": 0.6065,
+      "club_fit": 0.6359,
+      "data_confidence": 0.5843
+    },
+    "sell_components": {
+      "market_value": 0.9629,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.75,
+      "injury_risk": 0.2734,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.89,
+      "potential_score": 59.89,
+      "blended_value_eur": 25890397.0,
+      "transfer_probability_1y": 0.6065,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Lucas Beltrán",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.999,
+    "buy_score": 0.381,
+    "sell_score": 0.3824,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2834,
+      "transfer_probability": 0.5823,
+      "club_fit": 0.8007,
+      "data_confidence": 0.7359
+    },
+    "sell_components": {
+      "market_value": 0.8717,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.1835,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 47.47,
+      "potential_score": 49.84,
+      "blended_value_eur": 5143184.0,
+      "transfer_probability_1y": 0.5823,
+      "best_fit_club": "sporting cp",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Julián Alvarez",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.931,
+    "buy_score": 0.3771,
+    "sell_score": 0.4463,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2787,
+      "transfer_probability": 0.6274,
+      "club_fit": 0.7985,
+      "data_confidence": 0.6212
+    },
+    "sell_components": {
+      "market_value": 0.9709,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.1891,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 49.51,
+      "potential_score": 49.51,
+      "blended_value_eur": 29872919.0,
+      "transfer_probability_1y": 0.6274,
+      "best_fit_club": "villarreal",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Nahuel Molina",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.89,
+    "buy_score": 0.3764,
+    "sell_score": 0.4863,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (98% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2087,
+      "transfer_probability": 0.7671,
+      "club_fit": 0.7321,
+      "data_confidence": 0.6104
+    },
+    "sell_components": {
+      "market_value": 0.8852,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.238,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 44.61,
+      "potential_score": 44.61,
+      "blended_value_eur": 6528727.0,
+      "transfer_probability_1y": 0.7671,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Gonzalo Plata",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.994,
+    "buy_score": 0.376,
+    "sell_score": 0.3823,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2766,
+      "transfer_probability": 0.7159,
+      "club_fit": 0.8011,
+      "data_confidence": 0.4354
+    },
+    "sell_components": {
+      "market_value": 0.876,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.1745,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 47.01,
+      "potential_score": 49.36,
+      "blended_value_eur": 5550239.0,
+      "transfer_probability_1y": 0.7159,
+      "best_fit_club": "sporting cp",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Gerson",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.891,
+    "buy_score": 0.3753,
+    "sell_score": 0.4848,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.199,
+      "transfer_probability": 0.6448,
+      "club_fit": 0.8696,
+      "data_confidence": 0.6616
+    },
+    "sell_components": {
+      "market_value": 0.8999,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.1988,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 43.93,
+      "potential_score": 43.93,
+      "blended_value_eur": 8481443.0,
+      "transfer_probability_1y": 0.6448,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Antony",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.927,
+    "buy_score": 0.3684,
+    "sell_score": 0.4413,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2741,
+      "transfer_probability": 0.5758,
+      "club_fit": 0.7981,
+      "data_confidence": 0.6497
+    },
+    "sell_components": {
+      "market_value": 0.9314,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2349,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 49.19,
+      "potential_score": 49.19,
+      "blended_value_eur": 14816696.0,
+      "transfer_probability_1y": 0.5758,
+      "best_fit_club": "villarreal",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Thiago Almada",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.963,
+    "buy_score": 0.3683,
+    "sell_score": 0.4057,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2873,
+      "transfer_probability": 0.6007,
+      "club_fit": 0.8007,
+      "data_confidence": 0.562
+    },
+    "sell_components": {
+      "market_value": 0.9022,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.2777,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 47.72,
+      "potential_score": 50.11,
+      "blended_value_eur": 8834500.0,
+      "transfer_probability_1y": 0.6007,
+      "best_fit_club": "sporting cp",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Estêvão",
+    "age": 19,
+    "decision": "HOLD",
+    "decision_confidence": 0.969,
+    "buy_score": 0.3529,
+    "sell_score": 0.3837,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.615,
+      "transfer_probability": 0.1091,
+      "club_fit": 0.7135,
+      "data_confidence": 0.7029
+    },
+    "sell_components": {
+      "market_value": 0.9698,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2181,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 54.11,
+      "potential_score": 73.05,
+      "blended_value_eur": 29285664.0,
+      "transfer_probability_1y": 0.1091,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Enzo Fernández",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.918,
+    "buy_score": 0.3522,
+    "sell_score": 0.4344,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5203,
+      "transfer_probability": 0.1661,
+      "club_fit": 0.85,
+      "data_confidence": 0.6142
+    },
+    "sell_components": {
+      "market_value": 0.9821,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.3093,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 63.26,
+      "potential_score": 66.42,
+      "blended_value_eur": 36378865.0,
+      "transfer_probability_1y": 0.1661,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Ryan Gravenberch",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.963,
+    "buy_score": 0.3518,
+    "sell_score": 0.3889,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.533,
+      "transfer_probability": 0.1359,
+      "club_fit": 0.8495,
+      "data_confidence": 0.6396
+    },
+    "sell_components": {
+      "market_value": 0.9815,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2298,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 61.19,
+      "potential_score": 67.31,
+      "blended_value_eur": 36045205.0,
+      "transfer_probability_1y": 0.1359,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Guilherme Arana",
+    "age": 29,
+    "decision": "HOLD",
+    "decision_confidence": 0.848,
+    "buy_score": 0.3516,
+    "sell_score": 0.5034,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: eredivisie (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1601,
+      "transfer_probability": 0.7341,
+      "club_fit": 0.7095,
+      "data_confidence": 0.5833
+    },
+    "sell_components": {
+      "market_value": 0.8613,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.75,
+      "injury_risk": 0.2334,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 41.21,
+      "potential_score": 41.21,
+      "blended_value_eur": 4274463.0,
+      "transfer_probability_1y": 0.7341,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "eredivisie"
+    }
+  },
+  {
+    "player_name": "Cucho Hernández",
+    "age": 27,
+    "decision": "HOLD",
+    "decision_confidence": 0.889,
+    "buy_score": 0.3511,
+    "sell_score": 0.4624,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2364,
+      "transfer_probability": 0.5665,
+      "club_fit": 0.7913,
+      "data_confidence": 0.6001
+    },
+    "sell_components": {
+      "market_value": 0.8967,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.5,
+      "injury_risk": 0.2226,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 46.55,
+      "potential_score": 46.55,
+      "blended_value_eur": 8007318.0,
+      "transfer_probability_1y": 0.5665,
+      "best_fit_club": "nottingham forest",
       "best_pathway": "austrian bundesliga"
     }
   },
@@ -428,9 +2644,9 @@
     "player_name": "Michael Espinoza",
     "age": null,
     "decision": "HOLD",
-    "decision_confidence": 0.951,
-    "buy_score": 0.3761,
-    "sell_score": 0.3275,
+    "decision_confidence": 0.978,
+    "buy_score": 0.3507,
+    "sell_score": 0.3283,
     "reasoning": [
       "No strong directional signal at this time",
       "Best pathway: premier league (0% success)"
@@ -438,12 +2654,12 @@
     "buy_components": {
       "undervalued": 0.0,
       "potential": 0.1221,
-      "transfer_probability": 0.7841,
+      "transfer_probability": 0.657,
       "club_fit": 0.8622,
       "data_confidence": 0.5946
     },
     "sell_components": {
-      "market_value": 0.8301,
+      "market_value": 0.8328,
       "declining_trajectory": 0.0,
       "age_risk": 0.2,
       "injury_risk": 0.123,
@@ -452,8 +2668,8 @@
     "supporting_data": {
       "valuation_score": 35.05,
       "potential_score": 38.55,
-      "blended_value_eur": 2462031.0,
-      "transfer_probability_1y": 0.7841,
+      "blended_value_eur": 2580734.0,
+      "transfer_probability_1y": 0.657,
       "best_fit_club": "brighton",
       "best_pathway": "premier league"
     }
@@ -462,9 +2678,9 @@
     "player_name": "Alexis Zapata",
     "age": null,
     "decision": "HOLD",
-    "decision_confidence": 0.955,
-    "buy_score": 0.3734,
-    "sell_score": 0.328,
+    "decision_confidence": 0.981,
+    "buy_score": 0.348,
+    "sell_score": 0.3287,
     "reasoning": [
       "No strong directional signal at this time",
       "Best pathway: premier league (0% success)"
@@ -472,12 +2688,12 @@
     "buy_components": {
       "undervalued": 0.0,
       "potential": 0.1136,
-      "transfer_probability": 0.7841,
+      "transfer_probability": 0.657,
       "club_fit": 0.8583,
       "data_confidence": 0.5946
     },
     "sell_components": {
-      "market_value": 0.8317,
+      "market_value": 0.8342,
       "declining_trajectory": 0.0,
       "age_risk": 0.2,
       "injury_risk": 0.123,
@@ -486,8 +2702,1254 @@
     "supporting_data": {
       "valuation_score": 37.95,
       "potential_score": 37.95,
-      "blended_value_eur": 2529177.0,
-      "transfer_probability_1y": 0.7841,
+      "blended_value_eur": 2646733.0,
+      "transfer_probability_1y": 0.657,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Facundo Torres",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.927,
+    "buy_score": 0.3472,
+    "sell_score": 0.4205,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2766,
+      "transfer_probability": 0.5237,
+      "club_fit": 0.7969,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.8745,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2101,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 49.36,
+      "potential_score": 49.36,
+      "blended_value_eur": 5405609.0,
+      "transfer_probability_1y": 0.5237,
+      "best_fit_club": "villarreal",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "João Neves",
+    "age": 21,
+    "decision": "HOLD",
+    "decision_confidence": 0.966,
+    "buy_score": 0.3457,
+    "sell_score": 0.38,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (99% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5144,
+      "transfer_probability": 0.1409,
+      "club_fit": 0.8968,
+      "data_confidence": 0.5441
+    },
+    "sell_components": {
+      "market_value": 0.9836,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1663,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 55.01,
+      "potential_score": 66.01,
+      "blended_value_eur": 37356411.0,
+      "transfer_probability_1y": 0.1409,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Noa Lang",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.914,
+    "buy_score": 0.3434,
+    "sell_score": 0.4298,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2527,
+      "transfer_probability": 0.5099,
+      "club_fit": 0.7979,
+      "data_confidence": 0.586
+    },
+    "sell_components": {
+      "market_value": 0.9081,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2048,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 47.69,
+      "potential_score": 47.69,
+      "blended_value_eur": 9796507.0,
+      "transfer_probability_1y": 0.5099,
+      "best_fit_club": "villarreal",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Alejandro Garnacho",
+    "age": 21,
+    "decision": "HOLD",
+    "decision_confidence": 0.966,
+    "buy_score": 0.3402,
+    "sell_score": 0.3742,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (99% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5676,
+      "transfer_probability": 0.1173,
+      "club_fit": 0.713,
+      "data_confidence": 0.6789
+    },
+    "sell_components": {
+      "market_value": 0.9464,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2019,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 58.11,
+      "potential_score": 69.73,
+      "blended_value_eur": 19331828.0,
+      "transfer_probability_1y": 0.1173,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Moisés Caicedo",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.937,
+    "buy_score": 0.3396,
+    "sell_score": 0.4028,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4884,
+      "transfer_probability": 0.1696,
+      "club_fit": 0.8495,
+      "data_confidence": 0.562
+    },
+    "sell_components": {
+      "market_value": 0.9905,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.3046,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 61.13,
+      "potential_score": 64.19,
+      "blended_value_eur": 42229295.0,
+      "transfer_probability_1y": 0.1696,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Jurriën Timber",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.949,
+    "buy_score": 0.338,
+    "sell_score": 0.3893,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.515,
+      "transfer_probability": 0.2509,
+      "club_fit": 0.7178,
+      "data_confidence": 0.5135
+    },
+    "sell_components": {
+      "market_value": 0.9725,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2501,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.9,
+      "potential_score": 66.05,
+      "blended_value_eur": 30704427.0,
+      "transfer_probability_1y": 0.2509,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Bruno Guimarães",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.815,
+    "buy_score": 0.3352,
+    "sell_score": 0.5207,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4369,
+      "transfer_probability": 0.3113,
+      "club_fit": 0.7644,
+      "data_confidence": 0.4908
+    },
+    "sell_components": {
+      "market_value": 0.9704,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.2974,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 60.58,
+      "potential_score": 60.58,
+      "blended_value_eur": 29578924.0,
+      "transfer_probability_1y": 0.3113,
+      "best_fit_club": "inter milan",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Ángel Mena",
+    "age": 38,
+    "decision": "HOLD",
+    "decision_confidence": 0.801,
+    "buy_score": 0.3343,
+    "sell_score": 0.5337,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.2375,
+      "potential": 0.149,
+      "transfer_probability": 0.3867,
+      "club_fit": 0.5364,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8223,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.18,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 40.43,
+      "potential_score": 40.43,
+      "blended_value_eur": 2142556.0,
+      "transfer_probability_1y": 0.3867,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Leandro Paredes",
+    "age": 31,
+    "decision": "HOLD",
+    "decision_confidence": 0.792,
+    "buy_score": 0.3322,
+    "sell_score": 0.5407,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1223,
+      "transfer_probability": 0.6033,
+      "club_fit": 0.7926,
+      "data_confidence": 0.6204
+    },
+    "sell_components": {
+      "market_value": 0.8534,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.2509,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 38.56,
+      "potential_score": 38.56,
+      "blended_value_eur": 3718651.0,
+      "transfer_probability_1y": 0.6033,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Félix Torres",
+    "age": 29,
+    "decision": "HOLD",
+    "decision_confidence": 0.845,
+    "buy_score": 0.3306,
+    "sell_score": 0.4859,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: eredivisie (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1361,
+      "transfer_probability": 0.7112,
+      "club_fit": 0.7072,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.8301,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.75,
+      "injury_risk": 0.1792,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 39.53,
+      "potential_score": 39.53,
+      "blended_value_eur": 2458150.0,
+      "transfer_probability_1y": 0.7112,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "eredivisie"
+    }
+  },
+  {
+    "player_name": "Nuno Mendes",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.945,
+    "buy_score": 0.3291,
+    "sell_score": 0.3841,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5061,
+      "transfer_probability": 0.1955,
+      "club_fit": 0.7657,
+      "data_confidence": 0.4857
+    },
+    "sell_components": {
+      "market_value": 0.9668,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2274,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.48,
+      "potential_score": 65.43,
+      "blended_value_eur": 27757756.0,
+      "transfer_probability_1y": 0.1955,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Carlos Gruezo",
+    "age": 31,
+    "decision": "HOLD",
+    "decision_confidence": 0.805,
+    "buy_score": 0.3287,
+    "sell_score": 0.5233,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1734,
+      "transfer_probability": 0.4858,
+      "club_fit": 0.8008,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8264,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.189,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 42.14,
+      "potential_score": 42.14,
+      "blended_value_eur": 2303672.0,
+      "transfer_probability_1y": 0.4858,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Jérémy Doku",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.951,
+    "buy_score": 0.3278,
+    "sell_score": 0.3771,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.586,
+      "transfer_probability": 0.0391,
+      "club_fit": 0.7142,
+      "data_confidence": 0.6636
+    },
+    "sell_components": {
+      "market_value": 0.969,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1763,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 64.56,
+      "potential_score": 71.02,
+      "blended_value_eur": 28883250.0,
+      "transfer_probability_1y": 0.0391,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Gabriel Martinelli",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.951,
+    "buy_score": 0.3262,
+    "sell_score": 0.3754,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (99% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.536,
+      "transfer_probability": 0.1,
+      "club_fit": 0.7152,
+      "data_confidence": 0.6493
+    },
+    "sell_components": {
+      "market_value": 0.9565,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1897,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 64.3,
+      "potential_score": 67.52,
+      "blended_value_eur": 23109529.0,
+      "transfer_probability_1y": 0.1,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Luciano Acosta",
+    "age": 31,
+    "decision": "HOLD",
+    "decision_confidence": 0.785,
+    "buy_score": 0.3245,
+    "sell_score": 0.5394,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1456,
+      "transfer_probability": 0.5459,
+      "club_fit": 0.8026,
+      "data_confidence": 0.5849
+    },
+    "sell_components": {
+      "market_value": 0.8511,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.247,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 40.19,
+      "potential_score": 40.19,
+      "blended_value_eur": 3572388.0,
+      "transfer_probability_1y": 0.5459,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Jeremie Frimpong",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.917,
+    "buy_score": 0.3239,
+    "sell_score": 0.4068,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5107,
+      "transfer_probability": 0.1418,
+      "club_fit": 0.7174,
+      "data_confidence": 0.6023
+    },
+    "sell_components": {
+      "market_value": 0.9475,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.1948,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.62,
+      "potential_score": 65.75,
+      "blended_value_eur": 19722237.0,
+      "transfer_probability_1y": 0.1418,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Piero Hincapié",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.943,
+    "buy_score": 0.3224,
+    "sell_score": 0.3795,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4937,
+      "transfer_probability": 0.2392,
+      "club_fit": 0.7173,
+      "data_confidence": 0.4354
+    },
+    "sell_components": {
+      "market_value": 0.9596,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2108,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 61.49,
+      "potential_score": 64.56,
+      "blended_value_eur": 24436566.0,
+      "transfer_probability_1y": 0.2392,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Benjamin Sesko",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.937,
+    "buy_score": 0.3214,
+    "sell_score": 0.3847,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5141,
+      "transfer_probability": 0.1688,
+      "club_fit": 0.7145,
+      "data_confidence": 0.5193
+    },
+    "sell_components": {
+      "market_value": 0.9671,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2303,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.99,
+      "potential_score": 65.99,
+      "blended_value_eur": 27909972.0,
+      "transfer_probability_1y": 0.1688,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Francisco Conceição",
+    "age": 23,
+    "decision": "HOLD",
+    "decision_confidence": 0.952,
+    "buy_score": 0.3209,
+    "sell_score": 0.3686,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5021,
+      "transfer_probability": 0.154,
+      "club_fit": 0.7394,
+      "data_confidence": 0.5369
+    },
+    "sell_components": {
+      "market_value": 0.9308,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1958,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.23,
+      "potential_score": 65.15,
+      "blended_value_eur": 14662016.0,
+      "transfer_probability_1y": 0.154,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Rodrygo",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.908,
+    "buy_score": 0.3206,
+    "sell_score": 0.4121,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5503,
+      "transfer_probability": 0.0185,
+      "club_fit": 0.7872,
+      "data_confidence": 0.6129
+    },
+    "sell_components": {
+      "market_value": 0.9405,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.2443,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 65.26,
+      "potential_score": 68.52,
+      "blended_value_eur": 17399627.0,
+      "transfer_probability_1y": 0.0185,
+      "best_fit_club": "villarreal",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Lucas Beraldo",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.953,
+    "buy_score": 0.3197,
+    "sell_score": 0.3669,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4501,
+      "transfer_probability": 0.1935,
+      "club_fit": 0.7647,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.9134,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2193,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 55.92,
+      "potential_score": 61.51,
+      "blended_value_eur": 10766148.0,
+      "transfer_probability_1y": 0.1935,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Tijjani Reijnders",
+    "age": 27,
+    "decision": "HOLD",
+    "decision_confidence": 0.846,
+    "buy_score": 0.3192,
+    "sell_score": 0.4736,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4704,
+      "transfer_probability": 0.0451,
+      "club_fit": 0.8293,
+      "data_confidence": 0.6819
+    },
+    "sell_components": {
+      "market_value": 0.9628,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.5,
+      "injury_risk": 0.1648,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.93,
+      "potential_score": 62.93,
+      "blended_value_eur": 25870482.0,
+      "transfer_probability_1y": 0.0451,
+      "best_fit_club": "inter milan",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Franco Mastantuono",
+    "age": 18,
+    "decision": "HOLD",
+    "decision_confidence": 0.939,
+    "buy_score": 0.3181,
+    "sell_score": 0.3788,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.51,
+      "transfer_probability": 0.0237,
+      "club_fit": 0.8107,
+      "data_confidence": 0.6425
+    },
+    "sell_components": {
+      "market_value": 0.934,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2575,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 48.67,
+      "potential_score": 65.7,
+      "blended_value_eur": 15519357.0,
+      "transfer_probability_1y": 0.0237,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Amadou Onana",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.95,
+    "buy_score": 0.3177,
+    "sell_score": 0.3675,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2349,
+      "transfer_probability": 0.3357,
+      "club_fit": 0.9575,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9345,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1813,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 44.23,
+      "potential_score": 46.44,
+      "blended_value_eur": 15654668.0,
+      "transfer_probability_1y": 0.3357,
+      "best_fit_club": "benfica",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Giovani Lo Celso",
+    "age": 30,
+    "decision": "HOLD",
+    "decision_confidence": 0.787,
+    "buy_score": 0.3168,
+    "sell_score": 0.5299,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1481,
+      "transfer_probability": 0.5048,
+      "club_fit": 0.8229,
+      "data_confidence": 0.5539
+    },
+    "sell_components": {
+      "market_value": 0.8698,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.875,
+      "injury_risk": 0.2262,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 40.37,
+      "potential_score": 40.37,
+      "blended_value_eur": 4973621.0,
+      "transfer_probability_1y": 0.5048,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Savinho",
+    "age": 22,
+    "decision": "HOLD",
+    "decision_confidence": 0.944,
+    "buy_score": 0.3158,
+    "sell_score": 0.3716,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.5186,
+      "transfer_probability": 0.0372,
+      "club_fit": 0.713,
+      "data_confidence": 0.718
+    },
+    "sell_components": {
+      "market_value": 0.9489,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1798,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 60.27,
+      "potential_score": 66.3,
+      "blended_value_eur": 20208526.0,
+      "transfer_probability_1y": 0.0372,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Vinicius Junior",
+    "age": 25,
+    "decision": "HOLD",
+    "decision_confidence": 0.882,
+    "buy_score": 0.3158,
+    "sell_score": 0.434,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.537,
+      "transfer_probability": 0.0221,
+      "club_fit": 0.7885,
+      "data_confidence": 0.5883
+    },
+    "sell_components": {
+      "market_value": 0.997,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.1667,
+      "injury_risk": 0.2771,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 64.37,
+      "potential_score": 67.59,
+      "blended_value_eur": 47386215.0,
+      "transfer_probability_1y": 0.0221,
+      "best_fit_club": "villarreal",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Nico González",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.933,
+    "buy_score": 0.313,
+    "sell_score": 0.3801,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4633,
+      "transfer_probability": 0.0574,
+      "club_fit": 0.849,
+      "data_confidence": 0.5833
+    },
+    "sell_components": {
+      "market_value": 0.9543,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.2255,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.46,
+      "potential_score": 62.43,
+      "blended_value_eur": 22225736.0,
+      "transfer_probability_1y": 0.0574,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Vitinha",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.855,
+    "buy_score": 0.3125,
+    "sell_score": 0.4571,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.435,
+      "transfer_probability": 0.0654,
+      "club_fit": 0.8978,
+      "data_confidence": 0.5595
+    },
+    "sell_components": {
+      "market_value": 0.9846,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2338,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 60.45,
+      "potential_score": 60.45,
+      "blended_value_eur": 38047511.0,
+      "transfer_probability_1y": 0.0654,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Alexander Domínguez",
+    "age": 38,
+    "decision": "HOLD",
+    "decision_confidence": 0.786,
+    "buy_score": 0.312,
+    "sell_score": 0.526,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.066,
+      "transfer_probability": 0.741,
+      "club_fit": 0.5285,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8101,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.153,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 34.62,
+      "potential_score": 34.62,
+      "blended_value_eur": 1725702.0,
+      "transfer_probability_1y": 0.741,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Rafael Leão",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.858,
+    "buy_score": 0.3041,
+    "sell_score": 0.4463,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4513,
+      "transfer_probability": 0.1129,
+      "club_fit": 0.7408,
+      "data_confidence": 0.576
+    },
+    "sell_components": {
+      "market_value": 0.9611,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.209,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 61.59,
+      "potential_score": 61.59,
+      "blended_value_eur": 25107911.0,
+      "transfer_probability_1y": 0.1129,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Rodrigo De Paul",
+    "age": 31,
+    "decision": "HOLD",
+    "decision_confidence": 0.758,
+    "buy_score": 0.3034,
+    "sell_score": 0.5457,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.119,
+      "transfer_probability": 0.5186,
+      "club_fit": 0.7743,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.8838,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.224,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 38.33,
+      "potential_score": 38.33,
+      "blended_value_eur": 6376598.0,
+      "transfer_probability_1y": 0.5186,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Renato Tapia",
+    "age": 30,
+    "decision": "HOLD",
+    "decision_confidence": 0.782,
+    "buy_score": 0.303,
+    "sell_score": 0.5206,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0403,
+      "transfer_probability": 0.5056,
+      "club_fit": 0.8017,
+      "data_confidence": 0.7154
+    },
+    "sell_components": {
+      "market_value": 0.8394,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.875,
+      "injury_risk": 0.2252,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 32.82,
+      "potential_score": 32.82,
+      "blended_value_eur": 2902365.0,
+      "transfer_probability_1y": 0.5056,
+      "best_fit_club": "inter milan",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Pedro Neto",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.844,
+    "buy_score": 0.3001,
+    "sell_score": 0.4561,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.473,
+      "transfer_probability": 0.0537,
+      "club_fit": 0.713,
+      "data_confidence": 0.6416
+    },
+    "sell_components": {
+      "market_value": 0.9647,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2671,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 63.11,
+      "potential_score": 63.11,
+      "blended_value_eur": 26723470.0,
+      "transfer_probability_1y": 0.0537,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.79,
+    "buy_score": 0.298,
+    "sell_score": 0.5085,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.421,
+      "transfer_probability": 0.0255,
+      "club_fit": 0.864,
+      "data_confidence": 0.5808
+    },
+    "sell_components": {
+      "market_value": 0.9346,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.2873,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.47,
+      "potential_score": 59.47,
+      "blended_value_eur": 15677323.0,
+      "transfer_probability_1y": 0.0255,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Joao Rojas",
+    "age": 36,
+    "decision": "HOLD",
+    "decision_confidence": 0.764,
+    "buy_score": 0.2937,
+    "sell_score": 0.5297,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.007,
+      "transfer_probability": 0.5522,
+      "club_fit": 0.7563,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8181,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.162,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 30.49,
+      "potential_score": 30.49,
+      "blended_value_eur": 1988036.0,
+      "transfer_probability_1y": 0.5522,
       "best_fit_club": "benfica",
       "best_pathway": "premier league"
     }
@@ -496,9 +3958,9 @@
     "player_name": "Sebastián Rodríguez",
     "age": 33,
     "decision": "HOLD",
-    "decision_confidence": 0.798,
-    "buy_score": 0.3293,
-    "sell_score": 0.5311,
+    "decision_confidence": 0.764,
+    "buy_score": 0.2937,
+    "sell_score": 0.5296,
     "reasoning": [
       "Some sell pressure — reassess in 6 months",
       "No strong directional signal at this time",
@@ -507,12 +3969,12 @@
     "buy_components": {
       "undervalued": 0.0,
       "potential": 0.0496,
-      "transfer_probability": 0.6704,
+      "transfer_probability": 0.4922,
       "club_fit": 0.7652,
       "data_confidence": 0.6804
     },
     "sell_components": {
-      "market_value": 0.8225,
+      "market_value": 0.8176,
       "declining_trajectory": 0.2,
       "age_risk": 1.0,
       "injury_risk": 0.162,
@@ -521,19 +3983,508 @@
     "supporting_data": {
       "valuation_score": 33.47,
       "potential_score": 33.47,
-      "blended_value_eur": 2149722.0,
-      "transfer_probability_1y": 0.6704,
+      "blended_value_eur": 1971264.0,
+      "transfer_probability_1y": 0.4922,
       "best_fit_club": "nottingham forest",
       "best_pathway": "premier league"
     }
   },
   {
-    "player_name": "Cristian Pellerano",
+    "player_name": "Willian Pacho",
+    "age": 24,
+    "decision": "HOLD",
+    "decision_confidence": 0.915,
+    "buy_score": 0.2937,
+    "sell_score": 0.3782,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4253,
+      "transfer_probability": 0.1455,
+      "club_fit": 0.7648,
+      "data_confidence": 0.4354
+    },
+    "sell_components": {
+      "market_value": 0.9632,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.0,
+      "injury_risk": 0.1949,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 56.92,
+      "potential_score": 59.77,
+      "blended_value_eur": 26049904.0,
+      "transfer_probability_1y": 0.1455,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Richarlison",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.78,
+    "buy_score": 0.2919,
+    "sell_score": 0.5116,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4377,
+      "transfer_probability": 0.2173,
+      "club_fit": 0.6234,
+      "data_confidence": 0.4554
+    },
+    "sell_components": {
+      "market_value": 0.9334,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.3104,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 60.64,
+      "potential_score": 60.64,
+      "blended_value_eur": 15355232.0,
+      "transfer_probability_1y": 0.2173,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Youri Tielemans",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.794,
+    "buy_score": 0.2892,
+    "sell_score": 0.4955,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (96% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2231,
+      "transfer_probability": 0.1987,
+      "club_fit": 0.869,
+      "data_confidence": 0.6338
+    },
+    "sell_components": {
+      "market_value": 0.922,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.2262,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 45.62,
+      "potential_score": 45.62,
+      "blended_value_eur": 12552605.0,
+      "transfer_probability_1y": 0.1987,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Matheus Cunha",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.833,
+    "buy_score": 0.2865,
+    "sell_score": 0.4538,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.469,
+      "transfer_probability": 0.0701,
+      "club_fit": 0.7131,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9706,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2399,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.83,
+      "potential_score": 62.83,
+      "blended_value_eur": 29713995.0,
+      "transfer_probability_1y": 0.0701,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Teun Koopmeiners",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.794,
+    "buy_score": 0.2861,
+    "sell_score": 0.4916,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3754,
+      "transfer_probability": 0.1262,
+      "club_fit": 0.7917,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9114,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.2209,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 56.28,
+      "potential_score": 56.28,
+      "blended_value_eur": 10398706.0,
+      "transfer_probability_1y": 0.1262,
+      "best_fit_club": "inter milan",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Loïs Openda",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.852,
+    "buy_score": 0.284,
+    "sell_score": 0.4323,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4143,
+      "transfer_probability": 0.0755,
+      "club_fit": 0.7383,
+      "data_confidence": 0.5457
+    },
+    "sell_components": {
+      "market_value": 0.932,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.1739,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.0,
+      "potential_score": 59.0,
+      "blended_value_eur": 14967249.0,
+      "transfer_probability_1y": 0.0755,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Luis Sinisterra",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.876,
+    "buy_score": 0.2834,
+    "sell_score": 0.4076,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0053,
+      "transfer_probability": 0.475,
+      "club_fit": 0.7704,
+      "data_confidence": 0.7154
+    },
+    "sell_components": {
+      "market_value": 0.8712,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.1306,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 30.37,
+      "potential_score": 30.37,
+      "blended_value_eur": 5096848.0,
+      "transfer_probability_1y": 0.475,
+      "best_fit_club": "villarreal",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Pervis Estupiñán",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.791,
+    "buy_score": 0.2834,
+    "sell_score": 0.4924,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3826,
+      "transfer_probability": 0.2076,
+      "club_fit": 0.6533,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.9012,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.2471,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 56.78,
+      "potential_score": 56.78,
+      "blended_value_eur": 8682472.0,
+      "transfer_probability_1y": 0.2076,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Roger Martínez",
+    "age": 31,
+    "decision": "HOLD",
+    "decision_confidence": 0.742,
+    "buy_score": 0.2824,
+    "sell_score": 0.5402,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.127,
+      "transfer_probability": 0.4866,
+      "club_fit": 0.6496,
+      "data_confidence": 0.5594
+    },
+    "sell_components": {
+      "market_value": 0.8371,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.2804,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 38.89,
+      "potential_score": 38.89,
+      "blended_value_eur": 2786613.0,
+      "transfer_probability_1y": 0.4866,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Cody Gakpo",
+    "age": 26,
+    "decision": "HOLD",
+    "decision_confidence": 0.832,
+    "buy_score": 0.2823,
+    "sell_score": 0.4504,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4676,
+      "transfer_probability": 0.0297,
+      "club_fit": 0.7127,
+      "data_confidence": 0.5256
+    },
+    "sell_components": {
+      "market_value": 0.9675,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.3333,
+      "injury_risk": 0.2233,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 62.73,
+      "potential_score": 62.73,
+      "blended_value_eur": 28119878.0,
+      "transfer_probability_1y": 0.0297,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Lisandro Martínez",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.779,
+    "buy_score": 0.2766,
+    "sell_score": 0.4976,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3226,
+      "transfer_probability": 0.153,
+      "club_fit": 0.6251,
+      "data_confidence": 0.7154
+    },
+    "sell_components": {
+      "market_value": 0.9423,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.1993,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 52.58,
+      "potential_score": 52.58,
+      "blended_value_eur": 17988848.0,
+      "transfer_probability_1y": 0.153,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "James Rodríguez",
+    "age": 34,
+    "decision": "HOLD",
+    "decision_confidence": 0.728,
+    "buy_score": 0.2747,
+    "sell_score": 0.547,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0314,
+      "transfer_probability": 0.5281,
+      "club_fit": 0.7533,
+      "data_confidence": 0.4823
+    },
+    "sell_components": {
+      "market_value": 0.8278,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.2576,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 32.2,
+      "potential_score": 32.2,
+      "blended_value_eur": 2363119.0,
+      "transfer_probability_1y": 0.5281,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "David Neres",
+    "age": 29,
+    "decision": "HOLD",
+    "decision_confidence": 0.749,
+    "buy_score": 0.2737,
+    "sell_score": 0.525,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3884,
+      "transfer_probability": 0.1116,
+      "club_fit": 0.6283,
+      "data_confidence": 0.6001
+    },
+    "sell_components": {
+      "market_value": 0.9207,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.75,
+      "injury_risk": 0.2589,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 57.19,
+      "potential_score": 57.19,
+      "blended_value_eur": 12256066.0,
+      "transfer_probability_1y": 0.1116,
+      "best_fit_club": "real madrid",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Miguel Borja",
+    "age": 33,
+    "decision": "HOLD",
+    "decision_confidence": 0.73,
+    "buy_score": 0.2707,
+    "sell_score": 0.5404,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0526,
+      "transfer_probability": 0.43,
+      "club_fit": 0.6204,
+      "data_confidence": 0.7854
+    },
+    "sell_components": {
+      "market_value": 0.8338,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.2019,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 33.68,
+      "potential_score": 33.68,
+      "blended_value_eur": 2626238.0,
+      "transfer_probability_1y": 0.43,
+      "best_fit_club": "real madrid",
+      "best_pathway": "bundesliga"
+    }
+  },
+  {
+    "player_name": "Jonathan Borja",
     "age": null,
     "decision": "HOLD",
-    "decision_confidence": 0.973,
-    "buy_score": 0.3108,
-    "sell_score": 0.3378,
+    "decision_confidence": 0.945,
+    "buy_score": 0.2703,
+    "sell_score": 0.3255,
     "reasoning": [
       "No strong directional signal at this time",
       "Best pathway: premier league (0% success)"
@@ -541,12 +4492,150 @@
     "buy_components": {
       "undervalued": 0.0,
       "potential": 0.0,
-      "transfer_probability": 0.6271,
+      "transfer_probability": 0.4158,
+      "club_fit": 0.851,
+      "data_confidence": 0.5946
+    },
+    "sell_components": {
+      "market_value": 0.8055,
+      "declining_trajectory": 0.0,
+      "age_risk": 0.2,
+      "injury_risk": 0.159,
+      "peak_signal": 0.2
+    },
+    "supporting_data": {
+      "valuation_score": 18.31,
+      "potential_score": 18.31,
+      "blended_value_eur": 1589188.0,
+      "transfer_probability_1y": 0.4158,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Gabriel Jesus",
+    "age": 29,
+    "decision": "HOLD",
+    "decision_confidence": 0.759,
+    "buy_score": 0.2693,
+    "sell_score": 0.5105,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4161,
+      "transfer_probability": 0.0448,
+      "club_fit": 0.6023,
+      "data_confidence": 0.6595
+    },
+    "sell_components": {
+      "market_value": 0.9173,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.75,
+      "injury_risk": 0.169,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.13,
+      "potential_score": 59.13,
+      "blended_value_eur": 11549410.0,
+      "transfer_probability_1y": 0.0448,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Lautaro Martínez",
+    "age": 28,
+    "decision": "HOLD",
+    "decision_confidence": 0.747,
+    "buy_score": 0.269,
+    "sell_score": 0.5218,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.4206,
+      "transfer_probability": 0.0766,
+      "club_fit": 0.6516,
+      "data_confidence": 0.5076
+    },
+    "sell_components": {
+      "market_value": 0.9713,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.625,
+      "injury_risk": 0.3025,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 59.44,
+      "potential_score": 59.44,
+      "blended_value_eur": 30046329.0,
+      "transfer_probability_1y": 0.0766,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Marvin Warnaß",
+    "age": null,
+    "decision": "HOLD",
+    "decision_confidence": 0.936,
+    "buy_score": 0.2689,
+    "sell_score": 0.3332,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0,
+      "transfer_probability": 0.4158,
+      "club_fit": 0.8416,
+      "data_confidence": 0.5946
+    },
+    "sell_components": {
+      "market_value": 0.8223,
+      "declining_trajectory": 0.0,
+      "age_risk": 0.2,
+      "injury_risk": 0.177,
+      "peak_signal": 0.2
+    },
+    "supporting_data": {
+      "valuation_score": 14.74,
+      "potential_score": 14.74,
+      "blended_value_eur": 2141298.0,
+      "transfer_probability_1y": 0.4158,
+      "best_fit_club": "brighton",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Cristian Pellerano",
+    "age": null,
+    "decision": "HOLD",
+    "decision_confidence": 0.936,
+    "buy_score": 0.2685,
+    "sell_score": 0.3329,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0,
+      "transfer_probability": 0.4158,
       "club_fit": 0.8395,
       "data_confidence": 0.5946
     },
     "sell_components": {
-      "market_value": 0.8375,
+      "market_value": 0.8211,
       "declining_trajectory": 0.0,
       "age_risk": 0.2,
       "injury_risk": 0.177,
@@ -555,9 +4644,182 @@
     "supporting_data": {
       "valuation_score": 10.79,
       "potential_score": 10.79,
-      "blended_value_eur": 2802729.0,
-      "transfer_probability_1y": 0.6271,
+      "blended_value_eur": 2098110.0,
+      "transfer_probability_1y": 0.4158,
       "best_fit_club": "brighton",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Riqui Puig",
+    "age": null,
+    "decision": "HOLD",
+    "decision_confidence": 0.928,
+    "buy_score": 0.2685,
+    "sell_score": 0.3403,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0064,
+      "transfer_probability": 0.4158,
+      "club_fit": 0.8285,
+      "data_confidence": 0.5946
+    },
+    "sell_components": {
+      "market_value": 0.8729,
+      "declining_trajectory": 0.0,
+      "age_risk": 0.2,
+      "injury_risk": 0.123,
+      "peak_signal": 0.2
+    },
+    "supporting_data": {
+      "valuation_score": 30.45,
+      "potential_score": 30.45,
+      "blended_value_eur": 5249360.0,
+      "transfer_probability_1y": 0.4158,
+      "best_fit_club": "brighton",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Rafael Borré",
+    "age": 30,
+    "decision": "HOLD",
+    "decision_confidence": 0.742,
+    "buy_score": 0.2662,
+    "sell_score": 0.5245,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.15,
+      "transfer_probability": 0.3424,
+      "club_fit": 0.6784,
+      "data_confidence": 0.5849
+    },
+    "sell_components": {
+      "market_value": 0.8423,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.875,
+      "injury_risk": 0.2455,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 40.5,
+      "potential_score": 40.5,
+      "blended_value_eur": 3051567.0,
+      "transfer_probability_1y": 0.3424,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Matheus Uribe",
+    "age": 35,
+    "decision": "HOLD",
+    "decision_confidence": 0.721,
+    "buy_score": 0.2633,
+    "sell_score": 0.5422,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0,
+      "transfer_probability": 0.4826,
+      "club_fit": 0.7533,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.817,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.2473,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 28.04,
+      "potential_score": 28.04,
+      "blended_value_eur": 1950974.0,
+      "transfer_probability_1y": 0.4826,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Enner Valencia",
+    "age": 36,
+    "decision": "HOLD",
+    "decision_confidence": 0.715,
+    "buy_score": 0.2558,
+    "sell_score": 0.5413,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.08,
+      "transfer_probability": 0.3715,
+      "club_fit": 0.6117,
+      "data_confidence": 0.6979
+    },
+    "sell_components": {
+      "market_value": 0.8221,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.2312,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 35.6,
+      "potential_score": 35.6,
+      "blended_value_eur": 2134754.0,
+      "transfer_probability_1y": 0.3715,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Washington Corozo",
+    "age": null,
+    "decision": "HOLD",
+    "decision_confidence": 0.934,
+    "buy_score": 0.2549,
+    "sell_score": 0.3213,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0,
+      "transfer_probability": 0.4378,
+      "club_fit": 0.7194,
+      "data_confidence": 0.5946
+    },
+    "sell_components": {
+      "market_value": 0.8096,
+      "declining_trajectory": 0.0,
+      "age_risk": 0.2,
+      "injury_risk": 0.123,
+      "peak_signal": 0.2
+    },
+    "supporting_data": {
+      "valuation_score": 29.31,
+      "potential_score": 29.31,
+      "blended_value_eur": 1710581.0,
+      "transfer_probability_1y": 0.4378,
+      "best_fit_club": "benfica",
       "best_pathway": "premier league"
     }
   },
@@ -565,8 +4827,77 @@
     "player_name": "Carlos Gutiérrez",
     "age": null,
     "decision": "HOLD",
-    "decision_confidence": 0.967,
-    "buy_score": 0.2927,
+    "decision_confidence": 0.929,
+    "buy_score": 0.2505,
+    "sell_score": 0.3214,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0,
+      "transfer_probability": 0.4158,
+      "club_fit": 0.719,
+      "data_confidence": 0.5946
+    },
+    "sell_components": {
+      "market_value": 0.8097,
+      "declining_trajectory": 0.0,
+      "age_risk": 0.2,
+      "injury_risk": 0.123,
+      "peak_signal": 0.2
+    },
+    "supporting_data": {
+      "valuation_score": 29.31,
+      "potential_score": 29.31,
+      "blended_value_eur": 1712078.0,
+      "transfer_probability_1y": 0.4158,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Roberto Firmino",
+    "age": 34,
+    "decision": "HOLD",
+    "decision_confidence": 0.698,
+    "buy_score": 0.2466,
+    "sell_score": 0.5491,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0606,
+      "transfer_probability": 0.4046,
+      "club_fit": 0.6048,
+      "data_confidence": 0.5985
+    },
+    "sell_components": {
+      "market_value": 0.8423,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.2426,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 34.24,
+      "potential_score": 34.24,
+      "blended_value_eur": 3053733.0,
+      "transfer_probability_1y": 0.4046,
+      "best_fit_club": "benfica",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Diogo Jota",
+    "age": null,
+    "decision": "HOLD",
+    "decision_confidence": 0.92,
+    "buy_score": 0.2457,
     "sell_score": 0.3257,
     "reasoning": [
       "No strong directional signal at this time",
@@ -575,9 +4906,9 @@
     "buy_components": {
       "undervalued": 0.0,
       "potential": 0.0,
-      "transfer_probability": 0.6271,
-      "club_fit": 0.719,
-      "data_confidence": 0.5946
+      "transfer_probability": 0.4158,
+      "club_fit": 0.7062,
+      "data_confidence": 0.5661
     },
     "sell_components": {
       "market_value": 0.8242,
@@ -587,10 +4918,44 @@
       "peak_signal": 0.2
     },
     "supporting_data": {
-      "valuation_score": 29.31,
-      "potential_score": 29.31,
-      "blended_value_eur": 2214805.0,
-      "transfer_probability_1y": 0.6271,
+      "valuation_score": 20.85,
+      "potential_score": 21.89,
+      "blended_value_eur": 2217553.0,
+      "transfer_probability_1y": 0.4158,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Mario Pineida",
+    "age": null,
+    "decision": "HOLD",
+    "decision_confidence": 0.92,
+    "buy_score": 0.2457,
+    "sell_score": 0.3257,
+    "reasoning": [
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0,
+      "transfer_probability": 0.4158,
+      "club_fit": 0.7062,
+      "data_confidence": 0.5661
+    },
+    "sell_components": {
+      "market_value": 0.8242,
+      "declining_trajectory": 0.0,
+      "age_risk": 0.2,
+      "injury_risk": 0.123,
+      "peak_signal": 0.2
+    },
+    "supporting_data": {
+      "valuation_score": 20.85,
+      "potential_score": 21.89,
+      "blended_value_eur": 2217553.0,
+      "transfer_probability_1y": 0.4158,
       "best_fit_club": "benfica",
       "best_pathway": "premier league"
     }
@@ -599,9 +4964,9 @@
     "player_name": "Tomás Molina",
     "age": 31,
     "decision": "HOLD",
-    "decision_confidence": 0.732,
-    "buy_score": 0.2673,
-    "sell_score": 0.5351,
+    "decision_confidence": 0.699,
+    "buy_score": 0.2333,
+    "sell_score": 0.5343,
     "reasoning": [
       "Some sell pressure — reassess in 6 months",
       "No strong directional signal at this time",
@@ -610,12 +4975,12 @@
     "buy_components": {
       "undervalued": 0.0,
       "potential": 0.0937,
-      "transfer_probability": 0.49,
+      "transfer_probability": 0.32,
       "club_fit": 0.6508,
       "data_confidence": 0.4823
     },
     "sell_components": {
-      "market_value": 0.8347,
+      "market_value": 0.8318,
       "declining_trajectory": 0.2,
       "age_risk": 0.935,
       "injury_risk": 0.2515,
@@ -624,10 +4989,325 @@
     "supporting_data": {
       "valuation_score": 36.56,
       "potential_score": 36.56,
-      "blended_value_eur": 2668333.0,
-      "transfer_probability_1y": 0.49,
+      "blended_value_eur": 2535071.0,
+      "transfer_probability_1y": 0.32,
       "best_fit_club": "nottingham forest",
       "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Jaime Ayoví",
+    "age": 38,
+    "decision": "HOLD",
+    "decision_confidence": 0.696,
+    "buy_score": 0.2274,
+    "sell_score": 0.5315,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0,
+      "transfer_probability": 0.4021,
+      "club_fit": 0.5263,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8061,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.198,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 22.08,
+      "potential_score": 22.08,
+      "blended_value_eur": 1607102.0,
+      "transfer_probability_1y": 0.4021,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Michael Hoyos",
+    "age": 34,
+    "decision": "HOLD",
+    "decision_confidence": 0.698,
+    "buy_score": 0.2244,
+    "sell_score": 0.5266,
+    "reasoning": [
+      "Some sell pressure — reassess in 6 months",
+      "No strong directional signal at this time",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.008,
+      "transfer_probability": 0.3117,
+      "club_fit": 0.6134,
+      "data_confidence": 0.6804
+    },
+    "sell_components": {
+      "market_value": 0.8121,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.153,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 30.56,
+      "potential_score": 30.56,
+      "blended_value_eur": 1788787.0,
+      "transfer_probability_1y": 0.3117,
+      "best_fit_club": "benfica",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Pedro",
+    "age": 38,
+    "decision": "SELL",
+    "decision_confidence": 0.614,
+    "buy_score": 0.3842,
+    "sell_score": 0.5526,
+    "reasoning": [
+      "Strong market value (€2.4M)",
+      "Age risk (age 38)",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.4,
+      "potential": 0.1829,
+      "transfer_probability": 0.4202,
+      "club_fit": 0.5378,
+      "data_confidence": 0.5379
+    },
+    "sell_components": {
+      "market_value": 0.8283,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.294,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 42.8,
+      "potential_score": 42.8,
+      "blended_value_eur": 2384259.0,
+      "transfer_probability_1y": 0.4202,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "age": 34,
+    "decision": "SELL",
+    "decision_confidence": 0.613,
+    "buy_score": 0.306,
+    "sell_score": 0.5519,
+    "reasoning": [
+      "Strong market value (€2.7M)",
+      "Age risk (age 34)",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0693,
+      "transfer_probability": 0.5956,
+      "club_fit": 0.7568,
+      "data_confidence": 0.5603
+    },
+    "sell_components": {
+      "market_value": 0.8345,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.277,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 34.85,
+      "potential_score": 34.85,
+      "blended_value_eur": 2661755.0,
+      "transfer_probability_1y": 0.5956,
+      "best_fit_club": "benfica",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Jefferson Lerma",
+    "age": 31,
+    "decision": "SELL",
+    "decision_confidence": 0.617,
+    "buy_score": 0.2973,
+    "sell_score": 0.555,
+    "reasoning": [
+      "Strong market value (€4.3M)",
+      "Age risk (age 31)",
+      "Best pathway: austrian bundesliga (98% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.112,
+      "transfer_probability": 0.4763,
+      "club_fit": 0.7856,
+      "data_confidence": 0.562
+    },
+    "sell_components": {
+      "market_value": 0.8619,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.3295,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 37.84,
+      "potential_score": 37.84,
+      "blended_value_eur": 4323627.0,
+      "transfer_probability_1y": 0.4763,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Neymar",
+    "age": 34,
+    "decision": "SELL",
+    "decision_confidence": 0.623,
+    "buy_score": 0.297,
+    "sell_score": 0.5605,
+    "reasoning": [
+      "Strong market value (€5.1M)",
+      "Age risk (age 34)",
+      "Best pathway: premier league (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.0573,
+      "transfer_probability": 0.5771,
+      "club_fit": 0.7393,
+      "data_confidence": 0.5636
+    },
+    "sell_components": {
+      "market_value": 0.8708,
+      "declining_trajectory": 0.2,
+      "age_risk": 1.0,
+      "injury_risk": 0.262,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 34.01,
+      "potential_score": 34.01,
+      "blended_value_eur": 5063874.0,
+      "transfer_probability_1y": 0.5771,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "premier league"
+    }
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "age": 32,
+    "decision": "SELL",
+    "decision_confidence": 0.614,
+    "buy_score": 0.2938,
+    "sell_score": 0.5524,
+    "reasoning": [
+      "Strong market value (€4.2M)",
+      "Age risk (age 32)",
+      "Best pathway: austrian bundesliga (0% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.2803,
+      "transfer_probability": 0.3897,
+      "club_fit": 0.5741,
+      "data_confidence": 0.5966
+    },
+    "sell_components": {
+      "market_value": 0.8603,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.995,
+      "injury_risk": 0.2357,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 49.62,
+      "potential_score": 49.62,
+      "blended_value_eur": 4201311.0,
+      "transfer_probability_1y": 0.3897,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Jhon Córdoba",
+    "age": 32,
+    "decision": "SELL",
+    "decision_confidence": 0.627,
+    "buy_score": 0.2673,
+    "sell_score": 0.5644,
+    "reasoning": [
+      "Strong market value (€4.8M)",
+      "Age risk (age 32)",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.1181,
+      "transfer_probability": 0.42,
+      "club_fit": 0.6222,
+      "data_confidence": 0.604
+    },
+    "sell_components": {
+      "market_value": 0.8673,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.995,
+      "injury_risk": 0.3015,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 38.27,
+      "potential_score": 38.27,
+      "blended_value_eur": 4758099.0,
+      "transfer_probability_1y": 0.42,
+      "best_fit_club": "nottingham forest",
+      "best_pathway": "austrian bundesliga"
+    }
+  },
+  {
+    "player_name": "Leandro Trossard",
+    "age": 31,
+    "decision": "SELL",
+    "decision_confidence": 0.619,
+    "buy_score": 0.2349,
+    "sell_score": 0.5571,
+    "reasoning": [
+      "Strong market value (€9.8M)",
+      "Age risk (age 31)",
+      "Best pathway: austrian bundesliga (100% success)"
+    ],
+    "buy_components": {
+      "undervalued": 0.0,
+      "potential": 0.3496,
+      "transfer_probability": 0.0224,
+      "club_fit": 0.5626,
+      "data_confidence": 0.5865
+    },
+    "sell_components": {
+      "market_value": 0.908,
+      "declining_trajectory": 0.2,
+      "age_risk": 0.935,
+      "injury_risk": 0.2513,
+      "peak_signal": 0.1
+    },
+    "supporting_data": {
+      "valuation_score": 54.47,
+      "potential_score": 54.47,
+      "blended_value_eur": 9786551.0,
+      "transfer_probability_1y": 0.0224,
+      "best_fit_club": "real madrid",
+      "best_pathway": "austrian bundesliga"
     }
   }
 ]

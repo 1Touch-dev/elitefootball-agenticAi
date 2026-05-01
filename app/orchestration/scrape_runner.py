@@ -177,19 +177,94 @@ def run_scrape_batch(
     return result
 
 
+def run_tavily_discovery_cycle(max_results_per_league: int = 15) -> dict[str, Any]:
+    """
+    Run Tavily discovery across all target leagues and return newly found player slugs.
+    Results are merged into the ALL_PLAYER_URLS registry for subsequent scraping.
+    """
+    try:
+        from app.discovery.tavily_discovery import discover_all_leagues
+        league_results = discover_all_leagues()
+        total_new = 0
+        new_slugs: list[str] = []
+        for league, players in league_results.items():
+            for p in players:
+                slug = p.get("slug", "")
+                tm_id = p.get("tm_id", "")
+                if slug and tm_id:
+                    new_slugs.append(slug)
+                    total_new += 1
+            log_event(logger, logging.INFO, "scrape_runner.tavily_league",
+                      league=league, found=len(players))
+        log_event(logger, logging.INFO, "scrape_runner.tavily_done",
+                  total_new=total_new, leagues=len(league_results))
+        return {"leagues": len(league_results), "new_players": total_new, "slugs": new_slugs}
+    except Exception as exc:
+        log_event(logger, logging.ERROR, "scrape_runner.tavily_failed", error=str(exc)[:300])
+        return {"leagues": 0, "new_players": 0, "slugs": [], "error": str(exc)[:200]}
+
+
 def run_full_scrape_cycle(
     tiers: list[str] | None = None,
     batch_size: int = 20,
     force_refresh: bool = False,
     trigger_pipeline: bool = True,
+    run_discovery: bool = False,
 ) -> dict[str, Any]:
     """
-    Full scrape cycle: enqueue jobs by tier, process all pending batches.
+    Full scrape cycle using the TM HTTP scraper for all registered players.
 
-    tiers: subset of ["idv", "liga_pro", "discovery"]. Defaults to all.
-    force_refresh: ignore cache TTL and re-scrape everything.
-    trigger_pipeline: rebuild Gold after each changed batch.
+    tiers: unused (kept for API compatibility) — always scrapes ALL_PLAYER_URLS.
+    force_refresh: ignore 24h cache TTL and re-scrape everything.
+    trigger_pipeline: rebuild Gold after scraping completes.
+    run_discovery: if True, run Tavily discovery first to find new players.
     """
+    discovery_result: dict[str, Any] = {}
+    if run_discovery:
+        discovery_result = run_tavily_discovery_cycle()
+        log_event(logger, logging.INFO, "scrape_runner.discovery_complete",
+                  **{k: v for k, v in discovery_result.items() if k != "slugs"})
+
+    # Use the real TM HTTP scraper (Crawl4AI / Playwright unavailable on this server)
+    from app.scraping.tm_http_scraper import scrape_all_players
+    start = time.perf_counter()
+    results = scrape_all_players(force_refresh=force_refresh)
+    elapsed = round(time.perf_counter() - start, 1)
+
+    ok = sum(1 for r in results if r.get("status") == "ok")
+    cached = sum(1 for r in results if r.get("status") == "cached")
+    errors = [r for r in results if r.get("status") == "error"]
+
+    log_event(logger, logging.INFO, "scrape_runner.scrape_complete",
+              ok=ok, cached=cached, errors=len(errors), elapsed=elapsed)
+
+    pipeline_result: dict[str, Any] = {}
+    if trigger_pipeline and (ok > 0):
+        try:
+            from app.pipeline.run_pipeline import run_pipeline
+            pipeline_result = run_pipeline()
+            log_event(logger, logging.INFO, "scrape_runner.pipeline_triggered", ok=ok)
+        except Exception as exc:
+            log_event(logger, logging.ERROR, "scrape_runner.pipeline_failed",
+                      error=str(exc)[:300])
+            pipeline_result = {"error": str(exc)[:200]}
+
+    summary = {
+        "tiers": list(tiers or ["all"]),
+        "enqueued": len(results),
+        "ok": ok,
+        "cached": cached,
+        "errors": len(errors),
+        "elapsed_seconds": elapsed,
+        "discovery": discovery_result,
+        "pipeline_triggered": bool(pipeline_result),
+    }
+    log_event(logger, logging.INFO, "scrape_runner.cycle_complete", **{
+        k: v for k, v in summary.items() if k != "discovery"
+    })
+    return summary
+
+    # Legacy queue-based flow (unused — kept for reference)
     queue = PersistentJobQueue()
     active_tiers = set(tiers or ["idv", "liga_pro", "discovery"])
 

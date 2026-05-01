@@ -3,6 +3,32 @@
     {
       "alert_type": "UNDERVALUED",
       "severity": "critical",
+      "player_name": "Byron Castillo",
+      "trigger_reason": "Model value €5,960,000 vs market €600,000 (+434% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 5960000.0,
+        "market_value_eur": 600000.0,
+        "valuation_score": 51.92,
+        "value_gap_pct": 434.3,
+        "data_confidence": 0.5379
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Damián Díaz",
+      "trigger_reason": "Model value €670,000 vs market €75,000 (+508% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 670000.0,
+        "market_value_eur": 75000.0,
+        "valuation_score": 41.34,
+        "value_gap_pct": 507.8,
+        "data_confidence": 0.6804
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
       "player_name": "Dylan Borrero",
       "trigger_reason": "Model value €6,035,000 vs market €1,400,000 (+132% gap)",
       "supporting_metrics": {
@@ -29,6 +55,19 @@
     {
       "alert_type": "UNDERVALUED",
       "severity": "critical",
+      "player_name": "Jhegson Méndez",
+      "trigger_reason": "Model value €5,375,000 vs market €800,000 (+381% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 5375000.0,
+        "market_value_eur": 800000.0,
+        "valuation_score": 50.75,
+        "value_gap_pct": 380.7,
+        "data_confidence": 0.7154
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
       "player_name": "Luis Segovia",
       "trigger_reason": "Model value €7,870,000 vs market €1,000,000 (+323% gap)",
       "supporting_metrics": {
@@ -37,6 +76,19 @@
         "valuation_score": 55.74,
         "value_gap_pct": 323.3,
         "data_confidence": 0.5379
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Michael Estrada",
+      "trigger_reason": "Model value €8,855,000 vs market €600,000 (+937% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 8855000.0,
+        "market_value_eur": 600000.0,
+        "valuation_score": 57.71,
+        "value_gap_pct": 937.4,
+        "data_confidence": 0.7029
       }
     },
     {
@@ -55,6 +107,19 @@
     {
       "alert_type": "UNDERVALUED",
       "severity": "critical",
+      "player_name": "Reinier",
+      "trigger_reason": "Model value €7,070,000 vs market €2,000,000 (+116% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 7070000.0,
+        "market_value_eur": 2000000.0,
+        "valuation_score": 54.14,
+        "value_gap_pct": 115.8,
+        "data_confidence": 0.6104
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
       "player_name": "Renato Ibarra",
       "trigger_reason": "Model value €2,855,000 vs market €250,000 (+677% gap)",
       "supporting_metrics": {
@@ -64,14 +129,40 @@
         "value_gap_pct": 677.0,
         "data_confidence": 0.6804
       }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "critical",
+      "player_name": "Rodrigo Conceição",
+      "trigger_reason": "Model value €2,450,000 vs market €500,000 (+233% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 2450000.0,
+        "market_value_eur": 500000.0,
+        "valuation_score": 44.9,
+        "value_gap_pct": 233.4,
+        "data_confidence": 0.6804
+      }
+    },
+    {
+      "alert_type": "UNDERVALUED",
+      "severity": "high",
+      "player_name": "Noah Ohio",
+      "trigger_reason": "Model value €3,940,000 vs market €1,000,000 (+72% gap)",
+      "supporting_metrics": {
+        "computed_value_eur": 3940000.0,
+        "market_value_eur": 1000000.0,
+        "valuation_score": 47.88,
+        "value_gap_pct": 71.5,
+        "data_confidence": 0.4354
+      }
     }
   ],
   "summary": {
-    "total": 5,
-    "undervalued": 5,
+    "total": 12,
+    "undervalued": 12,
     "breakout": 0,
     "decline": 0,
-    "critical": 5,
-    "high": 0
+    "critical": 11,
+    "high": 1
   }
 }
