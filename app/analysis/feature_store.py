@@ -158,8 +158,8 @@ def build_feature_store(
             "xg_per_90": ar.get("xg_per_90"),
             "xa_per_90": ar.get("xa_per_90"),
             "xt_total": ar.get("xt_total"),
-            "epv_proxy": ar.get("epv_proxy"),
-            "obv_proxy": ar.get("obv_proxy"),
+            "epv_proxy": ar.get("epv_proxy") or ar.get("epv_proxy_per_90"),
+            "obv_proxy": ar.get("obv_proxy") or ar.get("obv_proxy_total"),
             "progression_score": ar.get("progression_score"),
 
             # Risk

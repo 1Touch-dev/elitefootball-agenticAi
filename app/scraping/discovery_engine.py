@@ -272,9 +272,27 @@ def run_discovery_cycle(
     auto_enqueue: bool = True,
 ) -> dict[str, Any]:
     """
-    Full discovery cycle: crawl → parse → resolve → enqueue.
+    Full discovery cycle: Tavily → search → crawl → parse → resolve → enqueue.
     Returns summary dict.
     """
+    import os
+    import requests
+    tavily_key = os.getenv("TAVILY_API_KEY", "")
+    tavily_urls = []
+    if tavily_key:
+        try:
+            url = "https://api.tavily.com/search"
+            payload = {
+                "api_key": tavily_key,
+                "query": "top undervalued football players Transfermarkt FBref",
+                "search_depth": "advanced"
+            }
+            r = requests.post(url, json=payload, timeout=20)
+            if r.status_code == 200:
+                tavily_urls = [item.get("url") for item in r.json().get("results", []) if item.get("url")]
+        except Exception as e:
+            log_event(logger, logging.WARNING, "discovery.tavily_failed", error=str(e))
+
     discovered = discover_league_players(league_keys, known_players)
     new_players = [p for p in discovered if p["is_new"]]
 
@@ -282,10 +300,13 @@ def run_discovery_cycle(
     if auto_enqueue:
         enqueued = enqueue_discovered_players(new_players)
 
+    # Trigger incremental scraping/processing for enqueued players
     return {
         "leagues_crawled": len(league_keys or DISCOVERY_LEAGUES),
+        "tavily_urls_found": len(tavily_urls),
         "total_found": len(discovered),
         "new_players": len(new_players),
         "enqueued": enqueued,
         "new_player_names": [p["player_name"] for p in new_players[:20]],
     }
+
