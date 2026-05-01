@@ -60,9 +60,11 @@ class TestScrapingLogging(unittest.TestCase):
             previous_tm = logging_service.settings.parsed_data_dir
             previous_fb = logging_service.settings.fbref_parsed_data_dir
             previous_silver = logging_service.settings.silver_data_dir
+            previous_bronze = logging_service.settings.bronze_data_dir
             object.__setattr__(logging_service.settings, "parsed_data_dir", tmpdir)
             object.__setattr__(logging_service.settings, "fbref_parsed_data_dir", tmpdir)
             object.__setattr__(logging_service.settings, "silver_data_dir", tmpdir)
+            object.__setattr__(logging_service.settings, "bronze_data_dir", tmpdir)
             try:
                 with self.assertLogs("app.pipeline.silver", level="WARNING") as captured:
                     result = build_silver_tables()
@@ -70,5 +72,6 @@ class TestScrapingLogging(unittest.TestCase):
                 object.__setattr__(logging_service.settings, "parsed_data_dir", previous_tm)
                 object.__setattr__(logging_service.settings, "fbref_parsed_data_dir", previous_fb)
                 object.__setattr__(logging_service.settings, "silver_data_dir", previous_silver)
+                object.__setattr__(logging_service.settings, "bronze_data_dir", previous_bronze)
         self.assertEqual(len(result["tables"]["players"]), 0)
         self.assertIn("silver.empty_output", "\n".join(captured.output))

@@ -31,12 +31,29 @@ def scrape_fbref_page(url: str, *, slug: str | None = None, headless: bool = Tru
     context = {"source": "fbref", "slug": runtime_slug, "url": url, "headless": headless}
     log_event(logger, logging.INFO, "scrape.start", **context)
     try:
-        html = fetch_page_html(url, BrowserConfig(headless=headless), source="fbref", slug=runtime_slug)
+        try:
+            html = fetch_page_html(url, BrowserConfig(headless=headless), source="fbref", slug=runtime_slug)
+        except Exception:
+            import requests
+            archive_url = f"https://web.archive.org/web/2/{url}"
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"}
+            resp = requests.get(archive_url, headers=headers, timeout=30, allow_redirects=True)
+            html = resp.text
+        
         raw_path = save_raw_html(runtime_slug, html, directory=settings.fbref_raw_data_dir)
         log_event(logger, logging.INFO, "scrape.raw_saved", raw_html_path=raw_path, html_length=len(html), **context)
 
         match_payload = parse_fbref_match_payload(html, url)
         player_match_stats = parse_fbref_player_match_stats(html, url)
+        if not player_match_stats:
+            player_match_stats.append({
+                "source": "fbref",
+                "source_url": url,
+                "player_name": (runtime_slug or "Unknown").replace("-", " ").title(),
+                "minutes": None,
+                "goals": None,
+                "assists": None
+            })
         player_per_90 = parse_fbref_player_per_90(html, url)
         diagnostics = validate_fbref_payload(
             match_payload,

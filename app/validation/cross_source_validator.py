@@ -159,9 +159,9 @@ def compute_player_confidence(
     internal = _internal_consistency(stat_rows)
     coverage = _coverage_score(player_row, stat_rows)
 
-    # Weighted composite
+    # Weighted composite: 0.5 cross-source agreement + 0.3 completeness + 0.2 consistency
     data_confidence = round(
-        0.45 * cross_src + 0.35 * internal + 0.20 * coverage,
+        0.50 * cross_src + 0.20 * internal + 0.30 * coverage,
         4,
     )
 

@@ -253,7 +253,6 @@ def compute_transfer_probability(
     f_export = _club_export_rate(club)
     f_contract = _contract_pressure(age, mv_eur)
 
-    # Destination penalty: established elite-club players are not outbound targets
     f_dest = _destination_penalty_score(club)
 
     # Logistic regression score

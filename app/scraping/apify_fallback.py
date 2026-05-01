@@ -91,11 +91,12 @@ def fetch_page_html(url: str, wait_for: str = "body") -> str:
             const html = await page.content();
             return { url: request.url, html: html };
         }""",
+        "proxyConfiguration": {"useApifyProxy": True},
         "maxRequestsPerCrawl": 1,
         "maxConcurrency": 1,
     }
     try:
-        run_id = _run_actor("apify/web-scraper", input_payload)
+        run_id = _run_actor("apify~playwright-scraper", input_payload)
         dataset_id = _poll_run(run_id)
         items = _fetch_dataset(dataset_id)
         if not items:
@@ -148,26 +149,30 @@ def fetch_fbref_player(player_name: str, fbref_url: str | None = None) -> dict[s
         "maxRequestsPerCrawl": 3,
         "maxConcurrency": 1,
         "navigationTimeoutSecs": 30,
+        "proxyConfiguration": {
+            "useApifyProxy": True,
+            "apifyProxyGroups": ["RESIDENTIAL"]
+        },
     }
 
     try:
-        run_id = _run_actor("apify/web-scraper", input_payload)
+        run_id = _run_actor("apify~playwright-scraper", input_payload)
         dataset_id = _poll_run(run_id)
         items = _fetch_dataset(dataset_id)
         if not items:
-            return {"player_name": player_name, "source": "apify_fbref", "stats": {}, "html": ""}
+            return {"player_name": player_name, "source": "fbref", "stats": {}, "html": ""}
 
         item = items[0]
         return {
             "player_name": player_name,
-            "source": "apify_fbref",
+            "source": "fbref",
             "url": item.get("url"),
             "stats": item.get("stats", {}),
             "html": item.get("html", ""),
         }
     except Exception as exc:
         log_event(logger, logging.ERROR, "apify.fbref.error", player=player_name, error=str(exc))
-        return {"player_name": player_name, "source": "apify_fbref", "error": str(exc), "stats": {}}
+        return {"player_name": player_name, "source": "fbref", "error": str(exc), "stats": {}}
 
 
 def batch_fetch_fbref(

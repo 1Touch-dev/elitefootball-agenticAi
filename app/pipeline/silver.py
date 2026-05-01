@@ -68,8 +68,12 @@ def _verify_written_table(path: str | Path, expected_rows: list[dict[str, Any]])
 
 
 def build_silver_tables() -> dict[str, object]:
+    from pathlib import Path
     transfermarkt_payloads = _load_json_files(settings.parsed_data_dir)
     fbref_payloads = _load_json_files(settings.fbref_parsed_data_dir)
+    sofascore_payloads = _load_json_files(Path(settings.bronze_data_dir) / "sofascore" / "parsed")
+
+
 
     players: list[dict[str, Any]] = []
     transfers: list[dict[str, Any]] = []
@@ -172,7 +176,7 @@ def build_silver_tables() -> dict[str, object]:
         for stat in payload.get("player_match_stats", []):
             player_match_stats.append(
                 {
-                    "source": "fbref",
+                    "source": stat.get("source") or "fbref",
                     "source_url": stat.get("source_url"),
                     "table_id": _clean_string(stat.get("table_id")),
                     "player_name": _clean_string(stat.get("player_name")),
@@ -210,6 +214,9 @@ def build_silver_tables() -> dict[str, object]:
                     "metrics": row.get("metrics") or {},
                 }
             )
+    for payload in sofascore_payloads:
+        for stat in payload.get("player_match_stats", []):
+            player_match_stats.append(stat)
 
     outputs = {
         "players": players,

@@ -173,6 +173,14 @@ def check_silver_tables() -> None:
     stats_path = silver_dir / "player_match_stats.json"
     if stats_path.exists():
         stats = json.load(open(stats_path))
+        
+        # Verify multi-source presence
+        sources = {r.get("source") for r in stats if r.get("source")}
+        if "fbref" not in sources:
+            _err("No FBref data found in player_match_stats (MUST scrape real data)")
+        if "sofascore" not in sources:
+            _err("No Sofascore data found in player_match_stats (MUST scrape real data)")
+            
         minutes_vals = [r.get("minutes") or 0 for r in stats if r.get("minutes")]
         if minutes_vals:
             import statistics
