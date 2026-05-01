@@ -1,23 +1,150 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/kendry-paez/profil/spieler/1000",
-    "player_name": "Kendry P\u00e1ez",
-    "preferred_name": "P\u00e1ez",
-    "position": "Midfielder",
-    "date_of_birth": "2007-05-11",
+    "tm_id": "1052439",
+    "player_name": "Kendry Páez",
+    "date_of_birth": "04/05/2007",
+    "age": 18,
     "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac8.0m"
+    "height": "1,78 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "left",
+    "current_club": "CA River Plate",
+    "on_loan_from": "Chelsea FC",
+    "contract_expires": "30/06/2027",
+    "market_value": "€9.00m",
+    "market_value_eur": 9000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/kendry-paez/profil/spieler/1052439"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/kendry-paez/transfers/spieler/1000",
-      "season": "2024/2025",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Chelsea",
-      "market_value": "\u20ac8.0m",
-      "fee": "\u20ac16m"
+      "date": "04/05/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Independiente del Valle",
+      "age": "16"
+    },
+    {
+      "date": "14/07/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Independiente del Valle",
+      "age": "16"
+    },
+    {
+      "date": "05/12/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Independiente del Valle",
+      "age": "16"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Independiente del Valle",
+      "age": "17"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Independiente del Valle",
+      "age": "17"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Independiente del Valle",
+      "age": "18"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "RC Strasbourg Alsace",
+      "age": "18"
+    },
+    {
+      "date": "18/03/2026",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "CA River Plate",
+      "age": "18"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 84
+    },
+    {
+      "competition": "Torneo Apertura",
+      "season": "2026",
+      "games_played": 7,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 271
+    },
+    {
+      "competition": "Copa Argentina",
+      "season": "2026",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "Conference League",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 280
+    },
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 15,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 420
+    },
+    {
+      "competition": "UECL Qualifiers",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 18
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
     }
   ]
 }

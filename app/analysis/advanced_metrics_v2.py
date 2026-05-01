@@ -209,8 +209,8 @@ def build_advanced_metrics_v2_output(
             "xa_per_90": per_90(xa, minutes),
             "xt_total": xt.get("xt_total"),
             "xt_per_90": xt.get("xt_per_90"),
-            "epv_per_90": epv,
-            "obv_total": obv,
+            "epv_proxy_per_90": epv,
+            "obv_proxy_total": obv,
             "progression_score": round(min(10.0, prog_score_raw), 3),
             "inputs": {
                 "goals": goals,
@@ -221,6 +221,6 @@ def build_advanced_metrics_v2_output(
             "model_version": MODEL_VERSION,
         })
 
-    output_rows.sort(key=lambda r: r.get("obv_total") or 0.0, reverse=True)
+    output_rows.sort(key=lambda r: r.get("obv_proxy_total") or 0.0, reverse=True)
     path = write_json(Path(settings.gold_data_dir) / "advanced_metrics.json", output_rows)
     return {"path": path, "rows": output_rows}

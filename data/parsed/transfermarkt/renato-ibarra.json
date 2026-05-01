@@ -1,23 +1,251 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/renato-ibarra/profil/spieler/1000",
+    "tm_id": "191830",
     "player_name": "Renato Ibarra",
-    "preferred_name": "Ibarra",
-    "position": "Forward",
-    "date_of_birth": "1991-08-20",
+    "date_of_birth": "20/01/1991",
+    "age": 35,
     "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac1.8m"
+    "height": "1,75 m",
+    "position": "Attack - Right Winger",
+    "foot": "right",
+    "current_club": "Mushuc Runa SC",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2026",
+    "market_value": "€250k",
+    "market_value_eur": 250000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/renato-ibarra/profil/spieler/191830"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/renato-ibarra/transfers/spieler/1000",
-      "season": "2025/2026",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac1.8m",
-      "fee": "-"
+      "date": "11/07/2011",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Vitesse Arnhem",
+      "age": "20"
+    },
+    {
+      "date": "07/09/2011",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Vitesse Arnhem",
+      "age": "20"
+    },
+    {
+      "date": "13/07/2012",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Vitesse Arnhem",
+      "age": "21"
+    },
+    {
+      "date": "04/06/2013",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Vitesse Arnhem",
+      "age": "22"
+    },
+    {
+      "date": "11/02/2014",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Vitesse Arnhem",
+      "age": "23"
+    },
+    {
+      "date": "10/08/2014",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Vitesse Arnhem",
+      "age": "23"
+    },
+    {
+      "date": "16/02/2015",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Vitesse Arnhem",
+      "age": "24"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Vitesse Arnhem",
+      "age": "24"
+    },
+    {
+      "date": "11/11/2015",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Vitesse Arnhem",
+      "age": "24"
+    },
+    {
+      "date": "05/02/2016",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "Vitesse Arnhem",
+      "age": "25"
+    },
+    {
+      "date": "01/07/2016",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "CF América",
+      "age": "25"
+    },
+    {
+      "date": "16/12/2016",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "CF América",
+      "age": "25"
+    },
+    {
+      "date": "31/07/2017",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "CF América",
+      "age": "26"
+    },
+    {
+      "date": "10/04/2018",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CF América",
+      "age": "27"
+    },
+    {
+      "date": "23/08/2018",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "CF América",
+      "age": "27"
+    },
+    {
+      "date": "08/02/2019",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "CF América",
+      "age": "28"
+    },
+    {
+      "date": "13/08/2019",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "CF América",
+      "age": "28"
+    },
+    {
+      "date": "10/01/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "CF América",
+      "age": "28"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 3200000,
+      "value_str": "€3.20m",
+      "club": "CF América",
+      "age": "29"
+    },
+    {
+      "date": "18/12/2020",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Atlas Guadalajara",
+      "age": "29"
+    },
+    {
+      "date": "21/04/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Atlas Guadalajara",
+      "age": "30"
+    },
+    {
+      "date": "15/10/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CF América",
+      "age": "30"
+    },
+    {
+      "date": "11/04/2022",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Club Tijuana",
+      "age": "31"
+    },
+    {
+      "date": "31/10/2022",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Club Tijuana",
+      "age": "31"
+    },
+    {
+      "date": "14/07/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "LDU Quito",
+      "age": "32"
+    },
+    {
+      "date": "05/12/2023",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "LDU Quito",
+      "age": "32"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Independiente del Valle",
+      "age": "33"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Independiente del Valle",
+      "age": "33"
+    },
+    {
+      "date": "09/04/2025",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Independiente del Valle",
+      "age": "34"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Independiente del Valle",
+      "age": "34"
+    },
+    {
+      "date": "22/12/2025",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Independiente del Valle",
+      "age": "34"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LigaPro Serie A",
+      "season": "2026",
+      "games_played": 7,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 365
     }
   ]
 }

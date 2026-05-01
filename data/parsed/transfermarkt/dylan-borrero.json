@@ -1,32 +1,163 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/dylan-borrero/profil/spieler/1000",
+    "tm_id": "662453",
     "player_name": "Dylan Borrero",
-    "preferred_name": "Borrero",
-    "position": "Forward",
-    "date_of_birth": "2000-09-10",
-    "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac3.5m"
+    "date_of_birth": "05/01/2002",
+    "age": 24,
+    "nationality": "Colombia",
+    "height": "1,79 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "CD América de Cali",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€1.40m",
+    "market_value_eur": 1400000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/dylan-borrero/profil/spieler/662453"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/dylan-borrero/transfers/spieler/1000",
-      "season": "2021/2022",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Fluminense",
-      "market_value": "\u20ac3.5m",
-      "fee": "\u20ac1.8m"
+      "date": "20/02/2020",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Clube Atlético Mineiro",
+      "age": "18"
     },
     {
-      "source_url": "https://www.transfermarkt.com/dylan-borrero/transfers/spieler/1000",
-      "season": "2022/2023",
-      "date": "2025-01-01",
-      "from_club": "Fluminense",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac3.5m",
-      "fee": "loan"
+      "date": "08/04/2020",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Clube Atlético Mineiro",
+      "age": "18"
+    },
+    {
+      "date": "09/09/2020",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Clube Atlético Mineiro",
+      "age": "18"
+    },
+    {
+      "date": "09/02/2021",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Clube Atlético Mineiro",
+      "age": "19"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Clube Atlético Mineiro",
+      "age": "19"
+    },
+    {
+      "date": "17/12/2021",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Clube Atlético Mineiro",
+      "age": "19"
+    },
+    {
+      "date": "06/04/2022",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Clube Atlético Mineiro",
+      "age": "20"
+    },
+    {
+      "date": "18/08/2022",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "New England Revolution",
+      "age": "20"
+    },
+    {
+      "date": "08/11/2022",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "New England Revolution",
+      "age": "20"
+    },
+    {
+      "date": "22/08/2023",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "New England Revolution",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "New England Revolution",
+      "age": "21"
+    },
+    {
+      "date": "13/06/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "New England Revolution",
+      "age": "22"
+    },
+    {
+      "date": "12/12/2024",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "New England Revolution",
+      "age": "22"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 2700000,
+      "value_str": "€2.70m",
+      "club": "Fortaleza Esporte Clube",
+      "age": "23"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Fortaleza Esporte Clube",
+      "age": "23"
+    },
+    {
+      "date": "05/12/2025",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "CD América de Cali",
+      "age": "23"
+    },
+    {
+      "date": "17/03/2026",
+      "value_eur": 1400000,
+      "value_str": "€1.40m",
+      "club": "CD América de Cali",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 54
+    },
+    {
+      "competition": "Liga DIMAYOR I",
+      "season": "2026",
+      "games_played": 9,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 453
     }
   ]
 }

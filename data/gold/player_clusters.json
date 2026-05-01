@@ -1,272 +1,212 @@
 {
   "players": [
     {
-      "player_name": "Moisés Caicedo",
+      "player_name": "Willian Pacho",
       "cluster_id": 1,
-      "cluster_label": "playmaker",
+      "cluster_label": "workhorse",
       "feature_vector": [
-        0.1683,
+        0.0425,
+        0.0312,
+        0.106,
+        0.6501,
+        0.0,
+        0.044,
         1.0,
-        0.4045,
-        1.0,
-        0.3287,
-        0.768,
-        0.1483,
         0.3913
-      ]
-    },
-    {
-      "player_name": "Kendry Páez",
-      "cluster_id": 3,
-      "cluster_label": "clinical_striker",
-      "feature_vector": [
-        1.0,
-        1.0,
-        0.8125,
-        0.8656,
-        1.0,
-        1.0,
-        0.24,
-        0.1304
       ]
     },
     {
       "player_name": "Piero Hincapié",
-      "cluster_id": 2,
-      "cluster_label": "engine",
-      "feature_vector": [
-        0.2083,
-        0.3125,
-        0.2083,
-        0.8594,
-        0.25,
-        0.2,
-        0.12,
-        0.3913
-      ]
-    },
-    {
-      "player_name": "Cristian Pellerano",
-      "cluster_id": 0,
-      "cluster_label": "cluster_0",
-      "feature_vector": [
-        0.0,
-        0.625,
-        0.125,
-        0.925,
-        0.0937,
-        0.3,
-        0.12,
-        1.0
-      ]
-    },
-    {
-      "player_name": "Sebastián Rodríguez",
       "cluster_id": 1,
-      "cluster_label": "playmaker",
+      "cluster_label": "workhorse",
       "feature_vector": [
-        0.2125,
-        0.9562,
-        0.34,
-        0.8095,
-        0.35,
-        0.51,
-        0.1177,
-        0.5652
-      ]
-    },
-    {
-      "player_name": "Willian Pacho",
-      "cluster_id": 2,
-      "cluster_label": "engine",
-      "feature_vector": [
-        0.1392,
-        0.2087,
-        0.1667,
-        0.7833,
-        0.1663,
-        0.134,
-        0.18,
+        0.0283,
+        0.085,
+        0.0677,
+        0.6501,
+        0.0,
+        0.116,
+        0.886,
         0.3913
       ]
     },
     {
       "player_name": "Óscar Zambrano",
-      "cluster_id": 1,
-      "cluster_label": "playmaker",
+      "cluster_id": 4,
+      "cluster_label": "wide_creator",
       "feature_vector": [
-        0.3333,
-        1.0,
-        0.4,
-        0.745,
-        0.5,
-        0.64,
-        0.15,
-        0.4348
-      ]
-    },
-    {
-      "player_name": "Luis Segovia",
-      "cluster_id": 3,
-      "cluster_label": "clinical_striker",
-      "feature_vector": [
-        0.7567,
-        1.0,
-        0.6268,
-        0.616,
-        0.9562,
-        0.83,
-        0.2313,
-        0.4348
-      ]
-    },
-    {
-      "player_name": "Alexis Zapata",
-      "cluster_id": 2,
-      "cluster_label": "engine",
-      "feature_vector": [
-        0.2083,
-        0.625,
-        0.1667,
-        0.6875,
-        0.2187,
-        0.25,
-        0.12,
-        0.4783
-      ]
-    },
-    {
-      "player_name": "Gabriel Villamil",
-      "cluster_id": 2,
-      "cluster_label": "engine",
-      "feature_vector": [
-        0.2117,
-        0.3175,
-        0.169,
-        0.637,
-        0.2212,
-        0.152,
-        0.1183,
-        0.3913
-      ]
-    },
-    {
-      "player_name": "Michael Espinoza",
-      "cluster_id": 2,
-      "cluster_label": "engine",
-      "feature_vector": [
-        0.4658,
-        0.35,
-        0.4193,
-        0.5939,
-        0.5937,
-        0.336,
-        0.1073,
+        0.4542,
+        0.0,
+        0.6363,
+        0.5625,
+        0.0,
+        0.0,
+        0.11,
         0.3043
       ]
     },
     {
-      "player_name": "Carlos Gutiérrez",
-      "cluster_id": 4,
-      "cluster_label": "cluster_4",
+      "player_name": "Luis Segovia",
+      "cluster_id": 2,
+      "cluster_label": "cluster_2",
       "feature_vector": [
+        0.0758,
         0.0,
-        0.3125,
-        0.0833,
-        0.6687,
-        0.0625,
-        0.1,
-        0.12,
+        0.1818,
+        0.65,
+        0.0,
+        0.0,
+        0.33,
         0.5652
       ]
     },
     {
-      "player_name": "Dylan Borrero",
+      "player_name": "Kendry Páez",
       "cluster_id": 3,
-      "cluster_label": "clinical_striker",
+      "cluster_label": "engine",
       "feature_vector": [
-        1.0,
-        1.0,
-        0.8538,
-        0.4526,
-        1.0,
-        0.718,
-        0.1757,
-        0.4348
+        0.14,
+        0.105,
+        0.1957,
+        0.562,
+        0.0,
+        0.142,
+        0.3577,
+        0.1304
       ]
     },
     {
-      "player_name": "Renato Ibarra",
-      "cluster_id": 3,
-      "cluster_label": "clinical_striker",
+      "player_name": "Pedro Velasco",
+      "cluster_id": 2,
+      "cluster_label": "cluster_2",
       "feature_vector": [
-        0.9433,
+        0.0,
+        0.2212,
+        0.0,
+        0.6498,
+        0.0,
+        0.3,
+        0.3393,
+        0.7391
+      ]
+    },
+    {
+      "player_name": "Moisés Caicedo",
+      "cluster_id": 1,
+      "cluster_label": "workhorse",
+      "feature_vector": [
+        0.1008,
+        0.03,
+        0.145,
+        0.5625,
+        0.0,
+        0.042,
         1.0,
-        0.849,
-        0.4363,
-        1.0,
-        0.716,
-        0.159,
-        0.8261
+        0.3913
+      ]
+    },
+    {
+      "player_name": "Gabriel Villamíl",
+      "cluster_id": 2,
+      "cluster_label": "cluster_2",
+      "feature_vector": [
+        0.0817,
+        0.0,
+        0.1148,
+        0.5625,
+        0.0,
+        0.0,
+        0.3047,
+        0.3913
+      ]
+    },
+    {
+      "player_name": "Sebastián Rodríguez",
+      "cluster_id": 2,
+      "cluster_label": "cluster_2",
+      "feature_vector": [
+        0.0692,
+        0.2075,
+        0.0967,
+        0.563,
+        0.0,
+        0.282,
+        0.3623,
+        0.7826
       ]
     },
     {
       "player_name": "Alan Minda",
       "cluster_id": 3,
-      "cluster_label": "clinical_striker",
+      "cluster_label": "engine",
       "feature_vector": [
-        0.7575,
-        0.5687,
-        0.7197,
-        0.3892,
-        1.0,
-        0.454,
-        0.132,
-        0.4348
-      ]
-    },
-    {
-      "player_name": "Tomás Molina",
-      "cluster_id": 3,
-      "cluster_label": "clinical_striker",
-      "feature_vector": [
-        0.5458,
-        0.8187,
-        0.6,
-        0.3396,
-        0.8187,
-        0.59,
-        0.0917,
+        0.1792,
+        0.2687,
+        0.203,
+        0.4371,
+        0.0,
+        0.366,
+        0.4187,
         0.3043
       ]
     },
     {
-      "player_name": "Pedro Velasco",
-      "cluster_id": 4,
-      "cluster_label": "cluster_4",
+      "player_name": "Jordy Caicedo",
+      "cluster_id": 0,
+      "cluster_label": "cluster_0",
       "feature_vector": [
+        0.3725,
+        0.0,
+        0.4095,
+        0.4376,
         0.0,
         0.0,
-        0.0,
-        0.4542,
-        0.0,
-        0.0,
-        0.18,
-        0.6087
+        0.5373,
+        0.5652
       ]
     },
     {
-      "player_name": "Jordy Caicedo",
-      "cluster_id": 3,
-      "cluster_label": "clinical_striker",
+      "player_name": "Dylan Borrero",
+      "cluster_id": 2,
+      "cluster_label": "cluster_2",
       "feature_vector": [
-        0.9008,
-        0.6763,
-        0.6307,
-        0.3074,
-        1.0,
-        0.486,
-        0.111,
+        0.1483,
+        0.0,
+        0.1775,
+        0.4371,
+        0.0,
+        0.0,
+        0.169,
+        0.3913
+      ]
+    },
+    {
+      "player_name": "Renato Ibarra",
+      "cluster_id": 0,
+      "cluster_label": "cluster_0",
+      "feature_vector": [
+        0.4108,
+        0.3087,
+        0.452,
+        0.4377,
+        0.0,
+        0.42,
+        0.1217,
+        0.8696
+      ]
+    },
+    {
+      "player_name": "Tomás Molina",
+      "cluster_id": 0,
+      "cluster_label": "cluster_0",
+      "feature_vector": [
+        0.2533,
+        0.0,
+        0.2875,
+        0.4376,
+        0.0,
+        0.0,
+        0.2957,
         0.6957
       ]
     }
@@ -276,76 +216,76 @@
       "cluster_id": 0,
       "label": "cluster_0",
       "centroid": [
+        0.3456,
+        0.1029,
+        0.383,
+        0.4376,
         0.0,
-        0.625,
-        0.125,
-        0.925,
-        0.0937,
-        0.3,
-        0.12,
-        1.0
+        0.14,
+        0.3182,
+        0.7101
       ],
-      "size": 1
+      "size": 3
     },
     {
       "cluster_id": 1,
-      "label": "playmaker",
+      "label": "workhorse",
       "centroid": [
-        0.2381,
-        0.9854,
-        0.3815,
-        0.8515,
-        0.3929,
-        0.6393,
-        0.1387,
-        0.4638
+        0.0572,
+        0.0487,
+        0.1062,
+        0.6209,
+        0.0,
+        0.0673,
+        0.962,
+        0.3913
       ],
       "size": 3
     },
     {
       "cluster_id": 2,
-      "label": "engine",
+      "label": "cluster_2",
       "centroid": [
-        0.2467,
-        0.3628,
-        0.226,
-        0.7122,
-        0.29,
-        0.2144,
-        0.1291,
-        0.3913
+        0.075,
+        0.0857,
+        0.1142,
+        0.5725,
+        0.0,
+        0.1164,
+        0.3011,
+        0.5739
       ],
       "size": 5
     },
     {
       "cluster_id": 3,
-      "label": "clinical_striker",
+      "label": "engine",
       "centroid": [
-        0.8435,
-        0.8662,
-        0.7275,
-        0.4867,
-        0.9679,
-        0.6849,
-        0.163,
-        0.4658
+        0.1596,
+        0.1869,
+        0.1993,
+        0.4995,
+        0.0,
+        0.254,
+        0.3882,
+        0.2174
       ],
-      "size": 7
+      "size": 2
     },
     {
       "cluster_id": 4,
-      "label": "cluster_4",
+      "label": "wide_creator",
       "centroid": [
+        0.4542,
         0.0,
-        0.1562,
-        0.0417,
-        0.5615,
-        0.0312,
-        0.05,
-        0.15,
-        0.587
+        0.6363,
+        0.5625,
+        0.0,
+        0.0,
+        0.11,
+        0.3043
       ],
-      "size": 2
+      "size": 1
     }
   ]
 }

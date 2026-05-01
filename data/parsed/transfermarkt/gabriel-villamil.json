@@ -1,23 +1,135 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/gabriel-villamil/profil/spieler/1000",
-    "player_name": "Gabriel Villamil",
-    "preferred_name": "Villamil",
-    "position": "Defender",
-    "date_of_birth": "2002-04-19",
-    "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac800k"
+    "tm_id": "844176",
+    "player_name": "Gabriel Villamíl",
+    "date_of_birth": "28/06/2001",
+    "age": 24,
+    "nationality": "Bolivia",
+    "height": "1,79 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "LDU Quito",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2027",
+    "market_value": "€1.20m",
+    "market_value_eur": 1200000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/gabriel-villamil/profil/spieler/844176"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/gabriel-villamil/transfers/spieler/1000",
-      "season": "2025/2026",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac800k",
-      "fee": "-"
+      "date": "15/03/2021",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Bolívar La Paz",
+      "age": "19"
+    },
+    {
+      "date": "03/08/2021",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Bolívar La Paz",
+      "age": "20"
+    },
+    {
+      "date": "28/10/2021",
+      "value_eur": 575000,
+      "value_str": "€575k",
+      "club": "Bolívar La Paz",
+      "age": "20"
+    },
+    {
+      "date": "10/06/2022",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Bolívar La Paz",
+      "age": "20"
+    },
+    {
+      "date": "23/11/2022",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Bolívar La Paz",
+      "age": "21"
+    },
+    {
+      "date": "10/04/2023",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Bolívar La Paz",
+      "age": "21"
+    },
+    {
+      "date": "21/07/2023",
+      "value_eur": 850000,
+      "value_str": "€850k",
+      "club": "Bolívar La Paz",
+      "age": "22"
+    },
+    {
+      "date": "09/01/2024",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Bolívar La Paz",
+      "age": "22"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "LDU Quito",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "LDU Quito",
+      "age": "23"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "LDU Quito",
+      "age": "23"
+    },
+    {
+      "date": "29/09/2025",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "LDU Quito",
+      "age": "24"
+    },
+    {
+      "date": "22/12/2025",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "LDU Quito",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LigaPro Serie A",
+      "season": "2026",
+      "games_played": 11,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 644
+    },
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 3,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 270
     }
   ]
 }

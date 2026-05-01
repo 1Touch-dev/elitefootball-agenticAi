@@ -218,9 +218,9 @@ def _league_step_up(current_prestige: float, club_prestige: float) -> float:
     """
     delta = club_prestige - current_prestige
     if delta < -0.1:
-        return max(0.1, 0.5 + delta)  # step down
+        return round(max(0.1, 0.5 + delta), 4)  # step down
     if delta <= 0.40:
-        return round(0.5 + delta * 1.5, 4)  # sweet spot
+        return round(min(1.0, 0.5 + delta * 1.5), 4)  # sweet spot, capped at 1.0
     return round(max(0.3, 0.5 - (delta - 0.40)), 4)  # too big a jump
 
 

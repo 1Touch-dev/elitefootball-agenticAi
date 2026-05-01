@@ -1,181 +1,147 @@
 """
-Player URL registry: real Transfermarkt, FBref, and Sofascore URLs.
-Covers IDV squad, Liga Pro rivals, Brazilian/Argentine top clubs, and IDV graduates.
-
-NOTE: FBref player IDs (the 8-char hash in the URL) must be verified before live scraping.
-      Transfermarkt IDs are sourced from public profile pages and are accurate.
-      URLs marked url_verified=False require manual validation before production scraping.
+Player URL registry: real Transfermarkt URLs (verified via live search).
+FBref IDs are omitted — FBref returns 403 on this server without a browser.
+Transfermarkt IDs verified against live search results.
 """
 from __future__ import annotations
 
-# ── IDV Current Squad ─────────────────────────────────────────────────────────
+# ── IDV Current Squad — TM IDs verified via live search ───────────────────────
 IDV_PLAYER_URLS: dict[str, dict[str, str]] = {
-    "kendry_paez": {
-        "transfermarkt": "https://www.transfermarkt.com/kendry-paez/profil/spieler/1047263",
-        "fbref": "https://fbref.com/en/players/5f4d8c1c/Kendry-Paez",
-        "sofascore": "https://www.sofascore.com/player/kendry-paez/1233730",
+    "kendry-paez": {
+        "transfermarkt": "https://www.transfermarkt.com/kendry-paez/profil/spieler/1052439",
         "display_name": "Kendry Páez",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Attacking Midfielder",
         "nationality": "Ecuador",
     },
-    "willian_pacho": {
-        "transfermarkt": "https://www.transfermarkt.com/willian-pacho/profil/spieler/574041",
-        "fbref": "https://fbref.com/en/players/f7d9a8c1/Willian-Pacho",
-        "sofascore": "https://www.sofascore.com/player/willian-pacho/847294",
+    "willian-pacho": {
+        "transfermarkt": "https://www.transfermarkt.com/willian-pacho/profil/spieler/661171",
         "display_name": "Willian Pacho",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Centre-Back",
         "nationality": "Ecuador",
     },
-    "dylan_borrero": {
-        "transfermarkt": "https://www.transfermarkt.com/dylan-borrero/profil/spieler/534063",
-        "fbref": "https://fbref.com/en/players/a1b2c3d4/Dylan-Borrero",
-        "sofascore": "https://www.sofascore.com/player/dylan-borrero/746821",
+    "dylan-borrero": {
+        "transfermarkt": "https://www.transfermarkt.com/dylan-borrero/profil/spieler/662453",
         "display_name": "Dylan Borrero",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Left Winger",
         "nationality": "Colombia",
     },
-    "moises_caicedo": {
+    "moises-caicedo": {
         "transfermarkt": "https://www.transfermarkt.com/moises-caicedo/profil/spieler/687626",
-        "fbref": "https://fbref.com/en/players/f7b1c5b0/Moises-Caicedo",
-        "sofascore": "https://www.sofascore.com/player/moises-caicedo/978599",
         "display_name": "Moisés Caicedo",
         "club": "Chelsea",
         "league": "Premier League",
         "position": "Defensive Midfielder",
         "nationality": "Ecuador",
     },
-    "piero_hincapie": {
-        "transfermarkt": "https://www.transfermarkt.com/piero-hincapie/profil/spieler/659831",
-        "fbref": "https://fbref.com/en/players/9f0a7a8e/Piero-Hincapie",
-        "sofascore": "https://www.sofascore.com/player/piero-hincapie/981678",
+    "piero-hincapie": {
+        "transfermarkt": "https://www.transfermarkt.com/piero-hincapie/profil/spieler/659813",
         "display_name": "Piero Hincapié",
         "club": "Bayer Leverkusen",
         "league": "Bundesliga",
         "position": "Centre-Back",
         "nationality": "Ecuador",
     },
-    "alan_minda": {
-        "transfermarkt": "https://www.transfermarkt.com/alan-minda/profil/spieler/443192",
-        "fbref": "https://fbref.com/en/players/b2c3d4e5/Alan-Minda",
+    "alan-minda": {
+        "transfermarkt": "https://www.transfermarkt.com/alan-minda/profil/spieler/897051",
         "display_name": "Alan Minda",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Left Winger",
         "nationality": "Ecuador",
     },
-    "jordy_caicedo": {
-        "transfermarkt": "https://www.transfermarkt.com/jordy-caicedo/profil/spieler/338516",
-        "fbref": "https://fbref.com/en/players/c3d4e5f6/Jordy-Caicedo",
+    "jordy-caicedo": {
+        "transfermarkt": "https://www.transfermarkt.com/jordy-caicedo/profil/spieler/360412",
         "display_name": "Jordy Caicedo",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Centre-Forward",
         "nationality": "Ecuador",
     },
-    "renato_ibarra": {
-        "transfermarkt": "https://www.transfermarkt.com/renato-ibarra/profil/spieler/200498",
-        "fbref": "https://fbref.com/en/players/d4e5f6a7/Renato-Ibarra",
+    "renato-ibarra": {
+        "transfermarkt": "https://www.transfermarkt.com/renato-ibarra/profil/spieler/191830",
         "display_name": "Renato Ibarra",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Right Winger",
         "nationality": "Ecuador",
     },
-    "pedro_velasco": {
-        "transfermarkt": "https://www.transfermarkt.com/pedro-velasco/profil/spieler/548921",
-        "fbref": "https://fbref.com/en/players/e5f6a7b8/Pedro-Velasco",
+    "pedro-velasco": {
+        "transfermarkt": "https://www.transfermarkt.com/pedro-velasco/profil/spieler/201420",
         "display_name": "Pedro Velasco",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
-        "position": "Defensive Midfielder",
+        "position": "Goalkeeper",
         "nationality": "Ecuador",
     },
-    "oscar_zambrano": {
-        "transfermarkt": "https://www.transfermarkt.com/oscar-zambrano/profil/spieler/479012",
-        "fbref": "https://fbref.com/en/players/f6a7b8c9/Oscar-Zambrano",
+    "oscar-zambrano": {
+        "transfermarkt": "https://www.transfermarkt.com/oscar-zambrano/profil/spieler/893658",
         "display_name": "Óscar Zambrano",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Defensive Midfielder",
         "nationality": "Ecuador",
     },
-    "carlos_gutierrez": {
-        "transfermarkt": "https://www.transfermarkt.com/carlos-gutierrez/profil/spieler/576234",
-        "fbref": "https://fbref.com/en/players/a7b8c9d0/Carlos-Gutierrez",
+    "carlos-gutierrez": {
+        "transfermarkt": "https://www.transfermarkt.com/carlos-gutierrez/profil/spieler/599293",
         "display_name": "Carlos Gutiérrez",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Centre-Back",
         "nationality": "Ecuador",
     },
-    "luis_segovia": {
-        "transfermarkt": "https://www.transfermarkt.com/luis-segovia/profil/spieler/491837",
-        "fbref": "https://fbref.com/en/players/b8c9d0e1/Luis-Segovia",
+    "luis-segovia": {
+        "transfermarkt": "https://www.transfermarkt.com/luis-segovia/profil/spieler/385639",
         "display_name": "Luis Segovia",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Central Midfielder",
         "nationality": "Ecuador",
     },
-    "sebastian_rodriguez": {
-        "transfermarkt": "https://www.transfermarkt.com/sebastian-rodriguez/profil/spieler/512073",
-        "fbref": "https://fbref.com/en/players/c9d0e1f2/Sebastian-Rodriguez",
+    "sebastian-rodriguez": {
+        "transfermarkt": "https://www.transfermarkt.com/sebastian-rodriguez/profil/spieler/131114",
         "display_name": "Sebastián Rodríguez",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Right Winger",
         "nationality": "Ecuador",
     },
-    "cristian_pellerano": {
-        "transfermarkt": "https://www.transfermarkt.com/cristian-pellerano/profil/spieler/235847",
-        "fbref": "https://fbref.com/en/players/d0e1f2a3/Cristian-Pellerano",
+    "cristian-pellerano": {
+        "transfermarkt": "https://www.transfermarkt.com/cristian-pellerano/profil/spieler/55941",
         "display_name": "Cristian Pellerano",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Central Midfielder",
         "nationality": "Argentina",
     },
-    "gabriel_villamil": {
-        "transfermarkt": "https://www.transfermarkt.com/gabriel-villamil/profil/spieler/498124",
-        "fbref": "https://fbref.com/en/players/e1f2a3b4/Gabriel-Villamil",
+    "gabriel-villamil": {
+        "transfermarkt": "https://www.transfermarkt.com/gabriel-villamil/profil/spieler/844176",
         "display_name": "Gabriel Villamil",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Left Winger",
         "nationality": "Ecuador",
     },
-    "michael_espinoza": {
-        "transfermarkt": "https://www.transfermarkt.com/michael-espinoza/profil/spieler/563912",
-        "fbref": "https://fbref.com/en/players/f2a3b4c5/Michael-Espinoza",
-        "display_name": "Michael Espinoza",
-        "club": "Independiente del Valle",
-        "league": "Liga Pro Ecuador",
-        "position": "Central Midfielder",
-        "nationality": "Ecuador",
-    },
-    "tomas_molina": {
-        "transfermarkt": "https://www.transfermarkt.com/tomas-molina/profil/spieler/547832",
-        "fbref": "https://fbref.com/en/players/a3b4c5d6/Tomas-Molina",
+    "tomas-molina": {
+        "transfermarkt": "https://www.transfermarkt.com/tomas-molina/profil/spieler/429591",
         "display_name": "Tomás Molina",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Centre-Forward",
         "nationality": "Uruguay",
     },
-    "alexis_zapata": {
-        "transfermarkt": "https://www.transfermarkt.com/alexis-zapata/profil/spieler/534781",
-        "fbref": "https://fbref.com/en/players/b4c5d6e7/Alexis-Zapata",
-        "display_name": "Alexis Zapata",
+    "cristian-pellerano": {
+        "transfermarkt": "https://www.transfermarkt.com/cristian-pellerano/profil/spieler/55941",
+        "display_name": "Cristian Pellerano",
         "club": "Independiente del Valle",
         "league": "Liga Pro Ecuador",
         "position": "Central Midfielder",
-        "nationality": "Ecuador",
+        "nationality": "Argentina",
     },
 }
 

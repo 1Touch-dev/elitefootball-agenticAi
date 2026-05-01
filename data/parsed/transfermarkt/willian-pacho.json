@@ -1,32 +1,210 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/willian-pacho/profil/spieler/1000",
+    "tm_id": "661171",
     "player_name": "Willian Pacho",
-    "preferred_name": "Pacho",
-    "position": "Defender",
-    "date_of_birth": "2001-10-16",
+    "date_of_birth": "16/10/2001",
+    "age": 24,
     "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac15.0m"
+    "height": "1,88 m",
+    "position": "Defender - Centre-Back",
+    "foot": "left",
+    "current_club": "Paris Saint-Germain",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€70.00m",
+    "market_value_eur": 70000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/willian-pacho/profil/spieler/661171"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/willian-pacho/transfers/spieler/1000",
-      "season": "2022/2023",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Royal Antwerp",
-      "market_value": "\u20ac15.0m",
-      "fee": "\u20ac3m"
+      "date": "14/10/2020",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Independiente del Valle",
+      "age": "18"
     },
     {
-      "source_url": "https://www.transfermarkt.com/willian-pacho/transfers/spieler/1000",
-      "season": "2023/2024",
-      "date": "2025-01-01",
-      "from_club": "Royal Antwerp",
-      "to_club": "Eintracht Frankfurt",
-      "market_value": "\u20ac15.0m",
-      "fee": "\u20ac12m"
+      "date": "30/12/2020",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Independiente del Valle",
+      "age": "19"
+    },
+    {
+      "date": "30/06/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Independiente del Valle",
+      "age": "19"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Independiente del Valle",
+      "age": "20"
+    },
+    {
+      "date": "12/04/2022",
+      "value_eur": 2200000,
+      "value_str": "€2.20m",
+      "club": "Royal Antwerp FC",
+      "age": "20"
+    },
+    {
+      "date": "07/09/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Royal Antwerp FC",
+      "age": "20"
+    },
+    {
+      "date": "04/11/2022",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Royal Antwerp FC",
+      "age": "21"
+    },
+    {
+      "date": "22/03/2023",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Royal Antwerp FC",
+      "age": "21"
+    },
+    {
+      "date": "09/06/2023",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Royal Antwerp FC",
+      "age": "21"
+    },
+    {
+      "date": "18/10/2023",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "22"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "22"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "22"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "22"
+    },
+    {
+      "date": "07/10/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Paris Saint-Germain",
+      "age": "22"
+    },
+    {
+      "date": "10/12/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Paris Saint-Germain",
+      "age": "23"
+    },
+    {
+      "date": "24/03/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Paris Saint-Germain",
+      "age": "23"
+    },
+    {
+      "date": "03/06/2025",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Paris Saint-Germain",
+      "age": "23"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Paris Saint-Germain",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 22,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 1825
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 15,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 1350
+    },
+    {
+      "competition": "UEFA Super Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 64
+    },
+    {
+      "competition": "Trophée des Champions",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "FIFA Intercontinental Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 120
     }
   ]
 }

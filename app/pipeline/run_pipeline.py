@@ -28,7 +28,42 @@ from app.validation.cross_source_validator import build_confidence_index
 from app.validation.drift_detector import build_drift_report
 
 
+def _scrape_if_needed() -> dict[str, object]:
+    """Run TM HTTP scraping for IDV players before the pipeline starts."""
+    from pathlib import Path
+    from app.config import settings
+    from app.pipeline.io import list_files
+
+    parsed_dir = Path(settings.parsed_data_dir)
+    existing = list(list_files(parsed_dir, "*.json"))
+    if existing:
+        return {"skipped": True, "reason": "parsed data already present", "count": len(existing)}
+
+    from app.scraping.tm_http_scraper import scrape_all_idv
+    results = scrape_all_idv(force_refresh=False)
+    ok = sum(1 for r in results if r.get("status") in ("ok", "cached"))
+    return {"skipped": False, "results": results, "scraped": ok}
+
+
+def _guard_real_data() -> None:
+    """Raise if no parsed data exists (pipeline has no input)."""
+    from pathlib import Path
+    from app.config import settings
+    from app.pipeline.io import list_files
+
+    parsed_dir = Path(settings.parsed_data_dir)
+    files = list(list_files(parsed_dir, "*.json"))
+    if not files:
+        raise RuntimeError(
+            "No real scraped data found in data/parsed/transfermarkt/. "
+            "Run scripts/run_real_scrape.py first to populate bronze/raw data."
+        )
+
+
 def run_pipeline() -> dict[str, object]:
+    scrape_result = _scrape_if_needed()
+    _guard_real_data()
+
     bronze = build_bronze_manifest()
     silver = build_silver_tables()
     persistence = ingest_silver_tables(silver["tables"])

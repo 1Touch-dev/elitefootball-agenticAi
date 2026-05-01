@@ -1,23 +1,236 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/jordy-caicedo/profil/spieler/1000",
+    "tm_id": "360412",
     "player_name": "Jordy Caicedo",
-    "preferred_name": "Caicedo",
-    "position": "Forward",
-    "date_of_birth": "1995-03-31",
+    "date_of_birth": "18/11/1997",
+    "age": 28,
     "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac800k"
+    "height": "1,85 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "CA Huracán",
+    "on_loan_from": "Atlas Guadalajara",
+    "contract_expires": "31/12/2026",
+    "market_value": "€1.50m",
+    "market_value_eur": 1500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jordy-caicedo/profil/spieler/360412"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/jordy-caicedo/transfers/spieler/1000",
-      "season": "2025/2026",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac800k",
-      "fee": "-"
+      "date": "30/12/2014",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Deportivo Azogues",
+      "age": "17"
+    },
+    {
+      "date": "30/06/2015",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "CD Universidad Católica B",
+      "age": "17"
+    },
+    {
+      "date": "30/12/2016",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "CD Universidad Católica",
+      "age": "19"
+    },
+    {
+      "date": "14/07/2017",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "CD Universidad Católica",
+      "age": "19"
+    },
+    {
+      "date": "30/12/2017",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "CD Universidad Católica",
+      "age": "20"
+    },
+    {
+      "date": "20/07/2018",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "CD Universidad Católica",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2018",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "CD Universidad Católica",
+      "age": "21"
+    },
+    {
+      "date": "30/06/2019",
+      "value_eur": 850000,
+      "value_str": "€850k",
+      "club": "CD El Nacional",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 675000,
+      "value_str": "€675k",
+      "club": "Esporte Clube Vitória",
+      "age": "22"
+    },
+    {
+      "date": "11/06/2021",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "CSKA-Sofia",
+      "age": "23"
+    },
+    {
+      "date": "14/10/2021",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "CSKA-Sofia",
+      "age": "23"
+    },
+    {
+      "date": "08/12/2021",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "CSKA-Sofia",
+      "age": "24"
+    },
+    {
+      "date": "05/04/2022",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "CSKA-Sofia",
+      "age": "24"
+    },
+    {
+      "date": "31/05/2022",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "CSKA-Sofia",
+      "age": "24"
+    },
+    {
+      "date": "31/10/2022",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Tigres UANL",
+      "age": "24"
+    },
+    {
+      "date": "14/03/2023",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Sivasspor",
+      "age": "25"
+    },
+    {
+      "date": "08/06/2023",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Sivasspor",
+      "age": "25"
+    },
+    {
+      "date": "03/10/2023",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Atlas Guadalajara",
+      "age": "25"
+    },
+    {
+      "date": "29/12/2023",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Atlas Guadalajara",
+      "age": "26"
+    },
+    {
+      "date": "14/06/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Atlas Guadalajara",
+      "age": "26"
+    },
+    {
+      "date": "14/10/2024",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Sporting Gijón",
+      "age": "26"
+    },
+    {
+      "date": "13/12/2024",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Sporting Gijón",
+      "age": "27"
+    },
+    {
+      "date": "27/03/2025",
+      "value_eur": 1600000,
+      "value_str": "€1.60m",
+      "club": "Sporting Gijón",
+      "age": "27"
+    },
+    {
+      "date": "24/06/2025",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Sporting Gijón",
+      "age": "27"
+    },
+    {
+      "date": "30/12/2025",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Sporting Gijón",
+      "age": "28"
+    },
+    {
+      "date": "18/03/2026",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "CA Huracán",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Torneo Apertura",
+      "season": "2026",
+      "games_played": 14,
+      "goals": 8,
+      "assists": 0,
+      "yellow_cards": 7,
+      "red_cards": 0,
+      "minutes_played": 1238
+    },
+    {
+      "competition": "LaLiga2",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 123
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 251
     }
   ]
 }

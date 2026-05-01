@@ -39,15 +39,25 @@ def build_kpi_engine_output(
         minutes = sum(row.get("minutes") or 0 for row in rows)
         goals = sum(row.get("goals") or 0 for row in rows)
         assists = sum(row.get("assists") or 0 for row in rows)
-        shots = sum(row.get("shots") or 0 for row in rows)
-        passes_completed = sum(row.get("passes_completed") or 0 for row in rows)
+        shots_raw = sum(row.get("shots") or 0 for row in rows)
+        passes_raw = sum(row.get("passes_completed") or 0 for row in rows)
+
+        # When shots/passes are missing (TM aggregate data), estimate from position and goals.
+        # Shots: goals ÷ typical finishing rate by position; passes: position-based per-90 estimate.
+        position = (player_info.get("position") or "").lower()
+        is_forward = any(p in position for p in ("forward", "striker", "winger", "centre-f", "second striker"))
+        is_defender = any(p in position for p in ("back", "defender", "goalkeeper"))
+        finishing_rate = 0.18 if is_forward else (0.14 if not is_defender else 0.08)
+        passes_p90_est = 35 if is_forward else (45 if not is_defender else 52)
+        shots = shots_raw if shots_raw > 0 else round(goals / finishing_rate) if goals > 0 else 0
+        passes_completed = passes_raw if passes_raw > 0 else round((minutes / 90) * passes_p90_est)
 
         goals_p90_series = [per_90(row.get("goals") or 0, row.get("minutes")) for row in rows]
         gc_p90_series = [per_90((row.get("goals") or 0) + (row.get("assists") or 0), row.get("minutes")) for row in rows]
-        shots_p90_series = [per_90(row.get("shots") or 0, row.get("minutes")) for row in rows]
+        shots_p90_series = [per_90(shots_raw, minutes)] if shots_raw else [per_90(shots, minutes)]
 
         consistency = bounded_consistency_score(gc_p90_series[-5:])
-        player_age = age_in_years(player_info.get("date_of_birth"))
+        player_age = age_in_years(player_info.get("date_of_birth")) or player_info.get("age")
         age_factor = age_multiplier(player_age)
 
         base_score = base_kpi_score(

@@ -347,8 +347,8 @@ def transfer_probability(
     if not isinstance(rows, list):
         raise _artifact_invalid("transfer_probability.json has unexpected format")
     if player_name:
-        key = player_name.strip().lower()
-        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+        key = normalize_name(player_name)
+        rows = [r for r in rows if key in normalize_name(r.get("player_name"))]
     if min_prob > 0:
         rows = [r for r in rows if float(r.get("transfer_probability_1y") or 0) >= min_prob]
     return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
@@ -363,8 +363,8 @@ def club_fit_for_player(player_name: str) -> dict[str, object]:
     if not path.exists():
         raise _artifact_unavailable("club_fit.json not found — run pipeline first")
     rows = read_json(path) or []
-    key = player_name.strip().lower()
-    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    key = normalize_name(player_name)
+    match = next((r for r in rows if key in normalize_name(r.get("player_name"))), None)
     if not match:
         raise _player_not_found(player_name)
     return match
@@ -396,8 +396,8 @@ def market_value(
         raise _artifact_unavailable("market_value.json not found — run pipeline first")
     rows = read_json(path) or []
     if player_name:
-        key = player_name.strip().lower()
-        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+        key = normalize_name(player_name)
+        rows = [r for r in rows if key in normalize_name(r.get("player_name"))]
     return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
 
 
@@ -456,8 +456,8 @@ def feature_store(
         raise _artifact_unavailable("feature_store.json not found — run pipeline first")
     rows = read_json(path) or []
     if player_name:
-        key = player_name.strip().lower()
-        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+        key = normalize_name(player_name)
+        rows = [r for r in rows if key in normalize_name(r.get("player_name"))]
     return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
 
 
@@ -488,8 +488,8 @@ def decisions(
         raise _artifact_unavailable("player_decisions.json not found — run pipeline first")
     rows = read_json(path) or []
     if player_name:
-        key = player_name.strip().lower()
-        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+        key = normalize_name(player_name)
+        rows = [r for r in rows if key in normalize_name(r.get("player_name"))]
     if decision_type:
         rows = [r for r in rows if r.get("decision") == decision_type.upper()]
     if min_confidence > 0:
@@ -506,8 +506,8 @@ def decision_for_player(player_name: str) -> dict[str, object]:
     if not path.exists():
         raise _artifact_unavailable("player_decisions.json not found — run pipeline first")
     rows = read_json(path) or []
-    key = player_name.strip().lower()
-    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    key = normalize_name(player_name)
+    match = next((r for r in rows if key in normalize_name(r.get("player_name"))), None)
     if not match:
         raise _player_not_found(player_name)
     return match
@@ -522,8 +522,8 @@ def simulation_for_player(player_name: str) -> dict[str, object]:
     if not path.exists():
         raise _artifact_unavailable("player_simulations.json not found — run pipeline first")
     rows = read_json(path) or []
-    key = player_name.strip().lower()
-    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    key = normalize_name(player_name)
+    match = next((r for r in rows if key in normalize_name(r.get("player_name"))), None)
     if not match:
         raise _player_not_found(player_name)
     return match
@@ -543,8 +543,8 @@ def simulations(
         raise _artifact_unavailable("player_simulations.json not found — run pipeline first")
     rows = read_json(path) or []
     if player_name:
-        key = player_name.strip().lower()
-        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+        key = normalize_name(player_name)
+        rows = [r for r in rows if key in normalize_name(r.get("player_name"))]
     return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
 
 
@@ -557,8 +557,8 @@ def scout_report(player_name: str) -> dict[str, object]:
     if not path.exists():
         raise _artifact_unavailable("scout_reports.json not found — run pipeline first")
     rows = read_json(path) or []
-    key = player_name.strip().lower()
-    match = next((r for r in rows if key in str(r.get("player_name") or "").lower()), None)
+    key = normalize_name(player_name)
+    match = next((r for r in rows if key in normalize_name(r.get("player_name"))), None)
     if not match:
         # Generate on-demand if not in cache
         try:
@@ -612,8 +612,8 @@ def pathway_learning(
         raise _artifact_unavailable("pathway_learning.json not found — run pipeline first")
     rows = read_json(path) or []
     if player_name:
-        key = player_name.strip().lower()
-        rows = [r for r in rows if key in str(r.get("player_name") or "").lower()]
+        key = normalize_name(player_name)
+        rows = [r for r in rows if key in normalize_name(r.get("player_name"))]
     return {"count": len(rows), "items": paginate(rows, offset=offset, limit=limit)}
 
 

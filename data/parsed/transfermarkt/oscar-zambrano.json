@@ -1,23 +1,104 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/oscar-zambrano/profil/spieler/1000",
-    "player_name": "\u00d3scar Zambrano",
-    "preferred_name": "Zambrano",
-    "position": "Midfielder",
-    "date_of_birth": "2000-08-05",
+    "tm_id": "893658",
+    "player_name": "Óscar Zambrano",
+    "date_of_birth": "20/04/2004",
+    "age": 22,
     "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac1.3m"
+    "height": "1,76 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "NK Maribor",
+    "on_loan_from": null,
+    "contract_expires": "31/05/2029",
+    "market_value": "€1.50m",
+    "market_value_eur": 1500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/oscar-zambrano/profil/spieler/893658"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/oscar-zambrano/transfers/spieler/1000",
-      "season": "2025/2026",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac1.3m",
-      "fee": "-"
+      "date": "01/01/2022",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "LDU Quito",
+      "age": "17"
+    },
+    {
+      "date": "20/06/2022",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "LDU Quito",
+      "age": "18"
+    },
+    {
+      "date": "30/12/2022",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "LDU Quito",
+      "age": "18"
+    },
+    {
+      "date": "14/07/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "LDU Quito",
+      "age": "19"
+    },
+    {
+      "date": "05/12/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "LDU Quito",
+      "age": "19"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "LDU Quito",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2024",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "Hull City",
+      "age": "20"
+    },
+    {
+      "date": "27/05/2025",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Hull City",
+      "age": "21"
+    },
+    {
+      "date": "09/09/2025",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "NK Maribor",
+      "age": "21"
+    },
+    {
+      "date": "10/12/2025",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "NK Maribor",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Prva Liga",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 330
     }
   ]
 }

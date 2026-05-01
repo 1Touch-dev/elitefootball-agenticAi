@@ -1,318 +1,234 @@
 [
   {
-    "player_name": "Kendry Páez",
-    "age": 18,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "stable",
-    "pathway_probabilities": [
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.7551,
-        "recommended": true,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.5998,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.5998,
-        "recommended": false,
-        "prestige_step": 0.57
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.5748,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.5491,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.5491,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.5166,
-        "recommended": false,
-        "prestige_step": 0.35
-      }
-    ],
-    "best_destination": "premier league",
-    "best_success_probability": 0.7551,
-    "recommended_destinations": [
-      "premier league"
-    ]
-  },
-  {
     "player_name": "Moisés Caicedo",
     "age": 24,
     "competition": "Premier League",
-    "trajectory": "declining",
+    "trajectory": "stable",
     "pathway_probabilities": [
       {
         "destination_league": "austrian bundesliga",
-        "success_probability": 0.0013,
-        "recommended": false,
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.4
       },
       {
         "destination_league": "eredivisie",
-        "success_probability": 0.0013,
-        "recommended": false,
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.28
       },
       {
         "destination_league": "primera liga",
-        "success_probability": 0.0013,
-        "recommended": false,
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.3
       },
       {
         "destination_league": "pro league",
-        "success_probability": 0.0013,
-        "recommended": false,
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.35
       },
       {
         "destination_league": "bundesliga",
-        "success_probability": 0.0013,
-        "recommended": false,
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.12
       },
       {
         "destination_league": "ligue 1",
-        "success_probability": 0.0013,
-        "recommended": false,
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.18
       },
       {
         "destination_league": "premier league",
-        "success_probability": 0.0013,
-        "recommended": false,
+        "success_probability": 0.9995,
+        "recommended": true,
         "prestige_step": 0.0
       }
     ],
     "best_destination": "austrian bundesliga",
-    "best_success_probability": 0.0013,
-    "recommended_destinations": []
+    "best_success_probability": 0.9997,
+    "recommended_destinations": [
+      "austrian bundesliga",
+      "eredivisie",
+      "primera liga",
+      "pro league",
+      "bundesliga",
+      "ligue 1",
+      "premier league"
+    ]
   },
   {
     "player_name": "Piero Hincapié",
     "age": 24,
-    "competition": "Bundesliga",
+    "competition": "Premier League",
     "trajectory": "stable",
     "pathway_probabilities": [
       {
         "destination_league": "austrian bundesliga",
-        "success_probability": 0.001,
-        "recommended": false,
+        "success_probability": 0.9997,
+        "recommended": true,
+        "prestige_step": -0.4
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.28
       },
       {
-        "destination_league": "eredivisie",
-        "success_probability": 0.001,
-        "recommended": false,
-        "prestige_step": -0.16
+        "destination_league": "primera liga",
+        "success_probability": 0.9997,
+        "recommended": true,
+        "prestige_step": -0.3
       },
       {
-        "destination_league": "primera liga",
-        "success_probability": 0.001,
-        "recommended": false,
+        "destination_league": "pro league",
+        "success_probability": 0.9997,
+        "recommended": true,
+        "prestige_step": -0.35
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.9997,
+        "recommended": true,
+        "prestige_step": -0.12
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.9997,
+        "recommended": true,
         "prestige_step": -0.18
       },
       {
-        "destination_league": "pro league",
-        "success_probability": 0.001,
-        "recommended": false,
-        "prestige_step": -0.23
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.001,
-        "recommended": false,
-        "prestige_step": 0.0
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.001,
-        "recommended": false,
-        "prestige_step": -0.06
-      },
-      {
         "destination_league": "premier league",
-        "success_probability": 0.0008,
-        "recommended": false,
-        "prestige_step": 0.12
+        "success_probability": 0.9995,
+        "recommended": true,
+        "prestige_step": 0.0
       }
     ],
     "best_destination": "austrian bundesliga",
-    "best_success_probability": 0.001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Cristian Pellerano",
-    "age": 38,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "declining",
-    "pathway_probabilities": [
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0004,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.57
-      }
-    ],
-    "best_destination": "premier league",
-    "best_success_probability": 0.0004,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Sebastián Rodríguez",
-    "age": 28,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "ascending",
-    "pathway_probabilities": [
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0003,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0002,
-        "recommended": false,
-        "prestige_step": 0.57
-      },
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.35
-      }
-    ],
-    "best_destination": "premier league",
-    "best_success_probability": 0.0003,
-    "recommended_destinations": []
+    "best_success_probability": 0.9997,
+    "recommended_destinations": [
+      "austrian bundesliga",
+      "eredivisie",
+      "primera liga",
+      "pro league",
+      "bundesliga",
+      "ligue 1",
+      "premier league"
+    ]
   },
   {
     "player_name": "Willian Pacho",
     "age": 24,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "declining",
+    "competition": "Ligue 1",
+    "trajectory": "stable",
+    "pathway_probabilities": [
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.9996,
+        "recommended": true,
+        "prestige_step": -0.22
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.9996,
+        "recommended": true,
+        "prestige_step": -0.1
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.9996,
+        "recommended": true,
+        "prestige_step": -0.12
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.9996,
+        "recommended": true,
+        "prestige_step": -0.17
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.9996,
+        "recommended": true,
+        "prestige_step": 0.06
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.9996,
+        "recommended": true,
+        "prestige_step": 0.0
+      },
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.9994,
+        "recommended": true,
+        "prestige_step": 0.18
+      }
+    ],
+    "best_destination": "austrian bundesliga",
+    "best_success_probability": 0.9996,
+    "recommended_destinations": [
+      "austrian bundesliga",
+      "eredivisie",
+      "primera liga",
+      "pro league",
+      "bundesliga",
+      "ligue 1",
+      "premier league"
+    ]
+  },
+  {
+    "player_name": "Jordy Caicedo",
+    "age": 28,
+    "competition": "Torneo Apertura",
+    "trajectory": "stable",
     "pathway_probabilities": [
       {
         "destination_league": "premier league",
         "success_probability": 0.0002,
         "recommended": false,
-        "prestige_step": 0.75
+        "prestige_step": 0.55
       },
       {
         "destination_league": "austrian bundesliga",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.35
+        "prestige_step": 0.15
       },
       {
         "destination_league": "eredivisie",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.47
+        "prestige_step": 0.27
       },
       {
         "destination_league": "primera liga",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.45
+        "prestige_step": 0.25
       },
       {
         "destination_league": "pro league",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.4
+        "prestige_step": 0.2
       },
       {
         "destination_league": "bundesliga",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.63
+        "prestige_step": 0.43
       },
       {
         "destination_league": "ligue 1",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.57
+        "prestige_step": 0.37
       }
     ],
     "best_destination": "premier league",
@@ -321,51 +237,51 @@
   },
   {
     "player_name": "Alan Minda",
-    "age": 25,
-    "competition": "Liga Pro Ecuador",
+    "age": 22,
+    "competition": "Copa Sudamericana",
     "trajectory": "stable",
     "pathway_probabilities": [
       {
         "destination_league": "premier league",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.75
+        "prestige_step": 0.55
       },
       {
         "destination_league": "austrian bundesliga",
         "success_probability": 0.0,
         "recommended": false,
-        "prestige_step": 0.35
+        "prestige_step": 0.15
       },
       {
         "destination_league": "eredivisie",
         "success_probability": 0.0,
         "recommended": false,
-        "prestige_step": 0.47
+        "prestige_step": 0.27
       },
       {
         "destination_league": "primera liga",
         "success_probability": 0.0,
         "recommended": false,
-        "prestige_step": 0.45
+        "prestige_step": 0.25
       },
       {
         "destination_league": "pro league",
         "success_probability": 0.0,
         "recommended": false,
-        "prestige_step": 0.4
+        "prestige_step": 0.2
       },
       {
         "destination_league": "bundesliga",
         "success_probability": 0.0,
         "recommended": false,
-        "prestige_step": 0.63
+        "prestige_step": 0.43
       },
       {
         "destination_league": "ligue 1",
         "success_probability": 0.0,
         "recommended": false,
-        "prestige_step": 0.57
+        "prestige_step": 0.37
       }
     ],
     "best_destination": "premier league",
@@ -374,114 +290,61 @@
   },
   {
     "player_name": "Alexis Zapata",
-    "age": 26,
-    "competition": "Liga Pro Ecuador",
+    "age": null,
+    "competition": null,
     "trajectory": "stable",
     "pathway_probabilities": [
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.57
-      },
       {
         "destination_league": "premier league",
         "success_probability": 0.0001,
         "recommended": false,
         "prestige_step": 0.75
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.35
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.47
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.45
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.4
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.63
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.57
       }
     ],
-    "best_destination": "austrian bundesliga",
+    "best_destination": "premier league",
     "best_success_probability": 0.0001,
     "recommended_destinations": []
   },
   {
     "player_name": "Carlos Gutiérrez",
-    "age": 28,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "stable",
-    "pathway_probabilities": [
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.57
-      }
-    ],
-    "best_destination": "austrian bundesliga",
-    "best_success_probability": 0.0001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Dylan Borrero",
-    "age": 25,
-    "competition": "Liga Pro Ecuador",
+    "age": null,
+    "competition": null,
     "trajectory": "stable",
     "pathway_probabilities": [
       {
@@ -532,327 +395,9 @@
     "recommended_destinations": []
   },
   {
-    "player_name": "Gabriel Villamil",
-    "age": 24,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "stable",
-    "pathway_probabilities": [
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.57
-      }
-    ],
-    "best_destination": "austrian bundesliga",
-    "best_success_probability": 0.0001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Jordy Caicedo",
-    "age": 31,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "ascending",
-    "pathway_probabilities": [
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.57
-      }
-    ],
-    "best_destination": "premier league",
-    "best_success_probability": 0.0001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Luis Segovia",
-    "age": 25,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "stable",
-    "pathway_probabilities": [
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.57
-      },
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.75
-      }
-    ],
-    "best_destination": "austrian bundesliga",
-    "best_success_probability": 0.0001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Michael Espinoza",
-    "age": 22,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "ascending",
-    "pathway_probabilities": [
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.57
-      }
-    ],
-    "best_destination": "austrian bundesliga",
-    "best_success_probability": 0.0001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Pedro Velasco",
-    "age": 29,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "stable",
-    "pathway_probabilities": [
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.57
-      }
-    ],
-    "best_destination": "premier league",
-    "best_success_probability": 0.0001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Renato Ibarra",
-    "age": 34,
-    "competition": "Liga Pro Ecuador",
-    "trajectory": "stable",
-    "pathway_probabilities": [
-      {
-        "destination_league": "premier league",
-        "success_probability": 0.0001,
-        "recommended": false,
-        "prestige_step": 0.75
-      },
-      {
-        "destination_league": "austrian bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.35
-      },
-      {
-        "destination_league": "eredivisie",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.47
-      },
-      {
-        "destination_league": "primera liga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.45
-      },
-      {
-        "destination_league": "pro league",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.4
-      },
-      {
-        "destination_league": "bundesliga",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.63
-      },
-      {
-        "destination_league": "ligue 1",
-        "success_probability": 0.0,
-        "recommended": false,
-        "prestige_step": 0.57
-      }
-    ],
-    "best_destination": "premier league",
-    "best_success_probability": 0.0001,
-    "recommended_destinations": []
-  },
-  {
-    "player_name": "Tomás Molina",
-    "age": 22,
-    "competition": "Liga Pro Ecuador",
+    "player_name": "Cristian Pellerano",
+    "age": null,
+    "competition": null,
     "trajectory": "declining",
     "pathway_probabilities": [
       {
@@ -903,55 +448,532 @@
     "recommended_destinations": []
   },
   {
-    "player_name": "Óscar Zambrano",
-    "age": 25,
-    "competition": "Liga Pro Ecuador",
+    "player_name": "Dylan Borrero",
+    "age": 24,
+    "competition": "Copa Sudamericana",
     "trajectory": "stable",
+    "pathway_probabilities": [
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.55
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.15
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.27
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.25
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.2
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.43
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.37
+      }
+    ],
+    "best_destination": "premier league",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Gabriel Villamíl",
+    "age": 24,
+    "competition": "LigaPro Serie A",
+    "trajectory": "ascending",
+    "pathway_probabilities": [
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.1
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": -0.3
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": -0.18
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": -0.2
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": -0.25
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": -0.02
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": -0.08
+      }
+    ],
+    "best_destination": "premier league",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Kendry Páez",
+    "age": 18,
+    "competition": "Copa Sudamericana",
+    "trajectory": "declining",
+    "pathway_probabilities": [
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.55
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.15
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.27
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.25
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.2
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.43
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.37
+      }
+    ],
+    "best_destination": "premier league",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Luis Segovia",
+    "age": 28,
+    "competition": "LigaPro Serie A",
+    "trajectory": "declining",
     "pathway_probabilities": [
       {
         "destination_league": "austrian bundesliga",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.35
+        "prestige_step": -0.3
       },
       {
         "destination_league": "eredivisie",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.47
+        "prestige_step": -0.18
       },
       {
         "destination_league": "primera liga",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.45
+        "prestige_step": -0.2
       },
       {
         "destination_league": "pro league",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.4
+        "prestige_step": -0.25
       },
       {
         "destination_league": "bundesliga",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.63
+        "prestige_step": -0.02
       },
       {
         "destination_league": "ligue 1",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.57
+        "prestige_step": -0.08
       },
       {
         "destination_league": "premier league",
         "success_probability": 0.0001,
         "recommended": false,
-        "prestige_step": 0.75
+        "prestige_step": 0.1
       }
     ],
     "best_destination": "austrian bundesliga",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Michael Espinoza",
+    "age": null,
+    "competition": null,
+    "trajectory": "ascending",
+    "pathway_probabilities": [
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.75
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.35
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.47
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.45
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.4
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.63
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.57
+      }
+    ],
+    "best_destination": "premier league",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Pedro Velasco",
+    "age": 32,
+    "competition": "LigaPro Serie A",
+    "trajectory": "declining",
+    "pathway_probabilities": [
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.3
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.18
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.2
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.25
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.02
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.08
+      },
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.1
+      }
+    ],
+    "best_destination": "austrian bundesliga",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Renato Ibarra",
+    "age": 35,
+    "competition": "LigaPro Serie A",
+    "trajectory": "declining",
+    "pathway_probabilities": [
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.3
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.18
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.2
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.25
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.02
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": -0.08
+      },
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.1
+      }
+    ],
+    "best_destination": "austrian bundesliga",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Sebastián Rodríguez",
+    "age": 33,
+    "competition": "Liga AUF Apertura",
+    "trajectory": "declining",
+    "pathway_probabilities": [
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.55
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.15
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.27
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.25
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.2
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.43
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.37
+      }
+    ],
+    "best_destination": "premier league",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Tomás Molina",
+    "age": 31,
+    "competition": "Torneo Apertura",
+    "trajectory": "stable",
+    "pathway_probabilities": [
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.55
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.15
+      },
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.27
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.25
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.2
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.43
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.37
+      }
+    ],
+    "best_destination": "premier league",
+    "best_success_probability": 0.0001,
+    "recommended_destinations": []
+  },
+  {
+    "player_name": "Óscar Zambrano",
+    "age": 22,
+    "competition": "Prva Liga",
+    "trajectory": "ascending",
+    "pathway_probabilities": [
+      {
+        "destination_league": "eredivisie",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.27
+      },
+      {
+        "destination_league": "ligue 1",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.37
+      },
+      {
+        "destination_league": "premier league",
+        "success_probability": 0.0001,
+        "recommended": false,
+        "prestige_step": 0.55
+      },
+      {
+        "destination_league": "austrian bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.15
+      },
+      {
+        "destination_league": "primera liga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.25
+      },
+      {
+        "destination_league": "pro league",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.2
+      },
+      {
+        "destination_league": "bundesliga",
+        "success_probability": 0.0,
+        "recommended": false,
+        "prestige_step": 0.43
+      }
+    ],
+    "best_destination": "eredivisie",
     "best_success_probability": 0.0001,
     "recommended_destinations": []
   }

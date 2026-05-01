@@ -3,23 +3,23 @@
   "rankings": [
     {
       "club_name": "IDV",
-      "overall_score": 0.0,
-      "development_score": 0.0,
-      "resale_score": 0.0,
-      "confidence_score": 0.0,
+      "overall_score": 12.618,
+      "development_score": 14.02,
+      "resale_score": 10.515,
+      "confidence_score": 26.0,
       "components": {
-        "youth_valuation_score": 0.0,
+        "youth_valuation_score": 14.02,
         "youth_performance_score": 0.0,
         "youth_minutes_score": 0.0,
         "outbound_transfer_score": 0.0,
         "destination_quality_score": 0.0,
-        "current_value_realization_score": 0.0
+        "current_value_realization_score": 10.515
       },
       "coverage": {
-        "players_considered": 0,
-        "young_players_considered": 0,
+        "players_considered": 2,
+        "young_players_considered": 1,
         "transfer_rows": 0,
-        "valuation_rows": 0
+        "valuation_rows": 1
       },
       "notes": [
         "low_evidence"

@@ -47,13 +47,13 @@ def _template_report(player_data: dict[str, Any]) -> str:
     buy_score = player_data.get("buy_score", 0.0)
     sell_score = player_data.get("sell_score", 0.0)
     reasoning = player_data.get("reasoning") or []
-    val_score = player_data.get("valuation_score", 0)
-    kpi = player_data.get("age_adjusted_kpi_score", 0)
-    market_val = player_data.get("blended_value_eur", 0)
+    val_score = float(player_data.get("valuation_score") or 0)
+    kpi = float(player_data.get("age_adjusted_kpi_score") or 0)
+    market_val = float(player_data.get("blended_value_eur") or 0)
     best_fit = player_data.get("best_fit_club", "")
     pathway = player_data.get("best_pathway", "")
     sim_league = player_data.get("best_sim_league", "")
-    sim_kpi = player_data.get("projected_kpi", "")
+    sim_kpi = player_data.get("projected_kpi") or 0.0
     risk_score = player_data.get("risk_score", 0)
     trajectory = player_data.get("trajectory", "stable")
     transfer_prob = player_data.get("transfer_probability_1y", 0)

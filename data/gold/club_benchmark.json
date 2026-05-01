@@ -10,10 +10,8 @@
       "players_exported_to_europe": 12
     },
     "live_metrics": {
-      "live_data": true,
-      "player_count": 16,
-      "avg_kpi_score": 8.51,
-      "avg_consistency_score": 82.976
+      "live_data": false,
+      "player_count": 0
     },
     "comparison_vs_idv": {
       "note": "baseline"

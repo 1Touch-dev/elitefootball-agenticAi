@@ -36,7 +36,15 @@ REQUIRED_DASHBOARD_ARTIFACTS = {"players", "player_match_stats", "similarity", "
 
 
 def normalize_name(value: str | None) -> str:
-    return " ".join(str(value or "").strip().lower().split())
+    """Normalize player name for fuzzy matching: lowercase, strip accents, replace hyphens with spaces."""
+    import unicodedata
+    raw = str(value or "").strip().lower()
+    # Replace hyphens/underscores with spaces for URL-slug matching
+    raw = raw.replace("-", " ").replace("_", " ")
+    # Strip diacritics (é→e, ó→o, etc.)
+    raw = unicodedata.normalize("NFD", raw)
+    raw = "".join(c for c in raw if unicodedata.category(c) != "Mn")
+    return " ".join(raw.split())
 
 
 def inspect_artifact(name: str, *, required: bool = True, sample_limit: int = 3) -> dict[str, Any]:

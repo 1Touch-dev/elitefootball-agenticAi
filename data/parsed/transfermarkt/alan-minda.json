@@ -1,23 +1,182 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/alan-minda/profil/spieler/1000",
+    "tm_id": "897051",
     "player_name": "Alan Minda",
-    "preferred_name": "Minda",
-    "position": "Forward",
-    "date_of_birth": "2000-07-22",
+    "date_of_birth": "14/05/2003",
+    "age": 22,
     "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac1.5m"
+    "height": "1,71 m",
+    "position": "Attack - Right Winger",
+    "foot": "right",
+    "current_club": "Clube Atlético Mineiro",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2030",
+    "market_value": "€3.00m",
+    "market_value_eur": 3000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/alan-minda/profil/spieler/897051"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/alan-minda/transfers/spieler/1000",
-      "season": "2025/2026",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac1.5m",
-      "fee": "-"
+      "date": "30/06/2021",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Independiente del Valle B",
+      "age": "18"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "Independiente del Valle",
+      "age": "18"
+    },
+    {
+      "date": "20/06/2022",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Independiente del Valle",
+      "age": "19"
+    },
+    {
+      "date": "30/12/2022",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Independiente del Valle",
+      "age": "19"
+    },
+    {
+      "date": "17/02/2023",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Independiente del Valle",
+      "age": "19"
+    },
+    {
+      "date": "14/07/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Cercle Brugge ",
+      "age": "20"
+    },
+    {
+      "date": "23/10/2023",
+      "value_eur": 2200000,
+      "value_str": "€2.20m",
+      "club": "Cercle Brugge ",
+      "age": "20"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Cercle Brugge ",
+      "age": "20"
+    },
+    {
+      "date": "22/03/2024",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Cercle Brugge ",
+      "age": "20"
+    },
+    {
+      "date": "04/06/2024",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Cercle Brugge ",
+      "age": "21"
+    },
+    {
+      "date": "11/12/2024",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Cercle Brugge ",
+      "age": "21"
+    },
+    {
+      "date": "26/03/2025",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Cercle Brugge ",
+      "age": "21"
+    },
+    {
+      "date": "12/06/2025",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Cercle Brugge ",
+      "age": "22"
+    },
+    {
+      "date": "10/12/2025",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Cercle Brugge ",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 45
+    },
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 115
+    },
+    {
+      "competition": "Copa do Brasil",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 23
+    },
+    {
+      "competition": "Campeonato Mineiro",
+      "season": "2026",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "minutes_played": 75
+    },
+    {
+      "competition": "Jupiler Pro League",
+      "season": "25/26",
+      "games_played": 17,
+      "goals": 3,
+      "assists": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 969
+    },
+    {
+      "competition": "Croky Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 29
     }
   ]
 }

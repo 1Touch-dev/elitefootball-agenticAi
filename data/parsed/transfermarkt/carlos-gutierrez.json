@@ -1,23 +1,156 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/carlos-gutierrez/profil/spieler/1000",
-    "player_name": "Carlos Guti\u00e9rrez",
-    "preferred_name": "Guti\u00e9rrez",
-    "position": "Defender",
-    "date_of_birth": "1997-09-03",
-    "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac700k"
+    "tm_id": "599293",
+    "player_name": "Carlos Gutiérrez",
+    "date_of_birth": "05/02/1999",
+    "age": 27,
+    "nationality": "Mexico",
+    "height": "1,77 m",
+    "position": "Attack - Right Winger",
+    "foot": "right",
+    "current_club": "Without Club",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": "€250k",
+    "market_value_eur": 250000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/carlos-gutierrez/profil/spieler/599293"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/carlos-gutierrez/transfers/spieler/1000",
-      "season": "2025/2026",
-      "date": "2025-01-01",
-      "from_club": "Independiente del Valle",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac700k",
-      "fee": "-"
+      "date": "23/08/2018",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "UNAM Pumas U20",
+      "age": "19"
+    },
+    {
+      "date": "08/02/2019",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "UNAM Pumas U20",
+      "age": "20"
+    },
+    {
+      "date": "23/05/2019",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "UNAM Pumas U20",
+      "age": "20"
+    },
+    {
+      "date": "13/08/2019",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Atlético San Luis U20",
+      "age": "20"
+    },
+    {
+      "date": "10/01/2020",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Atlético San Luis U20",
+      "age": "20"
+    },
+    {
+      "date": "27/06/2020",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Atlético San Luis U20",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2020",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "UNAM Pumas",
+      "age": "21"
+    },
+    {
+      "date": "21/04/2021",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "UNAM Pumas",
+      "age": "22"
+    },
+    {
+      "date": "15/10/2021",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "UNAM Pumas",
+      "age": "22"
+    },
+    {
+      "date": "11/04/2022",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "UNAM Pumas",
+      "age": "23"
+    },
+    {
+      "date": "08/09/2022",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "UNAM Pumas",
+      "age": "23"
+    },
+    {
+      "date": "31/10/2022",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "UNAM Pumas",
+      "age": "23"
+    },
+    {
+      "date": "30/03/2023",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "UNAM Pumas",
+      "age": "24"
+    },
+    {
+      "date": "29/06/2023",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "UNAM Pumas",
+      "age": "24"
+    },
+    {
+      "date": "29/12/2023",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "UNAM Pumas",
+      "age": "24"
+    },
+    {
+      "date": "14/06/2024",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "UNAM Pumas",
+      "age": "25"
+    },
+    {
+      "date": "02/12/2024",
+      "value_eur": 550000,
+      "value_str": "€550k",
+      "club": "Tampico Madero",
+      "age": "25"
+    },
+    {
+      "date": "21/10/2025",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Without Club",
+      "age": "26"
+    },
+    {
+      "date": "09/04/2026",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Without Club",
+      "age": "27"
     }
-  ]
+  ],
+  "performance_stats": []
 }

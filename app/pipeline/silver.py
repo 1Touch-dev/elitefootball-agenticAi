@@ -91,6 +91,8 @@ def build_silver_tables() -> dict[str, object]:
                     "nationality": _clean_string(profile.get("nationality")),
                     "current_club": _clean_string(profile.get("current_club")),
                     "market_value": _clean_string(profile.get("market_value")),
+                    "market_value_eur": profile.get("market_value_eur"),
+                    "age": profile.get("age"),
                 }
             )
 
@@ -105,6 +107,46 @@ def build_silver_tables() -> dict[str, object]:
                     "to_club": _clean_string(transfer.get("to_club")),
                     "market_value": _clean_string(transfer.get("market_value")),
                     "fee": _clean_string(transfer.get("fee")),
+                }
+            )
+
+        # TM performance_stats: per-competition season aggregates → player_match_stats rows
+        pname = _clean_string(profile.get("player_name"))
+        for stat in payload.get("performance_stats", []):
+            games = _clean_int(stat.get("games_played")) or 0
+            if games == 0:
+                continue
+            mins = _clean_int(stat.get("minutes_played")) or 0
+            player_match_stats.append(
+                {
+                    "source": "transfermarkt_aggregate",
+                    "source_url": profile.get("source_url"),
+                    "player_name": pname,
+                    "club_name": _clean_string(profile.get("current_club")),
+                    "competition": _clean_string(stat.get("competition")),
+                    "match_date": None,
+                    "match_external_id": None,
+                    "table_id": None,
+                    "minutes": mins,  # total minutes for this competition
+                    "goals": _clean_int(stat.get("goals")) or 0,
+                    "assists": _clean_int(stat.get("assists")) or 0,
+                    "yellow_cards": _clean_int(stat.get("yellow_cards")) or 0,
+                    "red_cards": _clean_int(stat.get("red_cards")) or 0,
+                    "shots": None,
+                    "passes_completed": None,
+                    "xg": None,
+                    "xa": None,
+                    "progressive_carries": None,
+                    "progressive_passes": None,
+                    "progressive_receptions": None,
+                    "carries_into_final_third": None,
+                    "passes_into_final_third": None,
+                    "carries_into_penalty_area": None,
+                    "passes_into_penalty_area": None,
+                    # aggregate fields for downstream use
+                    "_games_played": games,
+                    "_total_minutes": mins,
+                    "_season": _clean_string(stat.get("season")),
                 }
             )
 

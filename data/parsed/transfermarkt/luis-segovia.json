@@ -1,23 +1,212 @@
 {
   "profile": {
-    "source_url": "https://www.transfermarkt.com/luis-segovia/profil/spieler/1000",
+    "tm_id": "385639",
     "player_name": "Luis Segovia",
-    "preferred_name": "Segovia",
-    "position": "Midfielder",
-    "date_of_birth": "2001-03-15",
+    "date_of_birth": "26/10/1997",
+    "age": 28,
     "nationality": "Ecuador",
-    "current_club": "Independiente del Valle",
-    "market_value": "\u20ac2.5m"
+    "height": "1,82 m",
+    "position": "Defender - Centre-Back",
+    "foot": "left",
+    "current_club": "LDU Quito",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2026",
+    "market_value": "€1.00m",
+    "market_value_eur": 1000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/luis-segovia/profil/spieler/385639"
   },
-  "transfers": [
+  "transfers": [],
+  "mv_history": [
     {
-      "source_url": "https://www.transfermarkt.com/luis-segovia/transfers/spieler/1000",
-      "season": "2021/2022",
-      "date": "2025-01-01",
-      "from_club": "Liga Deportiva Universitaria",
-      "to_club": "Independiente del Valle",
-      "market_value": "\u20ac2.5m",
-      "fee": "\u20ac300k"
+      "date": "30/12/2015",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "CD El Nacional",
+      "age": "18"
+    },
+    {
+      "date": "30/07/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "CD El Nacional",
+      "age": "18"
+    },
+    {
+      "date": "30/12/2016",
+      "value_eur": 450000,
+      "value_str": "€450k",
+      "club": "CD El Nacional",
+      "age": "19"
+    },
+    {
+      "date": "14/07/2017",
+      "value_eur": 450000,
+      "value_str": "€450k",
+      "club": "CD El Nacional",
+      "age": "19"
+    },
+    {
+      "date": "30/12/2017",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "CD El Nacional",
+      "age": "20"
+    },
+    {
+      "date": "20/07/2018",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "CD El Nacional",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2018",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "CD El Nacional",
+      "age": "21"
+    },
+    {
+      "date": "30/06/2019",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Independiente del Valle",
+      "age": "21"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 950000,
+      "value_str": "€950k",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2020",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Independiente del Valle",
+      "age": "23"
+    },
+    {
+      "date": "30/06/2021",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Independiente del Valle",
+      "age": "23"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Independiente del Valle",
+      "age": "24"
+    },
+    {
+      "date": "20/06/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Independiente del Valle",
+      "age": "24"
+    },
+    {
+      "date": "30/12/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Independiente del Valle",
+      "age": "25"
+    },
+    {
+      "date": "07/04/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Botafogo de Futebol e Regatas",
+      "age": "25"
+    },
+    {
+      "date": "25/07/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Botafogo de Futebol e Regatas",
+      "age": "25"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "RWD Molenbeek",
+      "age": "26"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Botafogo de Futebol e Regatas",
+      "age": "26"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Botafogo de Futebol e Regatas",
+      "age": "26"
+    },
+    {
+      "date": "27/11/2024",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Clube de Regatas Brasil (AL)",
+      "age": "27"
+    },
+    {
+      "date": "27/06/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Clube de Regatas Brasil (AL)",
+      "age": "27"
+    },
+    {
+      "date": "24/11/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Clube de Regatas Brasil (AL)",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LigaPro Serie A",
+      "season": "2026",
+      "games_played": 9,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 720
+    },
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 270
     }
   ]
 }
