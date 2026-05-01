@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "tm_id": "649672",
+    "player_name": "Nicolás Capaldo",
+    "date_of_birth": "14/09/1998",
+    "age": 27,
+    "nationality": "ArgentinaItaly",
+    "height": "1,77 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Hamburger SV",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€5.00m",
+    "market_value_eur": 5000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/nicolas-capaldo/profil/spieler/649672"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "06/08/2019",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "CA Boca Juniors",
+      "age": "20"
+    },
+    {
+      "date": "05/12/2019",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CA Boca Juniors",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 2300000,
+      "value_str": "€2.30m",
+      "club": "CA Boca Juniors",
+      "age": "21"
+    },
+    {
+      "date": "08/02/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "CA Boca Juniors",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Red Bull Salzburg",
+      "age": "23"
+    },
+    {
+      "date": "27/05/2022",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Red Bull Salzburg",
+      "age": "23"
+    },
+    {
+      "date": "20/09/2022",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Red Bull Salzburg",
+      "age": "24"
+    },
+    {
+      "date": "10/11/2022",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Red Bull Salzburg",
+      "age": "24"
+    },
+    {
+      "date": "12/06/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Red Bull Salzburg",
+      "age": "24"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Red Bull Salzburg",
+      "age": "25"
+    },
+    {
+      "date": "21/05/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Red Bull Salzburg",
+      "age": "25"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Red Bull Salzburg",
+      "age": "26"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Red Bull Salzburg",
+      "age": "26"
+    },
+    {
+      "date": "14/10/2025",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Hamburger SV",
+      "age": "27"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Hamburger SV",
+      "age": "27"
+    },
+    {
+      "date": "20/03/2026",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Hamburger SV",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 23,
+      "goals": 1,
+      "assists": 2,
+      "yellow_cards": 7,
+      "red_cards": 0,
+      "minutes_played": 1740
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 120
+    }
+  ]
+}

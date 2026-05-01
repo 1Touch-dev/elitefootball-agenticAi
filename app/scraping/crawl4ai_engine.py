@@ -20,12 +20,11 @@ from app.services.logging_service import get_logger, log_event, log_exception
 
 logger = get_logger(__name__)
 
-_CRAWL4AI_AVAILABLE = False
+_CRAWL4AI_AVAILABLE = True
 try:
     from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode  # type: ignore
-    _CRAWL4AI_AVAILABLE = True
 except ImportError:
-    pass
+    _CRAWL4AI_AVAILABLE = False
 
 # Cache TTL: 24 hours
 _CACHE_TTL_SECONDS = 86_400
@@ -84,6 +83,31 @@ def _playwright_crawl(url: str, retries: int = 3) -> dict[str, Any]:
 
 # ── Crawl4AI async implementation ─────────────────────────────────────────────
 
+def _requests_fallback(url: str) -> dict[str, Any]:
+    """Direct requests fallback when crawl4ai / Playwright browser is unavailable."""
+    import requests as _requests
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    resp = _requests.get(url, headers=headers, timeout=20, allow_redirects=True)
+    resp.raise_for_status()
+    html = resp.text
+    return {
+        "url": url,
+        "html": html,
+        "markdown": "",
+        "success": True,
+        "engine": "crawl4ai_httpx_fallback",
+        "source": "crawl4ai_httpx_fallback",
+    }
+
+
 async def _crawl4ai_fetch(url: str) -> dict[str, Any]:
     """Fetch using Crawl4AI with structured extraction."""
     config = CrawlerRunConfig(
@@ -106,18 +130,32 @@ async def _crawl4ai_fetch(url: str) -> dict[str, Any]:
 
 
 def _crawl4ai_crawl(url: str, retries: int = 3) -> dict[str, Any]:
-    """Sync wrapper for Crawl4AI with exponential backoff."""
+    """Sync wrapper for Crawl4AI with exponential backoff. Falls back to requests on browser error."""
     last_exc: Exception | None = None
     for attempt in range(retries):
         try:
             return asyncio.run(_crawl4ai_fetch(url))
         except Exception as exc:
+            err_str = str(exc).lower()
+            # If it's a browser/Playwright error, skip retries and go straight to fallback
+            if any(kw in err_str for kw in ("playwright", "browser", "chromium", "executable")):
+                log_event(logger, logging.WARNING, "crawl4ai.browser_unavailable",
+                          url=url, error=str(exc))
+                break
             last_exc = exc
             wait = 2 ** attempt
             log_event(logger, logging.WARNING, "crawl4ai.retry",
                       url=url, attempt=attempt + 1, retries=retries, wait=wait, error=str(exc))
             time.sleep(wait)
-    raise RuntimeError(f"Crawl4AI failed after {retries} attempts: {last_exc}") from last_exc
+
+    # Fall back to direct requests
+    log_event(logger, logging.INFO, "crawl4ai.fallback_to_requests", url=url)
+    try:
+        return _requests_fallback(url)
+    except Exception as exc2:
+        raise RuntimeError(
+            f"Crawl4AI and requests fallback both failed for {url}: {exc2}"
+        ) from exc2
 
 
 # ── Public API ────────────────────────────────────────────────────────────────
@@ -156,14 +194,20 @@ def crawl_page(
         if _CRAWL4AI_AVAILABLE:
             result = _crawl4ai_crawl(url, retries=retries)
         else:
-            result = _playwright_crawl(url, retries=retries)
+            # No crawl4ai: try Playwright, fall back to requests
+            try:
+                result = _playwright_crawl(url, retries=retries)
+            except Exception as pw_exc:
+                log_event(logger, logging.WARNING, "crawl4ai.playwright_failed_fallback",
+                          url=url, error=str(pw_exc))
+                result = _requests_fallback(url)
 
         result["cached"] = False
         if use_cache:
             _save_cache(url, result)
 
         log_event(logger, logging.INFO, "crawl4ai.fetch_complete",
-                  engine=result["engine"], html_len=len(result.get("html", "")), url=url)
+                  engine=result.get("engine", "unknown"), html_len=len(result.get("html", "")), url=url)
         return result
 
     except Exception as exc:

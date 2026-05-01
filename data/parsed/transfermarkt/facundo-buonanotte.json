@@ -1,0 +1,148 @@
+{
+  "profile": {
+    "tm_id": "983989",
+    "player_name": "Facundo Buonanotte",
+    "date_of_birth": "23/12/2004",
+    "age": 21,
+    "nationality": "ArgentinaItaly",
+    "height": "1,74 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "left",
+    "current_club": "Leeds United",
+    "on_loan_from": "Brighton & Hove Albion",
+    "contract_expires": "30/06/2026",
+    "market_value": "€16.00m",
+    "market_value_eur": 16000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/facundo-buonanotte/profil/spieler/983989"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "08/02/2022",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "CA Rosario Central",
+      "age": "17"
+    },
+    {
+      "date": "24/05/2022",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "CA Rosario Central",
+      "age": "17"
+    },
+    {
+      "date": "06/09/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "CA Rosario Central",
+      "age": "17"
+    },
+    {
+      "date": "26/10/2022",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "CA Rosario Central",
+      "age": "17"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "18"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "18"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "19"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "19"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Leicester City",
+      "age": "19"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Leicester City",
+      "age": "20"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Chelsea FC",
+      "age": "20"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Leeds United",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 69
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 115
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 163
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 241
+    }
+  ]
+}

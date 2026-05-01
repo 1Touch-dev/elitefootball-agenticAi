@@ -1,0 +1,205 @@
+{
+  "profile": {
+    "tm_id": "400961",
+    "player_name": "Byron Castillo",
+    "date_of_birth": "09/11/1998",
+    "age": 27,
+    "nationality": "EcuadorColombia",
+    "height": "1,67 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "Barcelona SC Guayaquil",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2026",
+    "market_value": "€600k",
+    "market_value_eur": 600000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/byron-castillo/profil/spieler/400961"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "30/07/2016",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "SD Aucas",
+      "age": "17"
+    },
+    {
+      "date": "30/12/2016",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "SD Aucas",
+      "age": "18"
+    },
+    {
+      "date": "30/12/2017",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Barcelona SC Guayaquil B",
+      "age": "19"
+    },
+    {
+      "date": "20/07/2018",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "19"
+    },
+    {
+      "date": "30/12/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "20"
+    },
+    {
+      "date": "30/06/2019",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 525000,
+      "value_str": "€525k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "21"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "21"
+    },
+    {
+      "date": "30/12/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "22"
+    },
+    {
+      "date": "30/06/2021",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "23"
+    },
+    {
+      "date": "20/06/2022",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "23"
+    },
+    {
+      "date": "31/10/2022",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "Club León FC",
+      "age": "23"
+    },
+    {
+      "date": "30/03/2023",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "Club León FC",
+      "age": "24"
+    },
+    {
+      "date": "29/06/2023",
+      "value_eur": 2200000,
+      "value_str": "€2.20m",
+      "club": "Club León FC",
+      "age": "24"
+    },
+    {
+      "date": "29/12/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "CF Pachuca",
+      "age": "25"
+    },
+    {
+      "date": "10/06/2024",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "CA Peñarol",
+      "age": "25"
+    },
+    {
+      "date": "24/09/2024",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "25"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "26"
+    },
+    {
+      "date": "09/04/2025",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "26"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "26"
+    },
+    {
+      "date": "22/12/2025",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 227
+    },
+    {
+      "competition": "LigaPro Serie A",
+      "season": "2026",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 149
+    }
+  ]
+}

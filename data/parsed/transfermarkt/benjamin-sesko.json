@@ -1,0 +1,201 @@
+{
+  "profile": {
+    "tm_id": "627442",
+    "player_name": "Benjamin Sesko",
+    "date_of_birth": "31/05/2003",
+    "age": 22,
+    "nationality": "Slovenia",
+    "height": "1,95 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Manchester United",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€65.00m",
+    "market_value_eur": 65000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/benjamin-sesko/profil/spieler/627442"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "03/07/2019",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "FC Liefering",
+      "age": "16"
+    },
+    {
+      "date": "03/12/2019",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "FC Liefering",
+      "age": "16"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 1100000,
+      "value_str": "€1.10m",
+      "club": "FC Liefering",
+      "age": "16"
+    },
+    {
+      "date": "31/07/2020",
+      "value_eur": 1100000,
+      "value_str": "€1.10m",
+      "club": "FC Liefering",
+      "age": "17"
+    },
+    {
+      "date": "19/12/2020",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Liefering",
+      "age": "17"
+    },
+    {
+      "date": "02/06/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Liefering",
+      "age": "18"
+    },
+    {
+      "date": "06/09/2021",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Red Bull Salzburg",
+      "age": "18"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Red Bull Salzburg",
+      "age": "18"
+    },
+    {
+      "date": "27/05/2022",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Red Bull Salzburg",
+      "age": "18"
+    },
+    {
+      "date": "20/09/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "10/11/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "12/06/2023",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "Red Bull Salzburg",
+      "age": "20"
+    },
+    {
+      "date": "18/10/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "RB Leipzig",
+      "age": "21"
+    },
+    {
+      "date": "27/03/2025",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "RB Leipzig",
+      "age": "21"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester United",
+      "age": "22"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Manchester United",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 29,
+      "goals": 10,
+      "assists": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1592
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

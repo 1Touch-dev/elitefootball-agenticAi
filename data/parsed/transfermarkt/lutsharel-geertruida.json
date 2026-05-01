@@ -1,0 +1,263 @@
+{
+  "profile": {
+    "tm_id": "420210",
+    "player_name": "Lutsharel Geertruida",
+    "date_of_birth": "18/07/2000",
+    "age": 25,
+    "nationality": "NetherlandsCuracao",
+    "height": "1,84 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "Sunderland AFC",
+    "on_loan_from": "RB Leipzig",
+    "contract_expires": "30/06/2026",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/lutsharel-geertruida/profil/spieler/420210"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "26/10/2017",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Feyenoord U19",
+      "age": "17"
+    },
+    {
+      "date": "17/01/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Feyenoord U19",
+      "age": "17"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Feyenoord U19",
+      "age": "17"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Feyenoord Rotterdam",
+      "age": "18"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Feyenoord Rotterdam",
+      "age": "18"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 650000,
+      "value_str": "€650k",
+      "club": "Feyenoord Rotterdam",
+      "age": "19"
+    },
+    {
+      "date": "12/03/2020",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "19"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Feyenoord Rotterdam",
+      "age": "19"
+    },
+    {
+      "date": "12/08/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "06/01/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "09/03/2021",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "19/05/2021",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "21"
+    },
+    {
+      "date": "17/03/2022",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "Feyenoord Rotterdam",
+      "age": "21"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "21"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "17/03/2023",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "17/10/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "23"
+    },
+    {
+      "date": "15/12/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "23"
+    },
+    {
+      "date": "18/03/2024",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "23"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "23"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "27/03/2025",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Sunderland AFC",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 1415
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 180
+    },
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "Premier League Int. Cup U21",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 45
+    }
+  ]
+}

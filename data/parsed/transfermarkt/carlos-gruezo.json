@@ -1,0 +1,265 @@
+{
+  "profile": {
+    "tm_id": "189475",
+    "player_name": "Carlos Gruezo",
+    "date_of_birth": "19/04/1995",
+    "age": 31,
+    "nationality": "Ecuador",
+    "height": "1,76 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "Santos Laguna",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": "€1.20m",
+    "market_value_eur": 1200000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/carlos-gruezo/profil/spieler/189475"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/07/2013",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "18"
+    },
+    {
+      "date": "27/12/2013",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "18"
+    },
+    {
+      "date": "12/02/2014",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "VfB Stuttgart",
+      "age": "18"
+    },
+    {
+      "date": "10/07/2014",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "VfB Stuttgart",
+      "age": "19"
+    },
+    {
+      "date": "04/02/2015",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "VfB Stuttgart",
+      "age": "19"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "VfB Stuttgart",
+      "age": "20"
+    },
+    {
+      "date": "01/03/2016",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "FC Dallas",
+      "age": "20"
+    },
+    {
+      "date": "30/05/2016",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "FC Dallas",
+      "age": "21"
+    },
+    {
+      "date": "15/12/2016",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Dallas",
+      "age": "21"
+    },
+    {
+      "date": "24/05/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Dallas",
+      "age": "22"
+    },
+    {
+      "date": "05/12/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Dallas",
+      "age": "22"
+    },
+    {
+      "date": "02/05/2018",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Dallas",
+      "age": "23"
+    },
+    {
+      "date": "15/12/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Dallas",
+      "age": "23"
+    },
+    {
+      "date": "27/05/2019",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Dallas",
+      "age": "24"
+    },
+    {
+      "date": "17/12/2019",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Augsburg",
+      "age": "24"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 1600000,
+      "value_str": "€1.60m",
+      "club": "FC Augsburg",
+      "age": "24"
+    },
+    {
+      "date": "08/07/2020",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Augsburg",
+      "age": "25"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Augsburg",
+      "age": "25"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "FC Augsburg",
+      "age": "25"
+    },
+    {
+      "date": "09/06/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Augsburg",
+      "age": "26"
+    },
+    {
+      "date": "07/10/2021",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "FC Augsburg",
+      "age": "26"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 3200000,
+      "value_str": "€3.20m",
+      "club": "FC Augsburg",
+      "age": "26"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 3200000,
+      "value_str": "€3.20m",
+      "club": "FC Augsburg",
+      "age": "27"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "FC Augsburg",
+      "age": "27"
+    },
+    {
+      "date": "31/03/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "San Jose Earthquakes",
+      "age": "27"
+    },
+    {
+      "date": "22/08/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "San Jose Earthquakes",
+      "age": "28"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "San Jose Earthquakes",
+      "age": "28"
+    },
+    {
+      "date": "13/06/2024",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "San Jose Earthquakes",
+      "age": "29"
+    },
+    {
+      "date": "12/12/2024",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "San Jose Earthquakes",
+      "age": "29"
+    },
+    {
+      "date": "09/04/2025",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "LDU Quito",
+      "age": "29"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "LDU Quito",
+      "age": "30"
+    },
+    {
+      "date": "22/12/2025",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "LDU Quito",
+      "age": "30"
+    },
+    {
+      "date": "26/03/2026",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Santos Laguna",
+      "age": "30"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Liga MX Clausura",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 4,
+      "red_cards": 1,
+      "minutes_played": 813
+    }
+  ]
+}

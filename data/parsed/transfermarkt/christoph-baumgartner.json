@@ -1,0 +1,212 @@
+{
+  "profile": {
+    "tm_id": "324278",
+    "player_name": "Christoph Baumgartner",
+    "date_of_birth": "01/08/1999",
+    "age": 26,
+    "nationality": "Austria",
+    "height": "1,80 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "RB Leipzig",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€30.00m",
+    "market_value_eur": 30000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/christoph-baumgartner/profil/spieler/324278"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "05/07/2018",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "TSG 1899 Hoffenheim II",
+      "age": "18"
+    },
+    {
+      "date": "06/08/2018",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "TSG 1899 Hoffenheim II",
+      "age": "19"
+    },
+    {
+      "date": "11/02/2019",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "19"
+    },
+    {
+      "date": "05/06/2019",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "19"
+    },
+    {
+      "date": "02/10/2019",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "20"
+    },
+    {
+      "date": "17/12/2019",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "20"
+    },
+    {
+      "date": "11/02/2020",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 5400000,
+      "value_str": "€5.40m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "20"
+    },
+    {
+      "date": "08/07/2020",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "20"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "21"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "21"
+    },
+    {
+      "date": "27/05/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "21"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "22"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "22"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "23"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "TSG 1899 Hoffenheim",
+      "age": "23"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "RB Leipzig",
+      "age": "25"
+    },
+    {
+      "date": "27/03/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "RB Leipzig",
+      "age": "25"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "RB Leipzig",
+      "age": "25"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "RB Leipzig",
+      "age": "26"
+    },
+    {
+      "date": "20/03/2026",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "RB Leipzig",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 30,
+      "goals": 12,
+      "assists": 8,
+      "yellow_cards": 7,
+      "red_cards": 0,
+      "minutes_played": 2523
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 4,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 226
+    }
+  ]
+}

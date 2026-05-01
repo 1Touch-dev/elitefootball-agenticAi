@@ -1,0 +1,288 @@
+{
+  "profile": {
+    "tm_id": "434675",
+    "player_name": "Cody Gakpo",
+    "date_of_birth": "07/05/1999",
+    "age": 26,
+    "nationality": "NetherlandsTogo",
+    "height": "1,93 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "Liverpool FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€65.00m",
+    "market_value_eur": 65000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/cody-gakpo/profil/spieler/434675"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "04/11/2016",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "PSV Eindhoven U19",
+      "age": "17"
+    },
+    {
+      "date": "21/06/2017",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "PSV Eindhoven U19",
+      "age": "18"
+    },
+    {
+      "date": "01/03/2018",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "PSV Eindhoven U19",
+      "age": "18"
+    },
+    {
+      "date": "27/03/2018",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "PSV Eindhoven U19",
+      "age": "18"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "PSV Eindhoven U19",
+      "age": "19"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "PSV Eindhoven",
+      "age": "19"
+    },
+    {
+      "date": "21/01/2019",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "PSV Eindhoven",
+      "age": "19"
+    },
+    {
+      "date": "13/03/2019",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "PSV Eindhoven",
+      "age": "19"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "19/09/2019",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "12/03/2020",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 7200000,
+      "value_str": "€7.20m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "PSV Eindhoven",
+      "age": "21"
+    },
+    {
+      "date": "06/01/2021",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "PSV Eindhoven",
+      "age": "21"
+    },
+    {
+      "date": "27/05/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "PSV Eindhoven",
+      "age": "22"
+    },
+    {
+      "date": "04/10/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "PSV Eindhoven",
+      "age": "22"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "PSV Eindhoven",
+      "age": "22"
+    },
+    {
+      "date": "17/03/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "PSV Eindhoven",
+      "age": "22"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "PSV Eindhoven",
+      "age": "23"
+    },
+    {
+      "date": "14/09/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "PSV Eindhoven",
+      "age": "23"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "PSV Eindhoven",
+      "age": "23"
+    },
+    {
+      "date": "23/12/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "PSV Eindhoven",
+      "age": "23"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Liverpool FC",
+      "age": "24"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Liverpool FC",
+      "age": "24"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "18/07/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Liverpool FC",
+      "age": "26"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Liverpool FC",
+      "age": "26"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Liverpool FC",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 32,
+      "goals": 6,
+      "assists": 5,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 2418
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 470
+    },
+    {
+      "competition": "Community Shield",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 287
+    }
+  ]
+}

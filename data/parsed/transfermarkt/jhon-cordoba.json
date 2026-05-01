@@ -1,0 +1,334 @@
+{
+  "profile": {
+    "tm_id": "185245",
+    "player_name": "Jhon Córdoba",
+    "date_of_birth": "11/05/1993",
+    "age": 32,
+    "nationality": "Colombia",
+    "height": "1,88 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "FC Krasnodar",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€10.00m",
+    "market_value_eur": 10000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jhon-cordoba/profil/spieler/185245"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "05/01/2012",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Envigado FC",
+      "age": "18"
+    },
+    {
+      "date": "03/12/2012",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Jaguares de Chiapas",
+      "age": "19"
+    },
+    {
+      "date": "29/05/2013",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Jaguares de Chiapas",
+      "age": "20"
+    },
+    {
+      "date": "17/09/2013",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "RCD Espanyol Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "23/01/2014",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "RCD Espanyol Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "13/08/2014",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Granada CF",
+      "age": "21"
+    },
+    {
+      "date": "23/01/2015",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Granada CF",
+      "age": "21"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Granada CF",
+      "age": "22"
+    },
+    {
+      "date": "15/02/2016",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "1.FSV Mainz 05",
+      "age": "22"
+    },
+    {
+      "date": "13/04/2016",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "1.FSV Mainz 05",
+      "age": "22"
+    },
+    {
+      "date": "22/07/2016",
+      "value_eur": 5500000,
+      "value_str": "€5.50m",
+      "club": "1.FSV Mainz 05",
+      "age": "23"
+    },
+    {
+      "date": "13/10/2016",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "1.FSV Mainz 05",
+      "age": "23"
+    },
+    {
+      "date": "07/02/2017",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "1.FSV Mainz 05",
+      "age": "23"
+    },
+    {
+      "date": "19/06/2017",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "1.FSV Mainz 05",
+      "age": "24"
+    },
+    {
+      "date": "18/10/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "1.FC Köln",
+      "age": "24"
+    },
+    {
+      "date": "28/12/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "1.FC Köln",
+      "age": "24"
+    },
+    {
+      "date": "04/04/2018",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "1.FC Köln",
+      "age": "24"
+    },
+    {
+      "date": "05/06/2018",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "1.FC Köln",
+      "age": "25"
+    },
+    {
+      "date": "08/01/2019",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "1.FC Köln",
+      "age": "25"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "1.FC Köln",
+      "age": "26"
+    },
+    {
+      "date": "17/12/2019",
+      "value_eur": 5500000,
+      "value_str": "€5.50m",
+      "club": "1.FC Köln",
+      "age": "26"
+    },
+    {
+      "date": "11/03/2020",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "1.FC Köln",
+      "age": "26"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 9500000,
+      "value_str": "€9.50m",
+      "club": "1.FC Köln",
+      "age": "26"
+    },
+    {
+      "date": "08/07/2020",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "1.FC Köln",
+      "age": "27"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Hertha BSC",
+      "age": "27"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Hertha BSC",
+      "age": "27"
+    },
+    {
+      "date": "09/06/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Hertha BSC",
+      "age": "28"
+    },
+    {
+      "date": "15/09/2021",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "FC Krasnodar",
+      "age": "28"
+    },
+    {
+      "date": "29/12/2021",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "FC Krasnodar",
+      "age": "28"
+    },
+    {
+      "date": "02/06/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Krasnodar",
+      "age": "29"
+    },
+    {
+      "date": "12/09/2022",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "FC Krasnodar",
+      "age": "29"
+    },
+    {
+      "date": "21/11/2022",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "FC Krasnodar",
+      "age": "29"
+    },
+    {
+      "date": "14/06/2023",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "FC Krasnodar",
+      "age": "30"
+    },
+    {
+      "date": "05/10/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "FC Krasnodar",
+      "age": "30"
+    },
+    {
+      "date": "13/12/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "FC Krasnodar",
+      "age": "30"
+    },
+    {
+      "date": "04/06/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "FC Krasnodar",
+      "age": "31"
+    },
+    {
+      "date": "19/07/2024",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "FC Krasnodar",
+      "age": "31"
+    },
+    {
+      "date": "12/12/2024",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "FC Krasnodar",
+      "age": "31"
+    },
+    {
+      "date": "04/06/2025",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "FC Krasnodar",
+      "age": "32"
+    },
+    {
+      "date": "16/12/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Krasnodar",
+      "age": "32"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier Liga",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 15,
+      "assists": 5,
+      "yellow_cards": 2,
+      "red_cards": 2,
+      "minutes_played": 2214
+    },
+    {
+      "competition": "Russian Cup",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 5,
+      "assists": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 502
+    },
+    {
+      "competition": "Russian Super Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

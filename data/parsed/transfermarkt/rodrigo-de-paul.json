@@ -1,0 +1,282 @@
+{
+  "profile": {
+    "tm_id": "255901",
+    "player_name": "Rodrigo De Paul",
+    "date_of_birth": "24/05/1994",
+    "age": 31,
+    "nationality": "ArgentinaItaly",
+    "height": "1,80 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Inter Miami CF",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2029",
+    "market_value": "€15.00m",
+    "market_value_eur": 15000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/rodrigo-de-paul/profil/spieler/255901"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "29/04/2013",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Racing Club",
+      "age": "18"
+    },
+    {
+      "date": "30/06/2013",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Racing Club",
+      "age": "19"
+    },
+    {
+      "date": "20/07/2014",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Valencia CF",
+      "age": "20"
+    },
+    {
+      "date": "23/01/2015",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Valencia CF",
+      "age": "20"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Valencia CF",
+      "age": "21"
+    },
+    {
+      "date": "06/02/2016",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Racing Club",
+      "age": "21"
+    },
+    {
+      "date": "15/07/2016",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Valencia CF",
+      "age": "22"
+    },
+    {
+      "date": "14/10/2016",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Udinese Calcio",
+      "age": "22"
+    },
+    {
+      "date": "02/01/2017",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Udinese Calcio",
+      "age": "22"
+    },
+    {
+      "date": "08/06/2017",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Udinese Calcio",
+      "age": "23"
+    },
+    {
+      "date": "29/12/2017",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Udinese Calcio",
+      "age": "23"
+    },
+    {
+      "date": "07/06/2018",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Udinese Calcio",
+      "age": "24"
+    },
+    {
+      "date": "12/10/2018",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Udinese Calcio",
+      "age": "24"
+    },
+    {
+      "date": "20/12/2018",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Udinese Calcio",
+      "age": "24"
+    },
+    {
+      "date": "06/06/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Udinese Calcio",
+      "age": "25"
+    },
+    {
+      "date": "12/12/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Udinese Calcio",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Udinese Calcio",
+      "age": "25"
+    },
+    {
+      "date": "25/08/2020",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Udinese Calcio",
+      "age": "26"
+    },
+    {
+      "date": "29/12/2020",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Udinese Calcio",
+      "age": "26"
+    },
+    {
+      "date": "23/03/2021",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "Udinese Calcio",
+      "age": "26"
+    },
+    {
+      "date": "03/06/2021",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "Udinese Calcio",
+      "age": "27"
+    },
+    {
+      "date": "16/07/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Atlético de Madrid",
+      "age": "27"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Atlético de Madrid",
+      "age": "27"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Atlético de Madrid",
+      "age": "28"
+    },
+    {
+      "date": "23/09/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Atlético de Madrid",
+      "age": "28"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Atlético de Madrid",
+      "age": "28"
+    },
+    {
+      "date": "23/12/2022",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Atlético de Madrid",
+      "age": "28"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Atlético de Madrid",
+      "age": "29"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Atlético de Madrid",
+      "age": "29"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Atlético de Madrid",
+      "age": "30"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atlético de Madrid",
+      "age": "30"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atlético de Madrid",
+      "age": "31"
+    },
+    {
+      "date": "12/09/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Inter Miami CF",
+      "age": "31"
+    },
+    {
+      "date": "11/12/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Inter Miami CF",
+      "age": "31"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "MLS",
+      "season": "2026",
+      "games_played": 8,
+      "goals": 2,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 720
+    },
+    {
+      "competition": "CONCACAF Champions Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 180
+    }
+  ]
+}

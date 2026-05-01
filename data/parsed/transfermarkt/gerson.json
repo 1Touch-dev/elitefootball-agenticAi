@@ -1,0 +1,294 @@
+{
+  "profile": {
+    "tm_id": "341705",
+    "player_name": "Gerson",
+    "date_of_birth": "20/05/1997",
+    "age": 28,
+    "nationality": "Brazil",
+    "height": "1,84 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "left",
+    "current_club": "Cruzeiro Esporte Clube",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2030",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/gerson/profil/spieler/341705"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "31/05/2015",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Fluminense Football Club",
+      "age": "18"
+    },
+    {
+      "date": "04/01/2016",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Fluminense Football Club",
+      "age": "18"
+    },
+    {
+      "date": "27/05/2016",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Fluminense Football Club",
+      "age": "19"
+    },
+    {
+      "date": "02/01/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "AS Roma",
+      "age": "19"
+    },
+    {
+      "date": "28/03/2017",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "AS Roma",
+      "age": "19"
+    },
+    {
+      "date": "08/06/2017",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "AS Roma",
+      "age": "20"
+    },
+    {
+      "date": "29/12/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "AS Roma",
+      "age": "20"
+    },
+    {
+      "date": "07/06/2018",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "AS Roma",
+      "age": "21"
+    },
+    {
+      "date": "20/12/2018",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "ACF Fiorentina",
+      "age": "21"
+    },
+    {
+      "date": "01/03/2019",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "ACF Fiorentina",
+      "age": "21"
+    },
+    {
+      "date": "06/06/2019",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "ACF Fiorentina",
+      "age": "22"
+    },
+    {
+      "date": "27/11/2019",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "CR Flamengo",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "CR Flamengo",
+      "age": "22"
+    },
+    {
+      "date": "09/09/2020",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "CR Flamengo",
+      "age": "23"
+    },
+    {
+      "date": "09/02/2021",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "CR Flamengo",
+      "age": "23"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "CR Flamengo",
+      "age": "24"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Olympique Marseille",
+      "age": "24"
+    },
+    {
+      "date": "30/05/2022",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Olympique Marseille",
+      "age": "25"
+    },
+    {
+      "date": "02/11/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Olympique Marseille",
+      "age": "25"
+    },
+    {
+      "date": "07/04/2023",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "CR Flamengo",
+      "age": "25"
+    },
+    {
+      "date": "25/07/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CR Flamengo",
+      "age": "26"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CR Flamengo",
+      "age": "26"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CR Flamengo",
+      "age": "26"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "CR Flamengo",
+      "age": "27"
+    },
+    {
+      "date": "09/12/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "CR Flamengo",
+      "age": "27"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "CR Flamengo",
+      "age": "27"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "CR Flamengo",
+      "age": "28"
+    },
+    {
+      "date": "18/09/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Zenit St. Petersburg",
+      "age": "28"
+    },
+    {
+      "date": "16/12/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Zenit St. Petersburg",
+      "age": "28"
+    },
+    {
+      "date": "12/03/2026",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Cruzeiro Esporte Clube",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 12,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 930
+    },
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 244
+    },
+    {
+      "competition": "Copa do Brasil",
+      "season": "2026",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "Campeonato Mineiro",
+      "season": "2026",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "minutes_played": 515
+    },
+    {
+      "competition": "Premier Liga",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 688
+    },
+    {
+      "competition": "Russian Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 231
+    }
+  ]
+}

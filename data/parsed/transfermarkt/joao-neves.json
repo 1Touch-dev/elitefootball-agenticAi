@@ -1,0 +1,165 @@
+{
+  "profile": {
+    "tm_id": "670681",
+    "player_name": "João Neves",
+    "date_of_birth": "27/09/2004",
+    "age": 21,
+    "nationality": "Portugal",
+    "height": "1,74 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Paris Saint-Germain",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€110.00m",
+    "market_value_eur": 110000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/joao-neves/profil/spieler/670681"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "27/06/2022",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "SL Benfica U19",
+      "age": "17"
+    },
+    {
+      "date": "28/12/2022",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "SL Benfica B",
+      "age": "18"
+    },
+    {
+      "date": "02/03/2023",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "SL Benfica",
+      "age": "18"
+    },
+    {
+      "date": "16/06/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "SL Benfica",
+      "age": "18"
+    },
+    {
+      "date": "29/09/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "27/12/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "07/10/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "10/12/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "24/03/2025",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "03/06/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "10/10/2025",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 17,
+      "goals": 5,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 1139
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 2,
+      "assists": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 934
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 61
+    },
+    {
+      "competition": "Trophée des Champions",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "FIFA Intercontinental Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 120
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "profile": {
+    "tm_id": "426213",
+    "player_name": "Rodrigo Conceição",
+    "date_of_birth": "02/01/2000",
+    "age": 26,
+    "nationality": "Portugal",
+    "height": "1,75 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "CD Tondela",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€500k",
+    "market_value_eur": 500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/rodrigo-conceicao/profil/spieler/426213"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "31/12/2019",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "SL Benfica B",
+      "age": "19"
+    },
+    {
+      "date": "02/11/2020",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "FC Porto B",
+      "age": "20"
+    },
+    {
+      "date": "29/06/2021",
+      "value_eur": 650000,
+      "value_str": "€650k",
+      "club": "FC Porto B",
+      "age": "21"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Moreirense FC",
+      "age": "21"
+    },
+    {
+      "date": "31/05/2022",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Moreirense FC",
+      "age": "22"
+    },
+    {
+      "date": "01/11/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Porto",
+      "age": "22"
+    },
+    {
+      "date": "16/06/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Porto",
+      "age": "23"
+    },
+    {
+      "date": "19/10/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Zürich",
+      "age": "23"
+    },
+    {
+      "date": "21/12/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Zürich",
+      "age": "23"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "FC Zürich",
+      "age": "24"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "FC Zürich",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2024",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "FC Zürich",
+      "age": "24"
+    },
+    {
+      "date": "10/06/2025",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "FC Zürich",
+      "age": "25"
+    },
+    {
+      "date": "21/10/2025",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Without Club",
+      "age": "25"
+    },
+    {
+      "date": "18/12/2025",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "CD Tondela",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Liga Portugal",
+      "season": "25/26",
+      "games_played": 17,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 1170
+    }
+  ]
+}

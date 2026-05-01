@@ -1,0 +1,268 @@
+{
+  "profile": {
+    "tm_id": "211397",
+    "player_name": "Miguel Borja",
+    "date_of_birth": "26/01/1993",
+    "age": 33,
+    "nationality": "Colombia",
+    "height": "1,84 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Al-Wasl SC",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": "€2.00m",
+    "market_value_eur": 2000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/miguel-borja/profil/spieler/211397"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "05/01/2012",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Deportivo Cali",
+      "age": "18"
+    },
+    {
+      "date": "05/09/2013",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "AS Livorno",
+      "age": "20"
+    },
+    {
+      "date": "07/01/2014",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "AS Livorno",
+      "age": "20"
+    },
+    {
+      "date": "01/07/2014",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "AS Livorno",
+      "age": "21"
+    },
+    {
+      "date": "10/01/2015",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Independiente Santa Fe",
+      "age": "21"
+    },
+    {
+      "date": "15/03/2016",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Internacional de Palmira",
+      "age": "23"
+    },
+    {
+      "date": "28/07/2016",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "Atlético Nacional",
+      "age": "23"
+    },
+    {
+      "date": "01/09/2016",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Atlético Nacional",
+      "age": "23"
+    },
+    {
+      "date": "10/11/2016",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "Atlético Nacional",
+      "age": "23"
+    },
+    {
+      "date": "31/01/2017",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "Atlético Nacional",
+      "age": "24"
+    },
+    {
+      "date": "30/10/2017",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "24"
+    },
+    {
+      "date": "07/12/2017",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "24"
+    },
+    {
+      "date": "23/05/2018",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "25"
+    },
+    {
+      "date": "18/02/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "26"
+    },
+    {
+      "date": "27/11/2019",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "26"
+    },
+    {
+      "date": "28/02/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Junior FC",
+      "age": "27"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 3200000,
+      "value_str": "€3.20m",
+      "club": "Junior FC",
+      "age": "27"
+    },
+    {
+      "date": "16/01/2021",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Junior FC",
+      "age": "27"
+    },
+    {
+      "date": "07/06/2021",
+      "value_eur": 4800000,
+      "value_str": "€4.80m",
+      "club": "Junior FC",
+      "age": "28"
+    },
+    {
+      "date": "17/12/2021",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Grêmio Foot-Ball Porto Alegrense",
+      "age": "28"
+    },
+    {
+      "date": "17/06/2022",
+      "value_eur": 3700000,
+      "value_str": "€3.70m",
+      "club": "Junior FC",
+      "age": "29"
+    },
+    {
+      "date": "26/10/2022",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "CA River Plate",
+      "age": "29"
+    },
+    {
+      "date": "04/07/2023",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "CA River Plate",
+      "age": "30"
+    },
+    {
+      "date": "04/10/2023",
+      "value_eur": 3800000,
+      "value_str": "€3.80m",
+      "club": "CA River Plate",
+      "age": "30"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "CA River Plate",
+      "age": "30"
+    },
+    {
+      "date": "11/03/2024",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "CA River Plate",
+      "age": "31"
+    },
+    {
+      "date": "12/06/2024",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "CA River Plate",
+      "age": "31"
+    },
+    {
+      "date": "13/12/2024",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "CA River Plate",
+      "age": "31"
+    },
+    {
+      "date": "02/04/2025",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "CA River Plate",
+      "age": "32"
+    },
+    {
+      "date": "02/06/2025",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "CA River Plate",
+      "age": "32"
+    },
+    {
+      "date": "24/09/2025",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "CA River Plate",
+      "age": "32"
+    },
+    {
+      "date": "17/12/2025",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "CA River Plate",
+      "age": "32"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "UAE Pro League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 3,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 627
+    },
+    {
+      "competition": "AFC Champions League Two",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 3,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 222
+    }
+  ]
+}

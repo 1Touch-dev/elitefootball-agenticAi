@@ -1,0 +1,362 @@
+{
+  "profile": {
+    "tm_id": "88103",
+    "player_name": "James Rodríguez",
+    "date_of_birth": "12/07/1991",
+    "age": 34,
+    "nationality": "ColombiaSpain",
+    "height": "1,80 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "left",
+    "current_club": "Minnesota United FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": "€2.00m",
+    "market_value_eur": 2000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/james-rodriguez/profil/spieler/88103"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "12/03/2009",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "CA Banfield",
+      "age": "17"
+    },
+    {
+      "date": "27/05/2009",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "CA Banfield",
+      "age": "17"
+    },
+    {
+      "date": "06/10/2009",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "CA Banfield",
+      "age": "18"
+    },
+    {
+      "date": "21/01/2010",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "CA Banfield",
+      "age": "18"
+    },
+    {
+      "date": "20/04/2010",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CA Banfield",
+      "age": "18"
+    },
+    {
+      "date": "14/07/2010",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "FC Porto",
+      "age": "19"
+    },
+    {
+      "date": "15/06/2011",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "FC Porto",
+      "age": "19"
+    },
+    {
+      "date": "21/09/2011",
+      "value_eur": 9700000,
+      "value_str": "€9.70m",
+      "club": "FC Porto",
+      "age": "20"
+    },
+    {
+      "date": "02/02/2012",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "FC Porto",
+      "age": "20"
+    },
+    {
+      "date": "07/07/2012",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "FC Porto",
+      "age": "20"
+    },
+    {
+      "date": "04/04/2013",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "FC Porto",
+      "age": "21"
+    },
+    {
+      "date": "02/07/2013",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "AS Monaco",
+      "age": "21"
+    },
+    {
+      "date": "14/01/2014",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "AS Monaco",
+      "age": "22"
+    },
+    {
+      "date": "22/07/2014",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Real Madrid",
+      "age": "23"
+    },
+    {
+      "date": "23/01/2015",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Real Madrid",
+      "age": "23"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Real Madrid",
+      "age": "23"
+    },
+    {
+      "date": "22/02/2016",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Real Madrid",
+      "age": "24"
+    },
+    {
+      "date": "07/04/2016",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Real Madrid",
+      "age": "24"
+    },
+    {
+      "date": "15/07/2016",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Real Madrid",
+      "age": "25"
+    },
+    {
+      "date": "24/01/2017",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "25"
+    },
+    {
+      "date": "05/06/2017",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "25"
+    },
+    {
+      "date": "28/12/2017",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Bayern Munich",
+      "age": "26"
+    },
+    {
+      "date": "04/04/2018",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Bayern Munich",
+      "age": "26"
+    },
+    {
+      "date": "05/06/2018",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayern Munich",
+      "age": "26"
+    },
+    {
+      "date": "16/07/2018",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "18/12/2018",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "05/06/2019",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "20/12/2019",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Real Madrid",
+      "age": "28"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Real Madrid",
+      "age": "28"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Everton FC",
+      "age": "29"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Everton FC",
+      "age": "29"
+    },
+    {
+      "date": "08/06/2021",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Everton FC",
+      "age": "29"
+    },
+    {
+      "date": "05/10/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Al-Rayyan SC",
+      "age": "30"
+    },
+    {
+      "date": "10/01/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Al-Rayyan SC",
+      "age": "30"
+    },
+    {
+      "date": "25/05/2022",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Al-Rayyan SC",
+      "age": "30"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Olympiacos Piraeus",
+      "age": "31"
+    },
+    {
+      "date": "22/05/2023",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Without Club",
+      "age": "31"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "São Paulo Futebol Clube",
+      "age": "32"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "São Paulo Futebol Clube",
+      "age": "32"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "São Paulo Futebol Clube",
+      "age": "32"
+    },
+    {
+      "date": "19/07/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "São Paulo Futebol Clube",
+      "age": "33"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Rayo Vallecano",
+      "age": "33"
+    },
+    {
+      "date": "26/05/2025",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Club León FC",
+      "age": "33"
+    },
+    {
+      "date": "29/12/2025",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Club León FC",
+      "age": "34"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "MLS",
+      "season": "2026",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 103
+    },
+    {
+      "competition": "US Open Cup",
+      "season": "2026",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 80
+    },
+    {
+      "competition": "Liga MX Apertura",
+      "season": "25/26",
+      "games_played": 14,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 981
+    }
+  ]
+}

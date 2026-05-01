@@ -1,0 +1,198 @@
+{
+  "profile": {
+    "tm_id": "319318",
+    "player_name": "Jonathan Borja",
+    "date_of_birth": "05/04/1994",
+    "age": 32,
+    "nationality": "Ecuador",
+    "height": "1,78 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "CD El Nacional",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2026",
+    "market_value": "€200k",
+    "market_value_eur": 200000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jonathan-borja/profil/spieler/319318"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "04/08/2014",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Deportivo Quito",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2014",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Deportivo Quito",
+      "age": "20"
+    },
+    {
+      "date": "30/06/2015",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "CD América de Quito",
+      "age": "21"
+    },
+    {
+      "date": "30/12/2015",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "LDU de Loja",
+      "age": "21"
+    },
+    {
+      "date": "30/07/2016",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Without Club",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2016",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "SD Aucas",
+      "age": "22"
+    },
+    {
+      "date": "14/07/2017",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "CD El Nacional",
+      "age": "23"
+    },
+    {
+      "date": "30/12/2017",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "CD El Nacional",
+      "age": "23"
+    },
+    {
+      "date": "20/07/2018",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "LDU Quito",
+      "age": "24"
+    },
+    {
+      "date": "30/12/2018",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "CD El Nacional",
+      "age": "24"
+    },
+    {
+      "date": "30/06/2019",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "CD El Nacional",
+      "age": "25"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "CD El Nacional",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 950000,
+      "value_str": "€950k",
+      "club": "CD Cruz Azul",
+      "age": "26"
+    },
+    {
+      "date": "27/06/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "CD Cruz Azul",
+      "age": "26"
+    },
+    {
+      "date": "18/12/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "CD Cruz Azul",
+      "age": "26"
+    },
+    {
+      "date": "30/06/2021",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "CD El Nacional",
+      "age": "27"
+    },
+    {
+      "date": "10/06/2022",
+      "value_eur": 450000,
+      "value_str": "€450k",
+      "club": "Club Always Ready",
+      "age": "28"
+    },
+    {
+      "date": "07/10/2022",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "Without Club",
+      "age": "28"
+    },
+    {
+      "date": "28/03/2023",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Without Club",
+      "age": "28"
+    },
+    {
+      "date": "05/12/2023",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Mushuc Runa SC",
+      "age": "29"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "CD El Nacional",
+      "age": "30"
+    },
+    {
+      "date": "24/09/2024",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "CD El Nacional",
+      "age": "30"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "CD El Nacional",
+      "age": "30"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "CD El Nacional",
+      "age": "31"
+    },
+    {
+      "date": "22/12/2025",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "CD El Nacional",
+      "age": "31"
+    }
+  ],
+  "performance_stats": []
+}

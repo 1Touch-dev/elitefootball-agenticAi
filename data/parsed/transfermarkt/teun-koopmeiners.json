@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "tm_id": "360518",
+    "player_name": "Teun Koopmeiners",
+    "date_of_birth": "28/02/1998",
+    "age": 28,
+    "nationality": "Netherlands",
+    "height": "1,84 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "left",
+    "current_club": "Juventus FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/teun-koopmeiners/profil/spieler/360518"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/07/2017",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "AZ Alkmaar",
+      "age": "19"
+    },
+    {
+      "date": "26/10/2017",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "AZ Alkmaar",
+      "age": "19"
+    },
+    {
+      "date": "17/01/2018",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "AZ Alkmaar",
+      "age": "19"
+    },
+    {
+      "date": "27/03/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "AZ Alkmaar",
+      "age": "20"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "AZ Alkmaar",
+      "age": "20"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "AZ Alkmaar",
+      "age": "20"
+    },
+    {
+      "date": "13/03/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "AZ Alkmaar",
+      "age": "21"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "AZ Alkmaar",
+      "age": "21"
+    },
+    {
+      "date": "19/09/2019",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "AZ Alkmaar",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "AZ Alkmaar",
+      "age": "21"
+    },
+    {
+      "date": "12/03/2020",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "AZ Alkmaar",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 14500000,
+      "value_str": "€14.50m",
+      "club": "AZ Alkmaar",
+      "age": "22"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 14500000,
+      "value_str": "€14.50m",
+      "club": "AZ Alkmaar",
+      "age": "22"
+    },
+    {
+      "date": "06/01/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AZ Alkmaar",
+      "age": "22"
+    },
+    {
+      "date": "06/03/2021",
+      "value_eur": 17500000,
+      "value_str": "€17.50m",
+      "club": "AZ Alkmaar",
+      "age": "23"
+    },
+    {
+      "date": "27/05/2021",
+      "value_eur": 16500000,
+      "value_str": "€16.50m",
+      "club": "AZ Alkmaar",
+      "age": "23"
+    },
+    {
+      "date": "28/12/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Atalanta BC",
+      "age": "23"
+    },
+    {
+      "date": "15/03/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atalanta BC",
+      "age": "24"
+    },
+    {
+      "date": "07/06/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atalanta BC",
+      "age": "24"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Atalanta BC",
+      "age": "24"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Atalanta BC",
+      "age": "25"
+    },
+    {
+      "date": "11/10/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Atalanta BC",
+      "age": "25"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Atalanta BC",
+      "age": "25"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Atalanta BC",
+      "age": "26"
+    },
+    {
+      "date": "18/10/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Juventus FC",
+      "age": "26"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Juventus FC",
+      "age": "26"
+    },
+    {
+      "date": "25/03/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Juventus FC",
+      "age": "27"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Juventus FC",
+      "age": "27"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Juventus FC",
+      "age": "27"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Juventus FC",
+      "age": "27"
+    },
+    {
+      "date": "24/03/2026",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Juventus FC",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 29,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "minutes_played": 1654
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 744
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 106
+    }
+  ]
+}

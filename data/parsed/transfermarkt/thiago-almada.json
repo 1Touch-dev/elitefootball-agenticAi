@@ -1,0 +1,183 @@
+{
+  "profile": {
+    "tm_id": "576028",
+    "player_name": "Thiago Almada",
+    "date_of_birth": "26/04/2001",
+    "age": 25,
+    "nationality": "ArgentinaItaly",
+    "height": "1,71 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "Atlético de Madrid",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/thiago-almada/profil/spieler/576028"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "18/12/2018",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "CA Vélez Sarsfield",
+      "age": "17"
+    },
+    {
+      "date": "06/08/2019",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CA Vélez Sarsfield",
+      "age": "18"
+    },
+    {
+      "date": "05/12/2019",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "CA Vélez Sarsfield",
+      "age": "18"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "CA Vélez Sarsfield",
+      "age": "18"
+    },
+    {
+      "date": "08/02/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "CA Vélez Sarsfield",
+      "age": "19"
+    },
+    {
+      "date": "20/10/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "CA Vélez Sarsfield",
+      "age": "20"
+    },
+    {
+      "date": "01/04/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Atlanta United FC",
+      "age": "20"
+    },
+    {
+      "date": "18/08/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Atlanta United FC",
+      "age": "21"
+    },
+    {
+      "date": "08/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Atlanta United FC",
+      "age": "21"
+    },
+    {
+      "date": "31/03/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Atlanta United FC",
+      "age": "21"
+    },
+    {
+      "date": "22/08/2023",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Atlanta United FC",
+      "age": "22"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Atlanta United FC",
+      "age": "22"
+    },
+    {
+      "date": "13/06/2024",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Atlanta United FC",
+      "age": "23"
+    },
+    {
+      "date": "09/12/2024",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Botafogo de Futebol e Regatas",
+      "age": "23"
+    },
+    {
+      "date": "24/03/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Olympique Lyon",
+      "age": "23"
+    },
+    {
+      "date": "03/06/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Olympique Lyon",
+      "age": "24"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Atlético de Madrid",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 23,
+      "goals": 3,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "minutes_played": 1120
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 6,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 148
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 204
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 16
+    }
+  ]
+}

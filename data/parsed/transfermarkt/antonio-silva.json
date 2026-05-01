@@ -1,0 +1,182 @@
+{
+  "profile": {
+    "tm_id": "650568",
+    "player_name": "António Silva",
+    "date_of_birth": "30/10/2003",
+    "age": 22,
+    "nationality": "Portugal",
+    "height": "1,87 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "SL Benfica",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€28.00m",
+    "market_value_eur": 28000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/antonio-silva/profil/spieler/650568"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "05/11/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "SL Benfica U23",
+      "age": "18"
+    },
+    {
+      "date": "27/06/2022",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "SL Benfica U23",
+      "age": "18"
+    },
+    {
+      "date": "16/09/2022",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "SL Benfica",
+      "age": "18"
+    },
+    {
+      "date": "01/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "02/03/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "16/06/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "27/12/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "SL Benfica",
+      "age": "20"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "SL Benfica",
+      "age": "20"
+    },
+    {
+      "date": "08/10/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "SL Benfica",
+      "age": "20"
+    },
+    {
+      "date": "19/12/2024",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "31/03/2025",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "SL Benfica",
+      "age": "22"
+    },
+    {
+      "date": "19/03/2026",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "SL Benfica",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Liga Portugal",
+      "season": "25/26",
+      "games_played": 23,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "minutes_played": 1678
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 6,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 358
+    },
+    {
+      "competition": "Champions League Qu.",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 360
+    },
+    {
+      "competition": "Allianz Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Taça de Portugal",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 360
+    },
+    {
+      "competition": "Supertaça",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

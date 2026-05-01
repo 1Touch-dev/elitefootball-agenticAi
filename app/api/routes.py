@@ -645,7 +645,7 @@ def admin_status() -> dict[str, object]:
         "scout_reports": Path("data/gold/scout_reports.json"),
     }
     from app.scraping.job_queue import PersistentJobQueue
-    from app.orchestration.scheduler import get_scheduler_status
+    from app.pipeline.scheduler import get_scheduler_status
     queue = PersistentJobQueue()
     return {
         "dashboard": inspect_dashboard_artifacts(),

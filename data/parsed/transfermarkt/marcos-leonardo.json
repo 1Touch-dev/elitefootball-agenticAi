@@ -1,0 +1,159 @@
+{
+  "profile": {
+    "tm_id": "668267",
+    "player_name": "Marcos Leonardo",
+    "date_of_birth": "02/05/2003",
+    "age": 22,
+    "nationality": "Brazil",
+    "height": "1,77 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Al-Hilal SFC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/marcos-leonardo/profil/spieler/668267"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "09/09/2020",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Santos FC",
+      "age": "17"
+    },
+    {
+      "date": "08/10/2020",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Santos FC",
+      "age": "17"
+    },
+    {
+      "date": "09/02/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Santos FC",
+      "age": "17"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 2900000,
+      "value_str": "€2.90m",
+      "club": "Santos FC",
+      "age": "18"
+    },
+    {
+      "date": "17/12/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Santos FC",
+      "age": "18"
+    },
+    {
+      "date": "06/04/2022",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Santos FC",
+      "age": "18"
+    },
+    {
+      "date": "19/08/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Santos FC",
+      "age": "19"
+    },
+    {
+      "date": "14/11/2022",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Santos FC",
+      "age": "19"
+    },
+    {
+      "date": "07/04/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Santos FC",
+      "age": "19"
+    },
+    {
+      "date": "25/07/2023",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Santos FC",
+      "age": "20"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Santos FC",
+      "age": "20"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "13/12/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Al-Hilal SFC",
+      "age": "21"
+    },
+    {
+      "date": "27/05/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Al-Hilal SFC",
+      "age": "22"
+    },
+    {
+      "date": "18/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Al-Hilal SFC",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Saudi Pro League",
+      "season": "25/26",
+      "games_played": 22,
+      "goals": 12,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 1298
+    },
+    {
+      "competition": "King's Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 249
+    },
+    {
+      "competition": "AFC Champions League",
+      "season": "25/26",
+      "games_played": 7,
+      "goals": 4,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 478
+    }
+  ]
+}

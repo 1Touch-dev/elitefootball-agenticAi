@@ -1,0 +1,246 @@
+{
+  "profile": {
+    "tm_id": "480692",
+    "player_name": "Luis Díaz",
+    "date_of_birth": "13/01/1997",
+    "age": 29,
+    "nationality": "Colombia",
+    "height": "1,80 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "Bayern Munich",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€70.00m",
+    "market_value_eur": 70000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/luis-diaz/profil/spieler/480692"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "31/01/2017",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Barranquilla FC",
+      "age": "20"
+    },
+    {
+      "date": "19/11/2017",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Junior FC",
+      "age": "20"
+    },
+    {
+      "date": "07/03/2018",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Junior FC",
+      "age": "21"
+    },
+    {
+      "date": "08/06/2018",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Junior FC",
+      "age": "21"
+    },
+    {
+      "date": "09/10/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Junior FC",
+      "age": "21"
+    },
+    {
+      "date": "23/12/2018",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Junior FC",
+      "age": "21"
+    },
+    {
+      "date": "21/06/2019",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Junior FC",
+      "age": "22"
+    },
+    {
+      "date": "11/10/2019",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "FC Porto",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "FC Porto",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "FC Porto",
+      "age": "23"
+    },
+    {
+      "date": "17/08/2020",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "FC Porto",
+      "age": "23"
+    },
+    {
+      "date": "28/01/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "FC Porto",
+      "age": "24"
+    },
+    {
+      "date": "21/05/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "FC Porto",
+      "age": "24"
+    },
+    {
+      "date": "16/07/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Porto",
+      "age": "24"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Porto",
+      "age": "24"
+    },
+    {
+      "date": "29/03/2022",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "15/09/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "26"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "26"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "27"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Liverpool FC",
+      "age": "27"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Liverpool FC",
+      "age": "27"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Liverpool FC",
+      "age": "28"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 29,
+      "goals": 15,
+      "assists": 16,
+      "yellow_cards": 5,
+      "red_cards": 1,
+      "minutes_played": 2286
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 7,
+      "assists": 4,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "minutes_played": 891
+    },
+    {
+      "competition": "DFL-Supercup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 3,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 448
+    }
+  ]
+}

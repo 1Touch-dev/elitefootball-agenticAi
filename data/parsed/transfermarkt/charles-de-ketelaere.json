@@ -1,0 +1,208 @@
+{
+  "profile": {
+    "tm_id": "435772",
+    "player_name": "Charles De Ketelaere",
+    "date_of_birth": "10/03/2001",
+    "age": 25,
+    "nationality": "Belgium",
+    "height": "1,92 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "left",
+    "current_club": "Atalanta BC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€35.00m",
+    "market_value_eur": 35000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/charles-de-ketelaere/profil/spieler/435772"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "13/09/2019",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Club Brugge KV",
+      "age": "18"
+    },
+    {
+      "date": "13/12/2019",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Club Brugge KV",
+      "age": "18"
+    },
+    {
+      "date": "10/02/2020",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Club Brugge KV",
+      "age": "18"
+    },
+    {
+      "date": "30/03/2020",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 7600000,
+      "value_str": "€7.60m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "06/08/2020",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "16/10/2020",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "04/01/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "07/06/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Club Brugge KV",
+      "age": "20"
+    },
+    {
+      "date": "06/10/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Club Brugge KV",
+      "age": "20"
+    },
+    {
+      "date": "06/01/2022",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Club Brugge KV",
+      "age": "20"
+    },
+    {
+      "date": "12/04/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Club Brugge KV",
+      "age": "21"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "AC Milan",
+      "age": "21"
+    },
+    {
+      "date": "21/03/2023",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "AC Milan",
+      "age": "22"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "AC Milan",
+      "age": "22"
+    },
+    {
+      "date": "11/10/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atalanta BC",
+      "age": "22"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atalanta BC",
+      "age": "22"
+    },
+    {
+      "date": "12/03/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Atalanta BC",
+      "age": "23"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 34000000,
+      "value_str": "€34.00m",
+      "club": "Atalanta BC",
+      "age": "23"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "Atalanta BC",
+      "age": "23"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Atalanta BC",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Atalanta BC",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 27,
+      "goals": 3,
+      "assists": 5,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 1941
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 2,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 585
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 264
+    }
+  ]
+}

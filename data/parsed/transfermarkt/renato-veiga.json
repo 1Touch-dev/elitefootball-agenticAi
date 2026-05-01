@@ -1,0 +1,131 @@
+{
+  "profile": {
+    "tm_id": "805714",
+    "player_name": "Renato Veiga",
+    "date_of_birth": "29/07/2003",
+    "age": 22,
+    "nationality": "PortugalCape Verde",
+    "height": "1,90 m",
+    "position": "Defender - Centre-Back",
+    "foot": "left",
+    "current_club": "Villarreal CF",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2032",
+    "market_value": "€25.00m",
+    "market_value_eur": 25000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/renato-veiga/profil/spieler/805714"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "05/02/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Augsburg",
+      "age": "19"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Augsburg",
+      "age": "19"
+    },
+    {
+      "date": "19/10/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Basel 1893",
+      "age": "20"
+    },
+    {
+      "date": "21/12/2023",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Basel 1893",
+      "age": "20"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Basel 1893",
+      "age": "20"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Basel 1893",
+      "age": "20"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Chelsea FC",
+      "age": "21"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Chelsea FC",
+      "age": "21"
+    },
+    {
+      "date": "25/03/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Juventus FC",
+      "age": "21"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Chelsea FC",
+      "age": "21"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Villarreal CF",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 29,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 3,
+      "red_cards": 1,
+      "minutes_played": 2208
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 720
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 154
+    }
+  ]
+}

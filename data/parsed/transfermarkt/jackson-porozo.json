@@ -1,0 +1,180 @@
+{
+  "profile": {
+    "tm_id": "491616",
+    "player_name": "Jackson Porozo",
+    "date_of_birth": "04/08/2000",
+    "age": 25,
+    "nationality": "Ecuador",
+    "height": "1,93 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Club Tijuana",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": "€2.50m",
+    "market_value_eur": 2500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jackson-porozo/profil/spieler/491616"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "23/05/2019",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Santos FC U20",
+      "age": "18"
+    },
+    {
+      "date": "22/10/2020",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Boavista FC",
+      "age": "20"
+    },
+    {
+      "date": "28/01/2021",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Boavista FC",
+      "age": "20"
+    },
+    {
+      "date": "21/05/2021",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Boavista FC",
+      "age": "20"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Boavista FC",
+      "age": "21"
+    },
+    {
+      "date": "10/03/2022",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Boavista FC",
+      "age": "21"
+    },
+    {
+      "date": "31/05/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Boavista FC",
+      "age": "21"
+    },
+    {
+      "date": "02/11/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "ESTAC Troyes",
+      "age": "22"
+    },
+    {
+      "date": "27/03/2023",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "ESTAC Troyes",
+      "age": "22"
+    },
+    {
+      "date": "27/06/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "ESTAC Troyes",
+      "age": "22"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Olympiacos Piraeus",
+      "age": "23"
+    },
+    {
+      "date": "15/03/2024",
+      "value_eur": 3300000,
+      "value_str": "€3.30m",
+      "club": "Kasimpasa",
+      "age": "23"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 3300000,
+      "value_str": "€3.30m",
+      "club": "Kasimpasa",
+      "age": "23"
+    },
+    {
+      "date": "11/10/2024",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CD Leganés",
+      "age": "24"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "CD Leganés",
+      "age": "24"
+    },
+    {
+      "date": "26/05/2025",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Club Tijuana",
+      "age": "24"
+    },
+    {
+      "date": "22/09/2025",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Club Tijuana",
+      "age": "25"
+    },
+    {
+      "date": "29/12/2025",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Club Tijuana",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Liga MX Clausura",
+      "season": "25/26",
+      "games_played": 15,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 1,
+      "minutes_played": 1319
+    },
+    {
+      "competition": "Liga MX Apertura",
+      "season": "25/26",
+      "games_played": 17,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "minutes_played": 1530
+    },
+    {
+      "competition": "Liguilla Apertura",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 180
+    }
+  ]
+}

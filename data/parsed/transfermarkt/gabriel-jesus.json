@@ -1,0 +1,281 @@
+{
+  "profile": {
+    "tm_id": "363205",
+    "player_name": "Gabriel Jesus",
+    "date_of_birth": "03/04/1997",
+    "age": 29,
+    "nationality": "Brazil",
+    "height": "1,75 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Arsenal FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/gabriel-jesus/profil/spieler/363205"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "31/05/2015",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "18"
+    },
+    {
+      "date": "11/09/2015",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "18"
+    },
+    {
+      "date": "15/12/2015",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "18"
+    },
+    {
+      "date": "27/05/2016",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "19"
+    },
+    {
+      "date": "23/07/2016",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "19"
+    },
+    {
+      "date": "20/02/2017",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Manchester City",
+      "age": "19"
+    },
+    {
+      "date": "28/06/2017",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Manchester City",
+      "age": "20"
+    },
+    {
+      "date": "23/10/2017",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Manchester City",
+      "age": "20"
+    },
+    {
+      "date": "02/01/2018",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "20"
+    },
+    {
+      "date": "28/05/2018",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "13/06/2019",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "22"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 56000000,
+      "value_str": "€56.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "08/06/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "24"
+    },
+    {
+      "date": "29/03/2022",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Manchester City",
+      "age": "24"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Manchester City",
+      "age": "25"
+    },
+    {
+      "date": "15/09/2022",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Arsenal FC",
+      "age": "25"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Arsenal FC",
+      "age": "25"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Arsenal FC",
+      "age": "26"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Arsenal FC",
+      "age": "26"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Arsenal FC",
+      "age": "27"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Arsenal FC",
+      "age": "27"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Arsenal FC",
+      "age": "27"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Arsenal FC",
+      "age": "27"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Arsenal FC",
+      "age": "28"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Arsenal FC",
+      "age": "28"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Arsenal FC",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 320
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 6,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 156
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 309
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 102
+    }
+  ]
+}

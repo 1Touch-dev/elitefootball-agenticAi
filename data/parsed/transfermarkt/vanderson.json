@@ -1,0 +1,145 @@
+{
+  "profile": {
+    "tm_id": "789082",
+    "player_name": "Vanderson",
+    "date_of_birth": "21/06/2001",
+    "age": 24,
+    "nationality": "Brazil",
+    "height": "1,73 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "AS Monaco",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/vanderson/profil/spieler/789082"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "09/02/2021",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Grêmio Foot-Ball Porto Alegrense",
+      "age": "19"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Grêmio Foot-Ball Porto Alegrense",
+      "age": "19"
+    },
+    {
+      "date": "10/09/2021",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "Grêmio Foot-Ball Porto Alegrense",
+      "age": "20"
+    },
+    {
+      "date": "17/12/2021",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "Grêmio Foot-Ball Porto Alegrense",
+      "age": "20"
+    },
+    {
+      "date": "23/03/2022",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "AS Monaco",
+      "age": "20"
+    },
+    {
+      "date": "30/05/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "AS Monaco",
+      "age": "20"
+    },
+    {
+      "date": "02/11/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "AS Monaco",
+      "age": "21"
+    },
+    {
+      "date": "27/06/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Monaco",
+      "age": "22"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Monaco",
+      "age": "22"
+    },
+    {
+      "date": "03/06/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Monaco",
+      "age": "22"
+    },
+    {
+      "date": "10/12/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Monaco",
+      "age": "23"
+    },
+    {
+      "date": "03/06/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Monaco",
+      "age": "23"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Monaco",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 14,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 613
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 590
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

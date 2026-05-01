@@ -1,0 +1,239 @@
+{
+  "profile": {
+    "tm_id": "512385",
+    "player_name": "Luis Sinisterra",
+    "date_of_birth": "17/06/1999",
+    "age": 26,
+    "nationality": "Colombia",
+    "height": "1,72 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "Cruzeiro Esporte Clube",
+    "on_loan_from": "AFC Bournemouth",
+    "contract_expires": "30/06/2026",
+    "market_value": "€11.00m",
+    "market_value_eur": 11000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/luis-sinisterra/profil/spieler/512385"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "07/03/2018",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Once Caldas",
+      "age": "18"
+    },
+    {
+      "date": "08/06/2018",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Once Caldas",
+      "age": "18"
+    },
+    {
+      "date": "04/10/2018",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "19"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "19"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "19"
+    },
+    {
+      "date": "19/09/2019",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "11/02/2020",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "12/03/2020",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "20"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "21"
+    },
+    {
+      "date": "19/05/2021",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "21"
+    },
+    {
+      "date": "04/10/2021",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "17/03/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Leeds United",
+      "age": "23"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Leeds United",
+      "age": "24"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AFC Bournemouth",
+      "age": "24"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "AFC Bournemouth",
+      "age": "24"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "AFC Bournemouth",
+      "age": "24"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "AFC Bournemouth",
+      "age": "25"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AFC Bournemouth",
+      "age": "25"
+    },
+    {
+      "date": "10/12/2025",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Cruzeiro Esporte Clube",
+      "age": "26"
+    },
+    {
+      "date": "12/03/2026",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Cruzeiro Esporte Clube",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 48
+    },
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "Copa do Brasil",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 22
+    },
+    {
+      "competition": "Campeonato Mineiro",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 23
+    }
+  ]
+}

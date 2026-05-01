@@ -1,0 +1,234 @@
+{
+  "profile": {
+    "tm_id": "592735",
+    "player_name": "Gonzalo Plata",
+    "date_of_birth": "01/11/2000",
+    "age": 25,
+    "nationality": "Ecuador",
+    "height": "1,78 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "CR Flamengo",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€8.00m",
+    "market_value_eur": 8000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/gonzalo-plata/profil/spieler/592735"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "20/07/2018",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Independiente del Valle",
+      "age": "17"
+    },
+    {
+      "date": "30/12/2018",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "Independiente del Valle",
+      "age": "18"
+    },
+    {
+      "date": "09/07/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Sporting CP",
+      "age": "18"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Sporting CP",
+      "age": "19"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Sporting CP",
+      "age": "19"
+    },
+    {
+      "date": "17/08/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Sporting CP",
+      "age": "19"
+    },
+    {
+      "date": "28/01/2021",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Sporting CP",
+      "age": "20"
+    },
+    {
+      "date": "21/05/2021",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Sporting CP",
+      "age": "20"
+    },
+    {
+      "date": "16/07/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Sporting CP",
+      "age": "20"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Real Valladolid CF",
+      "age": "21"
+    },
+    {
+      "date": "29/06/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Real Valladolid CF",
+      "age": "21"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Real Valladolid CF",
+      "age": "22"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Real Valladolid CF",
+      "age": "22"
+    },
+    {
+      "date": "27/11/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Al-Sadd SC",
+      "age": "23"
+    },
+    {
+      "date": "02/05/2024",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Al-Sadd SC",
+      "age": "23"
+    },
+    {
+      "date": "09/12/2024",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "CR Flamengo",
+      "age": "24"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "CR Flamengo",
+      "age": "24"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "CR Flamengo",
+      "age": "24"
+    },
+    {
+      "date": "05/09/2025",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "CR Flamengo",
+      "age": "24"
+    },
+    {
+      "date": "10/12/2025",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "CR Flamengo",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 137
+    },
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 7,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 385
+    },
+    {
+      "competition": "Copa do Brasil",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 18
+    },
+    {
+      "competition": "Supercopa Rei",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 81
+    },
+    {
+      "competition": "Campeonato Carioca",
+      "season": "2026",
+      "games_played": 6,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 320
+    },
+    {
+      "competition": "Recopa Sudamericana",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 64
+    },
+    {
+      "competition": "FIFA Intercontinental Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 243
+    }
+  ]
+}

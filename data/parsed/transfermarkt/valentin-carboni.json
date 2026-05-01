@@ -1,0 +1,131 @@
+{
+  "profile": {
+    "tm_id": "787618",
+    "player_name": "Valentín Carboni",
+    "date_of_birth": "05/03/2005",
+    "age": 21,
+    "nationality": "ArgentinaItaly",
+    "height": "1,85 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "left",
+    "current_club": "Racing Club",
+    "on_loan_from": "Inter Milan",
+    "contract_expires": "31/12/2026",
+    "market_value": "€8.50m",
+    "market_value_eur": 8500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/valentin-carboni/profil/spieler/787618"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "27/09/2022",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Inter Milan",
+      "age": "17"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Inter Milan",
+      "age": "17"
+    },
+    {
+      "date": "21/03/2023",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Inter Milan",
+      "age": "18"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Inter Milan",
+      "age": "18"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "AC Monza",
+      "age": "18"
+    },
+    {
+      "date": "12/03/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AC Monza",
+      "age": "19"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AC Monza",
+      "age": "19"
+    },
+    {
+      "date": "10/12/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Olympique Marseille",
+      "age": "19"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Inter Milan",
+      "age": "20"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Genoa CFC",
+      "age": "20"
+    },
+    {
+      "date": "18/03/2026",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "Racing Club",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Torneo Apertura",
+      "season": "2026",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 204
+    },
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 354
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 194
+    }
+  ]
+}

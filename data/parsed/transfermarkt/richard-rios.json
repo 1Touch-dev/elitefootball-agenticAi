@@ -1,0 +1,182 @@
+{
+  "profile": {
+    "tm_id": "735573",
+    "player_name": "Richard Ríos",
+    "date_of_birth": "02/06/2000",
+    "age": 25,
+    "nationality": "Colombia",
+    "height": "1,87 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "SL Benfica",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€22.00m",
+    "market_value_eur": 22000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/richard-rios/profil/spieler/735573"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "15/10/2021",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Mazatlán FC",
+      "age": "21"
+    },
+    {
+      "date": "11/04/2022",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Mazatlán FC",
+      "age": "21"
+    },
+    {
+      "date": "07/04/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "22"
+    },
+    {
+      "date": "25/07/2023",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "23"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "23"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "23"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "24"
+    },
+    {
+      "date": "19/07/2024",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "24"
+    },
+    {
+      "date": "27/09/2024",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2024",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "24"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "24"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "25"
+    },
+    {
+      "date": "30/09/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "SL Benfica",
+      "age": "25"
+    },
+    {
+      "date": "18/12/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "SL Benfica",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Liga Portugal",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 3,
+      "assists": 4,
+      "yellow_cards": 8,
+      "red_cards": 0,
+      "minutes_played": 2104
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 622
+    },
+    {
+      "competition": "Champions League Qu.",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 360
+    },
+    {
+      "competition": "Allianz Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 103
+    },
+    {
+      "competition": "Taça de Portugal",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 178
+    },
+    {
+      "competition": "Supertaça",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

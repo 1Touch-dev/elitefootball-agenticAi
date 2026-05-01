@@ -1,0 +1,270 @@
+{
+  "profile": {
+    "tm_id": "262980",
+    "player_name": "Jefferson Lerma",
+    "date_of_birth": "25/10/1994",
+    "age": 31,
+    "nationality": "Colombia",
+    "height": "1,79 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "Crystal Palace",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": "€8.00m",
+    "market_value_eur": 8000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jefferson-lerma/profil/spieler/262980"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "25/08/2015",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Levante UD",
+      "age": "20"
+    },
+    {
+      "date": "22/11/2015",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Levante UD",
+      "age": "21"
+    },
+    {
+      "date": "22/02/2016",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Levante UD",
+      "age": "21"
+    },
+    {
+      "date": "15/07/2016",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Levante UD",
+      "age": "21"
+    },
+    {
+      "date": "24/01/2017",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Levante UD",
+      "age": "22"
+    },
+    {
+      "date": "29/06/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Levante UD",
+      "age": "22"
+    },
+    {
+      "date": "01/01/2018",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Levante UD",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Levante UD",
+      "age": "23"
+    },
+    {
+      "date": "13/08/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "AFC Bournemouth",
+      "age": "23"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "AFC Bournemouth",
+      "age": "24"
+    },
+    {
+      "date": "13/06/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "AFC Bournemouth",
+      "age": "24"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "AFC Bournemouth",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AFC Bournemouth",
+      "age": "25"
+    },
+    {
+      "date": "15/10/2020",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "AFC Bournemouth",
+      "age": "25"
+    },
+    {
+      "date": "22/12/2020",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AFC Bournemouth",
+      "age": "26"
+    },
+    {
+      "date": "10/03/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AFC Bournemouth",
+      "age": "26"
+    },
+    {
+      "date": "30/06/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AFC Bournemouth",
+      "age": "26"
+    },
+    {
+      "date": "24/11/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AFC Bournemouth",
+      "age": "27"
+    },
+    {
+      "date": "13/05/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AFC Bournemouth",
+      "age": "27"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "AFC Bournemouth",
+      "age": "28"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AFC Bournemouth",
+      "age": "28"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Crystal Palace",
+      "age": "29"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Crystal Palace",
+      "age": "29"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Crystal Palace",
+      "age": "29"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Crystal Palace",
+      "age": "30"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Crystal Palace",
+      "age": "30"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Crystal Palace",
+      "age": "30"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Crystal Palace",
+      "age": "31"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Conference League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 502
+    },
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 26,
+      "goals": 0,
+      "assists": 4,
+      "yellow_cards": 6,
+      "red_cards": 0,
+      "minutes_played": 1428
+    },
+    {
+      "competition": "UECL Qualifiers",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 180
+    },
+    {
+      "competition": "Community Shield",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 5
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 125
+    }
+  ]
+}

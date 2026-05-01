@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "tm_id": "565424",
+    "player_name": "Johan Bakayoko",
+    "date_of_birth": "20/04/2003",
+    "age": 23,
+    "nationality": "BelgiumCote d'Ivoire",
+    "height": "1,79 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "RB Leipzig",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€22.00m",
+    "market_value_eur": 22000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/johan-bakayoko/profil/spieler/565424"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "16/03/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "PSV Eindhoven U21",
+      "age": "17"
+    },
+    {
+      "date": "12/10/2021",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "PSV Eindhoven U21",
+      "age": "18"
+    },
+    {
+      "date": "12/01/2022",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "PSV Eindhoven U21",
+      "age": "18"
+    },
+    {
+      "date": "23/06/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "PSV Eindhoven U21",
+      "age": "19"
+    },
+    {
+      "date": "14/09/2022",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "PSV Eindhoven",
+      "age": "19"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "PSV Eindhoven",
+      "age": "19"
+    },
+    {
+      "date": "17/03/2023",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "PSV Eindhoven",
+      "age": "19"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "17/10/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "15/12/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "PSV Eindhoven",
+      "age": "20"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "PSV Eindhoven",
+      "age": "21"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "PSV Eindhoven",
+      "age": "21"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "PSV Eindhoven",
+      "age": "21"
+    },
+    {
+      "date": "28/05/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "PSV Eindhoven",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    },
+    {
+      "date": "20/03/2026",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 19,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 764
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 118
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "profile": {
+    "tm_id": "369684",
+    "player_name": "Rasmus Kristensen",
+    "date_of_birth": "11/07/1997",
+    "age": 28,
+    "nationality": "Denmark",
+    "height": "1,87 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "Eintracht Frankfurt",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€12.00m",
+    "market_value_eur": 12000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/rasmus-kristensen/profil/spieler/369684"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "12/08/2016",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "FC Midtjylland",
+      "age": "19"
+    },
+    {
+      "date": "12/12/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "FC Midtjylland",
+      "age": "19"
+    },
+    {
+      "date": "27/03/2017",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "FC Midtjylland",
+      "age": "19"
+    },
+    {
+      "date": "21/06/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Midtjylland",
+      "age": "19"
+    },
+    {
+      "date": "18/12/2017",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "FC Midtjylland",
+      "age": "20"
+    },
+    {
+      "date": "27/03/2018",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "04/10/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "03/09/2019",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Red Bull Salzburg",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2019",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Red Bull Salzburg",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 3200000,
+      "value_str": "€3.20m",
+      "club": "Red Bull Salzburg",
+      "age": "22"
+    },
+    {
+      "date": "22/07/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Red Bull Salzburg",
+      "age": "23"
+    },
+    {
+      "date": "21/12/2020",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Red Bull Salzburg",
+      "age": "23"
+    },
+    {
+      "date": "26/05/2021",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "Red Bull Salzburg",
+      "age": "23"
+    },
+    {
+      "date": "06/09/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Red Bull Salzburg",
+      "age": "24"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Red Bull Salzburg",
+      "age": "24"
+    },
+    {
+      "date": "11/03/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Red Bull Salzburg",
+      "age": "24"
+    },
+    {
+      "date": "27/05/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Red Bull Salzburg",
+      "age": "24"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Leeds United",
+      "age": "25"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Leeds United",
+      "age": "25"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "AS Roma",
+      "age": "26"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "AS Roma",
+      "age": "26"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "27"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "27"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "28"
+    },
+    {
+      "date": "20/03/2026",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Eintracht Frankfurt",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 20,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 1433
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 329
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 210
+    }
+  ]
+}

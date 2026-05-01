@@ -1,0 +1,366 @@
+{
+  "profile": {
+    "tm_id": "65278",
+    "player_name": "Pedro",
+    "date_of_birth": "28/07/1987",
+    "age": 38,
+    "nationality": "Spain",
+    "height": "1,67 m",
+    "position": "Attack - Right Winger",
+    "foot": "both",
+    "current_club": "SS Lazio",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": "€1.00m",
+    "market_value_eur": 1000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/pedro-flamengo/profil/spieler/65278"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "15/01/2008",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "FC Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "04/02/2008",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "FC Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "20/08/2008",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "15/10/2008",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "26/01/2009",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "22/07/2009",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "03/12/2009",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "07/01/2010",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "12/04/2010",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "27/08/2010",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "10/12/2010",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "29/07/2011",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "03/02/2012",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "07/08/2012",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "10/01/2013",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "12/06/2013",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "23/01/2014",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "20/07/2014",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "23/01/2015",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    },
+    {
+      "date": "09/04/2015",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    },
+    {
+      "date": "14/10/2015",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Chelsea FC",
+      "age": "28"
+    },
+    {
+      "date": "09/02/2016",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "Chelsea FC",
+      "age": "28"
+    },
+    {
+      "date": "01/06/2016",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "Chelsea FC",
+      "age": "28"
+    },
+    {
+      "date": "01/08/2016",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "Chelsea FC",
+      "age": "29"
+    },
+    {
+      "date": "20/02/2017",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Chelsea FC",
+      "age": "29"
+    },
+    {
+      "date": "28/06/2017",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Chelsea FC",
+      "age": "29"
+    },
+    {
+      "date": "02/01/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Chelsea FC",
+      "age": "30"
+    },
+    {
+      "date": "28/05/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Chelsea FC",
+      "age": "30"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Chelsea FC",
+      "age": "31"
+    },
+    {
+      "date": "13/06/2019",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Chelsea FC",
+      "age": "31"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Chelsea FC",
+      "age": "32"
+    },
+    {
+      "date": "09/03/2020",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Chelsea FC",
+      "age": "32"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 9500000,
+      "value_str": "€9.50m",
+      "club": "Chelsea FC",
+      "age": "32"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "AS Roma",
+      "age": "33"
+    },
+    {
+      "date": "29/12/2020",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "AS Roma",
+      "age": "33"
+    },
+    {
+      "date": "03/06/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "AS Roma",
+      "age": "33"
+    },
+    {
+      "date": "28/12/2021",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "SS Lazio",
+      "age": "34"
+    },
+    {
+      "date": "07/06/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "SS Lazio",
+      "age": "34"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "SS Lazio",
+      "age": "35"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "SS Lazio",
+      "age": "35"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "SS Lazio",
+      "age": "36"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "SS Lazio",
+      "age": "36"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "SS Lazio",
+      "age": "37"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "SS Lazio",
+      "age": "37"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "SS Lazio",
+      "age": "38"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 4,
+      "assists": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 808
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 69
+    }
+  ]
+}

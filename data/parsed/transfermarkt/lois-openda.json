@@ -1,0 +1,277 @@
+{
+  "profile": {
+    "tm_id": "368887",
+    "player_name": "Loïs Openda",
+    "date_of_birth": "16/02/2000",
+    "age": 26,
+    "nationality": "BelgiumMorocco",
+    "height": "1,77 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Juventus FC",
+    "on_loan_from": "RB Leipzig",
+    "contract_expires": "30/06/2030",
+    "market_value": "€32.00m",
+    "market_value_eur": 32000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/lois-openda/profil/spieler/368887"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/08/2018",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Club Brugge KV",
+      "age": "18"
+    },
+    {
+      "date": "11/09/2018",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Club Brugge KV",
+      "age": "18"
+    },
+    {
+      "date": "27/12/2018",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Club Brugge KV",
+      "age": "18"
+    },
+    {
+      "date": "04/03/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "10/06/2019",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "13/09/2019",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "13/12/2019",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "11/02/2020",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Club Brugge KV",
+      "age": "19"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Club Brugge KV",
+      "age": "20"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Vitesse Arnhem",
+      "age": "20"
+    },
+    {
+      "date": "06/01/2021",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Vitesse Arnhem",
+      "age": "20"
+    },
+    {
+      "date": "09/03/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Vitesse Arnhem",
+      "age": "21"
+    },
+    {
+      "date": "19/05/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Vitesse Arnhem",
+      "age": "21"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Vitesse Arnhem",
+      "age": "21"
+    },
+    {
+      "date": "17/03/2022",
+      "value_eur": 5500000,
+      "value_str": "€5.50m",
+      "club": "Vitesse Arnhem",
+      "age": "22"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "Vitesse Arnhem",
+      "age": "22"
+    },
+    {
+      "date": "19/09/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "RC Lens",
+      "age": "22"
+    },
+    {
+      "date": "02/11/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "RC Lens",
+      "age": "22"
+    },
+    {
+      "date": "27/03/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "RC Lens",
+      "age": "23"
+    },
+    {
+      "date": "27/06/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "RC Lens",
+      "age": "23"
+    },
+    {
+      "date": "18/10/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "RB Leipzig",
+      "age": "23"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "RB Leipzig",
+      "age": "23"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "RB Leipzig",
+      "age": "25"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Juventus FC",
+      "age": "25"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Juventus FC",
+      "age": "25"
+    },
+    {
+      "date": "24/03/2026",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Juventus FC",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 24,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 652
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 320
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 25
+    },
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 50
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 86
+    }
+  ]
+}

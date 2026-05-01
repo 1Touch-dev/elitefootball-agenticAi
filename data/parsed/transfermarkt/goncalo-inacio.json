@@ -1,0 +1,176 @@
+{
+  "profile": {
+    "tm_id": "549006",
+    "player_name": "Gonçalo Inácio",
+    "date_of_birth": "25/08/2001",
+    "age": 24,
+    "nationality": "Portugal",
+    "height": "1,86 m",
+    "position": "Defender - Centre-Back",
+    "foot": "left",
+    "current_club": "Sporting CP",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€40.00m",
+    "market_value_eur": 40000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/549006"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "22/10/2020",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Sporting CP",
+      "age": "19"
+    },
+    {
+      "date": "28/01/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Sporting CP",
+      "age": "19"
+    },
+    {
+      "date": "25/03/2021",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Sporting CP",
+      "age": "19"
+    },
+    {
+      "date": "21/05/2021",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Sporting CP",
+      "age": "19"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Sporting CP",
+      "age": "20"
+    },
+    {
+      "date": "10/03/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Sporting CP",
+      "age": "20"
+    },
+    {
+      "date": "31/05/2022",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "Sporting CP",
+      "age": "20"
+    },
+    {
+      "date": "01/11/2022",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "Sporting CP",
+      "age": "21"
+    },
+    {
+      "date": "02/03/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Sporting CP",
+      "age": "21"
+    },
+    {
+      "date": "16/06/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Sporting CP",
+      "age": "21"
+    },
+    {
+      "date": "27/12/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Sporting CP",
+      "age": "22"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Sporting CP",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Sporting CP",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Sporting CP",
+      "age": "23"
+    },
+    {
+      "date": "18/12/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Sporting CP",
+      "age": "24"
+    },
+    {
+      "date": "19/03/2026",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Sporting CP",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Liga Portugal",
+      "season": "25/26",
+      "games_played": 26,
+      "goals": 1,
+      "assists": 3,
+      "yellow_cards": 4,
+      "red_cards": 1,
+      "minutes_played": 2244
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 956
+    },
+    {
+      "competition": "Taça de Portugal",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 341
+    },
+    {
+      "competition": "Supertaça",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

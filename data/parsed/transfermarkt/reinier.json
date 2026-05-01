@@ -1,0 +1,194 @@
+{
+  "profile": {
+    "tm_id": "627226",
+    "player_name": "Reinier",
+    "date_of_birth": "19/01/2002",
+    "age": 24,
+    "nationality": "Brazil",
+    "height": "1,85 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "Clube Atlético Mineiro",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2029",
+    "market_value": "€2.00m",
+    "market_value_eur": 2000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/reinier/profil/spieler/627226"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "28/05/2019",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "15/08/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "16/10/2019",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "27/11/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 22500000,
+      "value_str": "€22.50m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Borussia Dortmund",
+      "age": "19"
+    },
+    {
+      "date": "09/06/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Borussia Dortmund",
+      "age": "19"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Borussia Dortmund",
+      "age": "19"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Borussia Dortmund",
+      "age": "20"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Girona FC",
+      "age": "20"
+    },
+    {
+      "date": "23/03/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Girona FC",
+      "age": "21"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Girona FC",
+      "age": "21"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Frosinone Calcio",
+      "age": "21"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Frosinone Calcio",
+      "age": "22"
+    },
+    {
+      "date": "14/10/2024",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Granada CF",
+      "age": "22"
+    },
+    {
+      "date": "13/12/2024",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Granada CF",
+      "age": "22"
+    },
+    {
+      "date": "27/03/2025",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Granada CF",
+      "age": "23"
+    },
+    {
+      "date": "24/06/2025",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Granada CF",
+      "age": "23"
+    },
+    {
+      "date": "10/12/2025",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Clube Atlético Mineiro",
+      "age": "23"
+    },
+    {
+      "date": "12/03/2026",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Clube Atlético Mineiro",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 194
+    },
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 11,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 515
+    },
+    {
+      "competition": "Campeonato Mineiro",
+      "season": "2026",
+      "games_played": 9,
+      "goals": 3,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 524
+    }
+  ]
+}

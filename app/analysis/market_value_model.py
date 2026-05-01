@@ -1,13 +1,15 @@
 """
 Market Value Model — GradientBoosting-based € prediction with confidence intervals.
 
-Model: sklearn GradientBoostingRegressor trained on 180 historical transfer data points.
+Model: sklearn GradientBoostingRegressor trained on real TM market value history
+       (150+ players × multiple career snapshots from data/parsed/transfermarkt/).
+       Falls back to hardcoded seed data if parsed files not available.
 Blend: GBM prediction 70% + Transfermarkt actual value 30% (when available).
 Fallback: analytical formula if sklearn unavailable.
 
 Features: age, performance_score, league_prestige, trajectory_enc,
           transfer_prob_1y, minutes_ratio
-Target: log10(transfer_fee_eur)
+Target: log10(market_value_eur) — peak MV at each career stage is the label.
 
 Output per player:
   predicted_value_eur, blended_value_eur, confidence_interval (low, high),
@@ -15,6 +17,7 @@ Output per player:
 """
 from __future__ import annotations
 
+import json
 import math
 from pathlib import Path
 from typing import Any
@@ -23,178 +26,131 @@ from app.config import settings
 from app.pipeline.io import write_json
 
 
-# ── Training data ─────────────────────────────────────────────────────────────
-# (age, perf_score, league_prestige, trajectory_enc, tp_1y, minutes_ratio, fee_eur)
-# trajectory: -1=declining, 0=stable, 1=improving
-_TRAINING_TRANSFERS: list[tuple] = [
-    # IDV → Europe elite exports
-    (20, 87, 0.25, 1, 0.92, 0.88, 115_000_000),  # Caicedo IDV→Brighton→Chelsea
-    (20, 83, 0.25, 1, 0.88, 0.82, 30_000_000),   # Hincapié IDV→Leverkusen
-    (19, 80, 0.25, 1, 0.85, 0.80, 18_000_000),   # IDV→Salzburg type
-    (21, 82, 0.25, 1, 0.80, 0.85, 22_000_000),   # IDV→Benfica type
-    (22, 79, 0.25, 0, 0.70, 0.90, 12_000_000),   # IDV→Porto type
-    (18, 75, 0.25, 1, 0.75, 0.65, 8_000_000),    # young IDV talent
-    (23, 76, 0.25, 0, 0.65, 0.85, 9_000_000),    # IDV→Liga Pro rival
-    (19, 72, 0.25, 1, 0.70, 0.70, 6_000_000),    # IDV prospect
-    (24, 78, 0.25, 0, 0.60, 0.92, 10_000_000),   # IDV veteran
-    (17, 68, 0.25, 1, 0.60, 0.55, 4_500_000),    # IDV youth
-    # Liga Pro → Europe
-    (22, 80, 0.25, 1, 0.82, 0.88, 15_000_000),
-    (23, 77, 0.25, 1, 0.75, 0.85, 11_000_000),
-    (21, 82, 0.25, 1, 0.80, 0.78, 18_000_000),
-    (24, 74, 0.25, 0, 0.65, 0.90, 8_000_000),
-    (20, 76, 0.25, 1, 0.78, 0.82, 13_000_000),
-    # Brazilian Série A → Europe
-    (19, 85, 0.55, 1, 0.90, 0.75, 35_000_000),   # Endrick type
-    (21, 83, 0.55, 1, 0.85, 0.85, 28_000_000),
-    (22, 80, 0.55, 1, 0.80, 0.90, 22_000_000),
-    (20, 78, 0.55, 1, 0.82, 0.80, 18_000_000),
-    (23, 82, 0.55, 1, 0.75, 0.88, 25_000_000),
-    (24, 79, 0.55, 0, 0.65, 0.92, 16_000_000),
-    (25, 77, 0.55, 0, 0.60, 0.90, 12_000_000),
-    (22, 85, 0.55, 1, 0.88, 0.85, 38_000_000),
-    (21, 86, 0.55, 1, 0.90, 0.80, 42_000_000),
-    (19, 80, 0.55, 1, 0.85, 0.70, 24_000_000),
-    (23, 75, 0.55, 0, 0.70, 0.88, 14_000_000),
-    (20, 81, 0.55, 1, 0.83, 0.82, 26_000_000),
-    (26, 78, 0.55, -1, 0.55, 0.92, 9_000_000),
-    (27, 76, 0.55, -1, 0.50, 0.90, 7_500_000),
-    (24, 84, 0.55, 1, 0.80, 0.88, 32_000_000),
-    # Argentine → Europe
-    (20, 82, 0.50, 1, 0.85, 0.80, 22_000_000),   # Garnacho type
-    (21, 84, 0.50, 1, 0.88, 0.82, 28_000_000),
-    (22, 80, 0.50, 1, 0.80, 0.85, 18_000_000),
-    (19, 78, 0.50, 1, 0.82, 0.72, 15_000_000),
-    (23, 82, 0.50, 1, 0.75, 0.88, 22_000_000),
-    (24, 79, 0.50, 0, 0.65, 0.90, 14_000_000),
-    (25, 77, 0.50, 0, 0.58, 0.88, 10_000_000),
-    (21, 86, 0.50, 1, 0.90, 0.78, 38_000_000),
-    (20, 81, 0.50, 1, 0.85, 0.80, 24_000_000),
-    (22, 78, 0.50, 0, 0.72, 0.85, 16_000_000),
-    # Portugal Primeira → Top 5
-    (22, 82, 0.70, 1, 0.80, 0.88, 25_000_000),   # Pedro Gonçalves type
-    (23, 80, 0.70, 1, 0.78, 0.90, 22_000_000),
-    (21, 84, 0.70, 1, 0.85, 0.82, 35_000_000),
-    (24, 79, 0.70, 0, 0.68, 0.88, 18_000_000),
-    (20, 80, 0.70, 1, 0.82, 0.78, 20_000_000),
-    (25, 78, 0.70, 0, 0.62, 0.90, 14_000_000),
-    (22, 85, 0.70, 1, 0.85, 0.85, 40_000_000),
-    (19, 76, 0.70, 1, 0.78, 0.68, 12_000_000),
-    (23, 81, 0.70, 1, 0.80, 0.88, 28_000_000),
-    (26, 77, 0.70, -1, 0.55, 0.90, 11_000_000),
-    # Eredivisie → Top 5
-    (22, 82, 0.72, 1, 0.82, 0.88, 28_000_000),
-    (21, 84, 0.72, 1, 0.85, 0.82, 35_000_000),
-    (23, 80, 0.72, 1, 0.78, 0.90, 22_000_000),
-    (20, 79, 0.72, 1, 0.80, 0.80, 20_000_000),
-    (24, 78, 0.72, 0, 0.65, 0.88, 16_000_000),
-    (19, 76, 0.72, 1, 0.75, 0.72, 12_000_000),
-    (25, 77, 0.72, 0, 0.60, 0.90, 13_000_000),
-    (22, 86, 0.72, 1, 0.88, 0.85, 45_000_000),
-    # Austrian Bundesliga → Top 5/Pathway
-    (20, 79, 0.60, 1, 0.82, 0.85, 14_000_000),
-    (21, 80, 0.60, 1, 0.80, 0.88, 18_000_000),
-    (22, 78, 0.60, 1, 0.75, 0.88, 12_000_000),
-    (19, 75, 0.60, 1, 0.78, 0.75, 9_000_000),
-    (23, 77, 0.60, 0, 0.65, 0.90, 10_000_000),
-    (24, 76, 0.60, 0, 0.60, 0.88, 8_000_000),
-    # Within Bundesliga / elite moves
-    (23, 85, 0.88, 1, 0.82, 0.88, 60_000_000),
-    (24, 87, 0.88, 1, 0.85, 0.90, 80_000_000),
-    (22, 83, 0.88, 1, 0.80, 0.85, 45_000_000),
-    (25, 84, 0.88, 0, 0.70, 0.90, 50_000_000),
-    (26, 82, 0.88, 0, 0.65, 0.92, 35_000_000),
-    (27, 80, 0.88, -1, 0.55, 0.90, 22_000_000),
-    (28, 78, 0.88, -1, 0.50, 0.88, 15_000_000),
-    # Premier League elite
-    (23, 88, 1.00, 1, 0.85, 0.88, 90_000_000),
-    (24, 90, 1.00, 1, 0.88, 0.90, 120_000_000),
-    (22, 86, 1.00, 1, 0.82, 0.85, 70_000_000),
-    (25, 87, 1.00, 0, 0.72, 0.90, 75_000_000),
-    (26, 85, 1.00, 0, 0.65, 0.92, 55_000_000),
-    (27, 83, 1.00, -1, 0.55, 0.90, 35_000_000),
-    (28, 81, 1.00, -1, 0.50, 0.88, 25_000_000),
-    (23, 85, 0.95, 1, 0.82, 0.88, 65_000_000),  # La Liga
-    (24, 87, 0.95, 1, 0.85, 0.90, 85_000_000),
-    (25, 84, 0.95, 0, 0.70, 0.90, 55_000_000),
-    (23, 84, 0.90, 1, 0.80, 0.88, 55_000_000),  # Serie A
-    (24, 86, 0.90, 1, 0.83, 0.90, 65_000_000),
-    (25, 83, 0.90, 0, 0.68, 0.90, 40_000_000),
-    # Declining / older players
-    (29, 80, 0.88, -1, 0.55, 0.88, 18_000_000),
-    (30, 78, 0.88, -1, 0.50, 0.85, 12_000_000),
-    (31, 75, 0.88, -1, 0.45, 0.82, 8_000_000),
-    (28, 82, 0.72, -1, 0.52, 0.88, 10_000_000),
-    (30, 76, 0.70, -1, 0.45, 0.85, 7_000_000),
-    (29, 74, 0.55, -1, 0.40, 0.82, 5_000_000),
-    (32, 72, 0.88, -1, 0.38, 0.78, 4_000_000),
-    # Mediocre players (lower transfer fees)
-    (22, 65, 0.25, 0, 0.50, 0.70, 2_000_000),
-    (24, 68, 0.25, 0, 0.45, 0.75, 2_500_000),
-    (23, 62, 0.50, 0, 0.48, 0.72, 3_000_000),
-    (25, 70, 0.55, 0, 0.50, 0.78, 3_500_000),
-    (26, 68, 0.70, 0, 0.45, 0.75, 4_000_000),
-    (21, 67, 0.60, 0, 0.52, 0.70, 3_200_000),
-    (27, 65, 0.72, -1, 0.42, 0.72, 2_800_000),
-    # High-performing but low-profile leagues
-    (21, 84, 0.25, 1, 0.88, 0.85, 20_000_000),
-    (22, 86, 0.25, 1, 0.90, 0.88, 28_000_000),
-    (20, 82, 0.25, 1, 0.85, 0.80, 15_000_000),
-    (23, 80, 0.25, 1, 0.78, 0.88, 12_000_000),
-    (19, 77, 0.25, 1, 0.80, 0.72, 8_000_000),
-    (24, 81, 0.25, 0, 0.68, 0.90, 10_000_000),
-    (25, 79, 0.25, 0, 0.62, 0.88, 8_500_000),
-    (26, 77, 0.25, -1, 0.52, 0.85, 5_500_000),
-    # Belgium → top leagues
-    (21, 80, 0.65, 1, 0.80, 0.88, 16_000_000),
-    (22, 82, 0.65, 1, 0.82, 0.88, 22_000_000),
-    (23, 79, 0.65, 1, 0.75, 0.90, 15_000_000),
-    (20, 78, 0.65, 1, 0.78, 0.80, 13_000_000),
-    (24, 77, 0.65, 0, 0.65, 0.88, 11_000_000),
-    # Young prodigies
-    (17, 72, 0.50, 1, 0.70, 0.55, 6_000_000),
-    (16, 68, 0.88, 1, 0.65, 0.40, 4_000_000),
-    (18, 76, 0.72, 1, 0.75, 0.68, 10_000_000),
-    (17, 74, 0.70, 1, 0.72, 0.62, 8_000_000),
-    (18, 78, 0.55, 1, 0.78, 0.70, 12_000_000),
-    (16, 70, 0.50, 1, 0.68, 0.45, 5_000_000),
-    # Ligue 1 → top leagues
-    (23, 82, 0.82, 1, 0.80, 0.88, 28_000_000),
-    (22, 84, 0.82, 1, 0.83, 0.85, 35_000_000),
-    (24, 80, 0.82, 0, 0.68, 0.90, 22_000_000),
-    (25, 78, 0.82, 0, 0.62, 0.88, 16_000_000),
-    (21, 82, 0.82, 1, 0.82, 0.82, 28_000_000),
-    # Mid-tier transfers (loan+buy, sub-€5M)
-    (23, 70, 0.60, 0, 0.50, 0.78, 4_000_000),
-    (24, 72, 0.65, 0, 0.48, 0.80, 4_500_000),
-    (22, 68, 0.55, 0, 0.52, 0.75, 3_500_000),
-    (25, 71, 0.70, -1, 0.45, 0.80, 3_800_000),
-    (26, 69, 0.72, -1, 0.42, 0.78, 3_200_000),
-    # Rare €100M+ moves
-    (22, 92, 0.95, 1, 0.92, 0.92, 160_000_000),  # top La Liga star
-    (23, 91, 1.00, 1, 0.90, 0.92, 130_000_000),  # top PL star
-    (21, 88, 0.88, 1, 0.90, 0.88, 85_000_000),
-    (24, 90, 1.00, 0, 0.80, 0.92, 95_000_000),
-    # Free transfers / end of contract (low fees)
-    (29, 82, 0.88, 0, 0.80, 0.88, 1_000_000),
-    (30, 80, 0.95, 0, 0.85, 0.88, 1_500_000),
-    (28, 79, 0.88, -1, 0.75, 0.85, 2_000_000),
-    # Loan with obligation
-    (20, 76, 0.70, 1, 0.78, 0.72, 9_000_000),
-    (21, 78, 0.65, 1, 0.80, 0.78, 11_000_000),
-    (19, 74, 0.60, 1, 0.75, 0.65, 7_000_000),
-    # Additional low-prestige high-performer rows
-    (20, 83, 0.50, 1, 0.86, 0.82, 17_000_000),
-    (21, 81, 0.50, 1, 0.82, 0.85, 19_000_000),
-    (22, 80, 0.50, 1, 0.78, 0.85, 16_000_000),
-    (23, 79, 0.55, 1, 0.76, 0.88, 14_000_000),
-    (24, 77, 0.55, 0, 0.66, 0.88, 11_000_000),
-    (25, 75, 0.60, 0, 0.60, 0.85, 9_000_000),
-    (26, 73, 0.60, -1, 0.50, 0.82, 6_500_000),
-    (27, 71, 0.65, -1, 0.45, 0.80, 5_000_000),
-    (28, 70, 0.65, -1, 0.40, 0.78, 4_000_000),
-    (29, 68, 0.55, -1, 0.35, 0.75, 2_500_000),
-]
+# ── Club → league prestige lookup (for training data extraction) ──────────────
+_CLUB_PRESTIGE_HINTS: dict[str, float] = {
+    "real madrid": 1.00, "manchester city": 1.00, "barcelona": 0.97,
+    "liverpool": 0.97, "arsenal": 0.92, "chelsea": 0.92,
+    "manchester united": 0.90, "psg": 0.88, "paris saint-germain": 0.88,
+    "inter milan": 0.90, "ac milan": 0.90, "juventus": 0.88,
+    "napoli": 0.85, "atletico madrid": 0.90, "bayer leverkusen": 0.85,
+    "rb leipzig": 0.85, "borussia dortmund": 0.85, "atalanta": 0.80,
+    "monaco": 0.80, "lyon": 0.78, "feyenoord": 0.72, "ajax": 0.72,
+    "psv": 0.68, "anderlecht": 0.65, "club brugge": 0.65,
+    "rb salzburg": 0.60, "sporting cp": 0.70, "benfica": 0.72,
+    "porto": 0.72, "flamengo": 0.55, "palmeiras": 0.55,
+    "fluminense": 0.50, "santos": 0.50, "corinthians": 0.50,
+    "river plate": 0.52, "boca juniors": 0.50, "racing club": 0.45,
+    "independiente del valle": 0.25, "barcelona sc": 0.25,
+    "newcastle": 0.82, "aston villa": 0.80, "tottenham": 0.85,
+    "default": 0.40,
+}
+
+
+def _club_prestige(club_name: str | None) -> float:
+    if not club_name:
+        return _CLUB_PRESTIGE_HINTS["default"]
+    key = club_name.strip().lower()
+    for k, v in _CLUB_PRESTIGE_HINTS.items():
+        if k in key:
+            return v
+    return _CLUB_PRESTIGE_HINTS["default"]
+
+
+def _extract_real_training_data() -> list[tuple]:
+    """
+    Build training samples from real TM mv_history in parsed files.
+    Each player contributes one sample per career club stage.
+    Returns list of (age, perf_score, league_prestige, trajectory_enc, tp_1y, min_ratio, mv_eur).
+    """
+    parsed_dir = Path("data/parsed/transfermarkt")
+    if not parsed_dir.exists():
+        return []
+
+    samples: list[tuple] = []
+    files = list(parsed_dir.glob("*.json"))
+
+    for fpath in files:
+        try:
+            data = json.loads(fpath.read_text(encoding="utf-8", errors="replace"))
+        except Exception:
+            continue
+
+        mv_history = data.get("mv_history") or []
+        if len(mv_history) < 2:
+            continue
+
+        # Sort by age
+        mv_sorted = sorted(
+            [e for e in mv_history if e.get("value_eur") and e.get("age")],
+            key=lambda e: float(e.get("age", 0))
+        )
+        if not mv_sorted:
+            continue
+
+        peak_mv = max(e["value_eur"] for e in mv_sorted if e.get("value_eur"))
+        if peak_mv < 100_000:
+            continue
+
+        # Walk through career stages, grouping by club
+        club_groups: list[dict] = []
+        current_club = None
+        current_vals: list[float] = []
+        current_ages: list[float] = []
+
+        for entry in mv_sorted:
+            club = entry.get("club", "")
+            val = float(entry.get("value_eur", 0))
+            age = float(entry.get("age", 0))
+            if val <= 0 or age <= 0:
+                continue
+            if club != current_club:
+                if current_vals:
+                    club_groups.append({
+                        "club": current_club,
+                        "ages": current_ages,
+                        "values": current_vals,
+                    })
+                current_club = club
+                current_vals = [val]
+                current_ages = [age]
+            else:
+                current_vals.append(val)
+                current_ages.append(age)
+
+        if current_vals:
+            club_groups.append({"club": current_club, "ages": current_ages, "values": current_vals})
+
+        for grp in club_groups:
+            if not grp["values"]:
+                continue
+            peak_at_club = max(grp["values"])
+            mid_age = grp["ages"][len(grp["ages"]) // 2]
+
+            # Trajectory within club spell
+            vals = grp["values"]
+            if len(vals) >= 2:
+                delta = (vals[-1] - vals[0]) / max(vals[0], 1)
+                traj_enc = 1.0 if delta > 0.20 else (-1.0 if delta < -0.10 else 0.0)
+            else:
+                traj_enc = 0.0
+
+            prestige = _club_prestige(grp["club"])
+            # Normalize perf_score: peak value relative to position in career
+            rel_val = peak_at_club / max(peak_mv, 1)
+            perf_score = round(40 + 60 * min(1.0, rel_val), 1)
+
+            # Transfer probability proxy: high for young improving players at development clubs
+            tp_proxy = 0.70 if (mid_age <= 24 and prestige < 0.60 and traj_enc >= 0.0) else (
+                0.50 if mid_age <= 27 else 0.30
+            )
+
+            samples.append((
+                mid_age, perf_score, prestige, traj_enc,
+                tp_proxy, 0.85,
+                peak_at_club
+            ))
+
+    return samples
 
 
 # ── League base values (fallback analytical formula) ──────────────────────────
@@ -270,24 +226,71 @@ def _value_confidence(data_confidence: float | None, has_market_value: bool, has
     return round(min(1.0, base + anchor_bonus + fbref_bonus), 4)
 
 
-# ── GBM model (trained at import time) ───────────────────────────────────────
+# ── Hardcoded seed data (augmentation when parsed files unavailable) ──────────
+# (age, perf_score, league_prestige, trajectory_enc, tp_1y, minutes_ratio, mv_eur)
+_SEED_TRANSFERS: list[tuple] = [
+    (20, 87, 0.25, 1, 0.92, 0.88, 115_000_000),
+    (20, 83, 0.25, 1, 0.88, 0.82, 30_000_000),
+    (19, 80, 0.25, 1, 0.85, 0.80, 18_000_000),
+    (21, 82, 0.25, 1, 0.80, 0.85, 22_000_000),
+    (22, 79, 0.25, 0, 0.70, 0.90, 12_000_000),
+    (18, 75, 0.25, 1, 0.75, 0.65, 8_000_000),
+    (19, 85, 0.55, 1, 0.90, 0.75, 35_000_000),
+    (21, 83, 0.55, 1, 0.85, 0.85, 28_000_000),
+    (22, 82, 0.50, 1, 0.85, 0.80, 22_000_000),
+    (22, 82, 0.70, 1, 0.80, 0.88, 25_000_000),
+    (22, 82, 0.72, 1, 0.82, 0.88, 28_000_000),
+    (20, 79, 0.60, 1, 0.82, 0.85, 14_000_000),
+    (23, 85, 0.88, 1, 0.82, 0.88, 60_000_000),
+    (24, 87, 0.88, 1, 0.85, 0.90, 80_000_000),
+    (23, 88, 1.00, 1, 0.85, 0.88, 90_000_000),
+    (24, 90, 1.00, 1, 0.88, 0.90, 120_000_000),
+    (22, 86, 1.00, 1, 0.82, 0.85, 70_000_000),
+    (22, 92, 0.95, 1, 0.92, 0.92, 160_000_000),
+    (27, 80, 0.88, -1, 0.55, 0.90, 22_000_000),
+    (29, 80, 0.88, -1, 0.55, 0.88, 18_000_000),
+    (22, 65, 0.25, 0, 0.50, 0.70, 2_000_000),
+    (24, 68, 0.25, 0, 0.45, 0.75, 2_500_000),
+    (23, 62, 0.50, 0, 0.48, 0.72, 3_000_000),
+    (22, 80, 0.65, 1, 0.80, 0.88, 16_000_000),
+    (17, 72, 0.50, 1, 0.70, 0.55, 6_000_000),
+    (16, 68, 0.88, 1, 0.65, 0.40, 4_000_000),
+    (18, 76, 0.72, 1, 0.75, 0.68, 10_000_000),
+    (23, 82, 0.82, 1, 0.80, 0.88, 28_000_000),
+    (29, 82, 0.88, 0, 0.80, 0.88, 1_000_000),
+    (30, 80, 0.95, 0, 0.85, 0.88, 1_500_000),
+]
+
+
+# ── GBM model (trained at import time from real data) ────────────────────────
 _gbm_model = None
 _gbm_scaler = None
 _gbm_rmse_log: float = 0.35  # fallback RMSE in log10 space
+_training_source: str = "seed"
 
 
-def _build_gbm_model():
-    """Train GradientBoostingRegressor on historical transfer data."""
-    global _gbm_model, _gbm_scaler, _gbm_rmse_log
+def _build_gbm_model() -> None:
+    """Train GradientBoostingRegressor on real TM mv_history + seed augmentation."""
+    global _gbm_model, _gbm_scaler, _gbm_rmse_log, _training_source
     try:
         import numpy as np
         from sklearn.ensemble import GradientBoostingRegressor
         from sklearn.preprocessing import StandardScaler
 
+        real_samples = _extract_real_training_data()
+        if len(real_samples) >= 50:
+            # Real data dominates; seed data only for coverage at extremes
+            training = real_samples + _SEED_TRANSFERS
+            _training_source = f"real({len(real_samples)})+seed({len(_SEED_TRANSFERS)})"
+        else:
+            # Fall back to seed only
+            training = _SEED_TRANSFERS
+            _training_source = f"seed_only({len(_SEED_TRANSFERS)})"
+
         X, y = [], []
-        for age, perf, league_p, traj, tp1y, min_ratio, fee in _TRAINING_TRANSFERS:
+        for age, perf, league_p, traj, tp1y, min_ratio, mv in training:
             X.append([age, perf, league_p, traj, tp1y, min_ratio])
-            y.append(math.log10(max(fee, 100_000)))
+            y.append(math.log10(max(mv, 100_000)))
 
         X_arr = np.array(X, dtype=float)
         y_arr = np.array(y, dtype=float)
@@ -305,10 +308,8 @@ def _build_gbm_model():
         )
         gbm.fit(X_scaled, y_arr)
 
-        # Estimate in-sample RMSE for confidence interval calibration
         y_pred = gbm.predict(X_scaled)
-        residuals = y_arr - y_pred
-        _gbm_rmse_log = float(np.sqrt(np.mean(residuals ** 2)))
+        _gbm_rmse_log = float(np.sqrt(np.mean((y_arr - y_pred) ** 2)))
         _gbm_model = gbm
         _gbm_scaler = scaler
     except Exception:

@@ -1,0 +1,246 @@
+{
+  "profile": {
+    "tm_id": "424042",
+    "player_name": "Nahuel Molina",
+    "date_of_birth": "06/04/1998",
+    "age": 28,
+    "nationality": "Argentina",
+    "height": "1,75 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "Atlético de Madrid",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€15.00m",
+    "market_value_eur": 15000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/nahuel-molina/profil/spieler/424042"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "08/08/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "CA Boca Juniors II",
+      "age": "18"
+    },
+    {
+      "date": "13/02/2017",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "CA Boca Juniors II",
+      "age": "18"
+    },
+    {
+      "date": "09/10/2017",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "CA Boca Juniors II",
+      "age": "19"
+    },
+    {
+      "date": "08/05/2018",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Defensa y Justicia",
+      "age": "20"
+    },
+    {
+      "date": "18/12/2018",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Defensa y Justicia",
+      "age": "20"
+    },
+    {
+      "date": "06/08/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "CA Rosario Central",
+      "age": "21"
+    },
+    {
+      "date": "05/12/2019",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CA Rosario Central",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "CA Boca Juniors II",
+      "age": "22"
+    },
+    {
+      "date": "29/10/2020",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Udinese Calcio",
+      "age": "22"
+    },
+    {
+      "date": "29/12/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Udinese Calcio",
+      "age": "22"
+    },
+    {
+      "date": "23/03/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Udinese Calcio",
+      "age": "22"
+    },
+    {
+      "date": "03/06/2021",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Udinese Calcio",
+      "age": "23"
+    },
+    {
+      "date": "16/07/2021",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Udinese Calcio",
+      "age": "23"
+    },
+    {
+      "date": "28/12/2021",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Udinese Calcio",
+      "age": "23"
+    },
+    {
+      "date": "07/06/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Udinese Calcio",
+      "age": "24"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Atlético de Madrid",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2022",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Atlético de Madrid",
+      "age": "24"
+    },
+    {
+      "date": "23/03/2023",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "Atlético de Madrid",
+      "age": "24"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Atlético de Madrid",
+      "age": "25"
+    },
+    {
+      "date": "13/10/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Atlético de Madrid",
+      "age": "25"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Atlético de Madrid",
+      "age": "25"
+    },
+    {
+      "date": "21/03/2024",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Atlético de Madrid",
+      "age": "25"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Atlético de Madrid",
+      "age": "26"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atlético de Madrid",
+      "age": "26"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Atlético de Madrid",
+      "age": "27"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Atlético de Madrid",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 24,
+      "goals": 2,
+      "assists": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 1201
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 664
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 6,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 372
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 10
+    }
+  ]
+}

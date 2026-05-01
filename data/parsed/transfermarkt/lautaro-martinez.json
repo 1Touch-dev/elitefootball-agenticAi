@@ -1,0 +1,253 @@
+{
+  "profile": {
+    "tm_id": "406625",
+    "player_name": "Lautaro Martínez",
+    "date_of_birth": "22/08/1997",
+    "age": 28,
+    "nationality": "Argentina",
+    "height": "1,74 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Inter Milan",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€85.00m",
+    "market_value_eur": 85000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/lautaro-martinez/profil/spieler/406625"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "06/02/2016",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Racing Club",
+      "age": "18"
+    },
+    {
+      "date": "08/08/2016",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Racing Club",
+      "age": "18"
+    },
+    {
+      "date": "13/02/2017",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Racing Club",
+      "age": "19"
+    },
+    {
+      "date": "09/10/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Racing Club",
+      "age": "20"
+    },
+    {
+      "date": "08/05/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Racing Club",
+      "age": "20"
+    },
+    {
+      "date": "20/12/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Inter Milan",
+      "age": "21"
+    },
+    {
+      "date": "06/06/2019",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Inter Milan",
+      "age": "21"
+    },
+    {
+      "date": "08/10/2019",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Inter Milan",
+      "age": "22"
+    },
+    {
+      "date": "12/12/2019",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Inter Milan",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 64000000,
+      "value_str": "€64.00m",
+      "club": "Inter Milan",
+      "age": "22"
+    },
+    {
+      "date": "25/08/2020",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Inter Milan",
+      "age": "23"
+    },
+    {
+      "date": "29/12/2020",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Inter Milan",
+      "age": "23"
+    },
+    {
+      "date": "03/06/2021",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Inter Milan",
+      "age": "23"
+    },
+    {
+      "date": "28/12/2021",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "15/03/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "07/06/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "21/03/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "11/10/2023",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Inter Milan",
+      "age": "26"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Inter Milan",
+      "age": "26"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Inter Milan",
+      "age": "26"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Inter Milan",
+      "age": "27"
+    },
+    {
+      "date": "25/03/2025",
+      "value_eur": 95000000,
+      "value_str": "€95.00m",
+      "club": "Inter Milan",
+      "age": "27"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 95000000,
+      "value_str": "€95.00m",
+      "club": "Inter Milan",
+      "age": "27"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Inter Milan",
+      "age": "28"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Inter Milan",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 26,
+      "goals": 16,
+      "assists": 4,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 1963
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 4,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 459
+    },
+    {
+      "competition": "Supercoppa Italiana",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 19
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 34
+    }
+  ]
+}

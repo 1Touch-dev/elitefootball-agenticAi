@@ -1,0 +1,155 @@
+{
+  "profile": {
+    "tm_id": "926694",
+    "player_name": "Arthur Vermeeren",
+    "date_of_birth": "07/02/2005",
+    "age": 21,
+    "nationality": "Belgium",
+    "height": "1,80 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "Olympique Marseille",
+    "on_loan_from": "RB Leipzig",
+    "contract_expires": "30/06/2026",
+    "market_value": "€22.00m",
+    "market_value_eur": 22000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/arthur-vermeeren/profil/spieler/926694"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "20/07/2022",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Royal Antwerp FC",
+      "age": "17"
+    },
+    {
+      "date": "07/09/2022",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Royal Antwerp FC",
+      "age": "17"
+    },
+    {
+      "date": "04/11/2022",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Royal Antwerp FC",
+      "age": "17"
+    },
+    {
+      "date": "22/03/2023",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "Royal Antwerp FC",
+      "age": "18"
+    },
+    {
+      "date": "09/06/2023",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Royal Antwerp FC",
+      "age": "18"
+    },
+    {
+      "date": "23/10/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Royal Antwerp FC",
+      "age": "18"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Royal Antwerp FC",
+      "age": "18"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Atlético de Madrid",
+      "age": "19"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "RB Leipzig",
+      "age": "19"
+    },
+    {
+      "date": "27/03/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Olympique Marseille",
+      "age": "20"
+    },
+    {
+      "date": "27/03/2026",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Olympique Marseille",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 17,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "minutes_played": 716
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 330
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 58
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    }
+  ]
+}

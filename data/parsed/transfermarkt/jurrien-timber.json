@@ -1,0 +1,225 @@
+{
+  "profile": {
+    "tm_id": "420243",
+    "player_name": "Jurriën Timber",
+    "date_of_birth": "17/06/2001",
+    "age": 24,
+    "nationality": "NetherlandsCuracao",
+    "height": "1,79 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "Arsenal FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€70.00m",
+    "market_value_eur": 70000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jurrien-timber/profil/spieler/420243"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "21/01/2019",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Ajax Amsterdam U21",
+      "age": "17"
+    },
+    {
+      "date": "03/07/2019",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "17/01/2020",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "29/06/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "19"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "31/12/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "09/03/2021",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "27/05/2021",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "04/10/2021",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "14/09/2022",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "17/03/2023",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Arsenal FC",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Arsenal FC",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 30,
+      "goals": 3,
+      "assists": 6,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "minutes_played": 2457
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 7,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 513
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 49
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 290
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "profile": {
+    "tm_id": "743591",
+    "player_name": "Savinho",
+    "date_of_birth": "10/04/2004",
+    "age": 22,
+    "nationality": "Brazil",
+    "height": "1,76 m",
+    "position": "Attack - Left Winger",
+    "foot": "left",
+    "current_club": "Manchester City",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2031",
+    "market_value": "€40.00m",
+    "market_value_eur": 40000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/savinho/profil/spieler/743591"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "09/02/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Clube Atlético Mineiro",
+      "age": "16"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Clube Atlético Mineiro",
+      "age": "17"
+    },
+    {
+      "date": "17/12/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Clube Atlético Mineiro",
+      "age": "17"
+    },
+    {
+      "date": "06/04/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Clube Atlético Mineiro",
+      "age": "17"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "PSV Eindhoven",
+      "age": "18"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "PSV Eindhoven",
+      "age": "19"
+    },
+    {
+      "date": "13/10/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Girona FC",
+      "age": "19"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Girona FC",
+      "age": "19"
+    },
+    {
+      "date": "21/03/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Girona FC",
+      "age": "19"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Girona FC",
+      "age": "20"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Manchester City",
+      "age": "20"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Manchester City",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 20,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 606
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 7,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 369
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 139
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 173
+    }
+  ]
+}

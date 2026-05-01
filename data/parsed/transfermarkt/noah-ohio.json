@@ -1,0 +1,176 @@
+{
+  "profile": {
+    "tm_id": "557410",
+    "player_name": "Noah Ohio",
+    "date_of_birth": "16/01/2003",
+    "age": 23,
+    "nationality": "NetherlandsEngland",
+    "height": "1,83 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "left",
+    "current_club": "Real Valladolid CF",
+    "on_loan_from": "FC Utrecht",
+    "contract_expires": "30/06/2026",
+    "market_value": "€1.00m",
+    "market_value_eur": 1000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/noah-ohio/profil/spieler/557410"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "09/03/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Vitesse Arnhem",
+      "age": "18"
+    },
+    {
+      "date": "19/05/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Vitesse Arnhem",
+      "age": "18"
+    },
+    {
+      "date": "06/09/2021",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Austria Vienna",
+      "age": "18"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Austria Vienna",
+      "age": "18"
+    },
+    {
+      "date": "27/05/2022",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "Austria Vienna",
+      "age": "19"
+    },
+    {
+      "date": "04/11/2022",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "Standard Liège",
+      "age": "19"
+    },
+    {
+      "date": "22/03/2023",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Standard Liège",
+      "age": "20"
+    },
+    {
+      "date": "09/06/2023",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Standard Liège",
+      "age": "20"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 2200000,
+      "value_str": "€2.20m",
+      "club": "Standard Liège",
+      "age": "20"
+    },
+    {
+      "date": "07/03/2024",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Hull City",
+      "age": "21"
+    },
+    {
+      "date": "24/05/2024",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Hull City",
+      "age": "21"
+    },
+    {
+      "date": "14/10/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Utrecht",
+      "age": "21"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Utrecht",
+      "age": "21"
+    },
+    {
+      "date": "28/05/2025",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Utrecht",
+      "age": "22"
+    },
+    {
+      "date": "02/10/2025",
+      "value_eur": 1300000,
+      "value_str": "€1.30m",
+      "club": "FC Utrecht",
+      "age": "22"
+    },
+    {
+      "date": "02/12/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Utrecht",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga2",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 55
+    },
+    {
+      "competition": "Eredivisie",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 39
+    },
+    {
+      "competition": "Europa League Qualifying",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 114
+    },
+    {
+      "competition": "Keuken Kampioen Divisie",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 9,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 584
+    }
+  ]
+}

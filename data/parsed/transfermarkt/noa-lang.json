@@ -1,0 +1,266 @@
+{
+  "profile": {
+    "tm_id": "339332",
+    "player_name": "Noa Lang",
+    "date_of_birth": "17/06/1999",
+    "age": 26,
+    "nationality": "NetherlandsSuriname",
+    "height": "1,73 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "Galatasaray",
+    "on_loan_from": "SSC Napoli",
+    "contract_expires": "30/06/2026",
+    "market_value": "€25.00m",
+    "market_value_eur": 25000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/noa-lang/profil/spieler/339332"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "21/06/2017",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Ajax Amsterdam U19",
+      "age": "18"
+    },
+    {
+      "date": "01/03/2018",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "21/01/2019",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Ajax Amsterdam U21",
+      "age": "19"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "19"
+    },
+    {
+      "date": "19/09/2019",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 2700000,
+      "value_str": "€2.70m",
+      "club": "FC Twente Enschede",
+      "age": "20"
+    },
+    {
+      "date": "29/06/2020",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "16/10/2020",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Club Brugge KV",
+      "age": "21"
+    },
+    {
+      "date": "04/01/2021",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Club Brugge KV",
+      "age": "21"
+    },
+    {
+      "date": "17/03/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Club Brugge KV",
+      "age": "21"
+    },
+    {
+      "date": "07/06/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Club Brugge KV",
+      "age": "21"
+    },
+    {
+      "date": "06/10/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Club Brugge KV",
+      "age": "22"
+    },
+    {
+      "date": "06/01/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Club Brugge KV",
+      "age": "22"
+    },
+    {
+      "date": "12/04/2022",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Club Brugge KV",
+      "age": "22"
+    },
+    {
+      "date": "07/09/2022",
+      "value_eur": 19000000,
+      "value_str": "€19.00m",
+      "club": "Club Brugge KV",
+      "age": "23"
+    },
+    {
+      "date": "04/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Club Brugge KV",
+      "age": "23"
+    },
+    {
+      "date": "09/06/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Club Brugge KV",
+      "age": "23"
+    },
+    {
+      "date": "17/10/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "PSV Eindhoven",
+      "age": "24"
+    },
+    {
+      "date": "15/12/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "PSV Eindhoven",
+      "age": "24"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "PSV Eindhoven",
+      "age": "24"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "PSV Eindhoven",
+      "age": "25"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "PSV Eindhoven",
+      "age": "25"
+    },
+    {
+      "date": "28/05/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "PSV Eindhoven",
+      "age": "25"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "SSC Napoli",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Süper Lig",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 553
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 501
+    },
+    {
+      "competition": "Türkiye Kupasi",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 135
+    },
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 18,
+      "goals": 1,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 661
+    },
+    {
+      "competition": "Supercoppa Italiana",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 35
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 16
+    }
+  ]
+}

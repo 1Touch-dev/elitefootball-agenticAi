@@ -1,0 +1,240 @@
+{
+  "profile": {
+    "tm_id": "214538",
+    "player_name": "Matheus Uribe",
+    "date_of_birth": "21/03/1991",
+    "age": 35,
+    "nationality": "Colombia",
+    "height": "1,82 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "Atlético Nacional",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2026",
+    "market_value": "€450k",
+    "market_value_eur": 450000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/mateus-uribe/profil/spieler/214538"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "15/03/2016",
+      "value_eur": 650000,
+      "value_str": "€650k",
+      "club": "Deportes Tolima",
+      "age": "24"
+    },
+    {
+      "date": "28/07/2016",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Atlético Nacional",
+      "age": "25"
+    },
+    {
+      "date": "01/09/2016",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Atlético Nacional",
+      "age": "25"
+    },
+    {
+      "date": "10/11/2016",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "Atlético Nacional",
+      "age": "25"
+    },
+    {
+      "date": "31/01/2017",
+      "value_eur": 1875000,
+      "value_str": "€1.88m",
+      "club": "Atlético Nacional",
+      "age": "25"
+    },
+    {
+      "date": "10/04/2018",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "CF América",
+      "age": "27"
+    },
+    {
+      "date": "23/08/2018",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "CF América",
+      "age": "27"
+    },
+    {
+      "date": "08/02/2019",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "CF América",
+      "age": "27"
+    },
+    {
+      "date": "11/10/2019",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Porto",
+      "age": "28"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Porto",
+      "age": "28"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Porto",
+      "age": "29"
+    },
+    {
+      "date": "17/08/2020",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "FC Porto",
+      "age": "29"
+    },
+    {
+      "date": "28/01/2021",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Porto",
+      "age": "29"
+    },
+    {
+      "date": "25/03/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "FC Porto",
+      "age": "30"
+    },
+    {
+      "date": "21/05/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Porto",
+      "age": "30"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "FC Porto",
+      "age": "30"
+    },
+    {
+      "date": "31/05/2022",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "FC Porto",
+      "age": "31"
+    },
+    {
+      "date": "01/11/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "FC Porto",
+      "age": "31"
+    },
+    {
+      "date": "02/03/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Porto",
+      "age": "31"
+    },
+    {
+      "date": "16/06/2023",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "FC Porto",
+      "age": "32"
+    },
+    {
+      "date": "27/11/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Al-Sadd SC",
+      "age": "32"
+    },
+    {
+      "date": "02/05/2024",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Al-Sadd SC",
+      "age": "33"
+    },
+    {
+      "date": "10/12/2024",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Al-Sadd SC",
+      "age": "33"
+    },
+    {
+      "date": "07/04/2025",
+      "value_eur": 1600000,
+      "value_str": "€1.60m",
+      "club": "Atlético Nacional",
+      "age": "34"
+    },
+    {
+      "date": "20/06/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Atlético Nacional",
+      "age": "34"
+    },
+    {
+      "date": "15/09/2025",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Atlético Nacional",
+      "age": "34"
+    },
+    {
+      "date": "05/12/2025",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Atlético Nacional",
+      "age": "34"
+    },
+    {
+      "date": "17/03/2026",
+      "value_eur": 450000,
+      "value_str": "€450k",
+      "club": "Atlético Nacional",
+      "age": "34"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Liga DIMAYOR I",
+      "season": "2026",
+      "games_played": 16,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1038
+    },
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 45
+    }
+  ]
+}

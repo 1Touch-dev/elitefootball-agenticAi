@@ -1,0 +1,183 @@
+{
+  "profile": {
+    "tm_id": "648195",
+    "player_name": "Enzo Fernández",
+    "date_of_birth": "17/01/2001",
+    "age": 25,
+    "nationality": "Argentina",
+    "height": "1,78 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Chelsea FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2032",
+    "market_value": "€90.00m",
+    "market_value_eur": 90000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/enzo-fernandez/profil/spieler/648195"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "08/02/2021",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Defensa y Justicia",
+      "age": "20"
+    },
+    {
+      "date": "11/06/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Defensa y Justicia",
+      "age": "20"
+    },
+    {
+      "date": "20/10/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "CA River Plate",
+      "age": "20"
+    },
+    {
+      "date": "08/02/2022",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "CA River Plate",
+      "age": "21"
+    },
+    {
+      "date": "24/05/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CA River Plate",
+      "age": "21"
+    },
+    {
+      "date": "16/09/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "01/11/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "23/12/2022",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Chelsea FC",
+      "age": "22"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Chelsea FC",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Chelsea FC",
+      "age": "22"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Chelsea FC",
+      "age": "23"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Chelsea FC",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Chelsea FC",
+      "age": "24"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Chelsea FC",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Chelsea FC",
+      "age": "24"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Chelsea FC",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 32,
+      "goals": 8,
+      "assists": 3,
+      "yellow_cards": 8,
+      "red_cards": 0,
+      "minutes_played": 2761
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 141
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 748
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 279
+    }
+  ]
+}

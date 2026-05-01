@@ -1,0 +1,170 @@
+{
+  "profile": {
+    "tm_id": "404950",
+    "player_name": "Nicolas Seiwald",
+    "date_of_birth": "04/05/2001",
+    "age": 24,
+    "nationality": "Austria",
+    "height": "1,80 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "RB Leipzig",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€22.00m",
+    "market_value_eur": 22000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/nicolas-seiwald/profil/spieler/404950"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/02/2019",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "FC Liefering",
+      "age": "17"
+    },
+    {
+      "date": "01/06/2019",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "FC Liefering",
+      "age": "18"
+    },
+    {
+      "date": "03/12/2019",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "FC Liefering",
+      "age": "18"
+    },
+    {
+      "date": "31/07/2020",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "FC Liefering",
+      "age": "19"
+    },
+    {
+      "date": "21/12/2020",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "02/06/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Red Bull Salzburg",
+      "age": "20"
+    },
+    {
+      "date": "06/09/2021",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Red Bull Salzburg",
+      "age": "20"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Red Bull Salzburg",
+      "age": "20"
+    },
+    {
+      "date": "27/05/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Red Bull Salzburg",
+      "age": "21"
+    },
+    {
+      "date": "10/11/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Red Bull Salzburg",
+      "age": "21"
+    },
+    {
+      "date": "12/06/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Red Bull Salzburg",
+      "age": "22"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "RB Leipzig",
+      "age": "23"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "RB Leipzig",
+      "age": "23"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    },
+    {
+      "date": "20/03/2026",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "RB Leipzig",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 30,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 2545
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 342
+    }
+  ]
+}

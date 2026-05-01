@@ -1,0 +1,216 @@
+{
+  "profile": {
+    "tm_id": "381967",
+    "player_name": "Albert Sambi Lokonga",
+    "date_of_birth": "22/10/1999",
+    "age": 26,
+    "nationality": "BelgiumDR Congo",
+    "height": "1,83 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Hamburger SV",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€10.00m",
+    "market_value_eur": 10000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/albert-lokonga/profil/spieler/381967"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "09/01/2018",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "RSC Anderlecht",
+      "age": "18"
+    },
+    {
+      "date": "30/03/2018",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "RSC Anderlecht",
+      "age": "18"
+    },
+    {
+      "date": "03/06/2018",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "RSC Anderlecht",
+      "age": "18"
+    },
+    {
+      "date": "27/12/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "RSC Anderlecht",
+      "age": "19"
+    },
+    {
+      "date": "10/06/2019",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "RSC Anderlecht",
+      "age": "19"
+    },
+    {
+      "date": "06/09/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "RSC Anderlecht",
+      "age": "19"
+    },
+    {
+      "date": "13/12/2019",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "RSC Anderlecht",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "RSC Anderlecht",
+      "age": "20"
+    },
+    {
+      "date": "16/10/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "RSC Anderlecht",
+      "age": "20"
+    },
+    {
+      "date": "17/03/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "RSC Anderlecht",
+      "age": "21"
+    },
+    {
+      "date": "07/06/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "RSC Anderlecht",
+      "age": "21"
+    },
+    {
+      "date": "05/10/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Luton Town",
+      "age": "24"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Luton Town",
+      "age": "24"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Luton Town",
+      "age": "24"
+    },
+    {
+      "date": "11/10/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Sevilla FC",
+      "age": "24"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Sevilla FC",
+      "age": "25"
+    },
+    {
+      "date": "21/03/2025",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Sevilla FC",
+      "age": "25"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Sevilla FC",
+      "age": "25"
+    },
+    {
+      "date": "14/10/2025",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Hamburger SV",
+      "age": "25"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Hamburger SV",
+      "age": "26"
+    },
+    {
+      "date": "20/03/2026",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Hamburger SV",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 23,
+      "goals": 5,
+      "assists": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 1465
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "profile": {
+    "tm_id": "473169",
+    "player_name": "Brian Brobbey",
+    "date_of_birth": "01/02/2002",
+    "age": 24,
+    "nationality": "NetherlandsGhana",
+    "height": "1,80 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Sunderland AFC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€25.00m",
+    "market_value_eur": 25000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/brian-brobbey/profil/spieler/473169"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/07/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "17"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "29/06/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "24/10/2020",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "31/12/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "16/03/2021",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "19"
+    },
+    {
+      "date": "19/05/2021",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "Ajax Amsterdam U21",
+      "age": "19"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "RB Leipzig",
+      "age": "19"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "14/09/2022",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "17/03/2023",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "15/12/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "18/03/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Ajax Amsterdam",
+      "age": "23"
+    },
+    {
+      "date": "28/05/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Ajax Amsterdam",
+      "age": "23"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Sunderland AFC",
+      "age": "23"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Sunderland AFC",
+      "age": "23"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Sunderland AFC",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 27,
+      "goals": 6,
+      "assists": 1,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "minutes_played": 1634
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 34
+    },
+    {
+      "competition": "Eredivisie",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "Premier League Int. Cup U21",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 61
+    }
+  ]
+}

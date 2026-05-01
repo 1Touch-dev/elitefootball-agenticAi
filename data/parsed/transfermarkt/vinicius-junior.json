@@ -1,0 +1,232 @@
+{
+  "profile": {
+    "tm_id": "371998",
+    "player_name": "Vinicius Junior",
+    "date_of_birth": "12/07/2000",
+    "age": 25,
+    "nationality": "BrazilSpain",
+    "height": "1,76 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "Real Madrid",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€150.00m",
+    "market_value_eur": 150000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/vinicius-junior/profil/spieler/371998"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "30/10/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "07/12/2017",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "23/05/2018",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "21/12/2018",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "28/02/2019",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "11/06/2019",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "20/12/2019",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "19"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Real Madrid",
+      "age": "19"
+    },
+    {
+      "date": "08/10/2020",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "20"
+    },
+    {
+      "date": "05/01/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Real Madrid",
+      "age": "20"
+    },
+    {
+      "date": "10/06/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Real Madrid",
+      "age": "20"
+    },
+    {
+      "date": "13/10/2021",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "21"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Real Madrid",
+      "age": "21"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Real Madrid",
+      "age": "21"
+    },
+    {
+      "date": "23/09/2022",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Real Madrid",
+      "age": "22"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Real Madrid",
+      "age": "22"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Real Madrid",
+      "age": "22"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Real Madrid",
+      "age": "23"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Real Madrid",
+      "age": "23"
+    },
+    {
+      "date": "11/10/2024",
+      "value_eur": 200000000,
+      "value_str": "€200.00m",
+      "club": "Real Madrid",
+      "age": "24"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 200000000,
+      "value_str": "€200.00m",
+      "club": "Real Madrid",
+      "age": "24"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 170000000,
+      "value_str": "€170.00m",
+      "club": "Real Madrid",
+      "age": "24"
+    },
+    {
+      "date": "02/10/2025",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Real Madrid",
+      "age": "25"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Real Madrid",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 32,
+      "goals": 13,
+      "assists": 6,
+      "yellow_cards": 7,
+      "red_cards": 0,
+      "minutes_played": 2484
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 14,
+      "goals": 5,
+      "assists": 8,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1171
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 163
+    }
+  ]
+}

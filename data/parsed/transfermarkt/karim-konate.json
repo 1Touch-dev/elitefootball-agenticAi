@@ -1,0 +1,131 @@
+{
+  "profile": {
+    "tm_id": "847278",
+    "player_name": "Karim Konaté",
+    "date_of_birth": "21/03/2004",
+    "age": 22,
+    "nationality": "Cote d'Ivoire",
+    "height": "1,78 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Red Bull Salzburg",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€12.00m",
+    "market_value_eur": 12000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/karim-konate/profil/spieler/847278"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "31/12/2021",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "ASEC Mimosas",
+      "age": "17"
+    },
+    {
+      "date": "03/07/2022",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Liefering",
+      "age": "18"
+    },
+    {
+      "date": "17/11/2022",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "FC Liefering",
+      "age": "18"
+    },
+    {
+      "date": "12/06/2023",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "11/09/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "21/05/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Red Bull Salzburg",
+      "age": "20"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Red Bull Salzburg",
+      "age": "20"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Red Bull Salzburg",
+      "age": "21"
+    },
+    {
+      "date": "22/12/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Red Bull Salzburg",
+      "age": "21"
+    },
+    {
+      "date": "10/03/2026",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Red Bull Salzburg",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 13,
+      "goals": 6,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 871
+    },
+    {
+      "competition": "Europa League",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 69
+    },
+    {
+      "competition": "ÖFB-Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 107
+    }
+  ]
+}

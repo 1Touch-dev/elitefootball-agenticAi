@@ -1,0 +1,191 @@
+{
+  "profile": {
+    "tm_id": "465822",
+    "player_name": "Facundo Torres",
+    "date_of_birth": "13/04/2000",
+    "age": 26,
+    "nationality": "Uruguay",
+    "height": "1,77 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Austin FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€10.00m",
+    "market_value_eur": 10000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/facundo-torres/profil/spieler/465822"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "10/02/2019",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Unknown",
+      "age": "18"
+    },
+    {
+      "date": "03/03/2019",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Unknown",
+      "age": "18"
+    },
+    {
+      "date": "25/12/2019",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Unknown",
+      "age": "19"
+    },
+    {
+      "date": "20/10/2020",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "CA Peñarol",
+      "age": "20"
+    },
+    {
+      "date": "02/01/2021",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "CA Peñarol",
+      "age": "20"
+    },
+    {
+      "date": "10/04/2021",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "CA Peñarol",
+      "age": "20"
+    },
+    {
+      "date": "11/06/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "CA Peñarol",
+      "age": "21"
+    },
+    {
+      "date": "10/09/2021",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "CA Peñarol",
+      "age": "21"
+    },
+    {
+      "date": "01/01/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "CA Peñarol",
+      "age": "21"
+    },
+    {
+      "date": "01/04/2022",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Orlando City SC",
+      "age": "21"
+    },
+    {
+      "date": "18/08/2022",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Orlando City SC",
+      "age": "22"
+    },
+    {
+      "date": "08/11/2022",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Orlando City SC",
+      "age": "22"
+    },
+    {
+      "date": "31/03/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Orlando City SC",
+      "age": "22"
+    },
+    {
+      "date": "22/08/2023",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Orlando City SC",
+      "age": "23"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Orlando City SC",
+      "age": "23"
+    },
+    {
+      "date": "13/06/2024",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Orlando City SC",
+      "age": "24"
+    },
+    {
+      "date": "12/12/2024",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Orlando City SC",
+      "age": "24"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "25"
+    },
+    {
+      "date": "05/09/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "25"
+    },
+    {
+      "date": "10/12/2025",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "25"
+    },
+    {
+      "date": "07/04/2026",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Austin FC",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "MLS",
+      "season": "2026",
+      "games_played": 10,
+      "goals": 1,
+      "assists": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 849
+    },
+    {
+      "competition": "US Open Cup",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

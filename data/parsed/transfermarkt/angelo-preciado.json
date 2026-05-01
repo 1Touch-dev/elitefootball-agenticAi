@@ -1,0 +1,251 @@
+{
+  "profile": {
+    "tm_id": "450241",
+    "player_name": "Angelo Preciado",
+    "date_of_birth": "18/02/1998",
+    "age": 28,
+    "nationality": "Ecuador",
+    "height": "1,73 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "Clube Atlético Mineiro",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2029",
+    "market_value": "€3.80m",
+    "market_value_eur": 3800000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/angelo-preciado/profil/spieler/450241"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/01/2017",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Independiente del Valle B",
+      "age": "18"
+    },
+    {
+      "date": "20/07/2018",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Independiente del Valle",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Independiente del Valle",
+      "age": "20"
+    },
+    {
+      "date": "30/06/2019",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Independiente del Valle",
+      "age": "21"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Independiente del Valle",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2020",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "07/06/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "KRC Genk",
+      "age": "23"
+    },
+    {
+      "date": "06/01/2022",
+      "value_eur": 2800000,
+      "value_str": "€2.80m",
+      "club": "KRC Genk",
+      "age": "23"
+    },
+    {
+      "date": "12/04/2022",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "KRC Genk",
+      "age": "24"
+    },
+    {
+      "date": "04/11/2022",
+      "value_eur": 3200000,
+      "value_str": "€3.20m",
+      "club": "KRC Genk",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2022",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "KRC Genk",
+      "age": "24"
+    },
+    {
+      "date": "09/06/2023",
+      "value_eur": 3300000,
+      "value_str": "€3.30m",
+      "club": "KRC Genk",
+      "age": "25"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 3300000,
+      "value_str": "€3.30m",
+      "club": "AC Sparta Prague",
+      "age": "25"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "AC Sparta Prague",
+      "age": "26"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "AC Sparta Prague",
+      "age": "26"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "AC Sparta Prague",
+      "age": "26"
+    },
+    {
+      "date": "01/04/2025",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "AC Sparta Prague",
+      "age": "27"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 3800000,
+      "value_str": "€3.80m",
+      "club": "AC Sparta Prague",
+      "age": "27"
+    },
+    {
+      "date": "22/12/2025",
+      "value_eur": 3800000,
+      "value_str": "€3.80m",
+      "club": "AC Sparta Prague",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "minutes_played": 148
+    },
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 7,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 376
+    },
+    {
+      "competition": "Copa do Brasil",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Campeonato Mineiro",
+      "season": "2026",
+      "games_played": 6,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "minutes_played": 287
+    },
+    {
+      "competition": "Conference League",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 284
+    },
+    {
+      "competition": "UECL Qualifiers",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 337
+    },
+    {
+      "competition": "Chance Liga",
+      "season": "25/26",
+      "games_played": 14,
+      "goals": 0,
+      "assists": 3,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 964
+    },
+    {
+      "competition": "MOL Cup",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    }
+  ]
+}

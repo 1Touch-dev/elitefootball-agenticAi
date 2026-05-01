@@ -1,0 +1,159 @@
+{
+  "profile": {
+    "tm_id": "487474",
+    "player_name": "Francisco Conceição",
+    "date_of_birth": "14/12/2002",
+    "age": 23,
+    "nationality": "Portugal",
+    "height": "1,70 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Juventus FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€30.00m",
+    "market_value_eur": 30000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/francisco-conceicao/profil/spieler/487474"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "02/11/2020",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "FC Porto B",
+      "age": "17"
+    },
+    {
+      "date": "05/01/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "FC Porto B",
+      "age": "18"
+    },
+    {
+      "date": "25/03/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Porto",
+      "age": "18"
+    },
+    {
+      "date": "21/05/2021",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Porto",
+      "age": "18"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Porto",
+      "age": "19"
+    },
+    {
+      "date": "31/05/2022",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Porto",
+      "age": "19"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "27/12/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Porto",
+      "age": "21"
+    },
+    {
+      "date": "08/03/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Porto",
+      "age": "21"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "FC Porto",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 36000000,
+      "value_str": "€36.00m",
+      "club": "Juventus FC",
+      "age": "22"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Juventus FC",
+      "age": "22"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Juventus FC",
+      "age": "22"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Juventus FC",
+      "age": "23"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 27,
+      "goals": 3,
+      "assists": 4,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1796
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 500
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 96
+    }
+  ]
+}

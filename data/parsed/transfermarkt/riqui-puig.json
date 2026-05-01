@@ -1,0 +1,191 @@
+{
+  "profile": {
+    "tm_id": "331511",
+    "player_name": "Riqui Puig",
+    "date_of_birth": "13/08/1999",
+    "age": 26,
+    "nationality": "Spain",
+    "height": "1,69 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Los Angeles Galaxy",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2027",
+    "market_value": "€12.00m",
+    "market_value_eur": 12000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/riqui-puig/profil/spieler/331511"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "03/09/2018",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Barcelona B",
+      "age": "19"
+    },
+    {
+      "date": "19/02/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Barcelona B",
+      "age": "19"
+    },
+    {
+      "date": "29/06/2019",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Barcelona B",
+      "age": "19"
+    },
+    {
+      "date": "10/09/2019",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Barcelona B",
+      "age": "20"
+    },
+    {
+      "date": "11/02/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Barcelona B",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "FC Barcelona B",
+      "age": "20"
+    },
+    {
+      "date": "23/07/2020",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "08/10/2020",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "23/11/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "05/01/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "10/06/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "13/10/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "18/08/2022",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "23"
+    },
+    {
+      "date": "08/11/2022",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "23"
+    },
+    {
+      "date": "31/03/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "23"
+    },
+    {
+      "date": "22/08/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "24"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "24"
+    },
+    {
+      "date": "13/06/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "24"
+    },
+    {
+      "date": "12/12/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "25"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "25"
+    },
+    {
+      "date": "11/12/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "26"
+    },
+    {
+      "date": "07/04/2026",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Los Angeles Galaxy",
+      "age": "26"
+    }
+  ],
+  "performance_stats": []
+}

@@ -1,0 +1,243 @@
+{
+  "profile": {
+    "tm_id": "517894",
+    "player_name": "Matheus Cunha",
+    "date_of_birth": "27/05/1999",
+    "age": 26,
+    "nationality": "Brazil",
+    "height": "1,83 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Manchester United",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€70.00m",
+    "market_value_eur": 70000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/matheus-cunha/profil/spieler/517894"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "12/07/2017",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "FC Sion",
+      "age": "18"
+    },
+    {
+      "date": "08/01/2018",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "FC Sion",
+      "age": "18"
+    },
+    {
+      "date": "24/04/2018",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Sion",
+      "age": "18"
+    },
+    {
+      "date": "22/08/2018",
+      "value_eur": 12500000,
+      "value_str": "€12.50m",
+      "club": "RB Leipzig",
+      "age": "19"
+    },
+    {
+      "date": "18/12/2018",
+      "value_eur": 12500000,
+      "value_str": "€12.50m",
+      "club": "RB Leipzig",
+      "age": "19"
+    },
+    {
+      "date": "05/06/2019",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "17/12/2019",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "11/02/2020",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Hertha BSC",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 13500000,
+      "value_str": "€13.50m",
+      "club": "Hertha BSC",
+      "age": "20"
+    },
+    {
+      "date": "08/07/2020",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Hertha BSC",
+      "age": "21"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Hertha BSC",
+      "age": "21"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Hertha BSC",
+      "age": "21"
+    },
+    {
+      "date": "09/06/2021",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Hertha BSC",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Atlético de Madrid",
+      "age": "22"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Atlético de Madrid",
+      "age": "23"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Atlético de Madrid",
+      "age": "23"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "23"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "24"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "24"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "24"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "24"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "25"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "25"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "25"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "26"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester United",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 30,
+      "goals": 8,
+      "assists": 4,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 2246
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

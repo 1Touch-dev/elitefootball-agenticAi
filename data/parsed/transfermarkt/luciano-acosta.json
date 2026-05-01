@@ -1,0 +1,257 @@
+{
+  "profile": {
+    "tm_id": "315169",
+    "player_name": "Luciano Acosta",
+    "date_of_birth": "31/05/1994",
+    "age": 31,
+    "nationality": "Argentina",
+    "height": "1,60 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "Fluminense Football Club",
+    "on_loan_from": null,
+    "contract_expires": "31/12/2028",
+    "market_value": "€5.00m",
+    "market_value_eur": 5000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/luciano-acosta/profil/spieler/315169"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/01/2015",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "CA Boca Juniors",
+      "age": "20"
+    },
+    {
+      "date": "14/07/2015",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "Club Estudiantes de La Plata",
+      "age": "21"
+    },
+    {
+      "date": "06/02/2016",
+      "value_eur": 2600000,
+      "value_str": "€2.60m",
+      "club": "CA Boca Juniors",
+      "age": "21"
+    },
+    {
+      "date": "01/03/2016",
+      "value_eur": 2600000,
+      "value_str": "€2.60m",
+      "club": "D.C. United",
+      "age": "21"
+    },
+    {
+      "date": "30/05/2016",
+      "value_eur": 2400000,
+      "value_str": "€2.40m",
+      "club": "D.C. United",
+      "age": "21"
+    },
+    {
+      "date": "15/12/2016",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "D.C. United",
+      "age": "22"
+    },
+    {
+      "date": "04/03/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "D.C. United",
+      "age": "22"
+    },
+    {
+      "date": "24/05/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "D.C. United",
+      "age": "22"
+    },
+    {
+      "date": "05/12/2017",
+      "value_eur": 1250000,
+      "value_str": "€1.25m",
+      "club": "D.C. United",
+      "age": "23"
+    },
+    {
+      "date": "02/05/2018",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "D.C. United",
+      "age": "23"
+    },
+    {
+      "date": "15/12/2018",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "D.C. United",
+      "age": "24"
+    },
+    {
+      "date": "20/03/2019",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "D.C. United",
+      "age": "24"
+    },
+    {
+      "date": "27/05/2019",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "D.C. United",
+      "age": "24"
+    },
+    {
+      "date": "30/11/2019",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "D.C. United",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 4800000,
+      "value_str": "€4.80m",
+      "club": "Atlas Guadalajara",
+      "age": "25"
+    },
+    {
+      "date": "27/06/2020",
+      "value_eur": 4800000,
+      "value_str": "€4.80m",
+      "club": "Atlas Guadalajara",
+      "age": "26"
+    },
+    {
+      "date": "18/12/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Atlas Guadalajara",
+      "age": "26"
+    },
+    {
+      "date": "16/04/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Cincinnati",
+      "age": "26"
+    },
+    {
+      "date": "09/07/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Cincinnati",
+      "age": "27"
+    },
+    {
+      "date": "09/11/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "FC Cincinnati",
+      "age": "27"
+    },
+    {
+      "date": "18/08/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Cincinnati",
+      "age": "28"
+    },
+    {
+      "date": "08/11/2022",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "FC Cincinnati",
+      "age": "28"
+    },
+    {
+      "date": "22/08/2023",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "FC Cincinnati",
+      "age": "29"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Cincinnati",
+      "age": "29"
+    },
+    {
+      "date": "13/06/2024",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Cincinnati",
+      "age": "30"
+    },
+    {
+      "date": "12/12/2024",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Cincinnati",
+      "age": "30"
+    },
+    {
+      "date": "17/04/2025",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "FC Dallas",
+      "age": "30"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "FC Dallas",
+      "age": "31"
+    },
+    {
+      "date": "10/12/2025",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Fluminense Football Club",
+      "age": "31"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 87
+    },
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 10,
+      "goals": 3,
+      "assists": 3,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 676
+    },
+    {
+      "competition": "Campeonato Carioca",
+      "season": "2026",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 403
+    }
+  ]
+}

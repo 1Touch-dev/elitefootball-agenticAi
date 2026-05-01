@@ -1,0 +1,168 @@
+{
+  "profile": {
+    "tm_id": "872171",
+    "player_name": "Lucas Beraldo",
+    "date_of_birth": "24/11/2003",
+    "age": 22,
+    "nationality": "Brazil",
+    "height": "1,86 m",
+    "position": "Defender - Centre-Back",
+    "foot": "left",
+    "current_club": "Paris Saint-Germain",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/lucas-beraldo/profil/spieler/872171"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "06/04/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "São Paulo FC U20",
+      "age": "18"
+    },
+    {
+      "date": "19/08/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "São Paulo Futebol Clube",
+      "age": "18"
+    },
+    {
+      "date": "14/11/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "São Paulo Futebol Clube",
+      "age": "18"
+    },
+    {
+      "date": "07/04/2023",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "São Paulo Futebol Clube",
+      "age": "19"
+    },
+    {
+      "date": "25/07/2023",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "São Paulo Futebol Clube",
+      "age": "19"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "São Paulo Futebol Clube",
+      "age": "20"
+    },
+    {
+      "date": "19/03/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "03/06/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "10/12/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "24/03/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "03/06/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Paris Saint-Germain",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 16,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1211
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 9
+    },
+    {
+      "competition": "UEFA Super Cup",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 180
+    },
+    {
+      "competition": "Trophée des Champions",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "FIFA Intercontinental Cup",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "profile": {
+    "tm_id": "478573",
+    "player_name": "Ryan Gravenberch",
+    "date_of_birth": "16/05/2002",
+    "age": 23,
+    "nationality": "NetherlandsSuriname",
+    "height": "1,90 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "Liverpool FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2032",
+    "market_value": "€90.00m",
+    "market_value_eur": 90000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/ryan-gravenberch/profil/spieler/478573"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "04/10/2018",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "16"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "16"
+    },
+    {
+      "date": "21/01/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "16"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Ajax Amsterdam U21",
+      "age": "17"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Ajax Amsterdam",
+      "age": "17"
+    },
+    {
+      "date": "11/02/2020",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Ajax Amsterdam",
+      "age": "17"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Ajax Amsterdam",
+      "age": "17"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Ajax Amsterdam",
+      "age": "18"
+    },
+    {
+      "date": "06/01/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Ajax Amsterdam",
+      "age": "18"
+    },
+    {
+      "date": "09/03/2021",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Ajax Amsterdam",
+      "age": "18"
+    },
+    {
+      "date": "27/05/2021",
+      "value_eur": 33000000,
+      "value_str": "€33.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "20"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "21"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Liverpool FC",
+      "age": "21"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Liverpool FC",
+      "age": "21"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Liverpool FC",
+      "age": "22"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Liverpool FC",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Liverpool FC",
+      "age": "22"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Liverpool FC",
+      "age": "22"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "23"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Liverpool FC",
+      "age": "23"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Liverpool FC",
+      "age": "23"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 32,
+      "goals": 4,
+      "assists": 3,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "minutes_played": 2667
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 1,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 961
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 174
+    }
+  ]
+}

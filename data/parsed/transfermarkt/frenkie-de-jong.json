@@ -1,0 +1,302 @@
+{
+  "profile": {
+    "tm_id": "326330",
+    "player_name": "Frenkie de Jong",
+    "date_of_birth": "12/05/1997",
+    "age": 28,
+    "nationality": "Netherlands",
+    "height": "1,81 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "FC Barcelona",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€45.00m",
+    "market_value_eur": 45000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/frenkie-de-jong/profil/spieler/326330"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/05/2015",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Willem II Tilburg",
+      "age": "17"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "Willem II Tilburg",
+      "age": "18"
+    },
+    {
+      "date": "11/11/2015",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Willem II Tilburg",
+      "age": "18"
+    },
+    {
+      "date": "05/02/2016",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "08/04/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Ajax Amsterdam U21",
+      "age": "18"
+    },
+    {
+      "date": "01/07/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "18/01/2017",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "07/06/2017",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "26/10/2017",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "17/01/2018",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "04/10/2018",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "13/03/2019",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "20/12/2019",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 72000000,
+      "value_str": "€72.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "08/10/2020",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "05/01/2021",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "19/03/2021",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "27/05/2021",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "23/03/2023",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "13/10/2023",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "21/03/2024",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    },
+    {
+      "date": "11/10/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "FC Barcelona",
+      "age": "28"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "FC Barcelona",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 22,
+      "goals": 1,
+      "assists": 5,
+      "yellow_cards": 3,
+      "red_cards": 1,
+      "minutes_played": 1549
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 514
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 270
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "minutes_played": 154
+    }
+  ]
+}

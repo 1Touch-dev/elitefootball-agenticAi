@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "tm_id": "1057316",
+    "player_name": "Franco Mastantuono",
+    "date_of_birth": "14/08/2007",
+    "age": 18,
+    "nationality": "ArgentinaItaly",
+    "height": "1,78 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Real Madrid",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2031",
+    "market_value": "€45.00m",
+    "market_value_eur": 45000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/franco-mastantuono/profil/spieler/1057316"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/03/2024",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "CA River Plate",
+      "age": "16"
+    },
+    {
+      "date": "12/06/2024",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "CA River Plate",
+      "age": "16"
+    },
+    {
+      "date": "30/09/2024",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "CA River Plate",
+      "age": "17"
+    },
+    {
+      "date": "13/12/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CA River Plate",
+      "age": "17"
+    },
+    {
+      "date": "02/06/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "CA River Plate",
+      "age": "17"
+    },
+    {
+      "date": "02/10/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "16/03/2026",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 18,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 5,
+      "red_cards": 1,
+      "minutes_played": 818
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 293
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 143
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 11
+    }
+  ]
+}

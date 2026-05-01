@@ -1,0 +1,203 @@
+{
+  "profile": {
+    "tm_id": "616341",
+    "player_name": "Nuno Mendes",
+    "date_of_birth": "19/06/2002",
+    "age": 23,
+    "nationality": "Portugal",
+    "height": "1,80 m",
+    "position": "Defender - Left-Back",
+    "foot": "left",
+    "current_club": "Paris Saint-Germain",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€75.00m",
+    "market_value_eur": 75000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/nuno-mendes/profil/spieler/616341"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "17/08/2020",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Sporting CP",
+      "age": "18"
+    },
+    {
+      "date": "22/10/2020",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Sporting CP",
+      "age": "18"
+    },
+    {
+      "date": "28/01/2021",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Sporting CP",
+      "age": "18"
+    },
+    {
+      "date": "25/03/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Sporting CP",
+      "age": "18"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Sporting CP",
+      "age": "18"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Paris Saint-Germain",
+      "age": "19"
+    },
+    {
+      "date": "30/05/2022",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Paris Saint-Germain",
+      "age": "19"
+    },
+    {
+      "date": "19/09/2022",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "02/11/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "27/03/2023",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "27/06/2023",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "03/06/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "10/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Paris Saint-Germain",
+      "age": "22"
+    },
+    {
+      "date": "03/06/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Paris Saint-Germain",
+      "age": "22"
+    },
+    {
+      "date": "10/10/2025",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Paris Saint-Germain",
+      "age": "23"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Paris Saint-Germain",
+      "age": "23"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 20,
+      "goals": 4,
+      "assists": 5,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 1250
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 15,
+      "goals": 2,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1198
+    },
+    {
+      "competition": "UEFA Super Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 26
+    },
+    {
+      "competition": "Trophée des Champions",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "FIFA Intercontinental Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 120
+    }
+  ]
+}

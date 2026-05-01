@@ -1,0 +1,161 @@
+{
+  "profile": {
+    "tm_id": "971570",
+    "player_name": "Endrick",
+    "date_of_birth": "21/07/2006",
+    "age": 19,
+    "nationality": "Brazil",
+    "height": "1,73 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "left",
+    "current_club": "Olympique Lyon",
+    "on_loan_from": "Real Madrid",
+    "contract_expires": "30/06/2026",
+    "market_value": "€35.00m",
+    "market_value_eur": 35000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/endrick/profil/spieler/971570"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "19/08/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "SE Palmeiras São Paulo U20",
+      "age": "16"
+    },
+    {
+      "date": "14/11/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "SE Palmeiras São Paulo U20",
+      "age": "16"
+    },
+    {
+      "date": "07/04/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "16"
+    },
+    {
+      "date": "25/07/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "11/12/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Real Madrid",
+      "age": "18"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Real Madrid",
+      "age": "19"
+    },
+    {
+      "date": "27/03/2026",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Olympique Lyon",
+      "age": "19"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 13,
+      "goals": 4,
+      "assists": 6,
+      "yellow_cards": 2,
+      "red_cards": 1,
+      "minutes_played": 979
+    },
+    {
+      "competition": "Europa League",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 157
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 252
+    },
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "minutes_played": 11
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 11
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 77
+    }
+  ]
+}

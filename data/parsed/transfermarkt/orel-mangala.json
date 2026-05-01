@@ -1,0 +1,236 @@
+{
+  "profile": {
+    "tm_id": "289592",
+    "player_name": "Orel Mangala",
+    "date_of_birth": "18/03/1998",
+    "age": 28,
+    "nationality": "BelgiumDR Congo",
+    "height": "1,78 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "Olympique Lyon",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€10.00m",
+    "market_value_eur": 10000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/orel-mangala/profil/spieler/289592"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "12/07/2017",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "VfB Stuttgart",
+      "age": "19"
+    },
+    {
+      "date": "18/10/2017",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "VfB Stuttgart",
+      "age": "19"
+    },
+    {
+      "date": "28/12/2017",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "VfB Stuttgart",
+      "age": "19"
+    },
+    {
+      "date": "05/06/2018",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "VfB Stuttgart",
+      "age": "20"
+    },
+    {
+      "date": "16/10/2018",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Hamburger SV",
+      "age": "20"
+    },
+    {
+      "date": "08/01/2019",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Hamburger SV",
+      "age": "20"
+    },
+    {
+      "date": "13/03/2019",
+      "value_eur": 5500000,
+      "value_str": "€5.50m",
+      "club": "Hamburger SV",
+      "age": "20"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 5500000,
+      "value_str": "€5.50m",
+      "club": "Hamburger SV",
+      "age": "21"
+    },
+    {
+      "date": "25/09/2019",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "VfB Stuttgart",
+      "age": "21"
+    },
+    {
+      "date": "13/12/2019",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "VfB Stuttgart",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "VfB Stuttgart",
+      "age": "22"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "VfB Stuttgart",
+      "age": "22"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "VfB Stuttgart",
+      "age": "22"
+    },
+    {
+      "date": "09/06/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "VfB Stuttgart",
+      "age": "23"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "VfB Stuttgart",
+      "age": "23"
+    },
+    {
+      "date": "24/03/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "VfB Stuttgart",
+      "age": "24"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "VfB Stuttgart",
+      "age": "24"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Nottingham Forest",
+      "age": "24"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Nottingham Forest",
+      "age": "25"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Nottingham Forest",
+      "age": "25"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Nottingham Forest",
+      "age": "25"
+    },
+    {
+      "date": "03/06/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Olympique Lyon",
+      "age": "26"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Everton FC",
+      "age": "26"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Everton FC",
+      "age": "27"
+    },
+    {
+      "date": "10/10/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Olympique Lyon",
+      "age": "27"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Olympique Lyon",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 345
+    },
+    {
+      "competition": "Europa League",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 73
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 20
+    }
+  ]
+}

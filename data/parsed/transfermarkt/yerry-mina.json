@@ -1,0 +1,226 @@
+{
+  "profile": {
+    "tm_id": "289446",
+    "player_name": "Yerry Mina",
+    "date_of_birth": "23/09/1994",
+    "age": 31,
+    "nationality": "Colombia",
+    "height": "1,95 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Cagliari Calcio",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€3.00m",
+    "market_value_eur": 3000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/yerry-mina/profil/spieler/289446"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "15/03/2016",
+      "value_eur": 650000,
+      "value_str": "€650k",
+      "club": "Independiente Santa Fe",
+      "age": "21"
+    },
+    {
+      "date": "27/05/2016",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "21"
+    },
+    {
+      "date": "28/11/2016",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "22"
+    },
+    {
+      "date": "30/10/2017",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "23"
+    },
+    {
+      "date": "07/12/2017",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2018",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "16/07/2018",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "13/08/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Everton FC",
+      "age": "23"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Everton FC",
+      "age": "24"
+    },
+    {
+      "date": "13/06/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Everton FC",
+      "age": "24"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Everton FC",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Everton FC",
+      "age": "25"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Everton FC",
+      "age": "26"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Everton FC",
+      "age": "26"
+    },
+    {
+      "date": "08/06/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Everton FC",
+      "age": "26"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Everton FC",
+      "age": "27"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Everton FC",
+      "age": "27"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Everton FC",
+      "age": "28"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Everton FC",
+      "age": "28"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Everton FC",
+      "age": "28"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "ACF Fiorentina",
+      "age": "29"
+    },
+    {
+      "date": "12/03/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Cagliari Calcio",
+      "age": "29"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Cagliari Calcio",
+      "age": "29"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Cagliari Calcio",
+      "age": "30"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Cagliari Calcio",
+      "age": "30"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Cagliari Calcio",
+      "age": "31"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 23,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 3,
+      "red_cards": 1,
+      "minutes_played": 1883
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

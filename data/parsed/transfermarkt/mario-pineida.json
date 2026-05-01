@@ -1,0 +1,219 @@
+{
+  "profile": {
+    "tm_id": "193937",
+    "player_name": "Mario Pineida",
+    "date_of_birth": null,
+    "age": null,
+    "nationality": "Ecuador",
+    "height": "1,69 m",
+    "position": "Defender - Left-Back",
+    "foot": "right",
+    "current_club": "---",
+    "on_loan_from": null,
+    "contract_expires": null,
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/mario-pineida/profil/spieler/193937"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/07/2013",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "Independiente del Valle",
+      "age": "21"
+    },
+    {
+      "date": "27/12/2013",
+      "value_eur": 850000,
+      "value_str": "€850k",
+      "club": "Independiente del Valle",
+      "age": "21"
+    },
+    {
+      "date": "04/08/2014",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2014",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "30/06/2015",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Independiente del Valle",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2015",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Independiente del Valle",
+      "age": "23"
+    },
+    {
+      "date": "30/07/2016",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "24"
+    },
+    {
+      "date": "30/12/2016",
+      "value_eur": 1400000,
+      "value_str": "€1.40m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "24"
+    },
+    {
+      "date": "14/07/2017",
+      "value_eur": 1400000,
+      "value_str": "€1.40m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "25"
+    },
+    {
+      "date": "30/12/2017",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "25"
+    },
+    {
+      "date": "20/07/2018",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Barcelona SC Guayaquil",
+      "age": "26"
+    },
+    {
+      "date": "30/12/2018",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "26"
+    },
+    {
+      "date": "30/06/2019",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "26"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "27"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 650000,
+      "value_str": "€650k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "27"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "28"
+    },
+    {
+      "date": "30/12/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "28"
+    },
+    {
+      "date": "11/06/2021",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "28"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "29"
+    },
+    {
+      "date": "06/04/2022",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Fluminense Football Club",
+      "age": "29"
+    },
+    {
+      "date": "19/08/2022",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Fluminense Football Club",
+      "age": "30"
+    },
+    {
+      "date": "14/11/2022",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "Fluminense Football Club",
+      "age": "30"
+    },
+    {
+      "date": "14/07/2023",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "31"
+    },
+    {
+      "date": "05/12/2023",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "31"
+    },
+    {
+      "date": "17/04/2024",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "31"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "31"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "CD El Nacional",
+      "age": "32"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Barcelona SC Guayaquil",
+      "age": "32"
+    }
+  ],
+  "performance_stats": []
+}

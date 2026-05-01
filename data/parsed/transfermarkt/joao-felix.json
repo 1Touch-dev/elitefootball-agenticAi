@@ -1,0 +1,281 @@
+{
+  "profile": {
+    "tm_id": "462250",
+    "player_name": "João Félix",
+    "date_of_birth": "10/11/1999",
+    "age": 26,
+    "nationality": "Portugal",
+    "height": "1,81 m",
+    "position": "Attack - Second Striker",
+    "foot": "right",
+    "current_club": "Al-Nassr FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€25.00m",
+    "market_value_eur": 25000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/joao-felix/profil/spieler/462250"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "30/09/2016",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "SL Benfica U19",
+      "age": "16"
+    },
+    {
+      "date": "30/06/2017",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "SL Benfica U19",
+      "age": "17"
+    },
+    {
+      "date": "08/09/2017",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "SL Benfica U19",
+      "age": "17"
+    },
+    {
+      "date": "23/02/2018",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "SL Benfica B",
+      "age": "18"
+    },
+    {
+      "date": "29/06/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "SL Benfica B",
+      "age": "18"
+    },
+    {
+      "date": "01/11/2018",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "SL Benfica",
+      "age": "18"
+    },
+    {
+      "date": "11/01/2019",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "18/03/2019",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "07/06/2019",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "SL Benfica",
+      "age": "19"
+    },
+    {
+      "date": "10/09/2019",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Atlético de Madrid",
+      "age": "19"
+    },
+    {
+      "date": "20/12/2019",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Atlético de Madrid",
+      "age": "20"
+    },
+    {
+      "date": "05/03/2020",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Atlético de Madrid",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 81000000,
+      "value_str": "€81.00m",
+      "club": "Atlético de Madrid",
+      "age": "20"
+    },
+    {
+      "date": "08/10/2020",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Atlético de Madrid",
+      "age": "20"
+    },
+    {
+      "date": "23/11/2020",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Atlético de Madrid",
+      "age": "21"
+    },
+    {
+      "date": "05/01/2021",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Atlético de Madrid",
+      "age": "21"
+    },
+    {
+      "date": "19/03/2021",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Atlético de Madrid",
+      "age": "21"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Atlético de Madrid",
+      "age": "21"
+    },
+    {
+      "date": "13/10/2021",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Atlético de Madrid",
+      "age": "21"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Atlético de Madrid",
+      "age": "22"
+    },
+    {
+      "date": "21/03/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Atlético de Madrid",
+      "age": "22"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Atlético de Madrid",
+      "age": "22"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Atlético de Madrid",
+      "age": "22"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Chelsea FC",
+      "age": "23"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "21/03/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Chelsea FC",
+      "age": "25"
+    },
+    {
+      "date": "25/03/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "AC Milan",
+      "age": "25"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AC Milan",
+      "age": "25"
+    },
+    {
+      "date": "18/12/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Al-Nassr FC",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Saudi Pro League",
+      "season": "25/26",
+      "games_played": 29,
+      "goals": 16,
+      "assists": 13,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 2552
+    },
+    {
+      "competition": "King's Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 94
+    },
+    {
+      "competition": "Saudi Super Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 180
+    },
+    {
+      "competition": "AFC Champions League Two",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 4,
+      "assists": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 505
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "profile": {
+    "tm_id": "487465",
+    "player_name": "Pedro Neto",
+    "date_of_birth": "09/03/2000",
+    "age": 26,
+    "nationality": "Portugal",
+    "height": "1,74 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Chelsea FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2031",
+    "market_value": "€60.00m",
+    "market_value_eur": 60000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/pedro-neto/profil/spieler/487465"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "21/08/2017",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "SC Braga",
+      "age": "17"
+    },
+    {
+      "date": "13/10/2017",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "SS Lazio",
+      "age": "17"
+    },
+    {
+      "date": "29/12/2017",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "SS Lazio",
+      "age": "17"
+    },
+    {
+      "date": "07/06/2018",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "SS Lazio",
+      "age": "18"
+    },
+    {
+      "date": "20/12/2018",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "SS Lazio",
+      "age": "18"
+    },
+    {
+      "date": "06/06/2019",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "SS Lazio",
+      "age": "19"
+    },
+    {
+      "date": "12/09/2019",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "19"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "19"
+    },
+    {
+      "date": "09/03/2020",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 11500000,
+      "value_str": "€11.50m",
+      "club": "Wolverhampton Wanderers",
+      "age": "20"
+    },
+    {
+      "date": "30/07/2020",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "20"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "20"
+    },
+    {
+      "date": "17/12/2020",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "20"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "21"
+    },
+    {
+      "date": "08/06/2021",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "21"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "21"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "22"
+    },
+    {
+      "date": "15/09/2022",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "22"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "22"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "23"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "23"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "23"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "24"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Wolverhampton Wanderers",
+      "age": "24"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Chelsea FC",
+      "age": "24"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Chelsea FC",
+      "age": "25"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Chelsea FC",
+      "age": "25"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Chelsea FC",
+      "age": "25"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Chelsea FC",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 32,
+      "goals": 5,
+      "assists": 4,
+      "yellow_cards": 2,
+      "red_cards": 1,
+      "minutes_played": 2489
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 4,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 346
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 614
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 148
+    }
+  ]
+}

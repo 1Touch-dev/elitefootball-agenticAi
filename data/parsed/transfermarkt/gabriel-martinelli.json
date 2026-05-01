@@ -1,0 +1,218 @@
+{
+  "profile": {
+    "tm_id": "655488",
+    "player_name": "Gabriel Martinelli",
+    "date_of_birth": "18/06/2001",
+    "age": 24,
+    "nationality": "BrazilItaly",
+    "height": "1,78 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "Arsenal FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€45.00m",
+    "market_value_eur": 45000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/gabriel-martinelli/profil/spieler/655488"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "07/08/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "12/09/2019",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "09/03/2020",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Arsenal FC",
+      "age": "19"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Arsenal FC",
+      "age": "19"
+    },
+    {
+      "date": "08/06/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Arsenal FC",
+      "age": "19"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Arsenal FC",
+      "age": "20"
+    },
+    {
+      "date": "29/03/2022",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "Arsenal FC",
+      "age": "20"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Arsenal FC",
+      "age": "20"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Arsenal FC",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Arsenal FC",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 28,
+      "goals": 1,
+      "assists": 3,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 982
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 6,
+      "assists": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 654
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 4,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 352
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 261
+    }
+  ]
+}

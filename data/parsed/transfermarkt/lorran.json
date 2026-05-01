@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "tm_id": "1009030",
+    "player_name": "Lorran",
+    "date_of_birth": "04/07/2006",
+    "age": 19,
+    "nationality": "Brazil",
+    "height": "1,80 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "left",
+    "current_club": "Pisa Sporting Club",
+    "on_loan_from": "CR Flamengo",
+    "contract_expires": "30/06/2026",
+    "market_value": "€6.00m",
+    "market_value_eur": 6000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/lorran/profil/spieler/1009030"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/12/2023",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "CR Flamengo U20",
+      "age": "17"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "CR Flamengo",
+      "age": "17"
+    },
+    {
+      "date": "09/12/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "CR Flamengo",
+      "age": "18"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "CR Flamengo",
+      "age": "18"
+    },
+    {
+      "date": "05/09/2025",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Pisa Sporting Club",
+      "age": "19"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "Pisa Sporting Club",
+      "age": "19"
+    },
+    {
+      "date": "24/03/2026",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Pisa Sporting Club",
+      "age": "19"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 113
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 45
+    }
+  ]
+}

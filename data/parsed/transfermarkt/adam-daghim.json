@@ -1,0 +1,144 @@
+{
+  "profile": {
+    "tm_id": "881297",
+    "player_name": "Adam Daghim",
+    "date_of_birth": "28/09/2005",
+    "age": 20,
+    "nationality": "DenmarkPalestine",
+    "height": "1,89 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "VfL Wolfsburg",
+    "on_loan_from": "Red Bull Salzburg",
+    "contract_expires": "30/06/2026",
+    "market_value": "€7.50m",
+    "market_value_eur": 7500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/adam-daghim/profil/spieler/881297"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "20/06/2022",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Aarhus GF",
+      "age": "16"
+    },
+    {
+      "date": "22/12/2022",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Aarhus GF",
+      "age": "17"
+    },
+    {
+      "date": "26/06/2023",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Aarhus GF",
+      "age": "17"
+    },
+    {
+      "date": "11/09/2023",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Liefering",
+      "age": "17"
+    },
+    {
+      "date": "05/12/2023",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Liefering",
+      "age": "18"
+    },
+    {
+      "date": "28/05/2024",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Liefering",
+      "age": "18"
+    },
+    {
+      "date": "10/10/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "VfL Wolfsburg",
+      "age": "20"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 24,
+      "goals": 2,
+      "assists": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1109
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 45
+    },
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 65
+    },
+    {
+      "competition": "Champions League Qu.",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 80
+    },
+    {
+      "competition": "ÖFB-Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 81
+    }
+  ]
+}

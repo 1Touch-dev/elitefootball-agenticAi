@@ -1,0 +1,201 @@
+{
+  "profile": {
+    "tm_id": "485706",
+    "player_name": "Amadou Onana",
+    "date_of_birth": "16/08/2001",
+    "age": 24,
+    "nationality": "BelgiumSenegal",
+    "height": "1,95 m",
+    "position": "Midfield - Defensive Midfield",
+    "foot": "right",
+    "current_club": "Aston Villa",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€45.00m",
+    "market_value_eur": 45000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/amadou-onana/profil/spieler/485706"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "15/07/2020",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Hamburger SV",
+      "age": "18"
+    },
+    {
+      "date": "18/11/2020",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Hamburger SV",
+      "age": "19"
+    },
+    {
+      "date": "08/02/2021",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Hamburger SV",
+      "age": "19"
+    },
+    {
+      "date": "16/06/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Hamburger SV",
+      "age": "19"
+    },
+    {
+      "date": "08/10/2021",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "LOSC Lille",
+      "age": "20"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "LOSC Lille",
+      "age": "20"
+    },
+    {
+      "date": "23/03/2022",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "LOSC Lille",
+      "age": "20"
+    },
+    {
+      "date": "30/05/2022",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "LOSC Lille",
+      "age": "20"
+    },
+    {
+      "date": "15/09/2022",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Everton FC",
+      "age": "21"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Everton FC",
+      "age": "21"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Everton FC",
+      "age": "21"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Everton FC",
+      "age": "21"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Everton FC",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Everton FC",
+      "age": "22"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Everton FC",
+      "age": "22"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Aston Villa",
+      "age": "23"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Aston Villa",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Aston Villa",
+      "age": "23"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Aston Villa",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Aston Villa",
+      "age": "24"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Aston Villa",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Europa League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 759
+    },
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 24,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 1747
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

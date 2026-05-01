@@ -1,0 +1,120 @@
+{
+  "profile": {
+    "tm_id": "1056993",
+    "player_name": "Estêvão",
+    "date_of_birth": "24/04/2007",
+    "age": 19,
+    "nationality": "Brazil",
+    "height": "1,76 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Chelsea FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2033",
+    "market_value": "€80.00m",
+    "market_value_eur": 80000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/estevao/profil/spieler/1056993"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/12/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Unknown",
+      "age": "16"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "16"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "27/09/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "09/12/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "28/03/2025",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "17"
+    },
+    {
+      "date": "06/06/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Sociedade Esportiva Palmeiras",
+      "age": "18"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Chelsea FC",
+      "age": "18"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 22,
+      "goals": 2,
+      "assists": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 846
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 2,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 191
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 7,
+      "goals": 3,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 427
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 212
+    }
+  ]
+}

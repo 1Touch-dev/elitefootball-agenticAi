@@ -1,0 +1,167 @@
+{
+  "profile": {
+    "tm_id": "450211",
+    "player_name": "José Cifuentes",
+    "date_of_birth": "12/03/1999",
+    "age": 27,
+    "nationality": "Ecuador",
+    "height": "1,78 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Toronto FC",
+    "on_loan_from": "Rangers FC",
+    "contract_expires": "30/06/2026",
+    "market_value": "€4.50m",
+    "market_value_eur": 4500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jose-cifuentes/profil/spieler/450211"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "30/12/2018",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "CD América de Quito",
+      "age": "19"
+    },
+    {
+      "date": "30/06/2019",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "CD América de Quito",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "CD Universidad Católica",
+      "age": "20"
+    },
+    {
+      "date": "17/02/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Los Angeles FC",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "Los Angeles FC",
+      "age": "21"
+    },
+    {
+      "date": "26/08/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Los Angeles FC",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2020",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Los Angeles FC",
+      "age": "21"
+    },
+    {
+      "date": "09/07/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Los Angeles FC",
+      "age": "22"
+    },
+    {
+      "date": "09/11/2021",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Los Angeles FC",
+      "age": "22"
+    },
+    {
+      "date": "18/08/2022",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Los Angeles FC",
+      "age": "23"
+    },
+    {
+      "date": "08/11/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Los Angeles FC",
+      "age": "23"
+    },
+    {
+      "date": "22/09/2023",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "Rangers FC",
+      "age": "24"
+    },
+    {
+      "date": "05/12/2023",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Rangers FC",
+      "age": "24"
+    },
+    {
+      "date": "28/03/2024",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Cruzeiro Esporte Clube",
+      "age": "25"
+    },
+    {
+      "date": "17/06/2024",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Cruzeiro Esporte Clube",
+      "age": "25"
+    },
+    {
+      "date": "26/09/2024",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Aris Thessaloniki",
+      "age": "25"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Aris Thessaloniki",
+      "age": "25"
+    },
+    {
+      "date": "23/05/2025",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Aris Thessaloniki",
+      "age": "26"
+    },
+    {
+      "date": "11/12/2025",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Toronto FC",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "MLS",
+      "season": "2026",
+      "games_played": 10,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 797
+    }
+  ]
+}

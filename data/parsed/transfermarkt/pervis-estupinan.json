@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "tm_id": "349599",
+    "player_name": "Pervis Estupiñán",
+    "date_of_birth": "21/01/1998",
+    "age": 28,
+    "nationality": "EcuadorSpain",
+    "height": "1,75 m",
+    "position": "Defender - Left-Back",
+    "foot": "left",
+    "current_club": "AC Milan",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€14.00m",
+    "market_value_eur": 14000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/pervis-estupinan/profil/spieler/349599"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/01/2015",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "LDU Quito",
+      "age": "16"
+    },
+    {
+      "date": "30/06/2015",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "LDU Quito",
+      "age": "17"
+    },
+    {
+      "date": "30/12/2015",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "LDU Quito",
+      "age": "17"
+    },
+    {
+      "date": "15/07/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Udinese Calcio",
+      "age": "18"
+    },
+    {
+      "date": "27/10/2016",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Granada CF B",
+      "age": "18"
+    },
+    {
+      "date": "02/02/2017",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Granada CF B",
+      "age": "19"
+    },
+    {
+      "date": "30/06/2017",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "Udinese Calcio",
+      "age": "19"
+    },
+    {
+      "date": "17/08/2017",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "UD Almería",
+      "age": "19"
+    },
+    {
+      "date": "01/01/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "UD Almería",
+      "age": "19"
+    },
+    {
+      "date": "30/05/2018",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "UD Almería",
+      "age": "20"
+    },
+    {
+      "date": "19/02/2019",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "RCD Mallorca",
+      "age": "21"
+    },
+    {
+      "date": "29/06/2019",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "RCD Mallorca",
+      "age": "21"
+    },
+    {
+      "date": "20/12/2019",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "CA Osasuna",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 6700000,
+      "value_str": "€6.70m",
+      "club": "CA Osasuna",
+      "age": "22"
+    },
+    {
+      "date": "23/07/2020",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "CA Osasuna",
+      "age": "22"
+    },
+    {
+      "date": "08/10/2020",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Villarreal CF",
+      "age": "22"
+    },
+    {
+      "date": "05/01/2021",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Villarreal CF",
+      "age": "22"
+    },
+    {
+      "date": "19/03/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Villarreal CF",
+      "age": "23"
+    },
+    {
+      "date": "10/06/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Villarreal CF",
+      "age": "23"
+    },
+    {
+      "date": "16/07/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Villarreal CF",
+      "age": "23"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Villarreal CF",
+      "age": "23"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Villarreal CF",
+      "age": "24"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "24"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "25"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "25"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "25"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "26"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "26"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Brighton & Hove Albion",
+      "age": "27"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "AC Milan",
+      "age": "27"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "AC Milan",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 17,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 4,
+      "red_cards": 1,
+      "minutes_played": 936
+    },
+    {
+      "competition": "Supercoppa Italiana",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 177
+    }
+  ]
+}

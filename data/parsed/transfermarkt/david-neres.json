@@ -1,0 +1,253 @@
+{
+  "profile": {
+    "tm_id": "469822",
+    "player_name": "David Neres",
+    "date_of_birth": "03/03/1997",
+    "age": 29,
+    "nationality": "Brazil",
+    "height": "1,76 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "SSC Napoli",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€28.00m",
+    "market_value_eur": 28000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/david-neres/profil/spieler/469822"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "02/02/2017",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Ajax Amsterdam",
+      "age": "19"
+    },
+    {
+      "date": "07/06/2017",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "26/10/2017",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "17/01/2018",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Ajax Amsterdam",
+      "age": "20"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "04/10/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Ajax Amsterdam",
+      "age": "21"
+    },
+    {
+      "date": "13/03/2019",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Ajax Amsterdam",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 36000000,
+      "value_str": "€36.00m",
+      "club": "Ajax Amsterdam",
+      "age": "23"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 36000000,
+      "value_str": "€36.00m",
+      "club": "Ajax Amsterdam",
+      "age": "23"
+    },
+    {
+      "date": "09/03/2021",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Ajax Amsterdam",
+      "age": "24"
+    },
+    {
+      "date": "19/05/2021",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Ajax Amsterdam",
+      "age": "24"
+    },
+    {
+      "date": "04/10/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Ajax Amsterdam",
+      "age": "24"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Ajax Amsterdam",
+      "age": "24"
+    },
+    {
+      "date": "18/05/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Shakhtar Donetsk",
+      "age": "25"
+    },
+    {
+      "date": "01/11/2022",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "SL Benfica",
+      "age": "25"
+    },
+    {
+      "date": "16/06/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "SL Benfica",
+      "age": "26"
+    },
+    {
+      "date": "27/12/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "SL Benfica",
+      "age": "26"
+    },
+    {
+      "date": "06/06/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "SL Benfica",
+      "age": "27"
+    },
+    {
+      "date": "18/10/2024",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "SSC Napoli",
+      "age": "27"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "SSC Napoli",
+      "age": "27"
+    },
+    {
+      "date": "25/03/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "SSC Napoli",
+      "age": "28"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "SSC Napoli",
+      "age": "28"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "SSC Napoli",
+      "age": "28"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "SSC Napoli",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 16,
+      "goals": 3,
+      "assists": 3,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 925
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 6,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 261
+    },
+    {
+      "competition": "Supercoppa Italiana",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 3,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 166
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 16
+    }
+  ]
+}

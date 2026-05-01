@@ -1,0 +1,246 @@
+{
+  "profile": {
+    "tm_id": "460939",
+    "player_name": "Tijjani Reijnders",
+    "date_of_birth": "29/07/1998",
+    "age": 27,
+    "nationality": "Netherlands",
+    "height": "1,85 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Manchester City",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€60.00m",
+    "market_value_eur": 60000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/tijjani-reijnders/profil/spieler/460939"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "13/08/2017",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "PEC Zwolle",
+      "age": "19"
+    },
+    {
+      "date": "26/10/2017",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "AZ Alkmaar U21",
+      "age": "19"
+    },
+    {
+      "date": "17/01/2018",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "AZ Alkmaar",
+      "age": "19"
+    },
+    {
+      "date": "12/06/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "AZ Alkmaar",
+      "age": "19"
+    },
+    {
+      "date": "28/12/2018",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "AZ Alkmaar",
+      "age": "20"
+    },
+    {
+      "date": "21/01/2019",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "AZ Alkmaar",
+      "age": "20"
+    },
+    {
+      "date": "12/06/2019",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "AZ Alkmaar",
+      "age": "20"
+    },
+    {
+      "date": "18/12/2019",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "AZ Alkmaar",
+      "age": "21"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 625000,
+      "value_str": "€625k",
+      "club": "RKC Waalwijk",
+      "age": "21"
+    },
+    {
+      "date": "14/10/2020",
+      "value_eur": 625000,
+      "value_str": "€625k",
+      "club": "AZ Alkmaar",
+      "age": "22"
+    },
+    {
+      "date": "19/05/2021",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "AZ Alkmaar",
+      "age": "22"
+    },
+    {
+      "date": "05/01/2022",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "AZ Alkmaar",
+      "age": "23"
+    },
+    {
+      "date": "17/03/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "AZ Alkmaar",
+      "age": "23"
+    },
+    {
+      "date": "08/06/2022",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "AZ Alkmaar",
+      "age": "23"
+    },
+    {
+      "date": "14/09/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "AZ Alkmaar",
+      "age": "24"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "AZ Alkmaar",
+      "age": "24"
+    },
+    {
+      "date": "17/03/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "AZ Alkmaar",
+      "age": "24"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "AZ Alkmaar",
+      "age": "24"
+    },
+    {
+      "date": "11/10/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AC Milan",
+      "age": "25"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "AC Milan",
+      "age": "25"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "AC Milan",
+      "age": "25"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "AC Milan",
+      "age": "26"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "26"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "27"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Manchester City",
+      "age": "27"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 26,
+      "goals": 5,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1499
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 0,
+      "assists": 3,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 579
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 1,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 374
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 221
+    }
+  ]
+}
