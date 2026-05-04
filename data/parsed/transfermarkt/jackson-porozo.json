@@ -147,16 +147,6 @@
   ],
   "performance_stats": [
     {
-      "competition": "Liga MX Clausura",
-      "season": "25/26",
-      "games_played": 15,
-      "goals": 0,
-      "assists": 0,
-      "yellow_cards": 2,
-      "red_cards": 1,
-      "minutes_played": 1319
-    },
-    {
       "competition": "Liga MX Apertura",
       "season": "25/26",
       "games_played": 17,
@@ -165,6 +155,16 @@
       "yellow_cards": 5,
       "red_cards": 0,
       "minutes_played": 1530
+    },
+    {
+      "competition": "Liga MX Clausura",
+      "season": "25/26",
+      "games_played": 15,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 1,
+      "minutes_played": 1319
     },
     {
       "competition": "Liguilla Apertura",

@@ -161,16 +161,6 @@
   ],
   "performance_stats": [
     {
-      "competition": "Libertadores",
-      "season": "2026",
-      "games_played": 3,
-      "goals": 0,
-      "assists": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 137
-    },
-    {
       "competition": "Série A",
       "season": "2026",
       "games_played": 7,
@@ -179,6 +169,16 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "minutes_played": 385
+    },
+    {
+      "competition": "Libertadores",
+      "season": "2026",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 137
     },
     {
       "competition": "Copa do Brasil",

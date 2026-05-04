@@ -77,16 +77,6 @@
   ],
   "performance_stats": [
     {
-      "competition": "Copa Sudamericana",
-      "season": "2026",
-      "games_played": 2,
-      "goals": 0,
-      "assists": 1,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 84
-    },
-    {
       "competition": "Torneo Apertura",
       "season": "2026",
       "games_played": 7,
@@ -95,6 +85,16 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "minutes_played": 271
+    },
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 84
     },
     {
       "competition": "Copa Argentina",
@@ -107,16 +107,6 @@
       "minutes_played": 0
     },
     {
-      "competition": "Conference League",
-      "season": "25/26",
-      "games_played": 5,
-      "goals": 0,
-      "assists": 0,
-      "yellow_cards": 2,
-      "red_cards": 0,
-      "minutes_played": 280
-    },
-    {
       "competition": "Ligue 1",
       "season": "25/26",
       "games_played": 15,
@@ -125,6 +115,16 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "minutes_played": 420
+    },
+    {
+      "competition": "Conference League",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 280
     },
     {
       "competition": "UECL Qualifiers",

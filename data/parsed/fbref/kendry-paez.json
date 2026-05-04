@@ -1,0 +1,92 @@
+{
+  "match": {
+    "source": "fbref",
+    "source_url": "https://fbref.com/en/players/82f14376/Kendry-Paez",
+    "scraped_at": "2026-05-01T11:59:23.165495+00:00",
+    "external_id": "en/players/82f14376/Kendry-Paez",
+    "competition": null,
+    "season": null,
+    "match_date": null,
+    "home_club": null,
+    "away_club": null,
+    "home_score": null,
+    "away_score": null,
+    "venue": null,
+    "title": "Wayback Machine",
+    "challenge_detected": false
+  },
+  "player_match_stats": [
+    {
+      "source": "fbref",
+      "source_url": "https://fbref.com/en/players/82f14376/Kendry-Paez",
+      "player_name": "Kendry Paez",
+      "minutes": null,
+      "goals": null,
+      "assists": null
+    }
+  ],
+  "player_per_90": [],
+  "db_mapping": {
+    "match": {
+      "external_id": "en/players/82f14376/Kendry-Paez",
+      "competition": null,
+      "season": null,
+      "match_date": null,
+      "home_club_name": null,
+      "away_club_name": null,
+      "home_score": null,
+      "away_score": null,
+      "venue": null,
+      "source": "fbref"
+    },
+    "stats": [
+      {
+        "match_id": null,
+        "player_name": "Kendry Paez",
+        "club_name": null,
+        "minutes_played": null,
+        "goals": 0,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 0,
+        "passes_completed": 0,
+        "source": "fbref"
+      }
+    ]
+  },
+  "diagnostics": {
+    "source": "fbref",
+    "extraction_status": "selector_missing",
+    "missing_required_fields": [
+      "home_club",
+      "away_club"
+    ],
+    "record_counts": {
+      "player_match_stats": 0,
+      "player_match_stats_seen": 1,
+      "player_per_90": 0,
+      "player_per_90_seen": 0
+    },
+    "sample_records": {
+      "match": {
+        "source": "fbref",
+        "source_url": "https://fbref.com/en/players/82f14376/Kendry-Paez",
+        "scraped_at": "2026-05-01T11:59:23.165495+00:00",
+        "external_id": "en/players/82f14376/Kendry-Paez",
+        "competition": null,
+        "season": null,
+        "match_date": null,
+        "home_club": null,
+        "away_club": null,
+        "home_score": null,
+        "away_score": null,
+        "venue": null,
+        "title": "Wayback Machine",
+        "challenge_detected": false
+      },
+      "player_match_stat": null,
+      "player_per_90": null
+    }
+  }
+}

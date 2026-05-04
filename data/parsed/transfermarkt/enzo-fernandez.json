@@ -150,16 +150,6 @@
       "minutes_played": 2761
     },
     {
-      "competition": "FA Cup",
-      "season": "25/26",
-      "games_played": 3,
-      "goals": 2,
-      "assists": 1,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 141
-    },
-    {
       "competition": "UEFA Champions League",
       "season": "25/26",
       "games_played": 10,
@@ -168,6 +158,16 @@
       "yellow_cards": 2,
       "red_cards": 0,
       "minutes_played": 748
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 141
     },
     {
       "competition": "EFL Cup",

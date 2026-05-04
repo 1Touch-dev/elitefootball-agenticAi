@@ -193,18 +193,11 @@ def compute_decision(
         4,
     )
 
-
-
-    import hashlib
-    h = int(hashlib.md5(player_name.encode()).hexdigest(), 16) % 100
-    dynamic_buy_threshold = 0.55 + (h / 100.0) * 0.15
-    dynamic_sell_threshold = 0.48 + (h / 100.0) * 0.15
-
     # ── Decision logic ──────────────────────────────────────────────────────
-    if buy_score >= dynamic_buy_threshold and buy_score > sell_score:
+    if buy_score >= _BUY_THRESHOLD and buy_score > sell_score:
         decision = "BUY"
         decision_confidence = round(min(1.0, buy_score / 0.9), 3)
-    elif sell_score >= dynamic_sell_threshold and sell_score >= buy_score:
+    elif sell_score >= _SELL_THRESHOLD and sell_score >= buy_score:
         decision = "SELL"
         decision_confidence = round(min(1.0, sell_score / 0.9), 3)
     else:

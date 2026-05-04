@@ -217,16 +217,6 @@
   ],
   "performance_stats": [
     {
-      "competition": "Conference League",
-      "season": "25/26",
-      "games_played": 10,
-      "goals": 0,
-      "assists": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 502
-    },
-    {
       "competition": "Premier League",
       "season": "25/26",
       "games_played": 26,
@@ -235,6 +225,16 @@
       "yellow_cards": 6,
       "red_cards": 0,
       "minutes_played": 1428
+    },
+    {
+      "competition": "Conference League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 502
     },
     {
       "competition": "UECL Qualifiers",

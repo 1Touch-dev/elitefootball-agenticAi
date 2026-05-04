@@ -4,10 +4,10 @@
     "predicted_value_eur": 2892277.0,
     "blended_value_eur": 47024594.0,
     "market_value_eur_raw": 150000000.0,
-    "value_confidence": 0.7383,
+    "value_confidence": 0.7767,
     "confidence_interval": {
-      "low": 17638241.0,
-      "high": 125370349.0
+      "low": 17915797.0,
+      "high": 123428080.0
     },
     "model_used": "gbm",
     "components": {
@@ -20,151 +20,151 @@
   },
   {
     "player_name": "Moisés Caicedo",
-    "predicted_value_eur": 13867491.0,
-    "blended_value_eur": 42707244.0,
+    "predicted_value_eur": 13868485.0,
+    "blended_value_eur": 42707940.0,
     "market_value_eur_raw": 110000000.0,
-    "value_confidence": 0.712,
+    "value_confidence": 0.7616,
     "confidence_interval": {
-      "low": 15848479.0,
-      "high": 115084149.0
+      "low": 16171610.0,
+      "high": 112788281.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.3249,
       "age_factor": 1.0,
-      "demand_factor": 1.0509,
+      "demand_factor": 1.051,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Enzo Fernández",
-    "predicted_value_eur": 21550958.0,
-    "blended_value_eur": 42085671.0,
+    "predicted_value_eur": 21558077.0,
+    "blended_value_eur": 42090654.0,
     "market_value_eur_raw": 90000000.0,
-    "value_confidence": 0.7642,
+    "value_confidence": 0.7915,
     "confidence_interval": {
-      "low": 15952841.0,
-      "high": 111027481.0
+      "low": 16132817.0,
+      "high": 109814866.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.39,
       "age_factor": 0.9756,
-      "demand_factor": 1.0498,
+      "demand_factor": 1.0505,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "João Neves",
-    "predicted_value_eur": 12197501.0,
-    "blended_value_eur": 41538251.0,
+    "predicted_value_eur": 12195485.0,
+    "blended_value_eur": 41536840.0,
     "market_value_eur_raw": 110000000.0,
-    "value_confidence": 0.6941,
+    "value_confidence": 0.7514,
     "confidence_interval": {
-      "low": 15302887.0,
-      "high": 112751684.0
+      "low": 15663072.0,
+      "high": 110151387.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
-      "performance_factor": 1.143,
+      "performance_factor": 1.1422,
       "age_factor": 0.8007,
-      "demand_factor": 1.0423,
+      "demand_factor": 1.0424,
       "league_prestige": 0.82
     }
   },
   {
     "player_name": "Vitinha",
-    "predicted_value_eur": 9207483.0,
-    "blended_value_eur": 39445238.0,
+    "predicted_value_eur": 9207897.0,
+    "blended_value_eur": 39445528.0,
     "market_value_eur_raw": 110000000.0,
-    "value_confidence": 0.7095,
+    "value_confidence": 0.7603,
     "confidence_interval": {
-      "low": 14623090.0,
-      "high": 106402053.0
+      "low": 14928386.0,
+      "high": 104227588.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
       "performance_factor": 1.3044,
       "age_factor": 0.906,
-      "demand_factor": 1.0196,
+      "demand_factor": 1.0197,
       "league_prestige": 0.82
     }
   },
   {
     "player_name": "Jurriën Timber",
-    "predicted_value_eur": 21594183.0,
-    "blended_value_eur": 36115928.0,
+    "predicted_value_eur": 21601423.0,
+    "blended_value_eur": 36120996.0,
     "market_value_eur_raw": 70000000.0,
-    "value_confidence": 0.6635,
+    "value_confidence": 0.7339,
     "confidence_interval": {
-      "low": 13140759.0,
-      "high": 99260649.0
+      "low": 13524243.0,
+      "high": 96473153.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.379,
       "age_factor": 1.0,
-      "demand_factor": 1.0753,
+      "demand_factor": 1.076,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Ryan Gravenberch",
-    "predicted_value_eur": 12956024.0,
-    "blended_value_eur": 36069217.0,
+    "predicted_value_eur": 12956994.0,
+    "blended_value_eur": 36069896.0,
     "market_value_eur_raw": 90000000.0,
-    "value_confidence": 0.7896,
+    "value_confidence": 0.806,
     "confidence_interval": {
-      "low": 13814200.0,
-      "high": 94177615.0
+      "low": 13906886.0,
+      "high": 93553464.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.3268,
       "age_factor": 0.9756,
-      "demand_factor": 1.0408,
+      "demand_factor": 1.0409,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Jérémy Doku",
-    "predicted_value_eur": 20115190.0,
-    "blended_value_eur": 33580633.0,
+    "predicted_value_eur": 20113097.0,
+    "blended_value_eur": 33579168.0,
     "market_value_eur_raw": 65000000.0,
-    "value_confidence": 0.8136,
+    "value_confidence": 0.8197,
     "confidence_interval": {
-      "low": 12987212.0,
-      "high": 86828404.0
+      "low": 13018896.0,
+      "high": 86609534.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.4302,
       "age_factor": 0.9756,
-      "demand_factor": 1.0117,
+      "demand_factor": 1.0115,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Willian Pacho",
-    "predicted_value_eur": 17725743.0,
-    "blended_value_eur": 33408020.0,
+    "predicted_value_eur": 17712594.0,
+    "blended_value_eur": 33398816.0,
     "market_value_eur_raw": 70000000.0,
-    "value_confidence": 0.5854,
+    "value_confidence": 0.6893,
     "confidence_interval": {
-      "low": 11775548.0,
-      "high": 94780795.0
+      "low": 12280290.0,
+      "high": 90835061.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
-      "performance_factor": 1.199,
+      "performance_factor": 1.1954,
       "age_factor": 1.0,
       "demand_factor": 1.0436,
       "league_prestige": 0.82
@@ -172,20 +172,20 @@
   },
   {
     "player_name": "Lautaro Martínez",
-    "predicted_value_eur": 10249134.0,
-    "blended_value_eur": 32674394.0,
+    "predicted_value_eur": 10248791.0,
+    "blended_value_eur": 32674154.0,
     "market_value_eur_raw": 85000000.0,
-    "value_confidence": 0.6576,
+    "value_confidence": 0.7306,
     "confidence_interval": {
-      "low": 11860073.0,
-      "high": 90017661.0
+      "low": 12217290.0,
+      "high": 87384385.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.2739,
       "age_factor": 0.6736,
-      "demand_factor": 1.023,
+      "demand_factor": 1.0229,
       "league_prestige": 0.9
     }
   },
@@ -194,10 +194,10 @@
     "predicted_value_eur": 16381031.0,
     "blended_value_eur": 32466722.0,
     "market_value_eur_raw": 70000000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 11664085.0,
-      "high": 90370403.0
+      "low": 12068366.0,
+      "high": 87343061.0
     },
     "model_used": "gbm",
     "components": {
@@ -213,10 +213,10 @@
     "predicted_value_eur": 13127781.0,
     "blended_value_eur": 31689447.0,
     "market_value_eur_raw": 75000000.0,
-    "value_confidence": 0.6357,
+    "value_confidence": 0.7181,
     "confidence_interval": {
-      "low": 11400589.0,
-      "high": 88085019.0
+      "low": 11789024.0,
+      "high": 85182711.0
     },
     "model_used": "gbm",
     "components": {
@@ -229,39 +229,39 @@
   },
   {
     "player_name": "Cody Gakpo",
-    "predicted_value_eur": 16000264.0,
-    "blended_value_eur": 30700185.0,
+    "predicted_value_eur": 16001197.0,
+    "blended_value_eur": 30700838.0,
     "market_value_eur_raw": 65000000.0,
-    "value_confidence": 0.6756,
+    "value_confidence": 0.7408,
     "confidence_interval": {
-      "low": 11225336.0,
-      "high": 83961975.0
+      "low": 11527149.0,
+      "high": 81767091.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.3737,
       "age_factor": 0.906,
-      "demand_factor": 1.0089,
+      "demand_factor": 1.009,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Gabriel Martinelli",
-    "predicted_value_eur": 22897199.0,
-    "blended_value_eur": 29528039.0,
+    "predicted_value_eur": 22896132.0,
+    "blended_value_eur": 29527292.0,
     "market_value_eur_raw": 45000000.0,
-    "value_confidence": 0.7993,
+    "value_confidence": 0.8115,
     "confidence_interval": {
-      "low": 11353676.0,
-      "high": 76794958.0
+      "low": 11409848.0,
+      "high": 76413024.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.4221,
       "age_factor": 1.0,
-      "demand_factor": 1.03,
+      "demand_factor": 1.0299,
       "league_prestige": 1.0
     }
   },
@@ -270,10 +270,10 @@
     "predicted_value_eur": 16394568.0,
     "blended_value_eur": 29476198.0,
     "market_value_eur_raw": 60000000.0,
-    "value_confidence": 0.7916,
+    "value_confidence": 0.8071,
     "confidence_interval": {
-      "low": 11298315.0,
-      "high": 76900519.0
+      "low": 11369745.0,
+      "high": 76417391.0
     },
     "model_used": "gbm",
     "components": {
@@ -286,134 +286,134 @@
   },
   {
     "player_name": "Bruno Guimarães",
-    "predicted_value_eur": 9677394.0,
-    "blended_value_eur": 29274176.0,
+    "predicted_value_eur": 9756824.0,
+    "blended_value_eur": 29329777.0,
     "market_value_eur_raw": 75000000.0,
-    "value_confidence": 0.6408,
+    "value_confidence": 0.7192,
     "confidence_interval": {
-      "low": 10553533.0,
-      "high": 81202890.0
+      "low": 10916067.0,
+      "high": 78804553.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
-      "performance_factor": 1.3083,
+      "performance_factor": 1.314,
       "age_factor": 0.6736,
-      "demand_factor": 1.0934,
+      "demand_factor": 1.0937,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Tijjani Reijnders",
-    "predicted_value_eur": 15432802.0,
-    "blended_value_eur": 28802961.0,
+    "predicted_value_eur": 15434459.0,
+    "blended_value_eur": 28804121.0,
     "market_value_eur_raw": 60000000.0,
-    "value_confidence": 0.8319,
+    "value_confidence": 0.8302,
     "confidence_interval": {
-      "low": 11222657.0,
-      "high": 73922828.0
+      "low": 11215354.0,
+      "high": 73976922.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.3799,
       "age_factor": 0.8007,
-      "demand_factor": 1.0135,
+      "demand_factor": 1.0137,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Estêvão",
-    "predicted_value_eur": 6564911.0,
-    "blended_value_eur": 28595438.0,
+    "predicted_value_eur": 6564459.0,
+    "blended_value_eur": 28595121.0,
     "market_value_eur_raw": 80000000.0,
-    "value_confidence": 0.8529,
+    "value_confidence": 0.8422,
     "confidence_interval": {
-      "low": 11237342.0,
-      "high": 72766235.0
+      "low": 11188435.0,
+      "high": 73082694.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.1169,
       "age_factor": 0.5394,
-      "demand_factor": 1.0327,
+      "demand_factor": 1.0326,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Julián Alvarez",
-    "predicted_value_eur": 1873336.0,
-    "blended_value_eur": 28311335.0,
+    "predicted_value_eur": 1873135.0,
+    "blended_value_eur": 28311194.0,
     "market_value_eur_raw": 90000000.0,
-    "value_confidence": 0.7712,
+    "value_confidence": 0.7955,
     "confidence_interval": {
-      "low": 10762179.0,
-      "high": 74476710.0
+      "low": 10868987.0,
+      "high": 73744105.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.9863,
       "age_factor": 0.906,
-      "demand_factor": 1.1882,
+      "demand_factor": 1.1879,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Benjamin Sesko",
-    "predicted_value_eur": 11022098.0,
-    "blended_value_eur": 27215469.0,
+    "predicted_value_eur": 11020344.0,
+    "blended_value_eur": 27214241.0,
     "market_value_eur_raw": 65000000.0,
-    "value_confidence": 0.6693,
+    "value_confidence": 0.7372,
     "confidence_interval": {
-      "low": 9925712.0,
-      "high": 74622528.0
+      "low": 10203101.0,
+      "high": 72587234.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.2905,
       "age_factor": 0.906,
-      "demand_factor": 1.0506,
+      "demand_factor": 1.0504,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Rafael Leão",
-    "predicted_value_eur": 9608006.0,
-    "blended_value_eur": 26225604.0,
+    "predicted_value_eur": 9607520.0,
+    "blended_value_eur": 26225264.0,
     "market_value_eur_raw": 65000000.0,
-    "value_confidence": 0.726,
+    "value_confidence": 0.7696,
     "confidence_interval": {
-      "low": 9787769.0,
-      "high": 70269566.0
+      "low": 9962703.0,
+      "high": 69033921.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.3389,
       "age_factor": 0.906,
-      "demand_factor": 1.0339,
+      "demand_factor": 1.0338,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Xavi Simons",
-    "predicted_value_eur": 15836238.0,
-    "blended_value_eur": 26085367.0,
+    "predicted_value_eur": 15838225.0,
+    "blended_value_eur": 26086758.0,
     "market_value_eur_raw": 50000000.0,
-    "value_confidence": 0.7045,
+    "value_confidence": 0.7574,
     "confidence_interval": {
-      "low": 9650695.0,
-      "high": 70507498.0
+      "low": 9861049.0,
+      "high": 69010809.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.3575,
       "age_factor": 0.9756,
-      "demand_factor": 1.1883,
+      "demand_factor": 1.1885,
       "league_prestige": 1.0
     }
   },
@@ -422,10 +422,10 @@
     "predicted_value_eur": 14210953.0,
     "blended_value_eur": 24947667.0,
     "market_value_eur_raw": 50000000.0,
-    "value_confidence": 0.5854,
+    "value_confidence": 0.6893,
     "confidence_interval": {
-      "low": 8793471.0,
-      "high": 70778206.0
+      "low": 9172918.0,
+      "high": 67850395.0
     },
     "model_used": "gbm",
     "components": {
@@ -437,173 +437,192 @@
     }
   },
   {
-    "player_name": "Luis Díaz",
-    "predicted_value_eur": 4831797.0,
-    "blended_value_eur": 24382258.0,
-    "market_value_eur_raw": 70000000.0,
-    "value_confidence": 0.7343,
+    "player_name": "Amadou Onana",
+    "predicted_value_eur": 16092660.0,
+    "blended_value_eur": 24764862.0,
+    "market_value_eur_raw": 45000000.0,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 9130568.0,
-      "high": 65110352.0
+      "low": 9205470.0,
+      "high": 66623260.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 30000000,
+      "performance_factor": 1.2677,
+      "age_factor": 1.0,
+      "demand_factor": 1.1264,
+      "league_prestige": 1.0
+    }
+  },
+  {
+    "player_name": "Luis Díaz",
+    "predicted_value_eur": 4825155.0,
+    "blended_value_eur": 24377608.0,
+    "market_value_eur_raw": 70000000.0,
+    "value_confidence": 0.7744,
+    "confidence_interval": {
+      "low": 9278890.0,
+      "high": 64045136.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
-      "performance_factor": 1.2875,
+      "performance_factor": 1.2866,
       "age_factor": 0.5394,
-      "demand_factor": 1.182,
+      "demand_factor": 1.1807,
       "league_prestige": 0.88
     }
   },
   {
     "player_name": "Nico González",
-    "predicted_value_eur": 14430908.0,
-    "blended_value_eur": 23601636.0,
+    "predicted_value_eur": 14431864.0,
+    "blended_value_eur": 23602305.0,
     "market_value_eur_raw": 45000000.0,
-    "value_confidence": 0.7333,
+    "value_confidence": 0.7738,
     "confidence_interval": {
-      "low": 8834651.0,
-      "high": 63051411.0
+      "low": 8981594.0,
+      "high": 62023381.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.2745,
       "age_factor": 1.0,
-      "demand_factor": 1.0172,
+      "demand_factor": 1.0173,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Jeremie Frimpong",
-    "predicted_value_eur": 17571945.0,
-    "blended_value_eur": 22800362.0,
+    "predicted_value_eur": 17572947.0,
+    "blended_value_eur": 22801063.0,
     "market_value_eur_raw": 35000000.0,
-    "value_confidence": 0.7523,
+    "value_confidence": 0.7847,
     "confidence_interval": {
-      "low": 8600905.0,
-      "high": 60442071.0
+      "low": 8715230.0,
+      "high": 59652869.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.3704,
       "age_factor": 0.9756,
-      "demand_factor": 1.0425,
+      "demand_factor": 1.0426,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "João Gomes",
-    "predicted_value_eur": 14949267.0,
-    "blended_value_eur": 20964487.0,
+    "predicted_value_eur": 14948961.0,
+    "blended_value_eur": 20964273.0,
     "market_value_eur_raw": 35000000.0,
-    "value_confidence": 0.8596,
+    "value_confidence": 0.846,
     "confidence_interval": {
-      "low": 8261030.0,
-      "high": 53202773.0
+      "low": 8215391.0,
+      "high": 53497242.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
-      "performance_factor": 1.3459,
+      "performance_factor": 1.345,
       "age_factor": 0.9756,
-      "demand_factor": 1.242,
+      "demand_factor": 1.2428,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Charles De Ketelaere",
-    "predicted_value_eur": 14256724.0,
-    "blended_value_eur": 20479707.0,
+    "predicted_value_eur": 14243086.0,
+    "blended_value_eur": 20470160.0,
     "market_value_eur_raw": 35000000.0,
-    "value_confidence": 0.7604,
+    "value_confidence": 0.7893,
     "confidence_interval": {
-      "low": 7750978.0,
-      "high": 54111677.0
+      "low": 7838939.0,
+      "high": 53454613.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
-      "performance_factor": 1.3432,
+      "performance_factor": 1.3408,
       "age_factor": 0.9756,
-      "demand_factor": 1.121,
+      "demand_factor": 1.1204,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Alejandro Garnacho",
-    "predicted_value_eur": 12049922.0,
-    "blended_value_eur": 20434945.0,
+    "predicted_value_eur": 12054369.0,
+    "blended_value_eur": 20438058.0,
     "market_value_eur_raw": 40000000.0,
-    "value_confidence": 0.8289,
+    "value_confidence": 0.8284,
     "confidence_interval": {
-      "low": 7952474.0,
-      "high": 52510320.0
+      "low": 7952069.0,
+      "high": 52528997.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.2342,
       "age_factor": 0.8007,
-      "demand_factor": 1.0352,
+      "demand_factor": 1.0358,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Christoph Baumgartner",
-    "predicted_value_eur": 15342313.0,
-    "blended_value_eur": 19739619.0,
+    "predicted_value_eur": 15339155.0,
+    "blended_value_eur": 19737408.0,
     "market_value_eur_raw": 30000000.0,
-    "value_confidence": 0.7704,
+    "value_confidence": 0.7931,
     "confidence_interval": {
-      "low": 7501314.0,
-      "high": 51944572.0
+      "low": 7570023.0,
+      "high": 51461572.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
-      "performance_factor": 1.3814,
+      "performance_factor": 1.3805,
       "age_factor": 0.906,
-      "demand_factor": 1.1676,
-      "league_prestige": 0.88
-    }
-  },
-  {
-    "player_name": "Nicolas Seiwald",
-    "predicted_value_eur": 18550819.0,
-    "blended_value_eur": 19585573.0,
-    "market_value_eur_raw": 22000000.0,
-    "value_confidence": 0.6879,
-    "confidence_interval": {
-      "low": 7197251.0,
-      "high": 53297390.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 18000000,
-      "performance_factor": 1.2072,
-      "age_factor": 1.0,
-      "demand_factor": 1.1592,
+      "demand_factor": 1.1678,
       "league_prestige": 0.88
     }
   },
   {
     "player_name": "Savinho",
-    "predicted_value_eur": 10734319.0,
-    "blended_value_eur": 19514023.0,
+    "predicted_value_eur": 10733436.0,
+    "blended_value_eur": 19513405.0,
     "market_value_eur_raw": 40000000.0,
-    "value_confidence": 0.868,
+    "value_confidence": 0.8508,
     "confidence_interval": {
-      "low": 7715785.0,
-      "high": 49352997.0
+      "low": 7661769.0,
+      "high": 49697786.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.2989,
       "age_factor": 0.906,
-      "demand_factor": 1.0112,
+      "demand_factor": 1.0111,
+      "league_prestige": 1.0
+    }
+  },
+  {
+    "player_name": "Brian Brobbey",
+    "predicted_value_eur": 16556900.0,
+    "blended_value_eur": 19089830.0,
+    "market_value_eur_raw": 25000000.0,
+    "value_confidence": 0.7473,
+    "confidence_interval": {
+      "low": 7186568.0,
+      "high": 50708712.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 30000000,
+      "performance_factor": 1.3523,
+      "age_factor": 1.0,
+      "demand_factor": 1.2247,
       "league_prestige": 1.0
     }
   },
@@ -612,10 +631,10 @@
     "predicted_value_eur": 13481825.0,
     "blended_value_eur": 19037278.0,
     "market_value_eur_raw": 32000000.0,
-    "value_confidence": 0.6957,
+    "value_confidence": 0.7524,
     "confidence_interval": {
-      "low": 7017987.0,
-      "high": 51641298.0
+      "low": 7181661.0,
+      "high": 50464362.0
     },
     "model_used": "gbm",
     "components": {
@@ -627,173 +646,173 @@
     }
   },
   {
-    "player_name": "Brian Brobbey",
-    "predicted_value_eur": 16480406.0,
-    "blended_value_eur": 19036284.0,
-    "market_value_eur_raw": 25000000.0,
-    "value_confidence": 0.6869,
-    "confidence_interval": {
-      "low": 6992556.0,
-      "high": 51823700.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 30000000,
-      "performance_factor": 1.3548,
-      "age_factor": 1.0,
-      "demand_factor": 1.2257,
-      "league_prestige": 1.0
-    }
-  },
-  {
     "player_name": "Vanderson",
-    "predicted_value_eur": 18583803.0,
-    "blended_value_eur": 19008662.0,
+    "predicted_value_eur": 18584245.0,
+    "blended_value_eur": 19008972.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 6829105.0,
-      "high": 52910191.0
+      "low": 7065919.0,
+      "high": 51138572.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
       "performance_factor": 1.2626,
       "age_factor": 1.0,
-      "demand_factor": 1.2687,
+      "demand_factor": 1.2688,
       "league_prestige": 0.82
     }
   },
   {
     "player_name": "Francisco Conceição",
-    "predicted_value_eur": 13981680.0,
-    "blended_value_eur": 18787176.0,
+    "predicted_value_eur": 13981185.0,
+    "blended_value_eur": 18786830.0,
     "market_value_eur_raw": 30000000.0,
-    "value_confidence": 0.6869,
+    "value_confidence": 0.7473,
     "confidence_interval": {
-      "low": 6901051.0,
-      "high": 51145538.0
+      "low": 7072501.0,
+      "high": 49903847.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.2677,
       "age_factor": 0.9756,
-      "demand_factor": 1.0462,
+      "demand_factor": 1.0461,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Teun Koopmeiners",
-    "predicted_value_eur": 18020619.0,
-    "blended_value_eur": 18614433.0,
+    "predicted_value_eur": 18022527.0,
+    "blended_value_eur": 18615769.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 6687473.0,
-      "high": 51812863.0
+      "low": 6919760.0,
+      "high": 50080764.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.1802,
       "age_factor": 0.6736,
-      "demand_factor": 1.0379,
+      "demand_factor": 1.0385,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Lutsharel Geertruida",
-    "predicted_value_eur": 17368585.0,
-    "blended_value_eur": 18158010.0,
+    "predicted_value_eur": 17372005.0,
+    "blended_value_eur": 18160404.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.8654,
+    "value_confidence": 0.8493,
     "confidence_interval": {
-      "low": 7172035.0,
-      "high": 45972073.0
+      "low": 7126178.0,
+      "high": 46280108.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.1687,
       "age_factor": 0.9756,
-      "demand_factor": 1.2638,
+      "demand_factor": 1.2642,
       "league_prestige": 1.0
     }
   },
   {
-    "player_name": "Exequiel Palacios",
-    "predicted_value_eur": 12720760.0,
-    "blended_value_eur": 17904532.0,
-    "market_value_eur_raw": 30000000.0,
-    "value_confidence": 0.6323,
-    "confidence_interval": {
-      "low": 6432432.0,
-      "high": 49836869.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 18000000,
-      "performance_factor": 1.1866,
-      "age_factor": 0.8007,
-      "demand_factor": 1.2246,
-      "league_prestige": 0.88
-    }
-  },
-  {
     "player_name": "Mats Wieffer",
-    "predicted_value_eur": 14861494.0,
-    "blended_value_eur": 17903046.0,
+    "predicted_value_eur": 14858927.0,
+    "blended_value_eur": 17901249.0,
     "market_value_eur_raw": 25000000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 6578960.0,
-      "high": 48718800.0
+      "low": 6740759.0,
+      "high": 47539860.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
-      "performance_factor": 1.3636,
+      "performance_factor": 1.3633,
       "age_factor": 0.906,
       "demand_factor": 1.2591,
       "league_prestige": 1.0
     }
   },
   {
-    "player_name": "Facundo Buonanotte",
-    "predicted_value_eur": 17526970.0,
-    "blended_value_eur": 17068879.0,
-    "market_value_eur_raw": 16000000.0,
-    "value_confidence": 0.712,
+    "player_name": "Nicolas Seiwald",
+    "predicted_value_eur": 15612617.0,
+    "blended_value_eur": 17528832.0,
+    "market_value_eur_raw": 22000000.0,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 6334189.0,
-      "high": 45995883.0
+      "low": 6600524.0,
+      "high": 46550842.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 18000000,
+      "performance_factor": 1.217,
+      "age_factor": 0.9756,
+      "demand_factor": 1.1436,
+      "league_prestige": 0.88
+    }
+  },
+  {
+    "player_name": "Youri Tielemans",
+    "predicted_value_eur": 9593389.0,
+    "blended_value_eur": 17215372.0,
+    "market_value_eur_raw": 35000000.0,
+    "value_confidence": 0.8027,
+    "confidence_interval": {
+      "low": 6628552.0,
+      "high": 44710973.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 30000000,
+      "performance_factor": 1.3095,
+      "age_factor": 0.6736,
+      "demand_factor": 1.0797,
+      "league_prestige": 1.0
+    }
+  },
+  {
+    "player_name": "Facundo Buonanotte",
+    "predicted_value_eur": 17527728.0,
+    "blended_value_eur": 17069410.0,
+    "market_value_eur_raw": 16000000.0,
+    "value_confidence": 0.7616,
+    "confidence_interval": {
+      "low": 6463432.0,
+      "high": 45078957.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.2617,
       "age_factor": 0.8007,
-      "demand_factor": 1.2694,
+      "demand_factor": 1.2695,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Johan Bakayoko",
-    "predicted_value_eur": 14939779.0,
-    "blended_value_eur": 17057845.0,
+    "predicted_value_eur": 14933232.0,
+    "blended_value_eur": 17053262.0,
     "market_value_eur_raw": 22000000.0,
-    "value_confidence": 0.8529,
+    "value_confidence": 0.8422,
     "confidence_interval": {
-      "low": 6703336.0,
-      "high": 43406755.0
+      "low": 6672443.0,
+      "high": 43584300.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
       "performance_factor": 1.2426,
       "age_factor": 0.9756,
-      "demand_factor": 1.1366,
+      "demand_factor": 1.1354,
       "league_prestige": 0.88
     }
   },
@@ -802,10 +821,10 @@
     "predicted_value_eur": 2853877.0,
     "blended_value_eur": 16997714.0,
     "market_value_eur_raw": 50000000.0,
-    "value_confidence": 0.7629,
+    "value_confidence": 0.7908,
     "confidence_interval": {
-      "low": 6439687.0,
-      "high": 44865892.0
+      "low": 6513155.0,
+      "high": 44359801.0
     },
     "model_used": "gbm",
     "components": {
@@ -818,39 +837,39 @@
   },
   {
     "player_name": "Matías Soulé",
-    "predicted_value_eur": 8904531.0,
-    "blended_value_eur": 16733172.0,
+    "predicted_value_eur": 8900426.0,
+    "blended_value_eur": 16730298.0,
     "market_value_eur_raw": 35000000.0,
-    "value_confidence": 0.7405,
+    "value_confidence": 0.7779,
     "confidence_interval": {
-      "low": 6281986.0,
-      "high": 44571738.0
+      "low": 6377150.0,
+      "high": 43891527.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.3149,
       "age_factor": 0.9756,
-      "demand_factor": 1.2356,
+      "demand_factor": 1.2348,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Lisandro Martínez",
-    "predicted_value_eur": 6723647.0,
-    "blended_value_eur": 16706553.0,
+    "predicted_value_eur": 6726900.0,
+    "blended_value_eur": 16708830.0,
     "market_value_eur_raw": 40000000.0,
-    "value_confidence": 0.8654,
+    "value_confidence": 0.8493,
     "confidence_interval": {
-      "low": 6598740.0,
-      "high": 42297305.0
+      "low": 6556577.0,
+      "high": 42580906.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.073,
       "age_factor": 0.6736,
-      "demand_factor": 1.0459,
+      "demand_factor": 1.0465,
       "league_prestige": 1.0
     }
   },
@@ -859,10 +878,10 @@
     "predicted_value_eur": 6659005.0,
     "blended_value_eur": 16661304.0,
     "market_value_eur_raw": 40000000.0,
-    "value_confidence": 0.6703,
+    "value_confidence": 0.7378,
     "confidence_interval": {
-      "low": 6078990.0,
-      "high": 45665324.0
+      "low": 6248142.0,
+      "high": 44429053.0
     },
     "model_used": "gbm",
     "components": {
@@ -875,96 +894,77 @@
   },
   {
     "player_name": "Lucas Beraldo",
-    "predicted_value_eur": 14598782.0,
-    "blended_value_eur": 16219147.0,
+    "predicted_value_eur": 14589886.0,
+    "blended_value_eur": 16212920.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 5960166.0,
-      "high": 44136477.0
+      "low": 6105014.0,
+      "high": 43056211.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
-      "performance_factor": 1.1696,
+      "performance_factor": 1.1675,
       "age_factor": 0.906,
-      "demand_factor": 1.058,
+      "demand_factor": 1.0575,
       "league_prestige": 0.82
     }
   },
   {
     "player_name": "Quinten Timber",
-    "predicted_value_eur": 12301050.0,
-    "blended_value_eur": 16110735.0,
+    "predicted_value_eur": 12293998.0,
+    "blended_value_eur": 16105799.0,
     "market_value_eur_raw": 25000000.0,
-    "value_confidence": 0.6285,
+    "value_confidence": 0.7139,
     "confidence_interval": {
-      "low": 5779051.0,
-      "high": 44913216.0
+      "low": 5981413.0,
+      "high": 43367134.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
-      "performance_factor": 1.2683,
+      "performance_factor": 1.2671,
       "age_factor": 1.0,
-      "demand_factor": 1.2565,
+      "demand_factor": 1.2561,
       "league_prestige": 0.82
     }
   },
   {
-    "player_name": "Arthur Vermeeren",
-    "predicted_value_eur": 12482724.0,
-    "blended_value_eur": 15337907.0,
-    "market_value_eur_raw": 22000000.0,
-    "value_confidence": 0.7838,
+    "player_name": "Exequiel Palacios",
+    "predicted_value_eur": 9832723.0,
+    "blended_value_eur": 15882906.0,
+    "market_value_eur_raw": 30000000.0,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 5860450.0,
-      "high": 40142209.0
+      "low": 5903914.0,
+      "high": 42728725.0
     },
     "model_used": "gbm",
     "components": {
-      "base_value_eur": 14000000,
-      "performance_factor": 1.1164,
+      "base_value_eur": 18000000,
+      "performance_factor": 1.1778,
       "age_factor": 0.8007,
-      "demand_factor": 1.2602,
-      "league_prestige": 0.82
-    }
-  },
-  {
-    "player_name": "Amadou Onana",
-    "predicted_value_eur": 2290132.0,
-    "blended_value_eur": 15103092.0,
-    "market_value_eur_raw": 45000000.0,
-    "value_confidence": 0.6323,
-    "confidence_interval": {
-      "low": 5425979.0,
-      "high": 42039123.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.8423,
-      "age_factor": 1.0,
-      "demand_factor": 1.1007,
-      "league_prestige": 0.4
+      "demand_factor": 1.225,
+      "league_prestige": 0.88
     }
   },
   {
     "player_name": "Richarlison",
-    "predicted_value_eur": 9500692.0,
-    "blended_value_eur": 15050484.0,
+    "predicted_value_eur": 9499368.0,
+    "blended_value_eur": 15049558.0,
     "market_value_eur_raw": 28000000.0,
-    "value_confidence": 0.6054,
+    "value_confidence": 0.7007,
     "confidence_interval": {
-      "low": 5348261.0,
-      "high": 42353410.0
+      "low": 5559227.0,
+      "high": 40741134.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
       "performance_factor": 1.3101,
       "age_factor": 0.6736,
-      "demand_factor": 1.0652,
+      "demand_factor": 1.065,
       "league_prestige": 1.0
     }
   },
@@ -973,10 +973,10 @@
     "predicted_value_eur": 2070770.0,
     "blended_value_eur": 14949539.0,
     "market_value_eur_raw": 45000000.0,
-    "value_confidence": 0.7925,
+    "value_confidence": 0.8077,
     "confidence_interval": {
-      "low": 5732300.0,
-      "high": 38987616.0
+      "low": 5767837.0,
+      "high": 38747402.0
     },
     "model_used": "gbm",
     "components": {
@@ -988,380 +988,399 @@
     }
   },
   {
-    "player_name": "Frenkie de Jong",
-    "predicted_value_eur": 1689527.0,
-    "blended_value_eur": 14682669.0,
-    "market_value_eur_raw": 45000000.0,
-    "value_confidence": 0.7308,
+    "player_name": "Arthur Vermeeren",
+    "predicted_value_eur": 11680349.0,
+    "blended_value_eur": 14776244.0,
+    "market_value_eur_raw": 22000000.0,
+    "value_confidence": 0.8027,
     "confidence_interval": {
-      "low": 5490487.0,
-      "high": 39264419.0
+      "low": 5689398.0,
+      "high": 38376182.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 14000000,
+      "performance_factor": 1.1135,
+      "age_factor": 0.8007,
+      "demand_factor": 1.2599,
+      "league_prestige": 0.82
+    }
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "predicted_value_eur": 1688994.0,
+    "blended_value_eur": 14682296.0,
+    "market_value_eur_raw": 45000000.0,
+    "value_confidence": 0.7724,
+    "confidence_interval": {
+      "low": 5584004.0,
+      "high": 38604880.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.2749,
+      "performance_factor": 1.2736,
       "age_factor": 0.6736,
-      "demand_factor": 1.0076,
+      "demand_factor": 1.0078,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Endrick",
-    "predicted_value_eur": 5916658.0,
-    "blended_value_eur": 14641661.0,
+    "predicted_value_eur": 5916043.0,
+    "blended_value_eur": 14641230.0,
     "market_value_eur_raw": 35000000.0,
-    "value_confidence": 0.6404,
+    "value_confidence": 0.7207,
     "confidence_interval": {
-      "low": 5277557.0,
-      "high": 40620736.0
+      "low": 5452553.0,
+      "high": 39314725.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
       "performance_factor": 1.085,
       "age_factor": 0.5394,
-      "demand_factor": 1.235,
+      "demand_factor": 1.2347,
       "league_prestige": 0.82
     }
   },
   {
     "player_name": "Pervis Estupiñán",
-    "predicted_value_eur": 14723132.0,
-    "blended_value_eur": 14506192.0,
+    "predicted_value_eur": 14725386.0,
+    "blended_value_eur": 14507770.0,
     "market_value_eur_raw": 14000000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 5211535.0,
-      "high": 40377665.0
+      "low": 5392755.0,
+      "high": 39029288.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.1949,
       "age_factor": 0.6736,
-      "demand_factor": 1.0623,
+      "demand_factor": 1.063,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "David Neres",
-    "predicted_value_eur": 8359535.0,
-    "blended_value_eur": 14251674.0,
+    "predicted_value_eur": 8359275.0,
+    "blended_value_eur": 14251492.0,
     "market_value_eur_raw": 28000000.0,
-    "value_confidence": 0.7501,
+    "value_confidence": 0.7835,
     "confidence_interval": {
-      "low": 5371305.0,
-      "high": 37813942.0
+      "low": 5444678.0,
+      "high": 37303405.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.207,
       "age_factor": 0.5394,
-      "demand_factor": 1.0335,
-      "league_prestige": 0.9
-    }
-  },
-  {
-    "player_name": "Gabriel Villamíl",
-    "predicted_value_eur": 19489843.0,
-    "blended_value_eur": 14002890.0,
-    "market_value_eur_raw": 1200000.0,
-    "value_confidence": 0.6879,
-    "confidence_interval": {
-      "low": 5145742.0,
-      "high": 38105471.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 16000000,
-      "performance_factor": 1.2581,
-      "age_factor": 1.0,
-      "demand_factor": 1.2738,
+      "demand_factor": 1.0334,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Yan Couto",
-    "predicted_value_eur": 10634723.0,
-    "blended_value_eur": 13444306.0,
+    "predicted_value_eur": 10635846.0,
+    "blended_value_eur": 13445092.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.7168,
+    "value_confidence": 0.7644,
     "confidence_interval": {
-      "low": 4998872.0,
-      "high": 36158029.0
+      "low": 5096862.0,
+      "high": 35467019.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
       "performance_factor": 1.2797,
       "age_factor": 0.9756,
-      "demand_factor": 1.1918,
+      "demand_factor": 1.192,
       "league_prestige": 0.88
     }
   },
   {
     "player_name": "Antony",
-    "predicted_value_eur": 1977358.0,
-    "blended_value_eur": 13384151.0,
+    "predicted_value_eur": 1977225.0,
+    "blended_value_eur": 13384058.0,
     "market_value_eur_raw": 40000000.0,
-    "value_confidence": 0.7997,
+    "value_confidence": 0.8118,
     "confidence_interval": {
-      "low": 5147109.0,
-      "high": 34803129.0
+      "low": 5172459.0,
+      "high": 34632082.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.9774,
       "age_factor": 0.906,
-      "demand_factor": 1.1727,
+      "demand_factor": 1.1725,
       "league_prestige": 0.4
     }
   },
   {
-    "player_name": "Rasmus Kristensen",
-    "predicted_value_eur": 13632341.0,
-    "blended_value_eur": 13142639.0,
-    "market_value_eur_raw": 12000000.0,
-    "value_confidence": 0.7604,
-    "confidence_interval": {
-      "low": 4974109.0,
-      "high": 34725606.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 18000000,
-      "performance_factor": 1.1816,
-      "age_factor": 0.6736,
-      "demand_factor": 1.2484,
-      "league_prestige": 0.88
-    }
-  },
-  {
     "player_name": "Karim Konaté",
-    "predicted_value_eur": 13472525.0,
-    "blended_value_eur": 13030768.0,
+    "predicted_value_eur": 13470860.0,
+    "blended_value_eur": 13029602.0,
     "market_value_eur_raw": 12000000.0,
-    "value_confidence": 0.7459,
+    "value_confidence": 0.781,
     "confidence_interval": {
-      "low": 4902779.0,
-      "high": 34633609.0
+      "low": 4972806.0,
+      "high": 34139783.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
       "performance_factor": 1.3615,
       "age_factor": 0.906,
-      "demand_factor": 1.247,
+      "demand_factor": 1.2467,
       "league_prestige": 0.88
     }
   },
   {
-    "player_name": "António Silva",
-    "predicted_value_eur": 4722580.0,
-    "blended_value_eur": 11705806.0,
-    "market_value_eur_raw": 28000000.0,
-    "value_confidence": 0.5854,
+    "player_name": "Rasmus Kristensen",
+    "predicted_value_eur": 13377876.0,
+    "blended_value_eur": 12964513.0,
+    "market_value_eur_raw": 12000000.0,
+    "value_confidence": 0.7893,
     "confidence_interval": {
-      "low": 4126024.0,
-      "high": 33210157.0
+      "low": 4964691.0,
+      "high": 33854793.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 18000000,
+      "performance_factor": 1.1807,
+      "age_factor": 0.6736,
+      "demand_factor": 1.2485,
+      "league_prestige": 0.88
+    }
+  },
+  {
+    "player_name": "Gabriel Villamíl",
+    "predicted_value_eur": 17465748.0,
+    "blended_value_eur": 12586024.0,
+    "market_value_eur_raw": 1200000.0,
+    "value_confidence": 0.7479,
+    "confidence_interval": {
+      "low": 4739298.0,
+      "high": 33424362.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 16000000,
+      "performance_factor": 1.244,
+      "age_factor": 1.0,
+      "demand_factor": 1.2739,
+      "league_prestige": 0.9
+    }
+  },
+  {
+    "player_name": "António Silva",
+    "predicted_value_eur": 4719522.0,
+    "blended_value_eur": 11703665.0,
+    "market_value_eur_raw": 28000000.0,
+    "value_confidence": 0.6893,
+    "confidence_interval": {
+      "low": 4303278.0,
+      "high": 31830563.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.1471,
+      "performance_factor": 1.1436,
       "age_factor": 0.906,
       "demand_factor": 1.2857,
       "league_prestige": 0.4
     }
   },
   {
-    "player_name": "Youri Tielemans",
-    "predicted_value_eur": 1601789.0,
-    "blended_value_eur": 11621252.0,
-    "market_value_eur_raw": 35000000.0,
-    "value_confidence": 0.7838,
-    "confidence_interval": {
-      "low": 4440356.0,
-      "high": 30415019.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.8795,
-      "age_factor": 0.6736,
-      "demand_factor": 1.0596,
-      "league_prestige": 0.4
-    }
-  },
-  {
     "player_name": "Lucas Paquetá",
-    "predicted_value_eur": 1500697.0,
-    "blended_value_eur": 11550488.0,
+    "predicted_value_eur": 1500739.0,
+    "blended_value_eur": 11550517.0,
     "market_value_eur_raw": 35000000.0,
-    "value_confidence": 0.7597,
+    "value_confidence": 0.7889,
     "confidence_interval": {
-      "low": 4370282.0,
-      "high": 30527497.0
+      "low": 4422490.0,
+      "high": 30167270.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.8428,
       "age_factor": 0.6736,
-      "demand_factor": 1.2488,
+      "demand_factor": 1.2489,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Gabriel Jesus",
-    "predicted_value_eur": 6800524.0,
-    "blended_value_eur": 10760367.0,
+    "predicted_value_eur": 6786694.0,
+    "blended_value_eur": 10750686.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.8095,
+    "value_confidence": 0.8174,
     "confidence_interval": {
-      "low": 4154609.0,
-      "high": 27869169.0
+      "low": 4164226.0,
+      "high": 27754799.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
-      "performance_factor": 1.2647,
+      "performance_factor": 1.2617,
       "age_factor": 0.5394,
-      "demand_factor": 1.0134,
+      "demand_factor": 1.0131,
       "league_prestige": 1.0
     }
   },
   {
     "player_name": "Devyne Rensch",
-    "predicted_value_eur": 10769663.0,
-    "blended_value_eur": 10088764.0,
+    "predicted_value_eur": 10771172.0,
+    "blended_value_eur": 10089820.0,
     "market_value_eur_raw": 8500000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 3624517.0,
-      "high": 28081852.0
+      "low": 3750537.0,
+      "high": 27143971.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 1.2887,
       "age_factor": 0.9756,
-      "demand_factor": 1.2762,
+      "demand_factor": 1.2765,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "João Félix",
-    "predicted_value_eur": 3042428.0,
-    "blended_value_eur": 9629700.0,
+    "predicted_value_eur": 3041999.0,
+    "blended_value_eur": 9629399.0,
     "market_value_eur_raw": 25000000.0,
-    "value_confidence": 0.7072,
+    "value_confidence": 0.7589,
     "confidence_interval": {
-      "low": 3566574.0,
-      "high": 26000059.0
+      "low": 3642227.0,
+      "high": 25458412.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 6000000,
       "performance_factor": 1.0527,
       "age_factor": 0.906,
-      "demand_factor": 1.2031,
+      "demand_factor": 1.2028,
       "league_prestige": 0.65
     }
   },
   {
     "player_name": "Richard Ríos",
-    "predicted_value_eur": 4059615.0,
-    "blended_value_eur": 9441730.0,
+    "predicted_value_eur": 4060664.0,
+    "blended_value_eur": 9442465.0,
     "market_value_eur_raw": 22000000.0,
-    "value_confidence": 0.7072,
+    "value_confidence": 0.7511,
     "confidence_interval": {
-      "low": 3496955.0,
-      "high": 25492542.0
+      "low": 3560212.0,
+      "high": 25043492.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.3475,
+      "performance_factor": 1.3481,
       "age_factor": 0.9756,
-      "demand_factor": 1.2675,
+      "demand_factor": 1.268,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Noa Lang",
-    "predicted_value_eur": 2401214.0,
-    "blended_value_eur": 9180850.0,
+    "predicted_value_eur": 2400758.0,
+    "blended_value_eur": 9180531.0,
     "market_value_eur_raw": 25000000.0,
-    "value_confidence": 0.736,
+    "value_confidence": 0.7754,
     "confidence_interval": {
-      "low": 3440384.0,
-      "high": 24499590.0
+      "low": 3495822.0,
+      "high": 24109393.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.9359,
+      "performance_factor": 0.9354,
       "age_factor": 0.906,
-      "demand_factor": 1.153,
+      "demand_factor": 1.1529,
       "league_prestige": 0.4
     }
   },
   {
-    "player_name": "Albert Sambi Lokonga",
-    "predicted_value_eur": 7986589.0,
-    "blended_value_eur": 8590612.0,
-    "market_value_eur_raw": 10000000.0,
-    "value_confidence": 0.8304,
+    "player_name": "Marcos Leonardo",
+    "predicted_value_eur": 4048422.0,
+    "blended_value_eur": 8833895.0,
+    "market_value_eur_raw": 20000000.0,
+    "value_confidence": 0.7929,
     "confidence_interval": {
-      "low": 3345167.0,
-      "high": 22061265.0
+      "low": 3387849.0,
+      "high": 23034590.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 6000000,
+      "performance_factor": 0.9387,
+      "age_factor": 0.9756,
+      "demand_factor": 1.25,
+      "league_prestige": 0.65
+    }
+  },
+  {
+    "player_name": "Albert Sambi Lokonga",
+    "predicted_value_eur": 7972233.0,
+    "blended_value_eur": 8580563.0,
+    "market_value_eur_raw": 10000000.0,
+    "value_confidence": 0.8293,
+    "confidence_interval": {
+      "low": 3339760.0,
+      "high": 22045317.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
-      "performance_factor": 1.2857,
+      "performance_factor": 1.2839,
       "age_factor": 0.906,
-      "demand_factor": 1.2429,
+      "demand_factor": 1.2419,
       "league_prestige": 0.88
     }
   },
   {
     "player_name": "Jhon Durán",
-    "predicted_value_eur": 1151183.0,
-    "blended_value_eur": 8305828.0,
+    "predicted_value_eur": 1151063.0,
+    "blended_value_eur": 8305744.0,
     "market_value_eur_raw": 25000000.0,
-    "value_confidence": 0.6818,
+    "value_confidence": 0.7444,
     "confidence_interval": {
-      "low": 3044641.0,
-      "high": 22658427.0
+      "low": 3123100.0,
+      "high": 22088751.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.885,
       "age_factor": 0.906,
-      "demand_factor": 1.2254,
+      "demand_factor": 1.2252,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Leandro Trossard",
-    "predicted_value_eur": 3113425.0,
-    "blended_value_eur": 8179398.0,
+    "predicted_value_eur": 3125808.0,
+    "blended_value_eur": 8188066.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.7365,
+    "value_confidence": 0.7718,
     "confidence_interval": {
-      "low": 3065729.0,
-      "high": 21822725.0
+      "low": 3113344.0,
+      "high": 21534536.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 30000000,
-      "performance_factor": 1.1274,
+      "performance_factor": 1.1329,
       "age_factor": 0.2982,
       "demand_factor": 1.0067,
       "league_prestige": 1.0
@@ -1369,18 +1388,18 @@
   },
   {
     "player_name": "Renato Veiga",
-    "predicted_value_eur": 748848.0,
-    "blended_value_eur": 8024194.0,
+    "predicted_value_eur": 747384.0,
+    "blended_value_eur": 8023169.0,
     "market_value_eur_raw": 25000000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 2882794.0,
-      "high": 22335167.0
+      "low": 2982332.0,
+      "high": 21584197.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.711,
+      "performance_factor": 0.7093,
       "age_factor": 0.906,
       "demand_factor": 1.2679,
       "league_prestige": 0.4
@@ -1388,58 +1407,39 @@
   },
   {
     "player_name": "Nicolás Capaldo",
-    "predicted_value_eur": 8978245.0,
-    "blended_value_eur": 7784772.0,
+    "predicted_value_eur": 8975210.0,
+    "blended_value_eur": 7782647.0,
     "market_value_eur_raw": 5000000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 2860726.0,
-      "high": 21184370.0
+      "low": 2930575.0,
+      "high": 20668164.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
-      "performance_factor": 1.2455,
+      "performance_factor": 1.2437,
       "age_factor": 0.8007,
-      "demand_factor": 1.2281,
+      "demand_factor": 1.2292,
       "league_prestige": 0.88
     }
   },
   {
-    "player_name": "Marcos Leonardo",
-    "predicted_value_eur": 2315778.0,
-    "blended_value_eur": 7621045.0,
-    "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.7735,
-    "confidence_interval": {
-      "low": 2899750.0,
-      "high": 20029427.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 6000000,
-      "performance_factor": 0.8877,
-      "age_factor": 0.906,
-      "demand_factor": 1.2465,
-      "league_prestige": 0.65
-    }
-  },
-  {
     "player_name": "Thiago Almada",
-    "predicted_value_eur": 2169133.0,
-    "blended_value_eur": 7518393.0,
+    "predicted_value_eur": 2266868.0,
+    "blended_value_eur": 7586808.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.712,
+    "value_confidence": 0.7616,
     "confidence_interval": {
-      "low": 2790044.0,
-      "high": 20259979.0
+      "low": 2872789.0,
+      "high": 20036158.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.9367,
+      "performance_factor": 0.9335,
       "age_factor": 0.9756,
-      "demand_factor": 1.1802,
+      "demand_factor": 1.1774,
       "league_prestige": 0.4
     }
   },
@@ -1448,10 +1448,10 @@
     "predicted_value_eur": 1939576.0,
     "blended_value_eur": 7357703.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.6891,
+    "value_confidence": 0.7486,
     "confidence_interval": {
-      "low": 2705107.0,
-      "high": 20012438.0
+      "low": 2771349.0,
+      "high": 19534091.0
     },
     "model_used": "gbm",
     "components": {
@@ -1463,78 +1463,59 @@
     }
   },
   {
-    "player_name": "Luis Segovia",
-    "predicted_value_eur": 10067010.0,
-    "blended_value_eur": 7346907.0,
-    "market_value_eur_raw": 1000000.0,
-    "value_confidence": 0.6879,
-    "confidence_interval": {
-      "low": 2699820.0,
-      "high": 19992827.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 16000000,
-      "performance_factor": 1.1643,
-      "age_factor": 0.6736,
-      "demand_factor": 1.2562,
-      "league_prestige": 0.9
-    }
-  },
-  {
     "player_name": "Adam Daghim",
-    "predicted_value_eur": 7198393.0,
-    "blended_value_eur": 7288875.0,
+    "predicted_value_eur": 7201699.0,
+    "blended_value_eur": 7291189.0,
     "market_value_eur_raw": 7500000.0,
-    "value_confidence": 0.5854,
+    "value_confidence": 0.6893,
     "confidence_interval": {
-      "low": 2569158.0,
-      "high": 20679028.0
+      "low": 2680871.0,
+      "high": 19829912.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 18000000,
       "performance_factor": 1.0907,
       "age_factor": 0.6736,
-      "demand_factor": 1.2353,
+      "demand_factor": 1.2363,
       "league_prestige": 0.88
     }
   },
   {
     "player_name": "Gerson",
-    "predicted_value_eur": 1482701.0,
-    "blended_value_eur": 7037891.0,
+    "predicted_value_eur": 1469019.0,
+    "blended_value_eur": 7028313.0,
     "market_value_eur_raw": 20000000.0,
-    "value_confidence": 0.8116,
+    "value_confidence": 0.8186,
     "confidence_interval": {
-      "low": 2719671.0,
-      "high": 18212461.0
+      "low": 2723711.0,
+      "high": 18135983.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.8343,
+      "performance_factor": 0.8329,
       "age_factor": 0.6736,
-      "demand_factor": 1.1934,
+      "demand_factor": 1.1947,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Cucho Hernández",
-    "predicted_value_eur": 2059662.0,
-    "blended_value_eur": 6841763.0,
+    "predicted_value_eur": 2059553.0,
+    "blended_value_eur": 6841687.0,
     "market_value_eur_raw": 18000000.0,
-    "value_confidence": 0.7501,
+    "value_confidence": 0.7835,
     "confidence_interval": {
-      "low": 2578588.0,
-      "high": 18153238.0
+      "low": 2613816.0,
+      "high": 17908176.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.9048,
       "age_factor": 0.8007,
-      "demand_factor": 1.17,
+      "demand_factor": 1.1698,
       "league_prestige": 0.4
     }
   },
@@ -1543,10 +1524,10 @@
     "predicted_value_eur": 7004297.0,
     "blended_value_eur": 6703008.0,
     "market_value_eur_raw": 6000000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 2463202.0,
-      "high": 18240612.0
+      "low": 2524034.0,
+      "high": 17800996.0
     },
     "model_used": "gbm",
     "components": {
@@ -1558,173 +1539,230 @@
     }
   },
   {
-    "player_name": "Orel Mangala",
-    "predicted_value_eur": 4544610.0,
-    "blended_value_eur": 6181227.0,
-    "market_value_eur_raw": 10000000.0,
-    "value_confidence": 0.8654,
+    "player_name": "Luis Segovia",
+    "predicted_value_eur": 8871786.0,
+    "blended_value_eur": 6510250.0,
+    "market_value_eur_raw": 1000000.0,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 2441456.0,
-      "high": 15649502.0
+      "low": 2451450.0,
+      "high": 17289094.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 16000000,
+      "performance_factor": 1.1512,
+      "age_factor": 0.6736,
+      "demand_factor": 1.2558,
+      "league_prestige": 0.9
+    }
+  },
+  {
+    "player_name": "Orel Mangala",
+    "predicted_value_eur": 4545539.0,
+    "blended_value_eur": 6181877.0,
+    "market_value_eur_raw": 10000000.0,
+    "value_confidence": 0.8493,
+    "confidence_interval": {
+      "low": 2425781.0,
+      "high": 15753941.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 14000000,
       "performance_factor": 0.9846,
       "age_factor": 0.6736,
-      "demand_factor": 1.2049,
+      "demand_factor": 1.2053,
       "league_prestige": 0.82
     }
   },
   {
     "player_name": "Nahuel Molina",
-    "predicted_value_eur": 1403787.0,
-    "blended_value_eur": 5482651.0,
+    "predicted_value_eur": 1402649.0,
+    "blended_value_eur": 5481854.0,
     "market_value_eur_raw": 15000000.0,
-    "value_confidence": 0.7604,
+    "value_confidence": 0.7893,
     "confidence_interval": {
-      "low": 2075025.0,
-      "high": 14486313.0
+      "low": 2099247.0,
+      "high": 14315002.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.8524,
+      "performance_factor": 0.8505,
       "age_factor": 0.6736,
-      "demand_factor": 1.2301,
+      "demand_factor": 1.2302,
       "league_prestige": 0.4
     }
   },
   {
-    "player_name": "Claudio Echeverri",
-    "predicted_value_eur": 753805.0,
-    "blended_value_eur": 5027664.0,
-    "market_value_eur_raw": 15000000.0,
-    "value_confidence": 0.7604,
-    "confidence_interval": {
-      "low": 1902826.0,
-      "high": 13284142.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.7559,
-      "age_factor": 0.6736,
-      "demand_factor": 1.2592,
-      "league_prestige": 0.4
-    }
-  },
-  {
-    "player_name": "Rodrigo De Paul",
-    "predicted_value_eur": 480076.0,
-    "blended_value_eur": 4836053.0,
-    "market_value_eur_raw": 15000000.0,
-    "value_confidence": 0.6879,
-    "confidence_interval": {
-      "low": 1777139.0,
-      "high": 13160146.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.6893,
-      "age_factor": 0.2982,
-      "demand_factor": 1.1556,
-      "league_prestige": 0.4
-    }
-  },
-  {
-    "player_name": "Jorge Carrascal",
-    "predicted_value_eur": 1827334.0,
-    "blended_value_eur": 4579134.0,
-    "market_value_eur_raw": 11000000.0,
-    "value_confidence": 0.6425,
-    "confidence_interval": {
-      "low": 1651949.0,
-      "high": 12693166.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.9233,
-      "age_factor": 0.8007,
-      "demand_factor": 1.2489,
-      "league_prestige": 0.4
-    }
-  },
-  {
-    "player_name": "Facundo Torres",
-    "predicted_value_eur": 2002537.0,
-    "blended_value_eur": 4401776.0,
-    "market_value_eur_raw": 10000000.0,
-    "value_confidence": 0.6879,
-    "confidence_interval": {
-      "low": 1617552.0,
-      "high": 11978366.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.9821,
-      "age_factor": 0.906,
-      "demand_factor": 1.1571,
-      "league_prestige": 0.4
-    }
-  },
-  {
-    "player_name": "Michael Estrada",
-    "predicted_value_eur": 5707061.0,
-    "blended_value_eur": 4174943.0,
+    "player_name": "Byron Castillo",
+    "predicted_value_eur": 7192954.0,
+    "blended_value_eur": 5215068.0,
     "market_value_eur_raw": 600000.0,
-    "value_confidence": 0.8529,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 1640656.0,
-      "high": 10623893.0
+      "low": 1963746.0,
+      "high": 13849514.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
-      "performance_factor": 1.2223,
+      "performance_factor": 1.2884,
+      "age_factor": 0.8007,
+      "demand_factor": 1.0449,
+      "league_prestige": 0.9
+    }
+  },
+  {
+    "player_name": "Michael Estrada",
+    "predicted_value_eur": 7019708.0,
+    "blended_value_eur": 5093796.0,
+    "market_value_eur_raw": 600000.0,
+    "value_confidence": 0.8422,
+    "confidence_interval": {
+      "low": 1993053.0,
+      "high": 13018596.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 16000000,
+      "performance_factor": 1.2117,
       "age_factor": 0.4111,
       "demand_factor": 1.1329,
       "league_prestige": 0.9
     }
   },
   {
-    "player_name": "Ibrahim Osman",
-    "predicted_value_eur": 2340707.0,
-    "blended_value_eur": 4038495.0,
-    "market_value_eur_raw": 8000000.0,
-    "value_confidence": 0.712,
+    "player_name": "Claudio Echeverri",
+    "predicted_value_eur": 811841.0,
+    "blended_value_eur": 5068289.0,
+    "market_value_eur_raw": 15000000.0,
+    "value_confidence": 0.7893,
     "confidence_interval": {
-      "low": 1498669.0,
-      "high": 10882621.0
+      "low": 1940874.0,
+      "high": 13235042.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.0208,
+      "performance_factor": 0.7492,
+      "age_factor": 0.6736,
+      "demand_factor": 1.2579,
+      "league_prestige": 0.4
+    }
+  },
+  {
+    "player_name": "Rodrigo De Paul",
+    "predicted_value_eur": 480291.0,
+    "blended_value_eur": 4836204.0,
+    "market_value_eur_raw": 15000000.0,
+    "value_confidence": 0.7479,
+    "confidence_interval": {
+      "low": 1821084.0,
+      "high": 12843375.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 3000000,
+      "performance_factor": 0.6893,
+      "age_factor": 0.2982,
+      "demand_factor": 1.157,
+      "league_prestige": 0.4
+    }
+  },
+  {
+    "player_name": "Jefferson Lerma",
+    "predicted_value_eur": 3196975.0,
+    "blended_value_eur": 4637882.0,
+    "market_value_eur_raw": 8000000.0,
+    "value_confidence": 0.7616,
+    "confidence_interval": {
+      "low": 1756161.0,
+      "high": 12248278.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 30000000,
+      "performance_factor": 1.0804,
+      "age_factor": 0.2982,
+      "demand_factor": 1.1694,
+      "league_prestige": 1.0
+    }
+  },
+  {
+    "player_name": "Jorge Carrascal",
+    "predicted_value_eur": 1827722.0,
+    "blended_value_eur": 4579405.0,
+    "market_value_eur_raw": 11000000.0,
+    "value_confidence": 0.722,
+    "confidence_interval": {
+      "low": 1706322.0,
+      "high": 12290150.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 3000000,
+      "performance_factor": 0.9233,
       "age_factor": 0.8007,
-      "demand_factor": 1.2039,
+      "demand_factor": 1.2496,
+      "league_prestige": 0.4
+    }
+  },
+  {
+    "player_name": "Facundo Torres",
+    "predicted_value_eur": 2002470.0,
+    "blended_value_eur": 4401729.0,
+    "market_value_eur_raw": 10000000.0,
+    "value_confidence": 0.7479,
+    "confidence_interval": {
+      "low": 1657482.0,
+      "high": 11689552.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 3000000,
+      "performance_factor": 0.9821,
+      "age_factor": 0.906,
+      "demand_factor": 1.157,
+      "league_prestige": 0.4
+    }
+  },
+  {
+    "player_name": "Ibrahim Osman",
+    "predicted_value_eur": 2521342.0,
+    "blended_value_eur": 4164939.0,
+    "market_value_eur_raw": 8000000.0,
+    "value_confidence": 0.7616,
+    "confidence_interval": {
+      "low": 1577078.0,
+      "high": 10999273.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 3000000,
+      "performance_factor": 1.0174,
+      "age_factor": 0.8007,
+      "demand_factor": 1.2037,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Lucas Beltrán",
-    "predicted_value_eur": 2261929.0,
-    "blended_value_eur": 3983350.0,
+    "predicted_value_eur": 2261861.0,
+    "blended_value_eur": 3983303.0,
     "market_value_eur_raw": 8000000.0,
-    "value_confidence": 0.8859,
+    "value_confidence": 0.861,
     "confidence_interval": {
-      "low": 1586509.0,
-      "high": 10001251.0
+      "low": 1570509.0,
+      "high": 10102902.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.9299,
       "age_factor": 0.9756,
-      "demand_factor": 1.1747,
+      "demand_factor": 1.1746,
       "league_prestige": 0.4
     }
   },
@@ -1733,10 +1771,10 @@
     "predicted_value_eur": 445441.0,
     "blended_value_eur": 3911809.0,
     "market_value_eur_raw": 12000000.0,
-    "value_confidence": 0.7446,
+    "value_confidence": 0.7007,
     "confidence_interval": {
-      "low": 1471026.0,
-      "high": 10402433.0
+      "low": 1445001.0,
+      "high": 10589782.0
     },
     "model_used": "gbm",
     "components": {
@@ -1749,20 +1787,20 @@
   },
   {
     "player_name": "Gonzalo Plata",
-    "predicted_value_eur": 1908055.0,
-    "blended_value_eur": 3735638.0,
+    "predicted_value_eur": 1907988.0,
+    "blended_value_eur": 3735592.0,
     "market_value_eur_raw": 8000000.0,
-    "value_confidence": 0.5854,
+    "value_confidence": 0.6893,
     "confidence_interval": {
-      "low": 1316725.0,
-      "high": 10598256.0
+      "low": 1373526.0,
+      "high": 10159723.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.9173,
       "age_factor": 0.9756,
-      "demand_factor": 1.2148,
+      "demand_factor": 1.2147,
       "league_prestige": 0.4
     }
   },
@@ -1771,10 +1809,10 @@
     "predicted_value_eur": 524996.0,
     "blended_value_eur": 3667497.0,
     "market_value_eur_raw": 11000000.0,
-    "value_confidence": 0.8654,
+    "value_confidence": 0.8493,
     "confidence_interval": {
-      "low": 1448585.0,
-      "high": 9285293.0
+      "low": 1439133.0,
+      "high": 9346276.0
     },
     "model_used": "gbm",
     "components": {
@@ -1787,77 +1825,77 @@
   },
   {
     "player_name": "Giovani Lo Celso",
-    "predicted_value_eur": 657860.0,
-    "blended_value_eur": 3460502.0,
+    "predicted_value_eur": 657997.0,
+    "blended_value_eur": 3460598.0,
     "market_value_eur_raw": 10000000.0,
-    "value_confidence": 0.7039,
+    "value_confidence": 0.757,
     "confidence_interval": {
-      "low": 1279955.0,
-      "high": 9355853.0
+      "low": 1307927.0,
+      "high": 9156274.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.7412,
       "age_factor": 0.4111,
-      "demand_factor": 1.1514,
+      "demand_factor": 1.152,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Valentín Carboni",
-    "predicted_value_eur": 1005846.0,
-    "blended_value_eur": 3254092.0,
+    "predicted_value_eur": 1006119.0,
+    "blended_value_eur": 3254283.0,
     "market_value_eur_raw": 8500000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 1169074.0,
-      "high": 9057693.0
+      "low": 1209666.0,
+      "high": 8754781.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.7579,
       "age_factor": 0.8007,
-      "demand_factor": 1.2603,
+      "demand_factor": 1.2609,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Jhon Córdoba",
-    "predicted_value_eur": 353350.0,
-    "blended_value_eur": 3247345.0,
+    "predicted_value_eur": 353222.0,
+    "blended_value_eur": 3247255.0,
     "market_value_eur_raw": 10000000.0,
-    "value_confidence": 0.754,
+    "value_confidence": 0.7857,
     "confidence_interval": {
-      "low": 1225832.0,
-      "high": 8602523.0
+      "low": 1241700.0,
+      "high": 8492119.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.6878,
       "age_factor": 0.2059,
-      "demand_factor": 1.126,
+      "demand_factor": 1.1248,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Neymar",
-    "predicted_value_eur": 297048.0,
-    "blended_value_eur": 3207934.0,
+    "predicted_value_eur": 297063.0,
+    "blended_value_eur": 3207944.0,
     "market_value_eur_raw": 10000000.0,
-    "value_confidence": 0.7136,
+    "value_confidence": 0.7626,
     "confidence_interval": {
-      "low": 1191226.0,
-      "high": 8638868.0
+      "low": 1215201.0,
+      "high": 8468482.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.583,
       "age_factor": 0.0847,
-      "demand_factor": 1.1731,
+      "demand_factor": 1.1735,
       "league_prestige": 0.4
     }
   },
@@ -1866,10 +1904,10 @@
     "predicted_value_eur": 2374485.0,
     "blended_value_eur": 3162140.0,
     "market_value_eur_raw": 5000000.0,
-    "value_confidence": 0.7466,
+    "value_confidence": 0.7814,
     "confidence_interval": {
-      "low": 1190082.0,
-      "high": 8402049.0
+      "low": 1207041.0,
+      "high": 8284000.0
     },
     "model_used": "gbm",
     "components": {
@@ -1882,191 +1920,153 @@
   },
   {
     "player_name": "Kendry Páez",
-    "predicted_value_eur": 557883.0,
-    "blended_value_eur": 3090518.0,
+    "predicted_value_eur": 511405.0,
+    "blended_value_eur": 3057984.0,
     "market_value_eur_raw": 9000000.0,
-    "value_confidence": 0.7756,
+    "value_confidence": 0.798,
     "confidence_interval": {
-      "low": 1176923.0,
-      "high": 8115484.0
+      "low": 1175189.0,
+      "high": 7957248.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.7556,
-      "age_factor": 0.4111,
-      "demand_factor": 1.2691,
-      "league_prestige": 0.4
-    }
-  },
-  {
-    "player_name": "Gonzalo Montiel",
-    "predicted_value_eur": 2381901.0,
-    "blended_value_eur": 3017331.0,
-    "market_value_eur_raw": 4500000.0,
-    "value_confidence": 0.6323,
-    "confidence_interval": {
-      "low": 1084015.0,
-      "high": 8398674.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.9478,
+      "performance_factor": 0.66,
       "age_factor": 0.5394,
-      "demand_factor": 1.2541,
+      "demand_factor": 1.2695,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Jhegson Méndez",
-    "predicted_value_eur": 3871840.0,
-    "blended_value_eur": 2950288.0,
+    "predicted_value_eur": 3868245.0,
+    "blended_value_eur": 2947772.0,
     "market_value_eur_raw": 800000.0,
-    "value_confidence": 0.8654,
+    "value_confidence": 0.8493,
     "confidence_interval": {
-      "low": 1165302.0,
-      "high": 7469478.0
+      "low": 1156711.0,
+      "high": 7512124.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
-      "performance_factor": 1.0211,
+      "performance_factor": 1.0205,
       "age_factor": 0.5394,
-      "demand_factor": 1.2464,
+      "demand_factor": 1.2455,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Jeremy Sarmiento",
-    "predicted_value_eur": 2005346.0,
-    "blended_value_eur": 2903742.0,
+    "predicted_value_eur": 2005017.0,
+    "blended_value_eur": 2903512.0,
     "market_value_eur_raw": 5000000.0,
-    "value_confidence": 0.8654,
+    "value_confidence": 0.8493,
     "confidence_interval": {
-      "low": 1146918.0,
-      "high": 7351634.0
+      "low": 1139344.0,
+      "high": 7399331.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.9184,
+      "performance_factor": 0.9181,
       "age_factor": 0.9756,
-      "demand_factor": 1.1928,
+      "demand_factor": 1.1927,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Patson Daka",
-    "predicted_value_eur": 1797791.0,
-    "blended_value_eur": 2758454.0,
+    "predicted_value_eur": 1795843.0,
+    "blended_value_eur": 2757090.0,
     "market_value_eur_raw": 5000000.0,
-    "value_confidence": 0.6764,
+    "value_confidence": 0.7413,
     "confidence_interval": {
-      "low": 1008940.0,
-      "high": 7541646.0
+      "low": 1035407.0,
+      "high": 7341604.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.1326,
+      "performance_factor": 1.13,
       "age_factor": 0.8007,
-      "demand_factor": 1.1606,
-      "league_prestige": 0.4
-    }
-  },
-  {
-    "player_name": "Jefferson Lerma",
-    "predicted_value_eur": 474974.0,
-    "blended_value_eur": 2732482.0,
-    "market_value_eur_raw": 8000000.0,
-    "value_confidence": 0.712,
-    "confidence_interval": {
-      "low": 1014013.0,
-      "high": 7363279.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 0.677,
-      "age_factor": 0.2982,
-      "demand_factor": 1.1429,
+      "demand_factor": 1.1604,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Guilherme Arana",
-    "predicted_value_eur": 767831.0,
-    "blended_value_eur": 2637482.0,
+    "predicted_value_eur": 767862.0,
+    "blended_value_eur": 2637503.0,
     "market_value_eur_raw": 7000000.0,
-    "value_confidence": 0.7333,
+    "value_confidence": 0.7738,
     "confidence_interval": {
-      "low": 987272.0,
-      "high": 7045993.0
+      "low": 1003672.0,
+      "high": 6930969.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.7629,
       "age_factor": 0.5394,
-      "demand_factor": 1.2202,
+      "demand_factor": 1.2203,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Noah Ohio",
-    "predicted_value_eur": 3327853.0,
-    "blended_value_eur": 2629497.0,
+    "predicted_value_eur": 3328197.0,
+    "blended_value_eur": 2629738.0,
     "market_value_eur_raw": 1000000.0,
-    "value_confidence": 0.5854,
+    "value_confidence": 0.6893,
     "confidence_interval": {
-      "low": 926836.0,
-      "high": 7460059.0
+      "low": 966919.0,
+      "high": 7152122.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.9411,
       "age_factor": 0.9756,
-      "demand_factor": 1.2635,
+      "demand_factor": 1.264,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Yerry Mina",
-    "predicted_value_eur": 2346281.0,
-    "blended_value_eur": 2542397.0,
+    "predicted_value_eur": 2346494.0,
+    "blended_value_eur": 2542546.0,
     "market_value_eur_raw": 3000000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 934273.0,
-      "high": 6918517.0
+      "low": 957402.0,
+      "high": 6752170.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 0.8936,
       "age_factor": 0.2982,
-      "demand_factor": 1.2106,
+      "demand_factor": 1.2108,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Reinier",
-    "predicted_value_eur": 2649068.0,
-    "blended_value_eur": 2454348.0,
+    "predicted_value_eur": 2716752.0,
+    "blended_value_eur": 2501726.0,
     "market_value_eur_raw": 2000000.0,
-    "value_confidence": 0.7604,
+    "value_confidence": 0.7893,
     "confidence_interval": {
-      "low": 928900.0,
-      "high": 6484902.0
+      "low": 958023.0,
+      "high": 6532865.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.1178,
+      "performance_factor": 0.9467,
       "age_factor": 1.0,
-      "demand_factor": 1.2638,
+      "demand_factor": 1.2639,
       "league_prestige": 0.4
     }
   },
@@ -2075,10 +2075,10 @@
     "predicted_value_eur": 2354007.0,
     "blended_value_eur": 2397805.0,
     "market_value_eur_raw": 2500000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 861442.0,
-      "high": 6674237.0
+      "low": 891300.0,
+      "high": 6450655.0
     },
     "model_used": "gbm",
     "components": {
@@ -2091,248 +2091,267 @@
   },
   {
     "player_name": "Sékou Koïta",
-    "predicted_value_eur": 2133599.0,
-    "blended_value_eur": 2393519.0,
+    "predicted_value_eur": 2134092.0,
+    "blended_value_eur": 2393864.0,
     "market_value_eur_raw": 3000000.0,
-    "value_confidence": 0.6094,
+    "value_confidence": 0.703,
     "confidence_interval": {
-      "low": 851933.0,
-      "high": 6724631.0
+      "low": 885108.0,
+      "high": 6474447.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.9067,
       "age_factor": 0.906,
-      "demand_factor": 1.1878,
+      "demand_factor": 1.1886,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "José Cifuentes",
-    "predicted_value_eur": 1280980.0,
-    "blended_value_eur": 2246686.0,
+    "predicted_value_eur": 1267459.0,
+    "blended_value_eur": 2237221.0,
     "market_value_eur_raw": 4500000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 874855.0,
-      "high": 5769640.0
+      "low": 870780.0,
+      "high": 5747903.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.8906,
       "age_factor": 0.8007,
-      "demand_factor": 1.2167,
+      "demand_factor": 1.2186,
       "league_prestige": 0.4
     }
   },
   {
-    "player_name": "Alan Minda",
-    "predicted_value_eur": 1670330.0,
-    "blended_value_eur": 2069231.0,
-    "market_value_eur_raw": 3000000.0,
-    "value_confidence": 0.5854,
+    "player_name": "Gonzalo Montiel",
+    "predicted_value_eur": 1137725.0,
+    "blended_value_eur": 2146408.0,
+    "market_value_eur_raw": 4500000.0,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 729356.0,
-      "high": 5870547.0
+      "low": 797852.0,
+      "high": 5774339.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.036,
-      "age_factor": 0.906,
-      "demand_factor": 1.2372,
+      "performance_factor": 0.7863,
+      "age_factor": 0.5394,
+      "demand_factor": 1.2541,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Jordy Caicedo",
-    "predicted_value_eur": 2182746.0,
-    "blended_value_eur": 1977922.0,
+    "predicted_value_eur": 2182662.0,
+    "blended_value_eur": 1977863.0,
     "market_value_eur_raw": 1500000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 710594.0,
-      "high": 5505502.0
+      "low": 735201.0,
+      "high": 5320913.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.8369,
       "age_factor": 0.6736,
-      "demand_factor": 1.151,
+      "demand_factor": 1.1508,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Angelo Preciado",
-    "predicted_value_eur": 1164097.0,
-    "blended_value_eur": 1954868.0,
+    "predicted_value_eur": 1103029.0,
+    "blended_value_eur": 1912120.0,
     "market_value_eur_raw": 3800000.0,
-    "value_confidence": 0.7112,
+    "value_confidence": 0.7612,
     "confidence_interval": {
-      "low": 725207.0,
-      "high": 5269540.0
+      "low": 723918.0,
+      "high": 5050579.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 1.0357,
+      "performance_factor": 0.8698,
       "age_factor": 0.6736,
-      "demand_factor": 1.2267,
+      "demand_factor": 1.2268,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Luciano Acosta",
-    "predicted_value_eur": 514391.0,
-    "blended_value_eur": 1860074.0,
+    "predicted_value_eur": 514770.0,
+    "blended_value_eur": 1860339.0,
     "market_value_eur_raw": 5000000.0,
-    "value_confidence": 0.7349,
+    "value_confidence": 0.7747,
     "confidence_interval": {
-      "low": 696723.0,
-      "high": 4965928.0
+      "low": 708190.0,
+      "high": 4886908.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.7366,
       "age_factor": 0.2982,
-      "demand_factor": 1.1638,
+      "demand_factor": 1.1661,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Rafael Borré",
-    "predicted_value_eur": 940843.0,
-    "blended_value_eur": 1858590.0,
+    "predicted_value_eur": 940820.0,
+    "blended_value_eur": 1858574.0,
     "market_value_eur_raw": 4000000.0,
-    "value_confidence": 0.7349,
+    "value_confidence": 0.7747,
     "confidence_interval": {
-      "low": 696167.0,
-      "high": 4961966.0
+      "low": 707518.0,
+      "high": 4882272.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.7445,
       "age_factor": 0.4111,
-      "demand_factor": 1.1027,
+      "demand_factor": 1.1026,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Leandro Paredes",
-    "predicted_value_eur": 393707.0,
-    "blended_value_eur": 1775595.0,
+    "predicted_value_eur": 394049.0,
+    "blended_value_eur": 1775834.0,
     "market_value_eur_raw": 5000000.0,
-    "value_confidence": 0.7704,
+    "value_confidence": 0.795,
     "confidence_interval": {
-      "low": 674749.0,
-      "high": 4672457.0
+      "low": 681624.0,
+      "high": 4626577.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.6951,
       "age_factor": 0.2982,
-      "demand_factor": 1.181,
+      "demand_factor": 1.1832,
+      "league_prestige": 0.4
+    }
+  },
+  {
+    "player_name": "Alan Minda",
+    "predicted_value_eur": 1161160.0,
+    "blended_value_eur": 1712812.0,
+    "market_value_eur_raw": 3000000.0,
+    "value_confidence": 0.6893,
+    "confidence_interval": {
+      "low": 629778.0,
+      "high": 4658350.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 3000000,
+      "performance_factor": 0.8731,
+      "age_factor": 0.906,
+      "demand_factor": 1.2395,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Óscar Zambrano",
-    "predicted_value_eur": 1768597.0,
-    "blended_value_eur": 1688018.0,
+    "predicted_value_eur": 1768656.0,
+    "blended_value_eur": 1688059.0,
     "market_value_eur_raw": 1500000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 657311.0,
-      "high": 4334943.0
+      "low": 657033.0,
+      "high": 4336988.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.8586,
       "age_factor": 0.906,
-      "demand_factor": 1.2763,
+      "demand_factor": 1.2764,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Carlos Gruezo",
-    "predicted_value_eur": 1791706.0,
-    "blended_value_eur": 1614194.0,
+    "predicted_value_eur": 1791653.0,
+    "blended_value_eur": 1614157.0,
     "market_value_eur_raw": 1200000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 628564.0,
-      "high": 4145358.0
+      "low": 628268.0,
+      "high": 4147117.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.7871,
       "age_factor": 0.2982,
-      "demand_factor": 1.1457,
-      "league_prestige": 0.4
-    }
-  },
-  {
-    "player_name": "Dylan Borrero",
-    "predicted_value_eur": 1642250.0,
-    "blended_value_eur": 1569575.0,
-    "market_value_eur_raw": 1400000.0,
-    "value_confidence": 0.6879,
-    "confidence_interval": {
-      "low": 576783.0,
-      "high": 4271218.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 1.0584,
-      "age_factor": 1.0,
-      "demand_factor": 1.2139,
+      "demand_factor": 1.1454,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Roberto Firmino",
-    "predicted_value_eur": 296613.0,
-    "blended_value_eur": 1557629.0,
+    "predicted_value_eur": 296606.0,
+    "blended_value_eur": 1557624.0,
     "market_value_eur_raw": 4500000.0,
-    "value_confidence": 0.7485,
+    "value_confidence": 0.7825,
     "confidence_interval": {
-      "low": 586672.0,
-      "high": 4135544.0
+      "low": 594837.0,
+      "high": 4078753.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.5886,
       "age_factor": 0.0847,
-      "demand_factor": 1.1214,
+      "demand_factor": 1.1212,
+      "league_prestige": 0.4
+    }
+  },
+  {
+    "player_name": "Dylan Borrero",
+    "predicted_value_eur": 1418930.0,
+    "blended_value_eur": 1413251.0,
+    "market_value_eur_raw": 1400000.0,
+    "value_confidence": 0.7479,
+    "confidence_interval": {
+      "low": 532163.0,
+      "high": 3753132.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 3000000,
+      "performance_factor": 0.8917,
+      "age_factor": 1.0,
+      "demand_factor": 1.2137,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Pedro Velasco",
-    "predicted_value_eur": 1569394.0,
-    "blended_value_eur": 1248576.0,
+    "predicted_value_eur": 1569551.0,
+    "blended_value_eur": 1248686.0,
     "market_value_eur_raw": 500000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 458823.0,
-      "high": 3397697.0
+      "low": 470196.0,
+      "high": 3316101.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 0.9524,
       "age_factor": 0.2059,
-      "demand_factor": 1.209,
+      "demand_factor": 1.2092,
       "league_prestige": 0.9
     }
   },
@@ -2341,10 +2360,10 @@
     "predicted_value_eur": 1568313.0,
     "blended_value_eur": 1247819.0,
     "market_value_eur_raw": 500000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 485898.0,
-      "high": 3204483.0
+      "low": 485681.0,
+      "high": 3205916.0
     },
     "model_used": "gbm",
     "components": {
@@ -2356,33 +2375,14 @@
     }
   },
   {
-    "player_name": "Byron Castillo",
-    "predicted_value_eur": 1480959.0,
-    "blended_value_eur": 1216671.0,
-    "market_value_eur_raw": 600000.0,
-    "value_confidence": 0.6879,
-    "confidence_interval": {
-      "low": 447099.0,
-      "high": 3310875.0
-    },
-    "model_used": "gbm",
-    "components": {
-      "base_value_eur": 3000000,
-      "performance_factor": 1.0542,
-      "age_factor": 0.8007,
-      "demand_factor": 1.034,
-      "league_prestige": 0.4
-    }
-  },
-  {
     "player_name": "Tomás Molina",
     "predicted_value_eur": 596847.0,
     "blended_value_eur": 1167793.0,
     "market_value_eur_raw": 2500000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 419545.0,
-      "high": 3250526.0
+      "low": 434086.0,
+      "high": 3141636.0
     },
     "model_used": "gbm",
     "components": {
@@ -2395,77 +2395,77 @@
   },
   {
     "player_name": "Renato Tapia",
-    "predicted_value_eur": 668443.0,
-    "blended_value_eur": 1007910.0,
+    "predicted_value_eur": 668306.0,
+    "blended_value_eur": 1007814.0,
     "market_value_eur_raw": 1800000.0,
-    "value_confidence": 0.8654,
+    "value_confidence": 0.8493,
     "confidence_interval": {
-      "low": 398103.0,
-      "high": 2551806.0
+      "low": 395468.0,
+      "high": 2568321.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 6000000,
       "performance_factor": 0.5547,
       "age_factor": 0.4111,
-      "demand_factor": 1.1517,
+      "demand_factor": 1.1513,
       "league_prestige": 0.65
     }
   },
   {
     "player_name": "Roger Martínez",
-    "predicted_value_eur": 711577.0,
-    "blended_value_eur": 948104.0,
+    "predicted_value_eur": 711483.0,
+    "blended_value_eur": 948038.0,
     "market_value_eur_raw": 1500000.0,
-    "value_confidence": 0.7094,
+    "value_confidence": 0.7602,
     "confidence_interval": {
-      "low": 351466.0,
-      "high": 2557579.0
+      "low": 358776.0,
+      "high": 2505119.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 6000000,
       "performance_factor": 0.7034,
       "age_factor": 0.2982,
-      "demand_factor": 1.146,
+      "demand_factor": 1.1457,
       "league_prestige": 0.65
     }
   },
   {
     "player_name": "Miguel Borja",
-    "predicted_value_eur": 463861.0,
-    "blended_value_eur": 924703.0,
+    "predicted_value_eur": 463838.0,
+    "blended_value_eur": 924687.0,
     "market_value_eur_raw": 2000000.0,
-    "value_confidence": 0.9354,
+    "value_confidence": 0.8893,
     "confidence_interval": {
-      "low": 375783.0,
-      "high": 2275449.0
+      "low": 368799.0,
+      "high": 2318463.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 6000000,
       "performance_factor": 0.5751,
       "age_factor": 0.1353,
-      "demand_factor": 1.129,
+      "demand_factor": 1.1288,
       "league_prestige": 0.65
     }
   },
   {
     "player_name": "James Rodríguez",
-    "predicted_value_eur": 293347.0,
-    "blended_value_eur": 805343.0,
+    "predicted_value_eur": 293395.0,
+    "blended_value_eur": 805376.0,
     "market_value_eur_raw": 2000000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 289330.0,
-      "high": 2241654.0
+      "low": 299370.0,
+      "high": 2166649.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.5401,
       "age_factor": 0.0847,
-      "demand_factor": 1.1584,
+      "demand_factor": 1.1598,
       "league_prestige": 0.4
     }
   },
@@ -2474,10 +2474,10 @@
     "predicted_value_eur": 558913.0,
     "blended_value_eur": 751239.0,
     "market_value_eur_raw": 1200000.0,
-    "value_confidence": 0.7446,
+    "value_confidence": 0.7007,
     "confidence_interval": {
-      "low": 282502.0,
-      "high": 1997724.0
+      "low": 277504.0,
+      "high": 2033703.0
     },
     "model_used": "gbm",
     "components": {
@@ -2490,20 +2490,20 @@
   },
   {
     "player_name": "Xherdan Shaqiri",
-    "predicted_value_eur": 298776.0,
-    "blended_value_eur": 749143.0,
+    "predicted_value_eur": 298822.0,
+    "blended_value_eur": 749175.0,
     "market_value_eur_raw": 1800000.0,
-    "value_confidence": 0.7103,
+    "value_confidence": 0.7607,
     "confidence_interval": {
-      "low": 277812.0,
-      "high": 2020128.0
+      "low": 283576.0,
+      "high": 1979236.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.6033,
       "age_factor": 0.0847,
-      "demand_factor": 1.1787,
+      "demand_factor": 1.1799,
       "league_prestige": 0.4
     }
   },
@@ -2512,10 +2512,10 @@
     "predicted_value_eur": 507486.0,
     "blended_value_eur": 685240.0,
     "market_value_eur_raw": 1100000.0,
-    "value_confidence": 0.7446,
+    "value_confidence": 0.7007,
     "confidence_interval": {
-      "low": 257683.0,
-      "high": 1822217.0
+      "low": 253124.0,
+      "high": 1855035.0
     },
     "model_used": "gbm",
     "components": {
@@ -2528,96 +2528,96 @@
   },
   {
     "player_name": "Félix Torres",
-    "predicted_value_eur": 474677.0,
-    "blended_value_eur": 632274.0,
+    "predicted_value_eur": 474707.0,
+    "blended_value_eur": 632295.0,
     "market_value_eur_raw": 1000000.0,
-    "value_confidence": 0.6323,
+    "value_confidence": 0.7161,
     "confidence_interval": {
-      "low": 227153.0,
-      "high": 1759921.0
+      "low": 235034.0,
+      "high": 1701021.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.7197,
       "age_factor": 0.5394,
-      "demand_factor": 1.2134,
+      "demand_factor": 1.2135,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Enner Valencia",
-    "predicted_value_eur": 117307.0,
-    "blended_value_eur": 532115.0,
+    "predicted_value_eur": 117304.0,
+    "blended_value_eur": 532113.0,
     "market_value_eur_raw": 1500000.0,
-    "value_confidence": 0.8479,
+    "value_confidence": 0.8393,
     "confidence_interval": {
-      "low": 208684.0,
-      "high": 1356818.0
+      "low": 207955.0,
+      "high": 1361566.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
       "performance_factor": 0.6215,
       "age_factor": 0.0286,
-      "demand_factor": 1.1115,
+      "demand_factor": 1.1113,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Pedro",
-    "predicted_value_eur": 241753.0,
-    "blended_value_eur": 469227.0,
+    "predicted_value_eur": 241773.0,
+    "blended_value_eur": 469241.0,
     "market_value_eur_raw": 1000000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 172430.0,
-      "high": 1276888.0
+      "low": 176694.0,
+      "high": 1246151.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 0.8044,
       "age_factor": 0.0079,
-      "demand_factor": 1.1261,
+      "demand_factor": 1.1269,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Renato Ibarra",
-    "predicted_value_eur": 484164.0,
-    "blended_value_eur": 413915.0,
+    "predicted_value_eur": 484129.0,
+    "blended_value_eur": 413890.0,
     "market_value_eur_raw": 250000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 161178.0,
-      "high": 1062961.0
+      "low": 161096.0,
+      "high": 1063373.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 0.882,
       "age_factor": 0.0504,
-      "demand_factor": 1.1354,
+      "demand_factor": 1.1352,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Sebastián Rodríguez",
-    "predicted_value_eur": 337161.0,
-    "blended_value_eur": 386013.0,
+    "predicted_value_eur": 336806.0,
+    "blended_value_eur": 385764.0,
     "market_value_eur_raw": 500000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 150313.0,
-      "high": 991307.0
+      "low": 150149.0,
+      "high": 991111.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.5701,
+      "performance_factor": 0.5673,
       "age_factor": 0.1353,
-      "demand_factor": 1.1477,
+      "demand_factor": 1.1472,
       "league_prestige": 0.4
     }
   },
@@ -2626,10 +2626,10 @@
     "predicted_value_eur": 427896.0,
     "blended_value_eur": 374527.0,
     "market_value_eur_raw": 250000.0,
-    "value_confidence": 0.7446,
+    "value_confidence": 0.7007,
     "confidence_interval": {
-      "low": 140840.0,
-      "high": 995957.0
+      "low": 138348.0,
+      "high": 1013894.0
     },
     "model_used": "gbm",
     "components": {
@@ -2645,10 +2645,10 @@
     "predicted_value_eur": 370660.0,
     "blended_value_eur": 349462.0,
     "market_value_eur_raw": 300000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 136080.0,
-      "high": 897442.0
+      "low": 136019.0,
+      "high": 897843.0
     },
     "model_used": "gbm",
     "components": {
@@ -2664,10 +2664,10 @@
     "predicted_value_eur": 429771.0,
     "blended_value_eur": 330840.0,
     "market_value_eur_raw": 100000.0,
-    "value_confidence": 0.7446,
+    "value_confidence": 0.7007,
     "confidence_interval": {
-      "low": 124412.0,
-      "high": 879782.0
+      "low": 122211.0,
+      "high": 895627.0
     },
     "model_used": "gbm",
     "components": {
@@ -2679,14 +2679,33 @@
     }
   },
   {
+    "player_name": "Kendry Paez",
+    "predicted_value_eur": 323675.0,
+    "blended_value_eur": 323675.0,
+    "market_value_eur_raw": null,
+    "value_confidence": 0.6209,
+    "confidence_interval": {
+      "low": 118124.0,
+      "high": 886912.0
+    },
+    "model_used": "gbm",
+    "components": {
+      "base_value_eur": 3000000,
+      "performance_factor": 0.3417,
+      "age_factor": 0.8,
+      "demand_factor": 1.1861,
+      "league_prestige": 0.4
+    }
+  },
+  {
     "player_name": "Diogo Jota",
     "predicted_value_eur": 306766.0,
     "blended_value_eur": 306766.0,
     "market_value_eur_raw": null,
-    "value_confidence": 0.5661,
+    "value_confidence": 0.5079,
     "confidence_interval": {
-      "low": 114030.0,
-      "high": 825272.0
+      "low": 111363.0,
+      "high": 845034.0
     },
     "model_used": "gbm",
     "components": {
@@ -2702,10 +2721,10 @@
     "predicted_value_eur": 306766.0,
     "blended_value_eur": 306766.0,
     "market_value_eur_raw": null,
-    "value_confidence": 0.5661,
+    "value_confidence": 0.5079,
     "confidence_interval": {
-      "low": 114030.0,
-      "high": 825272.0
+      "low": 111363.0,
+      "high": 845034.0
     },
     "model_used": "gbm",
     "components": {
@@ -2721,10 +2740,10 @@
     "predicted_value_eur": 273767.0,
     "blended_value_eur": 251637.0,
     "market_value_eur_raw": 200000.0,
-    "value_confidence": 0.7446,
+    "value_confidence": 0.7007,
     "confidence_interval": {
-      "low": 94627.0,
-      "high": 669163.0
+      "low": 92953.0,
+      "high": 681214.0
     },
     "model_used": "gbm",
     "components": {
@@ -2740,10 +2759,10 @@
     "predicted_value_eur": 230511.0,
     "blended_value_eur": 230511.0,
     "market_value_eur_raw": null,
-    "value_confidence": 0.5946,
+    "value_confidence": 0.5507,
     "confidence_interval": {
-      "low": 86683.0,
-      "high": 612984.0
+      "low": 85150.0,
+      "high": 624024.0
     },
     "model_used": "gbm",
     "components": {
@@ -2756,20 +2775,20 @@
   },
   {
     "player_name": "Matheus Uribe",
-    "predicted_value_eur": 119702.0,
-    "blended_value_eur": 218791.0,
+    "predicted_value_eur": 119427.0,
+    "blended_value_eur": 218599.0,
     "market_value_eur_raw": 450000.0,
-    "value_confidence": 0.6879,
+    "value_confidence": 0.7479,
     "confidence_interval": {
-      "low": 80401.0,
-      "high": 595387.0
+      "low": 82314.0,
+      "high": 580527.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.445,
+      "performance_factor": 0.4388,
       "age_factor": 0.0504,
-      "demand_factor": 1.1448,
+      "demand_factor": 1.1444,
       "league_prestige": 0.4
     }
   },
@@ -2778,10 +2797,10 @@
     "predicted_value_eur": 187323.0,
     "blended_value_eur": 187323.0,
     "market_value_eur_raw": null,
-    "value_confidence": 0.5946,
+    "value_confidence": 0.5507,
     "confidence_interval": {
-      "low": 70442.0,
-      "high": 498137.0
+      "low": 69196.0,
+      "high": 507108.0
     },
     "model_used": "gbm",
     "components": {
@@ -2797,10 +2816,10 @@
     "predicted_value_eur": 163909.0,
     "blended_value_eur": 174736.0,
     "market_value_eur_raw": 200000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 68042.0,
-      "high": 448734.0
+      "low": 68011.0,
+      "high": 448934.0
     },
     "model_used": "gbm",
     "components": {
@@ -2813,58 +2832,58 @@
   },
   {
     "player_name": "Damián Díaz",
-    "predicted_value_eur": 128510.0,
-    "blended_value_eur": 112457.0,
+    "predicted_value_eur": 123836.0,
+    "blended_value_eur": 109185.0,
     "market_value_eur_raw": 75000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 43791.0,
-      "high": 288797.0
+      "low": 42497.0,
+      "high": 280520.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
-      "performance_factor": 0.7662,
+      "performance_factor": 0.7603,
       "age_factor": 0.0018,
-      "demand_factor": 1.1833,
+      "demand_factor": 1.1801,
       "league_prestige": 0.9
     }
   },
   {
     "player_name": "Joao Rojas",
-    "predicted_value_eur": 94433.0,
-    "blended_value_eur": 96103.0,
+    "predicted_value_eur": 94240.0,
+    "blended_value_eur": 95968.0,
     "market_value_eur_raw": 100000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 37422.0,
-      "high": 246799.0
+      "low": 37353.0,
+      "high": 246562.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 3000000,
-      "performance_factor": 0.5003,
+      "performance_factor": 0.4932,
       "age_factor": 0.0286,
-      "demand_factor": 1.1657,
+      "demand_factor": 1.1642,
       "league_prestige": 0.4
     }
   },
   {
     "player_name": "Alexander Domínguez",
-    "predicted_value_eur": 63640.0,
-    "blended_value_eur": 74548.0,
+    "predicted_value_eur": 63657.0,
+    "blended_value_eur": 74560.0,
     "market_value_eur_raw": 100000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 29029.0,
-      "high": 191444.0
+      "low": 29021.0,
+      "high": 191561.0
     },
     "model_used": "gbm",
     "components": {
       "base_value_eur": 16000000,
       "performance_factor": 0.5977,
       "age_factor": 0.0079,
-      "demand_factor": 1.2223,
+      "demand_factor": 1.2232,
       "league_prestige": 0.9
     }
   },
@@ -2873,10 +2892,10 @@
     "predicted_value_eur": 57212.0,
     "blended_value_eur": 70048.0,
     "market_value_eur_raw": 100000.0,
-    "value_confidence": 0.8304,
+    "value_confidence": 0.8293,
     "confidence_interval": {
-      "low": 27277.0,
-      "high": 179888.0
+      "low": 27264.0,
+      "high": 179968.0
     },
     "model_used": "gbm",
     "components": {

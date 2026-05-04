@@ -3,7 +3,7 @@
     "tm_id": "668267",
     "player_name": "Marcos Leonardo",
     "date_of_birth": "02/05/2003",
-    "age": 22,
+    "age": 23,
     "nationality": "Brazil",
     "height": "1,77 m",
     "position": "Attack - Centre-Forward",
@@ -128,12 +128,12 @@
     {
       "competition": "Saudi Pro League",
       "season": "25/26",
-      "games_played": 22,
-      "goals": 12,
+      "games_played": 23,
+      "goals": 13,
       "assists": 1,
       "yellow_cards": 1,
       "red_cards": 0,
-      "minutes_played": 1298
+      "minutes_played": 1323
     },
     {
       "competition": "King's Cup",

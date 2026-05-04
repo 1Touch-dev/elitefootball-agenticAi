@@ -843,6 +843,103 @@ MLS_PLAYER_URLS: dict[str, dict[str, str]] = {
     },
 }
 
+# ── Premier League elite players ──────────────────────────────────────────────
+PREMIER_LEAGUE_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "erling-haaland": {"transfermarkt": "https://www.transfermarkt.com/erling-haaland/profil/spieler/418560", "display_name": "Erling Haaland", "club": "Manchester City", "league": "Premier League", "position": "Centre-Forward", "nationality": "Norway"},
+    "bukayo-saka": {"transfermarkt": "https://www.transfermarkt.com/bukayo-saka/profil/spieler/505460", "display_name": "Bukayo Saka", "club": "Arsenal", "league": "Premier League", "position": "Right Winger", "nationality": "England"},
+    "cole-palmer": {"transfermarkt": "https://www.transfermarkt.com/cole-palmer/profil/spieler/609608", "display_name": "Cole Palmer", "club": "Chelsea", "league": "Premier League", "position": "Attacking Midfielder", "nationality": "England"},
+    "declan-rice": {"transfermarkt": "https://www.transfermarkt.com/declan-rice/profil/spieler/357662", "display_name": "Declan Rice", "club": "Arsenal", "league": "Premier League", "position": "Defensive Midfielder", "nationality": "England"},
+    "phil-foden": {"transfermarkt": "https://www.transfermarkt.com/phil-foden/profil/spieler/406635", "display_name": "Phil Foden", "club": "Manchester City", "league": "Premier League", "position": "Attacking Midfielder", "nationality": "England"},
+    "trent-alexander-arnold": {"transfermarkt": "https://www.transfermarkt.com/trent-alexander-arnold/profil/spieler/314353", "display_name": "Trent Alexander-Arnold", "club": "Liverpool", "league": "Premier League", "position": "Right-Back", "nationality": "England"},
+    "virgil-van-dijk": {"transfermarkt": "https://www.transfermarkt.com/virgil-van-dijk/profil/spieler/139208", "display_name": "Virgil van Dijk", "club": "Liverpool", "league": "Premier League", "position": "Centre-Back", "nationality": "Netherlands"},
+    "alexander-isak": {"transfermarkt": "https://www.transfermarkt.com/alexander-isak/profil/spieler/347266", "display_name": "Alexander Isak", "club": "Newcastle", "league": "Premier League", "position": "Centre-Forward", "nationality": "Sweden"},
+    "ollie-watkins": {"transfermarkt": "https://www.transfermarkt.com/ollie-watkins/profil/spieler/252699", "display_name": "Ollie Watkins", "club": "Aston Villa", "league": "Premier League", "position": "Centre-Forward", "nationality": "England"},
+    "morgan-rogers": {"transfermarkt": "https://www.transfermarkt.com/morgan-rogers/profil/spieler/620555", "display_name": "Morgan Rogers", "club": "Aston Villa", "league": "Premier League", "position": "Attacking Midfielder", "nationality": "England"},
+    "noni-madueke": {"transfermarkt": "https://www.transfermarkt.com/noni-madueke/profil/spieler/537085", "display_name": "Noni Madueke", "club": "Chelsea", "league": "Premier League", "position": "Right Winger", "nationality": "England"},
+    "liam-delap": {"transfermarkt": "https://www.transfermarkt.com/liam-delap/profil/spieler/662237", "display_name": "Liam Delap", "club": "Ipswich Town", "league": "Premier League", "position": "Centre-Forward", "nationality": "England"},
+    "micky-van-de-ven": {"transfermarkt": "https://www.transfermarkt.com/micky-van-de-ven/profil/spieler/567576", "display_name": "Micky van de Ven", "club": "Tottenham", "league": "Premier League", "position": "Centre-Back", "nationality": "Netherlands"},
+    "matthijs-de-ligt": {"transfermarkt": "https://www.transfermarkt.com/matthijs-de-ligt/profil/spieler/326031", "display_name": "Matthijs de Ligt", "club": "Manchester United", "league": "Premier League", "position": "Centre-Back", "nationality": "Netherlands"},
+    "amad-diallo": {"transfermarkt": "https://www.transfermarkt.com/amad-diallo/profil/spieler/504416", "display_name": "Amad Diallo", "club": "Manchester United", "league": "Premier League", "position": "Right Winger", "nationality": "Ivory Coast"},
+}
+
+# ── La Liga players ─────────────────────────────────────────────────────────
+LA_LIGA_PLAYER_URLS: dict[str, dict[str, str]] = {
+
+    "jude-bellingham": {"transfermarkt": "https://www.transfermarkt.com/jude-bellingham/profil/spieler/581678", "display_name": "Jude Bellingham", "club": "Real Madrid", "league": "La Liga", "position": "Central Midfielder", "nationality": "England"},
+    "pedri": {"transfermarkt": "https://www.transfermarkt.com/pedri/profil/spieler/557458", "display_name": "Pedri", "club": "Barcelona", "league": "La Liga", "position": "Central Midfielder", "nationality": "Spain"},
+    "lamine-yamal": {"transfermarkt": "https://www.transfermarkt.com/lamine-yamal/profil/spieler/949449", "display_name": "Lamine Yamal", "club": "Barcelona", "league": "La Liga", "position": "Right Winger", "nationality": "Spain"},
+    "dani-olmo": {"transfermarkt": "https://www.transfermarkt.com/dani-olmo/profil/spieler/273357", "display_name": "Dani Olmo", "club": "Barcelona", "league": "La Liga", "position": "Attacking Midfielder", "nationality": "Spain"},
+    "ferran-torres": {"transfermarkt": "https://www.transfermarkt.com/ferran-torres/profil/spieler/429253", "display_name": "Ferran Torres", "club": "Barcelona", "league": "La Liga", "position": "Left Winger", "nationality": "Spain"},
+    "alejandro-garnacho": {"transfermarkt": "https://www.transfermarkt.com/alejandro-garnacho/profil/spieler/794403", "display_name": "Alejandro Garnacho", "club": "Atletico Madrid", "league": "La Liga", "position": "Left Winger", "nationality": "Argentina"},
+    "kylian-mbappe": {"transfermarkt": "https://www.transfermarkt.com/kylian-mbappe/profil/spieler/342229", "display_name": "Kylian Mbappé", "club": "Real Madrid", "league": "La Liga", "position": "Centre-Forward", "nationality": "France"},
+    "antoine-griezmann": {"transfermarkt": "https://www.transfermarkt.com/antoine-griezmann/profil/spieler/116010", "display_name": "Antoine Griezmann", "club": "Atletico Madrid", "league": "La Liga", "position": "Second Striker", "nationality": "France"},
+    "alejandro-baena": {"transfermarkt": "https://www.transfermarkt.com/alejandro-baena/profil/spieler/570516", "display_name": "Alejandro Baena", "club": "Villarreal", "league": "La Liga", "position": "Attacking Midfielder", "nationality": "Spain"},
+    "gavi": {"transfermarkt": "https://www.transfermarkt.com/gavi/profil/spieler/557469", "display_name": "Gavi", "club": "Barcelona", "league": "La Liga", "position": "Central Midfielder", "nationality": "Spain"},
+    "fran-garcia": {"transfermarkt": "https://www.transfermarkt.com/fran-garcia/profil/spieler/402419", "display_name": "Fran García", "club": "Real Madrid", "league": "La Liga", "position": "Left-Back", "nationality": "Spain"},
+}
+
+# ── Bundesliga players ────────────────────────────────────────────────────────
+BUNDESLIGA_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "florian-wirtz": {"transfermarkt": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/521361", "display_name": "Florian Wirtz", "club": "Bayer Leverkusen", "league": "Bundesliga", "position": "Attacking Midfielder", "nationality": "Germany"},
+    "jamal-musiala": {"transfermarkt": "https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195", "display_name": "Jamal Musiala", "club": "Bayern Munich", "league": "Bundesliga", "position": "Attacking Midfielder", "nationality": "Germany"},
+    "harry-kane": {"transfermarkt": "https://www.transfermarkt.com/harry-kane/profil/spieler/132098", "display_name": "Harry Kane", "club": "Bayern Munich", "league": "Bundesliga", "position": "Centre-Forward", "nationality": "England"},
+    "granit-xhaka": {"transfermarkt": "https://www.transfermarkt.com/granit-xhaka/profil/spieler/162928", "display_name": "Granit Xhaka", "club": "Bayer Leverkusen", "league": "Bundesliga", "position": "Defensive Midfielder", "nationality": "Switzerland"},
+    "serge-gnabry": {"transfermarkt": "https://www.transfermarkt.com/serge-gnabry/profil/spieler/162398", "display_name": "Serge Gnabry", "club": "Bayern Munich", "league": "Bundesliga", "position": "Right Winger", "nationality": "Germany"},
+    "karim-adeyemi": {"transfermarkt": "https://www.transfermarkt.com/karim-adeyemi/profil/spieler/462267", "display_name": "Karim Adeyemi", "club": "Borussia Dortmund", "league": "Bundesliga", "position": "Left Winger", "nationality": "Germany"},
+    "maximilian-beier": {"transfermarkt": "https://www.transfermarkt.com/maximilian-beier/profil/spieler/559756", "display_name": "Maximilian Beier", "club": "Borussia Dortmund", "league": "Bundesliga", "position": "Centre-Forward", "nationality": "Germany"},
+    "jamie-gittens": {"transfermarkt": "https://www.transfermarkt.com/jamie-gittens/profil/spieler/793501", "display_name": "Jamie Gittens", "club": "Borussia Dortmund", "league": "Bundesliga", "position": "Left Winger", "nationality": "England"},
+    "serhou-guirassy": {"transfermarkt": "https://www.transfermarkt.com/serhou-guirassy/profil/spieler/263824", "display_name": "Serhou Guirassy", "club": "Borussia Dortmund", "league": "Bundesliga", "position": "Centre-Forward", "nationality": "Guinea"},
+    "hugo-ekitike": {"transfermarkt": "https://www.transfermarkt.com/hugo-ekitike/profil/spieler/711988", "display_name": "Hugo Ekitiké", "club": "Eintracht Frankfurt", "league": "Bundesliga", "position": "Centre-Forward", "nationality": "France"},
+    "omar-marmoush": {"transfermarkt": "https://www.transfermarkt.com/omar-marmoush/profil/spieler/330940", "display_name": "Omar Marmoush", "club": "Manchester City", "league": "Premier League", "position": "Centre-Forward", "nationality": "Egypt"},
+    "christoph-baumgartner": {"transfermarkt": "https://www.transfermarkt.com/christoph-baumgartner/profil/spieler/356862", "display_name": "Christoph Baumgartner", "club": "RB Leipzig", "league": "Bundesliga", "position": "Attacking Midfielder", "nationality": "Austria"},
+}
+
+# ── Serie A players ───────────────────────────────────────────────────────────
+SERIE_A_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "khvicha-kvaratskhelia": {"transfermarkt": "https://www.transfermarkt.com/khvicha-kvaratskhelia/profil/spieler/555021", "display_name": "Khvicha Kvaratskhelia", "club": "Paris Saint-Germain", "league": "Ligue 1", "position": "Left Winger", "nationality": "Georgia"},
+    "victor-osimhen": {"transfermarkt": "https://www.transfermarkt.com/victor-osimhen/profil/spieler/401173", "display_name": "Victor Osimhen", "club": "Galatasaray", "league": "Süper Lig", "position": "Centre-Forward", "nationality": "Nigeria"},
+    "davide-frattesi": {"transfermarkt": "https://www.transfermarkt.com/davide-frattesi/profil/spieler/387418", "display_name": "Davide Frattesi", "club": "Inter Milan", "league": "Serie A", "position": "Central Midfielder", "nationality": "Italy"},
+    "federico-chiesa": {"transfermarkt": "https://www.transfermarkt.com/federico-chiesa/profil/spieler/341092", "display_name": "Federico Chiesa", "club": "Liverpool", "league": "Premier League", "position": "Right Winger", "nationality": "Italy"},
+    "nicolo-barella": {"transfermarkt": "https://www.transfermarkt.com/nicolo-barella/profil/spieler/255942", "display_name": "Nicolò Barella", "club": "Inter Milan", "league": "Serie A", "position": "Central Midfielder", "nationality": "Italy"},
+    "dusan-vlahovic": {"transfermarkt": "https://www.transfermarkt.com/dusan-vlahovic/profil/spieler/408526", "display_name": "Dušan Vlahović", "club": "Juventus", "league": "Serie A", "position": "Centre-Forward", "nationality": "Serbia"},
+
+    "ademola-lookman": {"transfermarkt": "https://www.transfermarkt.com/ademola-lookman/profil/spieler/351954", "display_name": "Ademola Lookman", "club": "Atalanta", "league": "Serie A", "position": "Left Winger", "nationality": "Nigeria"},
+    "teun-koopmeiners-atalanta": {"transfermarkt": "https://www.transfermarkt.com/teun-koopmeiners/profil/spieler/316685", "display_name": "Teun Koopmeiners", "club": "Juventus", "league": "Serie A", "position": "Attacking Midfielder", "nationality": "Netherlands"},
+    "charles-de-ketelaere": {"transfermarkt": "https://www.transfermarkt.com/charles-de-ketelaere/profil/spieler/572264", "display_name": "Charles De Ketelaere", "club": "Atalanta", "league": "Serie A", "position": "Attacking Midfielder", "nationality": "Belgium"},
+    "edoardo-bove": {"transfermarkt": "https://www.transfermarkt.com/edoardo-bove/profil/spieler/603376", "display_name": "Edoardo Bove", "club": "Fiorentina", "league": "Serie A", "position": "Central Midfielder", "nationality": "Italy"},
+    "matias-soule-roma": {"transfermarkt": "https://www.transfermarkt.com/matias-soule/profil/spieler/806958", "display_name": "Matías Soulé", "club": "Roma", "league": "Serie A", "position": "Attacking Midfielder", "nationality": "Argentina"},
+}
+
+# ── Ligue 1 players ───────────────────────────────────────────────────────────
+LIGUE1_PLAYER_URLS: dict[str, dict[str, str]] = {
+    "ousmane-dembele": {"transfermarkt": "https://www.transfermarkt.com/ousmane-dembele/profil/spieler/272549", "display_name": "Ousmane Dembélé", "club": "Paris Saint-Germain", "league": "Ligue 1", "position": "Right Winger", "nationality": "France"},
+    "bradley-barcola": {"transfermarkt": "https://www.transfermarkt.com/bradley-barcola/profil/spieler/791887", "display_name": "Bradley Barcola", "club": "Paris Saint-Germain", "league": "Ligue 1", "position": "Left Winger", "nationality": "France"},
+    "desire-doue": {"transfermarkt": "https://www.transfermarkt.com/desire-doue/profil/spieler/921538", "display_name": "Désiré Doué", "club": "Paris Saint-Germain", "league": "Ligue 1", "position": "Right Winger", "nationality": "France"},
+    "warren-zaire-emery": {"transfermarkt": "https://www.transfermarkt.com/warren-zaire-emery/profil/spieler/934049", "display_name": "Warren Zaïre-Emery", "club": "Paris Saint-Germain", "league": "Ligue 1", "position": "Central Midfielder", "nationality": "France"},
+    "amine-gouiri": {"transfermarkt": "https://www.transfermarkt.com/amine-gouiri/profil/spieler/484534", "display_name": "Amine Gouiri", "club": "Rennes", "league": "Ligue 1", "position": "Second Striker", "nationality": "Algeria"},
+    "elye-wahi": {"transfermarkt": "https://www.transfermarkt.com/elye-wahi/profil/spieler/762120", "display_name": "Elye Wahi", "club": "Eintracht Frankfurt", "league": "Bundesliga", "position": "Centre-Forward", "nationality": "France"},
+    "leny-yoro": {"transfermarkt": "https://www.transfermarkt.com/leny-yoro/profil/spieler/978558", "display_name": "Leny Yoro", "club": "Manchester United", "league": "Premier League", "position": "Centre-Back", "nationality": "France"},
+}
+
+# ── Uruguay / Chile / Paraguay players ────────────────────────────────────────
+SOUTH_AMERICA_EXTRA_URLS: dict[str, dict[str, str]] = {
+    "darwin-nunez": {"transfermarkt": "https://www.transfermarkt.com/darwin-nunez/profil/spieler/497392", "display_name": "Darwin Núñez", "club": "Liverpool", "league": "Premier League", "position": "Centre-Forward", "nationality": "Uruguay"},
+    "rodrigo-bentancur": {"transfermarkt": "https://www.transfermarkt.com/rodrigo-bentancur/profil/spieler/357582", "display_name": "Rodrigo Bentancur", "club": "Tottenham", "league": "Premier League", "position": "Defensive Midfielder", "nationality": "Uruguay"},
+    "matias-vecino": {"transfermarkt": "https://www.transfermarkt.com/matias-vecino/profil/spieler/196019", "display_name": "Matías Vecino", "club": "Lazio", "league": "Serie A", "position": "Central Midfielder", "nationality": "Uruguay"},
+    "alexis-mac-allister": {"transfermarkt": "https://www.transfermarkt.com/alexis-mac-allister/profil/spieler/394528", "display_name": "Alexis Mac Allister", "club": "Liverpool", "league": "Premier League", "position": "Central Midfielder", "nationality": "Argentina"},
+    "enzo-fernandez": {"transfermarkt": "https://www.transfermarkt.com/enzo-fernandez/profil/spieler/581533", "display_name": "Enzo Fernández", "club": "Chelsea", "league": "Premier League", "position": "Central Midfielder", "nationality": "Argentina"},
+    "marcos-acuna": {"transfermarkt": "https://www.transfermarkt.com/marcos-acuna/profil/spieler/170222", "display_name": "Marcos Acuña", "club": "Sevilla", "league": "La Liga", "position": "Left-Back", "nationality": "Argentina"},
+    "mathias-olivera": {"transfermarkt": "https://www.transfermarkt.com/mathias-olivera/profil/spieler/432809", "display_name": "Mathías Olivera", "club": "Napoli", "league": "Serie A", "position": "Left-Back", "nationality": "Uruguay"},
+    "matheus-nunes": {"transfermarkt": "https://www.transfermarkt.com/matheus-nunes/profil/spieler/504575", "display_name": "Matheus Nunes", "club": "Manchester City", "league": "Premier League", "position": "Central Midfielder", "nationality": "Portugal"},
+    "igor-jesus": {"transfermarkt": "https://www.transfermarkt.com/igor-jesus/profil/spieler/711939", "display_name": "Igor Jesus", "club": "Botafogo", "league": "Brasileirao", "position": "Centre-Forward", "nationality": "Brazil"},
+    "rayan-cherki": {"transfermarkt": "https://www.transfermarkt.com/rayan-cherki/profil/spieler/737747", "display_name": "Rayan Cherki", "club": "Borussia Dortmund", "league": "Bundesliga", "position": "Attacking Midfielder", "nationality": "France"},
+    "gabriel-silva-brazil": {"transfermarkt": "https://www.transfermarkt.com/gabriel/profil/spieler/166162", "display_name": "Gabriel", "club": "Arsenal", "league": "Premier League", "position": "Centre-Back", "nationality": "Brazil"},
+    "evanilson": {"transfermarkt": "https://www.transfermarkt.com/evanilson/profil/spieler/498524", "display_name": "Evanilson", "club": "Bournemouth", "league": "Premier League", "position": "Centre-Forward", "nationality": "Brazil"},
+    "yan-couto-citygruop": {"transfermarkt": "https://www.transfermarkt.com/yan-couto/profil/spieler/596461", "display_name": "Yan Couto", "club": "Borussia Dortmund", "league": "Bundesliga", "position": "Right-Back", "nationality": "Brazil"},
+    "goncalo-ramos": {"transfermarkt": "https://www.transfermarkt.com/goncalo-ramos/profil/spieler/546063", "display_name": "Gonçalo Ramos", "club": "Paris Saint-Germain", "league": "Ligue 1", "position": "Centre-Forward", "nationality": "Portugal"},
+    "pedro-neto-wolves": {"transfermarkt": "https://www.transfermarkt.com/pedro-neto/profil/spieler/441395", "display_name": "Pedro Neto", "club": "Chelsea", "league": "Premier League", "position": "Left Winger", "nationality": "Portugal"},
+}
+
 # ── Comprehensive registry: all players across all leagues ───────────────────
 ALL_PLAYER_URLS: dict[str, dict[str, str]] = {
     **IDV_PLAYER_URLS,
@@ -855,6 +952,12 @@ ALL_PLAYER_URLS: dict[str, dict[str, str]] = {
     **BELGIUM_PLAYER_URLS,
     **AUSTRIA_PLAYER_URLS,
     **MLS_PLAYER_URLS,
+    **PREMIER_LEAGUE_PLAYER_URLS,
+    **LA_LIGA_PLAYER_URLS,
+    **BUNDESLIGA_PLAYER_URLS,
+    **SERIE_A_PLAYER_URLS,
+    **LIGUE1_PLAYER_URLS,
+    **SOUTH_AMERICA_EXTRA_URLS,
 }
 
 for key, val in ALL_PLAYER_URLS.items():
