@@ -66,6 +66,11 @@ def run_pipeline() -> dict[str, object]:
 
     bronze = build_bronze_manifest()
     silver = build_silver_tables()
+
+    # Pipeline strict mode: fail if silver tables are empty or invalid
+    if not silver or not silver.get("tables") or not silver["tables"].get("players"):
+        raise RuntimeError("Empty silver tables - pipeline stopped in strict mode.")
+
     persistence = ingest_silver_tables(silver["tables"])
     gold = build_gold_features(silver["tables"])
 

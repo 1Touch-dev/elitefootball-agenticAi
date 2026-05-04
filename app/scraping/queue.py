@@ -139,7 +139,16 @@ class ScrapeQueue:
             if job is None:
                 break
             try:
-                result = scrape_fn(job)
+                result = None
+                for attempt in range(3):
+                    try:
+                        result = scrape_fn(job)
+                        if result:
+                            break
+                    except Exception:
+                        if attempt == 2:
+                            raise
+                        time.sleep(2 ** attempt)
                 if result:
                     self.cache.set(job.source, job.player_slug, result)
                     if on_result:

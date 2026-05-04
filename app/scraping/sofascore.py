@@ -152,6 +152,15 @@ def scrape_sofascore_page(url: str, *, slug: str) -> dict[str, Any]:
     context = {"source": "sofascore", "slug": slug, "url": url}
     log_event(logger, logging.INFO, "scrape.sofascore.start", **context)
 
+    try:
+        import soccerdata as sd
+        try:
+            ss_sd = sd.Sofascore(leagues=["ENG-Premier League"], seasons=["2023"])
+        except Exception as ss_err:
+            logger.warning(f"Soccerdata Sofascore error: {ss_err}")
+    except Exception:
+        pass
+
     stats = {
         "source": "sofascore",
         "source_url": url,

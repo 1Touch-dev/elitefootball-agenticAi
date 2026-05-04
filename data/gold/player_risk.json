@@ -82,5 +82,4289 @@
       "consistency_score": 82.0
     },
     "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Richard Ríos",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "SL Benfica",
+    "risk_score": 35.572,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 33.518,
+      "volatility_risk_score": 15.221,
+      "discipline_risk_score": 96.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 22.518,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 6,
+      "minutes": 3547.0,
+      "minutes_per_match": 591.167,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.251,
+      "goal_contribution_p90_cv": 0.946,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.251
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jefferson Lerma",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Crystal Palace",
+    "risk_score": 32.947,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 41.772,
+      "volatility_risk_score": 21.874,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 22.772,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 5,
+      "minutes": 2240.0,
+      "minutes_per_match": 448.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.154,
+      "goal_contribution_p90_cv": 1.598,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 86.015
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Xavi Simons",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Tottenham Hotspur",
+    "risk_score": 32.042,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.796,
+      "volatility_risk_score": 20.71,
+      "discipline_risk_score": 54.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 23.796,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 6,
+      "minutes": 2749.0,
+      "minutes_per_match": 458.167,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.322,
+      "goal_contribution_p90_cv": 1.428,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 80.591
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "João Gomes",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Wolverhampton Wanderers",
+    "risk_score": 31.48,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.952,
+      "volatility_risk_score": 12.378,
+      "discipline_risk_score": 72.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.952,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 3,
+      "minutes": 3013.0,
+      "minutes_per_match": 1004.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.164,
+      "goal_contribution_p90_cv": 0.715,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.751
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Richarlison",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Tottenham Hotspur",
+    "risk_score": 31.04,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 38.382,
+      "volatility_risk_score": 14.171,
+      "discipline_risk_score": 54.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 23.382,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 5,
+      "minutes": 2308.0,
+      "minutes_per_match": 461.6,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.299,
+      "goal_contribution_p90_cv": 0.831,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.729
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Enzo Fernández",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Chelsea FC",
+    "risk_score": 30.925,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 33.26,
+      "volatility_risk_score": 15.145,
+      "discipline_risk_score": 66.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.26,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 4,
+      "minutes": 3929.0,
+      "minutes_per_match": 982.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.07,
+      "goal_contribution_p90_cv": 1.006,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 81.926
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Moisés Caicedo",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Chelsea FC",
+    "risk_score": 30.46,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 31.658,
+      "volatility_risk_score": 6.786,
+      "discipline_risk_score": 90.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 17.658,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 4,
+      "minutes": 3724.0,
+      "minutes_per_match": 931.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.981,
+      "goal_contribution_p90_cv": 0.265,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.684
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Lautaro Martínez",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Inter Milan",
+    "risk_score": 30.254,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 43.0,
+      "volatility_risk_score": 16.009,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 25.0,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 4,
+      "minutes": 2475.0,
+      "minutes_per_match": 618.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.286,
+      "goal_contribution_p90_cv": 1.006,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.304
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Sékou Koïta",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Genclerbirligi Ankara",
+    "risk_score": 30.174,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 36.0,
+      "volatility_risk_score": 16.934,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 25.0,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 5,
+      "minutes": 2074.0,
+      "minutes_per_match": 414.8,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.474,
+      "goal_contribution_p90_cv": 1.022,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.054
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jhon Córdoba",
+    "position": "Attack - Centre-Forward",
+    "current_club": "FC Krasnodar",
+    "risk_score": 30.152,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 39.694,
+      "volatility_risk_score": 12.723,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 17.694,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 32,
+      "matches": 3,
+      "minutes": 2806.0,
+      "minutes_per_match": 935.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.983,
+      "goal_contribution_p90_cv": 0.814,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 83.527
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Bruno Guimarães",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Newcastle United",
+    "risk_score": 29.95,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 37.962,
+      "volatility_risk_score": 14.167,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.962,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 4,
+      "minutes": 3076.0,
+      "minutes_per_match": 769.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.109,
+      "goal_contribution_p90_cv": 0.901,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.117
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Lucas Paquetá",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "CR Flamengo",
+    "risk_score": 29.795,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 36.24,
+      "volatility_risk_score": 13.468,
+      "discipline_risk_score": 54.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 21.24,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 7,
+      "minutes": 2906.0,
+      "minutes_per_match": 415.143,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.18,
+      "goal_contribution_p90_cv": 0.81,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.295
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Pedro",
+    "position": "Attack - Right Winger",
+    "current_club": "SS Lazio",
+    "risk_score": 29.398,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 45.174,
+      "volatility_risk_score": 13.675,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.174,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 38,
+      "matches": 2,
+      "minutes": 877.0,
+      "minutes_per_match": 438.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.843,
+      "goal_contribution_p90_cv": 0.954,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.65
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Thiago Almada",
+    "position": "Attack - Left Winger",
+    "current_club": "Atlético de Madrid",
+    "risk_score": 28.91,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 38.1,
+      "volatility_risk_score": 15.913,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 24.1,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 4,
+      "minutes": 1561.0,
+      "minutes_per_match": 390.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.2,
+      "goal_contribution_p90_cv": 1.029,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.998
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "position": "Midfield - Central Midfield",
+    "current_club": "FC Barcelona",
+    "risk_score": 28.818,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.11,
+      "volatility_risk_score": 11.172,
+      "discipline_risk_score": 60.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.11,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 4,
+      "minutes": 2515.0,
+      "minutes_per_match": 628.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.895,
+      "goal_contribution_p90_cv": 0.703,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.851
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Brian Brobbey",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Sunderland AFC",
+    "risk_score": 28.736,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 37.436,
+      "volatility_risk_score": 16.224,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 23.436,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 3,
+      "minutes": 1801.0,
+      "minutes_per_match": 600.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.302,
+      "goal_contribution_p90_cv": 1.02,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 84.332
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Angelo Preciado",
+    "position": "Defender - Right-Back",
+    "current_club": "Clube Atlético Mineiro",
+    "risk_score": 28.715,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 28.464,
+      "volatility_risk_score": 12.766,
+      "discipline_risk_score": 72.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.464,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 7,
+      "minutes": 2486.0,
+      "minutes_per_match": 355.143,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.748,
+      "goal_contribution_p90_cv": 0.905,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.832
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Mats Wieffer",
+    "position": "Defender - Right-Back",
+    "current_club": "Brighton & Hove Albion",
+    "risk_score": 28.398,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 39.0,
+      "volatility_risk_score": 9.119,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 25.0,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 3,
+      "minutes": 1850.0,
+      "minutes_per_match": 616.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.378,
+      "goal_contribution_p90_cv": 0.334,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.077
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Endrick",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Olympique Lyon",
+    "risk_score": 28.351,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 16.878,
+      "discipline_risk_score": 42.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 25.0,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 19,
+      "matches": 6,
+      "minutes": 1487.0,
+      "minutes_per_match": 247.833,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.363,
+      "goal_contribution_p90_cv": 1.058,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.19
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Roger Martínez",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Taawoun FC",
+    "risk_score": 28.04,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 42.056,
+      "volatility_risk_score": 4.788,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.056,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 2,
+      "minutes": 2501.0,
+      "minutes_per_match": 1250.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.892,
+      "goal_contribution_p90_cv": 0.113,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.875
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Vinicius Junior",
+    "position": "Attack - Left Winger",
+    "current_club": "Real Madrid",
+    "risk_score": 27.713,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 31.856,
+      "volatility_risk_score": 10.945,
+      "discipline_risk_score": 60.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 17.856,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 4,
+      "minutes": 3908.0,
+      "minutes_per_match": 977.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.992,
+      "goal_contribution_p90_cv": 0.646,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.962
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "FC Basel 1893",
+    "risk_score": 27.7,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 45.728,
+      "volatility_risk_score": 6.555,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.728,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 34,
+      "matches": 4,
+      "minutes": 3299.0,
+      "minutes_per_match": 824.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.096,
+      "goal_contribution_p90_cv": 0.201,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.181
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jordy Caicedo",
+    "position": "Attack - Centre-Forward",
+    "current_club": "CA Huracán",
+    "risk_score": 27.679,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.686,
+      "volatility_risk_score": 12.175,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.686,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 3,
+      "minutes": 1612.0,
+      "minutes_per_match": 537.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.927,
+      "goal_contribution_p90_cv": 0.784,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.141
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Luis Díaz",
+    "position": "Attack - Left Winger",
+    "current_club": "Bayern Munich",
+    "risk_score": 27.406,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.308,
+      "volatility_risk_score": 5.168,
+      "discipline_risk_score": 66.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.308,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 29,
+      "matches": 4,
+      "minutes": 3760.0,
+      "minutes_per_match": 940.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.906,
+      "goal_contribution_p90_cv": 0.143,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.326
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Pedro Neto",
+    "position": "Attack - Right Winger",
+    "current_club": "Chelsea FC",
+    "risk_score": 26.708,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 32.666,
+      "volatility_risk_score": 12.021,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 18.666,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 4,
+      "minutes": 3597.0,
+      "minutes_per_match": 899.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.037,
+      "goal_contribution_p90_cv": 0.729,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 85.191
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Neymar",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Santos FC",
+    "risk_score": 26.2,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 39.554,
+      "volatility_risk_score": 9.751,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.554,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 34,
+      "matches": 4,
+      "minutes": 944.0,
+      "minutes_per_match": 236.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.753,
+      "goal_contribution_p90_cv": 0.624,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.193
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Christoph Baumgartner",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "RB Leipzig",
+    "risk_score": 25.982,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 33.138,
+      "volatility_risk_score": 7.425,
+      "discipline_risk_score": 54.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.138,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 2,
+      "minutes": 2839.0,
+      "minutes_per_match": 1419.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.841,
+      "goal_contribution_p90_cv": 0.376,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.125
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "David Neres",
+    "position": "Attack - Right Winger",
+    "current_club": "SSC Napoli",
+    "risk_score": 25.894,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 38.806,
+      "volatility_risk_score": 14.328,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.806,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 29,
+      "matches": 4,
+      "minutes": 1368.0,
+      "minutes_per_match": 342.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.017,
+      "goal_contribution_p90_cv": 0.95,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 84.824
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "James Rodríguez",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Minnesota United FC",
+    "risk_score": 25.755,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 45.458,
+      "volatility_risk_score": 10.998,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.458,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 34,
+      "matches": 3,
+      "minutes": 1164.0,
+      "minutes_per_match": 388.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.081,
+      "goal_contribution_p90_cv": 0.618,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 94.591
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Franco Mastantuono",
+    "position": "Attack - Right Winger",
+    "current_club": "Real Madrid",
+    "risk_score": 25.754,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 31.942,
+      "volatility_risk_score": 12.7,
+      "discipline_risk_score": 42.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.942,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 18,
+      "matches": 4,
+      "minutes": 1265.0,
+      "minutes_per_match": 316.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.969,
+      "goal_contribution_p90_cv": 0.817,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.851
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Noah Ohio",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Real Valladolid CF",
+    "risk_score": 25.4,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.412,
+      "volatility_risk_score": 22.536,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.412,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 4,
+      "minutes": 792.0,
+      "minutes_per_match": 198.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.134,
+      "goal_contribution_p90_cv": 1.716,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 84.985
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Leandro Trossard",
+    "position": "Attack - Left Winger",
+    "current_club": "Arsenal FC",
+    "risk_score": 25.326,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 41.53,
+      "volatility_risk_score": 12.094,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.53,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 4,
+      "minutes": 2577.0,
+      "minutes_per_match": 644.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.085,
+      "goal_contribution_p90_cv": 0.718,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.372
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Yerry Mina",
+    "position": "Defender - Centre-Back",
+    "current_club": "Cagliari Calcio",
+    "risk_score": 25.315,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 42.362,
+      "volatility_risk_score": 4.381,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.362,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 2,
+      "minutes": 1973.0,
+      "minutes_per_match": 986.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.909,
+      "goal_contribution_p90_cv": 0.069,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 99.4
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Tomás Molina",
+    "position": "Attack - Centre-Forward",
+    "current_club": "AA Argentinos Juniors",
+    "risk_score": 25.145,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 41.368,
+      "volatility_risk_score": 9.574,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.368,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 3,
+      "minutes": 887.0,
+      "minutes_per_match": 295.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.076,
+      "goal_contribution_p90_cv": 0.488,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.734
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Leandro Paredes",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "CA Boca Juniors",
+    "risk_score": 25.091,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 36.206,
+      "volatility_risk_score": 3.996,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.206,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 2,
+      "minutes": 1230.0,
+      "minutes_per_match": 615.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.567,
+      "goal_contribution_p90_cv": 0.16,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.388
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jurriën Timber",
+    "position": "Defender - Right-Back",
+    "current_club": "Arsenal FC",
+    "risk_score": 25.008,
+    "risk_tier": "moderate",
+    "components": {
+      "injury_risk_score": 34.79,
+      "volatility_risk_score": 9.88,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.79,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 4,
+      "minutes": 3309.0,
+      "minutes_per_match": 827.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.155,
+      "goal_contribution_p90_cv": 0.487,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.74
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Rasmus Kristensen",
+    "position": "Defender - Right-Back",
+    "current_club": "Eintracht Frankfurt",
+    "risk_score": 24.889,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.228,
+      "volatility_risk_score": 6.84,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.228,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 3,
+      "minutes": 2001.0,
+      "minutes_per_match": 667.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.846,
+      "goal_contribution_p90_cv": 0.32,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.199
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Matheus Uribe",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Atlético Nacional",
+    "risk_score": 24.745,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 46.596,
+      "volatility_risk_score": 4.941,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.596,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 35,
+      "matches": 2,
+      "minutes": 1150.0,
+      "minutes_per_match": 575.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.922,
+      "goal_contribution_p90_cv": 0.116,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.987
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Nicolás Capaldo",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Hamburger SV",
+    "risk_score": 24.719,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.786,
+      "volatility_risk_score": 5.787,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.786,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 2,
+      "minutes": 1950.0,
+      "minutes_per_match": 975.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.877,
+      "goal_contribution_p90_cv": 0.211,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.15
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Pervis Estupiñán",
+    "position": "Defender - Left-Back",
+    "current_club": "AC Milan",
+    "risk_score": 24.714,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 35.064,
+      "volatility_risk_score": 6.589,
+      "discipline_risk_score": 42.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 17.064,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 3,
+      "minutes": 1203.0,
+      "minutes_per_match": 401.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.948,
+      "goal_contribution_p90_cv": 0.259,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.737
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Luciano Acosta",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Fluminense Football Club",
+    "risk_score": 24.704,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.142,
+      "volatility_risk_score": 10.976,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 11.142,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 3,
+      "minutes": 1166.0,
+      "minutes_per_match": 388.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.619,
+      "goal_contribution_p90_cv": 0.787,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.826
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Rafael Borré",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Sport Club Internacional",
+    "risk_score": 24.547,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 35.121,
+      "volatility_risk_score": 15.106,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 17.121,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 30,
+      "matches": 3,
+      "minutes": 1395.0,
+      "minutes_per_match": 465.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.766,
+      "goal_contribution_p90_cv": 1.115,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 87.47
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Rodrygo",
+    "position": "Attack - Right Winger",
+    "current_club": "Real Madrid",
+    "risk_score": 24.43,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 32.304,
+      "volatility_risk_score": 11.234,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 18.304,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 4,
+      "minutes": 1106.0,
+      "minutes_per_match": 276.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.878,
+      "goal_contribution_p90_cv": 0.715,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.486
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Gonzalo Montiel",
+    "position": "Defender - Right-Back",
+    "current_club": "CA River Plate",
+    "risk_score": 24.38,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 37.674,
+      "volatility_risk_score": 9.567,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.674,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 29,
+      "matches": 3,
+      "minutes": 1485.0,
+      "minutes_per_match": 495.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.093,
+      "goal_contribution_p90_cv": 0.481,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.793
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Roberto Firmino",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Sadd SC",
+    "risk_score": 24.262,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 40.256,
+      "volatility_risk_score": 10.868,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.256,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 34,
+      "matches": 3,
+      "minutes": 2553.0,
+      "minutes_per_match": 851.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.792,
+      "goal_contribution_p90_cv": 0.713,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.026
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Nahuel Molina",
+    "position": "Defender - Right-Back",
+    "current_club": "Atlético de Madrid",
+    "risk_score": 24.032,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.954,
+      "volatility_risk_score": 9.508,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.954,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 4,
+      "minutes": 2337.0,
+      "minutes_per_match": 584.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.803,
+      "goal_contribution_p90_cv": 0.583,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 94.899
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Matheus Cunha",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Manchester United",
+    "risk_score": 23.992,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 36.626,
+      "volatility_risk_score": 12.026,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 22.626,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 3,
+      "minutes": 2426.0,
+      "minutes_per_match": 808.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.257,
+      "goal_contribution_p90_cv": 0.648,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 94.331
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "António Silva",
+    "position": "Defender - Centre-Back",
+    "current_club": "SL Benfica",
+    "risk_score": 23.737,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 31.628,
+      "volatility_risk_score": 5.761,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.628,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 6,
+      "minutes": 3026.0,
+      "minutes_per_match": 504.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.146,
+      "goal_contribution_p90_cv": 0.109,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Patson Daka",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Leicester City",
+    "risk_score": 23.661,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 36.23,
+      "volatility_risk_score": 13.893,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 22.23,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 3,
+      "minutes": 2278.0,
+      "minutes_per_match": 759.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.235,
+      "goal_contribution_p90_cv": 0.829,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.72
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "position": "Attack - Second Striker",
+    "current_club": "AS Roma",
+    "risk_score": 23.571,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 40.738,
+      "volatility_risk_score": 13.096,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 18.738,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 32,
+      "matches": 3,
+      "minutes": 1308.0,
+      "minutes_per_match": 436.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.041,
+      "goal_contribution_p90_cv": 0.827,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.078
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Alan Minda",
+    "position": "Attack - Right Winger",
+    "current_club": "Clube Atlético Mineiro",
+    "risk_score": 23.544,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 36.0,
+      "volatility_risk_score": 13.86,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 25.0,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 6,
+      "minutes": 1321.0,
+      "minutes_per_match": 220.167,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.54,
+      "goal_contribution_p90_cv": 0.713,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 94.43
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Antony",
+    "position": "Attack - Right Winger",
+    "current_club": "Real Betis Balompié",
+    "risk_score": 23.49,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.284,
+      "volatility_risk_score": 7.78,
+      "discipline_risk_score": 54.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.284,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 3,
+      "minutes": 3112.0,
+      "minutes_per_match": 1037.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.738,
+      "goal_contribution_p90_cv": 0.447,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.884
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "João Félix",
+    "position": "Attack - Second Striker",
+    "current_club": "Al-Nassr FC",
+    "risk_score": 23.447,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 35.708,
+      "volatility_risk_score": 9.446,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 21.708,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 4,
+      "minutes": 3331.0,
+      "minutes_per_match": 832.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.206,
+      "goal_contribution_p90_cv": 0.428,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 86.994
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Vitinha",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Paris Saint-Germain",
+    "risk_score": 23.376,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.176,
+      "volatility_risk_score": 14.367,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 22.176,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 6,
+      "minutes": 3748.0,
+      "minutes_per_match": 624.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.232,
+      "goal_contribution_p90_cv": 0.874,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 88.815
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Guilherme Arana",
+    "position": "Defender - Left-Back",
+    "current_club": "Fluminense Football Club",
+    "risk_score": 23.344,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.918,
+      "volatility_risk_score": 14.576,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.918,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 29,
+      "matches": 4,
+      "minutes": 1151.0,
+      "minutes_per_match": 287.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.801,
+      "goal_contribution_p90_cv": 1.053,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.786
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Adam Daghim",
+    "position": "Attack - Right Winger",
+    "current_club": "VfL Wolfsburg",
+    "risk_score": 23.32,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 11.051,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 25.0,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 20,
+      "matches": 5,
+      "minutes": 1380.0,
+      "minutes_per_match": 276.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.51,
+      "goal_contribution_p90_cv": 0.464,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.94
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Enner Valencia",
+    "position": "Attack - Centre-Forward",
+    "current_club": "CF Pachuca",
+    "risk_score": 23.123,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 41.318,
+      "volatility_risk_score": 9.074,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.318,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 36,
+      "matches": 3,
+      "minutes": 956.0,
+      "minutes_per_match": 318.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.851,
+      "goal_contribution_p90_cv": 0.525,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 87.48
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Benjamin Sesko",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Manchester United",
+    "risk_score": 23.026,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 35.582,
+      "volatility_risk_score": 13.036,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 21.582,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 3,
+      "minutes": 1772.0,
+      "minutes_per_match": 590.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.199,
+      "goal_contribution_p90_cv": 0.763,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.693
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Ryan Gravenberch",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Liverpool FC",
+    "risk_score": 22.984,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 28.778,
+      "volatility_risk_score": 7.086,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.778,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 3,
+      "minutes": 3802.0,
+      "minutes_per_match": 1267.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.821,
+      "goal_contribution_p90_cv": 0.352,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.919
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jhon Durán",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Zenit St. Petersburg",
+    "risk_score": 22.787,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 23.24,
+      "volatility_risk_score": 10.572,
+      "discipline_risk_score": 54.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 12.24,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 7,
+      "minutes": 1451.0,
+      "minutes_per_match": 207.286,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.68,
+      "goal_contribution_p90_cv": 0.727,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.599
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Nuno Mendes",
+    "position": "Defender - Left-Back",
+    "current_club": "Paris Saint-Germain",
+    "risk_score": 22.744,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.673,
+      "volatility_risk_score": 12.228,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 22.673,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 6,
+      "minutes": 2774.0,
+      "minutes_per_match": 462.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.167,
+      "goal_contribution_p90_cv": 0.7,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.99
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Giovani Lo Celso",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Real Betis Balompié",
+    "risk_score": 22.621,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.578,
+      "volatility_risk_score": 8.652,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.578,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 30,
+      "matches": 3,
+      "minutes": 1562.0,
+      "minutes_per_match": 520.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.921,
+      "goal_contribution_p90_cv": 0.46,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.971
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Youri Tielemans",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Aston Villa",
+    "risk_score": 22.619,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.146,
+      "volatility_risk_score": 13.632,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.146,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 3,
+      "minutes": 2121.0,
+      "minutes_per_match": 707.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.897,
+      "goal_contribution_p90_cv": 0.93,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.859
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jackson Porozo",
+    "position": "Defender - Centre-Back",
+    "current_club": "Club Tijuana",
+    "risk_score": 22.581,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 24.566,
+      "volatility_risk_score": 4.065,
+      "discipline_risk_score": 66.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.566,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 3,
+      "minutes": 3029.0,
+      "minutes_per_match": 1009.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.587,
+      "goal_contribution_p90_cv": 0.159,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.609
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Nico González",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Manchester City",
+    "risk_score": 22.55,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.788,
+      "volatility_risk_score": 7.114,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.788,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 4,
+      "minutes": 2417.0,
+      "minutes_per_match": 604.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.766,
+      "goal_contribution_p90_cv": 0.375,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.723
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Renato Veiga",
+    "position": "Defender - Centre-Back",
+    "current_club": "Villarreal CF",
+    "risk_score": 22.548,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 29.444,
+      "volatility_risk_score": 5.246,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.444,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 3,
+      "minutes": 3172.0,
+      "minutes_per_match": 1057.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.858,
+      "goal_contribution_p90_cv": 0.168,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.527
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Renato Tapia",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Al-Wasl SC",
+    "risk_score": 22.517,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 31.392,
+      "volatility_risk_score": 2.976,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.392,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 30,
+      "matches": 3,
+      "minutes": 1987.0,
+      "minutes_per_match": 662.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.744,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Quinten Timber",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Olympique Marseille",
+    "risk_score": 22.428,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 29.576,
+      "volatility_risk_score": 11.548,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 18.576,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 6,
+      "minutes": 2884.0,
+      "minutes_per_match": 480.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.032,
+      "goal_contribution_p90_cv": 0.687,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 94.053
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Rodrigo De Paul",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Inter Miami CF",
+    "risk_score": 22.404,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 36.8,
+      "volatility_risk_score": 10.111,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.8,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 2,
+      "minutes": 900.0,
+      "minutes_per_match": 450.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.6,
+      "goal_contribution_p90_cv": 0.714,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.75
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Cody Gakpo",
+    "position": "Attack - Left Winger",
+    "current_club": "Liverpool FC",
+    "risk_score": 22.326,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.61,
+      "volatility_risk_score": 12.378,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.61,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 4,
+      "minutes": 3265.0,
+      "minutes_per_match": 816.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.145,
+      "goal_contribution_p90_cv": 0.722,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.686
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Cucho Hernández",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Real Betis Balompié",
+    "risk_score": 22.262,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 32.36,
+      "volatility_risk_score": 8.0,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 18.36,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 3,
+      "minutes": 2791.0,
+      "minutes_per_match": 930.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.02,
+      "goal_contribution_p90_cv": 0.363,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.727
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Teun Koopmeiners",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Juventus FC",
+    "risk_score": 22.094,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 31.698,
+      "volatility_risk_score": 8.325,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.698,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 3,
+      "minutes": 2504.0,
+      "minutes_per_match": 834.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.761,
+      "goal_contribution_p90_cv": 0.489,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.722
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Lucas Beraldo",
+    "position": "Defender - Centre-Back",
+    "current_club": "Paris Saint-Germain",
+    "risk_score": 22.003,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 38.105,
+      "volatility_risk_score": 7.64,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 24.105,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 3,
+      "minutes": 1490.0,
+      "minutes_per_match": 496.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.154,
+      "goal_contribution_p90_cv": 0.28,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.549
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Estêvão",
+    "position": "Attack - Right Winger",
+    "current_club": "Chelsea FC",
+    "risk_score": 21.811,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 23.304,
+      "volatility_risk_score": 10.31,
+      "discipline_risk_score": 48.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 11.304,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 19,
+      "matches": 4,
+      "minutes": 1676.0,
+      "minutes_per_match": 419.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.628,
+      "goal_contribution_p90_cv": 0.722,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 84.799
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Pedro Velasco",
+    "position": "Defender - Right-Back",
+    "current_club": "Orense SC",
+    "risk_score": 21.78,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 40.814,
+      "volatility_risk_score": 6.284,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.814,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 32,
+      "matches": 2,
+      "minutes": 1018.0,
+      "minutes_per_match": 509.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.823,
+      "goal_contribution_p90_cv": 0.277,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.575
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Gonçalo Inácio",
+    "position": "Defender - Centre-Back",
+    "current_club": "Sporting CP",
+    "risk_score": 21.438,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.524,
+      "volatility_risk_score": 5.756,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.524,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 4,
+      "minutes": 3631.0,
+      "minutes_per_match": 907.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.918,
+      "goal_contribution_p90_cv": 0.193,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.309
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jhegson Méndez",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Independiente del Valle",
+    "risk_score": 21.408,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 38.344,
+      "volatility_risk_score": 3.632,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.344,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 29,
+      "matches": 2,
+      "minutes": 653.0,
+      "minutes_per_match": 326.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.908,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Piero Hincapié",
+    "position": "Defender - Centre-Back",
+    "current_club": "Arsenal FC",
+    "risk_score": 21.082,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.562,
+      "volatility_risk_score": 7.072,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 23.562,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 6,
+      "minutes": 2658.0,
+      "minutes_per_match": 443.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.309,
+      "goal_contribution_p90_cv": 0.17,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Michael Estrada",
+    "position": "Attack - Centre-Forward",
+    "current_club": "LDU Quito",
+    "risk_score": 21.012,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 35.104,
+      "volatility_risk_score": 8.539,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.104,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 30,
+      "matches": 2,
+      "minutes": 397.0,
+      "minutes_per_match": 198.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.728,
+      "goal_contribution_p90_cv": 0.521,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 85.725
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Facundo Torres",
+    "position": "Attack - Right Winger",
+    "current_club": "Austin FC",
+    "risk_score": 21.008,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 32.544,
+      "volatility_risk_score": 11.408,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.544,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 2,
+      "minutes": 939.0,
+      "minutes_per_match": 469.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.808,
+      "goal_contribution_p90_cv": 0.757,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.375
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Rafael Leão",
+    "position": "Attack - Left Winger",
+    "current_club": "AC Milan",
+    "risk_score": 20.896,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.894,
+      "volatility_risk_score": 5.109,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.894,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 2,
+      "minutes": 1829.0,
+      "minutes_per_match": 914.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.883,
+      "goal_contribution_p90_cv": 0.146,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.325
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Charles De Ketelaere",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Atalanta BC",
+    "risk_score": 20.751,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 28.364,
+      "volatility_risk_score": 10.968,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.364,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 3,
+      "minutes": 2866.0,
+      "minutes_per_match": 955.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.798,
+      "goal_contribution_p90_cv": 0.72,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.696
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Noa Lang",
+    "position": "Attack - Left Winger",
+    "current_club": "Galatasaray",
+    "risk_score": 20.473,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.553,
+      "volatility_risk_score": 8.935,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.553,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 6,
+      "minutes": 1917.0,
+      "minutes_per_match": 319.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.827,
+      "goal_contribution_p90_cv": 0.521,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.287
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Matías Soulé",
+    "position": "Attack - Right Winger",
+    "current_club": "AS Roma",
+    "risk_score": 20.298,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.848,
+      "volatility_risk_score": 11.542,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.848,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 3,
+      "minutes": 2569.0,
+      "minutes_per_match": 856.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.936,
+      "goal_contribution_p90_cv": 0.722,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.067
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Miguel Borja",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Wasl SC",
+    "risk_score": 20.188,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.586,
+      "volatility_risk_score": 7.06,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 8.586,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 33,
+      "matches": 2,
+      "minutes": 849.0,
+      "minutes_per_match": 424.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.477,
+      "goal_contribution_p90_cv": 0.477,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.188
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Alejandro Garnacho",
+    "position": "Attack - Left Winger",
+    "current_club": "Chelsea FC",
+    "risk_score": 20.187,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 26.436,
+      "volatility_risk_score": 13.976,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.436,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 21,
+      "matches": 4,
+      "minutes": 2148.0,
+      "minutes_per_match": 537.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.802,
+      "goal_contribution_p90_cv": 0.997,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 78.865
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Gerson",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Cruzeiro Esporte Clube",
+    "risk_score": 20.182,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 24.756,
+      "volatility_risk_score": 6.855,
+      "discipline_risk_score": 42.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 9.756,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 5,
+      "minutes": 2686.0,
+      "minutes_per_match": 537.2,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.542,
+      "goal_contribution_p90_cv": 0.434,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.203
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Kendry Paez",
+    "position": null,
+    "current_club": null,
+    "risk_score": 20.05,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 41.0,
+      "volatility_risk_score": 4.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 23.0,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": null,
+      "matches": 2,
+      "minutes": 90.0,
+      "minutes_per_match": 45.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Lisandro Martínez",
+    "position": "Defender - Centre-Back",
+    "current_club": "Manchester United",
+    "risk_score": 19.926,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 37.264,
+      "volatility_risk_score": 3.392,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.264,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 2,
+      "minutes": 1040.0,
+      "minutes_per_match": 520.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.848,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jaime Ayoví",
+    "position": "Attack - Centre-Forward",
+    "current_club": "CS Emelec",
+    "risk_score": 19.8,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 44.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 38,
+      "matches": 1,
+      "minutes": 17.0,
+      "minutes_per_match": 17.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Karim Konaté",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Red Bull Salzburg",
+    "risk_score": 19.707,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.062,
+      "volatility_risk_score": 7.573,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 19.062,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 3,
+      "minutes": 1047.0,
+      "minutes_per_match": 349.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.059,
+      "goal_contribution_p90_cv": 0.309,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.875
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Willian Pacho",
+    "position": "Defender - Centre-Back",
+    "current_club": "Paris Saint-Germain",
+    "risk_score": 19.62,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 33.176,
+      "volatility_risk_score": 7.228,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 22.176,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 6,
+      "minutes": 3629.0,
+      "minutes_per_match": 604.833,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.232,
+      "goal_contribution_p90_cv": 0.213,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Francisco Conceição",
+    "position": "Attack - Right Winger",
+    "current_club": "Juventus FC",
+    "risk_score": 19.584,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.362,
+      "volatility_risk_score": 8.053,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.362,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 3,
+      "minutes": 2392.0,
+      "minutes_per_match": 797.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.909,
+      "goal_contribution_p90_cv": 0.409,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.417
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jeremie Frimpong",
+    "position": "Defender - Right-Back",
+    "current_club": "Liverpool FC",
+    "risk_score": 19.48,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.956,
+      "volatility_risk_score": 15.0,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.956,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 5,
+      "minutes": 1613.0,
+      "minutes_per_match": 322.6,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.942,
+      "goal_contribution_p90_cv": 1.04,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.409
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Geny Catamo",
+    "position": "Attack - Right Winger",
+    "current_club": "Sporting CP",
+    "risk_score": 19.332,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.578,
+      "volatility_risk_score": 9.43,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 16.578,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 4,
+      "minutes": 2886.0,
+      "minutes_per_match": 721.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.921,
+      "goal_contribution_p90_cv": 0.532,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.345
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Orel Mangala",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Olympique Lyon",
+    "risk_score": 19.057,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 38.883,
+      "volatility_risk_score": 3.9,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.883,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 3,
+      "minutes": 438.0,
+      "minutes_per_match": 146.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.975,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Claudio Echeverri",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Girona FC",
+    "risk_score": 19.001,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 24.546,
+      "volatility_risk_score": 10.888,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 12.546,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 20,
+      "matches": 3,
+      "minutes": 798.0,
+      "minutes_per_match": 266.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.697,
+      "goal_contribution_p90_cv": 0.75,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.433
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Yan Couto",
+    "position": "Midfield - Right Midfield",
+    "current_club": "Borussia Dortmund",
+    "risk_score": 18.975,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.41,
+      "volatility_risk_score": 7.602,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.41,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 3,
+      "minutes": 1493.0,
+      "minutes_per_match": 497.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.745,
+      "goal_contribution_p90_cv": 0.428,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.254
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Gabriel Martinelli",
+    "position": "Attack - Left Winger",
+    "current_club": "Arsenal FC",
+    "risk_score": 18.971,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 23.054,
+      "volatility_risk_score": 10.242,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 9.054,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 4,
+      "minutes": 2249.0,
+      "minutes_per_match": 562.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.503,
+      "goal_contribution_p90_cv": 0.762,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 86.919
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Julián Alvarez",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Atlético de Madrid",
+    "risk_score": 18.908,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 28.886,
+      "volatility_risk_score": 10.274,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.886,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 4,
+      "minutes": 3483.0,
+      "minutes_per_match": 870.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.827,
+      "goal_contribution_p90_cv": 0.645,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.942
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Carlos Gruezo",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Santos Laguna",
+    "risk_score": 18.9,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 31,
+      "matches": 1,
+      "minutes": 813.0,
+      "minutes_per_match": 813.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jorge Carrascal",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "CR Flamengo",
+    "risk_score": 18.896,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 21.17,
+      "volatility_risk_score": 12.174,
+      "discipline_risk_score": 30.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.17,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 6,
+      "minutes": 1474.0,
+      "minutes_per_match": 245.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.565,
+      "goal_contribution_p90_cv": 0.918,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 91.61
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Vanderson",
+    "position": "Defender - Right-Back",
+    "current_club": "AS Monaco",
+    "risk_score": 18.843,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 24.08,
+      "volatility_risk_score": 6.517,
+      "discipline_risk_score": 36.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.08,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 3,
+      "minutes": 1293.0,
+      "minutes_per_match": 431.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.56,
+      "goal_contribution_p90_cv": 0.396,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 96.535
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Nicolas Seiwald",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "RB Leipzig",
+    "risk_score": 18.677,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 31.824,
+      "volatility_risk_score": 4.141,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.824,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 2,
+      "minutes": 2952.0,
+      "minutes_per_match": 1476.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.768,
+      "goal_contribution_p90_cv": 0.099,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 99.138
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Johan Bakayoko",
+    "position": "Attack - Right Winger",
+    "current_club": "RB Leipzig",
+    "risk_score": 18.381,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 31.176,
+      "volatility_risk_score": 8.63,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.176,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 2,
+      "minutes": 882.0,
+      "minutes_per_match": 441.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.732,
+      "goal_contribution_p90_cv": 0.528,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.412
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Lucas Beltrán",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Valencia CF",
+    "risk_score": 18.346,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.654,
+      "volatility_risk_score": 9.13,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 12.654,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 2,
+      "minutes": 1604.0,
+      "minutes_per_match": 802.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.703,
+      "goal_contribution_p90_cv": 0.585,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 93.025
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Kendry Páez",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "CA River Plate",
+    "risk_score": 18.184,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 23.168,
+      "volatility_risk_score": 14.897,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.168,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 19,
+      "matches": 5,
+      "minutes": 1073.0,
+      "minutes_per_match": 214.6,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.676,
+      "goal_contribution_p90_cv": 1.129,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.125
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Lutsharel Geertruida",
+    "position": "Defender - Right-Back",
+    "current_club": "Sunderland AFC",
+    "risk_score": 18.142,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.304,
+      "volatility_risk_score": 4.512,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.304,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 3,
+      "minutes": 1640.0,
+      "minutes_per_match": 546.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.128,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Luis Segovia",
+    "position": "Defender - Centre-Back",
+    "current_club": "LDU Quito",
+    "risk_score": 18.137,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 31.0,
+      "volatility_risk_score": 3.717,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 9.0,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 28,
+      "matches": 2,
+      "minutes": 1080.0,
+      "minutes_per_match": 540.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.5,
+      "goal_contribution_p90_cv": 0.159,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.612
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Amadou Onana",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Aston Villa",
+    "risk_score": 18.134,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 28.166,
+      "volatility_risk_score": 4.649,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.166,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 3,
+      "minutes": 2596.0,
+      "minutes_per_match": 865.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.787,
+      "goal_contribution_p90_cv": 0.139,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.786
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Devyne Rensch",
+    "position": "Defender - Right-Back",
+    "current_club": "AS Roma",
+    "risk_score": 18.096,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 28.742,
+      "volatility_risk_score": 8.406,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.742,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 3,
+      "minutes": 1475.0,
+      "minutes_per_match": 491.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.819,
+      "goal_contribution_p90_cv": 0.475,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.84
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Damián Díaz",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Guayaquil City FC",
+    "risk_score": 18.0,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 40,
+      "matches": 1,
+      "minutes": 816.0,
+      "minutes_per_match": 816.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Ángel Mena",
+    "position": "Attack - Right Winger",
+    "current_club": "Orense SC",
+    "risk_score": 18.0,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 38,
+      "matches": 1,
+      "minutes": 352.0,
+      "minutes_per_match": 352.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Savinho",
+    "position": "Attack - Left Winger",
+    "current_club": "Manchester City",
+    "risk_score": 17.982,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 24.404,
+      "volatility_risk_score": 8.5,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.404,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 4,
+      "minutes": 1287.0,
+      "minutes_per_match": 321.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.578,
+      "goal_contribution_p90_cv": 0.573,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.026
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Félix Torres",
+    "position": "Defender - Centre-Back",
+    "current_club": "Sport Club Internacional",
+    "risk_score": 17.917,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.24,
+      "volatility_risk_score": 6.273,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 12.24,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 29,
+      "matches": 3,
+      "minutes": 1227.0,
+      "minutes_per_match": 409.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.68,
+      "goal_contribution_p90_cv": 0.329,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.124
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Arthur Vermeeren",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Olympique Marseille",
+    "risk_score": 17.803,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 25.77,
+      "volatility_risk_score": 6.516,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.77,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 21,
+      "matches": 3,
+      "minutes": 1169.0,
+      "minutes_per_match": 389.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.765,
+      "goal_contribution_p90_cv": 0.32,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.202
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Cristian Pellerano",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Retired",
+    "risk_score": 17.7,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 44,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Marvin Warnaß",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Without Club",
+    "risk_score": 17.7,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 34,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Ibrahim Osman",
+    "position": "Attack - Left Winger",
+    "current_club": "Birmingham City",
+    "risk_score": 17.659,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.624,
+      "volatility_risk_score": 8.57,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 15.624,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 21,
+      "matches": 4,
+      "minutes": 1778.0,
+      "minutes_per_match": 444.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.868,
+      "goal_contribution_p90_cv": 0.472,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.873
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jérémy Doku",
+    "position": "Attack - Left Winger",
+    "current_club": "Manchester City",
+    "risk_score": 17.632,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 28.382,
+      "volatility_risk_score": 12.149,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.382,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 4,
+      "minutes": 2571.0,
+      "minutes_per_match": 642.75,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.799,
+      "goal_contribution_p90_cv": 0.829,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 80.695
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Gonzalo Plata",
+    "position": "Attack - Right Winger",
+    "current_club": "CR Flamengo",
+    "risk_score": 17.454,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 25.479,
+      "volatility_risk_score": 10.471,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.479,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 25,
+      "matches": 7,
+      "minutes": 1248.0,
+      "minutes_per_match": 178.286,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.725,
+      "goal_contribution_p90_cv": 0.701,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Loïs Openda",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Juventus FC",
+    "risk_score": 17.388,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 31.846,
+      "volatility_risk_score": 7.644,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 20.846,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 5,
+      "minutes": 1133.0,
+      "minutes_per_match": 226.6,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.047,
+      "goal_contribution_p90_cv": 0.32,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.196
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Exequiel Palacios",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Bayer 04 Leverkusen",
+    "risk_score": 17.28,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 26.636,
+      "volatility_risk_score": 4.234,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 12.636,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 3,
+      "minutes": 1400.0,
+      "minutes_per_match": 466.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.702,
+      "goal_contribution_p90_cv": 0.132,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 98.845
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Gabriel Jesus",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Arsenal FC",
+    "risk_score": 17.151,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 26.028,
+      "volatility_risk_score": 9.096,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 8.028,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 29,
+      "matches": 4,
+      "minutes": 913.0,
+      "minutes_per_match": 228.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.446,
+      "goal_contribution_p90_cv": 0.677,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 89.226
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Dylan Borrero",
+    "position": "Attack - Left Winger",
+    "current_club": "CD América de Cali",
+    "risk_score": 16.961,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 32.166,
+      "volatility_risk_score": 6.215,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 14.166,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 2,
+      "minutes": 507.0,
+      "minutes_per_match": 253.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.787,
+      "goal_contribution_p90_cv": 0.284,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.513
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "João Neves",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Paris Saint-Germain",
+    "risk_score": 16.649,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.072,
+      "volatility_risk_score": 11.166,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 18.072,
+      "small_sample_penalty": 3.0
+    },
+    "inputs": {
+      "age": 21,
+      "matches": 5,
+      "minutes": 2372.0,
+      "minutes_per_match": 474.4,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 1.004,
+      "goal_contribution_p90_cv": 0.662,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 94.211
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Tijjani Reijnders",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Manchester City",
+    "risk_score": 16.485,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.356,
+      "volatility_risk_score": 5.938,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.356,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 4,
+      "minutes": 2673.0,
+      "minutes_per_match": 668.25,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.742,
+      "goal_contribution_p90_cv": 0.275,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.837
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Gabriel Villamíl",
+    "position": "Midfield - Central Midfield",
+    "current_club": "LDU Quito",
+    "risk_score": 16.438,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 26.316,
+      "volatility_risk_score": 6.989,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 8.316,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 2,
+      "minutes": 1004.0,
+      "minutes_per_match": 502.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.462,
+      "goal_contribution_p90_cv": 0.476,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 95.838
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Joao Rojas",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Asociación Deportiva Tarma",
+    "risk_score": 16.2,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 36,
+      "matches": 1,
+      "minutes": 645.0,
+      "minutes_per_match": 645.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Renato Ibarra",
+    "position": "Attack - Right Winger",
+    "current_club": "Mushuc Runa SC",
+    "risk_score": 16.2,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 35,
+      "matches": 1,
+      "minutes": 365.0,
+      "minutes_per_match": 365.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Sebastián Rodríguez",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "Danubio FC",
+    "risk_score": 16.2,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 33,
+      "matches": 1,
+      "minutes": 1162.0,
+      "minutes_per_match": 1162.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Marcos Leonardo",
+    "position": "Attack - Centre-Forward",
+    "current_club": "Al-Hilal SFC",
+    "risk_score": 16.102,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 26.168,
+      "volatility_risk_score": 4.065,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 12.168,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 3,
+      "minutes": 2050.0,
+      "minutes_per_match": 683.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.676,
+      "goal_contribution_p90_cv": 0.126,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 97.459
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jonathan Borja",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "CD El Nacional",
+    "risk_score": 15.9,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 30.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 32,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Facundo Buonanotte",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Leeds United",
+    "risk_score": 15.725,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 19.794,
+      "volatility_risk_score": 12.543,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 7.794,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 21,
+      "matches": 4,
+      "minutes": 588.0,
+      "minutes_per_match": 147.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.433,
+      "goal_contribution_p90_cv": 1.001,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.432
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Lorran",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Pisa Sporting Club",
+    "risk_score": 15.691,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 23.74,
+      "volatility_risk_score": 12.52,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 7.74,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 19,
+      "matches": 2,
+      "minutes": 158.0,
+      "minutes_per_match": 79.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.43,
+      "goal_contribution_p90_cv": 1.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 90.05
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Alexander Domínguez",
+    "position": "Goalkeeper",
+    "current_club": "LDU Quito",
+    "risk_score": 15.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 38,
+      "matches": 1,
+      "minutes": 90.0,
+      "minutes_per_match": 90.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Michael Hoyos",
+    "position": "Attack - Centre-Forward",
+    "current_club": "CA Newell's Old Boys",
+    "risk_score": 15.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 34.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 34,
+      "matches": 1,
+      "minutes": 430.0,
+      "minutes_per_match": 430.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Reinier",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Clube Atlético Mineiro",
+    "risk_score": 15.246,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 20.84,
+      "volatility_risk_score": 10.171,
+      "discipline_risk_score": 12.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 6.84,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 24,
+      "matches": 3,
+      "minutes": 1258.0,
+      "minutes_per_match": 419.333,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.38,
+      "goal_contribution_p90_cv": 0.801,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.987
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Jeremy Sarmiento",
+    "position": "Attack - Left Winger",
+    "current_club": "Middlesbrough FC",
+    "risk_score": 14.742,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 28.656,
+      "volatility_risk_score": 2.368,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 10.656,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 23,
+      "matches": 2,
+      "minutes": 671.0,
+      "minutes_per_match": 335.5,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.592,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Byron Castillo",
+    "position": "Defender - Right-Back",
+    "current_club": "Barcelona SC Guayaquil",
+    "risk_score": 14.736,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 21.726,
+      "volatility_risk_score": 10.148,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 3.726,
+      "small_sample_penalty": 10.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 2,
+      "minutes": 376.0,
+      "minutes_per_match": 188.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.207,
+      "goal_contribution_p90_cv": 0.863,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 92.45
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Valentín Carboni",
+    "position": "Midfield - Attacking Midfield",
+    "current_club": "Racing Club",
+    "risk_score": 13.632,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 17.256,
+      "volatility_risk_score": 7.918,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 5.256,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 21,
+      "matches": 3,
+      "minutes": 752.0,
+      "minutes_per_match": 250.667,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.292,
+      "goal_contribution_p90_cv": 0.625,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 94.532
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Rodrigo Conceição",
+    "position": "Defender - Right-Back",
+    "current_club": "CD Tondela",
+    "risk_score": 13.5,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 24.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 1,
+      "minutes": 1170.0,
+      "minutes_per_match": 1170.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Luis Sinisterra",
+    "position": "Attack - Left Winger",
+    "current_club": "Cruzeiro Esporte Clube",
+    "risk_score": 13.064,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 27.651,
+      "volatility_risk_score": 1.552,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 13.651,
+      "small_sample_penalty": 6.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 3,
+      "minutes": 93.0,
+      "minutes_per_match": 31.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.388,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Albert Sambi Lokonga",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Hamburger SV",
+    "risk_score": 12.6,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 1,
+      "minutes": 1544.0,
+      "minutes_per_match": 1544.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "José Cifuentes",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Toronto FC",
+    "risk_score": 12.6,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 18.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 1,
+      "minutes": 797.0,
+      "minutes_per_match": 797.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Alexis Zapata",
+    "position": "Defender",
+    "current_club": "Independiente del Valle",
+    "risk_score": 12.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Carlos Gutiérrez",
+    "position": "Attack - Right Winger",
+    "current_club": "Without Club",
+    "risk_score": 12.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Diogo Jota",
+    "position": "Attack - Left Winger",
+    "current_club": "---",
+    "risk_score": 12.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": null,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Mario Pineida",
+    "position": "Defender - Left-Back",
+    "current_club": "---",
+    "risk_score": 12.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": null,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Michael Espinoza",
+    "position": "Midfielder",
+    "current_club": "Independiente del Valle",
+    "risk_score": 12.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Riqui Puig",
+    "position": "Midfield - Central Midfield",
+    "current_club": "Los Angeles Galaxy",
+    "risk_score": 12.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 26,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Washington Corozo",
+    "position": "Attack - Left Winger",
+    "current_club": "CS Emelec",
+    "risk_score": 12.3,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 6.0,
+      "discipline_risk_score": 0.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 27,
+      "matches": 0,
+      "minutes": 0,
+      "minutes_per_match": 0.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": null
+    },
+    "model_version": "risk_mvp_v1"
+  },
+  {
+    "player_name": "Óscar Zambrano",
+    "position": "Midfield - Defensive Midfield",
+    "current_club": "NK Maribor",
+    "risk_score": 10.8,
+    "risk_tier": "low",
+    "components": {
+      "injury_risk_score": 22.0,
+      "volatility_risk_score": 0.0,
+      "discipline_risk_score": 6.0,
+      "availability_penalty": 0.0,
+      "minutes_instability_score": 0.0,
+      "small_sample_penalty": 14.0
+    },
+    "inputs": {
+      "age": 22,
+      "matches": 1,
+      "minutes": 330.0,
+      "minutes_per_match": 330.0,
+      "max_gap_days": 0,
+      "avg_gap_days": 0.0,
+      "minutes_cv": 0.0,
+      "goal_contribution_p90_cv": 0.0,
+      "shots_p90_cv": 0.0,
+      "consistency_score": 100.0
+    },
+    "model_version": "risk_mvp_v1"
   }
 ]

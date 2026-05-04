@@ -141,6 +141,12 @@ def scrape_fbref_page(url: str, *, slug: str | None = None, headless: bool = Tru
     context = {"source": "fbref", "slug": runtime_slug, "url": url}
     log_event(logger, logging.INFO, "scrape.start", **context)
     try:
+        import soccerdata as sd
+        try:
+            fb_sd = sd.FBref(leagues=["ENG-Premier League"], seasons=["2023"])
+        except Exception as sd_err:
+            logger.warning(f"Soccerdata FBref error (expected without Chrome): {sd_err}")
+
         html = fetch_page_html(url, source="fbref", slug=runtime_slug)
         raw_path = save_raw_html(runtime_slug, html, directory=settings.fbref_raw_data_dir)
         log_event(logger, logging.INFO, "scrape.raw_saved",

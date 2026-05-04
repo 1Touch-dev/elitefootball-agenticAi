@@ -242,7 +242,7 @@ def filter_confident_rows(
         score = conf.get("data_confidence_score", 1.0)  # default: keep
         flag = conf.get("validation_flag", "OK")
 
-        if flag == "LOW_CONFIDENCE" and score < min_confidence:
+        if score < min_confidence:
             excluded.append({**row, "_excluded_reason": "LOW_CONFIDENCE", "_confidence": score})
             log_event(logger, logging.INFO, "cross_source.excluded_row",
                       player=key, score=score)
