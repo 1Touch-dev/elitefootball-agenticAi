@@ -165,7 +165,7 @@ def compute_player_confidence(
         4,
     )
 
-    if data_confidence < 0.45:
+    if data_confidence < 0.60:
         flag = "LOW_CONFIDENCE"
     elif source_count < 2:
         flag = "SINGLE_SOURCE"

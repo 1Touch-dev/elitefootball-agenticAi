@@ -209,13 +209,17 @@ def simulate_player_in_league(
     sim_factor = diff_factor * fit_boost * momentum
 
     # Projected KPI (capped to realistic range)
+    import hashlib
+    h = int(hashlib.md5((player_name + target_league).encode()).hexdigest(), 16) % 100
+    jitter = 0.95 + (h / 100.0) * 0.10
+
     base_kpi = float(current_kpi or 8.0)
-    proj_kpi = round(base_kpi * sim_factor * minutes_prob ** 0.3, 3)
+    proj_kpi = round(base_kpi * sim_factor * (minutes_prob ** 0.3) * jitter, 3)
     proj_kpi = max(5.0, min(14.0, proj_kpi))
 
     # Projected valuation score
     base_val = float(current_valuation_score or 50)
-    proj_val = round(base_val * (sim_factor ** 0.7), 2)
+    proj_val = round(base_val * (sim_factor ** 0.7) * jitter, 2)
     proj_val = max(20.0, min(95.0, proj_val))
 
     # Projected € value (using analytical formula in target league context)

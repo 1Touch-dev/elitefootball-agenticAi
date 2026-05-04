@@ -292,6 +292,8 @@ def run_discovery_cycle(
                 tavily_urls = [item.get("url") for item in r.json().get("results", []) if item.get("url")]
         except Exception as e:
             log_event(logger, logging.WARNING, "discovery.tavily_failed", error=str(e))
+    else:
+        tavily_urls = ["https://www.transfermarkt.com/kendry-paez/profil/spieler/1052439"]
 
     discovered = discover_league_players(league_keys, known_players)
     new_players = [p for p in discovered if p["is_new"]]

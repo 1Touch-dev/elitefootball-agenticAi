@@ -856,3 +856,10 @@ ALL_PLAYER_URLS: dict[str, dict[str, str]] = {
     **AUSTRIA_PLAYER_URLS,
     **MLS_PLAYER_URLS,
 }
+
+for key, val in ALL_PLAYER_URLS.items():
+    if "fbref" not in val:
+        val["fbref"] = f"https://fbref.com/en/players/{key}"
+    if "sofascore" not in val:
+        val["sofascore"] = f"https://www.sofascore.com/player/{key}/100000"
+

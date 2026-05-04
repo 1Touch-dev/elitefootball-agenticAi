@@ -295,7 +295,7 @@ def build_valuation_v2_output(
         is_undervalued = (
             market_val_eur is not None
             and computed_val_eur > 0
-            and computed_val_eur > market_val_eur * 1.25
+            and computed_val_eur > market_val_eur
         )
 
         display_name = (
