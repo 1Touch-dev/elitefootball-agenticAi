@@ -50,6 +50,7 @@ export default async function DashboardPage() {
       {/* Quick navigation */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {[
+          { href: "/scout", icon: "✨", title: "AI Recruitment Workflow", desc: "Advanced shortlist, analyze, and decisions" },
           { href: "/players", icon: "👤", title: "Players", desc: "Browse IDV squad profiles and stats" },
           { href: "/valuation", icon: "💰", title: "Valuation", desc: "Player value scores and projections" },
           { href: "/undervalued", icon: "🔍", title: "Undervalued", desc: "Players priced below model estimate" },

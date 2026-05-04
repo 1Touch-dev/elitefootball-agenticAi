@@ -166,6 +166,14 @@ export const api = {
     if (params?.limit) q.set("limit", String(params.limit));
     return fetchAPI<{ count: number; items: PathwayLearningRow[] }>(`/pathway-learning?${q}`);
   },
+  shortlist: (params: { position?: string; age_max?: number; market_value_max?: number; league_level?: string }) =>
+    fetchAPI<any[]>("/shortlist", { method: "POST", body: JSON.stringify(params) }),
+  playerProfile: (slug: string) => fetchAPI<any>(`/player/${encodeURIComponent(slug)}`),
+  decisionEngine: (slug: string) => fetchAPI<any>(`/player/${encodeURIComponent(slug)}/decision`),
+  comparePlayers: (players: string[]) => fetchAPI<any>("/compare", { method: "POST", body: JSON.stringify({ players }) }),
+  alertsPanel: () => fetchAPI<any[]>("/alerts"),
+  clubFitEngine: (club: string, player_slug: string) => fetchAPI<any>("/club-fit", { method: "POST", body: JSON.stringify({ club, player_slug }) }),
+  reportGenerator: (player_slug: string) => fetchAPI<any>("/report", { method: "POST", body: JSON.stringify({ player_slug }) }),
 };
 
 export interface TransferProbRow {
