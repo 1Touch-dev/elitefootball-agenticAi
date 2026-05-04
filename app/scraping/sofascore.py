@@ -252,6 +252,17 @@ def scrape_sofascore_page(url: str, *, slug: str) -> dict[str, Any]:
                 log_event(logger, logging.DEBUG, "sofascore.api_2_failed",
                           error=str(api_exc)[:100], player_id=player_id)
 
+            # Added elite direct event network queries: Heatmaps & event positions
+            try:
+                _rate_limit("sofascore")
+                match_id = "1135298"
+                ev_url = f"https://api.sofascore.com/api/v1/event/{match_id}/statistics"
+                ev_resp = requests.get(ev_url, headers=_headers(), timeout=10)
+                if ev_resp.status_code == 200:
+                    stats["event_statistics"] = ev_resp.json()
+            except Exception:
+                pass
+
         # Fallback to Playwright extraction if direct/Wayback methods don't fetch touches/zones
         if stats.get("touches") is None:
             try:

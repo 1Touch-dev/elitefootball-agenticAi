@@ -83,8 +83,11 @@ def fetch_page_html(url: str, *, source: str = "fbref", slug: str = "", retries:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
             page.goto(url, timeout=30000, wait_until="domcontentloaded")
-            page.wait_for_selector("table", timeout=10000)
-            html = page.content()
+            try:
+                page.wait_for_selector("#stats_standard", timeout=5000)
+            except Exception:
+                pass
+            html = page.evaluate("document.body.innerHTML")
             browser.close()
             if len(html) > 5000:
                 return html
