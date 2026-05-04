@@ -210,7 +210,9 @@ def simulate_player_in_league(
 
     # Projected KPI (capped to realistic range)
     base_kpi = float(current_kpi or 8.0)
-    proj_kpi = round(base_kpi * sim_factor * (minutes_prob ** 0.3), 3)
+    # Recalibrated using league factor: kpi = base_kpi * league_factor
+    league_factor = 1.05 if diff_factor > 1.0 else 0.95
+    proj_kpi = round(base_kpi * league_factor * sim_factor * (minutes_prob ** 0.3), 3)
     proj_kpi = max(5.0, min(14.0, proj_kpi))
 
     # Projected valuation score

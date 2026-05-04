@@ -256,16 +256,12 @@ def compute_transfer_probability(
     f_dest = _destination_penalty_score(club)
 
     # Logistic regression score
-    z = (
-        _BETA["bias"]
-        + _BETA["performance"] * f_perf
-        + _BETA["age"] * f_age
-        + _BETA["trajectory"] * f_traj
-        + _BETA["league_visibility"] * f_vis
-        + _BETA["club_export"] * f_export
-        + _BETA["contract_pressure"] * f_contract
-        + f_dest  # negative for elite clubs
-    )
+    # Sigmoid logit
+    perf_factor = f_perf if f_perf is not None else 0.5
+    z_score_perf = (perf_factor - 0.5) / 0.15
+    league_strength = f_vis
+    club_visibility = f_export
+    z = z_score_perf + league_strength + club_visibility + f_dest
     p1y = round(_sigmoid(z), 4)
 
     # 2-year: compound probability

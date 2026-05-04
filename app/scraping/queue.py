@@ -132,12 +132,24 @@ class ScrapeQueue:
         failed = 0
         results: list[dict[str, Any]] = []
 
+        SOURCE_CONFIG = {
+            "transfermarkt": {"delay": 2.0},
+            "fbref": {"delay": 5.0},
+            "sofascore": {"delay": 1.0},
+            "fbref_archive": {"delay": 2.0},
+        }
+
         while self._jobs:
             if max_jobs is not None and processed >= max_jobs:
                 break
             job = self.dequeue()
             if job is None:
                 break
+
+            # Sleep according to source delay
+            cfg = SOURCE_CONFIG.get(job.source, {"delay": 1.0})
+            time.sleep(cfg.get("delay", 1.0))
+
             try:
                 result = None
                 for attempt in range(3):

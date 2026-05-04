@@ -77,6 +77,20 @@ def fetch_page_html(url: str, *, source: str = "fbref", slug: str = "", retries:
     """
     import requests
 
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(url, timeout=30000, wait_until="domcontentloaded")
+            page.wait_for_selector("table", timeout=10000)
+            html = page.content()
+            browser.close()
+            if len(html) > 5000:
+                return html
+    except Exception as e:
+        log_event(logger, logging.WARNING, "scrape.fbref.playwright_failed", error=str(e)[:100])
+
     for attempt in range(retries):
         try:
             _rate_limit(source)

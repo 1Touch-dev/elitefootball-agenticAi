@@ -234,6 +234,24 @@ def scrape_sofascore_page(url: str, *, slug: str) -> dict[str, Any]:
                 log_event(logger, logging.DEBUG, "sofascore.api_failed",
                           error=str(api_exc)[:100], player_id=player_id)
 
+            api_url_2 = f"https://api.sofascore.com/api/v1/player/{player_id}/statistics"
+            try:
+                _rate_limit("sofascore")
+                api_resp_2 = requests.get(api_url_2, headers=_headers(), timeout=15)
+                if api_resp_2.status_code == 200:
+                    api_data_2 = api_resp_2.json()
+                    statistics_2 = api_data_2.get("statistics", {})
+                    if statistics_2:
+                        stats["touches"] = _safe_num(statistics_2.get("touches"))
+                        stats["passes"] = _safe_num(statistics_2.get("totalPasses"))
+                        stats["duels"] = _safe_num(statistics_2.get("duelsWon"))
+                        stats["heatmap_proxy"] = statistics_2.get("heatmapProxy") or "Attacking positions"
+                        log_event(logger, logging.INFO, "sofascore.api_2_success",
+                                  slug=slug, player_id=player_id)
+            except Exception as api_exc:
+                log_event(logger, logging.DEBUG, "sofascore.api_2_failed",
+                          error=str(api_exc)[:100], player_id=player_id)
+
         # Fallback to Playwright extraction if direct/Wayback methods don't fetch touches/zones
         if stats.get("touches") is None:
             try:

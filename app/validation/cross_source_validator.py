@@ -165,7 +165,14 @@ def compute_player_confidence(
         4,
     )
 
-    if data_confidence < 0.60:
+    competitions = {r.get("competition") for r in stat_rows if r.get("competition")}
+    if player_row.get("competition"):
+        competitions.add(player_row["competition"])
+    total_minutes = sum(int(r.get("minutes") or 0) for r in stat_rows)
+
+    if len(competitions) < 2 or total_minutes < 500:
+        flag = "LOW_SAMPLE"
+    elif data_confidence < 0.60:
         flag = "LOW_CONFIDENCE"
     elif source_count < 2:
         flag = "SINGLE_SOURCE"

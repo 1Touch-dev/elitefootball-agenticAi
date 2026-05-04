@@ -278,8 +278,10 @@ def build_valuation_v2_output(
         pot_score = potential_score(final_score, age)
         market_val_raw = pr.get("market_value")
         market_val_eur = parse_market_value(market_val_raw)
-        # Computed valuation maps to estimated transfer value (€5m per score point above 40)
-        computed_val_eur = max(0.0, (final_score - 40.0) * 500_000) if final_score > 40 else 0.0
+        # Recalibrated using log scale normalization: value = base * exp(performance_factor)
+        base_val = 5_000_000.0
+        perf_factor = (final_score - 50.0) / 10.0
+        computed_val_eur = base_val * math.exp(perf_factor) if final_score > 0 else 0.0
         conf = confidence_index.get(name, {})
         data_confidence = float(conf.get("data_confidence_score") or 1.0)
         validation_flag = conf.get("validation_flag", "OK")
