@@ -246,6 +246,58 @@ def run_pipeline() -> dict[str, object]:
     }
 
 
+def _merge_gold_file(filename: str, new_payload: Any, key_field: str = "player_slug") -> None:
+    from pathlib import Path
+    from app.config import settings
+    from app.pipeline.io import read_json, write_json
+    path = Path(settings.gold_data_dir) / filename
+    if not path.exists():
+        write_json(path, new_payload)
+        return
+    try:
+        existing = read_json(path)
+    except Exception:
+        write_json(path, new_payload)
+        return
+
+    if filename == "player_graph.json":
+        if isinstance(existing, dict) and isinstance(new_payload, dict):
+            existing_nodes = {n["node_id"]: n for n in existing.get("nodes", []) if "node_id" in n}
+            for n in new_payload.get("nodes", []):
+                if "node_id" in n:
+                    existing_nodes[n["node_id"]] = n
+            existing["nodes"] = list(existing_nodes.values())
+            write_json(path, existing)
+        else:
+            write_json(path, new_payload)
+    elif filename == "alerts.json":
+        if isinstance(existing, dict) and isinstance(new_payload, dict):
+            existing_items = {a["alert_id"]: a for a in existing.get("items", []) if "alert_id" in a}
+            for a in new_payload.get("items", []):
+                if "alert_id" in a:
+                    existing_items[a["alert_id"]] = a
+            existing["items"] = list(existing_items.values())
+            write_json(path, existing)
+        else:
+            write_json(path, new_payload)
+    else:
+        if isinstance(existing, list) and isinstance(new_payload, list):
+            existing_map = {}
+            for r in existing:
+                if isinstance(r, dict):
+                    k = r.get(key_field) or r.get("player_name") or r.get("player_slug")
+                    if k:
+                        existing_map[k] = r
+            for r in new_payload:
+                if isinstance(r, dict):
+                    k = r.get(key_field) or r.get("player_name") or r.get("player_slug")
+                    if k:
+                        existing_map[k] = r
+            write_json(path, list(existing_map.values()))
+        else:
+            write_json(path, new_payload)
+
+
 def run_incremental_pipeline(player_slugs: list[str]) -> dict[str, object]:
     """
     Rebuild Silver + Gold only for the given player slugs.
@@ -259,9 +311,21 @@ def run_incremental_pipeline(player_slugs: list[str]) -> dict[str, object]:
 
     persistence = ingest_silver_tables(silver["tables"])
     gold = build_gold_features(silver["tables"])
+    if gold and isinstance(gold, dict) and gold.get("tables", {}).get("player_features"):
+        _merge_gold_file("player_features.json", gold["tables"]["player_features"], key_field="player_slug")
+
     kpi = build_kpi_engine_output(silver["tables"], confidence_index=confidence_index)
+    if kpi and isinstance(kpi, dict) and kpi.get("rows"):
+        _merge_gold_file("kpi_engine.json", kpi["rows"], key_field="player_slug")
+
     advanced_metrics = build_advanced_metrics_v2_output(silver["tables"], gold["tables"])
+    if advanced_metrics and isinstance(advanced_metrics, dict) and advanced_metrics.get("rows"):
+        _merge_gold_file("advanced_metrics.json", advanced_metrics["rows"], key_field="player_slug")
+
     risk = build_risk_output(silver["tables"], gold["tables"], kpi["rows"])
+    if risk and isinstance(risk, dict) and risk.get("rows"):
+        _merge_gold_file("player_risk.json", risk["rows"], key_field="player_slug")
+
     valuation = build_valuation_v2_output(
         silver["tables"],
         gold["tables"],
@@ -270,7 +334,13 @@ def run_incremental_pipeline(player_slugs: list[str]) -> dict[str, object]:
         risk_rows=risk["rows"],
         confidence_index=confidence_index,
     )
+    if valuation and isinstance(valuation, dict) and valuation.get("rows"):
+        _merge_gold_file("player_valuation.json", valuation["rows"], key_field="player_slug")
+
     pathway = build_pathway_output(silver["tables"], gold["tables"], kpi["rows"], valuation["rows"])
+    if pathway and isinstance(pathway, dict) and pathway.get("rows"):
+        _merge_gold_file("player_pathway.json", pathway["rows"], key_field="player_slug")
+
     similarity = build_similarity_v2_output(
         silver["tables"],
         gold["tables"],
@@ -279,6 +349,9 @@ def run_incremental_pipeline(player_slugs: list[str]) -> dict[str, object]:
         pathway_rows=pathway["rows"],
         valuation_rows=valuation["rows"],
     )
+    if similarity and isinstance(similarity, dict) and similarity.get("rows"):
+        _merge_gold_file("player_similarity.json", similarity["rows"], key_field="player_slug")
+
     transfer_probability = build_transfer_probability_output(
         silver["tables"],
         gold["tables"],
@@ -286,6 +359,9 @@ def run_incremental_pipeline(player_slugs: list[str]) -> dict[str, object]:
         valuation_rows=valuation["rows"],
         drift_report=drift_report,
     )
+    if transfer_probability and isinstance(transfer_probability, dict) and transfer_probability.get("rows"):
+        _merge_gold_file("transfer_probability.json", transfer_probability["rows"], key_field="player_slug")
+
     return {
         "silver": silver,
         "persistence": persistence,

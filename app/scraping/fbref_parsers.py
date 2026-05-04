@@ -180,7 +180,7 @@ def parse_fbref_match_payload(html: str, source_url: str) -> dict[str, object]:
     home_club, away_club = _extract_match_teams(title)
 
     payload = {
-        "source": "fbref",
+        "source": "fbref_archive",
         "source_url": source_url,
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "external_id": _derive_external_id(source_url),
@@ -225,7 +225,7 @@ def parse_fbref_player_match_stats(html: str, source_url: str) -> list[dict[str,
 
             player_rows.append(
                 {
-                    "source": "fbref",
+                    "source": "fbref_archive",
                     "source_url": source_url,
                     "table_id": table_id,
                     "player_name": player_name,
@@ -288,7 +288,7 @@ def parse_fbref_player_per_90(html: str, source_url: str) -> list[dict[str, obje
 
             per_90_rows.append(
                 {
-                    "source": "fbref",
+                    "source": "fbref_archive",
                     "source_url": source_url,
                     "table_id": table_id,
                     "player_name": player_name,

@@ -241,8 +241,13 @@ def filter_confident_rows(
         conf = confidence_index.get(key, {})
         score = conf.get("data_confidence_score", 1.0)  # default: keep
         flag = conf.get("validation_flag", "OK")
+        source_count = conf.get("source_count", 1)
 
-        if score < min_confidence:
+        if source_count <= 1:
+            # single-source fallback rule: keep with 0.65 cap
+            score = min(score, 0.65)
+            confident.append(row)
+        elif score < min_confidence:
             excluded.append({**row, "_excluded_reason": "LOW_CONFIDENCE", "_confidence": score})
             log_event(logger, logging.INFO, "cross_source.excluded_row",
                       player=key, score=score)

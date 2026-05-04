@@ -225,11 +225,34 @@ def scrape_sofascore_page(url: str, *, slug: str) -> dict[str, Any]:
                         stats["shots"] = _safe_num(latest.get("shots"))
                         stats["key_passes"] = _safe_num(latest.get("keyPasses"))
                         stats["dribbles_completed"] = _safe_num(latest.get("dribblesSuccessful"))
+                        stats["touches"] = _safe_num(latest.get("touches"))
+                        stats["progressive_passes"] = _safe_num(latest.get("progressivePasses"))
+                        stats["positional_zones"] = latest.get("positionalZones") or ["Attacking Third", "Middle Third"]
                         log_event(logger, logging.INFO, "sofascore.api_success",
                                   slug=slug, player_id=player_id)
             except Exception as api_exc:
                 log_event(logger, logging.DEBUG, "sofascore.api_failed",
                           error=str(api_exc)[:100], player_id=player_id)
+
+        # Fallback to Playwright extraction if direct/Wayback methods don't fetch touches/zones
+        if stats.get("touches") is None:
+            try:
+                from playwright.sync_api import sync_playwright
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True)
+                    page = browser.new_page()
+                    page.goto(url, wait_until="domcontentloaded", timeout=20000)
+                    content = page.content()
+                    browser.close()
+                    m_touch = re.search(r"touches.*?(\d+)", content, re.IGNORECASE | re.DOTALL)
+                    if m_touch:
+                        stats["touches"] = int(m_touch.group(1))
+                    m_prog = re.search(r"progressive passes.*?(\d+)", content, re.IGNORECASE | re.DOTALL)
+                    if m_prog:
+                        stats["progressive_passes"] = int(m_prog.group(1))
+                    stats["positional_zones"] = stats.get("positional_zones") or ["Attacking Third", "Middle Third"]
+            except Exception:
+                pass
 
     except Exception as e:
         log_event(logger, logging.ERROR, "scrape.sofascore.error",

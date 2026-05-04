@@ -157,7 +157,7 @@ def scrape_fbref_page(url: str, *, slug: str | None = None, headless: bool = Tru
         if not player_match_stats:
             # Only add metadata row — no synthetic numeric values
             player_match_stats.append({
-                "source": "fbref",
+                "source": "fbref_archive",
                 "source_url": url,
                 "player_name": (runtime_slug or "Unknown").replace("-", " ").title(),
                 "minutes": None,
@@ -197,7 +197,7 @@ def scrape_fbref_page(url: str, *, slug: str | None = None, headless: bool = Tru
         return {"payload": {
             "match": {},
             "player_match_stats": [{
-                "source": "fbref",
+                "source": "fbref_archive",
                 "source_url": url,
                 "player_name": runtime_slug.replace("-", " ").title(),
                 "minutes": None,
