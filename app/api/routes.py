@@ -659,6 +659,7 @@ def admin_status() -> dict[str, object]:
 
 
 from pydantic import BaseModel
+import time
 
 class ShortlistInput(BaseModel):
     position: str | None = None
@@ -676,24 +677,34 @@ class ClubFitInput(BaseModel):
 class ReportInput(BaseModel):
     player_slug: str
 
+class SaveShortlistInput(BaseModel):
+    name: str | None = None
+    filters: dict[str, Any] | None = None
+    players: list[str]
+    notes: str | None = None
+
 
 @router.post("/shortlist")
 def shortlist_engine(payload: ShortlistInput) -> list[dict[str, Any]]:
     from pathlib import Path
     from app.pipeline.io import read_json
-    
+
     kpi_rows = []
     val_rows = []
+    tp_rows = []
     try:
         if Path("data/gold/kpi_engine.json").exists():
             kpi_rows = read_json(Path("data/gold/kpi_engine.json")) or []
         if Path("data/gold/player_valuation.json").exists():
             val_rows = read_json(Path("data/gold/player_valuation.json")) or []
+        if Path("data/gold/transfer_probability.json").exists():
+            tp_rows = read_json(Path("data/gold/transfer_probability.json")) or []
     except Exception:
         pass
 
     kpi_map = {normalize_name(r.get("player_name")): r for r in kpi_rows if isinstance(r, dict)}
     val_map = {normalize_name(r.get("player_name")): r for r in val_rows if isinstance(r, dict)}
+    tp_map = {normalize_name(r.get("player_name")): r for r in tp_rows if isinstance(r, dict)}
 
     shortlist = []
     for p_name, kr in kpi_map.items():
@@ -710,18 +721,105 @@ def shortlist_engine(payload: ShortlistInput) -> list[dict[str, Any]]:
         if payload.market_value_max and mv > payload.market_value_max:
             continue
 
-        undervalued = vr.get("is_undervalued") or (vr.get("computed_value_eur", 0) > vr.get("market_value_eur", 0))
+        # Convert to Ranking Engine
+        # formula: score = (performance_percentile * 0.4 + undervaluation_gap * 0.3 + transfer_probability * 0.3)
+        base_kpi = float(kr.get("base_kpi_score") or 7.5)
+        perf_pct = min(100.0, max(0.0, base_kpi * 12.0))
+
+        cv = float(vr.get("computed_value_eur") or 0.0)
+        gap_pct = max(0.0, min(100.0, ((cv - mv) / mv) * 100.0)) if mv > 0 and cv > mv else 25.0
+        val_gap_pct = gap_pct
+
+        tp_val = float(tp_map.get(p_name, {}).get("transfer_probability_1y") or 0.65)
+        tp_pct = tp_val * 100.0
+
+        score = round((perf_pct * 0.4) + (val_gap_pct * 0.3) + (tp_pct * 0.3), 2)
+        undervalued = vr.get("is_undervalued") or (cv > mv)
+
         shortlist.append({
             "player_slug": p_name,
             "player_name": vr.get("player_name") or kr.get("player_name") or p_name.title(),
-            "score": round(kr.get("base_kpi_score") or 8.0, 2),
+            "score": score,
             "undervalued": bool(undervalued),
-            "fit_score": 0.85 + (kr.get("base_kpi_score", 0) / 100.0),
-            "risk": "low" if undervalued else "medium"
+            "fit_score": round(0.85 + (score / 500.0), 2),
+            "risk": "low" if undervalued else "medium",
+            "breakdown": {
+                "performance_factor": round(perf_pct * 0.4, 2),
+                "valuation_factor": round(val_gap_pct * 0.3, 2),
+                "probability_factor": round(tp_pct * 0.3, 2)
+            }
         })
 
     shortlist.sort(key=lambda r: r["score"], reverse=True)
     return shortlist[:15]
+
+
+@router.post("/shortlist/save")
+def save_shortlist(payload: SaveShortlistInput) -> dict[str, Any]:
+    from pathlib import Path
+    from app.pipeline.io import read_json, write_json
+    path = Path("data/gold/saved_shortlists.json")
+    
+    saved = []
+    if path.exists():
+        try:
+            saved = read_json(path) or []
+        except Exception:
+            pass
+    
+    new_id = str(int(time.time() * 1000))
+    entry = {
+        "id": new_id,
+        "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "name": payload.name or f"Shortlist-{new_id}",
+        "filters": payload.filters or {},
+        "players": payload.players,
+        "notes": payload.notes or ""
+    }
+    saved.append(entry)
+    Path("data/gold").mkdir(parents=True, exist_ok=True)
+    write_json(path, saved)
+    return {"status": "success", "shortlist": entry}
+
+
+@router.get("/shortlist/saved")
+def list_saved_shortlists() -> list[dict[str, Any]]:
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/saved_shortlists.json")
+    if not path.exists():
+        return []
+    try:
+        return read_json(path) or []
+    except Exception:
+        return []
+
+
+@router.get("/shortlist/{id}")
+def get_saved_shortlist(id: str) -> dict[str, Any]:
+    from pathlib import Path
+    from app.pipeline.io import read_json
+    path = Path("data/gold/saved_shortlists.json")
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Saved shortlist not found")
+    saved = read_json(path) or []
+    for s in saved:
+        if s.get("id") == id:
+            return s
+    raise HTTPException(status_code=404, detail="Saved shortlist not found")
+
+
+@router.delete("/shortlist/{id}")
+def delete_saved_shortlist(id: str) -> dict[str, Any]:
+    from pathlib import Path
+    from app.pipeline.io import read_json, write_json
+    path = Path("data/gold/saved_shortlists.json")
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Saved shortlist not found")
+    saved = read_json(path) or []
+    updated = [s for s in saved if s.get("id") != id]
+    write_json(path, updated)
+    return {"status": "success", "deleted_id": id}
 
 
 @router.get("/player/{slug}")
@@ -729,7 +827,6 @@ def player_profile(slug: str) -> dict[str, Any]:
     from pathlib import Path
     from app.pipeline.io import read_json
     
-    # Extract bio (TM), stats (FBref/Sofascore), advanced metrics, valuation, risk
     try:
         val_rows = read_json(Path("data/gold/player_valuation.json")) if Path("data/gold/player_valuation.json").exists() else []
         kpi_rows = read_json(Path("data/gold/kpi_engine.json")) if Path("data/gold/kpi_engine.json").exists() else []
@@ -746,15 +843,19 @@ def player_profile(slug: str) -> dict[str, Any]:
     kr = next((r for r in kpi_rows if normalize_name(r.get("player_name")) == target), {})
     rr = next((r for r in risk_rows if normalize_name(r.get("player_name")) == target), {})
 
-    # Compute temporal trend: trend = last_5_games - season_avg
     p_stats = [r for r in match_stats if normalize_name(r.get("player_name")) == target]
     recent_min = sum(float(r.get("minutes") or 0) for r in p_stats[-5:]) / max(1, min(5, len(p_stats)))
     season_min = sum(float(r.get("minutes") or 0) for r in p_stats) / max(1, len(p_stats))
     trend = round(recent_min - season_min, 1)
 
+    clean_name = vr.get("player_name") or kr.get("player_name") or slug.title()
+
+    # Fallback youtube highlights search logic
+    video_links = [f"https://www.youtube.com/results?search_query={clean_name.replace(' ', '+')}+football+highlights"]
+    
     return {
         "player_slug": slug,
-        "player_name": vr.get("player_name") or kr.get("player_name") or slug.title(),
+        "player_name": clean_name,
         "bio": {
             "nationality": vr.get("nationality") or "Argentine",
             "age": vr.get("age") or kr.get("age") or 23,
@@ -777,7 +878,13 @@ def player_profile(slug: str) -> dict[str, Any]:
         "risk": {
             "risk_score": rr.get("risk_score") or 15.0,
             "risk_tier": rr.get("risk_tier") or "low"
-        }
+        },
+        "video_links": video_links,
+        "event_clips": [
+            {"event_id": f"shot_{slug}_01", "timestamp": "02:14", "action_type": "Shot - Progressive Entry"},
+            {"event_id": f"pass_{slug}_02", "timestamp": "12:45", "action_type": "Key Pass - Third Penalty Frame"},
+            {"event_id": f"duel_{slug}_03", "timestamp": "42:10", "action_type": "Ground Duel - Defensive Midfield Recovery"}
+        ]
     }
 
 
@@ -816,7 +923,6 @@ def decision_engine(slug: str) -> dict[str, Any]:
 
 @router.post("/compare")
 def compare_players(payload: CompareInput) -> dict[str, Any]:
-    # Returns side by side comparison metrics normalized
     return {
         "metrics": ["xG_p90", "xA_p90", "progressive_carries", "ball_recoveries"],
         "player_a": {
@@ -837,21 +943,53 @@ def alerts_panel() -> list[dict[str, Any]]:
     from app.pipeline.io import read_json
     try:
         val_rows = read_json(Path("data/gold/player_valuation.json")) if Path("data/gold/player_valuation.json").exists() else []
+        kpi_rows = read_json(Path("data/gold/kpi_engine.json")) if Path("data/gold/kpi_engine.json").exists() else []
+        match_stats = read_json(Path("data/silver/player_match_stats.json")) if Path("data/silver/player_match_stats.json").exists() else []
     except Exception:
         val_rows = []
+        kpi_rows = []
+        match_stats = []
 
+    kpi_map = {normalize_name(r.get("player_name")): r for r in kpi_rows if isinstance(r, dict)}
+    
     alerts = []
     for r in val_rows:
-        if r.get("is_undervalued") or (r.get("computed_value_eur", 0) > r.get("market_value_eur", 0)):
+        slug = normalize_name(r.get("player_name"))
+        kr = kpi_map.get(slug, {})
+        
+        mv = float(r.get("market_value_eur") or 0)
+        cv = float(r.get("computed_value_eur") or 0)
+        undervalued = (cv > mv) or r.get("is_undervalued")
+
+        # Trend and age profiling
+        p_stats = [s for s in match_stats if normalize_name(s.get("player_name")) == slug]
+        recent_min = sum(float(s.get("minutes") or 0) for s in p_stats[-5:]) / max(1, min(5, len(p_stats)))
+        season_min = sum(float(s.get("minutes") or 0) for s in p_stats) / max(1, len(p_stats))
+        trend = round(recent_min - season_min, 1)
+        age = int(r.get("age") or kr.get("age") or 25)
+
+        if undervalued and trend > 5.0 and age < 24:
             alerts.append({
-                "player_slug": normalize_name(r.get("player_name")),
+                "priority": "HIGH",
+                "player_slug": slug,
+                "player_name": r.get("player_name"),
+                "alert_type": "BREAKOUT",
+                "message": f"🔥 CRITICAL: {r.get('player_name')} is undervalued, shows an upward form trend (+{trend}), and matches target age profile.",
+                "severity": "critical"
+            })
+        elif undervalued:
+            alerts.append({
+                "priority": "MEDIUM",
+                "player_slug": slug,
                 "player_name": r.get("player_name"),
                 "alert_type": "UNDERVALUED",
-                "message": f"🔥 ALERT: {r.get('player_name')} is undervalued. High transfer efficiency target.",
+                "message": f"🔥 ALERT: {r.get('player_name')} is undervalued. Real transfer efficiency target.",
                 "severity": "high"
             })
+
     if not alerts:
         alerts.append({
+            "priority": "HIGH",
             "player_slug": "kendry-paez",
             "player_name": "Kendry Paez",
             "alert_type": "BREAKOUT",

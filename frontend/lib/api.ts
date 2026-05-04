@@ -174,6 +174,10 @@ export const api = {
   alertsPanel: () => fetchAPI<any[]>("/alerts"),
   clubFitEngine: (club: string, player_slug: string) => fetchAPI<any>("/club-fit", { method: "POST", body: JSON.stringify({ club, player_slug }) }),
   reportGenerator: (player_slug: string) => fetchAPI<any>("/report", { method: "POST", body: JSON.stringify({ player_slug }) }),
+  saveShortlist: (data: { name?: string; filters?: any; players: string[]; notes?: string }) =>
+    fetchAPI<any>("/shortlist/save", { method: "POST", body: JSON.stringify(data) }),
+  listSavedShortlists: () => fetchAPI<any[]>("/shortlist/saved"),
+  deleteSavedShortlist: (id: string) => fetchAPI<any>(`/shortlist/${encodeURIComponent(id)}`, { method: "DELETE" }),
 };
 
 export interface TransferProbRow {
