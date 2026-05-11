@@ -1,0 +1,282 @@
+{
+  "profile": {
+    "tm_id": "272855",
+    "player_name": "Paul Onuachu",
+    "date_of_birth": "28/05/1994",
+    "age": 31,
+    "nationality": "Nigeria",
+    "height": "2,01 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Trabzonspor",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€6.00m",
+    "market_value_eur": 6000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/paul-onuachu/profil/spieler/272855"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "02/07/2013",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "FC Midtjylland",
+      "age": "19"
+    },
+    {
+      "date": "31/08/2014",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "FC Midtjylland",
+      "age": "20"
+    },
+    {
+      "date": "06/02/2015",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Vejle Boldklub",
+      "age": "20"
+    },
+    {
+      "date": "02/09/2015",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "FC Midtjylland",
+      "age": "21"
+    },
+    {
+      "date": "21/01/2016",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "FC Midtjylland",
+      "age": "21"
+    },
+    {
+      "date": "12/08/2016",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "FC Midtjylland",
+      "age": "22"
+    },
+    {
+      "date": "12/12/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "FC Midtjylland",
+      "age": "22"
+    },
+    {
+      "date": "27/03/2017",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "FC Midtjylland",
+      "age": "22"
+    },
+    {
+      "date": "21/06/2017",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Midtjylland",
+      "age": "23"
+    },
+    {
+      "date": "18/12/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Midtjylland",
+      "age": "23"
+    },
+    {
+      "date": "02/06/2018",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Midtjylland",
+      "age": "24"
+    },
+    {
+      "date": "21/12/2018",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "FC Midtjylland",
+      "age": "24"
+    },
+    {
+      "date": "08/06/2019",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "FC Midtjylland",
+      "age": "25"
+    },
+    {
+      "date": "13/12/2019",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "KRC Genk",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 5200000,
+      "value_str": "€5.20m",
+      "club": "KRC Genk",
+      "age": "25"
+    },
+    {
+      "date": "16/10/2020",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "KRC Genk",
+      "age": "26"
+    },
+    {
+      "date": "04/01/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "KRC Genk",
+      "age": "26"
+    },
+    {
+      "date": "17/03/2021",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "KRC Genk",
+      "age": "26"
+    },
+    {
+      "date": "07/06/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "KRC Genk",
+      "age": "27"
+    },
+    {
+      "date": "06/10/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "KRC Genk",
+      "age": "27"
+    },
+    {
+      "date": "06/01/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "KRC Genk",
+      "age": "27"
+    },
+    {
+      "date": "12/04/2022",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "KRC Genk",
+      "age": "27"
+    },
+    {
+      "date": "07/09/2022",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "KRC Genk",
+      "age": "28"
+    },
+    {
+      "date": "04/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "KRC Genk",
+      "age": "28"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Southampton FC",
+      "age": "28"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Southampton FC",
+      "age": "29"
+    },
+    {
+      "date": "27/09/2023",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Trabzonspor",
+      "age": "29"
+    },
+    {
+      "date": "21/12/2023",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Trabzonspor",
+      "age": "29"
+    },
+    {
+      "date": "15/03/2024",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Trabzonspor",
+      "age": "29"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Trabzonspor",
+      "age": "30"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Southampton FC",
+      "age": "30"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Southampton FC",
+      "age": "30"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Southampton FC",
+      "age": "31"
+    },
+    {
+      "date": "17/12/2025",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Trabzonspor",
+      "age": "31"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Türkiye Kupasi",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 193
+    },
+    {
+      "competition": "Süper Lig",
+      "season": "25/26",
+      "games_played": 29,
+      "goals": 22,
+      "assists": 2,
+      "yellow_cards": 6,
+      "red_cards": 0,
+      "minutes_played": 2435
+    }
+  ]
+}

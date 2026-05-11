@@ -12,7 +12,7 @@
     "live_metrics": {
       "live_data": true,
       "player_count": 1,
-      "avg_kpi_score": 6.94,
+      "avg_kpi_score": 6.96,
       "avg_consistency_score": 100.0
     },
     "comparison_vs_idv": {
@@ -83,8 +83,8 @@
     "live_metrics": {
       "live_data": true,
       "player_count": 1,
-      "avg_kpi_score": 6.41,
-      "avg_consistency_score": 92.875
+      "avg_kpi_score": 6.51,
+      "avg_consistency_score": 93.542
     },
     "comparison_vs_idv": {
       "avg_player_improvement_rate_delta_vs_idv": 3.0,

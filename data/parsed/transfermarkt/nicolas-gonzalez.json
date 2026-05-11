@@ -142,22 +142,12 @@
     {
       "competition": "Premier League",
       "season": "25/26",
-      "games_played": 23,
+      "games_played": 24,
       "goals": 1,
       "assists": 0,
       "yellow_cards": 6,
       "red_cards": 0,
-      "minutes_played": 1402
-    },
-    {
-      "competition": "UEFA Champions League",
-      "season": "25/26",
-      "games_played": 8,
-      "goals": 0,
-      "assists": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 410
+      "minutes_played": 1477
     },
     {
       "competition": "FA Cup",
@@ -168,6 +158,16 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "minutes_played": 283
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 410
     },
     {
       "competition": "EFL Cup",

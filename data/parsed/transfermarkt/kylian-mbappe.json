@@ -1,0 +1,274 @@
+{
+  "profile": {
+    "tm_id": "342229",
+    "player_name": "Kylian Mbappé",
+    "date_of_birth": "20/12/1998",
+    "age": 27,
+    "nationality": "FranceCameroon",
+    "height": "1,80 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Real Madrid",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€200.00m",
+    "market_value_eur": 200000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/kylian-mbappe/profil/spieler/342229"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "02/12/2015",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "AS Monaco U19",
+      "age": "16"
+    },
+    {
+      "date": "04/02/2016",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "AS Monaco",
+      "age": "17"
+    },
+    {
+      "date": "09/04/2016",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "AS Monaco",
+      "age": "17"
+    },
+    {
+      "date": "13/07/2016",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "AS Monaco",
+      "age": "17"
+    },
+    {
+      "date": "01/11/2016",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "AS Monaco",
+      "age": "17"
+    },
+    {
+      "date": "16/01/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "AS Monaco",
+      "age": "18"
+    },
+    {
+      "date": "01/06/2017",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "AS Monaco",
+      "age": "18"
+    },
+    {
+      "date": "12/10/2017",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Paris Saint-Germain",
+      "age": "18"
+    },
+    {
+      "date": "24/01/2018",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Paris Saint-Germain",
+      "age": "19"
+    },
+    {
+      "date": "04/06/2018",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Paris Saint-Germain",
+      "age": "19"
+    },
+    {
+      "date": "16/07/2018",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Paris Saint-Germain",
+      "age": "19"
+    },
+    {
+      "date": "24/10/2018",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Paris Saint-Germain",
+      "age": "19"
+    },
+    {
+      "date": "17/12/2018",
+      "value_eur": 200000000,
+      "value_str": "€200.00m",
+      "club": "Paris Saint-Germain",
+      "age": "19"
+    },
+    {
+      "date": "03/06/2019",
+      "value_eur": 200000000,
+      "value_str": "€200.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "19/12/2019",
+      "value_eur": 200000000,
+      "value_str": "€200.00m",
+      "club": "Paris Saint-Germain",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "15/10/2020",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Paris Saint-Germain",
+      "age": "21"
+    },
+    {
+      "date": "09/04/2021",
+      "value_eur": 160000000,
+      "value_str": "€160.00m",
+      "club": "Paris Saint-Germain",
+      "age": "22"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 160000000,
+      "value_str": "€160.00m",
+      "club": "Paris Saint-Germain",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2021",
+      "value_eur": 160000000,
+      "value_str": "€160.00m",
+      "club": "Paris Saint-Germain",
+      "age": "22"
+    },
+    {
+      "date": "30/05/2022",
+      "value_eur": 160000000,
+      "value_str": "€160.00m",
+      "club": "Paris Saint-Germain",
+      "age": "23"
+    },
+    {
+      "date": "02/11/2022",
+      "value_eur": 160000000,
+      "value_str": "€160.00m",
+      "club": "Paris Saint-Germain",
+      "age": "23"
+    },
+    {
+      "date": "23/12/2022",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Paris Saint-Germain",
+      "age": "24"
+    },
+    {
+      "date": "27/06/2023",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Paris Saint-Germain",
+      "age": "24"
+    },
+    {
+      "date": "18/12/2023",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Paris Saint-Germain",
+      "age": "24"
+    },
+    {
+      "date": "03/06/2024",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Paris Saint-Germain",
+      "age": "25"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 160000000,
+      "value_str": "€160.00m",
+      "club": "Real Madrid",
+      "age": "26"
+    },
+    {
+      "date": "21/03/2025",
+      "value_eur": 170000000,
+      "value_str": "€170.00m",
+      "club": "Real Madrid",
+      "age": "26"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 180000000,
+      "value_str": "€180.00m",
+      "club": "Real Madrid",
+      "age": "26"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 200000000,
+      "value_str": "€200.00m",
+      "club": "Real Madrid",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 28,
+      "goals": 24,
+      "assists": 4,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 2405
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 15,
+      "assists": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 911
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 14
+    }
+  ]
+}

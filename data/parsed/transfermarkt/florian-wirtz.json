@@ -1,0 +1,183 @@
+{
+  "profile": {
+    "tm_id": "598577",
+    "player_name": "Florian Wirtz",
+    "date_of_birth": "03/05/2003",
+    "age": 23,
+    "nationality": "Germany",
+    "height": "1,77 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "Liverpool FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€110.00m",
+    "market_value_eur": 110000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/598577"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "08/07/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "17"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "17"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "17"
+    },
+    {
+      "date": "09/06/2021",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "18"
+    },
+    {
+      "date": "07/10/2021",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "18"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "18"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "19"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "19"
+    },
+    {
+      "date": "29/03/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "19"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "21"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 140000000,
+      "value_str": "€140.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "21"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 140000000,
+      "value_str": "€140.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "22"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Liverpool FC",
+      "age": "22"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Liverpool FC",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 31,
+      "goals": 5,
+      "assists": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 2349
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 1,
+      "assists": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 840
+    },
+    {
+      "competition": "Community Shield",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 84
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 190
+    }
+  ]
+}

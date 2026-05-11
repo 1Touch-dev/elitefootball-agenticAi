@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "tm_id": "357582",
+    "player_name": "Camelo Tacusalme",
+    "date_of_birth": "05/08/1989",
+    "age": 36,
+    "nationality": "Philippines",
+    "height": null,
+    "position": "Defender - Centre-Back",
+    "foot": null,
+    "current_club": "Retired",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/rodrigo-bentancur/profil/spieler/357582"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "25/06/2021",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Kaya FC-Iloilo",
+      "age": "31"
+    },
+    {
+      "date": "31/12/2023",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Kaya FC-Iloilo",
+      "age": "34"
+    },
+    {
+      "date": "01/02/2024",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Retired",
+      "age": "34"
+    }
+  ],
+  "performance_stats": []
+}

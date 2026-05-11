@@ -3,7 +3,7 @@
     "tm_id": "1052439",
     "player_name": "Kendry Páez",
     "date_of_birth": "04/05/2007",
-    "age": 18,
+    "age": 19,
     "nationality": "Ecuador",
     "height": "1,78 m",
     "position": "Midfield - Attacking Midfield",
@@ -77,24 +77,34 @@
   ],
   "performance_stats": [
     {
-      "competition": "Torneo Apertura",
+      "competition": "Playoff Torneo Apertura",
       "season": "2026",
-      "games_played": 7,
-      "goals": 1,
+      "games_played": 1,
+      "goals": 0,
       "assists": 0,
       "yellow_cards": 0,
       "red_cards": 0,
-      "minutes_played": 271
+      "minutes_played": 43
     },
     {
       "competition": "Copa Sudamericana",
       "season": "2026",
-      "games_played": 2,
+      "games_played": 3,
       "goals": 0,
       "assists": 1,
       "yellow_cards": 0,
       "red_cards": 0,
-      "minutes_played": 84
+      "minutes_played": 95
+    },
+    {
+      "competition": "Torneo Apertura",
+      "season": "2026",
+      "games_played": 8,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 316
     },
     {
       "competition": "Copa Argentina",

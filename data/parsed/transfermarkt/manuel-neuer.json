@@ -1,0 +1,393 @@
+{
+  "profile": {
+    "tm_id": "17259",
+    "player_name": "Manuel Neuer",
+    "date_of_birth": "27/03/1986",
+    "age": 40,
+    "nationality": "Germany",
+    "height": "1,93 m",
+    "position": "Goalkeeper",
+    "foot": "right",
+    "current_club": "Bayern Munich",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": "€4.00m",
+    "market_value_eur": 4000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/manuel-neuer/profil/spieler/17259"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "17/03/2005",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "FC Schalke 04 U19",
+      "age": "18"
+    },
+    {
+      "date": "16/09/2005",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "FC Schalke 04",
+      "age": "19"
+    },
+    {
+      "date": "21/08/2006",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "FC Schalke 04",
+      "age": "20"
+    },
+    {
+      "date": "15/01/2007",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Schalke 04",
+      "age": "20"
+    },
+    {
+      "date": "21/06/2007",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "FC Schalke 04",
+      "age": "21"
+    },
+    {
+      "date": "01/01/2008",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "FC Schalke 04",
+      "age": "21"
+    },
+    {
+      "date": "04/06/2008",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "FC Schalke 04",
+      "age": "22"
+    },
+    {
+      "date": "21/01/2009",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "FC Schalke 04",
+      "age": "22"
+    },
+    {
+      "date": "10/06/2009",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "FC Schalke 04",
+      "age": "23"
+    },
+    {
+      "date": "17/01/2010",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Schalke 04",
+      "age": "23"
+    },
+    {
+      "date": "16/07/2010",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Schalke 04",
+      "age": "24"
+    },
+    {
+      "date": "12/01/2011",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "FC Schalke 04",
+      "age": "24"
+    },
+    {
+      "date": "29/06/2011",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "FC Schalke 04",
+      "age": "25"
+    },
+    {
+      "date": "23/01/2012",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "25"
+    },
+    {
+      "date": "29/06/2012",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "26"
+    },
+    {
+      "date": "13/01/2013",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "26"
+    },
+    {
+      "date": "30/06/2013",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "12/02/2014",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "10/07/2014",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    },
+    {
+      "date": "04/02/2015",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    },
+    {
+      "date": "15/02/2016",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    },
+    {
+      "date": "01/06/2016",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "30"
+    },
+    {
+      "date": "22/07/2016",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "30"
+    },
+    {
+      "date": "07/02/2017",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "30"
+    },
+    {
+      "date": "19/06/2017",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Bayern Munich",
+      "age": "31"
+    },
+    {
+      "date": "28/12/2017",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Bayern Munich",
+      "age": "31"
+    },
+    {
+      "date": "05/06/2018",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Bayern Munich",
+      "age": "32"
+    },
+    {
+      "date": "22/10/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "32"
+    },
+    {
+      "date": "18/12/2018",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Bayern Munich",
+      "age": "32"
+    },
+    {
+      "date": "05/06/2019",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Bayern Munich",
+      "age": "33"
+    },
+    {
+      "date": "17/12/2019",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Bayern Munich",
+      "age": "33"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 14500000,
+      "value_str": "€14.50m",
+      "club": "Bayern Munich",
+      "age": "34"
+    },
+    {
+      "date": "16/09/2020",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Bayern Munich",
+      "age": "34"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Bayern Munich",
+      "age": "34"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Bayern Munich",
+      "age": "35"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Bayern Munich",
+      "age": "35"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Bayern Munich",
+      "age": "36"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Bayern Munich",
+      "age": "36"
+    },
+    {
+      "date": "29/03/2023",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Bayern Munich",
+      "age": "37"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Bayern Munich",
+      "age": "37"
+    },
+    {
+      "date": "18/10/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Bayern Munich",
+      "age": "37"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Bayern Munich",
+      "age": "37"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Bayern Munich",
+      "age": "38"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Bayern Munich",
+      "age": "38"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Bayern Munich",
+      "age": "39"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Bayern Munich",
+      "age": "39"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 21,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 1800
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 990
+    },
+    {
+      "competition": "DFL-Supercup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 270
+    }
+  ]
+}

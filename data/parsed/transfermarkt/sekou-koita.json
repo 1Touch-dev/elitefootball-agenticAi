@@ -175,16 +175,6 @@
   ],
   "performance_stats": [
     {
-      "competition": "Süper Lig",
-      "season": "25/26",
-      "games_played": 25,
-      "goals": 6,
-      "assists": 0,
-      "yellow_cards": 3,
-      "red_cards": 2,
-      "minutes_played": 1629
-    },
-    {
       "competition": "Türkiye Kupasi",
       "season": "25/26",
       "games_played": 5,
@@ -193,6 +183,16 @@
       "yellow_cards": 1,
       "red_cards": 0,
       "minutes_played": 242
+    },
+    {
+      "competition": "Süper Lig",
+      "season": "25/26",
+      "games_played": 27,
+      "goals": 6,
+      "assists": 0,
+      "yellow_cards": 3,
+      "red_cards": 2,
+      "minutes_played": 1733
     },
     {
       "competition": "Premier Liga",

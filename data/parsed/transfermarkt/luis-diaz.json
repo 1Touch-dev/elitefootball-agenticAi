@@ -205,22 +205,22 @@
     {
       "competition": "Bundesliga",
       "season": "25/26",
-      "games_played": 30,
+      "games_played": 31,
       "goals": 15,
       "assists": 16,
       "yellow_cards": 5,
       "red_cards": 1,
-      "minutes_played": 2331
+      "minutes_played": 2361
     },
     {
       "competition": "UEFA Champions League",
       "season": "25/26",
-      "games_played": 11,
+      "games_played": 12,
       "goals": 7,
       "assists": 4,
-      "yellow_cards": 1,
+      "yellow_cards": 2,
       "red_cards": 1,
-      "minutes_played": 891
+      "minutes_played": 981
     },
     {
       "competition": "DFL-Supercup",

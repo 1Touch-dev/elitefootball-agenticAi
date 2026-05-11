@@ -1,0 +1,211 @@
+{
+  "profile": {
+    "tm_id": "640428",
+    "player_name": "Eduardo Camavinga",
+    "date_of_birth": "10/11/2002",
+    "age": 23,
+    "nationality": "FranceCongo",
+    "height": "1,82 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "left",
+    "current_club": "Real Madrid",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€50.00m",
+    "market_value_eur": 50000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/eduardo-camavinga/profil/spieler/640428"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "03/06/2019",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Stade Rennais FC",
+      "age": "16"
+    },
+    {
+      "date": "27/09/2019",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Stade Rennais FC",
+      "age": "16"
+    },
+    {
+      "date": "19/12/2019",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Stade Rennais FC",
+      "age": "17"
+    },
+    {
+      "date": "13/03/2020",
+      "value_eur": 42000000,
+      "value_str": "€42.00m",
+      "club": "Stade Rennais FC",
+      "age": "17"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 37500000,
+      "value_str": "€37.50m",
+      "club": "Stade Rennais FC",
+      "age": "17"
+    },
+    {
+      "date": "15/10/2020",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Stade Rennais FC",
+      "age": "17"
+    },
+    {
+      "date": "07/01/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Stade Rennais FC",
+      "age": "18"
+    },
+    {
+      "date": "04/06/2021",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Stade Rennais FC",
+      "age": "18"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Real Madrid",
+      "age": "19"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Real Madrid",
+      "age": "19"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "19"
+    },
+    {
+      "date": "23/03/2023",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Real Madrid",
+      "age": "20"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Real Madrid",
+      "age": "20"
+    },
+    {
+      "date": "13/10/2023",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Real Madrid",
+      "age": "20"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Real Madrid",
+      "age": "21"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Real Madrid",
+      "age": "21"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Real Madrid",
+      "age": "22"
+    },
+    {
+      "date": "21/03/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Real Madrid",
+      "age": "22"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Real Madrid",
+      "age": "22"
+    },
+    {
+      "date": "02/10/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "22"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Real Madrid",
+      "age": "23"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 27,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1416
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "minutes_played": 479
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 25
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 169
+    }
+  ]
+}

@@ -219,22 +219,22 @@
     {
       "competition": "Premier League",
       "season": "25/26",
-      "games_played": 26,
+      "games_played": 28,
       "goals": 0,
       "assists": 4,
       "yellow_cards": 6,
       "red_cards": 0,
-      "minutes_played": 1428
+      "minutes_played": 1528
     },
     {
       "competition": "Conference League",
       "season": "25/26",
-      "games_played": 10,
+      "games_played": 11,
       "goals": 0,
       "assists": 0,
       "yellow_cards": 0,
       "red_cards": 0,
-      "minutes_played": 502
+      "minutes_played": 504
     },
     {
       "competition": "UECL Qualifiers",

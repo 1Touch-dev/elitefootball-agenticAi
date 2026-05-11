@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "tm_id": "480656",
+    "player_name": "Omar Ragab",
+    "date_of_birth": "28/03/1997",
+    "age": 29,
+    "nationality": "Egypt",
+    "height": "1,73 m",
+    "position": "Defender - Right-Back",
+    "foot": "right",
+    "current_club": "Port Fouad SC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/luis-diaz-liverpool/profil/spieler/480656"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "11/01/2017",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Unknown",
+      "age": "19"
+    },
+    {
+      "date": "20/07/2017",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "El Dakhlia SC",
+      "age": "20"
+    },
+    {
+      "date": "26/12/2017",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Masr El Makasa",
+      "age": "20"
+    },
+    {
+      "date": "23/05/2018",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Masr El Makasa",
+      "age": "21"
+    },
+    {
+      "date": "13/12/2018",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Masr El Makasa",
+      "age": "21"
+    },
+    {
+      "date": "02/06/2019",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Masr El Makasa",
+      "age": "22"
+    },
+    {
+      "date": "02/06/2020",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Aluminium Nag Hamadi",
+      "age": "23"
+    }
+  ],
+  "performance_stats": []
+}

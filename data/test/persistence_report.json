@@ -1,0 +1,92 @@
+{
+  "run_id": "20260504T120611Z",
+  "generated_at": "2026-05-04T12:06:11.250137+00:00",
+  "status": "validation_failed",
+  "source_counts": {
+    "players": 0,
+    "transfers": 0,
+    "matches": 1,
+    "player_match_stats": 1,
+    "player_per90": 0
+  },
+  "entities": {
+    "clubs": {
+      "attempted": 2,
+      "inserted": 2,
+      "updated": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "players": {
+      "attempted": 0,
+      "inserted": 0,
+      "updated": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "matches": {
+      "attempted": 1,
+      "inserted": 0,
+      "updated": 0,
+      "skipped": 0,
+      "failed": 1
+    },
+    "stats": {
+      "attempted": 1,
+      "inserted": 0,
+      "updated": 0,
+      "skipped": 0,
+      "failed": 1
+    }
+  },
+  "errors": [
+    {
+      "entity": "matches",
+      "message": "match_date missing or invalid",
+      "row": {
+        "source": "fbref",
+        "external_id": null,
+        "competition": "Liga Pro",
+        "season": "2025-2026",
+        "match_date": null,
+        "home_club": "Independiente del Valle",
+        "away_club": "Barcelona SC",
+        "home_score": 2,
+        "away_score": 1,
+        "venue": "Banco Guayaquil"
+      }
+    },
+    {
+      "entity": "stats",
+      "message": "player_name missing",
+      "row": {
+        "source": "fbref",
+        "player_name": null,
+        "club_name": "Independiente del Valle",
+        "match_date": "2026-04-20",
+        "match_external_id": "missing-match",
+        "minutes": 90,
+        "goals": 1,
+        "assists": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "shots": 3,
+        "passes_completed": 24
+      }
+    }
+  ],
+  "verification": {
+    "query_ok": true,
+    "counts": {
+      "clubs": 2,
+      "players": 0,
+      "matches": 0,
+      "stats": 0
+    },
+    "samples": {
+      "players": [],
+      "matches": [],
+      "stats": []
+    }
+  }
+}

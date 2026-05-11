@@ -1,0 +1,258 @@
+{
+  "profile": {
+    "tm_id": "234781",
+    "player_name": "Maxwel Cornet",
+    "date_of_birth": "27/09/1996",
+    "age": 29,
+    "nationality": "Cote d'IvoireFrance",
+    "height": "1,79 m",
+    "position": "Attack - Left Winger",
+    "foot": "left",
+    "current_club": "Genoa CFC",
+    "on_loan_from": "West Ham United",
+    "contract_expires": "30/06/2026",
+    "market_value": "€2.50m",
+    "market_value_eur": 2500000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/maxwel-cornet/profil/spieler/234781"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "09/10/2012",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "FC Metz",
+      "age": "16"
+    },
+    {
+      "date": "13/01/2014",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "FC Metz",
+      "age": "17"
+    },
+    {
+      "date": "07/08/2014",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "FC Metz",
+      "age": "17"
+    },
+    {
+      "date": "14/01/2015",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "FC Metz",
+      "age": "18"
+    },
+    {
+      "date": "06/06/2015",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Olympique Lyon",
+      "age": "18"
+    },
+    {
+      "date": "04/02/2016",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Olympique Lyon",
+      "age": "19"
+    },
+    {
+      "date": "13/07/2016",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Olympique Lyon",
+      "age": "19"
+    },
+    {
+      "date": "01/11/2016",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Olympique Lyon",
+      "age": "20"
+    },
+    {
+      "date": "16/01/2017",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Olympique Lyon",
+      "age": "20"
+    },
+    {
+      "date": "01/06/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Olympique Lyon",
+      "age": "20"
+    },
+    {
+      "date": "24/01/2018",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Olympique Lyon",
+      "age": "21"
+    },
+    {
+      "date": "20/03/2018",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Olympique Lyon",
+      "age": "21"
+    },
+    {
+      "date": "04/06/2018",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Olympique Lyon",
+      "age": "21"
+    },
+    {
+      "date": "24/10/2018",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Olympique Lyon",
+      "age": "22"
+    },
+    {
+      "date": "17/12/2018",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Olympique Lyon",
+      "age": "22"
+    },
+    {
+      "date": "03/06/2019",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Olympique Lyon",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2019",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Olympique Lyon",
+      "age": "23"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 10500000,
+      "value_str": "€10.50m",
+      "club": "Olympique Lyon",
+      "age": "23"
+    },
+    {
+      "date": "15/10/2020",
+      "value_eur": 10500000,
+      "value_str": "€10.50m",
+      "club": "Olympique Lyon",
+      "age": "24"
+    },
+    {
+      "date": "07/01/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Olympique Lyon",
+      "age": "24"
+    },
+    {
+      "date": "04/06/2021",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Olympique Lyon",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Burnley FC",
+      "age": "25"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Burnley FC",
+      "age": "25"
+    },
+    {
+      "date": "15/09/2022",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "West Ham United",
+      "age": "25"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "West Ham United",
+      "age": "26"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "West Ham United",
+      "age": "26"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "West Ham United",
+      "age": "27"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "West Ham United",
+      "age": "27"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Southampton FC",
+      "age": "28"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Genoa CFC",
+      "age": "28"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Genoa CFC",
+      "age": "29"
+    },
+    {
+      "date": "24/03/2026",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Genoa CFC",
+      "age": "29"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 112
+    }
+  ]
+}

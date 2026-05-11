@@ -3,7 +3,7 @@
     "tm_id": "185245",
     "player_name": "Jhon Córdoba",
     "date_of_birth": "11/05/1993",
-    "age": 32,
+    "age": 33,
     "nationality": "Colombia",
     "height": "1,88 m",
     "position": "Attack - Centre-Forward",
@@ -303,22 +303,22 @@
     {
       "competition": "Premier Liga",
       "season": "25/26",
-      "games_played": 25,
-      "goals": 15,
+      "games_played": 26,
+      "goals": 16,
       "assists": 5,
       "yellow_cards": 2,
       "red_cards": 2,
-      "minutes_played": 2214
+      "minutes_played": 2304
     },
     {
       "competition": "Russian Cup",
       "season": "25/26",
-      "games_played": 10,
+      "games_played": 11,
       "goals": 5,
       "assists": 4,
       "yellow_cards": 2,
       "red_cards": 0,
-      "minutes_played": 502
+      "minutes_played": 592
     },
     {
       "competition": "Russian Super Cup",

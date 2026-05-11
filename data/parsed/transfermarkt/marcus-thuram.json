@@ -1,0 +1,326 @@
+{
+  "profile": {
+    "tm_id": "272642",
+    "player_name": "Allan Saint-Maximin",
+    "date_of_birth": "12/03/1997",
+    "age": 29,
+    "nationality": "FranceGuadeloupe",
+    "height": "1,73 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "RC Lens",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": "€10.00m",
+    "market_value_eur": 10000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/marcus-thuram/profil/spieler/272642"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "22/07/2013",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "AS Saint-Étienne",
+      "age": "16"
+    },
+    {
+      "date": "13/09/2013",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "AS Saint-Étienne",
+      "age": "16"
+    },
+    {
+      "date": "14/01/2014",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "AS Saint-Étienne",
+      "age": "16"
+    },
+    {
+      "date": "07/08/2014",
+      "value_eur": 750000,
+      "value_str": "€750k",
+      "club": "AS Saint-Étienne",
+      "age": "17"
+    },
+    {
+      "date": "14/01/2015",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "AS Saint-Étienne",
+      "age": "17"
+    },
+    {
+      "date": "06/06/2015",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "AS Saint-Étienne",
+      "age": "18"
+    },
+    {
+      "date": "15/02/2016",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Hannover 96",
+      "age": "18"
+    },
+    {
+      "date": "13/07/2016",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "AS Monaco",
+      "age": "19"
+    },
+    {
+      "date": "16/01/2017",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "SC Bastia",
+      "age": "19"
+    },
+    {
+      "date": "01/06/2017",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "SC Bastia",
+      "age": "20"
+    },
+    {
+      "date": "12/10/2017",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "OGC Nice",
+      "age": "20"
+    },
+    {
+      "date": "24/01/2018",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "OGC Nice",
+      "age": "20"
+    },
+    {
+      "date": "04/06/2018",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "OGC Nice",
+      "age": "21"
+    },
+    {
+      "date": "17/12/2018",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "OGC Nice",
+      "age": "21"
+    },
+    {
+      "date": "07/03/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "OGC Nice",
+      "age": "21"
+    },
+    {
+      "date": "03/06/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "OGC Nice",
+      "age": "22"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Newcastle United",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Newcastle United",
+      "age": "23"
+    },
+    {
+      "date": "30/07/2020",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Newcastle United",
+      "age": "23"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Newcastle United",
+      "age": "23"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Newcastle United",
+      "age": "24"
+    },
+    {
+      "date": "08/06/2021",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Newcastle United",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Newcastle United",
+      "age": "24"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Newcastle United",
+      "age": "25"
+    },
+    {
+      "date": "15/09/2022",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Newcastle United",
+      "age": "25"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Newcastle United",
+      "age": "25"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Newcastle United",
+      "age": "26"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Newcastle United",
+      "age": "26"
+    },
+    {
+      "date": "24/10/2023",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "Al-Ahli SFC",
+      "age": "26"
+    },
+    {
+      "date": "15/12/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Al-Ahli SFC",
+      "age": "26"
+    },
+    {
+      "date": "04/06/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Al-Ahli SFC",
+      "age": "27"
+    },
+    {
+      "date": "04/10/2024",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Fenerbahce",
+      "age": "27"
+    },
+    {
+      "date": "23/12/2024",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Fenerbahce",
+      "age": "27"
+    },
+    {
+      "date": "20/03/2025",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Fenerbahce",
+      "age": "28"
+    },
+    {
+      "date": "18/06/2025",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Fenerbahce",
+      "age": "28"
+    },
+    {
+      "date": "29/12/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "CF América",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 3,
+      "assists": 3,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 374
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 92
+    },
+    {
+      "competition": "Liga MX Apertura",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 663
+    },
+    {
+      "competition": "Liga MX Clausura",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 136
+    },
+    {
+      "competition": "Liguilla Apertura",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 6
+    }
+  ]
+}

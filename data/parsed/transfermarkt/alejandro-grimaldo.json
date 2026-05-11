@@ -1,0 +1,365 @@
+{
+  "profile": {
+    "tm_id": "148455",
+    "player_name": "Mohamed Salah",
+    "date_of_birth": "15/06/1992",
+    "age": 33,
+    "nationality": "Egypt",
+    "height": "1,75 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Liverpool FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€30.00m",
+    "market_value_eur": 30000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/alejandro-grimaldo/profil/spieler/148455"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "06/06/2010",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "El Mokawloon SC",
+      "age": "17"
+    },
+    {
+      "date": "01/01/2011",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "El Mokawloon SC",
+      "age": "18"
+    },
+    {
+      "date": "09/05/2011",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "El Mokawloon SC",
+      "age": "18"
+    },
+    {
+      "date": "14/07/2011",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "El Mokawloon SC",
+      "age": "19"
+    },
+    {
+      "date": "25/12/2011",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "El Mokawloon SC",
+      "age": "19"
+    },
+    {
+      "date": "27/05/2012",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "El Mokawloon SC",
+      "age": "19"
+    },
+    {
+      "date": "12/07/2012",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "FC Basel 1893",
+      "age": "20"
+    },
+    {
+      "date": "05/09/2012",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "FC Basel 1893",
+      "age": "20"
+    },
+    {
+      "date": "14/04/2013",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Basel 1893",
+      "age": "20"
+    },
+    {
+      "date": "17/06/2013",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "FC Basel 1893",
+      "age": "21"
+    },
+    {
+      "date": "26/11/2013",
+      "value_eur": 8500000,
+      "value_str": "€8.50m",
+      "club": "FC Basel 1893",
+      "age": "21"
+    },
+    {
+      "date": "05/02/2014",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Chelsea FC",
+      "age": "21"
+    },
+    {
+      "date": "12/08/2014",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Chelsea FC",
+      "age": "22"
+    },
+    {
+      "date": "12/02/2015",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "ACF Fiorentina",
+      "age": "22"
+    },
+    {
+      "date": "20/03/2015",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "ACF Fiorentina",
+      "age": "22"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Chelsea FC",
+      "age": "23"
+    },
+    {
+      "date": "05/11/2015",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Roma",
+      "age": "23"
+    },
+    {
+      "date": "04/01/2016",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AS Roma",
+      "age": "23"
+    },
+    {
+      "date": "01/04/2016",
+      "value_eur": 23000000,
+      "value_str": "€23.00m",
+      "club": "AS Roma",
+      "age": "23"
+    },
+    {
+      "date": "15/07/2016",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "AS Roma",
+      "age": "24"
+    },
+    {
+      "date": "02/01/2017",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "AS Roma",
+      "age": "24"
+    },
+    {
+      "date": "08/06/2017",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "AS Roma",
+      "age": "24"
+    },
+    {
+      "date": "23/10/2017",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "02/01/2018",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "28/05/2018",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Liverpool FC",
+      "age": "26"
+    },
+    {
+      "date": "13/06/2019",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Liverpool FC",
+      "age": "26"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Liverpool FC",
+      "age": "27"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Liverpool FC",
+      "age": "27"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Liverpool FC",
+      "age": "28"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Liverpool FC",
+      "age": "28"
+    },
+    {
+      "date": "08/06/2021",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Liverpool FC",
+      "age": "28"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Liverpool FC",
+      "age": "29"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Liverpool FC",
+      "age": "30"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Liverpool FC",
+      "age": "30"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Liverpool FC",
+      "age": "30"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Liverpool FC",
+      "age": "31"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Liverpool FC",
+      "age": "31"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Liverpool FC",
+      "age": "31"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Liverpool FC",
+      "age": "32"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Liverpool FC",
+      "age": "32"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Liverpool FC",
+      "age": "33"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Liverpool FC",
+      "age": "33"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 7,
+      "assists": 6,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 2060
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 687
+    },
+    {
+      "competition": "Community Shield",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 223
+    }
+  ]
+}

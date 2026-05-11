@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "source_url": "https://www.transfermarkt.com/john-doe/profil/spieler/1001",
+    "player_name": "John Doe",
+    "preferred_name": "John",
+    "position": "Forward",
+    "date_of_birth": "2003-01-01",
+    "nationality": "Ecuador",
+    "current_club": "Independiente del Valle",
+    "market_value": "€1.2m"
+  },
+  "transfers": [
+    {
+      "source_url": "https://www.transfermarkt.com/john-doe/profil/spieler/1001",
+      "season": "2025/2026",
+      "date": "2025-01-10",
+      "from_club": "Independiente del Valle",
+      "to_club": "Independiente del Valle",
+      "market_value": "€1.2m",
+      "fee": "-"
+    }
+  ]
+}

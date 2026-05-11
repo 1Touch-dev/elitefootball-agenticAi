@@ -1,0 +1,170 @@
+{
+  "profile": {
+    "tm_id": "552955",
+    "player_name": "Santiago Gimenez",
+    "date_of_birth": "18/04/2001",
+    "age": 25,
+    "nationality": "MexicoItaly",
+    "height": "1,83 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "left",
+    "current_club": "AC Milan",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/pedro-porro/profil/spieler/552955"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "13/08/2019",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "CD Cruz Azul U20",
+      "age": "18"
+    },
+    {
+      "date": "10/01/2020",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "CD Cruz Azul",
+      "age": "18"
+    },
+    {
+      "date": "27/06/2020",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "CD Cruz Azul",
+      "age": "19"
+    },
+    {
+      "date": "18/12/2020",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CD Cruz Azul",
+      "age": "19"
+    },
+    {
+      "date": "21/04/2021",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "CD Cruz Azul",
+      "age": "20"
+    },
+    {
+      "date": "15/10/2021",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "CD Cruz Azul",
+      "age": "20"
+    },
+    {
+      "date": "11/04/2022",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "CD Cruz Azul",
+      "age": "20"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "21"
+    },
+    {
+      "date": "17/03/2023",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "21"
+    },
+    {
+      "date": "23/06/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "17/10/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "15/12/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "18/03/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "22"
+    },
+    {
+      "date": "31/05/2024",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "23"
+    },
+    {
+      "date": "17/12/2024",
+      "value_eur": 37000000,
+      "value_str": "€37.00m",
+      "club": "Feyenoord Rotterdam",
+      "age": "23"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "AC Milan",
+      "age": "24"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "AC Milan",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "AC Milan",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 14,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 783
+    },
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 141
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "profile": {
+    "tm_id": "240306",
+    "player_name": "Bruno Fernandes",
+    "date_of_birth": "08/09/1994",
+    "age": 31,
+    "nationality": "Portugal",
+    "height": "1,79 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "Manchester United",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€40.00m",
+    "market_value_eur": 40000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/bruno-fernandes/profil/spieler/240306"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "25/10/2012",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Novara Calcio 1908",
+      "age": "18"
+    },
+    {
+      "date": "25/12/2012",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Novara Calcio 1908",
+      "age": "18"
+    },
+    {
+      "date": "25/02/2013",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Novara Calcio 1908",
+      "age": "18"
+    },
+    {
+      "date": "25/06/2013",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Novara Calcio 1908",
+      "age": "18"
+    },
+    {
+      "date": "07/01/2014",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Udinese Calcio",
+      "age": "19"
+    },
+    {
+      "date": "01/07/2014",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Udinese Calcio",
+      "age": "19"
+    },
+    {
+      "date": "07/01/2015",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Udinese Calcio",
+      "age": "20"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Udinese Calcio",
+      "age": "20"
+    },
+    {
+      "date": "04/01/2016",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Udinese Calcio",
+      "age": "21"
+    },
+    {
+      "date": "15/07/2016",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Udinese Calcio",
+      "age": "21"
+    },
+    {
+      "date": "02/01/2017",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "UC Sampdoria",
+      "age": "22"
+    },
+    {
+      "date": "08/06/2017",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "UC Sampdoria",
+      "age": "22"
+    },
+    {
+      "date": "06/11/2017",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Sporting CP",
+      "age": "23"
+    },
+    {
+      "date": "07/02/2018",
+      "value_eur": 17000000,
+      "value_str": "€17.00m",
+      "club": "Sporting CP",
+      "age": "23"
+    },
+    {
+      "date": "16/04/2018",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Sporting CP",
+      "age": "23"
+    },
+    {
+      "date": "13/06/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Sporting CP",
+      "age": "23"
+    },
+    {
+      "date": "01/11/2018",
+      "value_eur": 26000000,
+      "value_str": "€26.00m",
+      "club": "Sporting CP",
+      "age": "24"
+    },
+    {
+      "date": "11/01/2019",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Sporting CP",
+      "age": "24"
+    },
+    {
+      "date": "18/03/2019",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Sporting CP",
+      "age": "24"
+    },
+    {
+      "date": "07/06/2019",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Sporting CP",
+      "age": "24"
+    },
+    {
+      "date": "11/10/2019",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Sporting CP",
+      "age": "25"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Sporting CP",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 48000000,
+      "value_str": "€48.00m",
+      "club": "Manchester United",
+      "age": "25"
+    },
+    {
+      "date": "30/07/2020",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester United",
+      "age": "25"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "17/12/2020",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Manchester United",
+      "age": "27"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Manchester United",
+      "age": "27"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester United",
+      "age": "28"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester United",
+      "age": "28"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester United",
+      "age": "29"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester United",
+      "age": "29"
+    },
+    {
+      "date": "01/10/2024",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Manchester United",
+      "age": "30"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Manchester United",
+      "age": "30"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Manchester United",
+      "age": "30"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Manchester United",
+      "age": "31"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Manchester United",
+      "age": "31"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 33,
+      "goals": 8,
+      "assists": 20,
+      "yellow_cards": 5,
+      "red_cards": 0,
+      "minutes_played": 2888
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 45
+    }
+  ]
+}

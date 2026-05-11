@@ -1,0 +1,246 @@
+{
+  "profile": {
+    "tm_id": "451276",
+    "player_name": "Dominik Szoboszlai",
+    "date_of_birth": "25/10/2000",
+    "age": 25,
+    "nationality": "Hungary",
+    "height": "1,87 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "Liverpool FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€100.00m",
+    "market_value_eur": 100000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/dominik-szoboszlai/profil/spieler/451276"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "02/07/2017",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "FC Liefering",
+      "age": "16"
+    },
+    {
+      "date": "12/08/2017",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "FC Liefering",
+      "age": "16"
+    },
+    {
+      "date": "13/12/2017",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "FC Liefering",
+      "age": "17"
+    },
+    {
+      "date": "14/06/2018",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Red Bull Salzburg",
+      "age": "17"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Red Bull Salzburg",
+      "age": "18"
+    },
+    {
+      "date": "15/04/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Red Bull Salzburg",
+      "age": "18"
+    },
+    {
+      "date": "03/06/2019",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Red Bull Salzburg",
+      "age": "18"
+    },
+    {
+      "date": "16/12/2019",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 13500000,
+      "value_str": "€13.50m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "22/07/2020",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Red Bull Salzburg",
+      "age": "19"
+    },
+    {
+      "date": "21/12/2020",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Red Bull Salzburg",
+      "age": "20"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "RB Leipzig",
+      "age": "20"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "RB Leipzig",
+      "age": "21"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "RB Leipzig",
+      "age": "21"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    },
+    {
+      "date": "29/03/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "RB Leipzig",
+      "age": "22"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Liverpool FC",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "23"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "23"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Liverpool FC",
+      "age": "24"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Liverpool FC",
+      "age": "24"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Liverpool FC",
+      "age": "24"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Liverpool FC",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Liverpool FC",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 34,
+      "goals": 6,
+      "assists": 5,
+      "yellow_cards": 8,
+      "red_cards": 1,
+      "minutes_played": 3053
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 12,
+      "goals": 5,
+      "assists": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 1053
+    },
+    {
+      "competition": "Community Shield",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 360
+    }
+  ]
+}

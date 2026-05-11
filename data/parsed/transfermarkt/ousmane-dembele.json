@@ -1,0 +1,121 @@
+{
+  "profile": {
+    "tm_id": "272549",
+    "player_name": "Tony Mauricio",
+    "date_of_birth": "22/03/1994",
+    "age": 32,
+    "nationality": "FrancePortugal",
+    "height": "1,69 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Retired",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/ousmane-dembele/profil/spieler/272549"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "20/02/2017",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "US Boulogne",
+      "age": "22"
+    },
+    {
+      "date": "16/05/2018",
+      "value_eur": 700000,
+      "value_str": "€700k",
+      "club": "Valenciennes FC",
+      "age": "24"
+    },
+    {
+      "date": "08/01/2019",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Valenciennes FC",
+      "age": "24"
+    },
+    {
+      "date": "03/06/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Valenciennes FC",
+      "age": "25"
+    },
+    {
+      "date": "06/01/2020",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "RC Lens",
+      "age": "25"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "RC Lens",
+      "age": "26"
+    },
+    {
+      "date": "15/10/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "RC Lens",
+      "age": "26"
+    },
+    {
+      "date": "04/06/2021",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "RC Lens",
+      "age": "27"
+    },
+    {
+      "date": "27/10/2021",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "FC Sochaux-Montbéliard",
+      "age": "27"
+    },
+    {
+      "date": "27/12/2021",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "FC Sochaux-Montbéliard",
+      "age": "27"
+    },
+    {
+      "date": "02/06/2022",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Sochaux-Montbéliard",
+      "age": "28"
+    },
+    {
+      "date": "28/10/2022",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Sochaux-Montbéliard",
+      "age": "28"
+    },
+    {
+      "date": "16/06/2023",
+      "value_eur": 1800000,
+      "value_str": "€1.80m",
+      "club": "FC Sochaux-Montbéliard",
+      "age": "29"
+    },
+    {
+      "date": "25/11/2023",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Retired",
+      "age": "29"
+    }
+  ],
+  "performance_stats": []
+}

@@ -272,6 +272,16 @@
       "minutes_played": 208
     },
     {
+      "competition": "Liguilla Clausura",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
       "competition": "Liguilla Apertura",
       "season": "25/26",
       "games_played": 1,

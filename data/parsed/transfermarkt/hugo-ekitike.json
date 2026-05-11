@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "tm_id": "711988",
+    "player_name": "Trésor Matondo",
+    "date_of_birth": "24/07/2003",
+    "age": 22,
+    "nationality": "FranceDR Congo",
+    "height": "1,69 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "left",
+    "current_club": "EA Guingamp B",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/hugo-ekitike/profil/spieler/711988"
+  },
+  "transfers": [],
+  "mv_history": [],
+  "performance_stats": [
+    {
+      "competition": "National 3 - Grp. C",
+      "season": "25/26",
+      "games_played": 16,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 4,
+      "red_cards": 1,
+      "minutes_played": 1392
+    },
+    {
+      "competition": "Ligue 2",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 40
+    }
+  ]
+}

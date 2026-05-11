@@ -1,0 +1,274 @@
+{
+  "profile": {
+    "tm_id": "258004",
+    "player_name": "Rúben Dias",
+    "date_of_birth": "14/05/1997",
+    "age": 28,
+    "nationality": "Portugal",
+    "height": "1,87 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Manchester City",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€60.00m",
+    "market_value_eur": 60000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/ruben-dias/profil/spieler/258004"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "31/07/2015",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "SL Benfica B",
+      "age": "18"
+    },
+    {
+      "date": "14/03/2016",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "SL Benfica B",
+      "age": "18"
+    },
+    {
+      "date": "30/09/2016",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "SL Benfica B",
+      "age": "19"
+    },
+    {
+      "date": "30/06/2017",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "SL Benfica B",
+      "age": "20"
+    },
+    {
+      "date": "08/09/2017",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "SL Benfica",
+      "age": "20"
+    },
+    {
+      "date": "06/11/2017",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "SL Benfica",
+      "age": "20"
+    },
+    {
+      "date": "07/02/2018",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "SL Benfica",
+      "age": "20"
+    },
+    {
+      "date": "16/04/2018",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "SL Benfica",
+      "age": "20"
+    },
+    {
+      "date": "13/06/2018",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "01/11/2018",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "11/01/2019",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "SL Benfica",
+      "age": "21"
+    },
+    {
+      "date": "07/06/2019",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "SL Benfica",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2019",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "SL Benfica",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 30500000,
+      "value_str": "€30.50m",
+      "club": "SL Benfica",
+      "age": "22"
+    },
+    {
+      "date": "17/08/2020",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "SL Benfica",
+      "age": "23"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "17/12/2020",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester City",
+      "age": "24"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester City",
+      "age": "24"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester City",
+      "age": "25"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester City",
+      "age": "25"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester City",
+      "age": "26"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester City",
+      "age": "26"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester City",
+      "age": "27"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester City",
+      "age": "27"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "27"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Manchester City",
+      "age": "28"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "28"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 2,
+      "assists": 0,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 2050
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 7,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 506
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    }
+  ]
+}

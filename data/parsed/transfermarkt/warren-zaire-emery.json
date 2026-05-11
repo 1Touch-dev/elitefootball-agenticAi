@@ -1,0 +1,89 @@
+{
+  "profile": {
+    "tm_id": "934049",
+    "player_name": "Oliver Dorph",
+    "date_of_birth": "06/01/2004",
+    "age": 22,
+    "nationality": "Denmark",
+    "height": "1,98 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Hobro IK",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€25k",
+    "market_value_eur": 25000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/warren-zaire-emery/profil/spieler/934049"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "26/06/2023",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Viborg FF U19",
+      "age": "19"
+    },
+    {
+      "date": "19/10/2023",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Skive IK",
+      "age": "19"
+    },
+    {
+      "date": "09/12/2024",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Hobro IK",
+      "age": "20"
+    },
+    {
+      "date": "16/06/2025",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Hobro IK",
+      "age": "21"
+    },
+    {
+      "date": "18/12/2025",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Hobro IK",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "1.Division Relegation",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 1
+    },
+    {
+      "competition": "1.Division",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 6
+    },
+    {
+      "competition": "Oddset Pokalen",
+      "season": "25/26",
+      "games_played": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 0
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "profile": {
+    "tm_id": "580195",
+    "player_name": "Jamal Musiala",
+    "date_of_birth": "26/02/2003",
+    "age": 23,
+    "nationality": "GermanyEngland",
+    "height": "1,84 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "Bayern Munich",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€120.00m",
+    "market_value_eur": 120000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/07/2020",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Bayern Munich",
+      "age": "17"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Bayern Munich",
+      "age": "17"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "Bayern Munich",
+      "age": "17"
+    },
+    {
+      "date": "01/06/2021",
+      "value_eur": 38000000,
+      "value_str": "€38.00m",
+      "club": "Bayern Munich",
+      "age": "18"
+    },
+    {
+      "date": "07/10/2021",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Bayern Munich",
+      "age": "18"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Bayern Munich",
+      "age": "18"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Bayern Munich",
+      "age": "19"
+    },
+    {
+      "date": "21/09/2022",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Bayern Munich",
+      "age": "19"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Bayern Munich",
+      "age": "19"
+    },
+    {
+      "date": "29/03/2023",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Bayern Munich",
+      "age": "20"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Bayern Munich",
+      "age": "20"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Bayern Munich",
+      "age": "20"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Bayern Munich",
+      "age": "21"
+    },
+    {
+      "date": "18/07/2024",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Bayern Munich",
+      "age": "21"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 140000000,
+      "value_str": "€140.00m",
+      "club": "Bayern Munich",
+      "age": "21"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 140000000,
+      "value_str": "€140.00m",
+      "club": "Bayern Munich",
+      "age": "22"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Bayern Munich",
+      "age": "22"
+    },
+    {
+      "date": "20/03/2026",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Bayern Munich",
+      "age": "23"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 14,
+      "goals": 3,
+      "assists": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 609
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 6,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 315
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 105
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "profile": {
+    "tm_id": "38253",
+    "player_name": "Robert Lewandowski",
+    "date_of_birth": "21/08/1988",
+    "age": 37,
+    "nationality": "Poland",
+    "height": "1,86 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "FC Barcelona",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": "€8.00m",
+    "market_value_eur": 8000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/robert-lewandowski/profil/spieler/38253"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "18/03/2008",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Znicz Pruszkow",
+      "age": "19"
+    },
+    {
+      "date": "19/05/2008",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Znicz Pruszkow",
+      "age": "19"
+    },
+    {
+      "date": "05/09/2008",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Lech Poznan",
+      "age": "20"
+    },
+    {
+      "date": "30/12/2008",
+      "value_eur": 1650000,
+      "value_str": "€1.65m",
+      "club": "Lech Poznan",
+      "age": "20"
+    },
+    {
+      "date": "04/07/2009",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Lech Poznan",
+      "age": "20"
+    },
+    {
+      "date": "17/03/2010",
+      "value_eur": 3600000,
+      "value_str": "€3.60m",
+      "club": "Lech Poznan",
+      "age": "21"
+    },
+    {
+      "date": "18/05/2010",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Lech Poznan",
+      "age": "21"
+    },
+    {
+      "date": "16/07/2010",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Borussia Dortmund",
+      "age": "21"
+    },
+    {
+      "date": "12/01/2011",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Borussia Dortmund",
+      "age": "22"
+    },
+    {
+      "date": "29/06/2011",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Borussia Dortmund",
+      "age": "22"
+    },
+    {
+      "date": "23/01/2012",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Borussia Dortmund",
+      "age": "23"
+    },
+    {
+      "date": "05/03/2012",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Borussia Dortmund",
+      "age": "23"
+    },
+    {
+      "date": "29/06/2012",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Borussia Dortmund",
+      "age": "23"
+    },
+    {
+      "date": "26/10/2012",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Borussia Dortmund",
+      "age": "24"
+    },
+    {
+      "date": "13/01/2013",
+      "value_eur": 28000000,
+      "value_str": "€28.00m",
+      "club": "Borussia Dortmund",
+      "age": "24"
+    },
+    {
+      "date": "30/06/2013",
+      "value_eur": 39000000,
+      "value_str": "€39.00m",
+      "club": "Borussia Dortmund",
+      "age": "24"
+    },
+    {
+      "date": "12/02/2014",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Borussia Dortmund",
+      "age": "25"
+    },
+    {
+      "date": "10/07/2014",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Bayern Munich",
+      "age": "25"
+    },
+    {
+      "date": "04/02/2015",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Bayern Munich",
+      "age": "26"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Bayern Munich",
+      "age": "26"
+    },
+    {
+      "date": "16/10/2015",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "15/02/2016",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "01/06/2016",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "22/07/2016",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "07/02/2017",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    },
+    {
+      "date": "19/06/2017",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    },
+    {
+      "date": "28/12/2017",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    },
+    {
+      "date": "04/04/2018",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    },
+    {
+      "date": "05/06/2018",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    },
+    {
+      "date": "16/07/2018",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    },
+    {
+      "date": "22/10/2018",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Bayern Munich",
+      "age": "30"
+    },
+    {
+      "date": "18/12/2018",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayern Munich",
+      "age": "30"
+    },
+    {
+      "date": "05/06/2019",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Bayern Munich",
+      "age": "30"
+    },
+    {
+      "date": "17/12/2019",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Bayern Munich",
+      "age": "31"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 56000000,
+      "value_str": "€56.00m",
+      "club": "Bayern Munich",
+      "age": "31"
+    },
+    {
+      "date": "16/09/2020",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Bayern Munich",
+      "age": "32"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Bayern Munich",
+      "age": "32"
+    },
+    {
+      "date": "31/05/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Bayern Munich",
+      "age": "32"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Bayern Munich",
+      "age": "33"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "33"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "FC Barcelona",
+      "age": "34"
+    },
+    {
+      "date": "23/03/2023",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "34"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "FC Barcelona",
+      "age": "34"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "35"
+    },
+    {
+      "date": "21/03/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Barcelona",
+      "age": "35"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Barcelona",
+      "age": "35"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Barcelona",
+      "age": "36"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "FC Barcelona",
+      "age": "36"
+    },
+    {
+      "date": "02/10/2025",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Barcelona",
+      "age": "37"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "FC Barcelona",
+      "age": "37"
+    },
+    {
+      "date": "16/03/2026",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "FC Barcelona",
+      "age": "37"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 28,
+      "goals": 13,
+      "assists": 3,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1391
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 4,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 623
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 141
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 66
+    }
+  ]
+}

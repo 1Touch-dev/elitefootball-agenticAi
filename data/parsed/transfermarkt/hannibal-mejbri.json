@@ -1,0 +1,145 @@
+{
+  "profile": {
+    "tm_id": "607224",
+    "player_name": "Hannibal",
+    "date_of_birth": "21/01/2003",
+    "age": 23,
+    "nationality": "TunisiaFrance",
+    "height": "1,83 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "right",
+    "current_club": "Burnley FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€16.00m",
+    "market_value_eur": 16000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/hannibal-mejbri/profil/spieler/607224"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "08/06/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Manchester United U23",
+      "age": "18"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Manchester United U23",
+      "age": "18"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Manchester United U23",
+      "age": "19"
+    },
+    {
+      "date": "27/10/2022",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Birmingham City",
+      "age": "19"
+    },
+    {
+      "date": "24/03/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Birmingham City",
+      "age": "20"
+    },
+    {
+      "date": "01/06/2023",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Manchester United",
+      "age": "20"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Manchester United",
+      "age": "20"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Manchester United",
+      "age": "20"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Sevilla FC",
+      "age": "21"
+    },
+    {
+      "date": "30/12/2024",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Burnley FC",
+      "age": "21"
+    },
+    {
+      "date": "27/05/2025",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Burnley FC",
+      "age": "22"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Burnley FC",
+      "age": "22"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Burnley FC",
+      "age": "23"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 1,
+      "assists": 4,
+      "yellow_cards": 8,
+      "red_cards": 0,
+      "minutes_played": 1095
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 48
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

@@ -163,12 +163,12 @@
     {
       "competition": "Série A",
       "season": "2026",
-      "games_played": 7,
+      "games_played": 9,
       "goals": 2,
-      "assists": 1,
-      "yellow_cards": 0,
+      "assists": 2,
+      "yellow_cards": 1,
       "red_cards": 0,
-      "minutes_played": 385
+      "minutes_played": 539
     },
     {
       "competition": "Libertadores",

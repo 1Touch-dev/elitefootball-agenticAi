@@ -1,0 +1,316 @@
+{
+  "profile": {
+    "tm_id": "196357",
+    "player_name": "Jonathan Tah",
+    "date_of_birth": "11/02/1996",
+    "age": 30,
+    "nationality": "GermanyCote d'Ivoire",
+    "height": "1,95 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Bayern Munich",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€30.00m",
+    "market_value_eur": 30000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jonathan-tah/profil/spieler/196357"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "25/07/2013",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Hamburger SV",
+      "age": "17"
+    },
+    {
+      "date": "05/11/2013",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Hamburger SV",
+      "age": "17"
+    },
+    {
+      "date": "12/02/2014",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Hamburger SV",
+      "age": "18"
+    },
+    {
+      "date": "01/10/2014",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Fortuna Düsseldorf",
+      "age": "18"
+    },
+    {
+      "date": "13/01/2015",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Fortuna Düsseldorf",
+      "age": "18"
+    },
+    {
+      "date": "01/07/2015",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Hamburger SV",
+      "age": "19"
+    },
+    {
+      "date": "16/10/2015",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "19"
+    },
+    {
+      "date": "15/02/2016",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "13/04/2016",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "01/06/2016",
+      "value_eur": 12000000,
+      "value_str": "€12.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "22/07/2016",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "07/02/2017",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "20"
+    },
+    {
+      "date": "19/06/2017",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "21"
+    },
+    {
+      "date": "28/12/2017",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "21"
+    },
+    {
+      "date": "04/04/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "22"
+    },
+    {
+      "date": "05/06/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "22"
+    },
+    {
+      "date": "22/08/2018",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "22"
+    },
+    {
+      "date": "18/12/2018",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "22"
+    },
+    {
+      "date": "06/03/2019",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "23"
+    },
+    {
+      "date": "05/06/2019",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "23"
+    },
+    {
+      "date": "17/12/2019",
+      "value_eur": 37000000,
+      "value_str": "€37.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "23"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 29500000,
+      "value_str": "€29.50m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "24"
+    },
+    {
+      "date": "08/07/2020",
+      "value_eur": 24000000,
+      "value_str": "€24.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "24"
+    },
+    {
+      "date": "26/11/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "24"
+    },
+    {
+      "date": "10/02/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "24"
+    },
+    {
+      "date": "09/06/2021",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "25"
+    },
+    {
+      "date": "22/12/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "25"
+    },
+    {
+      "date": "09/06/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "26"
+    },
+    {
+      "date": "09/11/2022",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "26"
+    },
+    {
+      "date": "22/06/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "27"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "27"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "28"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "28"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "28"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayer 04 Leverkusen",
+      "age": "29"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 27,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 7,
+      "red_cards": 0,
+      "minutes_played": 1929
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 14,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 1120
+    },
+    {
+      "competition": "DFL-Supercup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 450
+    }
+  ]
+}

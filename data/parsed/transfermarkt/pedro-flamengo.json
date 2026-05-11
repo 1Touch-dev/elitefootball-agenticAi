@@ -343,16 +343,6 @@
   ],
   "performance_stats": [
     {
-      "competition": "Serie A",
-      "season": "25/26",
-      "games_played": 25,
-      "goals": 4,
-      "assists": 2,
-      "yellow_cards": 4,
-      "red_cards": 0,
-      "minutes_played": 808
-    },
-    {
       "competition": "Italy Cup",
       "season": "25/26",
       "games_played": 3,
@@ -361,6 +351,16 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "minutes_played": 69
+    },
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 27,
+      "goals": 4,
+      "assists": 2,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 900
     }
   ]
 }

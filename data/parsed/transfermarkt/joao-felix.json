@@ -240,12 +240,22 @@
     {
       "competition": "Saudi Pro League",
       "season": "25/26",
-      "games_played": 29,
-      "goals": 16,
+      "games_played": 31,
+      "goals": 20,
       "assists": 13,
-      "yellow_cards": 4,
+      "yellow_cards": 5,
       "red_cards": 0,
-      "minutes_played": 2552
+      "minutes_played": 2732
+    },
+    {
+      "competition": "AFC Champions League Two",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 4,
+      "assists": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 505
     },
     {
       "competition": "King's Cup",
@@ -266,16 +276,6 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "minutes_played": 180
-    },
-    {
-      "competition": "AFC Champions League Two",
-      "season": "25/26",
-      "games_played": 9,
-      "goals": 4,
-      "assists": 4,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 505
     }
   ]
 }

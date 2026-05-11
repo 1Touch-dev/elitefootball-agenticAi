@@ -1,0 +1,274 @@
+{
+  "profile": {
+    "tm_id": "198116",
+    "player_name": "Federico Dimarco",
+    "date_of_birth": "10/11/1997",
+    "age": 28,
+    "nationality": "Italy",
+    "height": "1,75 m",
+    "position": "Defender - Left-Back",
+    "foot": "left",
+    "current_club": "Inter Milan",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€50.00m",
+    "market_value_eur": 50000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/federico-dimarco/profil/spieler/198116"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "16/09/2014",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Inter Milan Primavera",
+      "age": "16"
+    },
+    {
+      "date": "02/03/2015",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Inter Milan Primavera",
+      "age": "17"
+    },
+    {
+      "date": "17/06/2015",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Inter Milan Primavera",
+      "age": "17"
+    },
+    {
+      "date": "05/11/2015",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Inter Milan",
+      "age": "17"
+    },
+    {
+      "date": "04/01/2016",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "Inter Milan",
+      "age": "18"
+    },
+    {
+      "date": "13/06/2016",
+      "value_eur": 1300000,
+      "value_str": "€1.30m",
+      "club": "Ascoli Picchio",
+      "age": "18"
+    },
+    {
+      "date": "02/01/2017",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Empoli",
+      "age": "19"
+    },
+    {
+      "date": "08/06/2017",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Empoli",
+      "age": "19"
+    },
+    {
+      "date": "08/01/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Sion",
+      "age": "20"
+    },
+    {
+      "date": "24/04/2018",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Sion",
+      "age": "20"
+    },
+    {
+      "date": "12/10/2018",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Parma Calcio 1913",
+      "age": "20"
+    },
+    {
+      "date": "20/12/2018",
+      "value_eur": 3500000,
+      "value_str": "€3.50m",
+      "club": "Parma Calcio 1913",
+      "age": "21"
+    },
+    {
+      "date": "06/06/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Parma Calcio 1913",
+      "age": "21"
+    },
+    {
+      "date": "12/12/2019",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Inter Milan",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Hellas Verona",
+      "age": "22"
+    },
+    {
+      "date": "25/08/2020",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Hellas Verona",
+      "age": "22"
+    },
+    {
+      "date": "29/12/2020",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Hellas Verona",
+      "age": "23"
+    },
+    {
+      "date": "23/03/2021",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Hellas Verona",
+      "age": "23"
+    },
+    {
+      "date": "03/06/2021",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Hellas Verona",
+      "age": "23"
+    },
+    {
+      "date": "14/10/2021",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Inter Milan",
+      "age": "23"
+    },
+    {
+      "date": "28/12/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "07/06/2022",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "11/10/2023",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Inter Milan",
+      "age": "26"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Inter Milan",
+      "age": "26"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Inter Milan",
+      "age": "27"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Inter Milan",
+      "age": "27"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Inter Milan",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 60
+    },
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 33,
+      "goals": 6,
+      "assists": 18,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 2624
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 714
+    },
+    {
+      "competition": "Supercoppa Italiana",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

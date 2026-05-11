@@ -1,0 +1,149 @@
+{
+  "profile": {
+    "tm_id": "646740",
+    "player_name": "Gavi",
+    "date_of_birth": "05/08/2004",
+    "age": 21,
+    "nationality": "Spain",
+    "height": "1,73 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "FC Barcelona",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€30.00m",
+    "market_value_eur": 30000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/gavi/profil/spieler/646740"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "13/10/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "17"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "17"
+    },
+    {
+      "date": "21/03/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "17"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "17"
+    },
+    {
+      "date": "23/09/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "18"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "FC Barcelona",
+      "age": "18"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "FC Barcelona",
+      "age": "18"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "FC Barcelona",
+      "age": "19"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "FC Barcelona",
+      "age": "19"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "FC Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "21/03/2025",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "20"
+    },
+    {
+      "date": "02/10/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "16/03/2026",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 394
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 126
+    }
+  ]
+}

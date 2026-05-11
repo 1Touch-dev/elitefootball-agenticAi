@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "tm_id": "95423",
+    "player_name": "Sulejman Rakipi",
+    "date_of_birth": "13/04/1985",
+    "age": 41,
+    "nationality": "SwitzerlandNorth Macedonia",
+    "height": "1,79 m",
+    "position": "Attack - Centre-Forward",
+    "foot": "right",
+    "current_club": "Retired",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/alex-mccarthy/profil/spieler/95423"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "08/12/2008",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "FC Thun",
+      "age": "23"
+    },
+    {
+      "date": "08/01/2018",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "FC Rothorn",
+      "age": "32"
+    }
+  ],
+  "performance_stats": []
+}

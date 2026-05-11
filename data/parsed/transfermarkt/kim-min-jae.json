@@ -1,0 +1,218 @@
+{
+  "profile": {
+    "tm_id": "503482",
+    "player_name": "Min-jae Kim",
+    "date_of_birth": "15/11/1996",
+    "age": 29,
+    "nationality": "Korea, South",
+    "height": "1,90 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Bayern Munich",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€25.00m",
+    "market_value_eur": 25000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/kim-min-jae/profil/spieler/503482"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "15/12/2017",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Jeonbuk Hyundai Motors",
+      "age": "21"
+    },
+    {
+      "date": "21/03/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Beijing Guoan",
+      "age": "22"
+    },
+    {
+      "date": "05/09/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Beijing Guoan",
+      "age": "22"
+    },
+    {
+      "date": "27/12/2019",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Beijing Guoan",
+      "age": "23"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Beijing Guoan",
+      "age": "23"
+    },
+    {
+      "date": "01/08/2020",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Beijing Guoan",
+      "age": "23"
+    },
+    {
+      "date": "26/12/2020",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "Beijing Guoan",
+      "age": "24"
+    },
+    {
+      "date": "12/10/2021",
+      "value_eur": 6500000,
+      "value_str": "€6.50m",
+      "club": "Fenerbahce",
+      "age": "24"
+    },
+    {
+      "date": "04/01/2022",
+      "value_eur": 9000000,
+      "value_str": "€9.00m",
+      "club": "Fenerbahce",
+      "age": "25"
+    },
+    {
+      "date": "31/03/2022",
+      "value_eur": 11000000,
+      "value_str": "€11.00m",
+      "club": "Fenerbahce",
+      "age": "25"
+    },
+    {
+      "date": "01/06/2022",
+      "value_eur": 14000000,
+      "value_str": "€14.00m",
+      "club": "Fenerbahce",
+      "age": "25"
+    },
+    {
+      "date": "27/09/2022",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "SSC Napoli",
+      "age": "25"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "SSC Napoli",
+      "age": "25"
+    },
+    {
+      "date": "21/03/2023",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "SSC Napoli",
+      "age": "26"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "SSC Napoli",
+      "age": "26"
+    },
+    {
+      "date": "14/12/2023",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "27/03/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "29/05/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "27"
+    },
+    {
+      "date": "20/12/2024",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    },
+    {
+      "date": "05/06/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    },
+    {
+      "date": "14/10/2025",
+      "value_eur": 32000000,
+      "value_str": "€32.00m",
+      "club": "Bayern Munich",
+      "age": "28"
+    },
+    {
+      "date": "19/12/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Bayern Munich",
+      "age": "29"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Bundesliga",
+      "season": "25/26",
+      "games_played": 25,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 1605
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "minutes_played": 336
+    },
+    {
+      "competition": "DFL-Supercup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 10
+    },
+    {
+      "competition": "DFB-Pokal",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 100
+    }
+  ]
+}

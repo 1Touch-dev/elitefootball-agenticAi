@@ -121,22 +121,12 @@
     {
       "competition": "Série A",
       "season": "2026",
-      "games_played": 6,
+      "games_played": 7,
       "goals": 1,
       "assists": 0,
       "yellow_cards": 0,
       "red_cards": 0,
-      "minutes_played": 180
-    },
-    {
-      "competition": "Copa Sudamericana",
-      "season": "2026",
-      "games_played": 1,
-      "goals": 0,
-      "assists": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 45
+      "minutes_played": 249
     },
     {
       "competition": "Copa do Brasil",
@@ -157,6 +147,16 @@
       "yellow_cards": 0,
       "red_cards": 1,
       "minutes_played": 75
+    },
+    {
+      "competition": "Copa Sudamericana",
+      "season": "2026",
+      "games_played": 2,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 111
     },
     {
       "competition": "Jupiler Pro League",

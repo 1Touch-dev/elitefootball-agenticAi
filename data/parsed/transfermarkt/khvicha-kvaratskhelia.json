@@ -1,0 +1,266 @@
+{
+  "profile": {
+    "tm_id": "502670",
+    "player_name": "Khvicha Kvaratskhelia",
+    "date_of_birth": "12/02/2001",
+    "age": 25,
+    "nationality": "Georgia",
+    "height": "1,83 m",
+    "position": "Attack - Left Winger",
+    "foot": "both",
+    "current_club": "Paris Saint-Germain",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€90.00m",
+    "market_value_eur": 90000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/khvicha-kvaratskhelia/profil/spieler/502670"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "08/12/2017",
+      "value_eur": 125000,
+      "value_str": "€125k",
+      "club": "Dinamo Tbilisi",
+      "age": "16"
+    },
+    {
+      "date": "09/04/2018",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "FC Rustavi",
+      "age": "17"
+    },
+    {
+      "date": "29/08/2018",
+      "value_eur": 400000,
+      "value_str": "€400k",
+      "club": "FC Rustavi",
+      "age": "17"
+    },
+    {
+      "date": "05/01/2019",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "FC Rustavi",
+      "age": "17"
+    },
+    {
+      "date": "24/04/2019",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Lokomotiv Moscow",
+      "age": "18"
+    },
+    {
+      "date": "14/06/2019",
+      "value_eur": 900000,
+      "value_str": "€900k",
+      "club": "Lokomotiv Moscow",
+      "age": "18"
+    },
+    {
+      "date": "10/09/2019",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "Rubin Kazan",
+      "age": "18"
+    },
+    {
+      "date": "23/12/2019",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Rubin Kazan",
+      "age": "18"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 2300000,
+      "value_str": "€2.30m",
+      "club": "Rubin Kazan",
+      "age": "19"
+    },
+    {
+      "date": "29/07/2020",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "Rubin Kazan",
+      "age": "19"
+    },
+    {
+      "date": "19/10/2020",
+      "value_eur": 7500000,
+      "value_str": "€7.50m",
+      "club": "Rubin Kazan",
+      "age": "19"
+    },
+    {
+      "date": "29/12/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Rubin Kazan",
+      "age": "19"
+    },
+    {
+      "date": "13/04/2021",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Rubin Kazan",
+      "age": "20"
+    },
+    {
+      "date": "02/06/2021",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Rubin Kazan",
+      "age": "20"
+    },
+    {
+      "date": "29/12/2021",
+      "value_eur": 16000000,
+      "value_str": "€16.00m",
+      "club": "Rubin Kazan",
+      "age": "20"
+    },
+    {
+      "date": "05/05/2022",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Dinamo Batumi",
+      "age": "21"
+    },
+    {
+      "date": "27/09/2022",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "SSC Napoli",
+      "age": "21"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "SSC Napoli",
+      "age": "21"
+    },
+    {
+      "date": "21/03/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "SSC Napoli",
+      "age": "22"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "SSC Napoli",
+      "age": "22"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "SSC Napoli",
+      "age": "22"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "SSC Napoli",
+      "age": "23"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "SSC Napoli",
+      "age": "23"
+    },
+    {
+      "date": "24/03/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Paris Saint-Germain",
+      "age": "24"
+    },
+    {
+      "date": "03/06/2025",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Paris Saint-Germain",
+      "age": "24"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Paris Saint-Germain",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Ligue 1",
+      "season": "25/26",
+      "games_played": 26,
+      "goals": 7,
+      "assists": 4,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 1352
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 15,
+      "goals": 10,
+      "assists": 6,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 1057
+    },
+    {
+      "competition": "UEFA Super Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 60
+    },
+    {
+      "competition": "Coupe de France",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 64
+    },
+    {
+      "competition": "Trophée des Champions",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 72
+    },
+    {
+      "competition": "FIFA Intercontinental Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

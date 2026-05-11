@@ -3,7 +3,7 @@
     "tm_id": "249565",
     "player_name": "Youri Tielemans",
     "date_of_birth": "07/05/1997",
-    "age": 28,
+    "age": 29,
     "nationality": "BelgiumDR Congo",
     "height": "1,77 m",
     "position": "Midfield - Central Midfield",
@@ -282,22 +282,22 @@
     {
       "competition": "Premier League",
       "season": "25/26",
-      "games_played": 21,
+      "games_played": 23,
       "goals": 0,
       "assists": 4,
       "yellow_cards": 0,
       "red_cards": 0,
-      "minutes_played": 1576
+      "minutes_played": 1756
     },
     {
       "competition": "Europa League",
       "season": "25/26",
-      "games_played": 7,
+      "games_played": 8,
       "goals": 1,
       "assists": 3,
       "yellow_cards": 2,
       "red_cards": 0,
-      "minutes_played": 464
+      "minutes_played": 554
     },
     {
       "competition": "FA Cup",

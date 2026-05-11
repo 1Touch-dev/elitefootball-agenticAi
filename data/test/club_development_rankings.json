@@ -1,0 +1,80 @@
+{
+  "model_version": "club_dev_resale_mvp_v1",
+  "rankings": [
+    {
+      "club_name": "IDV",
+      "overall_score": 0.0,
+      "development_score": 0.0,
+      "resale_score": 0.0,
+      "confidence_score": 0.0,
+      "components": {
+        "youth_valuation_score": 0.0,
+        "youth_performance_score": 0.0,
+        "youth_minutes_score": 0.0,
+        "outbound_transfer_score": 0.0,
+        "destination_quality_score": 0.0,
+        "current_value_realization_score": 0.0
+      },
+      "coverage": {
+        "players_considered": 0,
+        "young_players_considered": 0,
+        "transfer_rows": 0,
+        "valuation_rows": 0
+      },
+      "notes": [
+        "low_evidence"
+      ],
+      "rank": 1
+    },
+    {
+      "club_name": "Benfica",
+      "overall_score": 0.0,
+      "development_score": 0.0,
+      "resale_score": 0.0,
+      "confidence_score": 0.0,
+      "components": {
+        "youth_valuation_score": 0.0,
+        "youth_performance_score": 0.0,
+        "youth_minutes_score": 0.0,
+        "outbound_transfer_score": 0.0,
+        "destination_quality_score": 0.0,
+        "current_value_realization_score": 0.0
+      },
+      "coverage": {
+        "players_considered": 0,
+        "young_players_considered": 0,
+        "transfer_rows": 0,
+        "valuation_rows": 0
+      },
+      "notes": [
+        "low_evidence"
+      ],
+      "rank": 2
+    },
+    {
+      "club_name": "Ajax",
+      "overall_score": 0.0,
+      "development_score": 0.0,
+      "resale_score": 0.0,
+      "confidence_score": 0.0,
+      "components": {
+        "youth_valuation_score": 0.0,
+        "youth_performance_score": 0.0,
+        "youth_minutes_score": 0.0,
+        "outbound_transfer_score": 0.0,
+        "destination_quality_score": 0.0,
+        "current_value_realization_score": 0.0
+      },
+      "coverage": {
+        "players_considered": 0,
+        "young_players_considered": 0,
+        "transfer_rows": 0,
+        "valuation_rows": 0
+      },
+      "notes": [
+        "low_evidence"
+      ],
+      "rank": 3
+    }
+  ]
+}

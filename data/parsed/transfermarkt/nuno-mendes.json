@@ -152,12 +152,12 @@
     {
       "competition": "UEFA Champions League",
       "season": "25/26",
-      "games_played": 15,
+      "games_played": 16,
       "goals": 2,
       "assists": 2,
-      "yellow_cards": 2,
+      "yellow_cards": 3,
       "red_cards": 0,
-      "minutes_played": 1198
+      "minutes_played": 1283
     },
     {
       "competition": "UEFA Super Cup",

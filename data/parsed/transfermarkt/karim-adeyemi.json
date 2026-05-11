@@ -1,0 +1,170 @@
+{
+  "profile": {
+    "tm_id": "462267",
+    "player_name": "Adriano Esposito",
+    "date_of_birth": "28/07/1999",
+    "age": 26,
+    "nationality": "Italy",
+    "height": "1,85 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Ravenna FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€200k",
+    "market_value_eur": 200000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/karim-adeyemi/profil/spieler/462267"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "30/06/2017",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "L'Aquila 1927",
+      "age": "17"
+    },
+    {
+      "date": "01/02/2018",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "L'Aquila 1927",
+      "age": "18"
+    },
+    {
+      "date": "27/06/2018",
+      "value_eur": 125000,
+      "value_str": "€125k",
+      "club": "L'Aquila 1927",
+      "age": "18"
+    },
+    {
+      "date": "13/12/2018",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Pro Piacenza 1919",
+      "age": "19"
+    },
+    {
+      "date": "26/06/2019",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "US Recanatese",
+      "age": "19"
+    },
+    {
+      "date": "13/12/2019",
+      "value_eur": 125000,
+      "value_str": "€125k",
+      "club": "US Recanatese",
+      "age": "20"
+    },
+    {
+      "date": "27/06/2020",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "US Recanatese",
+      "age": "20"
+    },
+    {
+      "date": "12/01/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Fermana FC",
+      "age": "21"
+    },
+    {
+      "date": "21/06/2021",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "FC Pro Vercelli 1892",
+      "age": "21"
+    },
+    {
+      "date": "01/02/2022",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "US Folgore Caratese",
+      "age": "22"
+    },
+    {
+      "date": "28/06/2022",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "US Folgore Caratese",
+      "age": "22"
+    },
+    {
+      "date": "05/02/2023",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Calcio Desenzano",
+      "age": "23"
+    },
+    {
+      "date": "27/06/2023",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Calcio Desenzano",
+      "age": "23"
+    },
+    {
+      "date": "21/02/2024",
+      "value_eur": 125000,
+      "value_str": "€125k",
+      "club": "Ravenna FC",
+      "age": "24"
+    },
+    {
+      "date": "13/06/2024",
+      "value_eur": 125000,
+      "value_str": "€125k",
+      "club": "Ravenna FC",
+      "age": "24"
+    },
+    {
+      "date": "27/02/2025",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Ravenna FC",
+      "age": "25"
+    },
+    {
+      "date": "15/05/2025",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Ravenna FC",
+      "age": "25"
+    },
+    {
+      "date": "17/12/2025",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Ravenna FC",
+      "age": "26"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Serie C - B",
+      "season": "25/26",
+      "games_played": 34,
+      "goals": 0,
+      "assists": 1,
+      "yellow_cards": 3,
+      "red_cards": 0,
+      "minutes_played": 2896
+    },
+    {
+      "competition": "Coppa Serie C",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 130
+    }
+  ]
+}

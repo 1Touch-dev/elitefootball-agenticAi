@@ -1,0 +1,253 @@
+{
+  "profile": {
+    "tm_id": "480267",
+    "player_name": "Ronald Araujo",
+    "date_of_birth": "07/03/1999",
+    "age": 27,
+    "nationality": "UruguaySpain",
+    "height": "1,92 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "FC Barcelona",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2031",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/ronald-araujo/profil/spieler/480267"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "22/05/2017",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "CA Rentistas",
+      "age": "18"
+    },
+    {
+      "date": "05/02/2018",
+      "value_eur": 175000,
+      "value_str": "€175k",
+      "club": "CA Boston River",
+      "age": "18"
+    },
+    {
+      "date": "03/09/2018",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Barcelona B",
+      "age": "19"
+    },
+    {
+      "date": "19/02/2019",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Barcelona B",
+      "age": "19"
+    },
+    {
+      "date": "29/06/2019",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Barcelona B",
+      "age": "20"
+    },
+    {
+      "date": "10/09/2019",
+      "value_eur": 2000000,
+      "value_str": "€2.00m",
+      "club": "FC Barcelona B",
+      "age": "20"
+    },
+    {
+      "date": "11/02/2020",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "FC Barcelona B",
+      "age": "20"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 4500000,
+      "value_str": "€4.50m",
+      "club": "FC Barcelona B",
+      "age": "21"
+    },
+    {
+      "date": "23/07/2020",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "FC Barcelona B",
+      "age": "21"
+    },
+    {
+      "date": "08/10/2020",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "05/01/2021",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "21"
+    },
+    {
+      "date": "19/03/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "10/06/2021",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "30/12/2021",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "FC Barcelona",
+      "age": "22"
+    },
+    {
+      "date": "21/03/2022",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "03/06/2022",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "23/09/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "07/11/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "FC Barcelona",
+      "age": "23"
+    },
+    {
+      "date": "23/03/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "13/06/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "22/12/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "24"
+    },
+    {
+      "date": "07/06/2024",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "27/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "FC Barcelona",
+      "age": "25"
+    },
+    {
+      "date": "21/03/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "09/06/2025",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "FC Barcelona",
+      "age": "26"
+    },
+    {
+      "date": "16/03/2026",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 22,
+      "goals": 3,
+      "assists": 0,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 989
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 1,
+      "minutes_played": 442
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 110
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 1
+    }
+  ]
+}

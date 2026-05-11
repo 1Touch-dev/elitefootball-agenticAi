@@ -212,12 +212,12 @@
     {
       "competition": "Premier League",
       "season": "25/26",
-      "games_played": 30,
-      "goals": 8,
+      "games_played": 32,
+      "goals": 9,
       "assists": 4,
-      "yellow_cards": 3,
+      "yellow_cards": 4,
       "red_cards": 0,
-      "minutes_played": 2246
+      "minutes_played": 2423
     },
     {
       "competition": "FA Cup",

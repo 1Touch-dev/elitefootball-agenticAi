@@ -189,16 +189,6 @@
   ],
   "performance_stats": [
     {
-      "competition": "Série A",
-      "season": "2026",
-      "games_played": 13,
-      "goals": 1,
-      "assists": 1,
-      "yellow_cards": 1,
-      "red_cards": 0,
-      "minutes_played": 899
-    },
-    {
       "competition": "Copa do Brasil",
       "season": "2026",
       "games_played": 1,
@@ -207,6 +197,16 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "minutes_played": 26
+    },
+    {
+      "competition": "Série A",
+      "season": "2026",
+      "games_played": 15,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 948
     },
     {
       "competition": "Campeonato Gaúcho",

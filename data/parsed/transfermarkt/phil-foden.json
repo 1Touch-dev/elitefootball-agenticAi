@@ -1,0 +1,246 @@
+{
+  "profile": {
+    "tm_id": "406635",
+    "player_name": "Phil Foden",
+    "date_of_birth": "28/05/2000",
+    "age": 25,
+    "nationality": "England",
+    "height": "1,71 m",
+    "position": "Midfield - Attacking Midfield",
+    "foot": "left",
+    "current_club": "Manchester City",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2027",
+    "market_value": "€80.00m",
+    "market_value_eur": 80000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/phil-foden/profil/spieler/406635"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "02/01/2018",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Manchester City",
+      "age": "17"
+    },
+    {
+      "date": "28/05/2018",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Manchester City",
+      "age": "18"
+    },
+    {
+      "date": "17/10/2018",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Manchester City",
+      "age": "18"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Manchester City",
+      "age": "18"
+    },
+    {
+      "date": "05/03/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Manchester City",
+      "age": "18"
+    },
+    {
+      "date": "13/06/2019",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Manchester City",
+      "age": "19"
+    },
+    {
+      "date": "12/09/2019",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Manchester City",
+      "age": "19"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Manchester City",
+      "age": "19"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 27000000,
+      "value_str": "€27.00m",
+      "club": "Manchester City",
+      "age": "19"
+    },
+    {
+      "date": "30/07/2020",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Manchester City",
+      "age": "20"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester City",
+      "age": "20"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester City",
+      "age": "20"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "29/03/2022",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Manchester City",
+      "age": "22"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Manchester City",
+      "age": "22"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Manchester City",
+      "age": "23"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 140000000,
+      "value_str": "€140.00m",
+      "club": "Manchester City",
+      "age": "24"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Manchester City",
+      "age": "24"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Manchester City",
+      "age": "25"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester City",
+      "age": "25"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester City",
+      "age": "25"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 30,
+      "goals": 7,
+      "assists": 3,
+      "yellow_cards": 4,
+      "red_cards": 0,
+      "minutes_played": 1879
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 153
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 7,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 508
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 6,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 302
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "tm_id": "347266",
+    "player_name": "Chu-Hsuan Huang",
+    "date_of_birth": "23/02/1990",
+    "age": 36,
+    "nationality": "Chinese Taipei",
+    "height": "1,78 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Retired",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/alexander-isak/profil/spieler/347266"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "21/07/2021",
+      "value_eur": 10000,
+      "value_str": "€10k",
+      "club": "Taiwan Leopard Cat FC",
+      "age": "31"
+    },
+    {
+      "date": "18/01/2022",
+      "value_eur": 10000,
+      "value_str": "€10k",
+      "club": "Taiwan Leopard Cat FC",
+      "age": "31"
+    },
+    {
+      "date": "26/09/2022",
+      "value_eur": 10000,
+      "value_str": "€10k",
+      "club": "Taiwan Leopard Cat FC",
+      "age": "32"
+    },
+    {
+      "date": "28/12/2022",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Taiwan Leopard Cat FC",
+      "age": "32"
+    },
+    {
+      "date": "18/07/2023",
+      "value_eur": 10000,
+      "value_str": "€10k",
+      "club": "Taiwan Leopard Cat FC",
+      "age": "33"
+    },
+    {
+      "date": "08/01/2024",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Retired",
+      "age": "33"
+    },
+    {
+      "date": "25/09/2024",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Retired",
+      "age": "34"
+    }
+  ],
+  "performance_stats": []
+}

@@ -210,14 +210,24 @@
   ],
   "performance_stats": [
     {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 34
+    },
+    {
       "competition": "Serie A",
       "season": "25/26",
-      "games_played": 26,
-      "goals": 16,
-      "assists": 4,
+      "games_played": 28,
+      "goals": 17,
+      "assists": 6,
       "yellow_cards": 3,
       "red_cards": 0,
-      "minutes_played": 1963
+      "minutes_played": 2049
     },
     {
       "competition": "UEFA Champions League",
@@ -238,16 +248,6 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "minutes_played": 19
-    },
-    {
-      "competition": "Italy Cup",
-      "season": "25/26",
-      "games_played": 1,
-      "goals": 0,
-      "assists": 0,
-      "yellow_cards": 0,
-      "red_cards": 0,
-      "minutes_played": 34
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "tm_id": "156942",
+    "player_name": "Adam Thomas",
+    "date_of_birth": "04/02/1994",
+    "age": 32,
+    "nationality": "England",
+    "height": "1,91 m",
+    "position": "Attack - Right Winger",
+    "foot": "right",
+    "current_club": "Marine FC",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/jack-stephens/profil/spieler/156942"
+  },
+  "transfers": [],
+  "mv_history": [],
+  "performance_stats": [
+    {
+      "competition": "National League North",
+      "season": "25/26",
+      "games_played": 37,
+      "goals": 2,
+      "assists": 1,
+      "yellow_cards": 6,
+      "red_cards": 0,
+      "minutes_played": 2430
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "tm_id": "406085",
+    "player_name": "Jade Mesias",
+    "date_of_birth": "16/01/1991",
+    "age": 35,
+    "nationality": "South AfricaNew Zealand",
+    "height": "1,77 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Without Club",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/ross-stewart/profil/spieler/406085"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "01/10/2015",
+      "value_eur": 25000,
+      "value_str": "€25k",
+      "club": "Hawke’s Bay United (2005 - 2021)",
+      "age": "24"
+    },
+    {
+      "date": "08/01/2016",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Hawke’s Bay United (2005 - 2021)",
+      "age": "24"
+    },
+    {
+      "date": "01/05/2016",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Midland-Odessa FC",
+      "age": "25"
+    },
+    {
+      "date": "01/11/2019",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Eastern Suburbs AFC",
+      "age": "28"
+    },
+    {
+      "date": "09/01/2020",
+      "value_eur": 75000,
+      "value_str": "€75k",
+      "club": "Eastern Suburbs AFC",
+      "age": "28"
+    },
+    {
+      "date": "12/11/2021",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Manukau United FC",
+      "age": "30"
+    },
+    {
+      "date": "04/10/2022",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Mount Albert-Ponsonby AFC",
+      "age": "31"
+    }
+  ],
+  "performance_stats": []
+}

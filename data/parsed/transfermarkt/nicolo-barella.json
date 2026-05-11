@@ -1,0 +1,316 @@
+{
+  "profile": {
+    "tm_id": "255942",
+    "player_name": "Nicolò Barella",
+    "date_of_birth": "07/02/1997",
+    "age": 29,
+    "nationality": "Italy",
+    "height": "1,75 m",
+    "position": "Midfield - Central Midfield",
+    "foot": "right",
+    "current_club": "Inter Milan",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2029",
+    "market_value": "€50.00m",
+    "market_value_eur": 50000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/nicolo-barella/profil/spieler/255942"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "25/02/2013",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Cagliari Primavera",
+      "age": "16"
+    },
+    {
+      "date": "29/04/2013",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Cagliari Primavera",
+      "age": "16"
+    },
+    {
+      "date": "30/10/2013",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Cagliari Primavera",
+      "age": "16"
+    },
+    {
+      "date": "08/05/2014",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "Cagliari Primavera",
+      "age": "17"
+    },
+    {
+      "date": "07/01/2015",
+      "value_eur": 500000,
+      "value_str": "€500k",
+      "club": "Cagliari Calcio",
+      "age": "17"
+    },
+    {
+      "date": "30/06/2015",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Cagliari Calcio",
+      "age": "18"
+    },
+    {
+      "date": "28/12/2015",
+      "value_eur": 800000,
+      "value_str": "€800k",
+      "club": "Cagliari Calcio",
+      "age": "18"
+    },
+    {
+      "date": "13/06/2016",
+      "value_eur": 1300000,
+      "value_str": "€1.30m",
+      "club": "Calcio Como",
+      "age": "19"
+    },
+    {
+      "date": "14/10/2016",
+      "value_eur": 1750000,
+      "value_str": "€1.75m",
+      "club": "Cagliari Calcio",
+      "age": "19"
+    },
+    {
+      "date": "02/01/2017",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Cagliari Calcio",
+      "age": "19"
+    },
+    {
+      "date": "28/03/2017",
+      "value_eur": 4000000,
+      "value_str": "€4.00m",
+      "club": "Cagliari Calcio",
+      "age": "20"
+    },
+    {
+      "date": "08/06/2017",
+      "value_eur": 5000000,
+      "value_str": "€5.00m",
+      "club": "Cagliari Calcio",
+      "age": "20"
+    },
+    {
+      "date": "13/10/2017",
+      "value_eur": 8000000,
+      "value_str": "€8.00m",
+      "club": "Cagliari Calcio",
+      "age": "20"
+    },
+    {
+      "date": "29/12/2017",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Cagliari Calcio",
+      "age": "20"
+    },
+    {
+      "date": "24/03/2018",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Cagliari Calcio",
+      "age": "21"
+    },
+    {
+      "date": "07/06/2018",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Cagliari Calcio",
+      "age": "21"
+    },
+    {
+      "date": "12/10/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Cagliari Calcio",
+      "age": "21"
+    },
+    {
+      "date": "20/12/2018",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Cagliari Calcio",
+      "age": "21"
+    },
+    {
+      "date": "06/06/2019",
+      "value_eur": 36000000,
+      "value_str": "€36.00m",
+      "club": "Cagliari Calcio",
+      "age": "22"
+    },
+    {
+      "date": "12/12/2019",
+      "value_eur": 45000000,
+      "value_str": "€45.00m",
+      "club": "Inter Milan",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 36000000,
+      "value_str": "€36.00m",
+      "club": "Inter Milan",
+      "age": "23"
+    },
+    {
+      "date": "25/08/2020",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Inter Milan",
+      "age": "23"
+    },
+    {
+      "date": "29/12/2020",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Inter Milan",
+      "age": "23"
+    },
+    {
+      "date": "23/03/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "25/05/2021",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "28/12/2021",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Inter Milan",
+      "age": "24"
+    },
+    {
+      "date": "07/06/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "11/11/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Inter Milan",
+      "age": "25"
+    },
+    {
+      "date": "15/06/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Inter Milan",
+      "age": "26"
+    },
+    {
+      "date": "20/12/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Inter Milan",
+      "age": "26"
+    },
+    {
+      "date": "05/06/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Inter Milan",
+      "age": "27"
+    },
+    {
+      "date": "18/12/2024",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Inter Milan",
+      "age": "27"
+    },
+    {
+      "date": "17/06/2025",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Inter Milan",
+      "age": "28"
+    },
+    {
+      "date": "07/10/2025",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Inter Milan",
+      "age": "28"
+    },
+    {
+      "date": "23/12/2025",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Inter Milan",
+      "age": "28"
+    },
+    {
+      "date": "24/03/2026",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Inter Milan",
+      "age": "29"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Italy Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Serie A",
+      "season": "25/26",
+      "games_played": 33,
+      "goals": 3,
+      "assists": 9,
+      "yellow_cards": 7,
+      "red_cards": 0,
+      "minutes_played": 2479
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 596
+    },
+    {
+      "competition": "Supercoppa Italiana",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

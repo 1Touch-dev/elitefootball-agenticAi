@@ -1,1091 +1,2239 @@
 {
-  "generated_at": "2026-05-04T10:28:08.597097+00:00",
-  "artifact_count": 304,
+  "generated_at": "2026-05-11T04:05:27.520360+00:00",
+  "artifact_count": 616,
   "artifacts": [
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/adam-armstrong.html",
+      "slug": "adam-armstrong",
+      "captured_at": "2026-05-11T03:58:21.780863+00:00"
+    },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/adam-daghim.html",
       "slug": "adam-daghim",
-      "captured_at": "2026-05-03T03:46:16.732802+00:00"
+      "captured_at": "2026-05-11T03:46:05.872764+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ademola-lookman.html",
+      "slug": "ademola-lookman",
+      "captured_at": "2026-05-11T03:52:21.414489+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/alan-minda.html",
       "slug": "alan-minda",
-      "captured_at": "2026-05-03T03:30:38.062925+00:00"
+      "captured_at": "2026-05-11T03:30:38.204945+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/albert-lokonga.html",
       "slug": "albert-lokonga",
-      "captured_at": "2026-05-03T03:45:41.981434+00:00"
+      "captured_at": "2026-05-11T03:45:31.795863+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/alejandro-baena.html",
+      "slug": "alejandro-baena",
+      "captured_at": "2026-05-11T03:50:02.035589+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/alejandro-garnacho.html",
       "slug": "alejandro-garnacho",
-      "captured_at": "2026-05-03T03:37:11.477733+00:00"
+      "captured_at": "2026-05-11T03:37:08.731990+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/alejandro-grimaldo.html",
+      "slug": "alejandro-grimaldo",
+      "captured_at": "2026-05-11T04:02:09.147544+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/alessandro-bastoni.html",
+      "slug": "alessandro-bastoni",
+      "captured_at": "2026-05-11T04:03:05.281651+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/alex-mccarthy.html",
+      "slug": "alex-mccarthy",
+      "captured_at": "2026-05-11T03:58:56.469432+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/alexander-dominguez.html",
       "slug": "alexander-dominguez",
-      "captured_at": "2026-05-03T03:33:54.420689+00:00"
+      "captured_at": "2026-05-11T03:33:53.084638+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/alexander-isak.html",
+      "slug": "alexander-isak",
+      "captured_at": "2026-05-11T03:48:17.280804+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/alexis-mac-allister.html",
+      "slug": "alexis-mac-allister",
+      "captured_at": "2026-05-11T03:53:58.717351+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/alphonso-davies.html",
+      "slug": "alphonso-davies",
+      "captured_at": "2026-05-11T04:01:41.484592+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/amad-diallo.html",
+      "slug": "amad-diallo",
+      "captured_at": "2026-05-11T03:49:05.973002+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/amadou-onana.html",
       "slug": "amadou-onana",
-      "captured_at": "2026-05-03T03:44:46.161351+00:00"
+      "captured_at": "2026-05-11T03:44:35.570467+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/amine-gouiri.html",
+      "slug": "amine-gouiri",
+      "captured_at": "2026-05-11T03:53:16.852251+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/amrit-ray-scout.html",
+      "slug": "amrit-ray-scout",
+      "captured_at": "2026-05-11T04:05:02.097376+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/andre-onana.html",
+      "slug": "andre-onana",
+      "captured_at": "2026-05-11T04:04:08.238617+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/angel-mena.html",
       "slug": "angel-mena",
-      "captured_at": "2026-05-03T03:33:12.736902+00:00"
+      "captured_at": "2026-05-11T03:33:11.648962+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/angelo-preciado.html",
       "slug": "angelo-preciado",
-      "captured_at": "2026-05-03T03:32:22.720345+00:00"
+      "captured_at": "2026-05-11T03:32:22.996275+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/antoine-griezmann.html",
+      "slug": "antoine-griezmann",
+      "captured_at": "2026-05-11T03:49:54.854450+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/antonio-rudiger.html",
+      "slug": "antonio-rudiger",
+      "captured_at": "2026-05-11T04:00:40.104712+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/antonio-silva.html",
       "slug": "antonio-silva",
-      "captured_at": "2026-05-03T03:42:26.478528+00:00"
+      "captured_at": "2026-05-11T03:42:15.894641+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/antony-man-utd.html",
+      "slug": "antony-man-utd",
+      "captured_at": "2026-05-11T04:04:28.822933+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/antony.html",
       "slug": "antony",
-      "captured_at": "2026-05-03T03:35:46.217351+00:00"
+      "captured_at": "2026-05-11T03:35:43.872969+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/arthur-vermeeren.html",
       "slug": "arthur-vermeeren",
-      "captured_at": "2026-05-03T03:44:38.802352+00:00"
+      "captured_at": "2026-05-11T03:44:28.744970+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/aurelien-tchouameni.html",
+      "slug": "aurelien-tchouameni",
+      "captured_at": "2026-05-11T04:00:26.864549+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/benjamin-sesko.html",
       "slug": "benjamin-sesko",
-      "captured_at": "2026-05-03T03:45:49.131589+00:00"
+      "captured_at": "2026-05-11T03:45:38.319876+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/bernardo-silva.html",
+      "slug": "bernardo-silva",
+      "captured_at": "2026-05-11T03:56:03.626848+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/bradley-barcola.html",
+      "slug": "bradley-barcola",
+      "captured_at": "2026-05-11T03:52:56.120531+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/brennan-johnson.html",
+      "slug": "brennan-johnson",
+      "captured_at": "2026-05-11T03:57:40.236567+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/brian-brobbey.html",
       "slug": "brian-brobbey",
-      "captured_at": "2026-05-03T03:44:03.936639+00:00"
+      "captured_at": "2026-05-11T03:43:53.339558+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/bruno-fernandes.html",
+      "slug": "bruno-fernandes",
+      "captured_at": "2026-05-11T04:03:40.772347+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/bruno-guimaraes.html",
       "slug": "bruno-guimaraes",
-      "captured_at": "2026-05-03T03:35:53.068399+00:00"
+      "captured_at": "2026-05-11T03:35:50.648279+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/bukayo-saka.html",
+      "slug": "bukayo-saka",
+      "captured_at": "2026-05-11T03:47:35.775889+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/byron-castillo.html",
       "slug": "byron-castillo",
-      "captured_at": "2026-05-03T03:33:47.598304+00:00"
+      "captured_at": "2026-05-11T03:33:45.996451+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/carlos-gruezo.html",
       "slug": "carlos-gruezo",
-      "captured_at": "2026-05-03T03:34:01.425868+00:00"
+      "captured_at": "2026-05-11T03:33:59.935464+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/carlos-gutierrez.html",
       "slug": "carlos-gutierrez",
-      "captured_at": "2026-05-03T03:31:13.173977+00:00"
+      "captured_at": "2026-05-11T03:31:13.556179+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/carlos-vela.html",
       "slug": "carlos-vela",
-      "captured_at": "2026-05-03T03:46:58.762173+00:00"
+      "captured_at": "2026-05-11T03:46:47.382741+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/casemiro.html",
+      "slug": "casemiro",
+      "captured_at": "2026-05-11T04:04:15.278724+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/charles-de-ketelaere.html",
       "slug": "charles-de-ketelaere",
-      "captured_at": "2026-05-03T03:44:59.949548+00:00"
+      "captured_at": "2026-05-11T03:44:49.911616+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/christian-eriksen.html",
+      "slug": "christian-eriksen",
+      "captured_at": "2026-05-11T04:04:35.346271+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/christoph-baumgartner.html",
       "slug": "christoph-baumgartner",
-      "captured_at": "2026-05-03T03:46:02.814832+00:00"
+      "captured_at": "2026-05-11T03:45:52.406664+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/claudio-echeverri.html",
       "slug": "claudio-echeverri",
-      "captured_at": "2026-05-03T03:37:25.331844+00:00"
+      "captured_at": "2026-05-11T03:37:22.877622+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/cody-gakpo.html",
       "slug": "cody-gakpo",
-      "captured_at": "2026-05-03T03:43:01.495713+00:00"
+      "captured_at": "2026-05-11T03:42:51.094379+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/cole-palmer.html",
+      "slug": "cole-palmer",
+      "captured_at": "2026-05-11T03:47:42.832798+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/cristian-pellerano.html",
       "slug": "cristian-pellerano",
-      "captured_at": "2026-05-03T03:31:34.087585+00:00"
+      "captured_at": "2026-05-11T03:31:34.088769+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/cristian-romero.html",
+      "slug": "cristian-romero",
+      "captured_at": "2026-05-11T03:57:12.746581+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/cucho-hernandez.html",
       "slug": "cucho-hernandez",
-      "captured_at": "2026-05-03T03:39:55.786644+00:00"
+      "captured_at": "2026-05-11T03:39:50.266421+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/damian-diaz.html",
       "slug": "damian-diaz",
-      "captured_at": "2026-05-03T03:31:54.765146+00:00"
+      "captured_at": "2026-05-11T03:31:55.132498+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/dani-olmo.html",
+      "slug": "dani-olmo",
+      "captured_at": "2026-05-11T03:49:33.966310+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/darwin-nunez.html",
+      "slug": "darwin-nunez",
+      "captured_at": "2026-05-11T03:53:37.596431+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/david-neres.html",
       "slug": "david-neres",
-      "captured_at": "2026-05-03T03:36:56.612722+00:00"
+      "captured_at": "2026-05-11T03:36:53.751876+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/davide-frattesi.html",
+      "slug": "davide-frattesi",
+      "captured_at": "2026-05-11T03:51:53.803577+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/declan-rice.html",
+      "slug": "declan-rice",
+      "captured_at": "2026-05-11T03:47:49.405923+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/dejan-kulusevski.html",
+      "slug": "dejan-kulusevski",
+      "captured_at": "2026-05-11T03:57:19.484674+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/desire-doue.html",
+      "slug": "desire-doue",
+      "captured_at": "2026-05-11T03:53:02.848326+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/destiny-udogie.html",
+      "slug": "destiny-udogie",
+      "captured_at": "2026-05-11T03:57:33.299496+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/devyne-rensch.html",
       "slug": "devyne-rensch",
-      "captured_at": "2026-05-03T03:43:22.120271+00:00"
+      "captured_at": "2026-05-11T03:43:11.866005+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/diogo-dalot.html",
+      "slug": "diogo-dalot",
+      "captured_at": "2026-05-11T04:04:01.249503+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/diogo-jota.html",
       "slug": "diogo-jota",
-      "captured_at": "2026-05-03T03:42:11.923451+00:00"
+      "captured_at": "2026-05-11T03:42:02.254397+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/dominik-szoboszlai.html",
+      "slug": "dominik-szoboszlai",
+      "captured_at": "2026-05-11T03:55:35.877352+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/dusan-vlahovic.html",
+      "slug": "dusan-vlahovic",
+      "captured_at": "2026-05-11T03:52:14.389295+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/dylan-borrero.html",
       "slug": "dylan-borrero",
-      "captured_at": "2026-05-03T03:30:16.949403+00:00"
+      "captured_at": "2026-05-11T03:30:17.079653+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/eder-militao.html",
+      "slug": "eder-militao",
+      "captured_at": "2026-05-11T04:00:33.210780+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ederson.html",
+      "slug": "ederson",
+      "captured_at": "2026-05-11T03:56:52.411279+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/edoardo-bove.html",
+      "slug": "edoardo-bove",
+      "captured_at": "2026-05-11T03:52:34.887985+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/eduardo-camavinga.html",
+      "slug": "eduardo-camavinga",
+      "captured_at": "2026-05-11T04:00:19.555670+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/elye-wahi.html",
+      "slug": "elye-wahi",
+      "captured_at": "2026-05-11T03:53:24.026899+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/endrick.html",
       "slug": "endrick",
-      "captured_at": "2026-05-03T03:34:35.785307+00:00"
+      "captured_at": "2026-05-11T03:34:34.899772+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/enner-valencia.html",
       "slug": "enner-valencia",
-      "captured_at": "2026-05-03T03:32:37.484782+00:00"
+      "captured_at": "2026-05-11T03:32:36.872731+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/enzo-fernandez.html",
       "slug": "enzo-fernandez",
-      "captured_at": "2026-05-03T03:37:54.448818+00:00"
+      "captured_at": "2026-05-11T03:37:50.516973+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/erling-haaland.html",
+      "slug": "erling-haaland",
+      "captured_at": "2026-05-11T03:47:28.925743+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/estevao.html",
       "slug": "estevao",
-      "captured_at": "2026-05-03T03:34:56.339591+00:00"
+      "captured_at": "2026-05-11T03:34:55.430650+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/evanilson.html",
+      "slug": "evanilson",
+      "captured_at": "2026-05-11T03:54:47.241678+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/exequiel-palacios.html",
       "slug": "exequiel-palacios",
-      "captured_at": "2026-05-03T03:38:31.300899+00:00"
+      "captured_at": "2026-05-11T03:38:25.259938+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/facundo-buonanotte.html",
       "slug": "facundo-buonanotte",
-      "captured_at": "2026-05-03T03:38:01.578056+00:00"
+      "captured_at": "2026-05-11T03:37:57.488528+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/facundo-pellistri.html",
+      "slug": "facundo-pellistri",
+      "captured_at": "2026-05-11T04:05:23.175583+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/facundo-torres.html",
       "slug": "facundo-torres",
-      "captured_at": "2026-05-03T03:47:12.573050+00:00"
+      "captured_at": "2026-05-11T03:47:01.081549+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/federico-chiesa.html",
+      "slug": "federico-chiesa",
+      "captured_at": "2026-05-11T03:52:00.478352+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/federico-dimarco.html",
+      "slug": "federico-dimarco",
+      "captured_at": "2026-05-11T04:03:12.653552+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/federico-valverde.html",
+      "slug": "federico-valverde",
+      "captured_at": "2026-05-11T04:00:12.469556+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/felix-torres.html",
       "slug": "felix-torres",
-      "captured_at": "2026-05-03T03:32:44.581434+00:00"
+      "captured_at": "2026-05-11T03:32:43.769777+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ferran-torres.html",
+      "slug": "ferran-torres",
+      "captured_at": "2026-05-11T03:49:41.061453+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/florian-wirtz.html",
+      "slug": "florian-wirtz",
+      "captured_at": "2026-05-11T03:50:23.056983+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/flynn-downes.html",
+      "slug": "flynn-downes",
+      "captured_at": "2026-05-11T03:58:28.563955+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/fran-garcia.html",
+      "slug": "fran-garcia",
+      "captured_at": "2026-05-11T03:50:16.284640+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/francisco-conceicao.html",
       "slug": "francisco-conceicao",
-      "captured_at": "2026-05-03T03:41:29.083608+00:00"
+      "captured_at": "2026-05-11T03:41:20.882314+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/franco-mastantuono.html",
       "slug": "franco-mastantuono",
-      "captured_at": "2026-05-03T03:37:32.306824+00:00"
+      "captured_at": "2026-05-11T03:37:29.765588+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/frenkie-de-jong-barca.html",
+      "slug": "frenkie-de-jong-barca",
+      "captured_at": "2026-05-11T04:01:07.461390+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/frenkie-de-jong.html",
       "slug": "frenkie-de-jong",
-      "captured_at": "2026-05-03T03:43:36.046958+00:00"
+      "captured_at": "2026-05-11T03:43:26.117382+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/gabriel-jesus.html",
       "slug": "gabriel-jesus",
-      "captured_at": "2026-05-03T03:36:07.085471+00:00"
+      "captured_at": "2026-05-11T03:36:04.727107+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/gabriel-martinelli.html",
       "slug": "gabriel-martinelli",
-      "captured_at": "2026-05-03T03:34:42.383471+00:00"
+      "captured_at": "2026-05-11T03:34:41.970561+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/gabriel-silva-brazil.html",
+      "slug": "gabriel-silva-brazil",
+      "captured_at": "2026-05-11T03:54:40.302655+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/gabriel-villamil.html",
       "slug": "gabriel-villamil",
-      "captured_at": "2026-05-03T03:31:40.934064+00:00"
+      "captured_at": "2026-05-11T03:31:40.946360+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/gavi.html",
+      "slug": "gavi",
+      "captured_at": "2026-05-11T03:50:08.984634+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/geny-catamo.html",
       "slug": "geny-catamo",
-      "captured_at": "2026-05-03T03:42:33.090816+00:00"
+      "captured_at": "2026-05-11T03:42:22.891478+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/gerson.html",
       "slug": "gerson",
-      "captured_at": "2026-05-03T03:36:28.715583+00:00"
+      "captured_at": "2026-05-11T03:36:25.436396+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/giovani-lo-celso.html",
       "slug": "giovani-lo-celso",
-      "captured_at": "2026-05-03T03:39:12.646860+00:00"
+      "captured_at": "2026-05-11T03:39:06.948491+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/goncalo-inacio.html",
       "slug": "goncalo-inacio",
-      "captured_at": "2026-05-03T03:41:21.699508+00:00"
+      "captured_at": "2026-05-11T03:41:14.069874+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/goncalo-ramos.html",
+      "slug": "goncalo-ramos",
+      "captured_at": "2026-05-11T03:55:01.267595+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/gonzalo-montiel.html",
       "slug": "gonzalo-montiel",
-      "captured_at": "2026-05-03T03:39:05.833716+00:00"
+      "captured_at": "2026-05-11T03:39:00.061598+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/gonzalo-plata.html",
       "slug": "gonzalo-plata",
-      "captured_at": "2026-05-03T03:33:05.718544+00:00"
+      "captured_at": "2026-05-11T03:33:04.760521+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/granit-xhaka.html",
+      "slug": "granit-xhaka",
+      "captured_at": "2026-05-11T03:50:43.432855+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/guglielmo-vicario.html",
+      "slug": "guglielmo-vicario",
+      "captured_at": "2026-05-11T03:58:07.363660+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/guilherme-arana.html",
       "slug": "guilherme-arana",
-      "captured_at": "2026-05-03T03:35:38.776922+00:00"
+      "captured_at": "2026-05-11T03:35:37.155489+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/hakan-calhanoglu.html",
+      "slug": "hakan-calhanoglu",
+      "captured_at": "2026-05-11T04:02:51.063531+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/hannibal-mejbri.html",
+      "slug": "hannibal-mejbri",
+      "captured_at": "2026-05-11T04:05:16.194537+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/harry-kane.html",
+      "slug": "harry-kane",
+      "captured_at": "2026-05-11T03:50:36.429345+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/harry-maguire.html",
+      "slug": "harry-maguire",
+      "captured_at": "2026-05-11T04:04:42.482944+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/hugo-ekitike.html",
+      "slug": "hugo-ekitike",
+      "captured_at": "2026-05-11T03:51:25.950126+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/ibrahim-osman.html",
       "slug": "ibrahim-osman",
-      "captured_at": "2026-05-03T03:43:08.331749+00:00"
+      "captured_at": "2026-05-11T03:42:57.921401+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/igor-jesus.html",
+      "slug": "igor-jesus",
+      "captured_at": "2026-05-11T03:54:26.216541+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jack-stephens.html",
+      "slug": "jack-stephens",
+      "captured_at": "2026-05-11T03:58:49.329570+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jackson-porozo.html",
       "slug": "jackson-porozo",
-      "captured_at": "2026-05-03T03:32:08.722242+00:00"
+      "captured_at": "2026-05-11T03:32:09.454859+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jaime-ayovi.html",
       "slug": "jaime-ayovi",
-      "captured_at": "2026-05-03T03:32:01.614859+00:00"
+      "captured_at": "2026-05-11T03:32:02.155501+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jamal-musiala.html",
+      "slug": "jamal-musiala",
+      "captured_at": "2026-05-11T03:50:29.939976+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/james-maddison.html",
+      "slug": "james-maddison",
+      "captured_at": "2026-05-11T03:57:05.975388+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/james-rodriguez.html",
       "slug": "james-rodriguez",
-      "captured_at": "2026-05-03T03:40:31.690925+00:00"
+      "captured_at": "2026-05-11T03:40:24.961673+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jamie-gittens.html",
+      "slug": "jamie-gittens",
+      "captured_at": "2026-05-11T03:51:11.415434+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jan-bednarek.html",
+      "slug": "jan-bednarek",
+      "captured_at": "2026-05-11T03:58:42.403624+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jefferson-lerma.html",
       "slug": "jefferson-lerma",
-      "captured_at": "2026-05-03T03:41:01.494475+00:00"
+      "captured_at": "2026-05-11T03:40:53.612574+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jeremie-frimpong-leverkusen.html",
+      "slug": "jeremie-frimpong-leverkusen",
+      "captured_at": "2026-05-11T04:02:02.530620+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jeremie-frimpong.html",
       "slug": "jeremie-frimpong",
-      "captured_at": "2026-05-03T03:43:43.126741+00:00"
+      "captured_at": "2026-05-11T03:43:32.998327+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jeremy-doku-city.html",
+      "slug": "jeremy-doku-city",
+      "captured_at": "2026-05-11T03:56:24.538435+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jeremy-doku.html",
       "slug": "jeremy-doku",
-      "captured_at": "2026-05-03T03:45:06.631380+00:00"
+      "captured_at": "2026-05-11T03:44:56.338927+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jeremy-sarmiento.html",
       "slug": "jeremy-sarmiento",
-      "captured_at": "2026-05-03T03:32:30.486772+00:00"
+      "captured_at": "2026-05-11T03:32:30.045686+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jhegson-mendez.html",
       "slug": "jhegson-mendez",
-      "captured_at": "2026-05-03T03:32:51.759471+00:00"
+      "captured_at": "2026-05-11T03:32:50.808342+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jhon-cordoba.html",
       "slug": "jhon-cordoba",
-      "captured_at": "2026-05-03T03:40:46.058918+00:00"
+      "captured_at": "2026-05-11T03:40:39.245917+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jhon-duran.html",
       "slug": "jhon-duran",
-      "captured_at": "2026-05-03T03:39:41.754395+00:00"
+      "captured_at": "2026-05-11T03:39:35.931861+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/joao-felix.html",
       "slug": "joao-felix",
-      "captured_at": "2026-05-03T03:41:43.452658+00:00"
+      "captured_at": "2026-05-11T03:41:34.389745+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/joao-gomes.html",
       "slug": "joao-gomes",
-      "captured_at": "2026-05-03T03:35:31.877318+00:00"
+      "captured_at": "2026-05-11T03:35:30.386907+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/joao-neves.html",
       "slug": "joao-neves",
-      "captured_at": "2026-05-03T03:41:15.055656+00:00"
+      "captured_at": "2026-05-11T03:41:07.013422+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/joao-rojas.html",
       "slug": "joao-rojas",
-      "captured_at": "2026-05-03T03:33:33.726669+00:00"
+      "captured_at": "2026-05-11T03:33:32.299099+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/joe-aribo.html",
+      "slug": "joe-aribo",
+      "captured_at": "2026-05-11T03:59:44.519740+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/johan-bakayoko.html",
       "slug": "johan-bakayoko",
-      "captured_at": "2026-05-03T03:44:52.959308+00:00"
+      "captured_at": "2026-05-11T03:44:42.496805+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/john-stones.html",
+      "slug": "john-stones",
+      "captured_at": "2026-05-11T03:56:45.475926+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jonathan-borja.html",
       "slug": "jonathan-borja",
-      "captured_at": "2026-05-03T03:34:15.201527+00:00"
+      "captured_at": "2026-05-11T03:34:14.157377+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jonathan-tah.html",
+      "slug": "jonathan-tah",
+      "captured_at": "2026-05-11T04:02:15.876642+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jordy-caicedo.html",
       "slug": "jordy-caicedo",
-      "captured_at": "2026-05-03T03:30:45.371890+00:00"
+      "captured_at": "2026-05-11T03:30:45.239707+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jorge-carrascal.html",
       "slug": "jorge-carrascal",
-      "captured_at": "2026-05-03T03:40:09.897439+00:00"
+      "captured_at": "2026-05-11T03:40:04.329687+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jose-cifuentes.html",
       "slug": "jose-cifuentes",
-      "captured_at": "2026-05-03T03:33:19.592758+00:00"
+      "captured_at": "2026-05-11T03:33:18.453762+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/josko-gvardiol.html",
+      "slug": "josko-gvardiol",
+      "captured_at": "2026-05-11T03:56:17.855021+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jude-bellingham.html",
+      "slug": "jude-bellingham",
+      "captured_at": "2026-05-11T03:49:12.671484+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/jules-kounde.html",
+      "slug": "jules-kounde",
+      "captured_at": "2026-05-11T04:01:20.753024+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/julian-alvarez.html",
       "slug": "julian-alvarez",
-      "captured_at": "2026-05-03T03:37:46.776714+00:00"
+      "captured_at": "2026-05-11T03:37:43.459512+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/jurrien-timber.html",
       "slug": "jurrien-timber",
-      "captured_at": "2026-05-03T03:43:56.686009+00:00"
+      "captured_at": "2026-05-11T03:43:46.304143+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/kamaldeen-sulemana.html",
+      "slug": "kamaldeen-sulemana",
+      "captured_at": "2026-05-11T03:59:31.041747+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/karim-adeyemi.html",
+      "slug": "karim-adeyemi",
+      "captured_at": "2026-05-11T03:50:57.269308+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/karim-konate.html",
       "slug": "karim-konate",
-      "captured_at": "2026-05-03T03:46:09.805753+00:00"
+      "captured_at": "2026-05-11T03:45:59.046460+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/kendry-paez.html",
       "slug": "kendry-paez",
-      "captured_at": "2026-05-03T03:30:02.683655+00:00"
+      "captured_at": "2026-05-11T03:30:02.504704+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/kevin-de-bruyne.html",
+      "slug": "kevin-de-bruyne",
+      "captured_at": "2026-05-11T03:55:49.963852+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/khvicha-kvaratskhelia.html",
+      "slug": "khvicha-kvaratskhelia",
+      "captured_at": "2026-05-11T03:51:39.594914+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/kim-min-jae.html",
+      "slug": "kim-min-jae",
+      "captured_at": "2026-05-11T04:01:48.431462+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/kobbie-mainoo.html",
+      "slug": "kobbie-mainoo",
+      "captured_at": "2026-05-11T04:03:54.829733+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/kyle-walker-peters.html",
+      "slug": "kyle-walker-peters",
+      "captured_at": "2026-05-11T03:58:14.873820+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/kyle-walker.html",
+      "slug": "kyle-walker",
+      "captured_at": "2026-05-11T03:56:31.236723+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/kylian-mbappe.html",
+      "slug": "kylian-mbappe",
+      "captured_at": "2026-05-11T03:49:47.980340+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/lamine-yamal.html",
+      "slug": "lamine-yamal",
+      "captured_at": "2026-05-11T03:49:27.175363+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/lautaro-martinez-inter-milan.html",
+      "slug": "lautaro-martinez-inter-milan",
+      "captured_at": "2026-05-11T04:02:36.966501+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lautaro-martinez.html",
       "slug": "lautaro-martinez",
-      "captured_at": "2026-05-03T03:37:39.382925+00:00"
+      "captured_at": "2026-05-11T03:37:36.591823+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/leandro-paredes.html",
       "slug": "leandro-paredes",
-      "captured_at": "2026-05-03T03:39:27.210562+00:00"
+      "captured_at": "2026-05-11T03:39:22.471412+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/leandro-trossard.html",
       "slug": "leandro-trossard",
-      "captured_at": "2026-05-03T03:45:13.476338+00:00"
+      "captured_at": "2026-05-11T03:45:03.349648+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/leny-yoro.html",
+      "slug": "leny-yoro",
+      "captured_at": "2026-05-11T03:53:30.883647+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/leroy-sane.html",
+      "slug": "leroy-sane",
+      "captured_at": "2026-05-11T04:01:34.566139+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/liam-delap.html",
+      "slug": "liam-delap",
+      "captured_at": "2026-05-11T03:48:45.014558+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lisandro-martinez.html",
       "slug": "lisandro-martinez",
-      "captured_at": "2026-05-03T03:38:59.034580+00:00"
+      "captured_at": "2026-05-11T03:38:53.280742+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lois-openda.html",
       "slug": "lois-openda",
-      "captured_at": "2026-05-03T03:44:31.718305+00:00"
+      "captured_at": "2026-05-11T03:44:21.537723+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lorran.html",
       "slug": "lorran",
-      "captured_at": "2026-05-03T03:36:35.773751+00:00"
+      "captured_at": "2026-05-11T03:36:32.677006+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lucas-beltran.html",
       "slug": "lucas-beltran",
-      "captured_at": "2026-05-03T03:38:44.958304+00:00"
+      "captured_at": "2026-05-11T03:38:39.338509+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lucas-beraldo.html",
       "slug": "lucas-beraldo",
-      "captured_at": "2026-05-03T03:36:21.145948+00:00"
+      "captured_at": "2026-05-11T03:36:18.448511+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lucas-paqueta.html",
       "slug": "lucas-paqueta",
-      "captured_at": "2026-05-03T03:35:25.216550+00:00"
+      "captured_at": "2026-05-11T03:35:23.221833+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/luciano-acosta.html",
       "slug": "luciano-acosta",
-      "captured_at": "2026-05-03T03:47:19.467088+00:00"
+      "captured_at": "2026-05-11T03:47:07.922286+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/luis-diaz-liverpool.html",
+      "slug": "luis-diaz-liverpool",
+      "captured_at": "2026-05-11T03:55:43.065808+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/luis-diaz.html",
       "slug": "luis-diaz",
-      "captured_at": "2026-05-03T03:39:33.885742+00:00"
+      "captured_at": "2026-05-11T03:39:29.026725+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/luis-segovia.html",
       "slug": "luis-segovia",
-      "captured_at": "2026-05-03T03:31:19.875533+00:00"
+      "captured_at": "2026-05-11T03:31:20.244456+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/luis-sinisterra.html",
       "slug": "luis-sinisterra",
-      "captured_at": "2026-05-03T03:40:02.700762+00:00"
+      "captured_at": "2026-05-11T03:39:57.116640+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/luke-shaw.html",
+      "slug": "luke-shaw",
+      "captured_at": "2026-05-11T04:04:21.793180+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/lutsharel-geertruida.html",
       "slug": "lutsharel-geertruida",
-      "captured_at": "2026-05-03T03:43:15.466787+00:00"
+      "captured_at": "2026-05-11T03:43:04.820977+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/manuel-neuer.html",
+      "slug": "manuel-neuer",
+      "captured_at": "2026-05-11T04:01:55.381482+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/marcos-acuna.html",
+      "slug": "marcos-acuna",
+      "captured_at": "2026-05-11T03:54:05.636301+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/marcos-leonardo.html",
       "slug": "marcos-leonardo",
-      "captured_at": "2026-05-03T03:35:03.673143+00:00"
+      "captured_at": "2026-05-11T03:35:02.291579+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/marcus-rashford.html",
+      "slug": "marcus-rashford",
+      "captured_at": "2026-05-11T04:03:33.611923+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/marcus-thuram.html",
+      "slug": "marcus-thuram",
+      "captured_at": "2026-05-11T04:02:43.843494+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/mario-pineida.html",
       "slug": "mario-pineida",
-      "captured_at": "2026-05-03T03:32:15.679765+00:00"
+      "captured_at": "2026-05-11T03:32:16.218576+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/martin-odegaard.html",
+      "slug": "martin-odegaard",
+      "captured_at": "2026-05-11T03:55:22.003722+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/mason-mount.html",
+      "slug": "mason-mount",
+      "captured_at": "2026-05-11T04:03:26.550841+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/mateus-uribe.html",
       "slug": "mateus-uribe",
-      "captured_at": "2026-05-03T03:40:54.460882+00:00"
+      "captured_at": "2026-05-11T03:40:46.506455+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/matheus-cunha.html",
       "slug": "matheus-cunha",
-      "captured_at": "2026-05-03T03:35:17.613695+00:00"
+      "captured_at": "2026-05-11T03:35:16.223795+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/matheus-nunes.html",
+      "slug": "matheus-nunes",
+      "captured_at": "2026-05-11T03:54:19.335856+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/mathias-olivera.html",
+      "slug": "mathias-olivera",
+      "captured_at": "2026-05-11T03:54:12.525665+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/matias-soule-roma.html",
+      "slug": "matias-soule-roma",
+      "captured_at": "2026-05-11T03:52:41.772454+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/matias-soule.html",
       "slug": "matias-soule",
-      "captured_at": "2026-05-03T03:38:38.093405+00:00"
+      "captured_at": "2026-05-11T03:38:32.203080+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/matias-vecino.html",
+      "slug": "matias-vecino",
+      "captured_at": "2026-05-11T03:53:51.700131+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/mats-wieffer.html",
       "slug": "mats-wieffer",
-      "captured_at": "2026-05-03T03:44:17.901123+00:00"
+      "captured_at": "2026-05-11T03:44:07.401438+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/matthijs-de-ligt.html",
+      "slug": "matthijs-de-ligt",
+      "captured_at": "2026-05-11T03:48:58.688177+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/maximilian-beier.html",
+      "slug": "maximilian-beier",
+      "captured_at": "2026-05-11T03:51:04.581991+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/maxwel-cornet.html",
+      "slug": "maxwel-cornet",
+      "captured_at": "2026-05-11T03:59:17.327636+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/michael-estrada.html",
       "slug": "michael-estrada",
-      "captured_at": "2026-05-03T03:33:26.970355+00:00"
+      "captured_at": "2026-05-11T03:33:25.406789+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/michael-hoyos.html",
       "slug": "michael-hoyos",
-      "captured_at": "2026-05-03T03:34:08.352889+00:00"
+      "captured_at": "2026-05-11T03:34:07.198331+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/micky-van-de-ven.html",
+      "slug": "micky-van-de-ven",
+      "captured_at": "2026-05-11T03:48:52.161330+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/miguel-borja.html",
       "slug": "miguel-borja",
-      "captured_at": "2026-05-03T03:41:08.486941+00:00"
+      "captured_at": "2026-05-11T03:41:00.528806+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/mohamed-salah.html",
+      "slug": "mohamed-salah",
+      "captured_at": "2026-05-11T03:55:15.154822+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/moises-caicedo.html",
       "slug": "moises-caicedo",
-      "captured_at": "2026-05-03T03:30:24.012687+00:00"
+      "captured_at": "2026-05-11T03:30:24.110903+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/morgan-rogers.html",
+      "slug": "morgan-rogers",
+      "captured_at": "2026-05-11T03:48:30.934718+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/nahuel-molina.html",
       "slug": "nahuel-molina",
-      "captured_at": "2026-05-03T03:38:52.128518+00:00"
+      "captured_at": "2026-05-11T03:38:46.144423+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/nathan-ake.html",
+      "slug": "nathan-ake",
+      "captured_at": "2026-05-11T03:56:38.216516+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/neymar-jr.html",
       "slug": "neymar-jr",
-      "captured_at": "2026-05-03T03:46:51.501325+00:00"
+      "captured_at": "2026-05-11T03:46:40.386004+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/nicolas-capaldo.html",
       "slug": "nicolas-capaldo",
-      "captured_at": "2026-05-03T03:46:44.886902+00:00"
+      "captured_at": "2026-05-11T03:46:33.690776+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/nicolas-gonzalez.html",
       "slug": "nicolas-gonzalez",
-      "captured_at": "2026-05-03T03:38:16.927141+00:00"
+      "captured_at": "2026-05-11T03:38:11.516883+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/nicolas-seiwald.html",
       "slug": "nicolas-seiwald",
-      "captured_at": "2026-05-03T03:45:55.990717+00:00"
+      "captured_at": "2026-05-11T03:45:45.251847+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/nicolo-barella-inter.html",
+      "slug": "nicolo-barella-inter",
+      "captured_at": "2026-05-11T04:02:58.480864+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/nicolo-barella.html",
+      "slug": "nicolo-barella",
+      "captured_at": "2026-05-11T03:52:07.347397+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/noa-lang.html",
       "slug": "noa-lang",
-      "captured_at": "2026-05-03T03:44:10.927724+00:00"
+      "captured_at": "2026-05-11T03:44:00.222235+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/noah-ohio.html",
       "slug": "noah-ohio",
-      "captured_at": "2026-05-03T03:45:20.453886+00:00"
+      "captured_at": "2026-05-11T03:45:10.749600+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/noni-madueke.html",
+      "slug": "noni-madueke",
+      "captured_at": "2026-05-11T03:48:38.008784+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/nuno-mendes.html",
       "slug": "nuno-mendes",
-      "captured_at": "2026-05-03T03:42:19.070958+00:00"
+      "captured_at": "2026-05-11T03:42:09.080915+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ollie-watkins.html",
+      "slug": "ollie-watkins",
+      "captured_at": "2026-05-11T03:48:24.075833+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/omar-marmoush.html",
+      "slug": "omar-marmoush",
+      "captured_at": "2026-05-11T03:51:32.960887+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/orel-mangala.html",
       "slug": "orel-mangala",
-      "captured_at": "2026-05-03T03:45:34.923514+00:00"
+      "captured_at": "2026-05-11T03:45:24.717561+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/oscar-zambrano.html",
       "slug": "oscar-zambrano",
-      "captured_at": "2026-05-03T03:31:06.307864+00:00"
+      "captured_at": "2026-05-11T03:31:06.388542+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ousmane-dembele.html",
+      "slug": "ousmane-dembele",
+      "captured_at": "2026-05-11T03:52:48.864670+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/pape-matar-sarr.html",
+      "slug": "pape-matar-sarr",
+      "captured_at": "2026-05-11T03:58:00.696532+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/patson-daka.html",
       "slug": "patson-daka",
-      "captured_at": "2026-05-03T03:46:24.054310+00:00"
+      "captured_at": "2026-05-11T03:46:12.796928+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/paul-onuachu.html",
+      "slug": "paul-onuachu",
+      "captured_at": "2026-05-11T03:59:24.036775+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/paulo-dybala.html",
       "slug": "paulo-dybala",
-      "captured_at": "2026-05-03T03:38:23.973756+00:00"
+      "captured_at": "2026-05-11T03:38:18.419821+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/pedri.html",
+      "slug": "pedri",
+      "captured_at": "2026-05-11T03:49:19.804815+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/pedro-flamengo.html",
       "slug": "pedro-flamengo",
-      "captured_at": "2026-05-03T03:36:00.093435+00:00"
+      "captured_at": "2026-05-11T03:35:57.788847+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/pedro-neto-wolves.html",
+      "slug": "pedro-neto-wolves",
+      "captured_at": "2026-05-11T03:55:08.599952+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/pedro-neto.html",
       "slug": "pedro-neto",
-      "captured_at": "2026-05-03T03:41:50.428349+00:00"
+      "captured_at": "2026-05-11T03:41:41.019322+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/pedro-porro.html",
+      "slug": "pedro-porro",
+      "captured_at": "2026-05-11T03:57:26.312810+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/pedro-velasco.html",
       "slug": "pedro-velasco",
-      "captured_at": "2026-05-03T03:30:59.405845+00:00"
+      "captured_at": "2026-05-11T03:30:59.497906+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/pervis-estupinan.html",
       "slug": "pervis-estupinan",
-      "captured_at": "2026-05-03T03:32:58.648971+00:00"
+      "captured_at": "2026-05-11T03:32:57.650520+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/phil-foden.html",
+      "slug": "phil-foden",
+      "captured_at": "2026-05-11T03:47:56.287808+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/piero-hincapie.html",
       "slug": "piero-hincapie",
-      "captured_at": "2026-05-03T03:30:30.911636+00:00"
+      "captured_at": "2026-05-11T03:30:30.928537+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/quinten-timber.html",
       "slug": "quinten-timber",
-      "captured_at": "2026-05-03T03:43:29.070861+00:00"
+      "captured_at": "2026-05-11T03:43:18.900965+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/rafael-leao.html",
       "slug": "rafael-leao",
-      "captured_at": "2026-05-03T03:41:36.524276+00:00"
+      "captured_at": "2026-05-11T03:41:27.769235+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/rafael-santos-borre.html",
       "slug": "rafael-santos-borre",
-      "captured_at": "2026-05-03T03:40:17.887940+00:00"
+      "captured_at": "2026-05-11T03:40:11.438604+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/raphinha.html",
+      "slug": "raphinha",
+      "captured_at": "2026-05-11T04:01:00.341649+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/rasmus-hojlund.html",
+      "slug": "rasmus-hojlund",
+      "captured_at": "2026-05-11T04:03:47.825461+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/rasmus-kristensen.html",
       "slug": "rasmus-kristensen",
-      "captured_at": "2026-05-03T03:46:38.017562+00:00"
+      "captured_at": "2026-05-11T03:46:26.971585+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/rayan-cherki.html",
+      "slug": "rayan-cherki",
+      "captured_at": "2026-05-11T03:54:33.135408+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/reinier.html",
       "slug": "reinier",
-      "captured_at": "2026-05-03T03:36:43.123793+00:00"
+      "captured_at": "2026-05-11T03:36:39.889338+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/renato-ibarra.html",
       "slug": "renato-ibarra",
-      "captured_at": "2026-05-03T03:30:52.396495+00:00"
+      "captured_at": "2026-05-11T03:30:52.274038+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/renato-tapia.html",
       "slug": "renato-tapia",
-      "captured_at": "2026-05-03T03:47:33.324363+00:00"
+      "captured_at": "2026-05-11T03:47:21.743550+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/renato-veiga.html",
       "slug": "renato-veiga",
-      "captured_at": "2026-05-03T03:41:57.081809+00:00"
+      "captured_at": "2026-05-11T03:41:48.088987+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/richard-rios.html",
       "slug": "richard-rios",
-      "captured_at": "2026-05-03T03:39:48.949787+00:00"
+      "captured_at": "2026-05-11T03:39:43.057914+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/richarlison-spurs.html",
+      "slug": "richarlison-spurs",
+      "captured_at": "2026-05-11T03:57:46.968430+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/richarlison.html",
       "slug": "richarlison",
-      "captured_at": "2026-05-03T03:36:49.646392+00:00"
+      "captured_at": "2026-05-11T03:36:46.848384+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/riqui-puig.html",
       "slug": "riqui-puig",
-      "captured_at": "2026-05-03T03:47:26.319138+00:00"
+      "captured_at": "2026-05-11T03:47:15.010594+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/robert-lewandowski.html",
+      "slug": "robert-lewandowski",
+      "captured_at": "2026-05-11T04:00:53.713286+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/roberto-firmino.html",
       "slug": "roberto-firmino",
-      "captured_at": "2026-05-03T03:37:04.278004+00:00"
+      "captured_at": "2026-05-11T03:37:01.059493+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/rodri-man-city.html",
+      "slug": "rodri-man-city",
+      "captured_at": "2026-05-11T03:55:56.765511+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/rodrigo-bentancur.html",
+      "slug": "rodrigo-bentancur",
+      "captured_at": "2026-05-11T03:53:44.818405+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/rodrigo-conceicao.html",
       "slug": "rodrigo-conceicao",
-      "captured_at": "2026-05-03T03:42:39.702425+00:00"
+      "captured_at": "2026-05-11T03:42:29.793643+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/rodrigo-de-paul.html",
       "slug": "rodrigo-de-paul",
-      "captured_at": "2026-05-03T03:39:19.512518+00:00"
+      "captured_at": "2026-05-11T03:39:13.947356+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/rodrygo-real.html",
+      "slug": "rodrygo-real",
+      "captured_at": "2026-05-11T04:00:05.778513+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/rodrygo.html",
       "slug": "rodrygo",
-      "captured_at": "2026-05-03T03:34:28.918977+00:00"
+      "captured_at": "2026-05-11T03:34:27.935274+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/roger-martinez.html",
       "slug": "roger-martinez",
-      "captured_at": "2026-05-03T03:40:38.645964+00:00"
+      "captured_at": "2026-05-11T03:40:32.092436+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ronald-araujo.html",
+      "slug": "ronald-araujo",
+      "captured_at": "2026-05-11T04:01:13.811740+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ross-stewart.html",
+      "slug": "ross-stewart",
+      "captured_at": "2026-05-11T03:59:03.401957+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ruben-dias.html",
+      "slug": "ruben-dias",
+      "captured_at": "2026-05-11T03:56:10.450629+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ryan-fraser.html",
+      "slug": "ryan-fraser",
+      "captured_at": "2026-05-11T03:59:10.494609+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/ryan-gravenberch.html",
       "slug": "ryan-gravenberch",
-      "captured_at": "2026-05-03T03:42:54.139396+00:00"
+      "captured_at": "2026-05-11T03:42:43.754298+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/savinho.html",
       "slug": "savinho",
-      "captured_at": "2026-05-03T03:34:49.477002+00:00"
+      "captured_at": "2026-05-11T03:34:48.899954+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/sebastian-rodriguez.html",
       "slug": "sebastian-rodriguez",
-      "captured_at": "2026-05-03T03:31:26.723567+00:00"
+      "captured_at": "2026-05-11T03:31:27.129625+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/sekou-koita.html",
       "slug": "sekou-koita",
-      "captured_at": "2026-05-03T03:46:30.990412+00:00"
+      "captured_at": "2026-05-11T03:46:19.884148+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/sekou-mara.html",
+      "slug": "sekou-mara",
+      "captured_at": "2026-05-11T03:59:51.788346+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/serge-gnabry.html",
+      "slug": "serge-gnabry",
+      "captured_at": "2026-05-11T03:50:50.359584+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/serhou-guirassy.html",
+      "slug": "serhou-guirassy",
+      "captured_at": "2026-05-11T03:51:18.303658+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/shola-shoretire.html",
+      "slug": "shola-shoretire",
+      "captured_at": "2026-05-11T04:05:09.694642+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/son-heung-min.html",
+      "slug": "son-heung-min",
+      "captured_at": "2026-05-11T03:56:59.156964+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/taylor-harwood-bellis.html",
+      "slug": "taylor-harwood-bellis",
+      "captured_at": "2026-05-11T03:58:35.316374+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/ter-stegen.html",
+      "slug": "ter-stegen",
+      "captured_at": "2026-05-11T04:01:27.496083+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/teun-koopmeiners-atalanta.html",
+      "slug": "teun-koopmeiners-atalanta",
+      "captured_at": "2026-05-11T03:52:28.109812+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/teun-koopmeiners.html",
       "slug": "teun-koopmeiners",
-      "captured_at": "2026-05-03T03:44:24.866766+00:00"
+      "captured_at": "2026-05-11T03:44:14.624994+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/thiago-almada.html",
       "slug": "thiago-almada",
-      "captured_at": "2026-05-03T03:38:09.863101+00:00"
+      "captured_at": "2026-05-11T03:38:04.545977+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/thibaut-courtois.html",
+      "slug": "thibaut-courtois",
+      "captured_at": "2026-05-11T04:00:47.353675+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/tijjani-reijnders.html",
       "slug": "tijjani-reijnders",
-      "captured_at": "2026-05-03T03:43:49.788498+00:00"
+      "captured_at": "2026-05-11T03:43:39.541338+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/tomas-molina.html",
       "slug": "tomas-molina",
-      "captured_at": "2026-05-03T03:31:47.770105+00:00"
+      "captured_at": "2026-05-11T03:31:48.017297+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/trent-alexander-arnold.html",
+      "slug": "trent-alexander-arnold",
+      "captured_at": "2026-05-11T03:48:03.104607+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/tyrell-malacia.html",
+      "slug": "tyrell-malacia",
+      "captured_at": "2026-05-11T04:04:55.029454+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/valentin-carboni.html",
       "slug": "valentin-carboni",
-      "captured_at": "2026-05-03T03:37:18.424568+00:00"
+      "captured_at": "2026-05-11T03:37:15.649574+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/vanderson.html",
       "slug": "vanderson",
-      "captured_at": "2026-05-03T03:36:14.142508+00:00"
+      "captured_at": "2026-05-11T03:36:11.591152+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/victor-boniface.html",
+      "slug": "victor-boniface",
+      "captured_at": "2026-05-11T04:02:23.281387+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/victor-lindelof.html",
+      "slug": "victor-lindelof",
+      "captured_at": "2026-05-11T04:04:48.968955+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/victor-osimhen.html",
+      "slug": "victor-osimhen",
+      "captured_at": "2026-05-11T03:51:46.844514+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/vinicius-jr-real.html",
+      "slug": "vinicius-jr-real",
+      "captured_at": "2026-05-11T03:59:58.845600+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/vinicius-junior.html",
       "slug": "vinicius-junior",
-      "captured_at": "2026-05-03T03:34:22.021002+00:00"
+      "captured_at": "2026-05-11T03:34:20.953601+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/virgil-van-dijk.html",
+      "slug": "virgil-van-dijk",
+      "captured_at": "2026-05-11T03:48:10.050533+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/vitinha.html",
       "slug": "vitinha",
-      "captured_at": "2026-05-03T03:42:04.637414+00:00"
+      "captured_at": "2026-05-11T03:41:55.027415+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/warren-zaire-emery.html",
+      "slug": "warren-zaire-emery",
+      "captured_at": "2026-05-11T03:53:09.842544+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/washington-corozo.html",
       "slug": "washington-corozo",
-      "captured_at": "2026-05-03T03:33:40.779824+00:00"
+      "captured_at": "2026-05-11T03:33:39.150145+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/will-smallbone.html",
+      "slug": "will-smallbone",
+      "captured_at": "2026-05-11T03:59:37.817409+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/william-saliba.html",
+      "slug": "william-saliba",
+      "captured_at": "2026-05-11T03:55:29.066847+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/willian-pacho.html",
       "slug": "willian-pacho",
-      "captured_at": "2026-05-03T03:30:09.690576+00:00"
+      "captured_at": "2026-05-11T03:30:09.947755+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/xavi-simons-leipzig.html",
+      "slug": "xavi-simons-leipzig",
+      "captured_at": "2026-05-11T04:02:30.148888+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/xavi-simons.html",
       "slug": "xavi-simons",
-      "captured_at": "2026-05-03T03:42:46.728677+00:00"
+      "captured_at": "2026-05-11T03:42:36.609836+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/xherdan-shaqiri.html",
       "slug": "xherdan-shaqiri",
-      "captured_at": "2026-05-03T03:47:05.597013+00:00"
+      "captured_at": "2026-05-11T03:46:54.119457+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/yan-couto-citygruop.html",
+      "slug": "yan-couto-citygruop",
+      "captured_at": "2026-05-11T03:54:54.128549+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/yan-couto.html",
       "slug": "yan-couto",
-      "captured_at": "2026-05-03T03:35:10.647994+00:00"
+      "captured_at": "2026-05-11T03:35:09.375945+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/yann-sommer.html",
+      "slug": "yann-sommer",
+      "captured_at": "2026-05-11T04:03:19.707750+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/yerry-mina.html",
       "slug": "yerry-mina",
-      "captured_at": "2026-05-03T03:40:24.803463+00:00"
+      "captured_at": "2026-05-11T03:40:18.193549+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "raw_html",
       "artifact_path": "data/raw/transfermarkt/youri-tielemans.html",
       "slug": "youri-tielemans",
-      "captured_at": "2026-05-03T03:45:27.468390+00:00"
+      "captured_at": "2026-05-11T03:45:17.807856+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "raw_html",
+      "artifact_path": "data/raw/transfermarkt/yves-bissouma.html",
+      "slug": "yves-bissouma",
+      "captured_at": "2026-05-11T03:57:53.800562+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/adam-armstrong.json",
+      "slug": "adam-armstrong",
+      "captured_at": "2026-05-11T03:58:26.091917+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/adam-daghim.json",
       "slug": "adam-daghim",
-      "captured_at": "2026-05-03T03:46:21.728492+00:00"
+      "captured_at": "2026-05-11T03:46:10.456134+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ademola-lookman.json",
+      "slug": "ademola-lookman",
+      "captured_at": "2026-05-11T03:52:25.716619+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/alan-minda.json",
       "slug": "alan-minda",
-      "captured_at": "2026-05-03T03:30:42.960899+00:00"
+      "captured_at": "2026-05-11T03:30:42.796866+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/albert-lokonga.json",
       "slug": "albert-lokonga",
-      "captured_at": "2026-05-03T03:45:46.561194+00:00"
+      "captured_at": "2026-05-11T03:45:36.311867+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/alejandro-baena.json",
+      "slug": "alejandro-baena",
+      "captured_at": "2026-05-11T03:50:06.680884+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/alejandro-garnacho.json",
       "slug": "alejandro-garnacho",
-      "captured_at": "2026-05-03T03:37:16.069772+00:00"
+      "captured_at": "2026-05-11T03:37:13.041838+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/alejandro-grimaldo.json",
+      "slug": "alejandro-grimaldo",
+      "captured_at": "2026-05-11T04:02:13.550403+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/alessandro-bastoni.json",
+      "slug": "alessandro-bastoni",
+      "captured_at": "2026-05-11T04:03:10.275689+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/alex-mccarthy.json",
+      "slug": "alex-mccarthy",
+      "captured_at": "2026-05-11T03:59:00.850731+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/alexander-dominguez.json",
       "slug": "alexander-dominguez",
-      "captured_at": "2026-05-03T03:33:59.118128+00:00"
+      "captured_at": "2026-05-11T03:33:57.596439+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/alexander-isak.json",
+      "slug": "alexander-isak",
+      "captured_at": "2026-05-11T03:48:21.621175+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/alexis-mac-allister.json",
+      "slug": "alexis-mac-allister",
+      "captured_at": "2026-05-11T03:54:03.045215+00:00"
     },
     {
       "source": "transfermarkt",
@@ -1097,625 +2245,1304 @@
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/alphonso-davies.json",
+      "slug": "alphonso-davies",
+      "captured_at": "2026-05-11T04:01:45.970361+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/amad-diallo.json",
+      "slug": "amad-diallo",
+      "captured_at": "2026-05-11T03:49:10.319602+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/amadou-onana.json",
       "slug": "amadou-onana",
-      "captured_at": "2026-05-03T03:44:50.647242+00:00"
+      "captured_at": "2026-05-11T03:44:40.058948+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/amine-gouiri.json",
+      "slug": "amine-gouiri",
+      "captured_at": "2026-05-11T03:53:21.512207+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/amrit-ray-scout.json",
+      "slug": "amrit-ray-scout",
+      "captured_at": "2026-05-11T04:05:07.304376+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/andre-onana.json",
+      "slug": "andre-onana",
+      "captured_at": "2026-05-11T04:04:12.922629+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/angel-mena.json",
       "slug": "angel-mena",
-      "captured_at": "2026-05-03T03:33:17.200373+00:00"
+      "captured_at": "2026-05-11T03:33:16.055992+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/angelo-preciado.json",
       "slug": "angelo-preciado",
-      "captured_at": "2026-05-03T03:32:27.795849+00:00"
+      "captured_at": "2026-05-11T03:32:27.706764+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/antoine-griezmann.json",
+      "slug": "antoine-griezmann",
+      "captured_at": "2026-05-11T03:49:59.454884+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/antonio-rudiger.json",
+      "slug": "antonio-rudiger",
+      "captured_at": "2026-05-11T04:00:44.552958+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/antonio-silva.json",
       "slug": "antonio-silva",
-      "captured_at": "2026-05-03T03:42:31.074722+00:00"
+      "captured_at": "2026-05-11T03:42:20.535718+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/antony-man-utd.json",
+      "slug": "antony-man-utd",
+      "captured_at": "2026-05-11T04:04:33.142728+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/antony.json",
       "slug": "antony",
-      "captured_at": "2026-05-03T03:35:50.735682+00:00"
+      "captured_at": "2026-05-11T03:35:48.321299+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/arthur-vermeeren.json",
       "slug": "arthur-vermeeren",
-      "captured_at": "2026-05-03T03:44:43.831261+00:00"
+      "captured_at": "2026-05-11T03:44:33.219807+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/aurelien-tchouameni.json",
+      "slug": "aurelien-tchouameni",
+      "captured_at": "2026-05-11T04:00:31.200357+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/benjamin-sesko.json",
       "slug": "benjamin-sesko",
-      "captured_at": "2026-05-03T03:45:53.612817+00:00"
+      "captured_at": "2026-05-11T03:45:42.820820+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/bernardo-silva.json",
+      "slug": "bernardo-silva",
+      "captured_at": "2026-05-11T03:56:08.147543+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/bradley-barcola.json",
+      "slug": "bradley-barcola",
+      "captured_at": "2026-05-11T03:53:00.421298+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/brennan-johnson.json",
+      "slug": "brennan-johnson",
+      "captured_at": "2026-05-11T03:57:44.825678+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/brian-brobbey.json",
       "slug": "brian-brobbey",
-      "captured_at": "2026-05-03T03:44:08.536720+00:00"
+      "captured_at": "2026-05-11T03:43:57.897871+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/bruno-fernandes.json",
+      "slug": "bruno-fernandes",
+      "captured_at": "2026-05-11T04:03:45.289664+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/bruno-guimaraes.json",
       "slug": "bruno-guimaraes",
-      "captured_at": "2026-05-03T03:35:57.606177+00:00"
+      "captured_at": "2026-05-11T03:35:55.263401+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/bukayo-saka.json",
+      "slug": "bukayo-saka",
+      "captured_at": "2026-05-11T03:47:40.331743+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/byron-castillo.json",
       "slug": "byron-castillo",
-      "captured_at": "2026-05-03T03:33:52.088449+00:00"
+      "captured_at": "2026-05-11T03:33:50.735546+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/carlos-gruezo.json",
       "slug": "carlos-gruezo",
-      "captured_at": "2026-05-03T03:34:05.974863+00:00"
+      "captured_at": "2026-05-11T03:34:04.390117+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/carlos-gutierrez.json",
       "slug": "carlos-gutierrez",
-      "captured_at": "2026-05-03T03:31:17.568448+00:00"
+      "captured_at": "2026-05-11T03:31:17.905478+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/carlos-vela.json",
       "slug": "carlos-vela",
-      "captured_at": "2026-05-03T03:47:03.087188+00:00"
+      "captured_at": "2026-05-11T03:46:51.710169+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/casemiro.json",
+      "slug": "casemiro",
+      "captured_at": "2026-05-11T04:04:19.783320+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/charles-de-ketelaere.json",
       "slug": "charles-de-ketelaere",
-      "captured_at": "2026-05-03T03:45:04.623192+00:00"
+      "captured_at": "2026-05-11T03:44:54.331105+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/christian-eriksen.json",
+      "slug": "christian-eriksen",
+      "captured_at": "2026-05-11T04:04:39.941460+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/christoph-baumgartner.json",
       "slug": "christoph-baumgartner",
-      "captured_at": "2026-05-03T03:46:07.387379+00:00"
+      "captured_at": "2026-05-11T03:45:56.706828+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/claudio-echeverri.json",
       "slug": "claudio-echeverri",
-      "captured_at": "2026-05-03T03:37:29.952748+00:00"
+      "captured_at": "2026-05-11T03:37:27.458889+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/cody-gakpo.json",
       "slug": "cody-gakpo",
-      "captured_at": "2026-05-03T03:43:06.078866+00:00"
+      "captured_at": "2026-05-11T03:42:55.578161+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/cole-palmer.json",
+      "slug": "cole-palmer",
+      "captured_at": "2026-05-11T03:47:47.396309+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/cristian-pellerano.json",
       "slug": "cristian-pellerano",
-      "captured_at": "2026-05-03T03:31:38.528934+00:00"
+      "captured_at": "2026-05-11T03:31:38.539864+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/cristian-romero.json",
+      "slug": "cristian-romero",
+      "captured_at": "2026-05-11T03:57:17.244766+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/cucho-hernandez.json",
       "slug": "cucho-hernandez",
-      "captured_at": "2026-05-03T03:40:00.339323+00:00"
+      "captured_at": "2026-05-11T03:39:54.758822+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/damian-diaz.json",
       "slug": "damian-diaz",
-      "captured_at": "2026-05-03T03:31:59.204630+00:00"
+      "captured_at": "2026-05-11T03:31:59.557979+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/dani-olmo.json",
+      "slug": "dani-olmo",
+      "captured_at": "2026-05-11T03:49:38.530544+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/darwin-nunez.json",
+      "slug": "darwin-nunez",
+      "captured_at": "2026-05-11T03:53:42.107257+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/david-neres.json",
       "slug": "david-neres",
-      "captured_at": "2026-05-03T03:37:01.890749+00:00"
+      "captured_at": "2026-05-11T03:36:58.564270+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/davide-frattesi.json",
+      "slug": "davide-frattesi",
+      "captured_at": "2026-05-11T03:51:58.151897+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/declan-rice.json",
+      "slug": "declan-rice",
+      "captured_at": "2026-05-11T03:47:53.973295+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/dejan-kulusevski.json",
+      "slug": "dejan-kulusevski",
+      "captured_at": "2026-05-11T03:57:23.866865+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/desire-doue.json",
+      "slug": "desire-doue",
+      "captured_at": "2026-05-11T03:53:07.236912+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/destiny-udogie.json",
+      "slug": "destiny-udogie",
+      "captured_at": "2026-05-11T03:57:37.653346+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/devyne-rensch.json",
       "slug": "devyne-rensch",
-      "captured_at": "2026-05-03T03:43:26.665173+00:00"
+      "captured_at": "2026-05-11T03:43:16.542718+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/diogo-dalot.json",
+      "slug": "diogo-dalot",
+      "captured_at": "2026-05-11T04:04:05.903694+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/diogo-jota.json",
       "slug": "diogo-jota",
-      "captured_at": "2026-05-03T03:42:16.536382+00:00"
+      "captured_at": "2026-05-11T03:42:06.768701+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/dominik-szoboszlai.json",
+      "slug": "dominik-szoboszlai",
+      "captured_at": "2026-05-11T03:55:40.469642+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/dusan-vlahovic.json",
+      "slug": "dusan-vlahovic",
+      "captured_at": "2026-05-11T03:52:18.720566+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/dylan-borrero.json",
       "slug": "dylan-borrero",
-      "captured_at": "2026-05-03T03:30:21.453093+00:00"
+      "captured_at": "2026-05-11T03:30:21.767099+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/eder-militao.json",
+      "slug": "eder-militao",
+      "captured_at": "2026-05-11T04:00:37.575498+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ederson.json",
+      "slug": "ederson",
+      "captured_at": "2026-05-11T03:56:56.764653+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/edoardo-bove.json",
+      "slug": "edoardo-bove",
+      "captured_at": "2026-05-11T03:52:39.248845+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/eduardo-camavinga.json",
+      "slug": "eduardo-camavinga",
+      "captured_at": "2026-05-11T04:00:24.141631+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/elye-wahi.json",
+      "slug": "elye-wahi",
+      "captured_at": "2026-05-11T03:53:28.345546+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/endrick.json",
       "slug": "endrick",
-      "captured_at": "2026-05-03T03:34:40.373682+00:00"
+      "captured_at": "2026-05-11T03:34:39.606579+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/enner-valencia.json",
       "slug": "enner-valencia",
-      "captured_at": "2026-05-03T03:32:42.031917+00:00"
+      "captured_at": "2026-05-11T03:32:41.376611+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/enzo-fernandez.json",
       "slug": "enzo-fernandez",
-      "captured_at": "2026-05-03T03:37:58.982841+00:00"
+      "captured_at": "2026-05-11T03:37:54.893926+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/erling-haaland.json",
+      "slug": "erling-haaland",
+      "captured_at": "2026-05-11T03:47:33.454582+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/estevao.json",
       "slug": "estevao",
-      "captured_at": "2026-05-03T03:35:01.037507+00:00"
+      "captured_at": "2026-05-11T03:34:59.953773+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/evanilson.json",
+      "slug": "evanilson",
+      "captured_at": "2026-05-11T03:54:51.581005+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/exequiel-palacios.json",
       "slug": "exequiel-palacios",
-      "captured_at": "2026-05-03T03:38:35.756516+00:00"
+      "captured_at": "2026-05-11T03:38:29.858243+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/facundo-buonanotte.json",
       "slug": "facundo-buonanotte",
-      "captured_at": "2026-05-03T03:38:06.383082+00:00"
+      "captured_at": "2026-05-11T03:38:02.198882+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/facundo-pellistri.json",
+      "slug": "facundo-pellistri",
+      "captured_at": "2026-05-11T04:05:27.507393+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/facundo-torres.json",
       "slug": "facundo-torres",
-      "captured_at": "2026-05-03T03:47:17.117482+00:00"
+      "captured_at": "2026-05-11T03:47:05.538877+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/federico-chiesa.json",
+      "slug": "federico-chiesa",
+      "captured_at": "2026-05-11T03:52:04.992503+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/federico-dimarco.json",
+      "slug": "federico-dimarco",
+      "captured_at": "2026-05-11T04:03:17.185588+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/federico-valverde.json",
+      "slug": "federico-valverde",
+      "captured_at": "2026-05-11T04:00:16.991451+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/felix-torres.json",
       "slug": "felix-torres",
-      "captured_at": "2026-05-03T03:32:49.246884+00:00"
+      "captured_at": "2026-05-11T03:32:48.332366+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ferran-torres.json",
+      "slug": "ferran-torres",
+      "captured_at": "2026-05-11T03:49:45.659718+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/florian-wirtz.json",
+      "slug": "florian-wirtz",
+      "captured_at": "2026-05-11T03:50:27.618421+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/flynn-downes.json",
+      "slug": "flynn-downes",
+      "captured_at": "2026-05-11T03:58:32.923987+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/fran-garcia.json",
+      "slug": "fran-garcia",
+      "captured_at": "2026-05-11T03:50:20.688955+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/francisco-conceicao.json",
       "slug": "francisco-conceicao",
-      "captured_at": "2026-05-03T03:41:34.141567+00:00"
+      "captured_at": "2026-05-11T03:41:25.437980+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/franco-mastantuono.json",
       "slug": "franco-mastantuono",
-      "captured_at": "2026-05-03T03:37:36.836404+00:00"
+      "captured_at": "2026-05-11T03:37:34.272939+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/frenkie-de-jong-barca.json",
+      "slug": "frenkie-de-jong-barca",
+      "captured_at": "2026-05-11T04:01:11.800680+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/frenkie-de-jong.json",
       "slug": "frenkie-de-jong",
-      "captured_at": "2026-05-03T03:43:40.654871+00:00"
+      "captured_at": "2026-05-11T03:43:30.672273+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/gabriel-jesus.json",
       "slug": "gabriel-jesus",
-      "captured_at": "2026-05-03T03:36:11.748861+00:00"
+      "captured_at": "2026-05-11T03:36:09.268134+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/gabriel-martinelli.json",
       "slug": "gabriel-martinelli",
-      "captured_at": "2026-05-03T03:34:47.157450+00:00"
+      "captured_at": "2026-05-11T03:34:46.568106+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/gabriel-silva-brazil.json",
+      "slug": "gabriel-silva-brazil",
+      "captured_at": "2026-05-11T03:54:44.652626+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/gabriel-villamil.json",
       "slug": "gabriel-villamil",
-      "captured_at": "2026-05-03T03:31:45.409384+00:00"
+      "captured_at": "2026-05-11T03:31:45.561848+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/gavi.json",
+      "slug": "gavi",
+      "captured_at": "2026-05-11T03:50:13.764836+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/geny-catamo.json",
       "slug": "geny-catamo",
-      "captured_at": "2026-05-03T03:42:37.687540+00:00"
+      "captured_at": "2026-05-11T03:42:27.381958+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/gerson.json",
       "slug": "gerson",
-      "captured_at": "2026-05-03T03:36:33.404142+00:00"
+      "captured_at": "2026-05-11T03:36:30.306455+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/giovani-lo-celso.json",
       "slug": "giovani-lo-celso",
-      "captured_at": "2026-05-03T03:39:17.174886+00:00"
+      "captured_at": "2026-05-11T03:39:11.600341+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/goncalo-inacio.json",
       "slug": "goncalo-inacio",
-      "captured_at": "2026-05-03T03:41:26.750511+00:00"
+      "captured_at": "2026-05-11T03:41:18.561790+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/goncalo-ramos.json",
+      "slug": "goncalo-ramos",
+      "captured_at": "2026-05-11T03:55:06.097429+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/gonzalo-montiel.json",
       "slug": "gonzalo-montiel",
-      "captured_at": "2026-05-03T03:39:10.294104+00:00"
+      "captured_at": "2026-05-11T03:39:04.556239+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/gonzalo-plata.json",
       "slug": "gonzalo-plata",
-      "captured_at": "2026-05-03T03:33:10.324675+00:00"
+      "captured_at": "2026-05-11T03:33:09.314696+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/granit-xhaka.json",
+      "slug": "granit-xhaka",
+      "captured_at": "2026-05-11T03:50:47.899117+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/guglielmo-vicario.json",
+      "slug": "guglielmo-vicario",
+      "captured_at": "2026-05-11T03:58:12.308774+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/guilherme-arana.json",
       "slug": "guilherme-arana",
-      "captured_at": "2026-05-03T03:35:44.204549+00:00"
+      "captured_at": "2026-05-11T03:35:41.864976+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/hakan-calhanoglu.json",
+      "slug": "hakan-calhanoglu",
+      "captured_at": "2026-05-11T04:02:55.584189+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/hannibal-mejbri.json",
+      "slug": "hannibal-mejbri",
+      "captured_at": "2026-05-11T04:05:20.613862+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/harry-kane.json",
+      "slug": "harry-kane",
+      "captured_at": "2026-05-11T03:50:40.992839+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/harry-maguire.json",
+      "slug": "harry-maguire",
+      "captured_at": "2026-05-11T04:04:46.810998+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/hugo-ekitike.json",
+      "slug": "hugo-ekitike",
+      "captured_at": "2026-05-11T03:51:30.462153+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/ibrahim-osman.json",
       "slug": "ibrahim-osman",
-      "captured_at": "2026-05-03T03:43:13.114596+00:00"
+      "captured_at": "2026-05-11T03:43:02.481766+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/igor-jesus.json",
+      "slug": "igor-jesus",
+      "captured_at": "2026-05-11T03:54:30.545874+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jack-stephens.json",
+      "slug": "jack-stephens",
+      "captured_at": "2026-05-11T03:58:53.790938+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jackson-porozo.json",
       "slug": "jackson-porozo",
-      "captured_at": "2026-05-03T03:32:13.311984+00:00"
+      "captured_at": "2026-05-11T03:32:13.995468+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jaime-ayovi.json",
       "slug": "jaime-ayovi",
-      "captured_at": "2026-05-03T03:32:06.369312+00:00"
+      "captured_at": "2026-05-11T03:32:06.851544+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jamal-musiala.json",
+      "slug": "jamal-musiala",
+      "captured_at": "2026-05-11T03:50:34.420902+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/james-maddison.json",
+      "slug": "james-maddison",
+      "captured_at": "2026-05-11T03:57:10.424701+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/james-rodriguez.json",
       "slug": "james-rodriguez",
-      "captured_at": "2026-05-03T03:40:36.317552+00:00"
+      "captured_at": "2026-05-11T03:40:29.499991+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jamie-gittens.json",
+      "slug": "jamie-gittens",
+      "captured_at": "2026-05-11T03:51:15.749968+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jan-bednarek.json",
+      "slug": "jan-bednarek",
+      "captured_at": "2026-05-11T03:58:46.738886+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jefferson-lerma.json",
       "slug": "jefferson-lerma",
-      "captured_at": "2026-05-03T03:41:06.130750+00:00"
+      "captured_at": "2026-05-11T03:40:58.135327+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jeremie-frimpong-leverkusen.json",
+      "slug": "jeremie-frimpong-leverkusen",
+      "captured_at": "2026-05-11T04:02:06.974860+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jeremie-frimpong.json",
       "slug": "jeremie-frimpong",
-      "captured_at": "2026-05-03T03:43:47.680928+00:00"
+      "captured_at": "2026-05-11T03:43:37.532261+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jeremy-doku-city.json",
+      "slug": "jeremy-doku-city",
+      "captured_at": "2026-05-11T03:56:28.921571+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jeremy-doku.json",
       "slug": "jeremy-doku",
-      "captured_at": "2026-05-03T03:45:11.157954+00:00"
+      "captured_at": "2026-05-11T03:45:01.023762+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jeremy-sarmiento.json",
       "slug": "jeremy-sarmiento",
-      "captured_at": "2026-05-03T03:32:35.105731+00:00"
+      "captured_at": "2026-05-11T03:32:34.556690+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jhegson-mendez.json",
       "slug": "jhegson-mendez",
-      "captured_at": "2026-05-03T03:32:56.270837+00:00"
+      "captured_at": "2026-05-11T03:32:55.288909+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jhon-cordoba.json",
       "slug": "jhon-cordoba",
-      "captured_at": "2026-05-03T03:40:51.900743+00:00"
+      "captured_at": "2026-05-11T03:40:43.821541+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jhon-duran.json",
       "slug": "jhon-duran",
-      "captured_at": "2026-05-03T03:39:46.584500+00:00"
+      "captured_at": "2026-05-11T03:39:40.701883+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/joao-felix.json",
       "slug": "joao-felix",
-      "captured_at": "2026-05-03T03:41:48.106978+00:00"
+      "captured_at": "2026-05-11T03:41:39.011409+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/joao-gomes.json",
       "slug": "joao-gomes",
-      "captured_at": "2026-05-03T03:35:36.362605+00:00"
+      "captured_at": "2026-05-11T03:35:34.837627+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/joao-neves.json",
       "slug": "joao-neves",
-      "captured_at": "2026-05-03T03:41:19.687380+00:00"
+      "captured_at": "2026-05-11T03:41:11.692410+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/joao-rojas.json",
       "slug": "joao-rojas",
-      "captured_at": "2026-05-03T03:33:38.362879+00:00"
+      "captured_at": "2026-05-11T03:33:36.795831+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/joe-aribo.json",
+      "slug": "joe-aribo",
+      "captured_at": "2026-05-11T03:59:49.211684+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/johan-bakayoko.json",
       "slug": "johan-bakayoko",
-      "captured_at": "2026-05-03T03:44:57.563998+00:00"
+      "captured_at": "2026-05-11T03:44:46.902948+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/john-stones.json",
+      "slug": "john-stones",
+      "captured_at": "2026-05-11T03:56:49.943212+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jonathan-borja.json",
       "slug": "jonathan-borja",
-      "captured_at": "2026-05-03T03:34:19.671618+00:00"
+      "captured_at": "2026-05-11T03:34:18.608591+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jonathan-tah.json",
+      "slug": "jonathan-tah",
+      "captured_at": "2026-05-11T04:02:20.453700+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jordy-caicedo.json",
       "slug": "jordy-caicedo",
-      "captured_at": "2026-05-03T03:30:49.999646+00:00"
+      "captured_at": "2026-05-11T03:30:49.899930+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jorge-carrascal.json",
       "slug": "jorge-carrascal",
-      "captured_at": "2026-05-03T03:40:15.361993+00:00"
+      "captured_at": "2026-05-11T03:40:08.928637+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jose-cifuentes.json",
       "slug": "jose-cifuentes",
-      "captured_at": "2026-05-03T03:33:24.228849+00:00"
+      "captured_at": "2026-05-11T03:33:22.956809+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/josko-gvardiol.json",
+      "slug": "josko-gvardiol",
+      "captured_at": "2026-05-11T03:56:22.381796+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jude-bellingham.json",
+      "slug": "jude-bellingham",
+      "captured_at": "2026-05-11T03:49:17.149895+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/jules-kounde.json",
+      "slug": "jules-kounde",
+      "captured_at": "2026-05-11T04:01:25.329064+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/julian-alvarez.json",
       "slug": "julian-alvarez",
-      "captured_at": "2026-05-03T03:37:52.084968+00:00"
+      "captured_at": "2026-05-11T03:37:48.017132+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/jurrien-timber.json",
       "slug": "jurrien-timber",
-      "captured_at": "2026-05-03T03:44:01.524035+00:00"
+      "captured_at": "2026-05-11T03:43:50.914335+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/kamaldeen-sulemana.json",
+      "slug": "kamaldeen-sulemana",
+      "captured_at": "2026-05-11T03:59:35.377391+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/karim-adeyemi.json",
+      "slug": "karim-adeyemi",
+      "captured_at": "2026-05-11T03:51:01.864592+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/karim-konate.json",
       "slug": "karim-konate",
-      "captured_at": "2026-05-03T03:46:14.304438+00:00"
+      "captured_at": "2026-05-11T03:46:03.525898+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/kendry-paez.json",
       "slug": "kendry-paez",
-      "captured_at": "2026-05-03T03:30:07.360430+00:00"
+      "captured_at": "2026-05-11T03:30:07.616483+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/kevin-de-bruyne.json",
+      "slug": "kevin-de-bruyne",
+      "captured_at": "2026-05-11T03:55:54.297352+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/khvicha-kvaratskhelia.json",
+      "slug": "khvicha-kvaratskhelia",
+      "captured_at": "2026-05-11T03:51:44.322951+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/kim-min-jae.json",
+      "slug": "kim-min-jae",
+      "captured_at": "2026-05-11T04:01:53.023229+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/kobbie-mainoo.json",
+      "slug": "kobbie-mainoo",
+      "captured_at": "2026-05-11T04:03:59.236574+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/kyle-walker-peters.json",
+      "slug": "kyle-walker-peters",
+      "captured_at": "2026-05-11T03:58:19.280653+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/kyle-walker.json",
+      "slug": "kyle-walker",
+      "captured_at": "2026-05-11T03:56:35.847756+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/kylian-mbappe.json",
+      "slug": "kylian-mbappe",
+      "captured_at": "2026-05-11T03:49:52.499777+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/lamine-yamal.json",
+      "slug": "lamine-yamal",
+      "captured_at": "2026-05-11T03:49:31.646241+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/lautaro-martinez-inter-milan.json",
+      "slug": "lautaro-martinez-inter-milan",
+      "captured_at": "2026-05-11T04:02:41.596887+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lautaro-martinez.json",
       "slug": "lautaro-martinez",
-      "captured_at": "2026-05-03T03:37:44.183221+00:00"
+      "captured_at": "2026-05-11T03:37:41.149527+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/leandro-paredes.json",
       "slug": "leandro-paredes",
-      "captured_at": "2026-05-03T03:39:31.874643+00:00"
+      "captured_at": "2026-05-11T03:39:27.018703+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/leandro-trossard.json",
       "slug": "leandro-trossard",
-      "captured_at": "2026-05-03T03:45:18.041754+00:00"
+      "captured_at": "2026-05-11T03:45:08.012475+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/leny-yoro.json",
+      "slug": "leny-yoro",
+      "captured_at": "2026-05-11T03:53:35.216383+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/leroy-sane.json",
+      "slug": "leroy-sane",
+      "captured_at": "2026-05-11T04:01:39.083869+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/liam-delap.json",
+      "slug": "liam-delap",
+      "captured_at": "2026-05-11T03:48:49.286407+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lisandro-martinez.json",
       "slug": "lisandro-martinez",
-      "captured_at": "2026-05-03T03:39:03.504310+00:00"
+      "captured_at": "2026-05-11T03:38:57.721125+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lois-openda.json",
       "slug": "lois-openda",
-      "captured_at": "2026-05-03T03:44:36.316222+00:00"
+      "captured_at": "2026-05-11T03:44:26.361340+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lorran.json",
       "slug": "lorran",
-      "captured_at": "2026-05-03T03:36:40.219303+00:00"
+      "captured_at": "2026-05-11T03:36:37.320337+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lucas-beltran.json",
       "slug": "lucas-beltran",
-      "captured_at": "2026-05-03T03:38:49.606656+00:00"
+      "captured_at": "2026-05-11T03:38:43.825901+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lucas-beraldo.json",
       "slug": "lucas-beraldo",
-      "captured_at": "2026-05-03T03:36:26.374755+00:00"
+      "captured_at": "2026-05-11T03:36:23.148662+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lucas-paqueta.json",
       "slug": "lucas-paqueta",
-      "captured_at": "2026-05-03T03:35:29.865137+00:00"
+      "captured_at": "2026-05-11T03:35:27.893943+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/luciano-acosta.json",
       "slug": "luciano-acosta",
-      "captured_at": "2026-05-03T03:47:23.989121+00:00"
+      "captured_at": "2026-05-11T03:47:12.607790+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/luis-diaz-liverpool.json",
+      "slug": "luis-diaz-liverpool",
+      "captured_at": "2026-05-11T03:55:47.549791+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/luis-diaz.json",
       "slug": "luis-diaz",
-      "captured_at": "2026-05-03T03:39:38.784628+00:00"
+      "captured_at": "2026-05-11T03:39:33.537852+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/luis-segovia.json",
       "slug": "luis-segovia",
-      "captured_at": "2026-05-03T03:31:24.356486+00:00"
+      "captured_at": "2026-05-11T03:31:24.763988+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/luis-sinisterra.json",
       "slug": "luis-sinisterra",
-      "captured_at": "2026-05-03T03:40:07.494454+00:00"
+      "captured_at": "2026-05-11T03:40:01.944875+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/luke-shaw.json",
+      "slug": "luke-shaw",
+      "captured_at": "2026-05-11T04:04:26.270740+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/lutsharel-geertruida.json",
       "slug": "lutsharel-geertruida",
-      "captured_at": "2026-05-03T03:43:20.107939+00:00"
+      "captured_at": "2026-05-11T03:43:09.561196+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/manuel-neuer.json",
+      "slug": "manuel-neuer",
+      "captured_at": "2026-05-11T04:02:00.033871+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/marcos-acuna.json",
+      "slug": "marcos-acuna",
+      "captured_at": "2026-05-11T03:54:09.972437+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/marcos-leonardo.json",
       "slug": "marcos-leonardo",
-      "captured_at": "2026-05-03T03:35:08.280363+00:00"
+      "captured_at": "2026-05-11T03:35:06.908993+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/marcus-rashford.json",
+      "slug": "marcus-rashford",
+      "captured_at": "2026-05-11T04:03:38.414341+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/marcus-thuram.json",
+      "slug": "marcus-thuram",
+      "captured_at": "2026-05-11T04:02:48.544293+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/mario-pineida.json",
       "slug": "mario-pineida",
-      "captured_at": "2026-05-03T03:32:20.080196+00:00"
+      "captured_at": "2026-05-11T03:32:20.601937+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/martin-odegaard.json",
+      "slug": "martin-odegaard",
+      "captured_at": "2026-05-11T03:55:26.615751+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/mason-mount.json",
+      "slug": "mason-mount",
+      "captured_at": "2026-05-11T04:03:31.289722+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/mateus-uribe.json",
       "slug": "mateus-uribe",
-      "captured_at": "2026-05-03T03:40:58.956711+00:00"
+      "captured_at": "2026-05-11T03:40:51.009245+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/matheus-cunha.json",
       "slug": "matheus-cunha",
-      "captured_at": "2026-05-03T03:35:22.288637+00:00"
+      "captured_at": "2026-05-11T03:35:20.749769+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/matheus-nunes.json",
+      "slug": "matheus-nunes",
+      "captured_at": "2026-05-11T03:54:23.734470+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/mathias-olivera.json",
+      "slug": "mathias-olivera",
+      "captured_at": "2026-05-11T03:54:16.859774+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/matias-soule-roma.json",
+      "slug": "matias-soule-roma",
+      "captured_at": "2026-05-11T03:52:46.104105+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/matias-soule.json",
       "slug": "matias-soule",
-      "captured_at": "2026-05-03T03:38:42.621777+00:00"
+      "captured_at": "2026-05-11T03:38:36.660592+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/matias-vecino.json",
+      "slug": "matias-vecino",
+      "captured_at": "2026-05-11T03:53:56.215769+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/mats-wieffer.json",
       "slug": "mats-wieffer",
-      "captured_at": "2026-05-03T03:44:22.515148+00:00"
+      "captured_at": "2026-05-11T03:44:11.994339+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/matthijs-de-ligt.json",
+      "slug": "matthijs-de-ligt",
+      "captured_at": "2026-05-11T03:49:03.270852+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/maximilian-beier.json",
+      "slug": "maximilian-beier",
+      "captured_at": "2026-05-11T03:51:08.924455+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/maxwel-cornet.json",
+      "slug": "maxwel-cornet",
+      "captured_at": "2026-05-11T03:59:21.833809+00:00"
     },
     {
       "source": "transfermarkt",
@@ -1729,392 +3556,749 @@
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/michael-estrada.json",
       "slug": "michael-estrada",
-      "captured_at": "2026-05-03T03:33:31.338599+00:00"
+      "captured_at": "2026-05-11T03:33:29.920985+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/michael-hoyos.json",
       "slug": "michael-hoyos",
-      "captured_at": "2026-05-03T03:34:12.846686+00:00"
+      "captured_at": "2026-05-11T03:34:11.734778+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/micky-van-de-ven.json",
+      "slug": "micky-van-de-ven",
+      "captured_at": "2026-05-11T03:48:56.525787+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/miguel-borja.json",
       "slug": "miguel-borja",
-      "captured_at": "2026-05-03T03:41:13.045374+00:00"
+      "captured_at": "2026-05-11T03:41:05.003461+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/mohamed-salah.json",
+      "slug": "mohamed-salah",
+      "captured_at": "2026-05-11T03:55:19.697712+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/moises-caicedo.json",
       "slug": "moises-caicedo",
-      "captured_at": "2026-05-03T03:30:28.568930+00:00"
+      "captured_at": "2026-05-11T03:30:28.589357+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/morgan-rogers.json",
+      "slug": "morgan-rogers",
+      "captured_at": "2026-05-11T03:48:35.426335+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/nahuel-molina.json",
       "slug": "nahuel-molina",
-      "captured_at": "2026-05-03T03:38:56.698467+00:00"
+      "captured_at": "2026-05-11T03:38:50.758421+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/nathan-ake.json",
+      "slug": "nathan-ake",
+      "captured_at": "2026-05-11T03:56:42.723650+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/neymar-jr.json",
       "slug": "neymar-jr",
-      "captured_at": "2026-05-03T03:46:55.986607+00:00"
+      "captured_at": "2026-05-11T03:46:44.869248+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/nicolas-capaldo.json",
       "slug": "nicolas-capaldo",
-      "captured_at": "2026-05-03T03:46:49.358407+00:00"
+      "captured_at": "2026-05-11T03:46:38.137858+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/nicolas-gonzalez.json",
       "slug": "nicolas-gonzalez",
-      "captured_at": "2026-05-03T03:38:21.582317+00:00"
+      "captured_at": "2026-05-11T03:38:15.999239+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/nicolas-seiwald.json",
       "slug": "nicolas-seiwald",
-      "captured_at": "2026-05-03T03:46:00.484826+00:00"
+      "captured_at": "2026-05-11T03:45:49.684736+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/nicolo-barella-inter.json",
+      "slug": "nicolo-barella-inter",
+      "captured_at": "2026-05-11T04:03:02.943645+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/nicolo-barella.json",
+      "slug": "nicolo-barella",
+      "captured_at": "2026-05-11T03:52:11.896486+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/noa-lang.json",
       "slug": "noa-lang",
-      "captured_at": "2026-05-03T03:44:15.564864+00:00"
+      "captured_at": "2026-05-11T03:44:05.064447+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/noah-ohio.json",
       "slug": "noah-ohio",
-      "captured_at": "2026-05-03T03:45:25.124384+00:00"
+      "captured_at": "2026-05-11T03:45:15.430983+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/noni-madueke.json",
+      "slug": "noni-madueke",
+      "captured_at": "2026-05-11T03:48:42.333825+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/nuno-mendes.json",
       "slug": "nuno-mendes",
-      "captured_at": "2026-05-03T03:42:24.037222+00:00"
+      "captured_at": "2026-05-11T03:42:13.611685+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ollie-watkins.json",
+      "slug": "ollie-watkins",
+      "captured_at": "2026-05-11T03:48:28.419533+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/omar-marmoush.json",
+      "slug": "omar-marmoush",
+      "captured_at": "2026-05-11T03:51:37.291649+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/orel-mangala.json",
       "slug": "orel-mangala",
-      "captured_at": "2026-05-03T03:45:39.469122+00:00"
+      "captured_at": "2026-05-11T03:45:29.250463+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/oscar-zambrano.json",
       "slug": "oscar-zambrano",
-      "captured_at": "2026-05-03T03:31:10.776628+00:00"
+      "captured_at": "2026-05-11T03:31:10.813160+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ousmane-dembele.json",
+      "slug": "ousmane-dembele",
+      "captured_at": "2026-05-11T03:52:53.507671+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/pape-matar-sarr.json",
+      "slug": "pape-matar-sarr",
+      "captured_at": "2026-05-11T03:58:05.038635+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/patson-daka.json",
       "slug": "patson-daka",
-      "captured_at": "2026-05-03T03:46:28.596741+00:00"
+      "captured_at": "2026-05-11T03:46:17.315714+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/paul-onuachu.json",
+      "slug": "paul-onuachu",
+      "captured_at": "2026-05-11T03:59:28.485193+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/paulo-dybala.json",
       "slug": "paulo-dybala",
-      "captured_at": "2026-05-03T03:38:28.763329+00:00"
+      "captured_at": "2026-05-11T03:38:22.940019+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/pedri.json",
+      "slug": "pedri",
+      "captured_at": "2026-05-11T03:49:24.138567+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/pedro-flamengo.json",
       "slug": "pedro-flamengo",
-      "captured_at": "2026-05-03T03:36:04.584808+00:00"
+      "captured_at": "2026-05-11T03:36:02.718093+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/pedro-neto-wolves.json",
+      "slug": "pedro-neto-wolves",
+      "captured_at": "2026-05-11T03:55:12.913512+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/pedro-neto.json",
       "slug": "pedro-neto",
-      "captured_at": "2026-05-03T03:41:55.069222+00:00"
+      "captured_at": "2026-05-11T03:41:45.710532+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/pedro-porro.json",
+      "slug": "pedro-porro",
+      "captured_at": "2026-05-11T03:57:30.837634+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/pedro-velasco.json",
       "slug": "pedro-velasco",
-      "captured_at": "2026-05-03T03:31:03.867725+00:00"
+      "captured_at": "2026-05-11T03:31:03.996261+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/pervis-estupinan.json",
       "slug": "pervis-estupinan",
-      "captured_at": "2026-05-03T03:33:03.353711+00:00"
+      "captured_at": "2026-05-11T03:33:02.310776+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/phil-foden.json",
+      "slug": "phil-foden",
+      "captured_at": "2026-05-11T03:48:00.790800+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/piero-hincapie.json",
       "slug": "piero-hincapie",
-      "captured_at": "2026-05-03T03:30:35.612393+00:00"
+      "captured_at": "2026-05-11T03:30:35.621927+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/quinten-timber.json",
       "slug": "quinten-timber",
-      "captured_at": "2026-05-03T03:43:33.689705+00:00"
+      "captured_at": "2026-05-11T03:43:23.781495+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/rafael-leao.json",
       "slug": "rafael-leao",
-      "captured_at": "2026-05-03T03:41:41.202704+00:00"
+      "captured_at": "2026-05-11T03:41:32.139428+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/rafael-santos-borre.json",
       "slug": "rafael-santos-borre",
-      "captured_at": "2026-05-03T03:40:22.437391+00:00"
+      "captured_at": "2026-05-11T03:40:16.183264+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/raphinha.json",
+      "slug": "raphinha",
+      "captured_at": "2026-05-11T04:01:04.972888+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/rasmus-hojlund.json",
+      "slug": "rasmus-hojlund",
+      "captured_at": "2026-05-11T04:03:52.322670+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/rasmus-kristensen.json",
       "slug": "rasmus-kristensen",
-      "captured_at": "2026-05-03T03:46:42.492499+00:00"
+      "captured_at": "2026-05-11T03:46:31.393321+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/rayan-cherki.json",
+      "slug": "rayan-cherki",
+      "captured_at": "2026-05-11T03:54:37.551197+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/reinier.json",
       "slug": "reinier",
-      "captured_at": "2026-05-03T03:36:47.636736+00:00"
+      "captured_at": "2026-05-11T03:36:44.449337+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/renato-ibarra.json",
       "slug": "renato-ibarra",
-      "captured_at": "2026-05-03T03:30:57.008684+00:00"
+      "captured_at": "2026-05-11T03:30:57.090107+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/renato-tapia.json",
       "slug": "renato-tapia",
-      "captured_at": "2026-05-03T03:47:37.840200+00:00"
+      "captured_at": "2026-05-11T03:47:26.256974+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/renato-veiga.json",
       "slug": "renato-veiga",
-      "captured_at": "2026-05-03T03:42:02.250404+00:00"
+      "captured_at": "2026-05-11T03:41:52.830400+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/richard-rios.json",
       "slug": "richard-rios",
-      "captured_at": "2026-05-03T03:39:53.540754+00:00"
+      "captured_at": "2026-05-11T03:39:47.853142+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/richarlison-spurs.json",
+      "slug": "richarlison-spurs",
+      "captured_at": "2026-05-11T03:57:51.428548+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/richarlison.json",
       "slug": "richarlison",
-      "captured_at": "2026-05-03T03:36:54.271418+00:00"
+      "captured_at": "2026-05-11T03:36:51.410293+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/riqui-puig.json",
       "slug": "riqui-puig",
-      "captured_at": "2026-05-03T03:47:30.702835+00:00"
+      "captured_at": "2026-05-11T03:47:19.412198+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/robert-lewandowski.json",
+      "slug": "robert-lewandowski",
+      "captured_at": "2026-05-11T04:00:58.330124+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/roberto-firmino.json",
       "slug": "roberto-firmino",
-      "captured_at": "2026-05-03T03:37:09.143001+00:00"
+      "captured_at": "2026-05-11T03:37:06.216515+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/rodri-man-city.json",
+      "slug": "rodri-man-city",
+      "captured_at": "2026-05-11T03:56:01.300258+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/rodrigo-bentancur.json",
+      "slug": "rodrigo-bentancur",
+      "captured_at": "2026-05-11T03:53:49.219304+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/rodrigo-conceicao.json",
       "slug": "rodrigo-conceicao",
-      "captured_at": "2026-05-03T03:42:44.177782+00:00"
+      "captured_at": "2026-05-11T03:42:34.268893+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/rodrigo-de-paul.json",
       "slug": "rodrigo-de-paul",
-      "captured_at": "2026-05-03T03:39:24.007421+00:00"
+      "captured_at": "2026-05-11T03:39:18.397781+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/rodrygo-real.json",
+      "slug": "rodrygo-real",
+      "captured_at": "2026-05-11T04:00:10.459543+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/rodrygo.json",
       "slug": "rodrygo",
-      "captured_at": "2026-05-03T03:34:33.441495+00:00"
+      "captured_at": "2026-05-11T03:34:32.501639+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/roger-martinez.json",
       "slug": "roger-martinez",
-      "captured_at": "2026-05-03T03:40:43.420939+00:00"
+      "captured_at": "2026-05-11T03:40:36.649390+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ronald-araujo.json",
+      "slug": "ronald-araujo",
+      "captured_at": "2026-05-11T04:01:18.441979+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ross-stewart.json",
+      "slug": "ross-stewart",
+      "captured_at": "2026-05-11T03:59:08.006521+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ruben-dias.json",
+      "slug": "ruben-dias",
+      "captured_at": "2026-05-11T03:56:15.325006+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ryan-fraser.json",
+      "slug": "ryan-fraser",
+      "captured_at": "2026-05-11T03:59:14.837794+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/ryan-gravenberch.json",
       "slug": "ryan-gravenberch",
-      "captured_at": "2026-05-03T03:42:58.792352+00:00"
+      "captured_at": "2026-05-11T03:42:48.476678+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/savinho.json",
       "slug": "savinho",
-      "captured_at": "2026-05-03T03:34:53.951411+00:00"
+      "captured_at": "2026-05-11T03:34:53.420181+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/sebastian-rodriguez.json",
       "slug": "sebastian-rodriguez",
-      "captured_at": "2026-05-03T03:31:31.335013+00:00"
+      "captured_at": "2026-05-11T03:31:31.688246+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/sekou-koita.json",
       "slug": "sekou-koita",
-      "captured_at": "2026-05-03T03:46:35.629144+00:00"
+      "captured_at": "2026-05-11T03:46:24.566415+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/sekou-mara.json",
+      "slug": "sekou-mara",
+      "captured_at": "2026-05-11T03:59:56.148914+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/serge-gnabry.json",
+      "slug": "serge-gnabry",
+      "captured_at": "2026-05-11T03:50:54.681633+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/serhou-guirassy.json",
+      "slug": "serhou-guirassy",
+      "captured_at": "2026-05-11T03:51:23.395551+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/shola-shoretire.json",
+      "slug": "shola-shoretire",
+      "captured_at": "2026-05-11T04:05:14.047799+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/son-heung-min.json",
+      "slug": "son-heung-min",
+      "captured_at": "2026-05-11T03:57:03.637643+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/taylor-harwood-bellis.json",
+      "slug": "taylor-harwood-bellis",
+      "captured_at": "2026-05-11T03:58:39.881713+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/ter-stegen.json",
+      "slug": "ter-stegen",
+      "captured_at": "2026-05-11T04:01:32.184462+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/teun-koopmeiners-atalanta.json",
+      "slug": "teun-koopmeiners-atalanta",
+      "captured_at": "2026-05-11T03:52:32.452652+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/teun-koopmeiners.json",
       "slug": "teun-koopmeiners",
-      "captured_at": "2026-05-03T03:44:29.445486+00:00"
+      "captured_at": "2026-05-11T03:44:19.174361+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/thiago-almada.json",
       "slug": "thiago-almada",
-      "captured_at": "2026-05-03T03:38:14.352201+00:00"
+      "captured_at": "2026-05-11T03:38:09.355426+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/thibaut-courtois.json",
+      "slug": "thibaut-courtois",
+      "captured_at": "2026-05-11T04:00:51.701194+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/tijjani-reijnders.json",
       "slug": "tijjani-reijnders",
-      "captured_at": "2026-05-03T03:43:54.354380+00:00"
+      "captured_at": "2026-05-11T03:43:44.075517+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/tomas-molina.json",
       "slug": "tomas-molina",
-      "captured_at": "2026-05-03T03:31:52.344084+00:00"
+      "captured_at": "2026-05-11T03:31:52.702098+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/trent-alexander-arnold.json",
+      "slug": "trent-alexander-arnold",
+      "captured_at": "2026-05-11T03:48:07.703337+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/tyrell-malacia.json",
+      "slug": "tyrell-malacia",
+      "captured_at": "2026-05-11T04:04:59.558429+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/valentin-carboni.json",
       "slug": "valentin-carboni",
-      "captured_at": "2026-05-03T03:37:22.888957+00:00"
+      "captured_at": "2026-05-11T03:37:20.484348+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/vanderson.json",
       "slug": "vanderson",
-      "captured_at": "2026-05-03T03:36:18.688348+00:00"
+      "captured_at": "2026-05-11T03:36:16.137220+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/victor-boniface.json",
+      "slug": "victor-boniface",
+      "captured_at": "2026-05-11T04:02:27.977688+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/victor-lindelof.json",
+      "slug": "victor-lindelof",
+      "captured_at": "2026-05-11T04:04:53.016127+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/victor-osimhen.json",
+      "slug": "victor-osimhen",
+      "captured_at": "2026-05-11T03:51:51.356563+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/vinicius-jr-real.json",
+      "slug": "vinicius-jr-real",
+      "captured_at": "2026-05-11T04:00:03.317849+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/vinicius-junior.json",
       "slug": "vinicius-junior",
-      "captured_at": "2026-05-03T03:34:26.599966+00:00"
+      "captured_at": "2026-05-11T03:34:25.545406+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/virgil-van-dijk.json",
+      "slug": "virgil-van-dijk",
+      "captured_at": "2026-05-11T03:48:14.752730+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/vitinha.json",
       "slug": "vitinha",
-      "captured_at": "2026-05-03T03:42:09.595425+00:00"
+      "captured_at": "2026-05-11T03:41:59.581887+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/warren-zaire-emery.json",
+      "slug": "warren-zaire-emery",
+      "captured_at": "2026-05-11T03:53:14.324861+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/washington-corozo.json",
       "slug": "washington-corozo",
-      "captured_at": "2026-05-03T03:33:45.155897+00:00"
+      "captured_at": "2026-05-11T03:33:43.587860+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/will-smallbone.json",
+      "slug": "will-smallbone",
+      "captured_at": "2026-05-11T03:59:42.149810+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/william-saliba.json",
+      "slug": "william-saliba",
+      "captured_at": "2026-05-11T03:55:33.565344+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/willian-pacho.json",
       "slug": "willian-pacho",
-      "captured_at": "2026-05-03T03:30:14.370648+00:00"
+      "captured_at": "2026-05-11T03:30:14.707350+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/xavi-simons-leipzig.json",
+      "slug": "xavi-simons-leipzig",
+      "captured_at": "2026-05-11T04:02:34.503641+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/xavi-simons.json",
       "slug": "xavi-simons",
-      "captured_at": "2026-05-03T03:42:51.752522+00:00"
+      "captured_at": "2026-05-11T03:42:41.413113+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/xherdan-shaqiri.json",
       "slug": "xherdan-shaqiri",
-      "captured_at": "2026-05-03T03:47:10.191360+00:00"
+      "captured_at": "2026-05-11T03:46:58.704576+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/yan-couto-citygruop.json",
+      "slug": "yan-couto-citygruop",
+      "captured_at": "2026-05-11T03:54:58.467195+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/yan-couto.json",
       "slug": "yan-couto",
-      "captured_at": "2026-05-03T03:35:15.262589+00:00"
+      "captured_at": "2026-05-11T03:35:13.903461+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/yann-sommer.json",
+      "slug": "yann-sommer",
+      "captured_at": "2026-05-11T04:03:24.036173+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/yerry-mina.json",
       "slug": "yerry-mina",
-      "captured_at": "2026-05-03T03:40:29.681389+00:00"
+      "captured_at": "2026-05-11T03:40:22.757627+00:00"
     },
     {
       "source": "transfermarkt",
       "artifact_type": "parsed_json",
       "artifact_path": "data/parsed/transfermarkt/youri-tielemans.json",
       "slug": "youri-tielemans",
-      "captured_at": "2026-05-03T03:45:32.042755+00:00"
+      "captured_at": "2026-05-11T03:45:22.319274+00:00"
+    },
+    {
+      "source": "transfermarkt",
+      "artifact_type": "parsed_json",
+      "artifact_path": "data/parsed/transfermarkt/yves-bissouma.json",
+      "slug": "yves-bissouma",
+      "captured_at": "2026-05-11T03:57:58.231982+00:00"
     },
     {
       "source": "fbref",

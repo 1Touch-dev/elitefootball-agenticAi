@@ -1,0 +1,295 @@
+{
+  "profile": {
+    "tm_id": "258923",
+    "player_name": "Marcus Rashford",
+    "date_of_birth": "31/10/1997",
+    "age": 28,
+    "nationality": "EnglandSt. Kitts & Nevis",
+    "height": "1,85 m",
+    "position": "Attack - Left Winger",
+    "foot": "right",
+    "current_club": "FC Barcelona",
+    "on_loan_from": "Manchester United",
+    "contract_expires": "30/06/2026",
+    "market_value": "€40.00m",
+    "market_value_eur": 40000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/marcus-rashford/profil/spieler/258923"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "23/03/2016",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Manchester United",
+      "age": "18"
+    },
+    {
+      "date": "01/06/2016",
+      "value_eur": 6000000,
+      "value_str": "€6.00m",
+      "club": "Manchester United",
+      "age": "18"
+    },
+    {
+      "date": "01/08/2016",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Manchester United",
+      "age": "18"
+    },
+    {
+      "date": "24/10/2016",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Manchester United",
+      "age": "18"
+    },
+    {
+      "date": "20/02/2017",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Manchester United",
+      "age": "19"
+    },
+    {
+      "date": "28/06/2017",
+      "value_eur": 18000000,
+      "value_str": "€18.00m",
+      "club": "Manchester United",
+      "age": "19"
+    },
+    {
+      "date": "23/10/2017",
+      "value_eur": 30000000,
+      "value_str": "€30.00m",
+      "club": "Manchester United",
+      "age": "19"
+    },
+    {
+      "date": "02/01/2018",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Manchester United",
+      "age": "20"
+    },
+    {
+      "date": "28/05/2018",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Manchester United",
+      "age": "20"
+    },
+    {
+      "date": "19/12/2018",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Manchester United",
+      "age": "21"
+    },
+    {
+      "date": "05/03/2019",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "21"
+    },
+    {
+      "date": "13/06/2019",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "21"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "22"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 64000000,
+      "value_str": "€64.00m",
+      "club": "Manchester United",
+      "age": "22"
+    },
+    {
+      "date": "30/07/2020",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "22"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "22"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Manchester United",
+      "age": "23"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Manchester United",
+      "age": "23"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 85000000,
+      "value_str": "€85.00m",
+      "club": "Manchester United",
+      "age": "24"
+    },
+    {
+      "date": "29/03/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester United",
+      "age": "24"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester United",
+      "age": "24"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Manchester United",
+      "age": "25"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "25"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 80000000,
+      "value_str": "€80.00m",
+      "club": "Manchester United",
+      "age": "25"
+    },
+    {
+      "date": "09/10/2023",
+      "value_eur": 75000000,
+      "value_str": "€75.00m",
+      "club": "Manchester United",
+      "age": "25"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Manchester United",
+      "age": "26"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 55000000,
+      "value_str": "€55.00m",
+      "club": "Manchester United",
+      "age": "27"
+    },
+    {
+      "date": "18/03/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Aston Villa",
+      "age": "27"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 50000000,
+      "value_str": "€50.00m",
+      "club": "Aston Villa",
+      "age": "27"
+    },
+    {
+      "date": "02/10/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "27"
+    },
+    {
+      "date": "12/12/2025",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "FC Barcelona",
+      "age": "28"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "LaLiga",
+      "season": "25/26",
+      "games_played": 30,
+      "goals": 8,
+      "assists": 9,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 1582
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 11,
+      "goals": 5,
+      "assists": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 579
+    },
+    {
+      "competition": "Copa del Rey",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 1,
+      "assists": 1,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 249
+    },
+    {
+      "competition": "Supercopa",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 32
+    }
+  ]
+}

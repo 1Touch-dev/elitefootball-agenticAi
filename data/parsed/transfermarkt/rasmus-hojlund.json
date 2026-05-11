@@ -1,0 +1,141 @@
+{
+  "profile": {
+    "tm_id": "610440",
+    "player_name": "Valdemar Lund",
+    "date_of_birth": "28/05/2003",
+    "age": 22,
+    "nationality": "Denmark",
+    "height": "1,93 m",
+    "position": "Defender - Centre-Back",
+    "foot": "left",
+    "current_club": "Vejle Boldklub",
+    "on_loan_from": "Molde FK",
+    "contract_expires": "30/06/2026",
+    "market_value": "€1.00m",
+    "market_value_eur": 1000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/rasmus-hojlund/profil/spieler/610440"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "04/06/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "FC Copenhagen U19",
+      "age": "18"
+    },
+    {
+      "date": "28/12/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "FC Copenhagen",
+      "age": "18"
+    },
+    {
+      "date": "20/06/2022",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "FC Copenhagen",
+      "age": "19"
+    },
+    {
+      "date": "13/09/2022",
+      "value_eur": 350000,
+      "value_str": "€350k",
+      "club": "FC Copenhagen",
+      "age": "19"
+    },
+    {
+      "date": "22/12/2022",
+      "value_eur": 600000,
+      "value_str": "€600k",
+      "club": "FC Copenhagen",
+      "age": "19"
+    },
+    {
+      "date": "26/06/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Copenhagen",
+      "age": "20"
+    },
+    {
+      "date": "21/12/2023",
+      "value_eur": 1500000,
+      "value_str": "€1.50m",
+      "club": "FC Copenhagen",
+      "age": "20"
+    },
+    {
+      "date": "12/06/2024",
+      "value_eur": 1400000,
+      "value_str": "€1.40m",
+      "club": "Molde FK",
+      "age": "21"
+    },
+    {
+      "date": "12/12/2024",
+      "value_eur": 1400000,
+      "value_str": "€1.40m",
+      "club": "Molde FK",
+      "age": "21"
+    },
+    {
+      "date": "18/06/2025",
+      "value_eur": 1200000,
+      "value_str": "€1.20m",
+      "club": "Molde FK",
+      "age": "22"
+    },
+    {
+      "date": "15/12/2025",
+      "value_eur": 1000000,
+      "value_str": "€1.00m",
+      "club": "Vejle Boldklub",
+      "age": "22"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Superliga Relegation round",
+      "season": "25/26",
+      "games_played": 8,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 640
+    },
+    {
+      "competition": "Superliga",
+      "season": "25/26",
+      "games_played": 9,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 703
+    },
+    {
+      "competition": "Oddset Pokalen",
+      "season": "25/26",
+      "games_played": 3,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 211
+    },
+    {
+      "competition": "Future Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 180
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "tm_id": "341052",
+    "player_name": "Mattia Picone Chiodo",
+    "date_of_birth": "28/06/1998",
+    "age": 27,
+    "nationality": "Italy",
+    "height": "1,88 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Borgaro Nobis 1965",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2026",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/kyle-walker-peters/profil/spieler/341052"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "25/11/2015",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Pro Vercelli Primavera",
+      "age": "17"
+    },
+    {
+      "date": "07/06/2016",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Pro Vercelli Primavera",
+      "age": "17"
+    },
+    {
+      "date": "19/05/2017",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Pro Vercelli Primavera",
+      "age": "18"
+    },
+    {
+      "date": "01/02/2018",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Borgaro Nobis 1965",
+      "age": "19"
+    },
+    {
+      "date": "22/06/2018",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Borgaro Nobis 1965",
+      "age": "19"
+    },
+    {
+      "date": "05/02/2019",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Borgosesia Calcio",
+      "age": "20"
+    },
+    {
+      "date": "21/06/2019",
+      "value_eur": 50000,
+      "value_str": "€50k",
+      "club": "Borgosesia Calcio",
+      "age": "20"
+    },
+    {
+      "date": "14/04/2020",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Accademia Borgomanero",
+      "age": "21"
+    }
+  ],
+  "performance_stats": []
+}

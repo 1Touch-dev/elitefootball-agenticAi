@@ -205,22 +205,22 @@
     {
       "competition": "LaLiga",
       "season": "25/26",
-      "games_played": 25,
+      "games_played": 26,
       "goals": 2,
       "assists": 2,
       "yellow_cards": 4,
       "red_cards": 0,
-      "minutes_played": 1291
+      "minutes_played": 1321
     },
     {
       "competition": "UEFA Champions League",
       "season": "25/26",
-      "games_played": 12,
+      "games_played": 13,
       "goals": 0,
       "assists": 0,
       "yellow_cards": 1,
       "red_cards": 0,
-      "minutes_played": 664
+      "minutes_played": 697
     },
     {
       "competition": "Copa del Rey",

@@ -1,40 +1,96 @@
 [
   {
-    "player_name": "John Doe",
-    "minutes_played": 180,
-    "xg": 0.8,
-    "xa": 0.5,
-    "xg_per_90": 0.4,
-    "xa_per_90": 0.25,
-    "goals_minus_xg": 0.2,
-    "assists_minus_xa": 0.5,
-    "progressive_carries": 13.0,
-    "progressive_passes": 17.0,
-    "progressive_receptions": 9.0,
-    "progressive_actions": 39.0,
-    "progressive_actions_per_90": 19.5,
-    "final_third_entries": 12.0,
-    "final_third_entries_per_90": 6.0,
-    "penalty_area_entries": 3.0,
-    "penalty_area_entries_per_90": 1.5,
-    "progression_score": 11.85
+    "player_name": "Vinicius Junior",
+    "xg_total": null,
+    "xa_total": 23.8,
+    "xg_per_90": null,
+    "xa_per_90": 0.262,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.389,
+    "obv_proxy_total": 155.4,
+    "progression_score": 7.72,
+    "inputs": {
+      "goals": 42.0,
+      "assists": 28.0,
+      "shots": 0.0,
+      "minutes": 8164.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Harry Kane",
+    "xg_total": null,
+    "xa_total": 5.95,
+    "xg_per_90": null,
+    "xa_per_90": 0.138,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 2.802,
+    "obv_proxy_total": 150.1,
+    "progression_score": 10.0,
+    "inputs": {
+      "goals": 55.0,
+      "assists": 7.0,
+      "shots": 0.0,
+      "minutes": 3870.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Lautaro Martínez",
+    "xg_total": null,
+    "xa_total": 10.2,
+    "xg_per_90": null,
+    "xa_per_90": 0.179,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.792,
+    "obv_proxy_total": 126.6,
+    "progression_score": 9.49,
+    "inputs": {
+      "goals": 42.0,
+      "assists": 12.0,
+      "shots": 0.0,
+      "minutes": 5122.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Kylian Mbappé",
+    "xg_total": null,
+    "xa_total": 5.1,
+    "xg_per_90": null,
+    "xa_per_90": 0.134,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 2.395,
+    "obv_proxy_total": 113.3,
+    "progression_score": 10.0,
+    "inputs": {
+      "goals": 41.0,
+      "assists": 6.0,
+      "shots": 0.0,
+      "minutes": 3420.0
+    },
+    "model_version": "advanced_metrics_v2"
   },
   {
     "player_name": "Luis Díaz",
     "xg_total": null,
     "xa_total": 17.85,
     "xg_per_90": null,
-    "xa_per_90": 0.427,
+    "xa_per_90": 0.414,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.999,
+    "epv_proxy_per_90": 1.937,
     "obv_proxy_total": 102.8,
     "progression_score": 10.0,
     "inputs": {
       "goals": 26.0,
       "assists": 21.0,
       "shots": 0.0,
-      "minutes": 3760.0
+      "minutes": 3880.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -43,36 +99,74 @@
     "xg_total": null,
     "xa_total": 15.3,
     "xg_per_90": null,
-    "xa_per_90": 0.413,
+    "xa_per_90": 0.392,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.918,
-    "obv_proxy_total": 87.4,
+    "epv_proxy_per_90": 2.025,
+    "obv_proxy_total": 97.4,
     "progression_score": 10.0,
     "inputs": {
-      "goals": 22.0,
+      "goals": 26.0,
       "assists": 18.0,
       "shots": 0.0,
-      "minutes": 3331.0
+      "minutes": 3511.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Vinicius Junior",
+    "player_name": "Mohamed Salah",
     "xg_total": null,
-    "xa_total": 11.9,
+    "xa_total": 15.3,
     "xg_per_90": null,
-    "xa_per_90": 0.274,
+    "xa_per_90": 0.225,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.359,
-    "obv_proxy_total": 72.7,
-    "progression_score": 7.6,
+    "epv_proxy_per_90": 1.103,
+    "obv_proxy_total": 92.4,
+    "progression_score": 6.18,
     "inputs": {
-      "goals": 19.0,
-      "assists": 14.0,
+      "goals": 24.0,
+      "assists": 18.0,
       "shots": 0.0,
-      "minutes": 3908.0
+      "minutes": 6120.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Jérémy Doku",
+    "xg_total": null,
+    "xa_total": 23.8,
+    "xg_per_90": null,
+    "xa_per_90": 0.389,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.21,
+    "obv_proxy_total": 90.4,
+    "progression_score": 7.2,
+    "inputs": {
+      "goals": 16.0,
+      "assists": 28.0,
+      "shots": 0.0,
+      "minutes": 5502.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Richarlison",
+    "xg_total": null,
+    "xa_total": 8.5,
+    "xg_per_90": null,
+    "xa_per_90": 0.16,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.107,
+    "obv_proxy_total": 73.0,
+    "progression_score": 6.01,
+    "inputs": {
+      "goals": 22.0,
+      "assists": 10.0,
+      "shots": 0.0,
+      "minutes": 4796.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -81,17 +175,17 @@
     "xg_total": null,
     "xa_total": 7.65,
     "xg_per_90": null,
-    "xa_per_90": 0.245,
+    "xa_per_90": 0.231,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.716,
-    "obv_proxy_total": 66.2,
-    "progression_score": 9.3,
+    "epv_proxy_per_90": 1.673,
+    "obv_proxy_total": 68.7,
+    "progression_score": 9.04,
     "inputs": {
-      "goals": 20.0,
+      "goals": 21.0,
       "assists": 9.0,
       "shots": 0.0,
-      "minutes": 2806.0
+      "minutes": 2986.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -100,17 +194,36 @@
     "xg_total": null,
     "xa_total": 7.65,
     "xg_per_90": null,
-    "xa_per_90": 0.198,
+    "xa_per_90": 0.194,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.382,
+    "epv_proxy_per_90": 1.357,
     "obv_proxy_total": 66.2,
-    "progression_score": 7.49,
+    "progression_score": 7.35,
     "inputs": {
       "goals": 20.0,
       "assists": 9.0,
       "shots": 0.0,
-      "minutes": 3483.0
+      "minutes": 3549.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Paul Onuachu",
+    "xg_total": null,
+    "xa_total": 1.7,
+    "xg_per_90": null,
+    "xa_per_90": 0.058,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.747,
+    "obv_proxy_total": 63.6,
+    "progression_score": 8.9,
+    "inputs": {
+      "goals": 24.0,
+      "assists": 2.0,
+      "shots": 0.0,
+      "minutes": 2628.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -119,55 +232,55 @@
     "xg_total": null,
     "xa_total": 11.05,
     "xg_per_90": null,
-    "xa_per_90": 0.301,
+    "xa_per_90": 0.299,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.405,
+    "epv_proxy_per_90": 1.395,
     "obv_proxy_total": 63.4,
-    "progression_score": 7.91,
+    "progression_score": 7.86,
     "inputs": {
       "goals": 16.0,
       "assists": 13.0,
       "shots": 0.0,
-      "minutes": 3299.0
+      "minutes": 3322.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Lautaro Martínez",
+    "player_name": "Khvicha Kvaratskhelia",
     "xg_total": null,
-    "xa_total": 3.4,
+    "xa_total": 8.5,
     "xg_per_90": null,
-    "xa_per_90": 0.124,
+    "xa_per_90": 0.284,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.673,
-    "obv_proxy_total": 57.2,
-    "progression_score": 8.73,
+    "epv_proxy_per_90": 1.703,
+    "obv_proxy_total": 63.0,
+    "progression_score": 9.35,
     "inputs": {
-      "goals": 20.0,
-      "assists": 4.0,
+      "goals": 18.0,
+      "assists": 10.0,
       "shots": 0.0,
-      "minutes": 2475.0
+      "minutes": 2695.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Christoph Baumgartner",
+    "player_name": "Raphinha",
     "xg_total": null,
     "xa_total": 6.8,
     "xg_per_90": null,
-    "xa_per_90": 0.216,
+    "xa_per_90": 0.287,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.458,
-    "obv_proxy_total": 56.9,
-    "progression_score": 7.93,
+    "epv_proxy_per_90": 2.112,
+    "obv_proxy_total": 61.9,
+    "progression_score": 10.0,
     "inputs": {
-      "goals": 17.0,
+      "goals": 19.0,
       "assists": 8.0,
       "shots": 0.0,
-      "minutes": 2839.0
+      "minutes": 2131.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -176,17 +289,74 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.061,
+    "xa_per_90": 0.059,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.619,
-    "obv_proxy_total": 56.1,
-    "progression_score": 8.28,
+    "epv_proxy_per_90": 1.703,
+    "obv_proxy_total": 61.1,
+    "progression_score": 8.69,
     "inputs": {
-      "goals": 21.0,
+      "goals": 23.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 2501.0
+      "minutes": 2590.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Marcus Rashford",
+    "xg_total": null,
+    "xa_total": 11.9,
+    "xg_per_90": null,
+    "xa_per_90": 0.439,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.806,
+    "obv_proxy_total": 60.2,
+    "progression_score": 10.0,
+    "inputs": {
+      "goals": 14.0,
+      "assists": 14.0,
+      "shots": 0.0,
+      "minutes": 2442.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Bruno Fernandes",
+    "xg_total": null,
+    "xa_total": 17.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.531,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.414,
+    "obv_proxy_total": 57.8,
+    "progression_score": 8.63,
+    "inputs": {
+      "goals": 8.0,
+      "assists": 21.0,
+      "shots": 0.0,
+      "minutes": 3023.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Xavi Simons",
+    "xg_total": null,
+    "xa_total": 11.9,
+    "xg_per_90": null,
+    "xa_per_90": 0.195,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.737,
+    "obv_proxy_total": 55.2,
+    "progression_score": 4.26,
+    "inputs": {
+      "goals": 12.0,
+      "assists": 14.0,
+      "shots": 0.0,
+      "minutes": 5498.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -210,59 +380,211 @@
     "model_version": "advanced_metrics_v2"
   },
   {
+    "player_name": "Antony",
+    "xg_total": null,
+    "xa_total": 8.5,
+    "xg_per_90": null,
+    "xa_per_90": 0.237,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.197,
+    "obv_proxy_total": 53.0,
+    "progression_score": 6.68,
+    "inputs": {
+      "goals": 14.0,
+      "assists": 10.0,
+      "shots": 0.0,
+      "minutes": 3233.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Robert Lewandowski",
+    "xg_total": null,
+    "xa_total": 3.4,
+    "xg_per_90": null,
+    "xa_per_90": 0.138,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.702,
+    "obv_proxy_total": 52.2,
+    "progression_score": 8.91,
+    "inputs": {
+      "goals": 18.0,
+      "assists": 4.0,
+      "shots": 0.0,
+      "minutes": 2221.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "xg_total": null,
+    "xa_total": 20.4,
+    "xg_per_90": null,
+    "xa_per_90": 0.241,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.496,
+    "obv_proxy_total": 50.7,
+    "progression_score": 3.19,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 24.0,
+      "shots": 0.0,
+      "minutes": 7623.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Dominik Szoboszlai",
+    "xg_total": null,
+    "xa_total": 8.5,
+    "xg_per_90": null,
+    "xa_per_90": 0.168,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.81,
+    "obv_proxy_total": 50.5,
+    "progression_score": 4.54,
+    "inputs": {
+      "goals": 13.0,
+      "assists": 10.0,
+      "shots": 0.0,
+      "minutes": 4556.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Federico Dimarco",
+    "xg_total": null,
+    "xa_total": 15.3,
+    "xg_per_90": null,
+    "xa_per_90": 0.395,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.058,
+    "obv_proxy_total": 49.9,
+    "progression_score": 6.45,
+    "inputs": {
+      "goals": 7.0,
+      "assists": 18.0,
+      "shots": 0.0,
+      "minutes": 3488.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
     "player_name": "Marcos Leonardo",
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.037,
+    "xa_per_90": 0.036,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.734,
+    "epv_proxy_per_90": 1.652,
     "obv_proxy_total": 49.3,
-    "progression_score": 8.78,
+    "progression_score": 8.36,
     "inputs": {
       "goals": 19.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 2050.0
+      "minutes": 2152.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Antony",
+    "player_name": "Nicolò Barella",
     "xg_total": null,
-    "xa_total": 7.65,
+    "xa_total": 15.3,
     "xg_per_90": null,
-    "xa_per_90": 0.221,
+    "xa_per_90": 0.212,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.142,
-    "obv_proxy_total": 48.7,
-    "progression_score": 6.36,
+    "epv_proxy_per_90": 0.539,
+    "obv_proxy_total": 47.4,
+    "progression_score": 3.32,
     "inputs": {
-      "goals": 13.0,
-      "assists": 9.0,
+      "goals": 6.0,
+      "assists": 18.0,
       "shots": 0.0,
-      "minutes": 3112.0
+      "minutes": 6510.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Enzo Fernández",
+    "player_name": "Federico Valverde",
+    "xg_total": null,
+    "xa_total": 11.05,
+    "xg_per_90": null,
+    "xa_per_90": 0.244,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.83,
+    "obv_proxy_total": 45.9,
+    "progression_score": 4.87,
+    "inputs": {
+      "goals": 9.0,
+      "assists": 13.0,
+      "shots": 0.0,
+      "minutes": 4068.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Antoine Griezmann",
     "xg_total": null,
     "xa_total": 5.1,
     "xg_per_90": null,
-    "xa_per_90": 0.117,
+    "xa_per_90": 0.177,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.802,
-    "obv_proxy_total": 43.3,
-    "progression_score": 4.35,
+    "epv_proxy_per_90": 1.282,
+    "obv_proxy_total": 45.8,
+    "progression_score": 6.93,
     "inputs": {
-      "goals": 13.0,
+      "goals": 14.0,
       "assists": 6.0,
       "shots": 0.0,
-      "minutes": 3929.0
+      "minutes": 2597.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Bukayo Saka",
+    "xg_total": null,
+    "xa_total": 6.8,
+    "xg_per_90": null,
+    "xa_per_90": 0.199,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.993,
+    "obv_proxy_total": 41.9,
+    "progression_score": 5.55,
+    "inputs": {
+      "goals": 11.0,
+      "assists": 8.0,
+      "shots": 0.0,
+      "minutes": 3083.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Cucho Hernández",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.078,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.992,
+    "obv_proxy_total": 40.4,
+    "progression_score": 5.19,
+    "inputs": {
+      "goals": 14.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 2950.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -290,55 +612,36 @@
     "xg_total": null,
     "xa_total": 5.1,
     "xg_per_90": null,
-    "xa_per_90": 0.204,
+    "xa_per_90": 0.203,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.241,
+    "epv_proxy_per_90": 1.237,
     "obv_proxy_total": 38.3,
-    "progression_score": 6.8,
+    "progression_score": 6.78,
     "inputs": {
       "goals": 11.0,
       "assists": 6.0,
       "shots": 0.0,
-      "minutes": 2249.0
+      "minutes": 2256.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Jérémy Doku",
+    "player_name": "Dani Olmo",
     "xg_total": null,
-    "xa_total": 11.9,
+    "xa_total": 8.5,
     "xg_per_90": null,
-    "xa_per_90": 0.417,
+    "xa_per_90": 0.286,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.085,
-    "obv_proxy_total": 37.7,
-    "progression_score": 6.65,
+    "epv_proxy_per_90": 1.045,
+    "obv_proxy_total": 38.0,
+    "progression_score": 6.07,
     "inputs": {
-      "goals": 5.0,
-      "assists": 14.0,
+      "goals": 8.0,
+      "assists": 10.0,
       "shots": 0.0,
-      "minutes": 2571.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Bruno Guimarães",
-    "xg_total": null,
-    "xa_total": 6.8,
-    "xg_per_90": null,
-    "xa_per_90": 0.199,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.878,
-    "obv_proxy_total": 36.9,
-    "progression_score": 4.97,
-    "inputs": {
-      "goals": 9.0,
-      "assists": 8.0,
-      "shots": 0.0,
-      "minutes": 3076.0
+      "minutes": 2671.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -347,17 +650,74 @@
     "xg_total": null,
     "xa_total": 8.5,
     "xg_per_90": null,
-    "xa_per_90": 0.297,
+    "xa_per_90": 0.278,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.013,
+    "epv_proxy_per_90": 1.015,
+    "obv_proxy_total": 38.0,
+    "progression_score": 5.89,
+    "inputs": {
+      "goals": 8.0,
+      "assists": 10.0,
+      "shots": 0.0,
+      "minutes": 2750.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Bruno Guimarães",
+    "xg_total": null,
+    "xa_total": 6.8,
+    "xg_per_90": null,
+    "xa_per_90": 0.193,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.853,
+    "obv_proxy_total": 36.9,
+    "progression_score": 4.83,
+    "inputs": {
+      "goals": 9.0,
+      "assists": 8.0,
+      "shots": 0.0,
+      "minutes": 3166.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Rodrygo",
+    "xg_total": null,
+    "xa_total": 10.2,
+    "xg_per_90": null,
+    "xa_per_90": 0.415,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.221,
+    "obv_proxy_total": 36.6,
+    "progression_score": 7.32,
+    "inputs": {
+      "goals": 6.0,
+      "assists": 12.0,
+      "shots": 0.0,
+      "minutes": 2212.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Florian Wirtz",
+    "xg_total": null,
+    "xa_total": 8.5,
+    "xg_per_90": null,
+    "xa_per_90": 0.221,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.754,
     "obv_proxy_total": 35.5,
-    "progression_score": 5.94,
+    "progression_score": 4.42,
     "inputs": {
       "goals": 7.0,
       "assists": 10.0,
       "shots": 0.0,
-      "minutes": 2577.0
+      "minutes": 3463.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -366,55 +726,131 @@
     "xg_total": null,
     "xa_total": 8.5,
     "xg_per_90": null,
-    "xa_per_90": 0.204,
+    "xa_per_90": 0.199,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.696,
+    "epv_proxy_per_90": 0.68,
     "obv_proxy_total": 35.5,
-    "progression_score": 4.08,
+    "progression_score": 3.99,
     "inputs": {
       "goals": 7.0,
       "assists": 10.0,
       "shots": 0.0,
-      "minutes": 3748.0
+      "minutes": 3838.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Cucho Hernández",
+    "player_name": "Endrick",
     "xg_total": null,
-    "xa_total": 2.55,
+    "xa_total": 6.8,
     "xg_per_90": null,
-    "xa_per_90": 0.082,
+    "xa_per_90": 0.368,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.919,
-    "obv_proxy_total": 35.4,
-    "progression_score": 4.84,
+    "epv_proxy_per_90": 1.517,
+    "obv_proxy_total": 34.4,
+    "progression_score": 8.67,
     "inputs": {
-      "goals": 12.0,
-      "assists": 3.0,
+      "goals": 8.0,
+      "assists": 8.0,
       "shots": 0.0,
-      "minutes": 2791.0
+      "minutes": 1661.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Richarlison",
+    "player_name": "Phil Foden",
     "xg_total": null,
     "xa_total": 4.25,
     "xg_per_90": null,
-    "xa_per_90": 0.166,
+    "xa_per_90": 0.135,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.072,
+    "epv_proxy_per_90": 0.871,
     "obv_proxy_total": 34.0,
-    "progression_score": 5.85,
+    "progression_score": 4.75,
     "inputs": {
       "goals": 10.0,
       "assists": 5.0,
       "shots": 0.0,
-      "minutes": 2308.0
+      "minutes": 2842.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Leroy Sané",
+    "xg_total": null,
+    "xa_total": 7.65,
+    "xg_per_90": null,
+    "xa_per_90": 0.21,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.754,
+    "obv_proxy_total": 33.7,
+    "progression_score": 4.39,
+    "inputs": {
+      "goals": 7.0,
+      "assists": 9.0,
+      "shots": 0.0,
+      "minutes": 3281.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Cody Gakpo",
+    "xg_total": null,
+    "xa_total": 5.1,
+    "xg_per_90": null,
+    "xa_per_90": 0.134,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.708,
+    "obv_proxy_total": 33.3,
+    "progression_score": 3.93,
+    "inputs": {
+      "goals": 9.0,
+      "assists": 6.0,
+      "shots": 0.0,
+      "minutes": 3432.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Declan Rice",
+    "xg_total": null,
+    "xa_total": 9.35,
+    "xg_per_90": null,
+    "xa_per_90": 0.198,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.562,
+    "obv_proxy_total": 32.3,
+    "progression_score": 3.39,
+    "inputs": {
+      "goals": 5.0,
+      "assists": 11.0,
+      "shots": 0.0,
+      "minutes": 4246.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Heung-min Son",
+    "xg_total": null,
+    "xa_total": 12.75,
+    "xg_per_90": null,
+    "xa_per_90": 0.861,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.791,
+    "obv_proxy_total": 32.0,
+    "progression_score": 10.0,
+    "inputs": {
+      "goals": 2.0,
+      "assists": 15.0,
+      "shots": 0.0,
+      "minutes": 1332.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -423,17 +859,17 @@
     "xg_total": null,
     "xa_total": 6.8,
     "xg_per_90": null,
-    "xa_per_90": 0.238,
+    "xa_per_90": 0.227,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.911,
+    "epv_proxy_per_90": 0.867,
     "obv_proxy_total": 31.9,
-    "progression_score": 5.25,
+    "progression_score": 5.0,
     "inputs": {
       "goals": 7.0,
       "assists": 8.0,
       "shots": 0.0,
-      "minutes": 2569.0
+      "minutes": 2699.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -442,17 +878,36 @@
     "xg_total": null,
     "xa_total": 6.8,
     "xg_per_90": null,
-    "xa_per_90": 0.229,
+    "xa_per_90": 0.224,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.875,
+    "epv_proxy_per_90": 0.856,
     "obv_proxy_total": 31.9,
-    "progression_score": 5.05,
+    "progression_score": 4.94,
     "inputs": {
       "goals": 7.0,
       "assists": 8.0,
       "shots": 0.0,
-      "minutes": 2673.0
+      "minutes": 2733.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Benjamin Sesko",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.042,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.263,
+    "obv_proxy_total": 31.8,
+    "progression_score": 6.44,
+    "inputs": {
+      "goals": 12.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 1817.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -476,21 +931,21 @@
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Cody Gakpo",
+    "player_name": "Darwin Núñez",
     "xg_total": null,
-    "xa_total": 5.1,
+    "xa_total": 4.25,
     "xg_per_90": null,
-    "xa_per_90": 0.141,
+    "xa_per_90": 0.229,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.689,
-    "obv_proxy_total": 30.8,
-    "progression_score": 3.86,
+    "epv_proxy_per_90": 1.377,
+    "obv_proxy_total": 31.5,
+    "progression_score": 7.56,
     "inputs": {
-      "goals": 8.0,
-      "assists": 6.0,
+      "goals": 9.0,
+      "assists": 5.0,
       "shots": 0.0,
-      "minutes": 3265.0
+      "minutes": 1667.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -499,55 +954,36 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.125,
+    "xa_per_90": 0.118,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.206,
+    "epv_proxy_per_90": 1.133,
     "obv_proxy_total": 30.4,
-    "progression_score": 6.4,
+    "progression_score": 6.01,
     "inputs": {
       "goals": 10.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 1829.0
+      "minutes": 1946.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Endrick",
+    "player_name": "Matheus Cunha",
     "xg_total": null,
-    "xa_total": 5.95,
+    "xa_total": 3.4,
     "xg_per_90": null,
-    "xa_per_90": 0.36,
+    "xa_per_90": 0.118,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.483,
-    "obv_proxy_total": 30.1,
-    "progression_score": 8.47,
+    "epv_proxy_per_90": 0.83,
+    "obv_proxy_total": 29.7,
+    "progression_score": 4.49,
     "inputs": {
-      "goals": 7.0,
-      "assists": 7.0,
+      "goals": 9.0,
+      "assists": 4.0,
       "shots": 0.0,
-      "minutes": 1487.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Benjamin Sesko",
-    "xg_total": null,
-    "xa_total": 0.85,
-    "xg_per_90": null,
-    "xa_per_90": 0.043,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 1.194,
-    "obv_proxy_total": 29.3,
-    "progression_score": 6.09,
-    "inputs": {
-      "goals": 11.0,
-      "assists": 1.0,
-      "shots": 0.0,
-      "minutes": 1772.0
+      "minutes": 2603.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -556,17 +992,17 @@
     "xg_total": null,
     "xa_total": 4.25,
     "xg_per_90": null,
-    "xa_per_90": 0.133,
+    "xa_per_90": 0.129,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.733,
+    "epv_proxy_per_90": 0.715,
     "obv_proxy_total": 29.0,
-    "progression_score": 4.05,
+    "progression_score": 3.96,
     "inputs": {
       "goals": 8.0,
       "assists": 5.0,
       "shots": 0.0,
-      "minutes": 2886.0
+      "minutes": 2956.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -594,55 +1030,17 @@
     "xg_total": null,
     "xa_total": 5.95,
     "xg_per_90": null,
-    "xa_per_90": 0.193,
+    "xa_per_90": 0.187,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.73,
+    "epv_proxy_per_90": 0.708,
     "obv_proxy_total": 27.6,
-    "progression_score": 4.22,
+    "progression_score": 4.09,
     "inputs": {
       "goals": 6.0,
       "assists": 7.0,
       "shots": 0.0,
-      "minutes": 2774.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Xavi Simons",
-    "xg_total": null,
-    "xa_total": 5.95,
-    "xg_per_90": null,
-    "xa_per_90": 0.195,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.737,
-    "obv_proxy_total": 27.6,
-    "progression_score": 4.26,
-    "inputs": {
-      "goals": 6.0,
-      "assists": 7.0,
-      "shots": 0.0,
-      "minutes": 2749.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Alejandro Garnacho",
-    "xg_total": null,
-    "xa_total": 3.4,
-    "xg_per_90": null,
-    "xa_per_90": 0.142,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.922,
-    "obv_proxy_total": 27.2,
-    "progression_score": 5.03,
-    "inputs": {
-      "goals": 8.0,
-      "assists": 4.0,
-      "shots": 0.0,
-      "minutes": 2148.0
+      "minutes": 2859.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -666,59 +1064,40 @@
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Matheus Cunha",
+    "player_name": "Allan Saint-Maximin",
     "xg_total": null,
-    "xa_total": 3.4,
+    "xa_total": 4.25,
     "xg_per_90": null,
-    "xa_per_90": 0.126,
+    "xa_per_90": 0.301,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.816,
-    "obv_proxy_total": 27.2,
-    "progression_score": 4.45,
-    "inputs": {
-      "goals": 8.0,
-      "assists": 4.0,
-      "shots": 0.0,
-      "minutes": 2426.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Charles De Ketelaere",
-    "xg_total": null,
-    "xa_total": 5.95,
-    "xg_per_90": null,
-    "xa_per_90": 0.187,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.644,
-    "obv_proxy_total": 25.1,
-    "progression_score": 3.77,
-    "inputs": {
-      "goals": 5.0,
-      "assists": 7.0,
-      "shots": 0.0,
-      "minutes": 2866.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "João Neves",
-    "xg_total": null,
-    "xa_total": 3.4,
-    "xg_per_90": null,
-    "xa_per_90": 0.129,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.759,
-    "obv_proxy_total": 24.7,
-    "progression_score": 4.17,
+    "epv_proxy_per_90": 1.522,
+    "obv_proxy_total": 26.5,
+    "progression_score": 8.5,
     "inputs": {
       "goals": 7.0,
-      "assists": 4.0,
+      "assists": 5.0,
       "shots": 0.0,
-      "minutes": 2372.0
+      "minutes": 1271.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Casemiro",
+    "xg_total": null,
+    "xa_total": 1.7,
+    "xg_per_90": null,
+    "xa_per_90": 0.061,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.75,
+    "obv_proxy_total": 26.1,
+    "progression_score": 3.93,
+    "inputs": {
+      "goals": 9.0,
+      "assists": 2.0,
+      "shots": 0.0,
+      "minutes": 2519.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -727,17 +1106,74 @@
     "xg_total": null,
     "xa_total": 5.1,
     "xg_per_90": null,
-    "xa_per_90": 0.121,
+    "xa_per_90": 0.115,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.45,
+    "epv_proxy_per_90": 0.475,
+    "obv_proxy_total": 25.8,
+    "progression_score": 2.71,
+    "inputs": {
+      "goals": 6.0,
+      "assists": 6.0,
+      "shots": 0.0,
+      "minutes": 3982.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "João Neves",
+    "xg_total": null,
+    "xa_total": 3.4,
+    "xg_per_90": null,
+    "xa_per_90": 0.123,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.725,
+    "obv_proxy_total": 24.7,
+    "progression_score": 3.99,
+    "inputs": {
+      "goals": 7.0,
+      "assists": 4.0,
+      "shots": 0.0,
+      "minutes": 2483.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Jude Bellingham",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.151,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.693,
+    "obv_proxy_total": 24.0,
+    "progression_score": 3.91,
+    "inputs": {
+      "goals": 6.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 2531.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Jamal Musiala",
+    "xg_total": null,
+    "xa_total": 5.1,
+    "xg_per_90": null,
+    "xa_per_90": 0.446,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.662,
     "obv_proxy_total": 23.3,
-    "progression_score": 2.6,
+    "progression_score": 9.62,
     "inputs": {
       "goals": 5.0,
       "assists": 6.0,
       "shots": 0.0,
-      "minutes": 3802.0
+      "minutes": 1029.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -799,6 +1235,25 @@
     "model_version": "advanced_metrics_v2"
   },
   {
+    "player_name": "Cristian Romero",
+    "xg_total": null,
+    "xa_total": 3.4,
+    "xg_per_90": null,
+    "xa_per_90": 0.115,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.61,
+    "obv_proxy_total": 22.2,
+    "progression_score": 3.39,
+    "inputs": {
+      "goals": 6.0,
+      "assists": 4.0,
+      "shots": 0.0,
+      "minutes": 2657.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
     "player_name": "David Neres",
     "xg_total": null,
     "xa_total": 3.4,
@@ -837,40 +1292,21 @@
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Jordy Caicedo",
+    "player_name": "Christian Eriksen",
     "xg_total": null,
-    "xa_total": 0.0,
+    "xa_total": 6.8,
     "xg_per_90": null,
-    "xa_per_90": 0.0,
+    "xa_per_90": 0.252,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.893,
-    "obv_proxy_total": 20.0,
-    "progression_score": 4.47,
+    "epv_proxy_per_90": 0.668,
+    "obv_proxy_total": 21.9,
+    "progression_score": 4.08,
     "inputs": {
-      "goals": 8.0,
-      "assists": 0.0,
+      "goals": 3.0,
+      "assists": 8.0,
       "shots": 0.0,
-      "minutes": 1612.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Brian Brobbey",
-    "xg_total": null,
-    "xa_total": 0.85,
-    "xg_per_90": null,
-    "xa_per_90": 0.042,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.775,
-    "obv_proxy_total": 19.3,
-    "progression_score": 4.0,
-    "inputs": {
-      "goals": 7.0,
-      "assists": 1.0,
-      "shots": 0.0,
-      "minutes": 1801.0
+      "minutes": 2424.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -879,17 +1315,17 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.073,
+    "xa_per_90": 0.071,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.332,
-    "obv_proxy_total": 19.3,
-    "progression_score": 6.88,
+    "epv_proxy_per_90": 1.462,
+    "obv_proxy_total": 21.8,
+    "progression_score": 7.52,
     "inputs": {
-      "goals": 7.0,
+      "goals": 8.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1047.0
+      "minutes": 1077.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -898,36 +1334,169 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.11,
+    "xa_per_90": 0.106,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.968,
-    "obv_proxy_total": 18.6,
-    "progression_score": 5.16,
+    "epv_proxy_per_90": 1.06,
+    "obv_proxy_total": 21.1,
+    "progression_score": 5.61,
     "inputs": {
-      "goals": 6.0,
+      "goals": 7.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1395.0
+      "minutes": 1444.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Rodrygo",
+    "player_name": "Taylor Harwood-Bellis",
     "xg_total": null,
-    "xa_total": 5.1,
+    "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.415,
+    "xa_per_90": 0.036,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.221,
-    "obv_proxy_total": 18.3,
-    "progression_score": 7.32,
+    "epv_proxy_per_90": 0.364,
+    "obv_proxy_total": 21.1,
+    "progression_score": 1.93,
     "inputs": {
-      "goals": 3.0,
-      "assists": 6.0,
+      "goals": 7.0,
+      "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1106.0
+      "minutes": 4203.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Neymar",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.206,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.331,
+    "obv_proxy_total": 20.4,
+    "progression_score": 7.26,
+    "inputs": {
+      "goals": 6.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 1116.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Virgil van Dijk",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.048,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.312,
+    "obv_proxy_total": 20.4,
+    "progression_score": 1.7,
+    "inputs": {
+      "goals": 6.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 4761.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Jordy Caicedo",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.807,
+    "obv_proxy_total": 20.0,
+    "progression_score": 4.04,
+    "inputs": {
+      "goals": 8.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1784.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Brian Brobbey",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.04,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.738,
+    "obv_proxy_total": 19.3,
+    "progression_score": 3.81,
+    "inputs": {
+      "goals": 7.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 1891.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Alan Minda",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.158,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.896,
+    "obv_proxy_total": 17.9,
+    "progression_score": 4.95,
+    "inputs": {
+      "goals": 5.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 1456.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Enner Valencia",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.205,
+    "obv_proxy_total": 17.5,
+    "progression_score": 6.02,
+    "inputs": {
+      "goals": 7.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1046.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Miguel Borja",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.383,
+    "obv_proxy_total": 17.5,
+    "progression_score": 6.92,
+    "inputs": {
+      "goals": 7.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 911.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -936,17 +1505,36 @@
     "xg_total": null,
     "xa_total": 3.4,
     "xg_per_90": null,
-    "xa_per_90": 0.128,
+    "xa_per_90": 0.12,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.527,
+    "epv_proxy_per_90": 0.493,
     "obv_proxy_total": 17.2,
-    "progression_score": 3.01,
+    "progression_score": 2.82,
     "inputs": {
       "goals": 4.0,
       "assists": 4.0,
       "shots": 0.0,
-      "minutes": 2392.0
+      "minutes": 2555.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Jeremie Frimpong",
+    "xg_total": null,
+    "xa_total": 3.4,
+    "xg_per_90": null,
+    "xa_per_90": 0.086,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.354,
+    "obv_proxy_total": 17.2,
+    "progression_score": 2.02,
+    "inputs": {
+      "goals": 4.0,
+      "assists": 4.0,
+      "shots": 0.0,
+      "minutes": 3556.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -955,36 +1543,36 @@
     "xg_total": null,
     "xa_total": 3.4,
     "xg_per_90": null,
-    "xa_per_90": 0.106,
+    "xa_per_90": 0.103,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.437,
+    "epv_proxy_per_90": 0.424,
     "obv_proxy_total": 17.2,
-    "progression_score": 2.5,
+    "progression_score": 2.42,
     "inputs": {
       "goals": 4.0,
       "assists": 4.0,
       "shots": 0.0,
-      "minutes": 2884.0
+      "minutes": 2971.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Frenkie de Jong",
+    "player_name": "Martin Ødegaard",
     "xg_total": null,
     "xa_total": 6.8,
     "xg_per_90": null,
-    "xa_per_90": 0.243,
+    "xa_per_90": 0.335,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.501,
+    "epv_proxy_per_90": 0.689,
     "obv_proxy_total": 16.9,
-    "progression_score": 3.22,
+    "progression_score": 4.43,
     "inputs": {
       "goals": 1.0,
       "assists": 8.0,
       "shots": 0.0,
-      "minutes": 2515.0
+      "minutes": 1828.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -993,17 +1581,36 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.037,
+    "xa_per_90": 0.035,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.586,
+    "epv_proxy_per_90": 0.558,
     "obv_proxy_total": 16.8,
-    "progression_score": 3.04,
+    "progression_score": 2.89,
     "inputs": {
       "goals": 6.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 2074.0
+      "minutes": 2178.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Bernardo Silva",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.107,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.34,
+    "obv_proxy_total": 16.5,
+    "progression_score": 2.02,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 3570.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1012,17 +1619,55 @@
     "xg_total": null,
     "xa_total": 4.25,
     "xg_per_90": null,
-    "xa_per_90": 0.328,
+    "xa_per_90": 0.284,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.042,
+    "epv_proxy_per_90": 0.903,
     "obv_proxy_total": 16.5,
-    "progression_score": 6.17,
+    "progression_score": 5.35,
     "inputs": {
       "goals": 3.0,
       "assists": 5.0,
       "shots": 0.0,
-      "minutes": 1166.0
+      "minutes": 1346.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Noa Lang",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.195,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.619,
+    "obv_proxy_total": 16.5,
+    "progression_score": 3.67,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 1962.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.27,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.858,
+    "obv_proxy_total": 16.5,
+    "progression_score": 5.08,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 1416.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1046,40 +1691,21 @@
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Alan Minda",
+    "player_name": "Alessandro Bastoni",
     "xg_total": null,
-    "xa_total": 2.55,
+    "xa_total": 5.1,
     "xg_per_90": null,
-    "xa_per_90": 0.174,
+    "xa_per_90": 0.147,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.852,
-    "obv_proxy_total": 15.4,
-    "progression_score": 4.77,
+    "epv_proxy_per_90": 0.375,
+    "obv_proxy_total": 15.8,
+    "progression_score": 2.31,
     "inputs": {
-      "goals": 4.0,
-      "assists": 3.0,
+      "goals": 2.0,
+      "assists": 6.0,
       "shots": 0.0,
-      "minutes": 1321.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Neymar",
-    "xg_total": null,
-    "xa_total": 2.55,
-    "xg_per_90": null,
-    "xa_per_90": 0.243,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 1.192,
-    "obv_proxy_total": 15.4,
-    "progression_score": 6.67,
-    "inputs": {
-      "goals": 4.0,
-      "assists": 3.0,
-      "shots": 0.0,
-      "minutes": 944.0
+      "minutes": 3120.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1107,93 +1733,55 @@
     "xg_total": null,
     "xa_total": 5.95,
     "xg_per_90": null,
-    "xa_per_90": 0.252,
+    "xa_per_90": 0.224,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.53,
+    "epv_proxy_per_90": 0.471,
     "obv_proxy_total": 15.1,
-    "progression_score": 3.39,
+    "progression_score": 3.01,
     "inputs": {
       "goals": 1.0,
       "assists": 7.0,
       "shots": 0.0,
-      "minutes": 2121.0
+      "minutes": 2391.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Enner Valencia",
-    "xg_total": null,
-    "xa_total": 0.0,
-    "xg_per_90": null,
-    "xa_per_90": 0.0,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 1.13,
-    "obv_proxy_total": 15.0,
-    "progression_score": 5.65,
-    "inputs": {
-      "goals": 6.0,
-      "assists": 0.0,
-      "shots": 0.0,
-      "minutes": 956.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Miguel Borja",
-    "xg_total": null,
-    "xa_total": 0.0,
-    "xg_per_90": null,
-    "xa_per_90": 0.0,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 1.272,
-    "obv_proxy_total": 15.0,
-    "progression_score": 6.36,
-    "inputs": {
-      "goals": 6.0,
-      "assists": 0.0,
-      "shots": 0.0,
-      "minutes": 849.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Noa Lang",
+    "player_name": "Jorge Carrascal",
     "xg_total": null,
     "xa_total": 3.4,
     "xg_per_90": null,
-    "xa_per_90": 0.16,
+    "xa_per_90": 0.196,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.563,
+    "epv_proxy_per_90": 0.692,
     "obv_proxy_total": 14.7,
-    "progression_score": 3.29,
+    "progression_score": 4.04,
     "inputs": {
       "goals": 3.0,
       "assists": 4.0,
       "shots": 0.0,
-      "minutes": 1917.0
+      "minutes": 1561.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Paulo Dybala",
+    "player_name": "Jules Koundé",
     "xg_total": null,
     "xa_total": 3.4,
     "xg_per_90": null,
-    "xa_per_90": 0.234,
+    "xa_per_90": 0.091,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.826,
+    "epv_proxy_per_90": 0.322,
     "obv_proxy_total": 14.7,
-    "progression_score": 4.82,
+    "progression_score": 1.88,
     "inputs": {
       "goals": 3.0,
       "assists": 4.0,
       "shots": 0.0,
-      "minutes": 1308.0
+      "minutes": 3349.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1202,17 +1790,36 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.021,
+    "xa_per_90": 0.02,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.278,
+    "epv_proxy_per_90": 0.265,
     "obv_proxy_total": 14.3,
-    "progression_score": 1.45,
+    "progression_score": 1.38,
     "inputs": {
       "goals": 5.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 3724.0
+      "minutes": 3904.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Josko Gvardiol",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.213,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.576,
+    "obv_proxy_total": 14.0,
+    "progression_score": 3.51,
+    "inputs": {
+      "goals": 2.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 1796.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1221,17 +1828,17 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.174,
+    "xa_per_90": 0.158,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.129,
+    "epv_proxy_per_90": 1.022,
     "obv_proxy_total": 13.6,
-    "progression_score": 6.16,
+    "progression_score": 5.57,
     "inputs": {
       "goals": 4.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 877.0
+      "minutes": 969.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1240,17 +1847,17 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.122,
+    "xa_per_90": 0.119,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.787,
+    "epv_proxy_per_90": 0.77,
     "obv_proxy_total": 13.6,
-    "progression_score": 4.29,
+    "progression_score": 4.2,
     "inputs": {
       "goals": 4.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1258.0
+      "minutes": 1285.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1259,17 +1866,74 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.098,
+    "xa_per_90": 0.095,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.634,
+    "epv_proxy_per_90": 0.613,
     "obv_proxy_total": 13.6,
-    "progression_score": 3.46,
+    "progression_score": 3.35,
     "inputs": {
       "goals": 4.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1561.0
+      "minutes": 1614.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Éder Militão",
+    "xg_total": null,
+    "xa_total": 1.7,
+    "xg_per_90": null,
+    "xa_per_90": 0.05,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.324,
+    "obv_proxy_total": 13.6,
+    "progression_score": 1.76,
+    "inputs": {
+      "goals": 4.0,
+      "assists": 2.0,
+      "shots": 0.0,
+      "minutes": 3060.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Granit Xhaka",
+    "xg_total": null,
+    "xa_total": 5.1,
+    "xg_per_90": null,
+    "xa_per_90": 0.161,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.348,
+    "obv_proxy_total": 13.3,
+    "progression_score": 2.21,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 6.0,
+      "shots": 0.0,
+      "minutes": 2848.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Federico Chiesa",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.327,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.346,
+    "obv_proxy_total": 12.9,
+    "progression_score": 7.69,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 702.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1278,17 +1942,36 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.147,
+    "xa_per_90": 0.141,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.605,
+    "epv_proxy_per_90": 0.579,
     "obv_proxy_total": 12.9,
-    "progression_score": 3.46,
+    "progression_score": 3.31,
     "inputs": {
       "goals": 3.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 1562.0
+      "minutes": 1633.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Gonçalo Inácio",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.062,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.255,
+    "obv_proxy_total": 12.9,
+    "progression_score": 1.45,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 3713.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1297,17 +1980,36 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.187,
+    "xa_per_90": 0.158,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.768,
+    "epv_proxy_per_90": 0.65,
     "obv_proxy_total": 12.9,
-    "progression_score": 4.39,
+    "progression_score": 3.71,
     "inputs": {
       "goals": 3.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 1230.0
+      "minutes": 1454.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Rodrigo De Paul",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.212,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.875,
+    "obv_proxy_total": 12.9,
+    "progression_score": 5.0,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 1080.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1321,12 +2023,12 @@
     "xt_per_90": null,
     "epv_proxy_per_90": 0.734,
     "obv_proxy_total": 12.9,
-    "progression_score": 4.2,
+    "progression_score": 4.19,
     "inputs": {
       "goals": 3.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 1287.0
+      "minutes": 1288.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1338,14 +2040,14 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.583,
+    "epv_proxy_per_90": 0.554,
     "obv_proxy_total": 12.5,
-    "progression_score": 2.91,
+    "progression_score": 2.77,
     "inputs": {
       "goals": 5.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1544.0
+      "minutes": 1624.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1369,40 +2071,21 @@
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Jorge Carrascal",
-    "xg_total": null,
-    "xa_total": 3.4,
-    "xg_per_90": null,
-    "xa_per_90": 0.208,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.611,
-    "obv_proxy_total": 12.2,
-    "progression_score": 3.66,
-    "inputs": {
-      "goals": 2.0,
-      "assists": 4.0,
-      "shots": 0.0,
-      "minutes": 1474.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
     "player_name": "Nahuel Molina",
     "xg_total": null,
     "xa_total": 3.4,
     "xg_per_90": null,
-    "xa_per_90": 0.131,
+    "xa_per_90": 0.128,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.385,
+    "epv_proxy_per_90": 0.375,
     "obv_proxy_total": 12.2,
-    "progression_score": 2.31,
+    "progression_score": 2.25,
     "inputs": {
       "goals": 2.0,
       "assists": 4.0,
       "shots": 0.0,
-      "minutes": 2337.0
+      "minutes": 2400.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1411,17 +2094,55 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.052,
+    "xa_per_90": 0.048,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.576,
+    "epv_proxy_per_90": 0.533,
     "obv_proxy_total": 11.8,
-    "progression_score": 3.03,
+    "progression_score": 2.8,
     "inputs": {
       "goals": 4.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1485.0
+      "minutes": 1605.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Alphonso Davies",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.454,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.015,
+    "obv_proxy_total": 11.5,
+    "progression_score": 6.41,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 842.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Devyne Rensch",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.257,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.574,
+    "obv_proxy_total": 11.5,
+    "progression_score": 3.62,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 1490.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1441,6 +2162,25 @@
       "assists": 2.0,
       "shots": 0.0,
       "minutes": 1164.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Jonathan Tah",
+    "xg_total": null,
+    "xa_total": 1.7,
+    "xg_per_90": null,
+    "xa_per_90": 0.043,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.226,
+    "obv_proxy_total": 11.1,
+    "progression_score": 1.25,
+    "inputs": {
+      "goals": 3.0,
+      "assists": 2.0,
+      "shots": 0.0,
+      "minutes": 3589.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1468,17 +2208,17 @@
     "xg_total": null,
     "xa_total": 5.1,
     "xg_per_90": null,
-    "xa_per_90": 0.205,
+    "xa_per_90": 0.196,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.362,
+    "epv_proxy_per_90": 0.346,
     "obv_proxy_total": 10.8,
-    "progression_score": 2.41,
+    "progression_score": 2.31,
     "inputs": {
       "goals": 0.0,
       "assists": 6.0,
       "shots": 0.0,
-      "minutes": 2240.0
+      "minutes": 2342.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1487,17 +2227,17 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.166,
+    "xa_per_90": 0.149,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.554,
+    "epv_proxy_per_90": 0.496,
     "obv_proxy_total": 10.4,
-    "progression_score": 3.26,
+    "progression_score": 2.92,
     "inputs": {
       "goals": 2.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 1380.0
+      "minutes": 1541.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1506,36 +2246,17 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.085,
+    "xa_per_90": 0.08,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.285,
+    "epv_proxy_per_90": 0.268,
     "obv_proxy_total": 10.4,
-    "progression_score": 1.68,
+    "progression_score": 1.58,
     "inputs": {
       "goals": 2.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 2686.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Gonçalo Inácio",
-    "xg_total": null,
-    "xa_total": 2.55,
-    "xg_per_90": null,
-    "xa_per_90": 0.063,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.211,
-    "obv_proxy_total": 10.4,
-    "progression_score": 1.24,
-    "inputs": {
-      "goals": 2.0,
-      "assists": 3.0,
-      "shots": 0.0,
-      "minutes": 3631.0
+      "minutes": 2854.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1563,17 +2284,36 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.154,
+    "xa_per_90": 0.153,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.512,
+    "epv_proxy_per_90": 0.51,
     "obv_proxy_total": 10.4,
-    "progression_score": 3.01,
+    "progression_score": 3.0,
     "inputs": {
       "goals": 2.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 1493.0
+      "minutes": 1499.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Ronald Araujo",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.467,
+    "obv_proxy_total": 10.0,
+    "progression_score": 2.33,
+    "inputs": {
+      "goals": 4.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1542.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1582,17 +2322,36 @@
     "xg_total": null,
     "xa_total": 3.4,
     "xg_per_90": null,
-    "xa_per_90": 0.326,
+    "xa_per_90": 0.298,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.767,
+    "epv_proxy_per_90": 0.7,
     "obv_proxy_total": 9.7,
-    "progression_score": 4.79,
+    "progression_score": 4.38,
     "inputs": {
       "goals": 1.0,
       "assists": 4.0,
       "shots": 0.0,
-      "minutes": 939.0
+      "minutes": 1028.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Hannibal",
+    "xg_total": null,
+    "xa_total": 3.4,
+    "xg_per_90": null,
+    "xa_per_90": 0.248,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.584,
+    "obv_proxy_total": 9.7,
+    "progression_score": 3.65,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 4.0,
+      "shots": 0.0,
+      "minutes": 1233.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1601,55 +2360,93 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.06,
+    "xa_per_90": 0.058,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.534,
+    "epv_proxy_per_90": 0.514,
     "obv_proxy_total": 9.3,
-    "progression_score": 2.85,
+    "progression_score": 2.74,
     "inputs": {
       "goals": 3.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1265.0
+      "minutes": 1313.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Jeremie Frimpong",
+    "player_name": "Joao Rojas",
     "xg_total": null,
-    "xa_total": 1.7,
+    "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.095,
+    "xa_per_90": 0.111,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.391,
-    "obv_proxy_total": 8.6,
-    "progression_score": 2.23,
+    "epv_proxy_per_90": 0.978,
+    "obv_proxy_total": 9.3,
+    "progression_score": 5.22,
     "inputs": {
-      "goals": 2.0,
-      "assists": 2.0,
+      "goals": 3.0,
+      "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1613.0
+      "minutes": 690.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Rodrigo De Paul",
+    "player_name": "Trent Alexander-Arnold",
+    "xg_total": null,
+    "xa_total": 4.25,
+    "xg_per_90": null,
+    "xa_per_90": 0.223,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.393,
+    "obv_proxy_total": 9.0,
+    "progression_score": 2.62,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 5.0,
+      "shots": 0.0,
+      "minutes": 1717.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Gonzalo Plata",
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.17,
+    "xa_per_90": 0.109,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.7,
+    "epv_proxy_per_90": 0.449,
     "obv_proxy_total": 8.6,
-    "progression_score": 4.0,
+    "progression_score": 2.57,
     "inputs": {
       "goals": 2.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 900.0
+      "minutes": 1402.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Diogo Dalot",
+    "xg_total": null,
+    "xa_total": 2.55,
+    "xg_per_90": null,
+    "xa_per_90": 0.085,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.216,
+    "obv_proxy_total": 7.9,
+    "progression_score": 1.33,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 3.0,
+      "shots": 0.0,
+      "minutes": 2706.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1658,17 +2455,17 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.076,
+    "xa_per_90": 0.074,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.194,
+    "epv_proxy_per_90": 0.189,
     "obv_proxy_total": 7.9,
-    "progression_score": 1.19,
+    "progression_score": 1.16,
     "inputs": {
       "goals": 1.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 3013.0
+      "minutes": 3102.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1718,33 +2515,33 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.609,
+    "epv_proxy_per_90": 0.507,
     "obv_proxy_total": 7.5,
-    "progression_score": 3.04,
+    "progression_score": 2.53,
     "inputs": {
       "goals": 3.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 887.0
+      "minutes": 1066.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Devyne Rensch",
+    "player_name": "Adam Thomas",
     "xg_total": null,
-    "xa_total": 3.4,
+    "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.207,
+    "xa_per_90": 0.031,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.366,
-    "obv_proxy_total": 7.2,
-    "progression_score": 2.44,
+    "epv_proxy_per_90": 0.204,
+    "obv_proxy_total": 6.8,
+    "progression_score": 1.11,
     "inputs": {
-      "goals": 0.0,
-      "assists": 4.0,
+      "goals": 2.0,
+      "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1475.0
+      "minutes": 2430.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1753,55 +2550,36 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.094,
+    "xa_per_90": 0.084,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.607,
+    "epv_proxy_per_90": 0.546,
     "obv_proxy_total": 6.8,
-    "progression_score": 3.31,
+    "progression_score": 2.98,
     "inputs": {
       "goals": 2.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 816.0
+      "minutes": 906.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Gonzalo Plata",
+    "player_name": "Eduardo Camavinga",
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.061,
+    "xa_per_90": 0.037,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.397,
+    "epv_proxy_per_90": 0.237,
     "obv_proxy_total": 6.8,
-    "progression_score": 2.16,
+    "progression_score": 1.29,
     "inputs": {
       "goals": 2.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1248.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Joao Rojas",
-    "xg_total": null,
-    "xa_total": 0.85,
-    "xg_per_90": null,
-    "xa_per_90": 0.119,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.767,
-    "obv_proxy_total": 6.8,
-    "progression_score": 4.19,
-    "inputs": {
-      "goals": 2.0,
-      "assists": 1.0,
-      "shots": 0.0,
-      "minutes": 645.0
+      "minutes": 2089.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1810,17 +2588,17 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.071,
+    "xa_per_90": 0.065,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.461,
+    "epv_proxy_per_90": 0.422,
     "obv_proxy_total": 6.8,
-    "progression_score": 2.52,
+    "progression_score": 2.3,
     "inputs": {
       "goals": 2.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1073.0
+      "minutes": 1172.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1829,17 +2607,17 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.051,
+    "xa_per_90": 0.048,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.332,
+    "epv_proxy_per_90": 0.311,
     "obv_proxy_total": 6.8,
-    "progression_score": 1.81,
+    "progression_score": 1.69,
     "inputs": {
       "goals": 2.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1490.0
+      "minutes": 1594.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1848,17 +2626,17 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.21,
+    "xa_per_90": 0.193,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.356,
+    "epv_proxy_per_90": 1.25,
     "obv_proxy_total": 6.8,
-    "progression_score": 7.4,
+    "progression_score": 6.82,
     "inputs": {
       "goals": 2.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 365.0
+      "minutes": 396.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1867,17 +2645,17 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.031,
+    "xa_per_90": 0.029,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.198,
+    "epv_proxy_per_90": 0.19,
     "obv_proxy_total": 6.8,
-    "progression_score": 1.08,
+    "progression_score": 1.04,
     "inputs": {
       "goals": 2.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 2504.0
+      "minutes": 2604.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1889,14 +2667,14 @@
     "xa_per_90": 0.021,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.136,
+    "epv_proxy_per_90": 0.133,
     "obv_proxy_total": 6.8,
-    "progression_score": 0.74,
+    "progression_score": 0.73,
     "inputs": {
       "goals": 2.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 3629.0
+      "minutes": 3719.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1943,17 +2721,17 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.078,
+    "xa_per_90": 0.075,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.231,
+    "epv_proxy_per_90": 0.221,
     "obv_proxy_total": 6.1,
-    "progression_score": 1.38,
+    "progression_score": 1.32,
     "inputs": {
       "goals": 1.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1950.0
+      "minutes": 2040.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1962,17 +2740,36 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.058,
+    "xa_per_90": 0.057,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.169,
+    "epv_proxy_per_90": 0.167,
     "obv_proxy_total": 6.1,
-    "progression_score": 1.02,
+    "progression_score": 1.0,
     "inputs": {
       "goals": 1.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 2658.0
+      "minutes": 2690.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Santiago Gimenez",
+    "xg_total": null,
+    "xa_total": 1.7,
+    "xg_per_90": null,
+    "xa_per_90": 0.166,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.487,
+    "obv_proxy_total": 6.1,
+    "progression_score": 2.92,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 2.0,
+      "shots": 0.0,
+      "minutes": 924.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -1981,17 +2778,17 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.132,
+    "xa_per_90": 0.122,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.387,
+    "epv_proxy_per_90": 0.359,
     "obv_proxy_total": 6.1,
-    "progression_score": 2.32,
+    "progression_score": 2.16,
     "inputs": {
       "goals": 1.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1162.0
+      "minutes": 1252.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2000,17 +2797,17 @@
     "xg_total": null,
     "xa_total": 2.55,
     "xg_per_90": null,
-    "xa_per_90": 0.578,
+    "xa_per_90": 0.552,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 1.02,
+    "epv_proxy_per_90": 0.974,
     "obv_proxy_total": 5.4,
-    "progression_score": 6.8,
+    "progression_score": 6.49,
     "inputs": {
       "goals": 0.0,
       "assists": 3.0,
       "shots": 0.0,
-      "minutes": 397.0
+      "minutes": 416.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2034,6 +2831,25 @@
     "model_version": "advanced_metrics_v2"
   },
   {
+    "player_name": "Félix Torres",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.256,
+    "obv_proxy_total": 5.0,
+    "progression_score": 1.28,
+    "inputs": {
+      "goals": 2.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1407.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
     "player_name": "Guilherme Arana",
     "xg_total": null,
     "xa_total": 0.0,
@@ -2041,14 +2857,14 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.313,
+    "epv_proxy_per_90": 0.27,
     "obv_proxy_total": 5.0,
-    "progression_score": 1.56,
+    "progression_score": 1.35,
     "inputs": {
       "goals": 2.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1151.0
+      "minutes": 1331.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2098,14 +2914,71 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.149,
+    "epv_proxy_per_90": 0.144,
     "obv_proxy_total": 5.0,
-    "progression_score": 0.74,
+    "progression_score": 0.72,
     "inputs": {
       "goals": 2.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 2417.0
+      "minutes": 2492.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Rodri",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.177,
+    "obv_proxy_total": 5.0,
+    "progression_score": 0.89,
+    "inputs": {
+      "goals": 2.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 2030.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Rúben Dias",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.141,
+    "obv_proxy_total": 5.0,
+    "progression_score": 0.7,
+    "inputs": {
+      "goals": 2.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 2556.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Ángel Mena",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.684,
+    "obv_proxy_total": 5.0,
+    "progression_score": 3.42,
+    "inputs": {
+      "goals": 2.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 526.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2148,6 +3021,25 @@
     "model_version": "advanced_metrics_v2"
   },
   {
+    "player_name": "Byron Castillo",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.134,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.554,
+    "obv_proxy_total": 4.3,
+    "progression_score": 3.16,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 569.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
     "player_name": "José Cifuentes",
     "xg_total": null,
     "xa_total": 0.85,
@@ -2167,21 +3059,40 @@
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Pervis Estupiñán",
+    "player_name": "Min-jae Kim",
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.064,
+    "xa_per_90": 0.037,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.262,
+    "epv_proxy_per_90": 0.154,
     "obv_proxy_total": 4.3,
-    "progression_score": 1.5,
+    "progression_score": 0.88,
     "inputs": {
       "goals": 1.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1203.0
+      "minutes": 2051.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Pervis Estupiñán",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.059,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.242,
+    "obv_proxy_total": 4.3,
+    "progression_score": 1.38,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 1303.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2190,17 +3101,55 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.131,
+    "xa_per_90": 0.128,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.231,
+    "epv_proxy_per_90": 0.226,
     "obv_proxy_total": 3.6,
-    "progression_score": 1.54,
+    "progression_score": 1.51,
     "inputs": {
       "goals": 0.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1169.0
+      "minutes": 1193.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Kyle Walker",
+    "xg_total": null,
+    "xa_total": 1.7,
+    "xg_per_90": null,
+    "xa_per_90": 0.052,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.093,
+    "obv_proxy_total": 3.6,
+    "progression_score": 0.62,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 2.0,
+      "shots": 0.0,
+      "minutes": 2917.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Luke Shaw",
+    "xg_total": null,
+    "xa_total": 1.7,
+    "xg_per_90": null,
+    "xa_per_90": 0.025,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.044,
+    "obv_proxy_total": 3.6,
+    "progression_score": 0.29,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 2.0,
+      "shots": 0.0,
+      "minutes": 6122.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2209,7 +3158,7 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.052,
+    "xa_per_90": 0.051,
     "xt_total": null,
     "xt_per_90": null,
     "epv_proxy_per_90": 0.091,
@@ -2219,7 +3168,7 @@
       "goals": 0.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 2952.0
+      "minutes": 2973.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2228,17 +3177,17 @@
     "xg_total": null,
     "xa_total": 1.7,
     "xg_per_90": null,
-    "xa_per_90": 0.15,
+    "xa_per_90": 0.128,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.265,
+    "epv_proxy_per_90": 0.225,
     "obv_proxy_total": 3.6,
-    "progression_score": 1.77,
+    "progression_score": 1.5,
     "inputs": {
       "goals": 0.0,
       "assists": 2.0,
       "shots": 0.0,
-      "minutes": 1018.0
+      "minutes": 1198.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2288,33 +3237,14 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.355,
+    "epv_proxy_per_90": 0.348,
     "obv_proxy_total": 2.5,
-    "progression_score": 1.78,
+    "progression_score": 1.74,
     "inputs": {
       "goals": 1.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 507.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Félix Torres",
-    "xg_total": null,
-    "xa_total": 0.0,
-    "xg_per_90": null,
-    "xa_per_90": 0.0,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.147,
-    "obv_proxy_total": 2.5,
-    "progression_score": 0.73,
-    "inputs": {
-      "goals": 1.0,
-      "assists": 0.0,
-      "shots": 0.0,
-      "minutes": 1227.0
+      "minutes": 517.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2326,14 +3256,33 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.179,
+    "epv_proxy_per_90": 0.167,
     "obv_proxy_total": 2.5,
-    "progression_score": 0.9,
+    "progression_score": 0.84,
     "inputs": {
       "goals": 1.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1004.0
+      "minutes": 1075.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Héctor Martínez",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.094,
+    "obv_proxy_total": 2.5,
+    "progression_score": 0.47,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1918.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2364,14 +3313,14 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.167,
+    "epv_proxy_per_90": 0.154,
     "obv_proxy_total": 2.5,
-    "progression_score": 0.83,
+    "progression_score": 0.77,
     "inputs": {
       "goals": 1.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1080.0
+      "minutes": 1170.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2383,14 +3332,14 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.157,
+    "epv_proxy_per_90": 0.153,
     "obv_proxy_total": 2.5,
-    "progression_score": 0.78,
+    "progression_score": 0.77,
     "inputs": {
       "goals": 1.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1150.0
+      "minutes": 1176.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2414,6 +3363,25 @@
     "model_version": "advanced_metrics_v2"
   },
   {
+    "player_name": "Michael Kerr",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.063,
+    "obv_proxy_total": 2.5,
+    "progression_score": 0.32,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 2842.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
     "player_name": "Renato Veiga",
     "xg_total": null,
     "xa_total": 0.0,
@@ -2421,14 +3389,14 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.057,
+    "epv_proxy_per_90": 0.055,
     "obv_proxy_total": 2.5,
     "progression_score": 0.28,
     "inputs": {
       "goals": 1.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 3172.0
+      "minutes": 3262.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2440,14 +3408,33 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.154,
+    "epv_proxy_per_90": 0.143,
     "obv_proxy_total": 2.5,
-    "progression_score": 0.77,
+    "progression_score": 0.71,
     "inputs": {
       "goals": 1.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1170.0
+      "minutes": 1260.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Tyrell Malacia",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 1.268,
+    "obv_proxy_total": 2.5,
+    "progression_score": 6.34,
+    "inputs": {
+      "goals": 1.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 142.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2478,52 +3465,52 @@
     "xa_per_90": 0.0,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.091,
+    "epv_proxy_per_90": 0.087,
     "obv_proxy_total": 2.5,
-    "progression_score": 0.46,
+    "progression_score": 0.44,
     "inputs": {
       "goals": 1.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1973.0
+      "minutes": 2063.0
     },
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Ángel Mena",
-    "xg_total": null,
-    "xa_total": 0.0,
-    "xg_per_90": null,
-    "xa_per_90": 0.0,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.511,
-    "obv_proxy_total": 2.5,
-    "progression_score": 2.56,
-    "inputs": {
-      "goals": 1.0,
-      "assists": 0.0,
-      "shots": 0.0,
-      "minutes": 352.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
-    "player_name": "Byron Castillo",
+    "player_name": "Adriano Esposito",
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.203,
+    "xa_per_90": 0.025,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.359,
+    "epv_proxy_per_90": 0.045,
     "obv_proxy_total": 1.8,
-    "progression_score": 2.39,
+    "progression_score": 0.3,
     "inputs": {
       "goals": 0.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 376.0
+      "minutes": 3026.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "André Onana",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.027,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.048,
+    "obv_proxy_total": 1.8,
+    "progression_score": 0.32,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 2827.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2532,17 +3519,93 @@
     "xg_total": null,
     "xa_total": 0.85,
     "xg_per_90": null,
-    "xa_per_90": 0.055,
+    "xa_per_90": 0.051,
     "xt_total": null,
     "xt_per_90": null,
-    "epv_proxy_per_90": 0.096,
+    "epv_proxy_per_90": 0.091,
     "obv_proxy_total": 1.8,
-    "progression_score": 0.64,
+    "progression_score": 0.6,
     "inputs": {
       "goals": 0.0,
       "assists": 1.0,
       "shots": 0.0,
-      "minutes": 1400.0
+      "minutes": 1490.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Gavi",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.147,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.26,
+    "obv_proxy_total": 1.8,
+    "progression_score": 1.73,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 520.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Khac Ngoc Ho",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.047,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.083,
+    "obv_proxy_total": 1.8,
+    "progression_score": 0.55,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 1623.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Trésor Matondo",
+    "xg_total": null,
+    "xa_total": 0.85,
+    "xg_per_90": null,
+    "xa_per_90": 0.053,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.094,
+    "obv_proxy_total": 1.8,
+    "progression_score": 0.63,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 1.0,
+      "shots": 0.0,
+      "minutes": 1432.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Aleksandar Milusev",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 90.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2562,6 +3625,82 @@
       "assists": 0.0,
       "shots": 0.0,
       "minutes": 90.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Amirhossein Sarvi",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 907.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Carlos Auzqui",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 405.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Clemens Meinert",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1493.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Guglielmo Vicario",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 3853.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2599,7 +3738,7 @@
       "goals": 0.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 671.0
+      "minutes": 682.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2618,7 +3757,45 @@
       "goals": 0.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 653.0
+      "minutes": 743.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Joe Aribo",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 241.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Juan Bernat",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 34.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2642,25 +3819,6 @@
     "model_version": "advanced_metrics_v2"
   },
   {
-    "player_name": "Lisandro Martínez",
-    "xg_total": null,
-    "xa_total": 0.0,
-    "xg_per_90": null,
-    "xa_per_90": 0.0,
-    "xt_total": null,
-    "xt_per_90": null,
-    "epv_proxy_per_90": 0.0,
-    "obv_proxy_total": 0.0,
-    "progression_score": 0.0,
-    "inputs": {
-      "goals": 0.0,
-      "assists": 0.0,
-      "shots": 0.0,
-      "minutes": 1040.0
-    },
-    "model_version": "advanced_metrics_v2"
-  },
-  {
     "player_name": "Luis Sinisterra",
     "xg_total": null,
     "xa_total": 0.0,
@@ -2675,7 +3833,7 @@
       "goals": 0.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 93.0
+      "minutes": 165.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2694,7 +3852,178 @@
       "goals": 0.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1640.0
+      "minutes": 1730.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Macbeth Mahlangu",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 2210.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Manuel Neuer",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 3150.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Marc-André ter Stegen",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 270.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Maxwel Cornet",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 112.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Mohammed Said Benchoucha",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 90.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Nathan Aké",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1535.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Nelson Sepúlveda",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 849.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Niklas Rantanen",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 65.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Oliver Dorph",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 7.0
     },
     "model_version": "advanced_metrics_v2"
   },
@@ -2732,7 +4061,45 @@
       "goals": 0.0,
       "assists": 0.0,
       "shots": 0.0,
-      "minutes": 1987.0
+      "minutes": 2007.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Valdemar Lund",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 1734.0
+    },
+    "model_version": "advanced_metrics_v2"
+  },
+  {
+    "player_name": "Yves Bissouma",
+    "xg_total": null,
+    "xa_total": 0.0,
+    "xg_per_90": null,
+    "xa_per_90": 0.0,
+    "xt_total": null,
+    "xt_per_90": null,
+    "epv_proxy_per_90": 0.0,
+    "obv_proxy_total": 0.0,
+    "progression_score": 0.0,
+    "inputs": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "shots": 0.0,
+      "minutes": 605.0
     },
     "model_version": "advanced_metrics_v2"
   }

@@ -261,12 +261,12 @@
     {
       "competition": "MLS",
       "season": "2026",
-      "games_played": 8,
-      "goals": 2,
-      "assists": 2,
-      "yellow_cards": 2,
+      "games_played": 10,
+      "goals": 3,
+      "assists": 3,
+      "yellow_cards": 3,
       "red_cards": 0,
-      "minutes_played": 720
+      "minutes_played": 900
     },
     {
       "competition": "CONCACAF Champions Cup",

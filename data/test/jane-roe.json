@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "source_url": "https://www.transfermarkt.com/jane-roe/profil/spieler/1002",
+    "player_name": "Jane Roe",
+    "preferred_name": "Jane",
+    "position": "Midfielder",
+    "date_of_birth": "1999-02-02",
+    "nationality": "Ecuador",
+    "current_club": "Club Example",
+    "market_value": "€900k"
+  },
+  "transfers": [
+    {
+      "source_url": "https://www.transfermarkt.com/jane-roe/profil/spieler/1002",
+      "season": "2025/2026",
+      "date": "2025-01-10",
+      "from_club": "Club Example",
+      "to_club": "Club Example",
+      "market_value": "€900k",
+      "fee": "-"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "profile": {
+    "tm_id": "86250",
+    "player_name": "Aleksandar Milusev",
+    "date_of_birth": "05/04/1988",
+    "age": 38,
+    "nationality": "North Macedonia",
+    "height": "1,87 m",
+    "position": "Defender - Left-Back",
+    "foot": "left",
+    "current_club": "Belasica Strumica",
+    "on_loan_from": null,
+    "contract_expires": "-",
+    "market_value": null,
+    "market_value_eur": null,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/antonio-rudiger/profil/spieler/86250"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "06/03/2009",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Unknown",
+      "age": "20"
+    },
+    {
+      "date": "11/02/2010",
+      "value_eur": 125000,
+      "value_str": "€125k",
+      "club": "FK Horizont Turnovo",
+      "age": "21"
+    },
+    {
+      "date": "19/12/2011",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "FK Horizont Turnovo",
+      "age": "23"
+    },
+    {
+      "date": "28/05/2012",
+      "value_eur": 250000,
+      "value_str": "€250k",
+      "club": "FK Horizont Turnovo",
+      "age": "24"
+    },
+    {
+      "date": "09/10/2012",
+      "value_eur": 275000,
+      "value_str": "€275k",
+      "club": "FK Horizont Turnovo",
+      "age": "24"
+    },
+    {
+      "date": "21/12/2012",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "FK Horizont Turnovo",
+      "age": "24"
+    },
+    {
+      "date": "22/07/2013",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Rabotnicki Skopje",
+      "age": "25"
+    },
+    {
+      "date": "02/01/2014",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Rabotnicki Skopje",
+      "age": "25"
+    },
+    {
+      "date": "09/07/2014",
+      "value_eur": 300000,
+      "value_str": "€300k",
+      "club": "Rabotnicki Skopje",
+      "age": "26"
+    },
+    {
+      "date": "14/12/2014",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "FK Horizont Turnovo",
+      "age": "26"
+    },
+    {
+      "date": "07/07/2015",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "FK Horizont Turnovo",
+      "age": "27"
+    },
+    {
+      "date": "17/12/2015",
+      "value_eur": 200000,
+      "value_str": "€200k",
+      "club": "FK Horizont Turnovo",
+      "age": "27"
+    },
+    {
+      "date": "16/07/2016",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "FC Wangen bei Olten",
+      "age": "28"
+    },
+    {
+      "date": "12/12/2018",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Belasica Strumica",
+      "age": "30"
+    },
+    {
+      "date": "29/05/2019",
+      "value_eur": 150000,
+      "value_str": "€150k",
+      "club": "Belasica Strumica",
+      "age": "31"
+    },
+    {
+      "date": "19/12/2020",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Belasica Strumica",
+      "age": "32"
+    },
+    {
+      "date": "18/05/2021",
+      "value_eur": 100000,
+      "value_str": "€100k",
+      "club": "Belasica Strumica",
+      "age": "33"
+    },
+    {
+      "date": "07/03/2023",
+      "value_eur": 0,
+      "value_str": "-",
+      "club": "Belasica Strumica",
+      "age": "34"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Kup na Makedonija",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    }
+  ]
+}

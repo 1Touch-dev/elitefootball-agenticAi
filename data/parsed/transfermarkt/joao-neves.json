@@ -114,22 +114,22 @@
     {
       "competition": "Ligue 1",
       "season": "25/26",
-      "games_played": 18,
+      "games_played": 19,
       "goals": 5,
       "assists": 1,
       "yellow_cards": 0,
       "red_cards": 0,
-      "minutes_played": 1167
+      "minutes_played": 1188
     },
     {
       "competition": "UEFA Champions League",
       "season": "25/26",
-      "games_played": 12,
+      "games_played": 13,
       "goals": 2,
       "assists": 3,
       "yellow_cards": 0,
       "red_cards": 0,
-      "minutes_played": 934
+      "minutes_played": 1024
     },
     {
       "competition": "Coupe de France",

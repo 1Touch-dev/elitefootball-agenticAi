@@ -240,12 +240,12 @@
     {
       "competition": "LigaPro Serie A",
       "season": "2026",
-      "games_played": 6,
-      "goals": 1,
+      "games_played": 8,
+      "goals": 2,
       "assists": 0,
       "yellow_cards": 1,
       "red_cards": 1,
-      "minutes_played": 352
+      "minutes_played": 526
     }
   ]
 }

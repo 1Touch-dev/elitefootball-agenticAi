@@ -1,0 +1,176 @@
+{
+  "profile": {
+    "tm_id": "503977",
+    "player_name": "Taylor Harwood-Bellis",
+    "date_of_birth": "30/01/2002",
+    "age": 24,
+    "nationality": "England",
+    "height": "1,88 m",
+    "position": "Defender - Centre-Back",
+    "foot": "right",
+    "current_club": "Southampton FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2028",
+    "market_value": "€20.00m",
+    "market_value_eur": 20000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/taylor-harwood-bellis/profil/spieler/503977"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "25/09/2019",
+      "value_eur": 2500000,
+      "value_str": "€2.50m",
+      "club": "Manchester City U23",
+      "age": "17"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 2300000,
+      "value_str": "€2.30m",
+      "club": "Manchester City U23",
+      "age": "18"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 2300000,
+      "value_str": "€2.30m",
+      "club": "Manchester City U23",
+      "age": "18"
+    },
+    {
+      "date": "10/03/2021",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "Blackburn Rovers",
+      "age": "19"
+    },
+    {
+      "date": "06/01/2022",
+      "value_eur": 3000000,
+      "value_str": "€3.00m",
+      "club": "RSC Anderlecht",
+      "age": "19"
+    },
+    {
+      "date": "13/05/2022",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Stoke City",
+      "age": "20"
+    },
+    {
+      "date": "14/09/2022",
+      "value_eur": 10000000,
+      "value_str": "€10.00m",
+      "club": "Burnley FC",
+      "age": "20"
+    },
+    {
+      "date": "27/10/2022",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Burnley FC",
+      "age": "20"
+    },
+    {
+      "date": "24/03/2023",
+      "value_eur": 15000000,
+      "value_str": "€15.00m",
+      "club": "Burnley FC",
+      "age": "21"
+    },
+    {
+      "date": "01/06/2023",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "12/07/2023",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Manchester City",
+      "age": "21"
+    },
+    {
+      "date": "21/12/2023",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Southampton FC",
+      "age": "21"
+    },
+    {
+      "date": "24/05/2024",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Southampton FC",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 25000000,
+      "value_str": "€25.00m",
+      "club": "Southampton FC",
+      "age": "22"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Southampton FC",
+      "age": "23"
+    },
+    {
+      "date": "03/12/2025",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Southampton FC",
+      "age": "23"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Championship Play-Offs",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 90
+    },
+    {
+      "competition": "Championship",
+      "season": "25/26",
+      "games_played": 41,
+      "goals": 7,
+      "assists": 2,
+      "yellow_cards": 9,
+      "red_cards": 0,
+      "minutes_played": 3690
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 360
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 1,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "minutes_played": 63
+    }
+  ]
+}

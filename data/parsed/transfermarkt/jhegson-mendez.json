@@ -5,7 +5,7 @@
     "date_of_birth": "26/04/1997",
     "age": 29,
     "nationality": "Ecuador",
-    "height": "1,80 m",
+    "height": "1,75 m",
     "position": "Midfield - Defensive Midfield",
     "foot": "right",
     "current_club": "Independiente del Valle",
@@ -212,12 +212,12 @@
     {
       "competition": "LigaPro Serie A",
       "season": "2026",
-      "games_played": 11,
+      "games_played": 12,
       "goals": 0,
       "assists": 0,
       "yellow_cards": 3,
       "red_cards": 0,
-      "minutes_played": 623
+      "minutes_played": 713
     },
     {
       "competition": "Libertadores",

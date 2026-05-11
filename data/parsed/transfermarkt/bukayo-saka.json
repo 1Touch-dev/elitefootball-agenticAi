@@ -1,0 +1,225 @@
+{
+  "profile": {
+    "tm_id": "433177",
+    "player_name": "Bukayo Saka",
+    "date_of_birth": "05/09/2001",
+    "age": 24,
+    "nationality": "EnglandNigeria",
+    "height": "1,78 m",
+    "position": "Attack - Right Winger",
+    "foot": "left",
+    "current_club": "Arsenal FC",
+    "on_loan_from": null,
+    "contract_expires": "30/06/2030",
+    "market_value": "€120.00m",
+    "market_value_eur": 120000000.0,
+    "source": "transfermarkt",
+    "source_url": "https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177"
+  },
+  "transfers": [],
+  "mv_history": [
+    {
+      "date": "23/09/2019",
+      "value_eur": 7000000,
+      "value_str": "€7.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "10/12/2019",
+      "value_eur": 13000000,
+      "value_str": "€13.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "09/03/2020",
+      "value_eur": 22000000,
+      "value_str": "€22.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "08/04/2020",
+      "value_eur": 20000000,
+      "value_str": "€20.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "30/07/2020",
+      "value_eur": 35000000,
+      "value_str": "€35.00m",
+      "club": "Arsenal FC",
+      "age": "18"
+    },
+    {
+      "date": "13/10/2020",
+      "value_eur": 40000000,
+      "value_str": "€40.00m",
+      "club": "Arsenal FC",
+      "age": "19"
+    },
+    {
+      "date": "18/03/2021",
+      "value_eur": 60000000,
+      "value_str": "€60.00m",
+      "club": "Arsenal FC",
+      "age": "19"
+    },
+    {
+      "date": "28/05/2021",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Arsenal FC",
+      "age": "19"
+    },
+    {
+      "date": "23/12/2021",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Arsenal FC",
+      "age": "20"
+    },
+    {
+      "date": "15/06/2022",
+      "value_eur": 65000000,
+      "value_str": "€65.00m",
+      "club": "Arsenal FC",
+      "age": "20"
+    },
+    {
+      "date": "15/09/2022",
+      "value_eur": 70000000,
+      "value_str": "€70.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "03/11/2022",
+      "value_eur": 90000000,
+      "value_str": "€90.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "23/12/2022",
+      "value_eur": 100000000,
+      "value_str": "€100.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "16/03/2023",
+      "value_eur": 110000000,
+      "value_str": "€110.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "20/06/2023",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Arsenal FC",
+      "age": "21"
+    },
+    {
+      "date": "19/12/2023",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "14/03/2024",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "27/05/2024",
+      "value_eur": 140000000,
+      "value_str": "€140.00m",
+      "club": "Arsenal FC",
+      "age": "22"
+    },
+    {
+      "date": "16/12/2024",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "30/05/2025",
+      "value_eur": 150000000,
+      "value_str": "€150.00m",
+      "club": "Arsenal FC",
+      "age": "23"
+    },
+    {
+      "date": "17/10/2025",
+      "value_eur": 140000000,
+      "value_str": "€140.00m",
+      "club": "Arsenal FC",
+      "age": "24"
+    },
+    {
+      "date": "09/12/2025",
+      "value_eur": 130000000,
+      "value_str": "€130.00m",
+      "club": "Arsenal FC",
+      "age": "24"
+    },
+    {
+      "date": "09/03/2026",
+      "value_eur": 120000000,
+      "value_str": "€120.00m",
+      "club": "Arsenal FC",
+      "age": "24"
+    }
+  ],
+  "performance_stats": [
+    {
+      "competition": "Premier League",
+      "season": "25/26",
+      "games_played": 30,
+      "goals": 7,
+      "assists": 6,
+      "yellow_cards": 2,
+      "red_cards": 0,
+      "minutes_played": 2136
+    },
+    {
+      "competition": "UEFA Champions League",
+      "season": "25/26",
+      "games_played": 10,
+      "goals": 3,
+      "assists": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 604
+    },
+    {
+      "competition": "FA Cup",
+      "season": "25/26",
+      "games_played": 2,
+      "goals": 0,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 58
+    },
+    {
+      "competition": "EFL Cup",
+      "season": "25/26",
+      "games_played": 5,
+      "goals": 1,
+      "assists": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "minutes_played": 285
+    }
+  ]
+}
