@@ -112,7 +112,7 @@ export default function ScoutWorkflowPage() {
   const loadAlerts = async () => {
     try {
       const res = await api.alertsPanel();
-      setAlerts(res);
+      setAlerts(Array.isArray(res) ? res : (res as any)?.items || []);
     } catch (err) {
       console.error(err);
     }
