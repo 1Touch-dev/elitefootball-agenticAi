@@ -567,27 +567,23 @@ export default function ScoutWorkflowPage() {
               </div>
             </div>
 
-            {comparison && (
+            {comparison && comparison.metrics && comparison.player_a && comparison.player_b && (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fadeIn">
                 <div className="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl text-center flex flex-col justify-between">
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Primary Talent</div>
                     <h4 className="text-2xl font-extrabold text-emerald-400 tracking-tight mb-6">
-                      {comparison.player_a?.name}
+                      {comparison.player_a.name}
                     </h4>
                     <div className="space-y-3 font-medium text-sm text-slate-300">
-                      <p className="flex justify-between border-b border-slate-800/60 pb-2">
-                        <span>KPI Composite Score</span>
-                        <span className="font-bold text-slate-100">{comparison.player_a?.kpi_score}</span>
-                      </p>
-                      <p className="flex justify-between border-b border-slate-800/60 pb-2">
-                        <span>Estimated Value</span>
-                        <span className="font-bold text-slate-100">€{(comparison.player_a?.valuation || 0).toLocaleString()}</span>
-                      </p>
-                      <p className="flex justify-between">
-                        <span>AI Recommendation</span>
-                        <span className="font-bold text-emerald-400 capitalize">{comparison.player_a?.decision}</span>
-                      </p>
+                      {comparison.metrics.map((metric: string, idx: number) => (
+                        <p key={idx} className="flex justify-between border-b border-slate-800/60 pb-2">
+                          <span className="capitalize">{metric.replace(/_/g, " ")}</span>
+                          <span className={`font-bold ${comparison.winner[idx] === "player_a" ? "text-emerald-400" : "text-slate-100"}`}>
+                            {comparison.player_a.values[idx]}
+                          </span>
+                        </p>
+                      ))}
                     </div>
                   </div>
                 </div>
@@ -596,21 +592,17 @@ export default function ScoutWorkflowPage() {
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Secondary Target</div>
                     <h4 className="text-2xl font-extrabold text-teal-400 tracking-tight mb-6">
-                      {comparison.player_b?.name}
+                      {comparison.player_b.name}
                     </h4>
                     <div className="space-y-3 font-medium text-sm text-slate-300">
-                      <p className="flex justify-between border-b border-slate-800/60 pb-2">
-                        <span>KPI Composite Score</span>
-                        <span className="font-bold text-slate-100">{comparison.player_b?.kpi_score}</span>
-                      </p>
-                      <p className="flex justify-between border-b border-slate-800/60 pb-2">
-                        <span>Estimated Value</span>
-                        <span className="font-bold text-slate-100">€{(comparison.player_b?.valuation || 0).toLocaleString()}</span>
-                      </p>
-                      <p className="flex justify-between">
-                        <span>AI Recommendation</span>
-                        <span className="font-bold text-emerald-400 capitalize">{comparison.player_b?.decision}</span>
-                      </p>
+                      {comparison.metrics.map((metric: string, idx: number) => (
+                        <p key={idx} className="flex justify-between border-b border-slate-800/60 pb-2">
+                          <span className="capitalize">{metric.replace(/_/g, " ")}</span>
+                          <span className={`font-bold ${comparison.winner[idx] === "player_b" ? "text-teal-400" : "text-slate-100"}`}>
+                            {comparison.player_b.values[idx]}
+                          </span>
+                        </p>
+                      ))}
                     </div>
                   </div>
                 </div>
