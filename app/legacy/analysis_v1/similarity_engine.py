@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from app.analysis.legacy.similarity import (
+from app.legacy.analysis_v1.similarity import (
     min_max_normalize_rows,
     nearest_neighbors,
     normalize_feature_map,

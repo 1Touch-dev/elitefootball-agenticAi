@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from app.analysis.kpi_formulas import age_in_years
-from app.analysis.legacy.risk import (
+from app.legacy.analysis_v1.risk import (
     availability_gap_component,
     coefficient_of_variation,
     composite_risk_score,

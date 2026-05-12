@@ -1,7 +1,7 @@
 import uuid
 import hashlib
 from typing import Optional
-from app.schemas.provider import ProviderSource
+from app.schemas.base import ProviderSource
 
 class IdentityCore:
     """Produces consistent distributed ID generations securing structural integration."""

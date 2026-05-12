@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from app.analysis.kpi_formulas import age_in_years
-from app.analysis.legacy.valuation import clamp_score, normalize_player_key
+from app.legacy.analysis_v1.valuation import clamp_score, normalize_player_key
 from app.config import settings
 from app.pipeline.io import write_json
 
