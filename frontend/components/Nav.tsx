@@ -17,6 +17,7 @@ const links = [
   { href: "/pathway", label: "Pathway" },
   { href: "/benchmark", label: "Benchmark" },
   { href: "/admin", label: "Admin" },
+  { href: "/infra", label: "Infrastructure" },
 ];
 
 export default function Nav() {
